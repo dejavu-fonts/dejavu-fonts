@@ -1,0 +1,36 @@
+# $Id$
+
+# script file for FontForge for font italicization
+# usage: fontforge -script italicize.pe angle *.sfd
+#   created files have suffix .oblique
+
+if ($argc < 2)
+  Error("usage: angle sfds...")
+endif
+angle = Strtol($argv[1])
+i = 2
+while (i < $argc)
+  Open($argv[i], 1)
+  SelectAll()
+  Skew(angle)
+  AutoHint()
+  SetItalicAngle(-angle)
+  # Panose changes are valid only for DejaVu fonts (I guess)
+  SetPanose(5, 3)
+  SetPanose(7, 11)
+  new_fontname = $fontname
+  j = Strstr(new_fontname, "-Roman")
+  if (j > -1)
+    new_fontname = Strsub(new_fontname, 0, j)
+  endif
+  if (Strstr(new_fontname, "-") > -1)
+    new_fontname = new_fontname + "Oblique"
+  else
+    new_fontname = new_fontname + "-Oblique"
+  endif
+  new_fullname = $fullname + " Oblique"
+  SetFontNames(new_fontname, "", new_fullname)
+  SetTTFName(1033, 3, new_fullname)
+  Save($argv[i] + ".oblique")
+  i++
+endloop
