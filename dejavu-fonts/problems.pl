@@ -3,7 +3,7 @@
 # $Id$
 
 # possible problems finder
-# (c)2004 Stepan Roh
+# (c)2004,2005 Stepan Roh
 # usage: ./problems.pl sfd_files+
 
 # detected problems:
@@ -11,6 +11,7 @@
 #   glyphs in monospaced face with different width
 #   monospaced font (with Mono in name) without indication in Panose (and vice-versa)
 #   ligature in colorized glyph (due to bug in FF it causes problems on Mac OS X)
+#   ligature in empty glyph (same as above)
 
 sub process_sfd_file($);
 
@@ -28,6 +29,7 @@ sub process_sfd_file($) {
   my $font_width = -1;
   my $curwidth = 0;
   my $has_ligature = 0;
+  my $is_empty = 1;
   while (<SFD>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
       $curchar = $1;
@@ -50,6 +52,10 @@ sub process_sfd_file($) {
       $curwidth = $1;
     } elsif (/^Ligature:/) {
       $has_ligature = 1;
+    } elsif (/^Fore\s*$/) {
+      $is_empty = 0;
+    } elsif (/^Ref:/) {
+      $is_empty = 0;
     } elsif (/^EndChar\s*$/) {
       if (defined $colorized && defined $flags && ($flags =~ /W/)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', flags=', $flags, "\n";
@@ -67,7 +73,10 @@ sub process_sfd_file($) {
         }
       }
       if (defined $colorized && $has_ligature) {
-        print $sfd_file, ': colorized ligature: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, "\n";
+        print $sfd_file, ': colorized ligature: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': color=', $colorized, "\n";
+      }
+      if ($is_empty && $has_ligature) {
+        print $sfd_file, ': empty ligature: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
       }
     } elsif (/^FontName:\s*(.*?)\s*$/) {
       $fontname = $1;
