@@ -84,7 +84,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1008 16 4
+WinInfo: 1024 16 4
 TeXData: 1 10485760 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65550 836
 StartChar: .notdef
@@ -5804,57 +5804,84 @@ EndSplineSet
 EndChar
 StartChar: uni01C4
 Encoding: 452 452 167
-Width: 2048
+Width: 2912
+Flags: HW
+Ref: 381 381 N 1 0 0 1 1457 0
+Ref: 68 68 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' D Zcaron
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01C5
 Encoding: 453 453 168
-Width: 2048
+Width: 2660
+Flags: HW
+Ref: 382 382 S 1 0 0 1 1493 0
+Ref: 68 68 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' D zcaron
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01C6
 Encoding: 454 454 169
-Width: 2048
+Width: 2364
+Flags: HW
+Ref: 382 382 N 1 0 0 1 1206 0
+Ref: 100 100 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' d zcaron
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01C7
 Encoding: 455 455 170
-Width: 2048
+Width: 1711
+Flags: HW
+Ref: 74 74 N 1 0 0 1 1169 0
+Ref: 76 76 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' L J
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01C8
 Encoding: 456 456 171
-Width: 2048
+Width: 1611
+Flags: HW
+Ref: 106 106 N 1 0 0 1 1125 0
+Ref: 76 76 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' L j
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01C9
 Encoding: 457 457 172
-Width: 2048
+Width: 935
+Flags: HW
+Ref: 106 106 N 1 0 0 1 374 0
+Ref: 108 108 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' l j
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01CA
 Encoding: 458 458 173
-Width: 2048
+Width: 1907
+Flags: HW
+Ref: 74 74 N 1 0 0 1 1375 0
+Ref: 78 78 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' N J
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01CB
 Encoding: 459 459 174
-Width: 2048
+Width: 1892
+Flags: HW
+Ref: 106 106 N 1 0 0 1 1342 0
+Ref: 78 78 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' N j
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01CC
 Encoding: 460 460 175
-Width: 2048
+Width: 1633
+Flags: HW
+Ref: 106 106 N 1 0 0 1 1125 0
+Ref: 110 110 N 1 0 0 1 0 0
 Ligature: 0 0 'liga' n j
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uni01CD
 Encoding: 461 461 176
@@ -6603,14 +6630,14 @@ EndSplineSet
 EndChar
 StartChar: uni0400
 Encoding: 1024 1024 156
-Width: 1292
+Width: 1294
 Flags: HW
 Ref: 1045 1045 N 1 0 0 1 0 0
 Ref: 65541 -1 N 1 0 0 1 238 373
 EndChar
 StartChar: afii10023
 Encoding: 1025 1025 157
-Width: 1292
+Width: 1294
 Flags: HW
 Ref: 1045 1045 N 1 0 0 1 0 0
 Ref: 65538 -1 N 1 0 0 1 229 373
@@ -6651,7 +6678,7 @@ EndSplineSet
 EndChar
 StartChar: afii10052
 Encoding: 1027 1027 159
-Width: 1177
+Width: 1141
 Flags: HW
 HStem: 0 21<201 403> 1323 170<201 1130>
 VStem: 201 202<0 1323>
@@ -6704,7 +6731,7 @@ Ref: 73 73 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10056
 Encoding: 1031 1031 163
-Width: 602
+Width: 604
 Flags: HW
 HStem: 0 21<201 403> 1473 20<201 403>
 VStem: 201 202<0 1493>
@@ -6817,14 +6844,14 @@ EndSplineSet
 EndChar
 StartChar: afii10061
 Encoding: 1036 1036 168
-Width: 1341
+Width: 1343
 Flags: HW
 Ref: 1050 1050 N 1 0 0 1 0 0
 Ref: 65539 -1 N 1 0 0 1 238 373
 EndChar
 StartChar: uni040D
 Encoding: 1037 1037 169
-Width: 1531
+Width: 1532
 Flags: HW
 HStem: 0 21<201 473 1135 1331> 1473 20<201 397 1059 1331>
 VStem: 201 196<0 1493> 1135 196<0 1493>
@@ -6833,7 +6860,7 @@ Ref: 65541 -1 N 1 0 0 1 229 373
 EndChar
 StartChar: afii10062
 Encoding: 1038 1038 170
-Width: 1429
+Width: 1248
 Flags: HW
 HStem: -29 21<195 272> 1473 20<35 252 996 1213>
 Ref: 65545 -1 N 1 0 0 1 234 373
@@ -7015,7 +7042,7 @@ EndSplineSet
 EndChar
 StartChar: afii10027
 Encoding: 1049 1049 181
-Width: 1531
+Width: 1532
 Flags: HW
 HStem: 0 21<201 473 1135 1331> 1473 20<201 397 1059 1331>
 VStem: 201 196<0 1493> 1135 196<0 1493>
@@ -7294,7 +7321,7 @@ EndSplineSet
 EndChar
 StartChar: afii10045
 Encoding: 1067 1067 199
-Width: 1333
+Width: 1807
 Flags: HW
 HStem: 0 21<1404 1606> 0 166<403 762> 713 166<403 762> 1473 20<201 403 1404 1606>
 VStem: 201 202<0 713 0 1493> 1047 213<439 465> 1404 202<0 1493>
@@ -7986,7 +8013,7 @@ EndSplineSet
 EndChar
 StartChar: afii10093
 Encoding: 1099 1099 231
-Width: 1142
+Width: 1567
 Flags: HW
 HStem: 0 21<1201 1385> 0 153<377 674> 514 153<377 674> 1100 20<193 377 1201 1385>
 VStem: 193 184<0 514 0 1120> 897 196<332 353> 1201 184<0 1120>
