@@ -8,10 +8,13 @@
 #   ./generate.pe *.sfd
 
 # font generation flags:
+#      8 => do not include TT instructions (for experimental typefaces)
 #   0x20 => generate a 'PfEd' table and store glyph comments
 #   0x40 => generate a 'PfEd' table and store glyph colors
 #   0x80 => generate tables so the font will work on both Apple and MS platforms.
 #           - this one is important because it generates correct kerning tables
+def_gen_flags = 0x20 + 0x40 + 0x80
+exp_gen_flags = def_gen_flags + 8
 
 # FoundryName is not used in TTF generation
 SetPref("FoundryName", "DejaVu")
@@ -20,6 +23,11 @@ SetPref("TTFFoundry", "DejaVu")
 i = 1
 while ( i < $argc )
   Open($argv[i], 1)
-  Generate("generated/" + $fontname + ".ttf", "", 0xe0)
+  gen_flags = def_gen_flags
+  # Serif Oblique and Serif Bold Oblique are experimental
+  if ((Strcasestr ($fontname, "Serif") > -1) && (Strcasestr ($fontname, "Oblique") > -1))
+    gen_flags = exp_gen_flags
+  endif
+  Generate("generated/" + $fontname + ".ttf", "", gen_flags)
   i++
 endloop
