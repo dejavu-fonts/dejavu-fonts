@@ -4,13 +4,14 @@ FullName: DejaVu Sans Mono Bold
 FamilyName: DejaVu Sans Mono
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes by Stepan Roh are in public domain\n
-Version: Release 1.10 (DejaVu 0.0)
+Version: Release 1.10 (DejaVu 1.0)
 ItalicAngle: 0
 UnderlinePosition: -221
 UnderlineWidth: 246
 Ascent: 1556
 Descent: 492
 Order2: 1
+NeedsXUIDChange: 1
 FSType: 4
 PfmFamily: 17
 TTFWeight: 700
@@ -66,14 +67,14 @@ EndTtf
 TtfTable: maxp 32
 !!*'"!=]$'!!`Km!!E9'!"],q!!`K("0Vk&!!<3%
 EndTtf
-LangName: 1033 "" "" "" "DejaVu Sans Mono Bold" "" "Release 1.10 (DejaVu 0.0)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
+LangName: 1033 "" "" "" "DejaVu Sans Mono Bold" "" "Release 1.10 (DejaVu 1.0)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
 Encoding: unicode
 UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64 16 4
-BeginChars: 65548 267
+WinInfo: 39 39 16
+BeginChars: 65548 280
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1233
@@ -3398,12 +3399,13 @@ TtfInstrs: 46
 [K6G]"9AT-&CeoY!"eeH0E=bM%TH**#uk,2]`838^]4B8"98Q)5WB?73*?4]
 EndTtf
 Fore
-752 1638 m 1,0,-1
- 1034 1638 l 1,1,-1
- 666 1262 l 1,2,-1
- 469 1262 l 1,3,-1
- 752 1638 l 1,0,-1
+752 1638 m 5,0,-1
+ 1034 1638 l 5,1,-1
+ 666 1262 l 5,2,-1
+ 469 1262 l 5,3,-1
+ 752 1638 l 5,0,-1
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' space acutecomb
 EndChar
 StartChar: mu
@@ -4366,25 +4368,26 @@ Fore
  567 1262 l 1,2,-1
  199 1561 l 1,3,-1
  481 1561 l 1,0,-1
-616 909 m 0,4,5
- 511 909 511 909 451 816.5 c 128,-1,6
- 391 724 391 724 391 559 c 0,7,8
- 391 394 391 394 451 301.5 c 128,-1,9
- 511 209 511 209 616 209 c 0,10,11
- 722 209 722 209 782 301.5 c 128,-1,12
- 842 394 842 394 842 559 c 0,13,14
- 842 724 842 724 782 816.5 c 128,-1,15
- 722 909 722 909 616 909 c 0,4,5
-98 559 m 0,16,17
- 98 830 98 830 238.5 988.5 c 128,-1,18
- 379 1147 379 1147 616 1147 c 0,19,20
- 854 1147 854 1147 994.5 988.5 c 128,-1,21
- 1135 830 1135 830 1135 559 c 0,22,23
- 1135 288 1135 288 994.5 129.5 c 128,-1,24
- 854 -29 854 -29 616 -29 c 0,25,26
- 379 -29 379 -29 238.5 129.5 c 128,-1,27
- 98 288 98 288 98 559 c 0,16,17
+616 909 m 4,4,5
+ 511 909 511 909 451 816.5 c 132,-1,6
+ 391 724 391 724 391 559 c 4,7,8
+ 391 394 391 394 451 301.5 c 132,-1,9
+ 511 209 511 209 616 209 c 4,10,11
+ 722 209 722 209 782 301.5 c 132,-1,12
+ 842 394 842 394 842 559 c 4,13,14
+ 842 724 842 724 782 816.5 c 132,-1,15
+ 722 909 722 909 616 909 c 4,4,5
+98 559 m 4,16,17
+ 98 830 98 830 238.5 988.5 c 132,-1,18
+ 379 1147 379 1147 616 1147 c 4,19,20
+ 854 1147 854 1147 994.5 988.5 c 132,-1,21
+ 1135 830 1135 830 1135 559 c 4,22,23
+ 1135 288 1135 288 994.5 129.5 c 132,-1,24
+ 854 -29 854 -29 616 -29 c 4,25,26
+ 379 -29 379 -29 238.5 129.5 c 132,-1,27
+ 98 288 98 288 98 559 c 4,16,17
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' o gravecomb
 EndChar
 StartChar: oacute
@@ -4400,25 +4403,26 @@ Fore
  666 1262 l 1,2,-1
  469 1262 l 1,3,-1
  752 1561 l 1,0,-1
-616 909 m 0,4,5
- 511 909 511 909 451 816.5 c 128,-1,6
- 391 724 391 724 391 559 c 0,7,8
- 391 394 391 394 451 301.5 c 128,-1,9
- 511 209 511 209 616 209 c 0,10,11
- 722 209 722 209 782 301.5 c 128,-1,12
- 842 394 842 394 842 559 c 0,13,14
- 842 724 842 724 782 816.5 c 128,-1,15
- 722 909 722 909 616 909 c 0,4,5
-98 559 m 0,16,17
- 98 830 98 830 238.5 988.5 c 128,-1,18
- 379 1147 379 1147 616 1147 c 0,19,20
- 854 1147 854 1147 994.5 988.5 c 128,-1,21
- 1135 830 1135 830 1135 559 c 0,22,23
- 1135 288 1135 288 994.5 129.5 c 128,-1,24
- 854 -29 854 -29 616 -29 c 0,25,26
- 379 -29 379 -29 238.5 129.5 c 128,-1,27
- 98 288 98 288 98 559 c 0,16,17
+616 909 m 4,4,5
+ 511 909 511 909 451 816.5 c 132,-1,6
+ 391 724 391 724 391 559 c 4,7,8
+ 391 394 391 394 451 301.5 c 132,-1,9
+ 511 209 511 209 616 209 c 4,10,11
+ 722 209 722 209 782 301.5 c 132,-1,12
+ 842 394 842 394 842 559 c 4,13,14
+ 842 724 842 724 782 816.5 c 132,-1,15
+ 722 909 722 909 616 909 c 4,4,5
+98 559 m 4,16,17
+ 98 830 98 830 238.5 988.5 c 132,-1,18
+ 379 1147 379 1147 616 1147 c 4,19,20
+ 854 1147 854 1147 994.5 988.5 c 132,-1,21
+ 1135 830 1135 830 1135 559 c 4,22,23
+ 1135 288 1135 288 994.5 129.5 c 132,-1,24
+ 854 -29 854 -29 616 -29 c 4,25,26
+ 379 -29 379 -29 238.5 129.5 c 132,-1,27
+ 98 288 98 288 98 559 c 4,16,17
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' o acutecomb
 EndChar
 StartChar: ocircumflex
@@ -4456,6 +4460,7 @@ Fore
  379 -29 379 -29 238.5 129.5 c 128,-1,30
  98 288 98 288 98 559 c 0,19,20
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' o uni0302
 EndChar
 StartChar: otilde
@@ -4551,6 +4556,7 @@ Fore
  379 -29 379 -29 238.5 129.5 c 128,-1,31
  98 288 98 288 98 559 c 0,20,21
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' o uni0308
 EndChar
 StartChar: divide
@@ -4726,7 +4732,8 @@ Encoding: 268 268 253
 Width: 1233
 Flags: W
 Ref: 67 67 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 137 373
+Ref: 65543 -1 S 1 0 0 1 137 373
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' C uni030C
 EndChar
 StartChar: ccaron
@@ -4734,8 +4741,27 @@ Encoding: 269 269 254
 Width: 1233
 Flags: W
 Ref: 99 99 N 1 0 0 1 0 0
-Ref: 711 711 N 1 0 0 1 102 0
+Ref: 711 711 S 1 0 0 1 102 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' c uni030C
+EndChar
+StartChar: Dcaron
+Encoding: 270 270 255
+Width: 1233
+Flags: HW
+Ref: 68 68 N 1 0 0 1 0 0
+Ref: 65543 -1 N 1 0 0 1 -13 391
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' D uni030C
+EndChar
+StartChar: dcaron
+Encoding: 271 271 256
+Width: 1233
+Flags: HW
+Ref: 65537 -1 S 1.02235 0 0 1.01863 610.518 -112.514
+Ref: 100 100 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' d uni030C
 EndChar
 StartChar: dcroat
 Encoding: 273 273 255
@@ -4778,6 +4804,24 @@ Fore
  491 903 491 903 437 811 c 128,-1,36
  383 719 383 719 383 557 c 0,25,26
 EndSplineSet
+EndChar
+StartChar: Ecaron
+Encoding: 282 282 256
+Width: 1233
+Flags: HW
+Ref: 69 69 N 1 0 0 1 0 0
+Ref: 65543 -1 N 1 0 0 1 53 373
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' E uni030C
+EndChar
+StartChar: ecaron
+Encoding: 283 283 257
+Width: 1233
+Flags: HW
+Ref: 101 101 N 1 0 0 1 0 0
+Ref: 711 711 N 1 0 0 1 17 5
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' e uni030C
 EndChar
 StartChar: Gbreve
 Encoding: 286 286 246
@@ -4881,6 +4925,24 @@ Fore
  410 216 410 216 410 467 c 2,0,-1
 EndSplineSet
 EndChar
+StartChar: Ncaron
+Encoding: 327 327 227
+Width: 1233
+Flags: HW
+Ref: 78 78 N 1 0 0 1 0 0
+Ref: 65543 -1 N 1 0 0 1 41 373
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' N uni030C
+EndChar
+StartChar: ncaron
+Encoding: 328 328 228
+Width: 1233
+Flags: HW
+Ref: 110 110 N 1 0 0 1 0 0
+Ref: 711 711 N 1 0 0 1 36 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' n uni030C
+EndChar
 StartChar: OE
 Encoding: 338 338 176
 Width: 1233
@@ -4968,6 +5030,24 @@ Fore
  520 318 520 318 520 559 c 0,42,43
 EndSplineSet
 EndChar
+StartChar: Rcaron
+Encoding: 344 344 178
+Width: 1233
+Flags: HW
+Ref: 82 82 N 1 0 0 1 0 0
+Ref: 65543 -1 N 1 0 0 1 -31 373
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' R uni030C
+EndChar
+StartChar: rcaron
+Encoding: 345 345 179
+Width: 1233
+Flags: HW
+Ref: 114 114 N 1 0 0 1 0 0
+Ref: 711 711 N 1 0 0 1 102 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' r uni030C
+EndChar
 StartChar: Scedilla
 Encoding: 350 350 249
 Width: 1233
@@ -4999,6 +5079,42 @@ Flags: W
 Ref: 115 115 N 1 0 0 1 0 0
 Ref: 711 711 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' s uni030C
+EndChar
+StartChar: Tcaron
+Encoding: 356 356 229
+Width: 1233
+Flags: HW
+Ref: 84 84 N 1 0 0 1 0 0
+Ref: 65543 -1 N 1 0 0 1 -7 385
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' T uni030C
+EndChar
+StartChar: tcaron
+Encoding: 357 357 230
+Width: 1233
+Flags: HW
+Ref: 116 116 N 1 0 0 1 0 0
+Ref: 65537 -1 S 1 0 0 1 364 49.0001
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' t uni030C
+EndChar
+StartChar: Uring
+Encoding: 366 366 231
+Width: 1233
+Flags: HW
+Ref: 85 85 N 1 0 0 1 0 0
+Ref: 730 730 N 1 0 0 1 5 335
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' U uni030A
+EndChar
+StartChar: uring
+Encoding: 367 367 232
+Width: 1233
+Flags: HW
+Ref: 117 117 N 1 0 0 1 0 0
+Ref: 730 730 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' u uni030A
 EndChar
 StartChar: Ydieresis
 Encoding: 376 376 187
@@ -5169,6 +5285,7 @@ Fore
  562 1665 562 1665 523.5 1626.5 c 128,-1,23
  485 1588 485 1588 485 1534 c 0,12,13
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' space uni030A
 EndChar
 StartChar: ogonek
@@ -6249,6 +6366,18 @@ Fore
  495 1283 495 1283 494 1219 c 1,0,-1
 EndSplineSet
 Ligature: 0 1 'liga' f l
+EndChar
+StartChar: dlLtcaron
+Encoding: 65537 -1 194
+Width: 1233
+Flags: HW
+Fore
+545 1638 m 1,0,-1
+ 827 1638 l 1,1,-1
+ 666 1262 l 1,2,-1
+ 469 1262 l 1,3,-1
+ 545 1638 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: c6459
 Encoding: 65538 -1 259
