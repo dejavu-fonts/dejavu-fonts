@@ -4,7 +4,7 @@ FullName: DejaVu Sans Mono Oblique
 FamilyName: DejaVu Sans Mono
 Weight: Book
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes by Stepan Roh are in public domain\n
-Version: Release 1.10 (DejaVu 1.0)
+Version: Release 1.10 (DejaVu 1.1)
 ItalicAngle: -11
 UnderlinePosition: -213
 UnderlineWidth: 141
@@ -68,14 +68,14 @@ EndTtf
 TtfTable: maxp 32
 !!*'"!=]$+!!`Ks!!E9'!"],q!!`K("1SL%!!<3%
 EndTtf
-LangName: 1033 "" "" "" "DejaVu Sans Mono Oblique" "" "Release 1.10 (DejaVu 1.0)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
+LangName: 1033 "" "" "" "DejaVu Sans Mono Oblique" "" "Release 1.10 (DejaVu 1.1)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
 Encoding: unicode
 UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 39 16
-BeginChars: 65548 280
+WinInfo: 39 39 12
+BeginChars: 65554 286
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1233
@@ -4994,6 +4994,42 @@ Fore
  358 1120 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: Lacute
+Encoding: 313 313 215
+Width: 1233
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 55 374
+Ref: 76 76 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' L acutecomb
+EndChar
+StartChar: lacute
+Encoding: 314 314 216
+Width: 1233
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 55 375
+Ref: 108 108 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' l acutecomb
+EndChar
+StartChar: Lcaron
+Encoding: 317 317 215
+Width: 1233
+Flags: HW
+Ref: 65537 -1 S 1 0 0 1 167 -146
+Ref: 76 76 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' L uni030C
+EndChar
+StartChar: lcaron
+Encoding: 318 318 216
+Width: 1233
+Flags: HW
+Ref: 65537 -1 S 1 0 0 1 297 -70
+Ref: 108 108 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' l uni030C
+EndChar
 StartChar: Lslash
 Encoding: 321 321 225
 Width: 1233
@@ -5187,6 +5223,24 @@ Fore
  168 210 168 210 205 166.5 c 128,-1,80
  242 123 242 123 311 123 c 0,57,58
 EndSplineSet
+EndChar
+StartChar: Racute
+Encoding: 340 340 178
+Width: 1233
+Flags: H
+Ref: 65539 -1 S 1 0 0 1 55 374
+Ref: 82 82 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' R acutecomb
+EndChar
+StartChar: racute
+Encoding: 341 341 179
+Width: 1233
+Flags: H
+Ref: 180 180 N 1 0 0 1 207.608 7
+Ref: 114 114 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' r acutecomb
 EndChar
 StartChar: Rcaron
 Encoding: 344 344 178
