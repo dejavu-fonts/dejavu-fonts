@@ -1,3 +1,20 @@
+Changes from 1.5 to 1.6:
+
+- monospace bug fixed (by Stepan Roh)
+- incorrect Bitstream foundry assigned by fontconfig and KDE Font Installer
+fixed (by Stepan Roh)
+- added automatically generated Oblique version of Serif typefaces (by
+Stepan Roh)
+- corrected cyrillic D and d (by Danilo Segan and David Jez)
+- fixed accents position in Oblique version of Serif typefaces (by Danilo
+Segan and Sander Vesik)
+- fixed incorrect computation of OS2Win* fields (by Stepan Roh)
+- added visiblespace U+2423 (by David Jez)
+- fixed 'line height' bug by fixing ascender and descender values (by David
+Jez and Stepan Roh)
+- fixed part of 'worse than Vera' bug (by Peter Cernak)
+- smaller comma accent U+0326 (by David Jez)
+
 Changes from 1.4 to 1.5:
 
 - added Cyrillics (96 characters) and Dcroat to the rest of typefaces (by
