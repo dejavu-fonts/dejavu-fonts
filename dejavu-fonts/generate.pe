@@ -5,6 +5,12 @@
 #   mkdir generated
 #   fontforge -script generate.pe *.sfd
 
+# font generation flags:
+#   0x20 => generate a 'PfEd' table and store glyph comments
+#   0x40 => generate a 'PfEd' table and store glyph colors
+#   0x80 => generate tables so the font will work on both Apple and MS platforms.
+#           - this one is important because it generates correct kerning tables
+
 i = 1
 while ( i < $argc )
   Open($argv[i], 1)
