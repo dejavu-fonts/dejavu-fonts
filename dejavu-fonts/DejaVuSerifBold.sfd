@@ -83,7 +83,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65553 323
+BeginChars: 65553 332
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -5412,6 +5412,16 @@ Ref: 103 103 N 1 0 0 1 0 0
 Ref: 728 728 N 1 0 0 1 205 0
 Ligature: 0 0 'liga' g uni0306
 EndChar
+StartChar: Gcommaaccent
+Encoding: 290 290 65535
+Width: 2048
+Colour: ff00
+EndChar
+StartChar: gcommaaccent
+Encoding: 291 291 65535
+Width: 2048
+Colour: ff00
+EndChar
 StartChar: Idotaccent
 Encoding: 304 304 248
 Width: 958
@@ -5441,6 +5451,16 @@ Fore
  575 121 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: Kcommaaccent
+Encoding: 310 310 65535
+Width: 2048
+Colour: ff00
+EndChar
+StartChar: kcommaaccent
+Encoding: 311 311 65535
+Width: 2048
+Colour: ff00
+EndChar
 StartChar: Lacute
 Encoding: 313 313 215
 Width: 1440
@@ -5459,6 +5479,16 @@ Ref: 65539 -1 N 1 0 0 1 -66 374
 Ref: 108 108 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' l acutecomb
+EndChar
+StartChar: Lcommaaccent
+Encoding: 315 315 65535
+Width: 2048
+Colour: ff00
+EndChar
+StartChar: lcommaaccent
+Encoding: 316 316 65535
+Width: 2048
+Colour: ff00
 EndChar
 StartChar: Lcaron
 Encoding: 317 317 215
@@ -5576,6 +5606,16 @@ Width: 1489
 Flags: HW
 Ref: 180 180 N 1 0 0 1 151.5 -48
 Ref: 110 110 N 1 0 0 1 0 0
+EndChar
+StartChar: Ncommaaccent
+Encoding: 325 325 65535
+Width: 2048
+Colour: ff00
+EndChar
+StartChar: ncommaaccent
+Encoding: 326 326 65535
+Width: 2048
+Colour: ff00
 EndChar
 StartChar: Ncaron
 Encoding: 327 327 227
@@ -6003,6 +6043,11 @@ Width: 946
 Flags: HW
 Ref: 806 806 N 1 0 0 1 0 0
 Ref: 116 116 N 1 0 0 1 0 0
+EndChar
+StartChar: uni02BB
+Encoding: 699 699 65535
+Width: 2048
+Colour: ff00
 EndChar
 StartChar: circumflex
 Encoding: 710 710 215
