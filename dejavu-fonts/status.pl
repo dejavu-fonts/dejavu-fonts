@@ -57,13 +57,14 @@ sub parse_versions($) {
   my ($versions) = @_;
   
   my %ret = ();
-  my @components = split (/\s*,\s*/, $versions);
-  foreach $component (@components) {
-    if ($component =~ /^(\S+)\s+\((.*?)\)/) {
-      my ($version, @typefaces) = ($1, split (/\s*,\s*/, $2));
-      $ret{normalize_version($version)} = \@typefaces;
+  while ($versions =~ s,^\s*(\S+)\s*(?:\((.*?)\)|),,) {
+    my ($version, $typefaces) = ($1, $2);
+    $version = normalize_version($version);
+    if ($typefaces) {
+      my @typefaces = split (/\s*,\s*/, $typefaces);
+      $ret{$version} = \@typefaces;
     } else {
-      $ret{normalize_version($component)} = [];
+      $ret{$version} = [];
     }
   }
   return %ret;
@@ -94,8 +95,8 @@ sub parse_sfd_file(\%$$) {
   my $curchar = '';
   $version_tag = normalize_version($version_tag);
   while (<SFD>) {
-    if (/^FamilyName:\s+\S+\s+(.*?)\s*$/) {
-      # DejaVu is not included in typeface family
+    if (/^FullName:\s+\S+\s+(.*?)\s*$/) {
+      # DejaVu is not included in typeface
       $typeface = $1;
       $parsed_typefaces{$typeface} = 1;
     } elsif (/^StartChar:\s*(\S+)\s*$/) {
