@@ -81,7 +81,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 78 39 16
+WinInfo: 624 39 16
 BeginChars: 65553 408
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -4520,8 +4520,9 @@ Encoding: 211 211 208
 Width: 1679
 Flags: W
 Ref: 79 79 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 328 373
+Ref: 65539 -1 S 1 0 0 1 328 373
 KernsSLIF: 88 -36 0 0 86 -36 0 0 46 -120 0 0 45 75 0 0 44 -120 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' O acutecomb
 EndChar
 StartChar: Ocircumflex
@@ -5282,7 +5283,7 @@ LCarets: 0 65535 '    ' 1 0
 Ligature: 0 0 'liga' d uni030C
 EndChar
 StartChar: Dcroat
-Encoding: 272 272 65535
+Encoding: 272 272 257
 Width: 1653
 Flags: HW
 Fore
@@ -6224,10 +6225,10 @@ Ref: 1045 1045 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10023
 Encoding: 1025 1025 157
-Width: 2048
+Width: 1452
 Flags: HW
+Ref: 65538 -1 S 1 0 0 1 280 373
 Ref: 1045 1045 N 1 0 0 1 0 0
-Ref: 65537 -1 N 1 0 0 1 253 373
 EndChar
 StartChar: afii10051
 Encoding: 1026 1026 158
@@ -6276,9 +6277,9 @@ EndChar
 StartChar: afii10052
 Encoding: 1027 1027 159
 Width: 1473
-Flags: HW
+Flags: HWO
+Ref: 65539 -1 S 1 0 0 1 280 373
 Ref: 1043 1043 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 280 373
 EndChar
 StartChar: afii10053
 Encoding: 1028 1028 160
@@ -6378,8 +6379,8 @@ StartChar: afii10056
 Encoding: 1031 1031 163
 Width: 809
 Flags: HW
+Ref: 65538 -1 S 1 0 0 1 -97 373
 Ref: 1030 1030 N 1 0 0 1 0 0
-Ref: 65537 -1 N 1 0 0 1 -106 373
 EndChar
 StartChar: afii10057
 Encoding: 1032 1032 164
@@ -6542,9 +6543,9 @@ EndChar
 StartChar: afii10061
 Encoding: 1036 1036 168
 Width: 1683
-Flags: HW
+Flags: HWO
+Ref: 65539 -1 S 1 0 0 1 328 373
 Ref: 1050 1050 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 328 373
 EndChar
 StartChar: uni040D
 Encoding: 1037 1037 169
