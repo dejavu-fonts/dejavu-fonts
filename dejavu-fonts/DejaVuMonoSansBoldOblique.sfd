@@ -4792,6 +4792,20 @@ Ref: 121 121 N 1 0 0 1 0 0
 Ref: 168 168 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' y uni0308
 EndChar
+StartChar: Abreve
+Encoding: 258 258 65535
+Width: 1233
+Flags: HW
+Ref: 728 728 S 1 0 0 1 32 315
+Ref: 65 65 N 1 0 0 1 0 0
+EndChar
+StartChar: abreve
+Encoding: 259 259 65535
+Width: 1233
+Flags: HW
+Ref: 728 728 S 1 0 0 1 22 -14
+Ref: 97 97 N 1 0 0 1 0 0
+EndChar
 StartChar: Aogonek
 Encoding: 260 260 187
 Width: 1233
@@ -5359,6 +5373,20 @@ Ref: 115 115 N 1 0 0 1 0 0
 Ref: 711 711 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' s uni030C
 EndChar
+StartChar: Tcommaaccent
+Encoding: 354 354 65535
+Width: 1233
+Flags: HW
+Ref: 184 184 S 1 0 0 1 -9 0
+Ref: 84 84 N 1 0 0 1 0 0
+EndChar
+StartChar: tcommaaccent
+Encoding: 355 355 65535
+Width: 1233
+Flags: HW
+Ref: 184 184 S 1 0 0 1 170 0
+Ref: 116 116 N 1 0 0 1 0 0
+EndChar
 StartChar: Tcaron
 Encoding: 356 356 229
 Width: 1233
@@ -5529,6 +5557,34 @@ Width: 1233
 Flags: HW
 Ref: 230 230 N 1 0 0 1 0 0
 Ref: 175 175 N 1 0 0 1 -7.5 -3
+EndChar
+StartChar: Scommaaccent
+Encoding: 536 536 65535
+Width: 1233
+Flags: HW
+Ref: 806 806 S 1 0 0 1 0 0
+Ref: 83 83 N 1 0 0 1 0 0
+EndChar
+StartChar: scommaaccent
+Encoding: 537 537 65535
+Width: 1233
+Flags: HW
+Ref: 806 806 S 1 0 0 1 0 0
+Ref: 115 115 N 1 0 0 1 0 0
+EndChar
+StartChar: uni021A
+Encoding: 538 538 65535
+Width: 1233
+Flags: HW
+Ref: 806 806 N 1 0 0 1 0 0
+Ref: 84 84 N 1 0 0 1 0 0
+EndChar
+StartChar: uni021B
+Encoding: 539 539 65535
+Width: 1233
+Flags: HW
+Ref: 806 806 S 1 0 0 1 132 0
+Ref: 116 116 N 1 0 0 1 0 0
 EndChar
 StartChar: circumflex
 Encoding: 710 710 215
@@ -5718,6 +5774,12 @@ Fore
  612 1638 l 1,4,-1
 EndSplineSet
 Ligature: 0 0 'liga' space uni030B
+EndChar
+StartChar: uni0326
+Encoding: 806 806 65535
+Width: 1233
+Flags: HW
+Ref: 44 44 S 1 0 0 1 -150 -529
 EndChar
 StartChar: Omega
 Encoding: 937 937 159
