@@ -94,7 +94,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65552 473
+BeginChars: 65552 477
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -8490,6 +8490,21 @@ Flags: W
 Ref: 96 96 N 1 0 0 1 100 7
 Ref: 121 121 N 1 0 0 1 0 0
 EndChar
+StartChar: uni2010
+Encoding: 8208 8208 65535
+Width: 2048
+Colour: ff00
+EndChar
+StartChar: uni2011
+Encoding: 8209 8209 65535
+Width: 2048
+Colour: ff00
+EndChar
+StartChar: figuredash
+Encoding: 8210 8210 65535
+Width: 2048
+Colour: ff00
+EndChar
 StartChar: endash
 Encoding: 8211 8211 178
 Width: 1024
@@ -8519,6 +8534,11 @@ Fore
  0 432 l 1,3,-1
  0 690 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: afii00208
+Encoding: 8213 8213 65535
+Width: 2048
+Colour: ff00
 EndChar
 StartChar: quoteleft
 Encoding: 8216 8216 182
