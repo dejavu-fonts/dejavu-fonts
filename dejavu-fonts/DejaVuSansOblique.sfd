@@ -76,7 +76,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65553 428
+BeginChars: 65553 446
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -4882,6 +4882,16 @@ Ref: 168 168 N 1 0 0 1 94 0
 KernsSLIF: 46 -159 0 0 45 -73 0 0 44 -159 0 0
 Ligature: 0 0 'liga' y uni0308
 EndChar
+StartChar: Amacron
+Encoding: 256 256 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: amacron
+Encoding: 257 257 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Abreve
 Encoding: 258 258 187
 Width: 1401
@@ -5047,6 +5057,16 @@ Fore
  285 533 285 533 285 432 c 0,28,29
 EndSplineSet
 EndChar
+StartChar: Emacron
+Encoding: 274 274 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: emacron
+Encoding: 275 275 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Eogonek
 Encoding: 280 280 256
 Width: 1294
@@ -5097,14 +5117,24 @@ Ref: 728 728 N 1 0 0 1 139 0
 Ligature: 0 0 'liga' g uni0306
 EndChar
 StartChar: Gcommaaccent
-Encoding: 290 290 65535
+Encoding: 290 290 248
 Width: 2048
 Colour: ff00
 EndChar
 StartChar: gcommaaccent
-Encoding: 291 291 65535
+Encoding: 291 291 249
 Width: 2048
 Colour: ff00
+EndChar
+StartChar: Imacron
+Encoding: 298 298 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: imacron
+Encoding: 299 299 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: Idotaccent
 Encoding: 304 304 248
@@ -5131,12 +5161,12 @@ Fore
 EndSplineSet
 EndChar
 StartChar: Kcommaaccent
-Encoding: 310 310 65535
+Encoding: 310 310 215
 Width: 2048
 Colour: ff00
 EndChar
 StartChar: kcommaaccent
-Encoding: 311 311 65535
+Encoding: 311 311 216
 Width: 2048
 Colour: ff00
 EndChar
@@ -5160,12 +5190,12 @@ LCarets: 0 65535 '    ' 1 0
 Ligature: 0 0 'liga' l acutecomb
 EndChar
 StartChar: Lcommaaccent
-Encoding: 315 315 65535
+Encoding: 315 315 217
 Width: 2048
 Colour: ff00
 EndChar
 StartChar: lcommaaccent
-Encoding: 316 316 65535
+Encoding: 316 316 218
 Width: 2048
 Colour: ff00
 EndChar
@@ -5272,12 +5302,12 @@ Ref: 180 180 N 1 0 0 1 54.0324 7
 Ref: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: Ncommaaccent
-Encoding: 325 325 65535
+Encoding: 325 325 229
 Width: 2048
 Colour: ff00
 EndChar
 StartChar: ncommaaccent
-Encoding: 326 326 65535
+Encoding: 326 326 230
 Width: 2048
 Colour: ff00
 EndChar
@@ -5298,6 +5328,26 @@ Ref: 110 110 N 1 0 0 1 0 0
 Ref: 711 711 N 1 0 0 1 119 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' n uni030C
+EndChar
+StartChar: Omacron
+Encoding: 332 332 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: omacron
+Encoding: 333 333 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: Ohungarumlaut
+Encoding: 336 336 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: ohungarumlaut
+Encoding: 337 337 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: OE
 Encoding: 338 338 176
@@ -5447,6 +5497,7 @@ Width: 1300
 Flags: HW
 Ref: 65539 -1 N 1 0 0 1 144 374
 Ref: 83 83 N 1 0 0 1 0 0
+Colour: ffff00
 EndChar
 StartChar: sacute
 Encoding: 347 347 181
@@ -5454,6 +5505,7 @@ Width: 1067
 Flags: HW
 Ref: 180 180 N 1 0 0 1 54.0324 7
 Ref: 115 115 N 1 0 0 1 0 0
+Colour: ffff00
 EndChar
 StartChar: Scedilla
 Encoding: 350 350 249
@@ -5522,6 +5574,16 @@ Ref: 65537 -1 N 1 0 0 1 133 7
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' t uni030C
 EndChar
+StartChar: Umacron
+Encoding: 362 362 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: umacron
+Encoding: 363 363 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Uring
 Encoding: 366 366 231
 Width: 1499
@@ -5539,6 +5601,16 @@ Ref: 117 117 N 1 0 0 1 0 0
 Ref: 730 730 N 1 0 0 1 70 -35
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' u uni030A
+EndChar
+StartChar: Uhungarumlaut
+Encoding: 368 368 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uhungarumlaut
+Encoding: 369 369 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: Wcircumflex
 Encoding: 372 372 211
@@ -5678,6 +5750,26 @@ Flags: H
 Ref: 230 230 N 1 0 0 1 0 0
 Ref: 175 175 N 1 0 0 1 487.5 -4
 EndChar
+StartChar: uni01EA
+Encoding: 490 490 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uni01EB
+Encoding: 491 491 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uni01EC
+Encoding: 492 492 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uni01ED
+Encoding: 493 493 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Scommaaccent
 Encoding: 536 536 169
 Width: 1300
@@ -5707,7 +5799,7 @@ Ref: 806 806 N 1 0 0 1 -48 0
 Ref: 116 116 N 1 0 0 1 0 0
 EndChar
 StartChar: uni02BB
-Encoding: 699 699 65535
+Encoding: 699 699 173
 Width: 2048
 Colour: ff00
 EndChar
