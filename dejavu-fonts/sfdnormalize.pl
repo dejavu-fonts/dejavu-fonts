@@ -11,15 +11,27 @@
 #   WinInfo - changed to WinInfo: 0 39 16
 #   Flags   - discarded O (open)
 #   Ref     - changed S (selected) to N (not selected)
+#   Fore, Back, SplineSet, Grid
+#           - all points have 4 masked out from flags (selected)
+
+# !!! Always review changes done by this utility !!!
 
 foreach $in (@ARGV) {
   my $out = $in . '.norm';
   open (IN, $in) || die "Unable to open $in : $!\n";
   open (OUT, '>'.$out) || die "Unable to open $out : $!\n";
+  my $in_spline_set = 0;
   while (<IN>) {
     s,^WinInfo:.*$,WinInfo: 0 39 16,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
     s,^(Ref:.*?)S(.*)$,$1N$2,;
+    if (/^(Fore|Back|SplineSet|Grid)\s*$/) {
+      $in_spline_set = 1;
+    } elsif (/^EndSplineSet\s*$/) {
+      $in_spline_set = 0;
+    } elsif ($in_spline_set) {
+      s/(\s+)(\S+?)(,\S+\s*)$/$1.($2 & ~4).$3/e;
+    }
     print OUT;
   }
   close (IN) || die "Unable to close $in : $!\n";
