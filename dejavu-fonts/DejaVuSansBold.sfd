@@ -5859,55 +5859,55 @@ Fore
 EndSplineSet
 EndChar
 StartChar: uni01C4
-Encoding: 452 452 65535
+Encoding: 452 452 167
 Width: 2048
 Ligature: 0 0 'liga' D Zcaron
 Colour: ffff00
 EndChar
 StartChar: uni01C5
-Encoding: 453 453 65535
+Encoding: 453 453 168
 Width: 2048
 Ligature: 0 0 'liga' D zcaron
 Colour: ffff00
 EndChar
 StartChar: uni01C6
-Encoding: 454 454 65535
+Encoding: 454 454 169
 Width: 2048
 Ligature: 0 0 'liga' d zcaron
 Colour: ffff00
 EndChar
 StartChar: uni01C7
-Encoding: 455 455 65535
+Encoding: 455 455 170
 Width: 2048
 Ligature: 0 0 'liga' L J
 Colour: ffff00
 EndChar
 StartChar: uni01C8
-Encoding: 456 456 65535
+Encoding: 456 456 171
 Width: 2048
 Ligature: 0 0 'liga' L j
 Colour: ffff00
 EndChar
 StartChar: uni01C9
-Encoding: 457 457 65535
+Encoding: 457 457 172
 Width: 2048
 Ligature: 0 0 'liga' l j
 Colour: ffff00
 EndChar
 StartChar: uni01CA
-Encoding: 458 458 65535
+Encoding: 458 458 173
 Width: 2048
 Ligature: 0 0 'liga' N J
 Colour: ffff00
 EndChar
 StartChar: uni01CB
-Encoding: 459 459 65535
+Encoding: 459 459 174
 Width: 2048
 Ligature: 0 0 'liga' N j
 Colour: ffff00
 EndChar
 StartChar: uni01CC
-Encoding: 460 460 65535
+Encoding: 460 460 175
 Width: 2048
 Ligature: 0 0 'liga' n j
 Colour: ffff00
@@ -6995,11 +6995,14 @@ Encoding: 1044 1044 176
 Width: 1926
 Flags: HW
 Fore
-1215 265 m 1,0,-1
- 912 1143 l 1,1,-1
- 608 265 l 1,2,-1
- 1215 265 l 1,0,-1
-1596 265 m 1,3,-1
+635.409 265 m 1,32,-1
+ 1174.78 265 l 1,33,-1
+ 1174 1202 l 1,34,-1
+ 701 1202 l 1,35,-1
+ 701.775 705 l 2,36,37
+ 702.06 522.138 702.06 522.138 674.489 385.87 c 0,38,39
+ 660.759 318 660.759 318 635.409 265 c 1,32,-1
+1596 265 m 1,23,-1
  1803 265 l 1,4,-1
  1803 -425 l 1,5,-1
  1445 -425 l 1,6,-1
@@ -7008,10 +7011,12 @@ Fore
  378 -425 l 1,9,-1
  20 -425 l 1,10,-1
  20 265 l 1,11,-1
- 227 265 l 1,12,-1
- 682 1493 l 1,13,-1
- 1141 1493 l 1,14,-1
- 1596 265 l 1,3,-1
+ 202 265 l 2,10,11
+ 264.278 265 264.278 265 282 343 c 0,12,13
+ 319.775 474.838 319.775 474.838 319.775 713 c 2,16,-1
+ 319.775 1493 l 1,19,-1
+ 1596 1493 l 1,20,-1
+ 1596 265 l 1,23,-1
 EndSplineSet
 EndChar
 StartChar: afii10022
@@ -7826,11 +7831,10 @@ Encoding: 1076 1076 208
 Width: 1479
 Flags: HW
 Fore
-924 252 m 1,0,-1
- 749 803 l 1,1,-1
- 573 252 l 1,2,-1
- 924 252 l 1,0,-1
-1238 252 m 1,3,-1
+303 556 m 2,19,20
+ 303 1137 l 1,26,-1
+ 1253 1137 l 1,27,-1
+ 1253 252 l 1,0,-1
  1411 252 l 1,4,-1
  1411 -345 l 1,5,-1
  1065 -345 l 1,6,-1
@@ -7839,10 +7843,16 @@ Fore
  433 -345 l 1,9,-1
  86 -345 l 1,10,-1
  86 252 l 1,11,-1
- 260 252 l 1,12,-1
- 550 1137 l 1,13,-1
- 997 1138 l 1,14,-1
- 1238 252 l 1,3,-1
+ 215 252 l 2,17,18
+ 260.505 252 260.505 252 277.393 300 c 0,0,0
+ 303 372.78 303 372.78 303 556 c 2,19,20
+579 252 m 1,30,-1
+ 920 252 l 1,31,-1
+ 920 883 l 1,32,-1
+ 633 883 l 1,33,-1
+ 633 556 l 2,34,35
+ 633 443.163 633 443.163 607.963 331.901 c 0,36,37
+ 594.975 274.188 594.975 274.188 579 252 c 1,30,-1
 EndSplineSet
 EndChar
 StartChar: afii10070
@@ -7880,7 +7890,6 @@ Width: 1968
 Flags: HW
 HStem: 0 21G<51 412 790 1147 1524 1880> 484 242<738 790 1147 1192> 1100 20G<111 473 790 1147 1463 1820>
 VStem: 790 357<0 484 726 1120>
-DStem: 111 1120 473 1120 404 624 697 750 409 576 698 462 51 0 412 0 1238 462 1522 576 1524 0 1880 0 1463 1120 1820 1120 1240 750 1527 624
 Fore
 790 0 m 1,0,-1
  1147 0 l 1,1,-1
