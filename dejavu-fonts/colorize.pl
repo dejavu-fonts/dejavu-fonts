@@ -53,12 +53,21 @@ if (@ARGV < 2) {
 @glyph_codes = parse_glyph_codes_from_stdin();
 $color = decode_color(shift @ARGV);
 
+sub min($$) {
+  my ($a, $b) = @_;
+  return ($a < $b) ? $a : $b;
+}
+
 open (PE, '>colorize.pe') || die "Unable to open colorize.pe : $!\n";
 print PE 'i = 1
 while ( i < $argc )
   Open($argv[i], 1)
-  Select('.join (',', map { '0u'.$_ } @glyph_codes).')
-  SetCharColor('.$color.')
+  SelectNone()
+';
+for (my $i = 0; $i < @glyph_codes; $i += 16) {
+  print PE '  SelectMore(', join (',', map { '0u'.$_ } @glyph_codes[$i..min($i+15, @glyph_codes-1)]), ")\n";
+}
+print PE '  SetCharColor('.$color.')
   Save($argv[i] + ".color")
   i++
 endloop
