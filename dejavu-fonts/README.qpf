@@ -1,4 +1,4 @@
-Information about QPF version of DejaVu 1.5
+Information about QPF version of DejaVu
 (by Vasek Stodulka)
 
 QPF fonts are used in QT/Embedded environments - Opie and Qtopia and maybe
@@ -11,14 +11,15 @@ symbols. See the NEWS and status.txt files for a list of supported
 languages / glyphs.
 
 QPF fonts are bitmap fonts; that means they are not scalable. They are
-"rendered" from TTF in fixed dimensions specified in "rendering"
-process. This package contains all DejaVu fonts in dimensions 8, 10, 12,
-14, 18 and 24 in regular, bold, italic and bold-italic layout (where
-available.)
+"rendered" from TTF in fixed dimensions specified in "rendering" process.
+Package dejavu-qpf-normal-version.tar.gz contains all DejaVu fonts in
+dimensions 8, 10 and 12 points, package dejavu-qpf-huge-version.tar.gz
+contains 14, 18 and 24 poits large fonts. All fonts are in regular, bold,
+italic and bold-italic layout.
 
 Devices running Opie/Qtopia are able to rotate display in four ways -
 portrait, landscape, upside down and landscape upside down. For each
-rotation you need a separate set of fonts. This package contains fonts for
+rotation you need a separate set of fonts. These packages contain fonts for
 all these rotations.
 
 Semantics of file naming is quite easy. Example: "dejavusans_100_80i_t5.qpf"
@@ -37,7 +38,7 @@ just try.
 
 To install fonts on your device, simply copy selected files into
 $QTDIR/lib/fonts. (This works for Opie, it may be different on other QT
-environments. If unsure, try to find other .pqf files.) No changes in
+environments. If unsure, try to find other .qpf files.) No changes in
 "fontdir" file are necessary, in fact the file is required only for
 translating TTF or type1 fonts and can be safely deleted. After copying
 files optionally restart your Opie/Qtopia/whatever; is is not necessary,
@@ -74,13 +75,12 @@ Known issues:
 scaron (it displays "z" and "s" instead). But this not a bug in dejavu-qpf.
 You can try Opie Text Editor, it displays all (or at least all czech :)
 DejaVu symbols perfectly. Opie Text Editor is utf-8 only, get some utf-8
-file with non latin-1 symbols and open it.
+file with non latin-1 symbols and open it. Good reader for Opie is
+JustReader.
 - the most applications in present time Opie do not even try to support
 different encodings :(
 
 Plans:
-- divide the file into two files; one will contain normal sizes and the
-other will contain big sizes of font
 - make .ipks
 
 $Id$
