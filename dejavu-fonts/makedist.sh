@@ -4,6 +4,7 @@
 
 version=$1
 echo Making distribution of DejaVu fonts $version
+mkdir packaged
 mkdir packaged/dejavu-sfd-$version
 cp *.sfd *.pe *.me *.sh *.pl README LICENSE AUTHORS NEWS BUGS *.txt packaged/dejavu-sfd-$version
 (cd packaged; tar czvf dejavu-sfd-$version.tar.gz dejavu-sfd-$version)
