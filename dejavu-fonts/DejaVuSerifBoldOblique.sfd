@@ -82,7 +82,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65553 832
+BeginChars: 65549 832
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -4061,6 +4061,7 @@ HStem: 0 121<-139 282 790 1466> 426 121<385 873> 1473 20<813.104 1052.1> 1635 26
 Ref: 65 65 N 1 0 0 1 0 0
 Ref: 65541 -1 N 1 0 0 1 332.504 373
 KernsSLIF: 357 -36 0 0 356 -112 0 0 253 -83 0 0 221 -102 0 0 64258 -36 0 0 64257 -36 0 0 376 -102 0 0 255 -83 0 0 8217 -243 0 0 8221 -243 0 0 121 -83 0 0 119 -83 0 0 118 -83 0 0 116 -36 0 0 102 -36 0 0 89 -102 0 0 87 -102 0 0 86 -149 0 0 84 -112 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A gravecomb
 EndChar
 StartChar: Aacute
@@ -4100,8 +4101,9 @@ Width: 1589
 Flags: HW
 HStem: 0 121<-139 282 790 1466> 426 121<385 873> 1473 20<813.104 1052.1>
 Ref: 65 65 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 332.504 373
+Ref: 65538 -1 N 1 0 0 1 290.504 373
 KernsSLIF: 357 -36 0 0 356 -112 0 0 253 -83 0 0 221 -102 0 0 64258 -36 0 0 64257 -36 0 0 376 -102 0 0 255 -83 0 0 8217 -243 0 0 8221 -243 0 0 121 -83 0 0 119 -83 0 0 118 -83 0 0 116 -36 0 0 102 -36 0 0 89 -102 0 0 87 -102 0 0 86 -149 0 0 84 -112 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A uni0308
 EndChar
 StartChar: Aring
@@ -4206,11 +4208,12 @@ EndChar
 StartChar: Ccedilla
 Encoding: 199 199 100
 Width: 1630
-Flags: W
+Flags: HW
 HStem: -401 147<771 805> -29 121<752 818.973> -20 20<872.974 999.974> 1399 121<1041 1091>
 Ref: 67 67 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 367 0
+Ref: 184 184 N 1 0 0 1 202 0
 KernsSLIF: 46 -36 0 0 44 -36 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' C uni0327
 EndChar
 StartChar: Egrave
@@ -4284,9 +4287,10 @@ StartChar: Idieresis
 Encoding: 207 207 206
 Width: 958
 Flags: HW
-HStem: 0 121<-27 718> 1372 121<240 408 241 985>
+HStem: 103.575 114.483<-27 718> 1401.68 114.483<240 408 241 985>
 Ref: 73 73 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 39.5039 373
+Ref: 65538 -1 N 1 0 0 1 -37.4961 373
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' I uni0308
 EndChar
 StartChar: Eth
@@ -4704,10 +4708,11 @@ EndChar
 StartChar: ccedilla
 Encoding: 231 231 111
 Width: 1247
-Flags: W
+Flags: HW
 HStem: -401 147<543 577> -29 113<571.05 652.015> -20 20<644.974 771.974> 979 113<774 838.985>
 Ref: 99 99 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 139 0
+Ref: 184 184 N 1 0 0 1 35 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' c uni0327
 EndChar
 StartChar: egrave
@@ -5081,7 +5086,7 @@ Encoding: 258 258 187
 Width: 1589
 Flags: HW
 HStem: 0 121<-139 282 790 1466> 426 121<385 873> 1473 20<813.104 1052.1>
-Ref: 728 728 N 1 0 0 1 335.757 328
+Ref: 728 728 N 1 0 0 1 307.757 328
 Ref: 65 65 N 1 0 0 1 0 0
 EndChar
 StartChar: abreve
@@ -5095,17 +5100,17 @@ EndChar
 StartChar: Aogonek
 Encoding: 260 260 187
 Width: 1589
-Flags: W
+Flags: HW
 HStem: -401 147<991.026 1054.6> -20 20<957.974 1082.97> 0 121<-139 282 790 1466> 426 121<385 873> 1473 20<813.104 1052.1>
-Ref: 731 731 N 1 0 0 1 475 0
+Ref: 731 731 N 1 0 0 1 290 0
 Ref: 65 65 N 1 0 0 1 0 0
 EndChar
 StartChar: aogonek
 Encoding: 261 261 188
 Width: 1327
-Flags: W
+Flags: HW
 HStem: -401 147<852.026 915.601> -29 21<231.55 368.05> -20 20<818.974 943.974> 0 121<1048 1176> 547 119<614 767> 981 111<611 686.95>
-Ref: 731 731 N 1 0 0 1 336 0
+Ref: 731 731 N 1 0 0 1 188 0
 Ref: 97 97 N 1 0 0 1 0 0
 EndChar
 StartChar: Cacute
@@ -5332,17 +5337,17 @@ EndChar
 StartChar: Eogonek
 Encoding: 280 280 256
 Width: 1561
-Flags: W
+Flags: HW
 HStem: -401 147<1226.03 1289.6> -20 20<1192.97 1317.97> 0 121<-27 1310> 0 137<553 1310> 551 326<697 1161> 741 136<697 1061> 1047 20<1125.3 1262.3> 1141 352<241 1514> 1356 137<241 1418> 1372 121<240 408>
-Ref: 731 731 N 1 0 0 1 710 0
+Ref: 731 731 N 1 0 0 1 555 0
 Ref: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: eogonek
 Encoding: 281 281 257
 Width: 1303
-Flags: W
+Flags: HW
 HStem: -401 147<844.026 907.601> -29 113<546.05 654.015> -20 20<810.974 935.974> 481 119<492 1200> 979 113<723 763>
-Ref: 731 731 N 1 0 0 1 328 0
+Ref: 731 731 N 1 0 0 1 60 0
 Ref: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Ecaron
@@ -6008,20 +6013,22 @@ EndChar
 StartChar: Scedilla
 Encoding: 350 350 249
 Width: 1479
-Flags: W
+Flags: HW
 HStem: -401 147<631 665> -29 121<554 624> -20 20<732.974 859.974> 1399 121<826 892>
 Ref: 83 83 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 227 0
+Ref: 184 184 N 1 0 0 1 17 0
 KernsSLIF: 350 -45 0 0 352 -45 0 0 83 -45 0 0 46 -73 0 0 45 75 0 0 44 -73 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' S uni0327
 EndChar
 StartChar: scedilla
 Encoding: 351 351 250
 Width: 1153
-Flags: W
+Flags: HW
 HStem: -401 147<470 504> -29 113<397 447> -20 20<571.974 698.974> 979 113<684 735>
 Ref: 115 115 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 66 0
+Ref: 184 184 N 1 0 0 1 -154 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' s uni0327
 EndChar
 StartChar: Scaron
@@ -6046,17 +6053,17 @@ EndChar
 StartChar: Tcommaaccent
 Encoding: 354 354 229
 Width: 1524
-Flags: W
+Flags: HW
 HStem: -401 147<647 681> -20 20<748.974 875.974> 0 121<248 1009> 1356 137<168 687 168 1486>
-Ref: 184 184 N 1 0 0 1 243 0
+Ref: 184 184 N 1 0 0 1 43 0
 Ref: 84 84 N 1 0 0 1 0 0
 EndChar
 StartChar: tcommaaccent
 Encoding: 355 355 230
 Width: 946
-Flags: W
+Flags: HW
 HStem: -401 147<404 438> -29 113<439.796 542.761> -20 20<505.974 632.974> 942 121<122 253 631 902> 942 451<341 902>
-Ref: 184 184 N 1 0 0 1 0 0
+Ref: 184 184 N 1 0 0 1 -80 0
 Ref: 116 116 N 1 0 0 1 0 0
 EndChar
 StartChar: Tcaron
@@ -10205,7 +10212,7 @@ Encoding: 7808 7808 229
 Width: 2300
 Flags: HW
 HStem: 0 21<407.896 665.896 1341.9 1599.9> 1372 121<126 248 127 811 2006 2161 2007 2445>
-Ref: 96 96 N 1 0 0 1 630.865 380
+Ref: 96 96 N 1 0 0 1 798.865 380
 Ref: 87 87 N 1 0 0 1 0 0
 EndChar
 StartChar: wgrave
@@ -10253,7 +10260,7 @@ Encoding: 7922 7922 235
 Width: 1462
 Flags: HW
 HStem: 0 121<229 995> 1372 121<126 230 127 819 1197 1323 1198 1602>
-Ref: 96 96 N 1 0 0 1 208.865 380
+Ref: 96 96 N 1 0 0 1 327.865 380
 Ref: 89 89 N 1 0 0 1 0 0
 EndChar
 StartChar: ygrave
@@ -10261,7 +10268,7 @@ Encoding: 7923 7923 236
 Width: 1190
 Flags: HW
 HStem: -455 113<192 224> 942 121<119 212 120 710 986 1105 987 1363>
-Ref: 96 96 N 1 0 0 1 0.669745 -48
+Ref: 96 96 N 1 0 0 1 174.67 -48
 Ref: 121 121 N 1 0 0 1 0 0
 EndChar
 StartChar: uni2010
@@ -11237,12 +11244,12 @@ Fore
 EndSplineSet
 EndChar
 StartChar: musicalnote
-Encoding: 9834 9834 65535
+Encoding: 9834 9834 186
 Width: 2048
 Colour: ffff00
 EndChar
 StartChar: musicalnotedbl
-Encoding: 9835 9835 65535
+Encoding: 9835 9835 187
 Width: 2048
 Colour: ffff00
 EndChar
