@@ -1,9 +1,11 @@
+#!/usr/bin/env fontforge
 # $Id$
 
 # script file for FontForge for TTF generation
 # usage:
 #   mkdir generated
-#   fontforge -script generate.pe *.sfd
+#   chmod +x generate.pe
+#   ./generate.pe *.sfd
 
 # font generation flags:
 #   0x20 => generate a 'PfEd' table and store glyph comments
