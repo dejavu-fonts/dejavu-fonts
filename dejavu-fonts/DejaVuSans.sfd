@@ -84,7 +84,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 TeXData: 1 10485760 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65550 549
+BeginChars: 65550 560
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -5029,6 +5029,16 @@ Flags: H
 Ref: 65542 -1 N 1 0 0 1 -234 373
 Ref: 104 104 N 1 0 0 1 0 0
 EndChar
+StartChar: Hbar
+Encoding: 294 294 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: hbar
+Encoding: 295 295 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Itilde
 Encoding: 296 296 252
 Width: 604
@@ -5071,6 +5081,16 @@ Flags: H
 Ref: 728 728 N 1 0 0 1 -227 0
 Ref: 305 305 N 1 0 0 1 0 0
 EndChar
+StartChar: Iogonek
+Encoding: 302 302 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: iogonek
+Encoding: 303 303 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Idotaccent
 Encoding: 304 304 248
 Width: 604
@@ -5095,6 +5115,18 @@ Fore
  193 1120 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: IJ
+Encoding: 306 306 65535
+Width: 2048
+Ligature: 0 0 'liga' I J
+Colour: ffff00
+EndChar
+StartChar: ij
+Encoding: 307 307 65535
+Width: 2048
+Ligature: 0 0 'liga' i j
+Colour: ffff00
+EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 215
 Width: 604
@@ -5118,6 +5150,11 @@ StartChar: kcommaaccent
 Encoding: 311 311 216
 Width: 2048
 Colour: ff00
+EndChar
+StartChar: kgreenlandic
+Encoding: 312 312 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: Lacute
 Encoding: 313 313 215
@@ -5278,6 +5315,22 @@ Ref: 711 711 N 1 0 0 1 27 0
 KernsSLIF: 8222 -92 0 0 8221 -112 0 0 8220 -149 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' n uni030C
+EndChar
+StartChar: napostrophe
+Encoding: 329 329 65535
+Width: 2048
+Ligature: 0 0 'liga' afii57929 n
+Colour: ffff00
+EndChar
+StartChar: Eng
+Encoding: 330 330 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: eng
+Encoding: 331 331 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: Omacron
 Encoding: 332 332 229
@@ -9826,7 +9879,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: uni2423
-Encoding: 9251 9251 65535
+Encoding: 9251 9251 150
 Width: 1300
 Flags: HMW
 HStem: -466 170<314 986>

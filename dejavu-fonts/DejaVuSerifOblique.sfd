@@ -80,7 +80,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65549 549
+BeginChars: 65549 560
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -5453,6 +5453,16 @@ HStem: 0 106<-48 442 622 1110> 956 136<730.6 817.035> 1450 106<224 380>
 Ref: 65542 -1 N 1 0 0 1 -181.496 373
 Ref: 104 104 N 1 0 0 1 0 0
 EndChar
+StartChar: Hbar
+Encoding: 294 294 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: hbar
+Encoding: 295 295 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Itilde
 Encoding: 296 296 252
 Width: 809
@@ -5501,6 +5511,16 @@ HStem: 0 106<-10 504> 956 107<176 332>
 Ref: 728 728 N 1 0 0 1 -185 0
 Ref: 305 305 N 1 0 0 1 0 0
 EndChar
+StartChar: Iogonek
+Encoding: 302 302 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: iogonek
+Encoding: 303 303 65535
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: Idotaccent
 Encoding: 304 304 248
 Width: 809
@@ -5533,6 +5553,18 @@ Fore
  351.291 106 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: IJ
+Encoding: 306 306 65535
+Width: 2048
+Ligature: 0 0 'liga' I J
+Colour: ffff00
+EndChar
+StartChar: ij
+Encoding: 307 307 65535
+Width: 2048
+Ligature: 0 0 'liga' i j
+Colour: ffff00
+EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 215
 Width: 821
@@ -5558,6 +5590,11 @@ StartChar: kcommaaccent
 Encoding: 311 311 216
 Width: 2048
 Colour: ff00
+EndChar
+StartChar: kgreenlandic
+Encoding: 312 312 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: Lacute
 Encoding: 313 313 215
@@ -5745,6 +5782,22 @@ Ref: 110 110 N 1 0 0 1 0 0
 Ref: 711 711 N 1 0 0 1 94 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' n uni030C
+EndChar
+StartChar: napostrophe
+Encoding: 329 329 65535
+Width: 2048
+Ligature: 0 0 'liga' afii57929 n
+Colour: ffff00
+EndChar
+StartChar: Eng
+Encoding: 330 330 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: eng
+Encoding: 331 331 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: Omacron
 Encoding: 332 332 229
@@ -11058,7 +11111,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: uni2423
-Encoding: 9251 9251 65535
+Encoding: 9251 9251 150
 Width: 1564
 Flags: HMW
 HStem: -466 162<245.281 1197.28>
