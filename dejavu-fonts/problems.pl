@@ -46,12 +46,15 @@ sub process_sfd_file($) {
     } elsif (/^Width:\s*(\S+)\s*/) {
       $curwidth = $1;
     } elsif (/^EndChar\s*$/) {
-      if (defined $colorized && defined $flags) {
+      if (defined $colorized && defined $flags && ($flags =~ /W/)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', flags=', $flags, "\n";
+      }
+      if (defined $colorized && ($curwidth != 2048)) {
+        print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', width=', $curwidth, "\n";
       }
       if ($curwidth == -1) {
         print $sfd_file, ': glyph w/o width: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
-      } elsif ($is_mono && defined $flags) {
+      } elsif ($is_mono && defined $flags && ($flags =~ /W/)) {
         if ($font_width == -1) {
           $font_width = $curwidth;
         } elsif ($curwidth != $font_width) {
