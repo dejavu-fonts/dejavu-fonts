@@ -2,15 +2,27 @@ DejaVu fonts 1.1 (c)2004 Stepan Roh
 -----------------------------------
 
 DejaVu fonts are Bitstream Vera fonts (http://www.bitstream.com/) with
-additional characters from Latin Extended-A set (Dcaron, dcaron, Ecaron,
-ecaron, Lacute, lacute, Lcaron, lcaron, Ncaron, ncaron, Racute, racute,
-Rcaron, rcaron, Tcaron, tcaron, Uring, uring). They are optimized for
-display on Linux/X (which has some TrueType display problems), but that
-should not affect their usability on other systems or in printing.
+additional characters (see status.txt for more information). They are
+optimized for display on Linux/X (which has some TrueType display problems),
+but that should not affect their usability on other systems or in printing.
 
 DejaVu fonts are based on Bitstream Vera fonts version 1.10.
 
-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.
+Available fonts (Sans = sans serif, Mono = monospaced):
+
+DejaVu Sans Mono
+DejaVu Sans Mono Bold
+DejaVu Sans Mono Bold Oblique
+DejaVu Sans Mono Oblique
+DejaVu Sans
+DejaVu Sans Bold
+DejaVu Sans Bold Oblique
+DejaVu Sans Oblique
+DejaVu Serif
+DejaVu Serif Bold
+
+For license information see LICENSE. What's new is described in NEWS. Known
+bugs are in BUGS. All authors are mentioned in AUTHORS.
 
 Fonts are published in source form as SFD files (Spline Font Database from
 FontForge - http://fontforge.sf.net/) and in compiled form as TTF files
@@ -18,95 +30,4 @@ FontForge - http://fontforge.sf.net/) and in compiled form as TTF files
 
 For more information go to http://dejavu.sourceforge.net/.
 
-Changes from 1.0 to 1.1:
-
-- added Lacute, lacute, Lcaron, lcaron, Racute and racute (by Peter Cernak)
-
-Changes from 0.9.4 to 1.0:
-
-- none, just changed version and updated README
-
-Changes from 0.9.3 to 0.9.4:
-
-- fixed TTF generation (kerning tables were missing)
-
-Changes from 0.9.2 to 0.9.3:
-
-- kerning of added characters
-- proper caron shape for dcaron in Mono (by Ondrej Koala Vacha)
-- minor visual changes
-
-Changes from 0.9.1 to 0.9.2:
-
-- internal bugged version
-
-Changes from 0.9 to 0.9.1:
-
-- proper caron shape for dcaron and tcaron
-- minor visual changes
-
-To be done past 1.0:
-
-- (maybe) more Latin Extended-A characters
-- no bugs
-
-Known bugs:
-
-- Sans Oblique rcaron rendering is broken
-- spotted with DejaVu TTF in Mozilla Firebird 0.7 on Linux
-- reported by Vitezslav Kotrla
-- not reproducible on other system
-- reason unknown (looks like hinting bug in Firebird)
-
-- DejaVu looks worse than Vera without antialiasing
-- spotted with DejaVu TTF on Debian testing (XFree86 4.3.0, freetype 2.1.7)
-- reported by Michal Krause
-- not reproducible on other system
-- reason unknown (looks like hinting is switched off for DejaVu)
-
-Bitstream Vera Fonts Copyright
-------------------------------
-
-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is
-a trademark of Bitstream, Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of the fonts accompanying this license ("Fonts") and associated
-documentation files (the "Font Software"), to reproduce and distribute the
-Font Software, including without limitation the rights to use, copy, merge,
-publish, distribute, and/or sell copies of the Font Software, and to permit
-persons to whom the Font Software is furnished to do so, subject to the
-following conditions:
-
-The above copyright and trademark notices and this permission notice shall
-be included in all copies of one or more of the Font Software typefaces.
-
-The Font Software may be modified, altered, or added to, and in particular
-the designs of glyphs or characters in the Fonts may be modified and
-additional glyphs or characters may be added to the Fonts, only if the fonts
-are renamed to names not containing either the words "Bitstream" or the word
-"Vera".
-
-This License becomes null and void to the extent applicable to Fonts or Font
-Software that has been modified and is distributed under the "Bitstream
-Vera" names.
-
-The Font Software may be sold as part of a larger software package but no
-copy of one or more of the Font Software typefaces may be sold by itself.
-
-THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,
-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME
-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING
-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE
-FONT SOFTWARE.
-
-Except as contained in this notice, the names of Gnome, the Gnome
-Foundation, and Bitstream Inc., shall not be used in advertising or
-otherwise to promote the sale, use or other dealings in this Font Software
-without prior written authorization from the Gnome Foundation or Bitstream
-Inc., respectively. For further information, contact: fonts at gnome dot
-org. 
+$Id$

@@ -1,0 +1,15 @@
+Known bugs:
+
+- Sans Oblique rcaron rendering is broken
+- spotted with DejaVu TTF in Mozilla Firebird 0.7 on Linux
+- reported by Vitezslav Kotrla
+- not reproducible on other system
+- reason unknown (looks like hinting bug in Firebird)
+
+- DejaVu looks worse than Vera without antialiasing
+- spotted with DejaVu TTF on Debian testing (XFree86 4.3.0, freetype 2.1.7)
+- reported by Michal Krause
+- not reproducible on other system
+- reason unknown (looks like hinting is switched off for DejaVu)
+
+$Id$
