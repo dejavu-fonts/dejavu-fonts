@@ -88,14 +88,18 @@ sub parse_sfd_file($) {
   open (F, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   my $curchar = '';
   my $curenc = '';
+  my $empty = 0;
   while (<F>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
       $curchar = $1;
       $curenc = '';
+      $empty = 0;
+    } elsif (/^Colour:/) {
+      # XXX this is quick'n'dirty hack to detect non-empty glyphs
+      $empty = 1;
     } elsif (/^Encoding:\s*\d+\s*(\d+)\s*\d+\s*$/) {
       $curenc = $1;
-    } elsif ($curenc && /^Flags:/) {
-      # XXX this is quick'n'dirty hack to detect non-empty glyphs
+    } elsif ($curenc && !$empty && /^EndChar\s*/) {
       inc_coverage ($curenc);
     }
   }
