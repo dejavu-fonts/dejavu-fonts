@@ -4687,14 +4687,18 @@ KernsSLIF: 8222 -301 0 0 187 -36 0 0 171 -36 0 0 58 -149 0 0 46 -292 0 0 45 -36 
 Ligature: 0 0 'liga' y uni0308
 EndChar
 StartChar: Amacron
-Encoding: 256 256 187
-Width: 2048
-Colour: ffff00
+Encoding: 256 256 65535
+Width: 1401
+Flags: H
+Ref: 175 175 N 1 0 0 1 188.5 315
+Ref: 65 65 N 1 0 0 1 0 0
 EndChar
 StartChar: amacron
-Encoding: 257 257 188
-Width: 2048
-Colour: ffff00
+Encoding: 257 257 65535
+Width: 1255
+Flags: H
+Ref: 175 175 N 1 0 0 1 74 0
+Ref: 97 97 N 1 0 0 1 0 0
 EndChar
 StartChar: Abreve
 Encoding: 258 258 187
