@@ -1,0 +1,82 @@
+Information about QPF version of DejaVu
+---------------------------------------
+(by Vasek Stodulka)
+
+QPF fonts are used in QT/Embedded environments - Opie and Qtopia and maybe
+in other QT-based systems. These environments are run mostly on pocket
+devices such as Linux iPaq or Sharp Zaurus.
+
+Opie contains only original Bitstream Vera font without unicode capitals.
+This is the reason why I converted DejaVu fonts with all included unicode
+symbols. See the NEWS and status.txt files for a list of supported
+languages / glyphs.
+
+QPF fonts are bitmap fonts; that means they are not scalable. They are
+"rendered" from TTF in fixed dimensions specified in "rendering"
+process. This package contains all DejaVu fonts in dimensions 8, 10, 12,
+14, 18 and 24 in regular, bold, italic and bold-italic layout (where
+available.)
+
+Devices running Opie/Qtopia are able to rotate display in four ways -
+portrait, landscape, upside down and landscape upside down. For each
+rotation you need a separate set of fonts. This package contains fonts for
+all these rotations.
+
+Semantics of file naming is quite easy. Example: "dejavusans_100_80i_t5.qpf"
+means that the name displayed in system will be "dejavusans", the number
+"100" means that the font is 10 points big (divide the number by 10). Next
+number and possibly a letter describes weight (50=regular, 80=bold,
+i=italic) - in our example bold-italic. "t5" means rotation - files without
+rotation are displayed portrait, "t5" files are rotated 90 degrees
+clockwise, "t15" means 180 degrees and "t10" is 270 degrees. And yes, the
+rotation is really little bit silly, one more time: nothing=0 degrees,
+t5=90, t15=180 and t10=270. In fact it is more complicated - on iPaq 3870
+0 degrees means "landscape" (the landscape with thumb of your right hand on
+5-way button) and 90 degrees means "portrait" (you need fonts without "t"
+and with "t5"). Other hardware platforms have different default rotation,
+just try.
+
+To install fonts on your device, simply copy selected files into
+$QTDIR/lib/fonts. (This works for Opie, it may be different on other QT
+environments. If unsure, try to find other .pqf files.) No changes in
+"fontdir" file are necessary, in fact the file is required only for
+translating TTF or type1 fonts and can be safely deleted. After copying
+files optionally restart your Opie/Qtopia/whatever; is is not necessary,
+but just to be sure.
+
+Hint: To save flash space, select only the fonts/sizes/rotations you really
+need. For example, you usually use only two rotations (portrait and
+landscape) and some sizes of fonts.
+
+
+
+HOWTO translate TTF font into QPF
+
+Difficult way:
+Compile makeqpf utility as described in
+http://www.ossh.com/zaurus/mirrors/docs.zaurus.com/ttf_conversion.shtml
+and translate fonts as described in page, but look into my "fontdir" file
+how to create your own. (!!!)
+
+Easier way:
+download http://moria.ionkov.net/zaurus/makeqpf/makeqpf-arm to your device,
+place TTF fonts in your font dir, create "fontdir" file (look in my one how)
+and run
+
+cd your_font_dir
+~/makeqpf-arm -A
+~/makeqpf-arm -A -display Transformed:Rot90
+~/makeqpf-arm -A -display Transformed:Rot180
+~/makeqpf-arm -A -display Transformed:Rot270
+
+Known issues:
+
+- opie-reader (up to version at least 1.1.6) does not display zcaron and
+scaron (it displays "z" and "s" instead). But this not a bug in dejavu-qpf.
+You can try Opie Text Editor, it displays all (or at least all czech :)
+DejaVu symbols perfectly. Opie Text Editor is utf-8 only, get some utf-8
+file with non latin-1 symbols and open it.
+- the most applications in present time Opie do not even try to support
+different encodings :(
+
+$Id$
