@@ -4,19 +4,20 @@
 
 # possible problems finder
 # (c)2004,2005 Stepan Roh
-# usage: ./problems.pl sfd_files+
+# usage: ./problems.pl [-w] sfd_files+
 
-# detected problems:
+# detected problems (W = warning visible only with -w):
 #   colorized glyphs with content
 #   glyphs in monospaced face with different width
 #   monospaced font (with Mono in name) without indication in Panose (and vice-versa)
 #   ligature in colorized glyph (due to bug in FF it causes problems on Mac OS X)
 #   ligature in empty glyph
+#   W: ligature referencing colorized or missing glyphs
 
-sub process_sfd_file($);
+sub process_sfd_file($$);
 
-sub process_sfd_file($) {
-  my ($sfd_file) = @_;
+sub process_sfd_file($$) {
+  my ($sfd_file, $with_warns) = @_;
   
   open (SFD, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   my $curchar = '';
@@ -24,12 +25,14 @@ sub process_sfd_file($) {
   my $dec_enc = 0;
   my $colorized;
   my $flags;
-  my ($fontname, $panose, $is_mono_name, $is_mono_panose);
+  my ($fontname, $panose, $is_mono_name, $is_mono_panose) = ('', '', 0, 0);
   my $is_mono = 0;
   my $font_width = -1;
   my $curwidth = 0;
   my $has_ligature = 0;
   my $is_empty = 1;
+  my %content_glyphs = ();
+  my @ligature_refs = ();
   while (<SFD>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
       $curchar = $1;
@@ -39,6 +42,7 @@ sub process_sfd_file($) {
       undef $colorized;
       undef $flags;
       $has_ligature = 0;
+      @ligature_refs = ();
     } elsif (/^Colour:\s*(\S+)\s*/) {
       $colorized = $1;
     } elsif (/^Flags:\s*(\S+)\s*/) {
@@ -50,13 +54,19 @@ sub process_sfd_file($) {
       }
     } elsif (/^Width:\s*(\S+)\s*/) {
       $curwidth = $1;
-    } elsif (/^Ligature:/) {
+    } elsif (/^Ligature:\s*\S*\s*\S*\s*\S*\s*(.*?)\s*$/) {
+      @ligature_refs = split(/\s+/, $1);
       $has_ligature = 1;
     } elsif (/^Fore\s*$/) {
       $is_empty = 0;
     } elsif (/^Ref:/) {
       $is_empty = 0;
     } elsif (/^EndChar\s*$/) {
+      if (!defined $colorized && !$is_empty) {
+        $content_glyphs{$curchar}{'dec_enc'} = $dec_enc;
+        $content_glyphs{$curchar}{'hex_enc'} = $hex_enc;
+        @{$content_glyphs{$curchar}{'ligature'}} = @ligature_refs;
+      }
       if (defined $colorized && defined $flags && ($flags =~ /W/)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', flags=', $flags, "\n";
       }
@@ -91,18 +101,32 @@ sub process_sfd_file($) {
   if ($is_mono_name != $is_mono_panose) {
     print $sfd_file, ': mixed monospace: font name=', $fontname, ', panose=', $panose, "\n";
   }
+  foreach $glyph (sort { $content_glyphs{$a}{'dec_enc'} <=> $content_glyphs{$b}{'dec_enc'} } keys %content_glyphs) {
+    my $dec_enc = $content_glyphs{$glyph}{'dec_enc'};
+    my $hex_enc = $content_glyphs{$glyph}{'hex_enc'};
+    foreach $liga (@{$content_glyphs{$glyph}{'ligature'}}) {
+      if ($with_warns && !exists ($content_glyphs{$liga})) {
+        print $sfd_file, ': ligature references colorized or missing glyph: ', $glyph, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': ligature ref=', $liga, "\n";
+      }
+    }
+  }
   close (SFD);
 }
 
 if (!@ARGV) {
-  print STDERR "usage: sfd_files+\n";
+  print STDERR "usage: [-w] sfd_files+\n";
   exit 1;
 }
 
+$with_warns = 0;
+if ($ARGV[0] eq '-w') {
+  $with_warns = 1;
+  shift @ARGV;
+}
 @sfd_files = @ARGV;
 
 foreach $sfd_file (@sfd_files) {
-  process_sfd_file ($sfd_file);
+  process_sfd_file ($sfd_file, $with_warns);
 }
 
 1;
