@@ -93,6 +93,7 @@ sub parse_sfd_file(\%$$) {
   open (SFD, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   my $typeface = '';
   my $curchar = '';
+  my $hex_enc = '';
   $version_tag = normalize_version($version_tag);
   while (<SFD>) {
     if (/^FullName:\s+\S+\s+(.*?)\s*$/) {
@@ -101,8 +102,11 @@ sub parse_sfd_file(\%$$) {
       $parsed_typefaces{$typeface} = 1;
     } elsif (/^StartChar:\s*(\S+)\s*$/) {
       $curchar = $1;
+      $hex_enc = '';
     } elsif (/^Encoding:\s*\d+\s*(\d+)\s*\d+\s*$/) {
-      my $hex_enc = sprintf ('%04x', $1);
+      $hex_enc = sprintf ('%04x', $1);
+    } elsif ($hex_enc && /^Flags:/) {
+      # XXX this is quick'n'dirty hack to detect non-empty glyphs
       $$parsed_ref{$hex_enc}{'name'} = $curchar;
       push (@{$$parsed_ref{$hex_enc}{'versions'}{$version_tag}}, $typeface);
     }
