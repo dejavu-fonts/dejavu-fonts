@@ -5,14 +5,13 @@
 #   mkdir samples
 #   fontforge -script samples.pe *.sfd
 
+if ($version < "20041012")
+  Error("Your version of FontForge does not support PDF creation");
+endif
 i = 1
 while ( i < $argc )
   Open($argv[i], 1)
-  if ($version <= "20040930")
-    Error("Your version of FontForge does not support PDF creation");
-  else
-    PrintSetup(5)
-    PrintFont(0, 0, "", "samples/" + $fontname + ".pdf")
-  endif
+  PrintSetup(5)
+  PrintFont(0, 0, "", "samples/" + $fontname + ".pdf")
   i++
 endloop
