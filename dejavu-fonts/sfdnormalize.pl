@@ -9,6 +9,8 @@
 
 # changes done:
 #   WinInfo - discarded
+#   DisplaySize
+#           - discarded
 #   Flags   - discarded O (open)
 #   Ref     - changed S (selected) to N (not selected)
 #   Fore, Back, SplineSet, Grid
@@ -22,7 +24,7 @@ foreach $in (@ARGV) {
   open (OUT, '>'.$out) || die "Unable to open $out : $!\n";
   my $in_spline_set = 0;
   while (<IN>) {
-    next if (/^WinInfo:/);
+    next if (/^(WinInfo|DisplaySize):/);
     s,^(Flags:.*?)O(.*)$,$1$2,;
     s,^(Ref:.*?)S(.*)$,$1N$2,;
     if (/^(Fore|Back|SplineSet|Grid)\s*$/) {
