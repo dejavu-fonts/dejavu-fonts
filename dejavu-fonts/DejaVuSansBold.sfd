@@ -93,7 +93,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65552 829
+BeginChars: 65552 831
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -10026,6 +10026,16 @@ Fore
  6 592 l 1,7,-1
  506 1653 l 1,4,-1
 EndSplineSet
+EndChar
+StartChar: musicalnote
+Encoding: 9834 9834 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: musicalnotedbl
+Encoding: 9835 9835 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: uni2800
 Encoding: 10240 10240 186

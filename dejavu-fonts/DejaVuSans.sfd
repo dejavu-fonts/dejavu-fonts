@@ -84,7 +84,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 TeXData: 1 10485760 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65550 830
+BeginChars: 65550 832
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -9991,6 +9991,16 @@ Fore
  6 592 l 1,7,-1
  506 1653 l 1,4,-1
 EndSplineSet
+EndChar
+StartChar: musicalnote
+Encoding: 9834 9834 65535
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: musicalnotedbl
+Encoding: 9835 9835 65535
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: uni2800
 Encoding: 10240 10240 186
