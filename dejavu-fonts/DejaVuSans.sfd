@@ -84,7 +84,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 39 39 16
+WinInfo: 975 39 16
 TeXData: 1 10485760 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65547 408
 StartChar: .notdef
@@ -4830,14 +4830,14 @@ Fore
 EndSplineSet
 EndChar
 StartChar: Eogonek
-Encoding: 280 280 65535
+Encoding: 280 280 256
 Width: 1294
 Flags: HW
 Ref: 731 731 S 1 0 0 1 460 0
 Ref: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: eogonek
-Encoding: 281 281 65535
+Encoding: 281 281 257
 Width: 1260
 Flags: HW
 Ref: 731 731 S 1 0 0 1 376 0
@@ -4867,8 +4867,9 @@ Encoding: 286 286 246
 Width: 1587
 Flags: W
 Ref: 71 71 N 1 0 0 1 0 0
-Ref: 65545 -1 N 1 0 0 1 283 373
+Ref: 65545 -1 S 1 0 0 1 283 373
 KernsSLIF: 356 -73 0 0 221 -102 0 0 8222 -55 0 0 376 -102 0 0 8221 -45 0 0 8220 -45 0 0 187 -36 0 0 171 -36 0 0 89 -102 0 0 84 -73 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' G uni0306
 EndChar
 StartChar: gbreve
@@ -5011,14 +5012,14 @@ Fore
 EndSplineSet
 EndChar
 StartChar: Nacute
-Encoding: 323 323 65535
+Encoding: 323 323 227
 Width: 1532
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 197 374
 Ref: 78 78 N 1 0 0 1 0 0
 EndChar
 StartChar: nacute
-Encoding: 324 324 65535
+Encoding: 324 324 228
 Width: 1298
 Flags: HW
 Ref: 180 180 S 1 0 0 1 66.5 7
@@ -5169,14 +5170,14 @@ LCarets: 0 65535 '    ' 1 0
 Ligature: 0 0 'liga' r uni030C
 EndChar
 StartChar: Sacute
-Encoding: 346 346 65535
+Encoding: 346 346 180
 Width: 1300
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 149 374
 Ref: 83 83 N 1 0 0 1 0 0
 EndChar
 StartChar: sacute
-Encoding: 347 347 65535
+Encoding: 347 347 181
 Width: 1067
 Flags: HW
 Ref: 180 180 S 1 0 0 1 66.5 7
@@ -5298,28 +5299,28 @@ KernsSLIF: 367 -235 0 0 283 -272 0 0 268 -112 0 0 262 -112 0 0 210 -112 0 0 212 
 Ligature: 0 0 'liga' Y uni0308
 EndChar
 StartChar: Zacute
-Encoding: 377 377 65535
+Encoding: 377 377 188
 Width: 1403
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 149 374
 Ref: 90 90 N 1 0 0 1 0 0
 EndChar
 StartChar: zacute
-Encoding: 378 378 65535
+Encoding: 378 378 189
 Width: 1075
 Flags: HW
 Ref: 180 180 S 1 0 0 1 66.5 7
 Ref: 122 122 N 1 0 0 1 0 0
 EndChar
 StartChar: Zdotaccent
-Encoding: 379 379 65535
+Encoding: 379 379 190
 Width: 1403
 Flags: HW
 Ref: 729 729 S 1 0 0 1 168 300
 Ref: 90 90 N 1 0 0 1 0 0
 EndChar
 StartChar: zdotaccent
-Encoding: 380 380 65535
+Encoding: 380 380 191
 Width: 1075
 Flags: HW
 Ref: 729 729 N 1 0 0 1 0 0
@@ -5950,8 +5951,8 @@ StartChar: afii10062
 Encoding: 1038 1038 170
 Width: 1429
 Flags: HW
+Ref: 65545 -1 S 1 0 0 1 234 373
 Ref: 1059 1059 N 1 0 0 1 0 0
-Ref: 728 728 S 1 0 0 1 225 289
 EndChar
 StartChar: afii10145
 Encoding: 1039 1039 171
@@ -6237,8 +6238,8 @@ StartChar: afii10027
 Encoding: 1049 1049 181
 Width: 1531
 Flags: HW
+Ref: 65545 -1 S 1 0 0 1 245 373
 Ref: 1048 1048 N 1 0 0 1 0 0
-Ref: 728 728 S 1 0 0 1 225 289
 EndChar
 StartChar: afii10028
 Encoding: 1050 1050 182

@@ -76,7 +76,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 39 16
+WinInfo: 663 39 16
 BeginChars: 65553 408
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -4884,14 +4884,14 @@ KernsSLIF: 46 -159 0 0 45 -73 0 0 44 -159 0 0
 Ligature: 0 0 'liga' y uni0308
 EndChar
 StartChar: Aogonek
-Encoding: 260 260 65535
+Encoding: 260 260 187
 Width: 1401
 Flags: HW
 Ref: 731 731 S 1 0 0 1 695 0
 Ref: 65 65 N 1 0 0 1 0 0
 EndChar
 StartChar: aogonek
-Encoding: 261 261 65535
+Encoding: 261 261 188
 Width: 1255
 Flags: HW
 Ref: 731 731 S 1 0 0 1 438 0
@@ -5035,14 +5035,14 @@ Fore
 EndSplineSet
 EndChar
 StartChar: Eogonek
-Encoding: 280 280 65535
+Encoding: 280 280 256
 Width: 1294
 Flags: HW
 Ref: 731 731 S 1 0 0 1 450 0
 Ref: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: eogonek
-Encoding: 281 281 65535
+Encoding: 281 281 257
 Width: 1260
 Flags: HW
 Ref: 731 731 S 1 0 0 1 357 0
@@ -5071,7 +5071,8 @@ Encoding: 286 286 246
 Width: 1587
 Flags: W
 Ref: 71 71 N 1 0 0 1 0 0
-Ref: 65545 -1 N 1 0 0 1 295 373
+Ref: 65545 -1 S 1 0 0 1 295 373
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' G uni0306
 EndChar
 StartChar: gbreve
@@ -5214,14 +5215,14 @@ Fore
 EndSplineSet
 EndChar
 StartChar: Nacute
-Encoding: 323 323 65535
+Encoding: 323 323 227
 Width: 1532
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 264 374
 Ref: 78 78 N 1 0 0 1 0 0
 EndChar
 StartChar: nacute
-Encoding: 324 324 65535
+Encoding: 324 324 228
 Width: 1298
 Flags: HW
 Ref: 180 180 S 1 0 0 1 54.0324 7
@@ -5388,14 +5389,14 @@ LCarets: 0 65535 '    ' 1 0
 Ligature: 0 0 'liga' r uni030C
 EndChar
 StartChar: Sacute
-Encoding: 346 346 65535
+Encoding: 346 346 180
 Width: 1300
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 144 374
 Ref: 83 83 N 1 0 0 1 0 0
 EndChar
 StartChar: sacute
-Encoding: 347 347 65535
+Encoding: 347 347 181
 Width: 1067
 Flags: HW
 Ref: 180 180 S 1 0 0 1 54.0324 7
@@ -5510,28 +5511,28 @@ KernsSLIF: 367 -188 0 0 283 -225 0 0 268 -36 0 0 262 -36 0 0 210 -36 0 0 212 -36
 Ligature: 0 0 'liga' Y uni0308
 EndChar
 StartChar: Zacute
-Encoding: 377 377 65535
+Encoding: 377 377 188
 Width: 1403
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 144 374
 Ref: 90 90 N 1 0 0 1 0 0
 EndChar
 StartChar: zacute
-Encoding: 378 378 65535
+Encoding: 378 378 189
 Width: 1075
 Flags: HW
 Ref: 180 180 S 1 0 0 1 54.0324 7
 Ref: 122 122 N 1 0 0 1 0 0
 EndChar
 StartChar: Zdotaccent
-Encoding: 379 379 65535
+Encoding: 379 379 190
 Width: 1403
 Flags: HW
 Ref: 729 729 S 1 0 0 1 210 318
 Ref: 90 90 N 1 0 0 1 0 0
 EndChar
 StartChar: zdotaccent
-Encoding: 380 380 65535
+Encoding: 380 380 191
 Width: 1075
 Flags: HW
 Ref: 729 729 S 1 0 0 1 0 0
@@ -5876,14 +5877,14 @@ EndSplineSet
 EndChar
 StartChar: uni0400
 Encoding: 1024 1024 156
-Width: 2048
+Width: 1123
 Flags: HW
 Ref: 1045 1045 N 1 0 0 1 0 0
 Ref: 65541 -1 N 1 0 0 1 238 373
 EndChar
 StartChar: afii10023
 Encoding: 1025 1025 157
-Width: 2048
+Width: 1129
 Flags: HW
 Ref: 1045 1045 N 1 0 0 1 0 0
 Ref: 65538 -1 N 1 0 0 1 229 373
@@ -5930,7 +5931,7 @@ EndSplineSet
 EndChar
 StartChar: afii10052
 Encoding: 1027 1027 159
-Width: 2048
+Width: 996
 Flags: HW
 HStem: 0 21<56 258> 1323 170<346 1171>
 DStem: 346 1493 515 1323 56 0 258 0
@@ -6166,7 +6167,7 @@ EndSplineSet
 EndChar
 StartChar: afii10061
 Encoding: 1036 1036 168
-Width: 2048
+Width: 1249
 Flags: HW
 HStem: 0 21<55.8955 257.896 974.896 1240.9> 1473 20<346.104 548.104 1218.1 1478.1>
 DStem: 346.104 1493 548.104 1493 55.8955 0 425.451 862 346.104 1493 397.654 719 55.8955 0 257.896 0 397.654 719 601.816 797 974.896 0 1240.9 0 1218.1 1493 1478.1 1493 425.451 862 601.816 797
@@ -6175,7 +6176,7 @@ Ref: 65539 -1 N 1 0 0 1 238 373
 EndChar
 StartChar: uni040D
 Encoding: 1037 1037 169
-Width: 2048
+Width: 1313
 Flags: HW
 HStem: 0 21<55.8955 327.896 989.896 1185.9> 1473 20<346.104 542.104 1204.1 1476.1>
 DStem: 346.104 1493 542.104 1493 55.8955 0 299.324 244 1204.1 1493 1232.68 1249 299.324 244 327.896 0 1232.68 1249 1476.1 1493 989.896 0 1185.9 0
@@ -6184,12 +6185,12 @@ Ref: 65541 -1 N 1 0 0 1 229 373
 EndChar
 StartChar: afii10062
 Encoding: 1038 1038 170
-Width: 2048
+Width: 1214
 Flags: HW
 HStem: 0 21<239.896 419.896> 1473 20<268.104 491.104 1263.1 1486.1>
 DStem: 268.104 1493 491.104 1493 653.19 588 791.039 793 1263.1 1493 1486.1 1493 791.039 793 546.167 94
+Ref: 65545 -1 N 1 0 0 1 269 373
 Ref: 1059 1059 N 1 0 0 1 0 0
-Ref: 728 728 N 1 0 0 1 225 289
 EndChar
 StartChar: afii10145
 Encoding: 1039 1039 171
@@ -6476,8 +6477,8 @@ Width: 1376
 Flags: HW
 HStem: 0 21<55.8955 327.896 989.896 1185.9> 1473 20<346.104 542.104 1204.1 1476.1>
 DStem: 346.104 1493 542.104 1493 55.8955 0 299.324 244 1204.1 1493 1232.68 1249 299.324 244 327.896 0 1232.68 1249 1476.1 1493 989.896 0 1185.9 0
+Ref: 65545 -1 S 1 0 0 1 277 373
 Ref: 1048 1048 N 1 0 0 1 0 0
-Ref: 728 728 S 1 0 0 1 225 289
 EndChar
 StartChar: afii10028
 Encoding: 1050 1050 182
