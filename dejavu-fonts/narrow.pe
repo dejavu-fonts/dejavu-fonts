@@ -6,10 +6,9 @@
 
 # DejaVu Condensed have scale 90
 
-# FIX: fill in the right version after worthless.patch is applied to FF
-#if ($version < "20041012")
-#  Error("Your version of FontForge transforms glyphs w/o content");
-#endif
+if ($version < "20050209")
+  Error("Your version of FontForge transforms glyphs w/o content");
+endif
 if ($argc < 2)
   Error("usage: scale sfds...")
 endif
