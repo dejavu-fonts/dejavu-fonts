@@ -1,0 +1,30 @@
+#!/usr/bin/env fontforge
+# $Id$
+
+# script file for FontForge for font narrowing after merge
+# usage: fontforge -script narrowmerge.pe scale sfd glyph_codes*
+#   created file has suffix .narrow
+
+# DejaVu Condensed have scale 90
+
+# FIX: fill in the right version after worthless.patch is applied to FF
+#if ($version < "20041012")
+#  Error("Your version of FontForge transforms glyphs w/o content");
+#endif
+if ($argc < 3)
+  Error("usage: scale sfd glyph_codes...")
+endif
+scale = Strtol($argv[1])
+file = $argv[2]
+if ($argc < 4)
+  Print("Nothing to do for ", file)
+  Quit(0)
+endif
+Open(file, 1)
+i = 3
+while (i < $argc)
+  SelectMore(Strtol($argv[i]))
+  i++
+endloop
+Scale(scale, 100)
+Save(file + ".narrow")

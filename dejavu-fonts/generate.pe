@@ -28,6 +28,9 @@ while ( i < $argc )
   if ((Strcasestr ($fontname, "Serif") > -1) && (Strcasestr ($fontname, "Oblique") > -1))
     gen_flags = exp_gen_flags
   endif
+  if (Strcasestr ($fontname, "Condensed") > -1)
+    gen_flags = exp_gen_flags
+  endif
   Generate("generated/" + $fontname + ".ttf", "", gen_flags)
   i++
 endloop
