@@ -4,7 +4,7 @@ FullName: DejaVu Sans Oblique
 FamilyName: DejaVu Sans
 Weight: Book
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes by Stepan Roh are in public domain\n
-Version: Release 1.10 (DejaVu 1.1)
+Version: Release 1.10 (DejaVu 1.2)
 ItalicAngle: -11
 UnderlinePosition: -213
 UnderlineWidth: 143
@@ -63,7 +63,7 @@ EndTtf
 TtfTable: maxp 32
 !!*'"!=Ss&!!`Kp!!E9'!"],q!!`K(!tGGB!!<3%
 EndTtf
-LangName: 1033 "" "" "" "DejaVu Sans Oblique" "" "Release 1.10 (DejaVu 1.1)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
+LangName: 1033 "" "" "" "DejaVu Sans Oblique" "" "Release 1.10 (DejaVu 1.2)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
 Encoding: unicode
 UnicodeInterp: none
 DisplaySize: -24
@@ -5076,6 +5076,24 @@ Ref: 108 108 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' l uni030C
 EndChar
+StartChar: Ldot
+Encoding: 319 319 203
+Width: 1141
+Flags: H
+Ref: 183 183 N 1 0 0 1 415.366 37
+Ref: 76 76 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 0 'liga' L periodcentered
+EndChar
+StartChar: ldot
+Encoding: 320 320 204
+Width: 1220
+Flags: H
+Ref: 183 183 N 1 0 0 1 413 -30
+Ref: 108 108 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 0 'liga' l periodcentered
+EndChar
 StartChar: Lslash
 Encoding: 321 321 225
 Width: 1151
@@ -5356,6 +5374,34 @@ Ref: 117 117 N 1 0 0 1 0 0
 Ref: 730 730 N 1 0 0 1 70 -35
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' u uni030A
+EndChar
+StartChar: Wcircumflex
+Encoding: 372 372 211
+Width: 2025
+Flags: W
+Ref: 710 710 N 1 0 0 1 514 380
+Ref: 87 87 N 1 0 0 1 0 0
+EndChar
+StartChar: wcircumflex
+Encoding: 373 373 212
+Width: 1675
+Flags: W
+Ref: 710 710 N 1 0 0 1 297 7
+Ref: 119 119 N 1 0 0 1 0 0
+EndChar
+StartChar: Ycircumflex
+Encoding: 374 374 213
+Width: 1251
+Flags: W
+Ref: 710 710 N 1 0 0 1 128 380
+Ref: 89 89 N 1 0 0 1 0 0
+EndChar
+StartChar: ycircumflex
+Encoding: 375 375 214
+Width: 1212
+Flags: W
+Ref: 710 710 N 1 0 0 1 62 7
+Ref: 121 121 N 1 0 0 1 0 0
 EndChar
 StartChar: Ydieresis
 Encoding: 376 376 187
@@ -5701,6 +5747,62 @@ Fore
  1194 1071 l 1,35,-1
  1159 913 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: Wgrave
+Encoding: 7808 7808 229
+Width: 2025
+Flags: W
+Ref: 96 96 N 1 0 0 1 454 378
+Ref: 87 87 N 1 0 0 1 0 0
+EndChar
+StartChar: wgrave
+Encoding: 7809 7809 230
+Width: 1675
+Flags: W
+Ref: 96 96 N 1 0 0 1 236 5
+Ref: 119 119 N 1 0 0 1 0 0
+EndChar
+StartChar: Wacute
+Encoding: 7810 7810 231
+Width: 2025
+Flags: W
+Ref: 180 180 N 1 0 0 1 579 380
+Ref: 87 87 N 1 0 0 1 0 0
+EndChar
+StartChar: wacute
+Encoding: 7811 7811 232
+Width: 1675
+Flags: W
+Ref: 180 180 N 1 0 0 1 361 7
+Ref: 119 119 N 1 0 0 1 0 0
+EndChar
+StartChar: Wdieresis
+Encoding: 7812 7812 233
+Width: 2025
+Flags: W
+Ref: 168 168 N 1 0 0 1 498 292
+Ref: 87 87 N 1 0 0 1 0 0
+EndChar
+StartChar: wdieresis
+Encoding: 7813 7813 234
+Width: 1675
+Flags: W
+Ref: 168 168 N 1 0 0 1 280 -81
+Ref: 119 119 N 1 0 0 1 0 0
+EndChar
+StartChar: Ygrave
+Encoding: 7922 7922 235
+Width: 1251
+Flags: W
+Ref: 96 96 N 1 0 0 1 67 378
+Ref: 89 89 N 1 0 0 1 0 0
+EndChar
+StartChar: ygrave
+Encoding: 7923 7923 236
+Width: 1212
+Flags: W
+Ref: 96 96 N 1 0 0 1 2 5
+Ref: 121 121 N 1 0 0 1 0 0
 EndChar
 StartChar: endash
 Encoding: 8211 8211 178
