@@ -11,7 +11,7 @@
 #   glyphs in monospaced face with different width
 #   monospaced font (with Mono in name) without indication in Panose (and vice-versa)
 #   ligature in colorized glyph (due to bug in FF it causes problems on Mac OS X)
-#   ligature in empty glyph (same as above)
+#   ligature in empty glyph
 
 sub process_sfd_file($);
 
