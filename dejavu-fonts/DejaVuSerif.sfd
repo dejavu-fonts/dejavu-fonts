@@ -81,7 +81,7 @@ UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65553 537
+BeginChars: 65553 540
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -5269,27 +5269,34 @@ Width: 1147
 Flags: W
 Ref: 99 99 N 1 0 0 1 0 0
 Ref: 180 180 N 1 0 0 1 94 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' c acutecomb
 EndChar
 StartChar: Ccircumflex
 Encoding: 264 264 253
-Width: 2048
-Colour: ffff00
+Width: 1567
+Flags: HW
+Ref: 65542 -1 N 1 0 0 1 317 373
+Ref: 67 67 N 1 0 0 1 0 0
 EndChar
 StartChar: ccircumflex
 Encoding: 265 265 254
-Width: 2048
-Colour: ffff00
+Width: 1147
+Ref: 710 710 N 1 0 0 1 104 0
+Ref: 99 99 N 1 0 0 1 0 0
 EndChar
 StartChar: Cdotaccent
 Encoding: 266 266 255
-Width: 2048
-Colour: ffff00
+Width: 1567
+Flags: H
+Ref: 65546 -1 N 1 0 0 1 317 373
+Ref: 67 67 N 1 0 0 1 0 0
 EndChar
 StartChar: cdotaccent
 Encoding: 267 267 256
-Width: 2048
-Colour: ffff00
+Width: 1147
+Ref: 729 729 N 1 0 0 1 104 0
+Ref: 99 99 N 1 0 0 1 0 0
 EndChar
 StartChar: Ccaron
 Encoding: 268 268 253
@@ -5427,42 +5434,48 @@ Ref: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Ebreve
 Encoding: 276 276 258
-Width: 2048
-Colour: ffff00
+Width: 1495
+Flags: H
+Ref: 65545 -1 N 1 0 0 1 236 373
+Ref: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: ebreve
 Encoding: 277 277 259
-Width: 2048
-Colour: ffff00
+Width: 1212
+Ref: 728 728 N 1 0 0 1 94 0
+Ref: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Edotaccent
 Encoding: 278 278 260
-Width: 2048
-Colour: ffff00
+Width: 1495
+Flags: HW
+Ref: 65546 -1 N 1 0 0 1 236 373
+Ref: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: edotaccent
 Encoding: 279 279 261
-Width: 2048
-Colour: ffff00
+Width: 1212
+Ref: 729 729 N 1 0 0 1 94 0
+Ref: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Eogonek
 Encoding: 280 280 256
 Width: 1495
-Flags: HW
+Flags: W
 Ref: 731 731 N 1 0 0 1 625 0
 Ref: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: eogonek
 Encoding: 281 281 257
 Width: 1212
-Flags: HW
+Flags: W
 Ref: 731 731 N 1 0 0 1 261 0
 Ref: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Ecaron
 Encoding: 282 282 256
 Width: 1495
-Flags: HW
+Flags: W
 Ref: 69 69 N 1 0 0 1 0 0
 Ref: 65543 -1 N 1 0 0 1 309 373
 KernsSLIF: 45 38 0 0
@@ -5480,13 +5493,16 @@ Ligature: 0 0 'liga' e uni030C
 EndChar
 StartChar: Gcircumflex
 Encoding: 284 284 258
-Width: 2048
-Colour: ffff00
+Width: 1636
+Ref: 65542 -1 N 1 0 0 1 344 373
+Ref: 71 71 N 1 0 0 1 0 0
 EndChar
 StartChar: gcircumflex
 Encoding: 285 285 259
-Width: 2048
-Colour: ffff00
+Width: 1311
+Flags: H
+Ref: 710 710 N 1 0 0 1 92 0
+Ref: 103 103 N 1 0 0 1 0 0
 EndChar
 StartChar: Gbreve
 Encoding: 286 286 246
@@ -5504,17 +5520,21 @@ Width: 1311
 Flags: W
 Ref: 103 103 N 1 0 0 1 0 0
 Ref: 728 728 N 1 0 0 1 143 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' g uni0306
 EndChar
 StartChar: Gdotaccent
 Encoding: 288 288 248
-Width: 2048
-Colour: ffff00
+Width: 1636
+Flags: H
+Ref: 65546 -1 N 1 0 0 1 344 373
+Ref: 71 71 N 1 0 0 1 0 0
 EndChar
 StartChar: gdotaccent
 Encoding: 289 289 249
-Width: 2048
-Colour: ffff00
+Width: 1311
+Ref: 729 729 N 1 0 0 1 92 0
+Ref: 103 103 N 1 0 0 1 0 0
 EndChar
 StartChar: Gcommaaccent
 Encoding: 290 290 248
@@ -5528,23 +5548,30 @@ Colour: ff00
 EndChar
 StartChar: Hcircumflex
 Encoding: 292 292 250
-Width: 2048
-Colour: ffff00
+Width: 1786
+Flags: H
+Ref: 65542 -1 N 1 0 0 1 381 373
+Ref: 72 72 N 1 0 0 1 0 0
 EndChar
 StartChar: hcircumflex
 Encoding: 293 293 251
-Width: 2048
-Colour: ffff00
+Width: 1319
+Flags: H
+Ref: 65542 -1 N 1 0 0 1 -254 373
+Ref: 104 104 N 1 0 0 1 0 0
 EndChar
 StartChar: Itilde
 Encoding: 296 296 252
-Width: 2048
-Colour: ffff00
+Width: 809
+Flags: H
+Ref: 65540 -1 N 1 0 0 1 -108 373
+Ref: 73 73 N 1 0 0 1 0 0
 EndChar
 StartChar: itilde
 Encoding: 297 297 253
-Width: 2048
-Colour: ffff00
+Width: 655
+Ref: 732 732 N 1 0 0 1 -185 0
+Ref: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: Imacron
 Encoding: 298 298 250
@@ -5562,13 +5589,17 @@ Ref: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: Ibreve
 Encoding: 300 300 252
-Width: 2048
-Colour: ffff00
+Width: 809
+Flags: H
+Ref: 65545 -1 N 1 0 0 1 -108 373
+Ref: 73 73 N 1 0 0 1 0 0
 EndChar
 StartChar: ibreve
 Encoding: 301 301 253
-Width: 2048
-Colour: ffff00
+Width: 655
+Flags: H
+Ref: 728 728 N 1 0 0 1 -185 0
+Ref: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: Idotaccent
 Encoding: 304 304 248
@@ -5602,13 +5633,17 @@ EndSplineSet
 EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 215
-Width: 2048
-Colour: ffff00
+Width: 821
+Flags: H
+Ref: 65542 -1 N 1 0 0 1 -98 373
+Ref: 74 74 N 1 0 0 1 0 0
 EndChar
 StartChar: jcircumflex
 Encoding: 309 309 216
-Width: 2048
-Colour: ffff00
+Width: 635
+Flags: HW
+Ref: 710 710 N 1 0 0 1 -250 0
+Ref: 567 567 N 1 0 0 1 0 0
 EndChar
 StartChar: Kcommaaccent
 Encoding: 310 310 215
@@ -5811,23 +5846,31 @@ Ref: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: Obreve
 Encoding: 334 334 231
-Width: 2048
-Colour: ffff00
+Width: 1679
+Flags: H
+Ref: 65545 -1 N 1 0 0 1 328 373
+Ref: 79 79 N 1 0 0 1 0 0
 EndChar
 StartChar: obreve
 Encoding: 335 335 232
-Width: 2048
-Colour: ffff00
+Width: 1233
+Flags: H
+Ref: 728 728 N 1 0 0 1 104 0
+Ref: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: Ohungarumlaut
 Encoding: 336 336 231
-Width: 2048
-Colour: ffff00
+Width: 1679
+Flags: HW
+Ref: 65547 -1 N 1 0 0 1 328 373
+Ref: 79 79 N 1 0 0 1 0 0
 EndChar
 StartChar: ohungarumlaut
 Encoding: 337 337 232
-Width: 2048
-Colour: ffff00
+Width: 1233
+Flags: HW
+Ref: 733 733 N 1 0 0 1 168 0
+Ref: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: OE
 Encoding: 338 338 176
@@ -5966,26 +6009,30 @@ EndChar
 StartChar: Sacute
 Encoding: 346 346 180
 Width: 1403
-Flags: HW
+Flags: W
 Ref: 65539 -1 N 1 0 0 1 257 374
 Ref: 83 83 N 1 0 0 1 0 0
 EndChar
 StartChar: sacute
 Encoding: 347 347 181
 Width: 1051
-Flags: HW
+Flags: W
 Ref: 180 180 N 1 0 0 1 75 -48
 Ref: 115 115 N 1 0 0 1 0 0
 EndChar
 StartChar: Scircumflex
 Encoding: 348 348 182
-Width: 2048
-Colour: ffff00
+Width: 1403
+Flags: H
+Ref: 65542 -1 N 1 0 0 1 190 373
+Ref: 83 83 N 1 0 0 1 0 0
 EndChar
 StartChar: scircumflex
 Encoding: 349 349 183
-Width: 2048
-Colour: ffff00
+Width: 1051
+Flags: H
+Ref: 710 710 N 1 0 0 1 14 0
+Ref: 115 115 N 1 0 0 1 0 0
 EndChar
 StartChar: Scedilla
 Encoding: 350 350 249
@@ -6056,13 +6103,17 @@ Ligature: 0 0 'liga' t uni030C
 EndChar
 StartChar: Utilde
 Encoding: 360 360 231
-Width: 2048
-Colour: ffff00
+Width: 1726
+Flags: H
+Ref: 65540 -1 N 1 0 0 1 391 373
+Ref: 85 85 N 1 0 0 1 0 0
 EndChar
 StartChar: utilde
 Encoding: 361 361 232
-Width: 2048
-Colour: ffff00
+Width: 1319
+Flags: H
+Ref: 732 732 N 1 0 0 1 72 0
+Ref: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Umacron
 Encoding: 362 362 231
@@ -6076,18 +6127,22 @@ Colour: ffff00
 EndChar
 StartChar: Ubreve
 Encoding: 364 364 233
-Width: 2048
-Colour: ffff00
+Width: 1726
+Flags: H
+Ref: 65545 -1 N 1 0 0 1 391 373
+Ref: 85 85 N 1 0 0 1 0 0
 EndChar
 StartChar: ubreve
 Encoding: 365 365 234
-Width: 2048
-Colour: ffff00
+Width: 1319
+Flags: H
+Ref: 728 728 N 1 0 0 1 72 0
+Ref: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Uring
 Encoding: 366 366 231
 Width: 1726
-Flags: HW
+Flags: W
 Ref: 85 85 N 1 0 0 1 0 0
 Ref: 730 730 N 1 0 0 1 365 355
 KernsSLIF: 193 -63 0 0 194 -63 0 0 195 -63 0 0 192 -63 0 0 196 -63 0 0 74 -55 0 0 65 -63 0 0 59 -73 0 0 58 -73 0 0 46 -188 0 0 45 -36 0 0 44 -188 0 0
@@ -6105,25 +6160,27 @@ Ligature: 0 0 'liga' u uni030A
 EndChar
 StartChar: Uhungarumlaut
 Encoding: 368 368 233
-Width: 2048
-Colour: ffff00
+Width: 1726
+Flags: HW
+Ref: 65547 -1 N 1 0 0 1 391 373
+Ref: 85 85 N 1 0 0 1 0 0
 EndChar
 StartChar: uhungarumlaut
 Encoding: 369 369 234
-Width: 2048
-Colour: ffff00
+Width: 1319
+Flags: H
+Ref: 733 733 N 1 0 0 1 114 0
+Ref: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Wcircumflex
 Encoding: 372 372 229
 Width: 2105
-Flags: H
 Ref: 710 710 N 1 0 0 1 542.5 380
 Ref: 87 87 N 1 0 0 1 0 0
 EndChar
 StartChar: wcircumflex
 Encoding: 373 373 230
 Width: 1753
-Flags: H
 Ref: 710 710 N 1 0 0 1 367.5 -48
 Ref: 119 119 N 1 0 0 1 0 0
 KernsSLIF: 44 -307 0 0 46 -274 0 0 373 261 0 0 122 179 0 0 121 205 0 0 120 174 0 0 119 166 0 0 118 205 0 0 117 144 0 0 116 235 0 0 115 155 0 0 114 125 0 0 113 97 0 0 112 140 0 0 111 85 0 0 110 125 0 0 109 125 0 0 106 218 0 0 105 220 0 0 103 97 0 0 102 220 0 0 101 86 0 0 100 97 0 0 99 85 0 0 97 110 0 0
@@ -6370,6 +6427,31 @@ StartChar: uni0233
 Encoding: 563 563 182
 Width: 2048
 Colour: ffff00
+EndChar
+StartChar: uni0237
+Encoding: 567 567 173
+Width: 635
+Flags: W
+HStem: -455 99<58 92> 956 107<76 250>
+VStem: 250 184<-104 956>
+Fore
+250 956 m 1,0,-1
+ 76 956 l 1,1,-1
+ 76 1063 l 1,2,-1
+ 434 1063 l 1,3,-1
+ 434 -104 l 2,4,5
+ 434 -268 434 -268 336.5 -361.5 c 128,-1,6
+ 239 -455 239 -455 68 -455 c 0,7,8
+ -4 -455 -4 -455 -69.5 -438.5 c 128,-1,9
+ -135 -422 -135 -422 -197 -389 c 1,10,-1
+ -197 -170 l 1,11,-1
+ -102 -170 l 1,12,13
+ -95 -266 -95 -266 -52.5 -311 c 128,-1,14
+ -10 -356 -10 -356 72 -356 c 0,15,16
+ 163 -356 163 -356 206.5 -294.5 c 128,-1,17
+ 250 -233 250 -233 250 -104 c 2,18,-1
+ 250 956 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0250
 Encoding: 592 592 173
@@ -10944,7 +11026,7 @@ Fore
  455 1638 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: c6459
+StartChar: Dieresis
 Encoding: 65538 -1 259
 Width: 1024
 Flags: W
@@ -10973,7 +11055,7 @@ Fore
  659 1511 659 1511 707 1511 c 0,12,13
 EndSplineSet
 EndChar
-StartChar: c6460
+StartChar: Acute
 Encoding: 65539 -1 260
 Width: 1024
 Flags: W
@@ -10989,7 +11071,7 @@ Fore
  575 1526 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: c6461
+StartChar: Tilde
 Encoding: 65540 -1 261
 Width: 1024
 Flags: W
@@ -11024,7 +11106,7 @@ Fore
  499 1342 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: c6462
+StartChar: Grave
 Encoding: 65541 -1 262
 Width: 1024
 Flags: W
@@ -11040,7 +11122,7 @@ Fore
  442 1526 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: c6463
+StartChar: Circumflex
 Encoding: 65542 -1 263
 Width: 1024
 Flags: W
@@ -11059,7 +11141,7 @@ Fore
  424 1526 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: c6466
+StartChar: Caron
 Encoding: 65543 -1 264
 Width: 1024
 Flags: W
@@ -11078,7 +11160,7 @@ Fore
  424 1262 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: c6467
+StartChar: foursuperior
 Encoding: 65544 -1 265
 Width: 821
 Flags: W
@@ -11109,7 +11191,7 @@ Fore
  739 668 l 1,3,-1
 EndSplineSet
 EndChar
-StartChar: c6468
+StartChar: Breve
 Encoding: 65545 -1 266
 Width: 1024
 Flags: W
@@ -11131,7 +11213,7 @@ Fore
  221 1410 221 1410 201 1528 c 1,0,-1
 EndSplineSet
 EndChar
-StartChar: c6469
+StartChar: Dotaccent
 Encoding: 65546 -1 267
 Width: 1024
 Flags: W
@@ -11149,6 +11231,42 @@ Fore
  395 1443 395 1443 430 1478 c 128,-1,11
  465 1513 465 1513 512 1513 c 0,0,1
 EndSplineSet
+EndChar
+StartChar: Hungarumlaut
+Encoding: 65547 -1 268
+Width: 1024
+Flags: W
+Fore
+743 1526 m 1,0,-1
+ 940 1526 l 1,1,-1
+ 678 1262 l 1,2,-1
+ 561 1262 l 1,3,-1
+ 743 1526 l 1,0,-1
+426 1526 m 1,4,-1
+ 623 1526 l 1,5,-1
+ 361 1262 l 1,6,-1
+ 244 1262 l 1,7,-1
+ 426 1526 l 1,4,-1
+EndSplineSet
+Colour: ffff00
+EndChar
+StartChar: Doubleacute
+Encoding: 65548 -1 269
+Width: 1024
+Flags: W
+Fore
+281 1526 m 1,0,-1
+ 84 1526 l 1,1,-1
+ 346 1262 l 1,2,-1
+ 463 1262 l 1,3,-1
+ 281 1526 l 1,0,-1
+598 1526 m 1,4,-1
+ 401 1526 l 1,5,-1
+ 663 1262 l 1,6,-1
+ 780 1262 l 1,7,-1
+ 598 1526 l 1,4,-1
+EndSplineSet
+Colour: ffff00
 EndChar
 EndChars
 EndSplineFont
