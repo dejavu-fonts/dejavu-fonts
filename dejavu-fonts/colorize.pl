@@ -6,7 +6,7 @@
 # (c)2004 Stepan Roh
 # usage: ./colorize.pl color sfd_files+ < glyph_codes_file
 #  will create files with suffix .color
-#  color is either yellow, green or hexadecimal 24bit value (0xff0000 is red)
+#  color is either none, yellow, green or hexadecimal 24bit value (0xff0000 is red)
 #  glyph_codes_file should contain codes of glyphs to be colored delimited by whitespace and/or commas
 #  - glyph codes are U+nnnn (nnnn is hexadecimal)
 #  - syntax for code ranges: U+nnnn-U+nnnn (no whitespace inside)
@@ -21,6 +21,8 @@ sub decode_color($) {
     return "0xffff00";
   } elsif ($color eq 'green' || $color eq 'req') {
     return "0x00ff00";
+  } elsif ($color eq 'none') {
+    return -2;
   }
   return $color;
 }
