@@ -4,7 +4,7 @@ FullName: DejaVu Sans Mono Bold
 FamilyName: DejaVu Sans Mono
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes by Stepan Roh are in public domain\n
-Version: Release 1.10 (DejaVu 1.3)
+Version: Release 1.10 (DejaVu 1.4)
 ItalicAngle: 0
 UnderlinePosition: -221
 UnderlineWidth: 246
@@ -21,8 +21,15 @@ LineGap: 410
 VLineGap: 0
 OS2TypoAscent: 1556
 OS2TypoDescent: -492
+OS2TypoLinegap: 0
 OS2WinAscent: 1901
+OS2WinAOffset: 1
 OS2WinDescent: 483
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
 ScriptLang: 2
  1 DFLT 1 dflt 
  1 latn 1 dflt 
@@ -67,14 +74,14 @@ EndTtf
 TtfTable: maxp 32
 !!*'"!=]$'!!`Km!!E9'!"],q!!`K("0Vk&!!<3%
 EndTtf
-LangName: 1033 "" "" "" "DejaVu Sans Mono Bold" "" "Release 1.10 (DejaVu 1.3)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
+LangName: 1033 "" "" "" "DejaVu Sans Mono Bold" "" "Release 1.10 (DejaVu 1.4)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
 Encoding: unicode
 UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 39 39 16
-BeginChars: 65554 286
+WinInfo: 0 39 16
+BeginChars: 65554 312
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1233
@@ -4711,6 +4718,20 @@ Ref: 121 121 N 1 0 0 1 0 0
 Ref: 168 168 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' y uni0308
 EndChar
+StartChar: Aogonek
+Encoding: 260 260 65535
+Width: 1233
+Flags: HW
+Ref: 731 731 S 1 0 0 1 355 0
+Ref: 65 65 N 1 0 0 1 0 0
+EndChar
+StartChar: aogonek
+Encoding: 261 261 65535
+Width: 1233
+Flags: HW
+Ref: 731 731 S 1 0 0 1 258 0
+Ref: 97 97 N 1 0 0 1 0 0
+EndChar
 StartChar: Cacute
 Encoding: 262 262 251
 Width: 1233
@@ -4804,6 +4825,20 @@ Fore
  491 903 491 903 437 811 c 128,-1,36
  383 719 383 719 383 557 c 0,25,26
 EndSplineSet
+EndChar
+StartChar: Eogonek
+Encoding: 280 280 65535
+Width: 1233
+Flags: HW
+Ref: 731 731 S 1 0 0 1 225 0
+Ref: 69 69 N 1 0 0 1 0 0
+EndChar
+StartChar: eogonek
+Encoding: 281 281 65535
+Width: 1233
+Flags: HW
+Ref: 731 731 S 1 0 0 1 231 0
+Ref: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Ecaron
 Encoding: 282 282 256
@@ -4979,6 +5014,20 @@ Fore
  410 216 410 216 410 467 c 2,0,-1
 EndSplineSet
 EndChar
+StartChar: Nacute
+Encoding: 323 323 65535
+Width: 1233
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 31 374
+Ref: 78 78 N 1 0 0 1 0 0
+EndChar
+StartChar: nacute
+Encoding: 324 324 65535
+Width: 1233
+Flags: HW
+Ref: 180 180 S 1 0 0 1 -1.5 7
+Ref: 110 110 N 1 0 0 1 0 0
+EndChar
 StartChar: Ncaron
 Encoding: 327 327 227
 Width: 1233
@@ -5097,8 +5146,9 @@ StartChar: racute
 Encoding: 341 341 179
 Width: 1233
 Flags: H
-Ref: 180 180 N 1 0 0 1 153.5 7
+Ref: 180 180 S 1 0 0 1 153.5 7
 Ref: 114 114 N 1 0 0 1 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' r acutecomb
 EndChar
 StartChar: Rcaron
@@ -5118,6 +5168,20 @@ Ref: 114 114 N 1 0 0 1 0 0
 Ref: 711 711 N 1 0 0 1 102 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' r uni030C
+EndChar
+StartChar: Sacute
+Encoding: 346 346 65535
+Width: 1233
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 31 374
+Ref: 83 83 N 1 0 0 1 0 0
+EndChar
+StartChar: sacute
+Encoding: 347 347 65535
+Width: 1233
+Flags: HW
+Ref: 180 180 S 1 0 0 1 -1.5 7
+Ref: 115 115 N 1 0 0 1 0 0
 EndChar
 StartChar: Scedilla
 Encoding: 350 350 249
@@ -5222,6 +5286,34 @@ Flags: W
 Ref: 89 89 N 1 0 0 1 0 0
 Ref: 65538 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' Y uni0308
+EndChar
+StartChar: Zacute
+Encoding: 377 377 65535
+Width: 1233
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 31 374
+Ref: 90 90 N 1 0 0 1 0 0
+EndChar
+StartChar: zacute
+Encoding: 378 378 65535
+Width: 1233
+Flags: HW
+Ref: 180 180 S 1 0 0 1 -1.5 7
+Ref: 122 122 N 1 0 0 1 0 0
+EndChar
+StartChar: Zdotaccent
+Encoding: 379 379 65535
+Width: 1233
+Flags: HW
+Ref: 729 729 S 1 0 0 1 40 365
+Ref: 90 90 N 1 0 0 1 0 0
+EndChar
+StartChar: zdotaccent
+Encoding: 380 380 65535
+Width: 1233
+Flags: HW
+Ref: 729 729 S 1 0 0 1 35 0
+Ref: 122 122 N 1 0 0 1 0 0
 EndChar
 StartChar: Zcaron
 Encoding: 381 381 229

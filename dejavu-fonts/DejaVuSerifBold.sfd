@@ -4,7 +4,7 @@ FullName: DejaVu Serif Bold
 FamilyName: DejaVu Serif
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes by Stepan Roh are in public domain\n
-Version: Release 1.10 (DejaVu 1.3)
+Version: Release 1.10 (DejaVu 1.4)
 ItalicAngle: 0
 UnderlinePosition: -217
 UnderlineWidth: 240
@@ -21,8 +21,15 @@ LineGap: 410
 VLineGap: 0
 OS2TypoAscent: 1556
 OS2TypoDescent: -492
+OS2TypoLinegap: 0
 OS2WinAscent: 1923
+OS2WinAOffset: 1
 OS2WinDescent: 483
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
 ScriptLang: 2
  1 latn 1 dflt 
  1 DFLT 1 dflt 
@@ -70,14 +77,14 @@ EndTtf
 TtfTable: maxp 32
 !!*'"!=Ss.!!`Ko!!E9'!"],q!!`K("=jY*!!<3%
 EndTtf
-LangName: 1033 "" "" "" "DejaVu Serif Bold" "" "Release 1.10 (DejaVu 1.3)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
+LangName: 1033 "" "" "" "DejaVu Serif Bold" "" "Release 1.10 (DejaVu 1.4)" "" "Bitstream Vera is a trademark of Bitstream, Inc." "Bitstream Inc." "" "" "http://www.bitstream.com" "" "Copyright (c) 2003 by Bitstream, Inc.+AA0ACgAA-All Rights Reserved.+AA0ACgAA-Bitstream Vera is a trademark of Bitstream, Inc.+AA0ACgANAAoA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AA0ACgANAAoA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AA0ACgANAAoA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the w" 
 Encoding: unicode
 UnicodeInterp: none
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 39 39 9
-BeginChars: 65553 285
+WinInfo: 0 39 16
+BeginChars: 65553 311
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -5191,6 +5198,20 @@ Ref: 168 168 N 1 0 0 1 84 0
 KernsSLIF: 8217 75 0 0 8216 75 0 0 8221 75 0 0 8220 75 0 0 46 -235 0 0 44 -196 0 0
 Ligature: 0 0 'liga' y uni0308
 EndChar
+StartChar: Aogonek
+Encoding: 260 260 65535
+Width: 1589
+Flags: HW
+Ref: 731 731 S 1 0 0 1 475 0
+Ref: 65 65 N 1 0 0 1 0 0
+EndChar
+StartChar: aogonek
+Encoding: 261 261 65535
+Width: 1327
+Flags: HW
+Ref: 731 731 S 1 0 0 1 336 0
+Ref: 97 97 N 1 0 0 1 0 0
+EndChar
 StartChar: Cacute
 Encoding: 262 262 251
 Width: 1630
@@ -5293,6 +5314,20 @@ Fore
  1233 121 l 1,13,-1
 EndSplineSet
 EndChar
+StartChar: Eogonek
+Encoding: 280 280 65535
+Width: 1561
+Flags: HW
+Ref: 731 731 S 1 0 0 1 710 0
+Ref: 69 69 N 1 0 0 1 0 0
+EndChar
+StartChar: eogonek
+Encoding: 281 281 65535
+Width: 1303
+Flags: HW
+Ref: 731 731 S 1 0 0 1 328 0
+Ref: 101 101 N 1 0 0 1 0 0
+EndChar
 StartChar: Ecaron
 Encoding: 282 282 256
 Width: 1561
@@ -5364,9 +5399,9 @@ Width: 1440
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 54 374
 Ref: 76 76 N 1 0 0 1 0 0
+KernsSLIF: 8220 -491 0 0 376 -131 0 0 8216 -491 0 0 85 -112 0 0 84 -167 0 0 87 -139 0 0 86 -243 0 0 89 -131 0 0 356 -167 0 0 220 -112 0 0 8221 -491 0 0 218 -112 0 0 255 -73 0 0 366 -112 0 0 8217 -491 0 0 217 -112 0 0 253 -73 0 0 121 -73 0 0 219 -112 0 0 221 -131 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' L acutecomb
-KernsSLIF: 8220 -491 0 0 376 -131 0 0 8216 -491 0 0 85 -112 0 0 84 -167 0 0 87 -139 0 0 86 -243 0 0 89 -131 0 0 356 -167 0 0 220 -112 0 0 8221 -491 0 0 218 -112 0 0 255 -73 0 0 366 -112 0 0 8217 -491 0 0 217 -112 0 0 253 -73 0 0 121 -73 0 0 219 -112 0 0 221 -131 0 0
 EndChar
 StartChar: lacute
 Encoding: 314 314 216
@@ -5383,9 +5418,9 @@ Width: 1440
 Flags: HW
 Ref: 65537 -1 S 1 0 0 1 701 -145
 Ref: 76 76 N 1 0 0 1 0 0
+KernsSLIF: 8220 -491 0 0 376 -131 0 0 8216 -491 0 0 85 -112 0 0 84 -167 0 0 87 -139 0 0 86 -243 0 0 89 -131 0 0 356 -167 0 0 220 -112 0 0 8221 -491 0 0 218 -112 0 0 255 -73 0 0 366 -112 0 0 8217 -491 0 0 217 -112 0 0 253 -73 0 0 121 -73 0 0 219 -112 0 0 221 -131 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' L uni030C
-KernsSLIF: 8220 -491 0 0 376 -131 0 0 8216 -491 0 0 85 -112 0 0 84 -167 0 0 87 -139 0 0 86 -243 0 0 89 -131 0 0 356 -167 0 0 220 -112 0 0 8221 -491 0 0 218 -112 0 0 255 -73 0 0 366 -112 0 0 8217 -491 0 0 217 -112 0 0 253 -73 0 0 121 -73 0 0 219 -112 0 0 221 -131 0 0
 EndChar
 StartChar: lcaron
 Encoding: 318 318 216
@@ -5479,6 +5514,20 @@ Fore
  580 858 l 1,17,-1
  580 121 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: Nacute
+Encoding: 323 323 65535
+Width: 1872
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 428 374
+Ref: 78 78 N 1 0 0 1 0 0
+EndChar
+StartChar: nacute
+Encoding: 324 324 65535
+Width: 1489
+Flags: HW
+Ref: 180 180 S 1 0 0 1 151.5 -48
+Ref: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: Ncaron
 Encoding: 327 327 227
@@ -5605,18 +5654,19 @@ Width: 1702
 Flags: HW
 Ref: 65539 -1 S 1 0 0 1 374 374
 Ref: 82 82 N 1 0 0 1 0 0
+KernsSLIF: 248 38 0 0 229 47 0 0 230 47 0 0 224 47 0 0 376 -63 0 0 225 47 0 0 226 47 0 0 84 -36 0 0 87 -45 0 0 86 -73 0 0 89 -63 0 0 228 47 0 0 356 -36 0 0 97 47 0 0 8221 -73 0 0 255 -36 0 0 8217 -73 0 0 253 -36 0 0 227 47 0 0 121 -36 0 0 221 -63 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' R acutecomb
-KernsSLIF: 248 38 0 0 229 47 0 0 230 47 0 0 224 47 0 0 376 -63 0 0 225 47 0 0 226 47 0 0 84 -36 0 0 87 -45 0 0 86 -73 0 0 89 -63 0 0 228 47 0 0 356 -36 0 0 97 47 0 0 8221 -73 0 0 255 -36 0 0 8217 -73 0 0 253 -36 0 0 227 47 0 0 121 -36 0 0 221 -63 0 0
 EndChar
 StartChar: racute
 Encoding: 341 341 179
 Width: 1079
 Flags: H
-Ref: 180 180 N 1 0 0 1 151.5 -48
+Ref: 180 180 S 1 0 0 1 151.5 -48
 Ref: 114 114 N 1 0 0 1 0 0
-Ligature: 0 0 'liga' r acutecomb
 KernsSLIF: 8217 75 0 0 8221 75 0 0 44 -149 0 0 8220 75 0 0 46 -188 0 0 8216 75 0 0
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 0 'liga' r acutecomb
 EndChar
 StartChar: Rcaron
 Encoding: 344 344 178
@@ -5637,6 +5687,20 @@ Ref: 711 711 N 1 0 0 1 152 0
 KernsSLIF: 8217 75 0 0 8216 75 0 0 8221 75 0 0 8220 75 0 0 46 -188 0 0 44 -149 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' r uni030C
+EndChar
+StartChar: Sacute
+Encoding: 346 346 65535
+Width: 1479
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 374 374
+Ref: 83 83 N 1 0 0 1 0 0
+EndChar
+StartChar: sacute
+Encoding: 347 347 65535
+Width: 1153
+Flags: HW
+Ref: 180 180 S 1 0 0 1 151.5 -48
+Ref: 115 115 N 1 0 0 1 0 0
 EndChar
 StartChar: Scedilla
 Encoding: 350 350 249
@@ -5746,6 +5810,34 @@ Ref: 89 89 N 1 0 0 1 0 0
 Ref: 65538 -1 N 1 0 0 1 219 373
 KernsSLIF: 367 -178 0 0 283 -178 0 0 268 -36 0 0 262 -36 0 0 193 -131 0 0 194 -131 0 0 339 -178 0 0 195 -131 0 0 192 -131 0 0 248 -178 0 0 230 -159 0 0 252 -178 0 0 251 -178 0 0 249 -178 0 0 250 -178 0 0 245 -178 0 0 246 -178 0 0 244 -178 0 0 242 -178 0 0 243 -178 0 0 235 -178 0 0 234 -178 0 0 232 -178 0 0 233 -178 0 0 229 -159 0 0 227 -159 0 0 228 -159 0 0 226 -159 0 0 224 -159 0 0 225 -159 0 0 199 -36 0 0 196 -131 0 0 117 -178 0 0 111 -178 0 0 105 -36 0 0 101 -178 0 0 97 -159 0 0 67 -36 0 0 65 -131 0 0 59 -253 0 0 58 -253 0 0 46 -264 0 0 45 -206 0 0 44 -264 0 0
 Ligature: 0 0 'liga' Y uni0308
+EndChar
+StartChar: Zacute
+Encoding: 377 377 65535
+Width: 1495
+Flags: HW
+Ref: 65539 -1 S 1 0 0 1 374 374
+Ref: 90 90 N 1 0 0 1 0 0
+EndChar
+StartChar: zacute
+Encoding: 378 378 65535
+Width: 1163
+Flags: HW
+Ref: 180 180 S 1 0 0 1 151.5 -48
+Ref: 122 122 N 1 0 0 1 0 0
+EndChar
+StartChar: Zdotaccent
+Encoding: 379 379 65535
+Width: 1495
+Flags: HW
+Ref: 729 729 S 1 0 0 1 240 335
+Ref: 90 90 N 1 0 0 1 0 0
+EndChar
+StartChar: zdotaccent
+Encoding: 380 380 65535
+Width: 1163
+Flags: HW
+Ref: 729 729 S 1 0 0 1 76 -60
+Ref: 122 122 N 1 0 0 1 0 0
 EndChar
 StartChar: Zcaron
 Encoding: 381 381 229
