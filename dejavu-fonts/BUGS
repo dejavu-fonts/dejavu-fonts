@@ -12,4 +12,10 @@ Known bugs:
 - not reproducible on other system
 - reason unknown (looks like hinting is switched off for DejaVu)
 
+- misplaced accents in small sizes (10pt and below)
+- spotted with DejaVu TTF on Linux and Windows
+- reported by David Jez and Misu Moldovan
+- reproducible
+- probably bug in DejaVu's TT hinting
+
 $Id$
