@@ -1,5 +1,4 @@
-Information about QPF version of DejaVu
----------------------------------------
+Information about QPF version of DejaVu 1.5
 (by Vasek Stodulka)
 
 QPF fonts are used in QT/Embedded environments - Opie and Qtopia and maybe
@@ -78,5 +77,10 @@ DejaVu symbols perfectly. Opie Text Editor is utf-8 only, get some utf-8
 file with non latin-1 symbols and open it.
 - the most applications in present time Opie do not even try to support
 different encodings :(
+
+Plans:
+- divide the file into two files; one will contain normal sizes and the
+other will contain big sizes of font
+- make .ipks
 
 $Id$
