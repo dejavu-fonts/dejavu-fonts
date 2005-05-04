@@ -10,7 +10,7 @@
 #   colorized glyphs with content
 #   glyphs in monospaced face with different width
 #   monospaced font (with Mono in name) without indication in Panose (and vice-versa)
-#   ligature in colorized glyph (due to bug in FF it causes problems on Mac OS X)
+#   ligature in colorized glyph (due to bug in FF <20050502 it causes problems on Mac OS X)
 #   ligature in empty glyph
 #   W: ligature referencing colorized or missing glyphs
 #   different set of mapped content glyphs (first SFD file specified on command line is taken as an etalon)
