@@ -4,4 +4,4 @@
 
 mkdir generated
 ./generate.pe *.sfd
-./ttpostproc.me generated/*.ttf
+./ttpostproc.pl generated/*.ttf
