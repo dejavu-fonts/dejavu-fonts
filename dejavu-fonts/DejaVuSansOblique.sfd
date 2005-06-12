@@ -5293,13 +5293,17 @@ Ref: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: Iogonek
 Encoding: 302 302 254
-Width: 2048
-Colour: ffff00
+Width: 604
+Flags: HW
+Ref: 73 73 N 1 0 0 1 0 0
+Ref: 731 731 N 1 0 0 1 -328.098 13.2333
 EndChar
 StartChar: iogonek
 Encoding: 303 303 255
-Width: 2048
-Colour: ffff00
+Width: 569
+Flags: HW
+Ref: 105 105 N 1 0 0 1 0 0
+Ref: 731 731 N 1 0 0 1 -320.598 13.2333
 EndChar
 StartChar: Idotaccent
 Encoding: 304 304 248
@@ -5327,15 +5331,63 @@ EndSplineSet
 EndChar
 StartChar: IJ
 Encoding: 306 306 215
-Width: 2048
+Width: 1074
+Flags: HW
+Fore
+866.5 1486.5 m 1,0,-1
+ 1069.5 1486.5 l 1,1,-1
+ 798.5 97.5 l 2,2,3
+ 745.5 -173.5 745.5 -173.5 620 -295 c 128,-1,4
+ 494.5 -416.5 494.5 -416.5 268.5 -416.5 c 2,5,-1
+ 188.5 -416.5 l 1,6,-1
+ 221.5 -246.5 l 1,7,-1
+ 284.5 -246.5 l 2,8,9
+ 419.5 -246.5 419.5 -246.5 489.5 -169.5 c 128,-1,10
+ 559.5 -92.5 559.5 -92.5 596.5 97.5 c 2,11,-1
+ 866.5 1486.5 l 1,0,-1
+346 1493 m 1,0,-1
+ 549 1493 l 1,1,-1
+ 258 0 l 1,2,-1
+ 55 0 l 1,3,-1
+ 346 1493 l 1,0,-1
+EndSplineSet
 Ligature: 0 0 'liga' I J
-Colour: ffff00
 EndChar
 StartChar: ij
 Encoding: 307 307 216
-Width: 2048
+Width: 1004
+Flags: HW
+Fore
+733 1117 m 1,0,-1
+ 917 1117 l 1,1,-1
+ 696 -23 l 1,2,-1
+ 695 -28 l 2,3,4
+ 658 -219 658 -219 610 -290 c 0,5,6
+ 565 -357 565 -357 478.5 -393 c 128,-1,7
+ 392 -429 392 -429 274 -429 c 2,8,-1
+ 205 -429 l 1,9,-1
+ 235 -273 l 1,10,-1
+ 282 -273 l 2,11,12
+ 390 -273 390 -273 435.5 -228 c 128,-1,13
+ 481 -183 481 -183 512 -23 c 2,14,-1
+ 733 1117 l 1,0,-1
+819 1553 m 1,15,-1
+ 1003 1553 l 1,16,-1
+ 958 1320 l 1,17,-1
+ 774 1320 l 1,18,-1
+ 819 1553 l 1,15,-1
+375 1556 m 1,0,-1
+ 559 1556 l 1,1,-1
+ 514 1323 l 1,2,-1
+ 330 1323 l 1,3,-1
+ 375 1556 l 1,0,-1
+291 1120 m 1,4,-1
+ 475 1120 l 1,5,-1
+ 256 0 l 1,6,-1
+ 72 0 l 1,7,-1
+ 291 1120 l 1,4,-1
+EndSplineSet
 Ligature: 0 0 'liga' i j
-Colour: ffff00
 EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 215
@@ -5895,16 +5947,20 @@ Ref: 733 733 N 1 0 0 1 106 0
 Ref: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Uogonek
-Encoding: 370 370 65535
-Width: 2048
+Encoding: 370 370 235
+Width: 1499
+Flags: HW
 TeX: 0 0 0 0
-Colour: ffff00
+Ref: 85 85 N 1 0 0 1 0 0
+Ref: 731 731 N 1 0 0 1 119.402 -15.7667
 EndChar
 StartChar: uogonek
-Encoding: 371 371 65535
-Width: 2048
+Encoding: 371 371 236
+Width: 1298
+Flags: HW
 TeX: 0 0 0 0
-Colour: ffff00
+Ref: 117 117 N 1 0 0 1 0 0
+Ref: 731 731 N 1 0 0 1 514.902 0.233299
 EndChar
 StartChar: Wcircumflex
 Encoding: 372 372 211
