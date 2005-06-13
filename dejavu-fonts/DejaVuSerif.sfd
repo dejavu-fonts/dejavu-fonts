@@ -80,7 +80,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65553 862
+BeginChars: 65553 865
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -5540,13 +5540,17 @@ Ref: 103 103 N 1 0 0 1 0 0
 EndChar
 StartChar: Gcommaaccent
 Encoding: 290 290 248
-Width: 2048
-Colour: ff00
+Width: 1636
+Flags: HW
+Ref: 806 806 N 1 0 0 1 395 2
+Ref: 71 71 N 1 0 0 1 0 0
 EndChar
 StartChar: gcommaaccent
 Encoding: 291 291 249
-Width: 2048
-Colour: ff00
+Width: 1311
+Flags: HW
+Ref: 786 786 N 1 0 0 1 306 200
+Ref: 103 103 N 1 0 0 1 0 0
 EndChar
 StartChar: Hcircumflex
 Encoding: 292 292 250
@@ -5765,13 +5769,17 @@ Ref: 567 567 N 1 0 0 1 0 0
 EndChar
 StartChar: Kcommaaccent
 Encoding: 310 310 215
-Width: 2048
-Colour: ff00
+Width: 1530
+Flags: HW
+Ref: 806 806 N 1 0 0 1 372 31
+Ref: 75 75 N 1 0 0 1 0 0
 EndChar
 StartChar: kcommaaccent
 Encoding: 311 311 216
-Width: 2048
-Colour: ff00
+Width: 1241
+Flags: HW
+Ref: 806 806 N 1 0 0 1 197.5 31
+Ref: 107 107 N 1 0 0 1 0 0
 EndChar
 StartChar: kgreenlandic
 Encoding: 312 312 217
@@ -5799,13 +5807,17 @@ Ligature: 0 0 'liga' l acutecomb
 EndChar
 StartChar: Lcommaaccent
 Encoding: 315 315 217
-Width: 2048
-Colour: ff00
+Width: 1360
+Flags: HW
+Ref: 806 806 N 1 0 0 1 247 31
+Ref: 76 76 N 1 0 0 1 0 0
 EndChar
 StartChar: lcommaaccent
 Encoding: 316 316 218
-Width: 2048
-Colour: ff00
+Width: 655
+Flags: HW
+Ref: 806 806 N 1 0 0 1 -208.5 36
+Ref: 108 108 N 1 0 0 1 0 0
 EndChar
 StartChar: Lcaron
 Encoding: 317 317 215
@@ -5926,13 +5938,17 @@ Ref: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: Ncommaaccent
 Encoding: 325 325 229
-Width: 2048
-Colour: ff00
+Width: 1792
+Flags: HW
+Ref: 806 806 N 1 0 0 1 390.5 17
+Ref: 78 78 N 1 0 0 1 0 0
 EndChar
 StartChar: ncommaaccent
 Encoding: 326 326 230
-Width: 2048
-Colour: ff00
+Width: 1319
+Flags: HW
+Ref: 806 806 N 1 0 0 1 208 31
+Ref: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: Ncaron
 Encoding: 327 327 227
@@ -6124,6 +6140,22 @@ Ref: 114 114 N 1 0 0 1 0 0
 KernsSLIF: 44 -225 0 0 46 -225 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' r acutecomb
+EndChar
+StartChar: Rcommaaccent
+Encoding: 342 342 180
+Width: 1542
+Flags: HW
+TeX: 0 0 0 0
+Ref: 806 806 N 1 0 0 1 387 31
+Ref: 82 82 N 1 0 0 1 0 0
+EndChar
+StartChar: rcommaaccent
+Encoding: 343 343 181
+Width: 979
+Flags: HW
+TeX: 0 0 0 0
+Ref: 806 806 N 1 0 0 1 -203.5 31
+Ref: 114 114 N 1 0 0 1 0 0
 EndChar
 StartChar: Rcaron
 Encoding: 344 344 178
@@ -7189,6 +7221,22 @@ Fore
  762 1638 l 1,4,-1
 EndSplineSet
 Ligature: 0 1 'liga' space uni030B
+EndChar
+StartChar: uni0312
+Encoding: 786 786 223
+Width: 651
+Flags: HW
+TeX: 0 0 0 0
+Fore
+549 1440 m 1,0,1
+ 472 1376 472 1376 437.5 1291 c 128,-1,2
+ 403 1206 403 1206 403 1077 c 2,3,-1
+ 403 1014 l 1,4,-1
+ 209 1014 l 1,5,6
+ 210 1188 210 1188 272.5 1308.5 c 128,-1,7
+ 335 1429 335 1429 471 1520 c 1,8,-1
+ 549 1440 l 1,0,1
+EndSplineSet
 EndChar
 StartChar: uni0326
 Encoding: 806 806 223
