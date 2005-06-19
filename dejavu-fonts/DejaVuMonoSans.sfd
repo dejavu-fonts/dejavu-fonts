@@ -91,7 +91,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65552 866
+BeginChars: 65552 867
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1233
@@ -5773,6 +5773,28 @@ Flags: W
 Ref: 122 122 N 1 0 0 1 0 0
 Ref: 711 711 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' z uni030C
+EndChar
+StartChar: longs
+Encoding: 383 383 73
+Width: 1233
+Flags: HW
+Fore
+678.005 1219 m 17,0,0
+ 678 1322 678 1322 716.5 1362.5 c 128,-1,4
+ 755 1403 755 1403 854 1403 c 2,2,3
+ 1063 1403 l 1,1,-1
+ 1063 1556 l 1,0,-1
+ 842 1556 l 2,19,-1
+ 663 1556 663 1556 578.5 1469 c 128,-1,18
+ 494 1382 494 1382 494 1198 c 2,16,17
+ 494 1120 l 1,15,-1
+ 195 1120 l 1,14,-1
+ 195 977 l 1,13,-1
+ 494 977 l 1,12,-1
+ 494 0 l 1,11,-1
+ 678 0 l 1,10,-1
+ 678.005 1219 l 17,0,0
+EndSplineSet
 EndChar
 StartChar: florin
 Encoding: 402 402 166
