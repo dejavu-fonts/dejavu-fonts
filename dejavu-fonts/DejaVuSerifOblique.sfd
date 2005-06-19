@@ -80,7 +80,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65549 865
+BeginChars: 65549 868
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -6219,6 +6219,18 @@ Ref: 65537 -1 N 1 0 0 1 135.14 -25
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' t uni030C
 EndChar
+StartChar: Tbar
+Encoding: 358 358 65535
+Width: 2048
+TeX: 0 0 0 0
+Colour: ff00
+EndChar
+StartChar: tbar
+Encoding: 359 359 65535
+Width: 2048
+TeX: 0 0 0 0
+Colour: ff00
+EndChar
 StartChar: Utilde
 Encoding: 360 360 231
 Width: 1726
@@ -6417,7 +6429,7 @@ Ref: 711 711 N 1 0 0 1 29 0
 Ligature: 0 0 'liga' z uni030C
 EndChar
 StartChar: longs
-Encoding: 383 383 65535
+Encoding: 383 383 231
 Width: 758
 Flags: HW
 TeX: 0 0 0 0
@@ -6444,7 +6456,7 @@ Fore
  832.179 1458 832.179 1458 753.179 1458 c 0,4,5
  650.179 1458 650.179 1458 597.196 1401.5 c 128,-1,6
  544.213 1345 544.213 1345 516.028 1200 c 2,7,-1
- 303.376 106 l 1,8,-1
+ 303.376 106 l 1,12,-1
 EndSplineSet
 EndChar
 StartChar: florin
