@@ -17,8 +17,8 @@ sub postproc($) {
   $font = Font::TTF::Font->open($backup) || die "Unable to open font $backup : $!\n";
 
   # sort tables by their offset
-  @tlist = sort {$font->{$a}{' OFFSET'} <=> $font->{$b}{' OFFSET'}}
-    grep (length($_) == 4 && defined $font->{$_}, keys %$font) if ($#tlist < 0);
+  my @tlist = sort {$font->{$a}{' OFFSET'} <=> $font->{$b}{' OFFSET'}}
+    grep (length($_) == 4 && defined $font->{$_}, keys %$font);
   
   # head.flags:
   #      1 => baseline for font at y=0
