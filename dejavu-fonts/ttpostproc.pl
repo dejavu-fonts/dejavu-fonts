@@ -16,10 +16,6 @@ sub postproc($) {
 
   $font = Font::TTF::Font->open($backup) || die "Unable to open font $backup : $!\n";
 
-  # sort tables by their offset
-  my @tlist = sort {$font->{$a}{' OFFSET'} <=> $font->{$b}{' OFFSET'}}
-    grep (length($_) == 4 && defined $font->{$_}, keys %$font);
-  
   # head.flags:
   #      1 => baseline for font at y=0
   #      2 => left sidebearing point at x=0
@@ -37,9 +33,8 @@ sub postproc($) {
   #   range[1].rangeGaspBehavior = 3 (GASP_DOGRAY|GASP_GRIDFIT)
   $gasp_data = pack('nnnnnn', 0, 2, 8, 2, 0xffff, 3);
   $font->{'gasp'} = Font::TTF::Table->new(( 'dat' => $gasp_data ));
-  push (@tlist, 'gasp');
   
-  $font->out($file, @tlist) || die "Unable to write to $file : $!\n";
+  $font->out($file) || die "Unable to write to $file : $!\n";
   $font->release();
 }
 
