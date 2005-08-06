@@ -16,6 +16,7 @@
 #   Fore, Back, SplineSet, Grid
 #           - all points have 4 masked out from flags (selected)
 #   recalculate number of characters and positional encoding
+#   change Refer to backwards-compatible Ref
 
 # !!! Always review changes done by this utility !!!
 
@@ -36,6 +37,7 @@ sub process_sfd_file($) {
 
   while (<SFD>) {
     next if (/^(WinInfo|DisplaySize):/);
+    s,^Refer:,Ref:,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
     s,^(Ref:.*?)S(.*)$,$1N$2,;
     if (/^(Fore|Back|SplineSet|Grid)\s*$/) {
