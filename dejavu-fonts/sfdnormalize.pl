@@ -30,7 +30,7 @@ sub process_sfd_file($) {
   open (OUT, '>'.$out) || die "Unable to open $out : $!\n";
 
   my $curchar = '';
-  my $glyphs = ();
+  my %glyphs = ();
   my $in_spline_set = 0;
   my $max_dec_enc = 0;
 
