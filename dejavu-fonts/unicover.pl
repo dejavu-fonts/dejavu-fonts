@@ -25,8 +25,9 @@ if ($debug) {
   $Data::Dumper::Purity = 1;
 }
 
-# map (start dec => ( 'name' => block name, 'end' => end dec, 'coverage' => ( sfd_file => coverage ), 'disabled' => ( disabled chars map* ) )
+# map (start dec => ( 'name' => block name, 'end' => end dec, 'coverage' => ( sfd_file => coverage ), 'disabled_count' => number of disabled glyphs )
 %blocks = ();
+%chars = ();
 
 sub parse_blocks_file($) {
   my ($blocks_file) = @_;
@@ -49,8 +50,29 @@ sub disable_char($) {
   foreach $block_start (keys %blocks) {
     my ($block_end) = $blocks{$block_start}{'end'};
     if (($dec_enc >= $block_start) && ($dec_enc <= $block_end)) {
-      $blocks{$block_start}{'disabled'}{$dec_enc} = 1;
+      $blocks{$block_start}{'disabled_count'}++;
       last;
+    }
+  }
+}
+
+sub disable_char_range($$) {
+  my ($range_start, $range_end) = @_;
+
+  my $cur_enc = $range_start;
+  while ($cur_enc <= $range_end) {
+    my $cur_block_start = -1;
+    foreach $block_start (keys %blocks) {
+      my ($block_end) = $blocks{$block_start}{'end'};
+      if (($cur_enc >= $block_start) && ($cur_enc <= $block_end)) {
+        $cur_block_start = $block_start;
+        last;
+      }
+    }
+    return if ($cur_block_start == -1);
+    while (($cur_enc <= $range_end) && ($cur_enc <= $blocks{$cur_block_start}{'end'})) {
+      $blocks{$cur_block_start}{'disabled_count'}++;
+      $cur_enc++;
     }
   }
 }
@@ -59,11 +81,26 @@ sub parse_unicode_data_file($) {
   my ($ud_file) = @_;
 
   open (F, $ud_file) || die "Unable to open $ud_file : $!\n";
+  my $prev_enc = -1;
   while (<F>) {
     next if (/^\s*(#|$)/);
     my ($enc, $name) = split (/;/);
     $enc = hex ($enc);
+    if ($prev_enc + 1 < $enc) {
+      disable_char_range ($prev_enc + 1, $enc - 1);
+    }
     disable_char ($enc) if ($name =~ /^</);
+    $chars{$enc} = 1 if ($name !~ /^</);
+    $prev_enc = $enc;
+  }
+  # find last possible character
+  $last_enc = $prev_enc;
+  foreach $block_start (keys %blocks) {
+    my ($block_end) = $blocks{$block_start}{'end'};
+    $last_enc = $block_end if ($block_end > $last_enc);
+  }
+  if ($prev_enc + 1 <= $last_enc) {
+    disable_char_range ($prev_enc + 1, $last_enc);
   }
   close (F);
 }
@@ -74,7 +111,7 @@ sub inc_coverage($$) {
   foreach $block_start (keys %blocks) {
     my ($block_end) = $blocks{$block_start}{'end'};
     if (($dec_enc >= $block_start) && ($dec_enc <= $block_end)) {
-      if (!exists $blocks{$block_start}{'disabled'}{$dec_enc}) {
+      if (exists $chars{$dec_enc}) {
         $blocks{$block_start}{'coverage'}{$sfd_file}++;
       }
       last;
@@ -124,14 +161,14 @@ END
   foreach $block_start (sort { $a <=> $b } keys %blocks) {
     my ($block_end) = $blocks{$block_start}{'end'};
     my ($name) = $blocks{$block_start}{'name'};
-    my ($disabled) = scalar keys %{$blocks{$block_start}{'disabled'}};
+    my ($disabled) = $blocks{$block_start}{'disabled_count'};
     $disabled = 0 if (!defined $disabled);
     my ($length) = $block_end - $block_start + 1 - $disabled;
     printf "U+%04x %-40s", $block_start, $name;
     foreach $sfd_file (@sfd_files) {
       my ($coverage) = $blocks{$block_start}{'coverage'}{$sfd_file};
       $coverage = 0 if (!defined $coverage);
-      my ($percent) = $coverage/$length * 100;
+      my ($percent) = ($length != 0) ? ($coverage/$length * 100) : 0;
       if ($percent > 0) {
         printf " %3d%%", $percent;
       } else {
