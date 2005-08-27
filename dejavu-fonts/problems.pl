@@ -37,6 +37,7 @@ sub process_sfd_file($$) {
   my $is_empty = 1;
   my %content_glyphs = ();
   my @ligature_refs = ();
+  my %all_glyphs = ();
   open (SFD, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   while (<SFD>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
@@ -104,6 +105,10 @@ sub process_sfd_file($$) {
       if ($is_empty && $has_ligature) {
         print $sfd_file, ': empty ligature: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
       }
+      if (exists $all_glyphs{$dec_enc}) {
+        print $sfd_file, ': duplicate: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
+      }
+      $all_glyphs{$dec_enc} = 1;
     } elsif (/^FontName:\s*(.*?)\s*$/) {
       $fontname = $1;
       $is_mono_name = ($fontname =~ /mono/i);
