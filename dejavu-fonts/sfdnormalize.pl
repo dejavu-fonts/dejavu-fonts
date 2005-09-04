@@ -12,11 +12,14 @@
 #   DisplaySize
 #           - discarded
 #   Flags   - discarded O (open)
-#   Ref     - changed S (selected) to N (not selected)
+#   Refer   - changed S (selected) to N (not selected)
 #   Fore, Back, SplineSet, Grid
 #           - all points have 4 masked out from flags (selected)
 #   recalculate number of characters and positional encoding
-#   change Refer to backwards-compatible Ref
+# changes making it incompatible with FF older than (approx.) 20050728:
+#   Ref     - renamed to Refer
+#   KernsSLIF
+#           - renamed to KernsSLIFO
 
 # !!! Always review changes done by this utility !!!
 
@@ -34,12 +37,14 @@ sub process_sfd_file($) {
   my %glyphs = ();
   my $in_spline_set = 0;
   my $max_dec_enc = 0;
+  my %pos_glyphs_map = ();
 
   while (<SFD>) {
     next if (/^(WinInfo|DisplaySize):/);
-    s,^Refer:,Ref:,;
+    s,^Ref:,Refer:,;
+    s,^KernsSLIF:,KernsSLIFO:,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
-    s,^(Ref:.*?)S(.*)$,$1N$2,;
+    s,^(Refer:.*?)S(.*)$,$1N$2,;
     if (/^(Fore|Back|SplineSet|Grid)\s*$/) {
       $in_spline_set = 1;
     } elsif (/^EndSplineSet\s*$/) {
@@ -58,7 +63,27 @@ sub process_sfd_file($) {
         my $dec_enc = $glyphs{$glyph}{'dec_enc'};
         my $mapped_enc = $glyphs{$glyph}{'mapped_enc'};
         print OUT "Encoding: ", $dec_enc, " ", $mapped_enc, " ", $dec_enc, "\n";
-        print OUT @{$glyphs{$glyph}{'lines'}};
+        # recalculate references and kerning pairs
+        foreach $l (@{$glyphs{$glyph}{'lines'}}) {
+          $l =~ s/^(Refer:\s*)(\S+)/$1.(exists $pos_glyphs_map{$2} ? $pos_glyphs_map{$2} : (warn "Glyph $glyph ($dec_enc) has reference to unknown glyph position $2\n", $2))/e;
+          if ($l =~ /^KernsSLIFO:\s*(.*)$/) {
+            my @nums = split(/\s+/, $1);
+            if ((scalar (@nums) % 4) != 0) {
+              warn "Kerning definition in glyph $curchar ($dec_enc) is malformed and won't be remapped\n";
+            } else {
+              for (my $i = 0; $i < scalar (@nums); $i += 4) {
+                my $pos = $nums[$i];
+                if (exists $pos_glyphs_map{$pos}) {
+                  $nums[$i] = $pos_glyphs_map{$pos};
+                } else {
+                  warn "Glyph $glyph ($dec_enc) has kerning reference to unknown glyph position $pos\n";
+                }
+              }
+            }
+            $l = "KernsSLIFO: " . join(' ', @nums) . "\n";
+          }
+          print OUT $l;
+        }
         print OUT "EndChar\n";
         $pos++;
       }
@@ -78,6 +103,11 @@ sub process_sfd_file($) {
       $glyphs{$curchar}{'dec_enc'} = $dec_enc;
       $glyphs{$curchar}{'mapped_enc'} = $mapped_enc;
       $glyphs{$curchar}{'pos'} = $pos;
+      if (exists $pos_glyphs_map{$pos}) {
+        warn "Glyph $curchar ($dec_enc) has duplicate glyph position $pos - won't be remapped - possible output corruption!\n";
+      } else {
+        $pos_glyphs_map{$pos} = $dec_enc;
+      }
     } elsif (/^EndChar\s*$/) {
       $curchar = '';
     } else {

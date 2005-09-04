@@ -94,6 +94,7 @@ FitToEm: 1
 BeginChars: 65550 1205
 StartChar: .notdef
 Encoding: 0 -1 0
+AltUni: 0
 Width: 1233
 Flags: W
 TtfInstrs: 31
@@ -3638,9 +3639,9 @@ StartChar: onequarter
 Encoding: 188 188 188
 Width: 1233
 Flags: W
-Ref: 185 185 N 1 0 0 1 -258 156
-Ref: 65544 -1 N 1 0 0 1 0 0
-Ref: 65545 -1 N 1 0 0 1 184 -938
+Refer: 185 185 N 1 0 0 1 -258 156
+Refer: 65544 -1 N 1 0 0 1 0 0
+Refer: 65545 -1 N 1 0 0 1 184 -938
 Ligature: 0 0 'frac' one slash four
 Ligature: 0 0 'frac' one fraction four
 EndChar
@@ -3648,9 +3649,9 @@ StartChar: onehalf
 Encoding: 189 189 189
 Width: 1233
 Flags: W
-Ref: 185 185 N 1 0 0 1 -258 156
-Ref: 65544 -1 N 1 0 0 1 0 0
-Ref: 178 178 N 1 0 0 1 201 -938
+Refer: 185 185 N 1 0 0 1 -258 156
+Refer: 65544 -1 N 1 0 0 1 0 0
+Refer: 178 178 N 1 0 0 1 201 -938
 Ligature: 0 0 'frac' one slash two
 Ligature: 0 0 'frac' one fraction two
 EndChar
@@ -3658,9 +3659,9 @@ StartChar: threequarters
 Encoding: 190 190 190
 Width: 1233
 Flags: W
-Ref: 179 179 N 1 0 0 1 -227 156
-Ref: 65544 -1 N 1 0 0 1 0 0
-Ref: 65545 -1 N 1 0 0 1 184 -938
+Refer: 179 179 N 1 0 0 1 -227 156
+Refer: 65544 -1 N 1 0 0 1 0 0
+Refer: 65545 -1 N 1 0 0 1 184 -938
 Ligature: 0 0 'frac' three slash four
 Ligature: 0 0 'frac' three fraction four
 EndChar
@@ -3710,40 +3711,40 @@ StartChar: Agrave
 Encoding: 192 192 192
 Width: 1233
 Flags: W
-Ref: 65 65 N 1 0 0 1 0 0
-Ref: 65541 -1 N 1 0 0 1 0 373
+Refer: 65 65 N 1 0 0 1 0 0
+Refer: 65541 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' A gravecomb
 EndChar
 StartChar: Aacute
 Encoding: 193 193 193
 Width: 1233
 Flags: W
-Ref: 65 65 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 0 373
+Refer: 65 65 N 1 0 0 1 0 0
+Refer: 65539 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' A acutecomb
 EndChar
 StartChar: Acircumflex
 Encoding: 194 194 194
 Width: 1233
 Flags: W
-Ref: 65 65 N 1 0 0 1 0 0
-Ref: 65542 -1 N 1 0 0 1 0 373
+Refer: 65 65 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' A uni0302
 EndChar
 StartChar: Atilde
 Encoding: 195 195 195
 Width: 1233
 Flags: W
-Ref: 65 65 N 1 0 0 1 0 0
-Ref: 65540 -1 N 1 0 0 1 0 373
+Refer: 65 65 N 1 0 0 1 0 0
+Refer: 65540 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' A tildecomb
 EndChar
 StartChar: Adieresis
 Encoding: 196 196 196
 Width: 1233
 Flags: W
-Ref: 65 65 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 0 373
+Refer: 65 65 N 1 0 0 1 0 0
+Refer: 65538 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' A uni0308
 EndChar
 StartChar: Aring
@@ -3826,72 +3827,72 @@ StartChar: Ccedilla
 Encoding: 199 199 199
 Width: 1233
 Flags: W
-Ref: 67 67 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 100 0
+Refer: 67 67 N 1 0 0 1 0 0
+Refer: 184 184 N 1 0 0 1 100 0
 Ligature: 0 1 'liga' C uni0327
 EndChar
 StartChar: Egrave
 Encoding: 200 200 200
 Width: 1233
 Flags: W
-Ref: 69 69 N 1 0 0 1 0 0
-Ref: 65541 -1 N 1 0 0 1 18 373
+Refer: 69 69 N 1 0 0 1 0 0
+Refer: 65541 -1 N 1 0 0 1 18 373
 Ligature: 0 1 'liga' E gravecomb
 EndChar
 StartChar: Eacute
 Encoding: 201 201 201
 Width: 1233
 Flags: W
-Ref: 69 69 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 18 373
+Refer: 69 69 N 1 0 0 1 0 0
+Refer: 65539 -1 N 1 0 0 1 18 373
 Ligature: 0 1 'liga' E acutecomb
 EndChar
 StartChar: Ecircumflex
 Encoding: 202 202 202
 Width: 1233
 Flags: W
-Ref: 69 69 N 1 0 0 1 0 0
-Ref: 65542 -1 N 1 0 0 1 18 373
+Refer: 69 69 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 18 373
 Ligature: 0 1 'liga' E uni0302
 EndChar
 StartChar: Edieresis
 Encoding: 203 203 203
 Width: 1233
 Flags: W
-Ref: 69 69 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 18 373
+Refer: 69 69 N 1 0 0 1 0 0
+Refer: 65538 -1 N 1 0 0 1 18 373
 Ligature: 0 1 'liga' E uni0308
 EndChar
 StartChar: Igrave
 Encoding: 204 204 204
 Width: 1233
 Flags: W
-Ref: 73 73 N 1 0 0 1 0 0
-Ref: 65541 -1 N 1 0 0 1 0 373
+Refer: 73 73 N 1 0 0 1 0 0
+Refer: 65541 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' I gravecomb
 EndChar
 StartChar: Iacute
 Encoding: 205 205 205
 Width: 1233
 Flags: W
-Ref: 73 73 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 0 373
+Refer: 73 73 N 1 0 0 1 0 0
+Refer: 65539 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' I acutecomb
 EndChar
 StartChar: Icircumflex
 Encoding: 206 206 206
 Width: 1233
 Flags: W
-Ref: 73 73 N 1 0 0 1 0 0
-Ref: 65542 -1 N 1 0 0 1 0 373
+Refer: 73 73 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' I uni0302
 EndChar
 StartChar: Idieresis
 Encoding: 207 207 207
 Width: 1233
 Flags: W
-Ref: 73 73 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 0 373
+Refer: 73 73 N 1 0 0 1 0 0
+Refer: 65538 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' I uni0308
 EndChar
 StartChar: Eth
@@ -3932,16 +3933,16 @@ StartChar: Ntilde
 Encoding: 209 209 209
 Width: 1233
 Flags: W
-Ref: 78 78 N 1 0 0 1 0 0
-Ref: 65540 -1 N 1 0 0 1 -18 373
+Refer: 78 78 N 1 0 0 1 0 0
+Refer: 65540 -1 N 1 0 0 1 -18 373
 Ligature: 0 1 'liga' N tildecomb
 EndChar
 StartChar: Ograve
 Encoding: 210 210 210
 Width: 1233
 Flags: W
-Ref: 79 79 N 1 0 0 1 0 0
-Ref: 65541 -1 N 1 0 0 1 0 373
+Refer: 79 79 N 1 0 0 1 0 0
+Refer: 65541 -1 N 1 0 0 1 0 373
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' O gravecomb
 EndChar
@@ -3949,32 +3950,32 @@ StartChar: Oacute
 Encoding: 211 211 211
 Width: 1233
 Flags: W
-Ref: 79 79 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 0 373
+Refer: 79 79 N 1 0 0 1 0 0
+Refer: 65539 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' O acutecomb
 EndChar
 StartChar: Ocircumflex
 Encoding: 212 212 212
 Width: 1233
 Flags: W
-Ref: 79 79 N 1 0 0 1 0 0
-Ref: 65542 -1 N 1 0 0 1 0 373
+Refer: 79 79 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' O uni0302
 EndChar
 StartChar: Otilde
 Encoding: 213 213 213
 Width: 1233
 Flags: W
-Ref: 79 79 N 1 0 0 1 0 0
-Ref: 65540 -1 N 1 0 0 1 0 373
+Refer: 79 79 N 1 0 0 1 0 0
+Refer: 65540 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' O tildecomb
 EndChar
 StartChar: Odieresis
 Encoding: 214 214 214
 Width: 1233
 Flags: W
-Ref: 79 79 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 0 373
+Refer: 79 79 N 1 0 0 1 0 0
+Refer: 65538 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' O uni0308
 EndChar
 StartChar: multiply
@@ -4050,32 +4051,32 @@ StartChar: Ugrave
 Encoding: 217 217 217
 Width: 1233
 Flags: W
-Ref: 85 85 N 1 0 0 1 0 0
-Ref: 65541 -1 N 1 0 0 1 0 373
+Refer: 85 85 N 1 0 0 1 0 0
+Refer: 65541 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' U gravecomb
 EndChar
 StartChar: Uacute
 Encoding: 218 218 218
 Width: 1233
 Flags: W
-Ref: 85 85 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 0 373
+Refer: 85 85 N 1 0 0 1 0 0
+Refer: 65539 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' U acutecomb
 EndChar
 StartChar: Ucircumflex
 Encoding: 219 219 219
 Width: 1233
 Flags: W
-Ref: 85 85 N 1 0 0 1 0 0
-Ref: 65542 -1 N 1 0 0 1 0 373
+Refer: 85 85 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' U uni0302
 EndChar
 StartChar: Udieresis
 Encoding: 220 220 220
 Width: 1233
 Flags: W
-Ref: 85 85 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 0 373
+Refer: 85 85 N 1 0 0 1 0 0
+Refer: 65538 -1 N 1 0 0 1 0 373
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' U uni0308
 EndChar
@@ -4083,8 +4084,8 @@ StartChar: Yacute
 Encoding: 221 221 221
 Width: 1233
 Flags: W
-Ref: 89 89 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 0 373
+Refer: 89 89 N 1 0 0 1 0 0
+Refer: 65539 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' Y acutecomb
 EndChar
 StartChar: Thorn
@@ -4167,48 +4168,48 @@ StartChar: agrave
 Encoding: 224 224 224
 Width: 1233
 Flags: W
-Ref: 97 97 N 1 0 0 1 0 0
-Ref: 96 96 N 1 0 0 1 0 0
+Refer: 97 97 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' a gravecomb
 EndChar
 StartChar: aacute
 Encoding: 225 225 225
 Width: 1233
 Flags: W
-Ref: 97 97 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 0 0
+Refer: 97 97 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' a acutecomb
 EndChar
 StartChar: acircumflex
 Encoding: 226 226 226
 Width: 1233
 Flags: W
-Ref: 97 97 N 1 0 0 1 0 0
-Ref: 710 710 N 1 0 0 1 0 0
+Refer: 97 97 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' a uni0302
 EndChar
 StartChar: atilde
 Encoding: 227 227 227
 Width: 1233
 Flags: W
-Ref: 97 97 N 1 0 0 1 0 0
-Ref: 732 732 N 1 0 0 1 0 0
+Refer: 97 97 N 1 0 0 1 0 0
+Refer: 732 732 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' a tildecomb
 EndChar
 StartChar: adieresis
 Encoding: 228 228 228
 Width: 1233
 Flags: W
-Ref: 97 97 N 1 0 0 1 0 0
-Ref: 168 168 N 1 0 0 1 0 0
+Refer: 97 97 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' a uni0308
 EndChar
 StartChar: aring
 Encoding: 229 229 229
 Width: 1233
 Flags: W
-Ref: 97 97 N 1 0 0 1 0 0
-Ref: 730 730 N 1 0 0 1 0 0
+Refer: 97 97 N 1 0 0 1 0 0
+Refer: 730 730 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' a uni030A
 EndChar
 StartChar: ae
@@ -4279,72 +4280,72 @@ StartChar: ccedilla
 Encoding: 231 231 231
 Width: 1233
 Flags: W
-Ref: 99 99 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 104 0
+Refer: 99 99 N 1 0 0 1 0 0
+Refer: 184 184 N 1 0 0 1 104 0
 Ligature: 0 1 'liga' c uni0327
 EndChar
 StartChar: egrave
 Encoding: 232 232 232
 Width: 1233
 Flags: W
-Ref: 101 101 N 1 0 0 1 0 0
-Ref: 96 96 N 1 0 0 1 14 0
+Refer: 101 101 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 14 0
 Ligature: 0 1 'liga' e gravecomb
 EndChar
 StartChar: eacute
 Encoding: 233 233 233
 Width: 1233
 Flags: W
-Ref: 101 101 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 14 0
+Refer: 101 101 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 14 0
 Ligature: 0 1 'liga' e acutecomb
 EndChar
 StartChar: ecircumflex
 Encoding: 234 234 234
 Width: 1233
 Flags: W
-Ref: 101 101 N 1 0 0 1 0 0
-Ref: 710 710 N 1 0 0 1 14 0
+Refer: 101 101 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 14 0
 Ligature: 0 1 'liga' e uni0302
 EndChar
 StartChar: edieresis
 Encoding: 235 235 235
 Width: 1233
 Flags: W
-Ref: 101 101 N 1 0 0 1 0 0
-Ref: 168 168 N 1 0 0 1 14 0
+Refer: 101 101 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 14 0
 Ligature: 0 1 'liga' e uni0308
 EndChar
 StartChar: igrave
 Encoding: 236 236 236
 Width: 1233
 Flags: W
-Ref: 305 305 N 1 0 0 1 0 0
-Ref: 96 96 N 1 0 0 1 0 0
+Refer: 305 305 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' i gravecomb
 EndChar
 StartChar: iacute
 Encoding: 237 237 237
 Width: 1233
 Flags: W
-Ref: 305 305 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 0 0
+Refer: 305 305 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' i acutecomb
 EndChar
 StartChar: icircumflex
 Encoding: 238 238 238
 Width: 1233
 Flags: W
-Ref: 305 305 N 1 0 0 1 0 0
-Ref: 710 710 N 1 0 0 1 0 0
+Refer: 305 305 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' i uni0302
 EndChar
 StartChar: idieresis
 Encoding: 239 239 239
 Width: 1233
 Flags: W
-Ref: 305 305 N 1 0 0 1 0 0
-Ref: 168 168 N 1 0 0 1 0 0
+Refer: 305 305 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' i uni0308
 EndChar
 StartChar: eth
@@ -4396,48 +4397,48 @@ StartChar: ntilde
 Encoding: 241 241 241
 Width: 1233
 Flags: W
-Ref: 110 110 N 1 0 0 1 0 0
-Ref: 732 732 N 1 0 0 1 0 0
+Refer: 110 110 N 1 0 0 1 0 0
+Refer: 732 732 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' n tildecomb
 EndChar
 StartChar: ograve
 Encoding: 242 242 242
 Width: 1233
 Flags: W
-Ref: 111 111 N 1 0 0 1 0 0
-Ref: 96 96 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' o gravecomb
 EndChar
 StartChar: oacute
 Encoding: 243 243 243
 Width: 1233
 Flags: W
-Ref: 111 111 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' o acutecomb
 EndChar
 StartChar: ocircumflex
 Encoding: 244 244 244
 Width: 1233
 Flags: W
-Ref: 111 111 N 1 0 0 1 0 0
-Ref: 710 710 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' o uni0302
 EndChar
 StartChar: otilde
 Encoding: 245 245 245
 Width: 1233
 Flags: W
-Ref: 111 111 N 1 0 0 1 0 0
-Ref: 732 732 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
+Refer: 732 732 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' o tildecomb
 EndChar
 StartChar: odieresis
 Encoding: 246 246 246
 Width: 1233
 Flags: W
-Ref: 111 111 N 1 0 0 1 0 0
-Ref: 168 168 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' o uni0308
 EndChar
@@ -4516,40 +4517,40 @@ StartChar: ugrave
 Encoding: 249 249 249
 Width: 1233
 Flags: W
-Ref: 117 117 N 1 0 0 1 0 0
-Ref: 96 96 N 1 0 0 1 0 0
+Refer: 117 117 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' u gravecomb
 EndChar
 StartChar: uacute
 Encoding: 250 250 250
 Width: 1233
 Flags: W
-Ref: 117 117 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 0 0
+Refer: 117 117 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' u acutecomb
 EndChar
 StartChar: ucircumflex
 Encoding: 251 251 251
 Width: 1233
 Flags: W
-Ref: 117 117 N 1 0 0 1 0 0
-Ref: 710 710 N 1 0 0 1 0 0
+Refer: 117 117 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' u uni0302
 EndChar
 StartChar: udieresis
 Encoding: 252 252 252
 Width: 1233
 Flags: W
-Ref: 117 117 N 1 0 0 1 0 0
-Ref: 168 168 N 1 0 0 1 0 0
+Refer: 117 117 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' u uni0308
 EndChar
 StartChar: yacute
 Encoding: 253 253 253
 Width: 1233
 Flags: W
-Ref: 121 121 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 0 0
+Refer: 121 121 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' y acutecomb
 EndChar
 StartChar: thorn
@@ -4589,102 +4590,98 @@ StartChar: ydieresis
 Encoding: 255 255 255
 Width: 1233
 Flags: W
-Ref: 121 121 N 1 0 0 1 0 0
-Ref: 168 168 N 1 0 0 1 0 0
+Refer: 121 121 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' y uni0308
 EndChar
 StartChar: Amacron
 Encoding: 256 256 256
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0.5 314
-Ref: 65 65 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0.5 314
+Refer: 65 65 N 1 0 0 1 0 0
 EndChar
 StartChar: amacron
 Encoding: 257 257 257
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 -24 0
-Ref: 97 97 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 -24 0
+Refer: 97 97 N 1 0 0 1 0 0
 EndChar
 StartChar: Abreve
 Encoding: 258 258 258
 Width: 1233
-Flags: HW
-Ref: 728 728 N 1 0 0 1 0 302
-Ref: 65 65 N 1 0 0 1 0 0
+Flags: W
+Refer: 728 728 N 1 0 0 1 0 302
+Refer: 65 65 N 1 0 0 1 0 0
 EndChar
 StartChar: abreve
 Encoding: 259 259 259
 Width: 1233
-Flags: HW
-Ref: 728 728 N 1 0 0 1 0 -30
-Ref: 97 97 N 1 0 0 1 0 0
+Flags: W
+Refer: 728 728 N 1 0 0 1 0 -30
+Refer: 97 97 N 1 0 0 1 0 0
 EndChar
 StartChar: Aogonek
 Encoding: 260 260 260
 Width: 1233
-Flags: HW
-Ref: 731 731 N 1 0 0 1 455 0
-Ref: 65 65 N 1 0 0 1 0 0
+Flags: W
+Refer: 731 731 N 1 0 0 1 455 0
+Refer: 65 65 N 1 0 0 1 0 0
 EndChar
 StartChar: aogonek
 Encoding: 261 261 261
 Width: 1233
-Flags: HW
-Ref: 731 731 N 1 0 0 1 345 0
-Ref: 97 97 N 1 0 0 1 0 0
+Flags: W
+Refer: 731 731 N 1 0 0 1 345 0
+Refer: 97 97 N 1 0 0 1 0 0
 EndChar
 StartChar: Cacute
 Encoding: 262 262 262
 Width: 1233
 Flags: W
-Ref: 67 67 N 1 0 0 1 0 0
-Ref: 65539 -1 N 1 0 0 1 90 373
+Refer: 67 67 N 1 0 0 1 0 0
+Refer: 65539 -1 N 1 0 0 1 90 373
 Ligature: 0 1 'liga' C acutecomb
 EndChar
 StartChar: cacute
 Encoding: 263 263 263
 Width: 1233
 Flags: W
-Ref: 99 99 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 90 0
+Refer: 99 99 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 90 0
 Ligature: 0 1 'liga' c acutecomb
 EndChar
 StartChar: Ccircumflex
 Encoding: 264 264 264
 Width: 1233
-Flags: HW
-Ref: 65542 -1 N 1 0 0 1 126.5 380
-Ref: 67 67 N 1 0 0 1 0 0
+Flags: W
+Refer: 65542 -1 N 1 0 0 1 126.5 380
+Refer: 67 67 N 1 0 0 1 0 0
 EndChar
 StartChar: ccircumflex
 Encoding: 265 265 265
 Width: 1233
-Flags: H
-Ref: 710 710 N 1 0 0 1 90 0
-Ref: 99 99 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 90 0
+Refer: 99 99 N 1 0 0 1 0 0
 EndChar
 StartChar: Cdotaccent
 Encoding: 266 266 266
 Width: 1233
-Flags: HW
-Ref: 65547 -1 N 1 0 0 1 120 373
-Ref: 67 67 N 1 0 0 1 0 0
+Flags: W
+Refer: 65547 -1 N 1 0 0 1 120 373
+Refer: 67 67 N 1 0 0 1 0 0
 EndChar
 StartChar: cdotaccent
 Encoding: 267 267 267
 Width: 1233
-Flags: H
-Ref: 729 729 N 1 0 0 1 90 0
-Ref: 99 99 N 1 0 0 1 0 0
+Refer: 729 729 N 1 0 0 1 90 0
+Refer: 99 99 N 1 0 0 1 0 0
 EndChar
 StartChar: Ccaron
 Encoding: 268 268 268
 Width: 1233
 Flags: W
-Ref: 67 67 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 90 373
+Refer: 67 67 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 90 373
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' C uni030C
 EndChar
@@ -4692,33 +4689,33 @@ StartChar: ccaron
 Encoding: 269 269 269
 Width: 1233
 Flags: W
-Ref: 99 99 N 1 0 0 1 0 0
-Ref: 711 711 N 1 0 0 1 90 0
+Refer: 99 99 N 1 0 0 1 0 0
+Refer: 711 711 N 1 0 0 1 90 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' c uni030C
 EndChar
 StartChar: Dcaron
 Encoding: 270 270 270
 Width: 1233
-Flags: HW
-Ref: 68 68 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 -78 367
+Flags: W
+Refer: 68 68 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 -78 367
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' D uni030C
 EndChar
 StartChar: dcaron
 Encoding: 271 271 271
 Width: 1233
-Flags: HW
-Ref: 65537 -1 N 1 0 0 1 570 -81
-Ref: 100 100 N 1 0 0 1 0 0
+Flags: W
+Refer: 65537 -1 N 1 0 0 1 570 -81
+Refer: 100 100 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' d uni030C
 EndChar
 StartChar: Dcroat
 Encoding: 272 272 272
 Width: 1233
-Flags: HW
+Flags: W
 TtfInstrs: 59
 5TppL[L*\7!/M)N'ab-Y%0ce8().<8"#1*9(_e#!#;@&-r&j=$m/62]`"tEg!&)>Ime6&[mP6Hr
 EndTtf
@@ -4794,97 +4791,89 @@ EndChar
 StartChar: Emacron
 Encoding: 274 274 274
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 24 314
-Ref: 69 69 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 24 314
+Refer: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: emacron
 Encoding: 275 275 275
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 35 0
-Ref: 101 101 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 35 0
+Refer: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Ebreve
 Encoding: 276 276 276
 Width: 1233
-Flags: H
-Ref: 65546 -1 N 1 0 0 1 0 373
-Ref: 69 69 N 1 0 0 1 0 0
+Refer: 65546 -1 N 1 0 0 1 0 373
+Refer: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: ebreve
 Encoding: 277 277 277
 Width: 1233
-Flags: H
-Ref: 728 728 N 1 0 0 1 14 0
-Ref: 101 101 N 1 0 0 1 0 0
+Refer: 728 728 N 1 0 0 1 14 0
+Refer: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Edotaccent
 Encoding: 278 278 278
 Width: 1233
-Flags: H
-Ref: 65547 -1 N 1 0 0 1 0 373
-Ref: 69 69 N 1 0 0 1 0 0
+Refer: 65547 -1 N 1 0 0 1 0 373
+Refer: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: edotaccent
 Encoding: 279 279 279
 Width: 1233
-Flags: H
-Ref: 729 729 N 1 0 0 1 14 0
-Ref: 101 101 N 1 0 0 1 0 0
+Refer: 729 729 N 1 0 0 1 14 0
+Refer: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Eogonek
 Encoding: 280 280 280
 Width: 1233
-Flags: HW
-Ref: 731 731 N 1 0 0 1 305 0
-Ref: 69 69 N 1 0 0 1 0 0
+Flags: W
+Refer: 731 731 N 1 0 0 1 305 0
+Refer: 69 69 N 1 0 0 1 0 0
 EndChar
 StartChar: eogonek
 Encoding: 281 281 281
 Width: 1233
-Flags: HW
-Ref: 731 731 N 1 0 0 1 246 0
-Ref: 101 101 N 1 0 0 1 0 0
+Flags: W
+Refer: 731 731 N 1 0 0 1 246 0
+Refer: 101 101 N 1 0 0 1 0 0
 EndChar
 StartChar: Ecaron
 Encoding: 282 282 282
 Width: 1233
-Flags: HW
-Ref: 69 69 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 36 367
+Flags: W
+Refer: 69 69 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 36 367
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' E uni030C
 EndChar
 StartChar: ecaron
 Encoding: 283 283 283
 Width: 1233
-Flags: HW
-Ref: 101 101 N 1 0 0 1 0 0
-Ref: 711 711 N 1 0 0 1 35 -5
+Flags: W
+Refer: 101 101 N 1 0 0 1 0 0
+Refer: 711 711 N 1 0 0 1 35 -5
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' e uni030C
 EndChar
 StartChar: Gcircumflex
 Encoding: 284 284 284
 Width: 1233
-Flags: H
-Ref: 65542 -1 N 1 0 0 1 0 373
-Ref: 71 71 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
+Refer: 71 71 N 1 0 0 1 0 0
 EndChar
 StartChar: gcircumflex
 Encoding: 285 285 285
 Width: 1233
-Flags: H
-Ref: 710 710 N 1 0 0 1 0 0
-Ref: 103 103 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 0
+Refer: 103 103 N 1 0 0 1 0 0
 EndChar
 StartChar: Gbreve
 Encoding: 286 286 286
 Width: 1233
 Flags: W
-Ref: 71 71 N 1 0 0 1 0 0
-Ref: 65546 -1 N 1 0 0 1 0 373
+Refer: 71 71 N 1 0 0 1 0 0
+Refer: 65546 -1 N 1 0 0 1 0 373
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' G uni0306
 EndChar
@@ -4892,57 +4881,53 @@ StartChar: gbreve
 Encoding: 287 287 287
 Width: 1233
 Flags: W
-Ref: 103 103 N 1 0 0 1 0 0
-Ref: 728 728 N 1 0 0 1 0 0
+Refer: 103 103 N 1 0 0 1 0 0
+Refer: 728 728 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' g uni0306
 EndChar
 StartChar: Gdotaccent
 Encoding: 288 288 288
 Width: 1233
-Flags: H
-Ref: 65547 -1 N 1 0 0 1 90 373
-Ref: 71 71 N 1 0 0 1 0 0
+Refer: 65547 -1 N 1 0 0 1 90 373
+Refer: 71 71 N 1 0 0 1 0 0
 EndChar
 StartChar: gdotaccent
 Encoding: 289 289 289
 Width: 1233
-Flags: H
-Ref: 729 729 N 1 0 0 1 0 0
-Ref: 103 103 N 1 0 0 1 0 0
+Refer: 729 729 N 1 0 0 1 0 0
+Refer: 103 103 N 1 0 0 1 0 0
 EndChar
 StartChar: Gcommaaccent
 Encoding: 290 290 290
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 127.5 -31
-Ref: 71 71 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 127.5 -31
+Refer: 71 71 N 1 0 0 1 0 0
 EndChar
 StartChar: gcommaaccent
 Encoding: 291 291 291
 Width: 1233
-Flags: HW
-Ref: 786 786 N 1 0 0 1 17 302
-Ref: 103 103 N 1 0 0 1 0 0
+Flags: W
+Refer: 786 786 N 1 0 0 1 17 302
+Refer: 103 103 N 1 0 0 1 0 0
 EndChar
 StartChar: Hcircumflex
 Encoding: 292 292 292
 Width: 1233
-Flags: H
-Ref: 65542 -1 N 1 0 0 1 0 373
-Ref: 72 72 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
+Refer: 72 72 N 1 0 0 1 0 0
 EndChar
 StartChar: hcircumflex
 Encoding: 293 293 293
 Width: 1233
-Flags: H
-Ref: 65542 -1 N 1 0 0 1 0 373
-Ref: 104 104 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
+Refer: 104 104 N 1 0 0 1 0 0
 EndChar
 StartChar: Hbar
 Encoding: 294 294 294
 Width: 1233
-Flags: HW
+Flags: W
 TtfInstrs: 63
 5Tp=5&sin=&Ib!@Ylk&_%LNFL(Bbcc"YgW!'EK6d!&,6$r&j=$1<fYYlnU??0`Wjhj>-Z"gcR^c
 1,:N`
@@ -4979,7 +4964,7 @@ EndChar
 StartChar: hbar
 Encoding: 295 295 295
 Width: 1233
-Flags: HW
+Flags: W
 TtfInstrs: 63
 5U$LM!rrE(&e;>b%0hb/^(?b@!<NH*8e;XJ'aY'S&.:rI&G/*/r%^%O&H(lL!&$J$o^(?qlnT.h
 3B8bn
@@ -5015,65 +5000,59 @@ EndChar
 StartChar: Itilde
 Encoding: 296 296 296
 Width: 1233
-Flags: H
-Ref: 65540 -1 N 1 0 0 1 0 373
-Ref: 73 73 N 1 0 0 1 0 0
+Refer: 65540 -1 N 1 0 0 1 0 373
+Refer: 73 73 N 1 0 0 1 0 0
 EndChar
 StartChar: itilde
 Encoding: 297 297 297
 Width: 1233
-Flags: H
-Ref: 732 732 N 1 0 0 1 0 0
-Ref: 305 305 N 1 0 0 1 0 0
+Refer: 732 732 N 1 0 0 1 0 0
+Refer: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: Imacron
 Encoding: 298 298 298
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 -0.5 316
-Ref: 73 73 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 -0.5 316
+Refer: 73 73 N 1 0 0 1 0 0
 EndChar
 StartChar: imacron
 Encoding: 299 299 299
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 -124 0
-Ref: 305 305 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 -124 0
+Refer: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: Ibreve
 Encoding: 300 300 300
 Width: 1233
-Flags: H
-Ref: 65546 -1 N 1 0 0 1 0 373
-Ref: 73 73 N 1 0 0 1 0 0
+Refer: 65546 -1 N 1 0 0 1 0 373
+Refer: 73 73 N 1 0 0 1 0 0
 EndChar
 StartChar: ibreve
 Encoding: 301 301 301
 Width: 1233
-Flags: H
-Ref: 728 728 N 1 0 0 1 0 0
-Ref: 305 305 N 1 0 0 1 0 0
+Refer: 728 728 N 1 0 0 1 0 0
+Refer: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: Iogonek
 Encoding: 302 302 302
 Width: 1233
-Flags: HW
-Ref: 73 73 N 1 0 0 1 0 0
-Ref: 731 731 N 1 0 0 1 70 -0.000325203
+Flags: W
+Refer: 73 73 N 1 0 0 1 0 0
+Refer: 731 731 N 1 0 0 1 70 -0.000325203
 EndChar
 StartChar: iogonek
 Encoding: 303 303 303
 Width: 1233
-Flags: HW
-Ref: 105 105 N 1 0 0 1 0 0
-Ref: 731 731 N 1 0 0 1 80.0029 0.0016284
+Flags: W
+Refer: 105 105 N 1 0 0 1 0 0
+Refer: 731 731 N 1 0 0 1 80.0029 0.0016284
 EndChar
 StartChar: Idotaccent
 Encoding: 304 304 304
 Width: 1233
 Flags: W
-Ref: 73 73 N 1 0 0 1 0 0
-Ref: 65547 -1 N 1 0 0 1 0 373
+Refer: 73 73 N 1 0 0 1 0 0
+Refer: 65547 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' I uni0307
 EndChar
 StartChar: dotlessi
@@ -5100,7 +5079,7 @@ EndChar
 StartChar: IJ
 Encoding: 306 306 306
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 651.6 64 m 1,0,-1
  651.6 300 l 1,1,2
@@ -5136,7 +5115,7 @@ EndChar
 StartChar: ij
 Encoding: 307 307 307
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 978 -31 m 2,0,-1
  978 966 l 1,1,-1
@@ -5178,35 +5157,34 @@ EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 308
 Width: 1233
-Flags: HW
-Ref: 65542 -1 N 1 0 0 1 48 373
-Ref: 74 74 N 1 0 0 1 0 0
+Flags: W
+Refer: 65542 -1 N 1 0 0 1 48 373
+Refer: 74 74 N 1 0 0 1 0 0
 EndChar
 StartChar: jcircumflex
 Encoding: 309 309 309
 Width: 1233
-Flags: H
-Ref: 710 710 N 1 0 0 1 0 0
-Ref: 567 567 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 0
+Refer: 567 567 N 1 0 0 1 0 0
 EndChar
 StartChar: Kcommaaccent
 Encoding: 310 310 310
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 106.5 -2
-Ref: 75 75 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 106.5 -2
+Refer: 75 75 N 1 0 0 1 0 0
 EndChar
 StartChar: kcommaaccent
 Encoding: 311 311 311
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 144.5 -2
-Ref: 107 107 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 144.5 -2
+Refer: 107 107 N 1 0 0 1 0 0
 EndChar
 StartChar: kgreenlandic
 Encoding: 312 312 312
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 236 1120 m 1,0,-1
  426 1120 l 1,1,-1
@@ -5226,68 +5204,67 @@ EndChar
 StartChar: Lacute
 Encoding: 313 313 313
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 -275 374
-Ref: 76 76 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 -275 374
+Refer: 76 76 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' L acutecomb
 EndChar
 StartChar: lacute
 Encoding: 314 314 314
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 -95 374
-Ref: 108 108 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 -95 374
+Refer: 108 108 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' l acutecomb
 EndChar
 StartChar: Lcommaaccent
 Encoding: 315 315 315
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 102.5 -2
-Ref: 76 76 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 102.5 -2
+Refer: 76 76 N 1 0 0 1 0 0
 EndChar
 StartChar: lcommaaccent
 Encoding: 316 316 316
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 -5 -2
-Ref: 108 108 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 -5 -2
+Refer: 108 108 N 1 0 0 1 0 0
 EndChar
 StartChar: Lcaron
 Encoding: 317 317 317
 Width: 1233
-Flags: HW
-Ref: 65537 -1 N 1 0 0 1 174 -147
-Ref: 76 76 N 1 0 0 1 0 0
+Flags: W
+Refer: 65537 -1 N 1 0 0 1 174 -147
+Refer: 76 76 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' L uni030C
 EndChar
 StartChar: lcaron
 Encoding: 318 318 318
 Width: 1233
-Flags: HW
-Ref: 65537 -1 N 1 0 0 1 416 -71
-Ref: 108 108 N 1 0 0 1 0 0
+Flags: W
+Refer: 65537 -1 N 1 0 0 1 416 -71
+Refer: 108 108 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' l uni030C
 EndChar
 StartChar: Ldot
 Encoding: 319 319 319
 Width: 1233
-Flags: H
-Ref: 183 183 N 1 0 0 1 352 133.5
-Ref: 76 76 N 1 0 0 1 0 0
+Refer: 183 183 N 1 0 0 1 352 133.5
+Refer: 76 76 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' L periodcentered
 EndChar
 StartChar: ldot
 Encoding: 320 320 320
 Width: 1233
-Flags: HW
-Ref: 183 183 N 1 0 0 1 471 144
-Ref: 108 108 N 1 0 0 1 0 0
+Flags: W
+Refer: 183 183 N 1 0 0 1 471 144
+Refer: 108 108 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' l periodcentered
 EndChar
@@ -5351,62 +5328,62 @@ EndChar
 StartChar: Nacute
 Encoding: 323 323 323
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 33 373
-Ref: 78 78 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 33 373
+Refer: 78 78 N 1 0 0 1 0 0
 EndChar
 StartChar: nacute
 Encoding: 324 324 324
 Width: 1233
-Flags: HW
-Ref: 180 180 N 1 0 0 1 20.5 7
-Ref: 110 110 N 1 0 0 1 0 0
+Flags: W
+Refer: 180 180 N 1 0 0 1 20.5 7
+Refer: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: Ncommaaccent
 Encoding: 325 325 325
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 42 -2
-Ref: 78 78 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 42 -2
+Refer: 78 78 N 1 0 0 1 0 0
 EndChar
 StartChar: ncommaaccent
 Encoding: 326 326 326
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 48.5 -2
-Ref: 110 110 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 48.5 -2
+Refer: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: Ncaron
 Encoding: 327 327 327
 Width: 1233
-Flags: HW
-Ref: 78 78 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 42 373
+Flags: W
+Refer: 78 78 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 42 373
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' N uni030C
 EndChar
 StartChar: ncaron
 Encoding: 328 328 328
 Width: 1233
-Flags: HW
-Ref: 110 110 N 1 0 0 1 0 0
-Ref: 711 711 N 1 0 0 1 -12 0
+Flags: W
+Refer: 110 110 N 1 0 0 1 0 0
+Refer: 711 711 N 1 0 0 1 -12 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' n uni030C
 EndChar
 StartChar: napostrophe
 Encoding: 329 329 329
 Width: 1233
-Flags: HW
-Ref: 110 110 N 1 0 0 1 123 0
-Ref: 700 700 N 1 0 0 1 -439 0
+Flags: W
+Refer: 110 110 N 1 0 0 1 123 0
+Refer: 700 700 N 1 0 0 1 -439 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' afii57929 n
 EndChar
 StartChar: Eng
 Encoding: 330 330 330
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 149 1493 m 1,0,-1
  334 1493 l 1,1,-1
@@ -5430,7 +5407,7 @@ EndChar
 StartChar: eng
 Encoding: 331 331 331
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1051 694 m 2,0,-1
  1051 -20 l 2,5,6
@@ -5460,44 +5437,38 @@ EndChar
 StartChar: Omacron
 Encoding: 332 332 332
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0 316
-Ref: 79 79 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0 316
+Refer: 79 79 N 1 0 0 1 0 0
 EndChar
 StartChar: omacron
 Encoding: 333 333 333
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0 0
-Ref: 111 111 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: Obreve
 Encoding: 334 334 334
 Width: 1233
-Flags: H
-Ref: 65546 -1 N 1 0 0 1 0 373
-Ref: 79 79 N 1 0 0 1 0 0
+Refer: 65546 -1 N 1 0 0 1 0 373
+Refer: 79 79 N 1 0 0 1 0 0
 EndChar
 StartChar: obreve
 Encoding: 335 335 335
 Width: 1233
-Flags: H
-Ref: 728 728 N 1 0 0 1 0 0
-Ref: 111 111 N 1 0 0 1 0 0
+Refer: 728 728 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: Ohungarumlaut
 Encoding: 336 336 336
 Width: 1233
-Flags: H
-Ref: 65548 -1 N 1 0 0 1 0 373
-Ref: 79 79 N 1 0 0 1 0 0
+Refer: 65548 -1 N 1 0 0 1 0 373
+Refer: 79 79 N 1 0 0 1 0 0
 EndChar
 StartChar: ohungarumlaut
 Encoding: 337 337 337
 Width: 1233
-Flags: H
-Ref: 733 733 N 1 0 0 1 0 0
-Ref: 111 111 N 1 0 0 1 0 0
+Refer: 733 733 N 1 0 0 1 0 0
+Refer: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: OE
 Encoding: 338 338 338
@@ -5590,105 +5561,102 @@ EndChar
 StartChar: Racute
 Encoding: 340 340 340
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 -75 373
-Ref: 82 82 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 -75 373
+Refer: 82 82 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' R acutecomb
 EndChar
 StartChar: racute
 Encoding: 341 341 341
 Width: 1233
-Flags: H
-Ref: 180 180 N 1 0 0 1 206.5 7
-Ref: 114 114 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 206.5 7
+Refer: 114 114 N 1 0 0 1 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' r acutecomb
 EndChar
 StartChar: Rcommaaccent
 Encoding: 342 342 342
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-Ref: 806 806 N 1 0 0 1 113.5 -2
-Ref: 82 82 N 1 0 0 1 0 0
+Refer: 806 806 N 1 0 0 1 113.5 -2
+Refer: 82 82 N 1 0 0 1 0 0
 EndChar
 StartChar: rcommaaccent
 Encoding: 343 343 343
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-Ref: 806 806 N 1 0 0 1 -120 -2
-Ref: 114 114 N 1 0 0 1 0 0
+Refer: 806 806 N 1 0 0 1 -120 -2
+Refer: 114 114 N 1 0 0 1 0 0
 EndChar
 StartChar: Rcaron
 Encoding: 344 344 344
 Width: 1233
-Flags: HW
-Ref: 82 82 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 -60 367
+Flags: W
+Refer: 82 82 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 -60 367
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' R uni030C
 EndChar
 StartChar: rcaron
 Encoding: 345 345 345
 Width: 1233
-Flags: HW
-Ref: 114 114 N 1 0 0 1 0 0
-Ref: 711 711 N 1 0 0 1 90 0
+Flags: W
+Refer: 114 114 N 1 0 0 1 0 0
+Refer: 711 711 N 1 0 0 1 90 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' r uni030C
 EndChar
 StartChar: Sacute
 Encoding: 346 346 346
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 25 373
-Ref: 83 83 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 25 373
+Refer: 83 83 N 1 0 0 1 0 0
 EndChar
 StartChar: sacute
 Encoding: 347 347 347
 Width: 1233
-Flags: HW
-Ref: 180 180 N 1 0 0 1 26.5 7
-Ref: 115 115 N 1 0 0 1 0 0
+Flags: W
+Refer: 180 180 N 1 0 0 1 26.5 7
+Refer: 115 115 N 1 0 0 1 0 0
 EndChar
 StartChar: Scircumflex
 Encoding: 348 348 348
 Width: 1233
-Flags: H
-Ref: 65542 -1 N 1 0 0 1 0 373
-Ref: 83 83 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 373
+Refer: 83 83 N 1 0 0 1 0 0
 EndChar
 StartChar: scircumflex
 Encoding: 349 349 349
 Width: 1233
-Flags: H
-Ref: 710 710 N 1 0 0 1 0 0
-Ref: 115 115 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 0
+Refer: 115 115 N 1 0 0 1 0 0
 EndChar
 StartChar: Scedilla
 Encoding: 350 350 350
 Width: 1233
 Flags: W
-Ref: 83 83 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 0 0
+Refer: 83 83 N 1 0 0 1 0 0
+Refer: 184 184 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' S uni0327
 EndChar
 StartChar: scedilla
 Encoding: 351 351 351
 Width: 1233
 Flags: W
-Ref: 115 115 N 1 0 0 1 0 0
-Ref: 184 184 N 1 0 0 1 0 0
+Refer: 115 115 N 1 0 0 1 0 0
+Refer: 184 184 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' s uni0327
 EndChar
 StartChar: Scaron
 Encoding: 352 352 352
 Width: 1233
 Flags: W
-Ref: 83 83 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 0 373
+Refer: 83 83 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 0 373
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' S uni030C
 EndChar
@@ -5696,46 +5664,46 @@ StartChar: scaron
 Encoding: 353 353 353
 Width: 1233
 Flags: W
-Ref: 115 115 N 1 0 0 1 0 0
-Ref: 711 711 N 1 0 0 1 0 0
+Refer: 115 115 N 1 0 0 1 0 0
+Refer: 711 711 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' s uni030C
 EndChar
 StartChar: Tcommaaccent
 Encoding: 354 354 354
 Width: 1233
-Flags: HW
-Ref: 184 184 N 1 0 0 1 -14 0
-Ref: 84 84 N 1 0 0 1 0 0
+Flags: W
+Refer: 184 184 N 1 0 0 1 -14 0
+Refer: 84 84 N 1 0 0 1 0 0
 EndChar
 StartChar: tcommaaccent
 Encoding: 355 355 355
 Width: 1233
-Flags: HW
-Ref: 184 184 N 1 0 0 1 121 0
-Ref: 116 116 N 1 0 0 1 0 0
+Flags: W
+Refer: 184 184 N 1 0 0 1 121 0
+Refer: 116 116 N 1 0 0 1 0 0
 EndChar
 StartChar: Tcaron
 Encoding: 356 356 356
 Width: 1233
-Flags: HW
-Ref: 84 84 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 6 373
+Flags: W
+Refer: 84 84 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 6 373
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' T uni030C
 EndChar
 StartChar: tcaron
 Encoding: 357 357 357
 Width: 1233
-Flags: HW
-Ref: 116 116 N 1 0 0 1 0 0
-Ref: 65537 -1 N 1 0 0 1 276 24
+Flags: W
+Refer: 116 116 N 1 0 0 1 0 0
+Refer: 65537 -1 N 1 0 0 1 276 24
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' t uni030C
 EndChar
 StartChar: Tbar
 Encoding: 358 358 358
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 47 1493 m 1,0,-1
@@ -5760,7 +5728,7 @@ EndChar
 StartChar: tbar
 Encoding: 359 359 359
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 614 1438 m 1,0,-1
@@ -5795,177 +5763,172 @@ EndChar
 StartChar: Utilde
 Encoding: 360 360 360
 Width: 1233
-Flags: HW
-Ref: 65540 -1 N 1 0 0 1 0 373
-Ref: 85 85 N 1 0 0 1 0 0
+Flags: W
+Refer: 65540 -1 N 1 0 0 1 0 373
+Refer: 85 85 N 1 0 0 1 0 0
 EndChar
 StartChar: utilde
 Encoding: 361 361 361
 Width: 1233
-Flags: H
-Ref: 732 732 N 1 0 0 1 0 0
-Ref: 117 117 N 1 0 0 1 0 0
+Refer: 732 732 N 1 0 0 1 0 0
+Refer: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Umacron
 Encoding: 362 362 362
 Width: 1233
-Flags: HW
-Ref: 175 175 N 1 0 0 1 0 315
-Ref: 85 85 N 1 0 0 1 0 0
+Flags: W
+Refer: 175 175 N 1 0 0 1 0 315
+Refer: 85 85 N 1 0 0 1 0 0
 EndChar
 StartChar: umacron
 Encoding: 363 363 363
 Width: 1233
-Flags: HW
-Ref: 175 175 N 1 0 0 1 7 -1
-Ref: 117 117 N 1 0 0 1 0 0
+Flags: W
+Refer: 175 175 N 1 0 0 1 7 -1
+Refer: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Ubreve
 Encoding: 364 364 364
 Width: 1233
-Flags: H
-Ref: 65546 -1 N 1 0 0 1 0 373
-Ref: 85 85 N 1 0 0 1 0 0
+Refer: 65546 -1 N 1 0 0 1 0 373
+Refer: 85 85 N 1 0 0 1 0 0
 EndChar
 StartChar: ubreve
 Encoding: 365 365 365
 Width: 1233
-Flags: H
-Ref: 728 728 N 1 0 0 1 0 0
-Ref: 117 117 N 1 0 0 1 0 0
+Refer: 728 728 N 1 0 0 1 0 0
+Refer: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Uring
 Encoding: 366 366 366
 Width: 1233
-Flags: HW
-Ref: 85 85 N 1 0 0 1 0 0
-Ref: 730 730 N 1 0 0 1 10 335
+Flags: W
+Refer: 85 85 N 1 0 0 1 0 0
+Refer: 730 730 N 1 0 0 1 10 335
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' U uni030A
 EndChar
 StartChar: uring
 Encoding: 367 367 367
 Width: 1233
-Flags: HW
-Ref: 117 117 N 1 0 0 1 0 0
-Ref: 730 730 N 1 0 0 1 15 -45
+Flags: W
+Refer: 117 117 N 1 0 0 1 0 0
+Refer: 730 730 N 1 0 0 1 15 -45
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' u uni030A
 EndChar
 StartChar: Uhungarumlaut
 Encoding: 368 368 368
 Width: 1233
-Flags: H
-Ref: 65548 -1 N 1 0 0 1 0 373
-Ref: 85 85 N 1 0 0 1 0 0
+Refer: 65548 -1 N 1 0 0 1 0 373
+Refer: 85 85 N 1 0 0 1 0 0
 EndChar
 StartChar: uhungarumlaut
 Encoding: 369 369 369
 Width: 1233
-Flags: H
-Ref: 733 733 N 1 0 0 1 0 0
-Ref: 117 117 N 1 0 0 1 0 0
+Refer: 733 733 N 1 0 0 1 0 0
+Refer: 117 117 N 1 0 0 1 0 0
 EndChar
 StartChar: Uogonek
 Encoding: 370 370 370
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-Ref: 85 85 N 1 0 0 1 0 0
-Ref: 731 731 N 1 0 0 1 28.5 -15.8333
+Refer: 85 85 N 1 0 0 1 0 0
+Refer: 731 731 N 1 0 0 1 28.5 -15.8333
 EndChar
 StartChar: uogonek
 Encoding: 371 371 371
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-Ref: 117 117 N 1 0 0 1 0 0
-Ref: 731 731 N 1 0 0 1 407 0.166702
+Refer: 117 117 N 1 0 0 1 0 0
+Refer: 731 731 N 1 0 0 1 407 0.166702
 EndChar
 StartChar: Wcircumflex
 Encoding: 372 372 372
 Width: 1233
-Flags: HW
-Ref: 65542 -1 N 1 0 0 1 0 380
-Ref: 87 87 N 1 0 0 1 0 0
+Flags: W
+Refer: 65542 -1 N 1 0 0 1 0 380
+Refer: 87 87 N 1 0 0 1 0 0
 EndChar
 StartChar: wcircumflex
 Encoding: 373 373 373
 Width: 1233
 Flags: W
-Ref: 710 710 N 1 0 0 1 0 7
-Ref: 119 119 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 0 7
+Refer: 119 119 N 1 0 0 1 0 0
 EndChar
 StartChar: Ycircumflex
 Encoding: 374 374 374
 Width: 1233
-Flags: HW
-Ref: 65542 -1 N 1 0 0 1 0 380
-Ref: 89 89 N 1 0 0 1 0 0
+Flags: W
+Refer: 65542 -1 N 1 0 0 1 0 380
+Refer: 89 89 N 1 0 0 1 0 0
 EndChar
 StartChar: ycircumflex
 Encoding: 375 375 375
 Width: 1233
 Flags: W
-Ref: 710 710 N 1 0 0 1 12 7
-Ref: 121 121 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 12 7
+Refer: 121 121 N 1 0 0 1 0 0
 EndChar
 StartChar: Ydieresis
 Encoding: 376 376 376
 Width: 1233
 Flags: W
-Ref: 89 89 N 1 0 0 1 0 0
-Ref: 65538 -1 N 1 0 0 1 0 373
+Refer: 89 89 N 1 0 0 1 0 0
+Refer: 65538 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' Y uni0308
 EndChar
 StartChar: Zacute
 Encoding: 377 377 377
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 27 373
-Ref: 90 90 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 27 373
+Refer: 90 90 N 1 0 0 1 0 0
 EndChar
 StartChar: zacute
 Encoding: 378 378 378
 Width: 1233
-Flags: HW
-Ref: 180 180 N 1 0 0 1 86.5 7
-Ref: 122 122 N 1 0 0 1 0 0
+Flags: W
+Refer: 180 180 N 1 0 0 1 86.5 7
+Refer: 122 122 N 1 0 0 1 0 0
 EndChar
 StartChar: Zdotaccent
 Encoding: 379 379 379
 Width: 1233
-Flags: HW
-Ref: 65547 -1 N 1 0 0 1 40 374
-Ref: 90 90 N 1 0 0 1 0 0
+Flags: W
+Refer: 65547 -1 N 1 0 0 1 40 374
+Refer: 90 90 N 1 0 0 1 0 0
 EndChar
 StartChar: zdotaccent
 Encoding: 380 380 380
 Width: 1233
-Flags: HW
-Ref: 729 729 N 1 0 0 1 0 0
-Ref: 122 122 N 1 0 0 1 0 0
+Flags: W
+Refer: 729 729 N 1 0 0 1 0 0
+Refer: 122 122 N 1 0 0 1 0 0
 EndChar
 StartChar: Zcaron
 Encoding: 381 381 381
 Width: 1233
 Flags: W
-Ref: 90 90 N 1 0 0 1 0 0
-Ref: 65543 -1 N 1 0 0 1 0 373
+Refer: 90 90 N 1 0 0 1 0 0
+Refer: 65543 -1 N 1 0 0 1 0 373
 Ligature: 0 1 'liga' Z uni030C
 EndChar
 StartChar: zcaron
 Encoding: 382 382 382
 Width: 1233
 Flags: W
-Ref: 122 122 N 1 0 0 1 0 0
-Ref: 711 711 N 1 0 0 1 0 0
+Refer: 122 122 N 1 0 0 1 0 0
+Refer: 711 711 N 1 0 0 1 0 0
 Ligature: 0 1 'liga' z uni030C
 EndChar
 StartChar: longs
 Encoding: 383 383 383
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 678.005 1219 m 17,0,0
  678 1322 678 1322 716.5 1362.5 c 128,-1,4
@@ -6028,7 +5991,7 @@ EndChar
 StartChar: uni0194
 Encoding: 404 404 404
 Width: 1403
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 832 650 m 1,5,-1
@@ -6151,9 +6114,8 @@ EndChar
 StartChar: uni01D6
 Encoding: 470 470 470
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0 316
-Ref: 252 252 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0 316
+Refer: 252 252 N 1 0 0 1 0 0
 EndChar
 StartChar: uni01D7
 Encoding: 471 471 471
@@ -6193,79 +6155,73 @@ EndChar
 StartChar: uni01DF
 Encoding: 479 479 479
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0 316
-Ref: 228 228 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0 316
+Refer: 228 228 N 1 0 0 1 0 0
 EndChar
 StartChar: uni01E2
 Encoding: 482 482 482
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 169.5 315
-Ref: 198 198 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 169.5 315
+Refer: 198 198 N 1 0 0 1 0 0
 EndChar
 StartChar: uni01E3
 Encoding: 483 483 483
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 12 -1
-Ref: 230 230 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 12 -1
+Refer: 230 230 N 1 0 0 1 0 0
 EndChar
 StartChar: uni01EA
 Encoding: 490 490 490
 Width: 1233
-Flags: H
-Ref: 731 731 N 1 0 0 1 28.5 -15.8333
-Ref: 79 79 N 1 0 0 1 0 0
+Refer: 731 731 N 1 0 0 1 28.5 -15.8333
+Refer: 79 79 N 1 0 0 1 0 0
 EndChar
 StartChar: uni01EB
 Encoding: 491 491 491
 Width: 1233
-Flags: H
-Ref: 731 731 N 1 0 0 1 28.5 -15.8333
-Ref: 111 111 N 1 0 0 1 0 0
+Refer: 731 731 N 1 0 0 1 28.5 -15.8333
+Refer: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: uni01EC
 Encoding: 492 492 492
 Width: 1233
-Flags: HW
-Ref: 175 175 N 1 0 0 1 0 315
-Ref: 490 490 N 1 0 0 1 0 0
+Flags: W
+Refer: 175 175 N 1 0 0 1 0 315
+Refer: 490 490 N 1 0 0 1 0 0
 EndChar
 StartChar: uni01ED
 Encoding: 493 493 493
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0 -1
-Ref: 491 491 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0 -1
+Refer: 491 491 N 1 0 0 1 0 0
 EndChar
 StartChar: Scommaaccent
 Encoding: 536 536 536
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 0 0
-Ref: 83 83 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 0 0
+Refer: 83 83 N 1 0 0 1 0 0
 EndChar
 StartChar: scommaaccent
 Encoding: 537 537 537
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 0 0
-Ref: 115 115 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 0 0
+Refer: 115 115 N 1 0 0 1 0 0
 EndChar
 StartChar: uni021A
 Encoding: 538 538 538
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 0 0
-Ref: 84 84 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 0 0
+Refer: 84 84 N 1 0 0 1 0 0
 EndChar
 StartChar: uni021B
 Encoding: 539 539 539
 Width: 1233
-Flags: HW
-Ref: 806 806 N 1 0 0 1 89 0
-Ref: 116 116 N 1 0 0 1 0 0
+Flags: W
+Refer: 806 806 N 1 0 0 1 89 0
+Refer: 116 116 N 1 0 0 1 0 0
 EndChar
 StartChar: uni022A
 Encoding: 554 554 554
@@ -6275,9 +6231,8 @@ EndChar
 StartChar: uni022B
 Encoding: 555 555 555
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0 316
-Ref: 246 246 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0 316
+Refer: 246 246 N 1 0 0 1 0 0
 EndChar
 StartChar: uni022C
 Encoding: 556 556 556
@@ -6287,23 +6242,20 @@ EndChar
 StartChar: uni022D
 Encoding: 557 557 557
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 3.5 316
-Ref: 245 245 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 3.5 316
+Refer: 245 245 N 1 0 0 1 0 0
 EndChar
 StartChar: uni022E
 Encoding: 558 558 558
 Width: 1233
-Flags: H
-Ref: 65547 -1 N 1 0 0 1 -0.5 372
-Ref: 79 79 N 1 0 0 1 0 0
+Refer: 65547 -1 N 1 0 0 1 -0.5 372
+Refer: 79 79 N 1 0 0 1 0 0
 EndChar
 StartChar: uni022F
 Encoding: 559 559 559
 Width: 1233
-Flags: H
-Ref: 729 729 N 1 0 0 1 -0.5 0
-Ref: 111 111 N 1 0 0 1 0 0
+Refer: 729 729 N 1 0 0 1 -0.5 0
+Refer: 111 111 N 1 0 0 1 0 0
 EndChar
 StartChar: uni0230
 Encoding: 560 560 560
@@ -6313,28 +6265,25 @@ EndChar
 StartChar: uni0231
 Encoding: 561 561 561
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0 316
-Ref: 559 559 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0 316
+Refer: 559 559 N 1 0 0 1 0 0
 EndChar
 StartChar: uni0232
 Encoding: 562 562 562
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 0.5 315
-Ref: 89 89 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 0.5 315
+Refer: 89 89 N 1 0 0 1 0 0
 EndChar
 StartChar: uni0233
 Encoding: 563 563 563
 Width: 1233
-Flags: H
-Ref: 175 175 N 1 0 0 1 12.5 -1
-Ref: 121 121 N 1 0 0 1 0 0
+Refer: 175 175 N 1 0 0 1 12.5 -1
+Refer: 121 121 N 1 0 0 1 0 0
 EndChar
 StartChar: dotlessj
 Encoding: 567 567 567
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 600 -20 m 2,0,-1
  600 977 l 1,1,-1
@@ -6354,7 +6303,7 @@ EndChar
 StartChar: uni0250
 Encoding: 592 592 592
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 510.5 555 m 1,0,-1
  571.5 555 l 2,1,2
@@ -6394,7 +6343,7 @@ EndChar
 StartChar: uni0251
 Encoding: 593 593 593
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 892 977 m 1,0,-1
@@ -6425,7 +6374,7 @@ EndChar
 StartChar: uni0252
 Encoding: 594 594 594
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 341 141 m 1,0,-1
@@ -6456,7 +6405,7 @@ EndChar
 StartChar: uni0253
 Encoding: 595 595 595
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 882 559 m 0,0,1
@@ -6494,7 +6443,7 @@ EndChar
 StartChar: uni0254
 Encoding: 596 596 596
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 183.5 1061 m 1,0,1
  257.5 1104 257.5 1104 336 1125.5 c 128,-1,2
@@ -6520,7 +6469,7 @@ EndChar
 StartChar: uni0255
 Encoding: 597 597 597
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 609.625 142.487 m 1,0,1
@@ -6554,7 +6503,7 @@ EndChar
 StartChar: uni0256
 Encoding: 598 598 598
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 312.303 559 m 0,0,1
@@ -6594,7 +6543,7 @@ EndChar
 StartChar: uni0257
 Encoding: 599 599 599
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 312.303 559 m 0,0,1
@@ -6634,7 +6583,7 @@ EndChar
 StartChar: uni0258
 Encoding: 600 600 600
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 122 606 m 2,0,-1
  122 857 122 857 245.5 1002 c 128,-1,21
@@ -6664,7 +6613,7 @@ EndChar
 StartChar: uni0259
 Encoding: 601 601 601
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 122 512 m 2,0,-1
  122 602 l 1,1,-1
@@ -6694,7 +6643,7 @@ EndChar
 StartChar: uni025A
 Encoding: 602 602 602
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 578 214 m 1,0,1
@@ -6736,7 +6685,7 @@ EndChar
 StartChar: uni025B
 Encoding: 603 603 603
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 449 607 m 1,0,1
@@ -6774,7 +6723,7 @@ EndChar
 StartChar: uni025C
 Encoding: 604 604 604
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 783 607 m 1,0,1
@@ -6812,7 +6761,7 @@ EndChar
 StartChar: uni025D
 Encoding: 605 605 605
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 517.125 607 m 1,0,1
@@ -6862,7 +6811,7 @@ EndChar
 StartChar: uni025E
 Encoding: 606 606 606
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 670.5 984 m 0,28,29
@@ -6897,7 +6846,7 @@ EndChar
 StartChar: uni025F
 Encoding: 607 607 607
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 371.5 0 m 1,0,-1
  371.5 164 l 1,1,-1
@@ -6925,7 +6874,7 @@ EndChar
 StartChar: uni0260
 Encoding: 608 608 608
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 748.65 1116 m 1,0,-1
@@ -6971,7 +6920,7 @@ EndChar
 StartChar: uni0261
 Encoding: 609 609 609
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 892 569 m 1,0,1
@@ -7008,7 +6957,7 @@ EndChar
 StartChar: uni0262
 Encoding: 610 610 610
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 945.5 178 m 128,-1,12
@@ -7038,7 +6987,7 @@ EndChar
 StartChar: uni0263
 Encoding: 611 611 611
 Width: 1403
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 841 572 m 1,5,-1
@@ -7062,7 +7011,7 @@ EndChar
 StartChar: uni0264
 Encoding: 612 612 612
 Width: 1212
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 494 586 m 1,0,0
@@ -7086,7 +7035,7 @@ EndChar
 StartChar: uni0265
 Encoding: 613 613 613
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 188.5 424 m 2,0,-1
  188.5 1118 l 1,1,-1
@@ -7110,7 +7059,7 @@ EndChar
 StartChar: uni0266
 Encoding: 614 614 614
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 373.5 961.5 m 1,13,-1
  372.5 952 l 1,14,15
@@ -7142,7 +7091,7 @@ EndChar
 StartChar: uni0267
 Encoding: 615 615 615
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 373.5 961.5 m 1,0,-1
  372.5 952 l 1,1,2
@@ -7184,7 +7133,7 @@ EndChar
 StartChar: uni0268
 Encoding: 616 616 616
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 524.5 1556 m 1,0,-1
  708.5 1556 l 1,1,-1
@@ -7215,7 +7164,7 @@ EndChar
 StartChar: uni0269
 Encoding: 617 617 617
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 1034.5 0 m 17,0,0
@@ -7236,7 +7185,7 @@ EndChar
 StartChar: uni026A
 Encoding: 618 618 618
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 159.5 1120 m 1,0,-1
@@ -7257,7 +7206,7 @@ EndChar
 StartChar: uni026B
 Encoding: 619 619 619
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 658.5 406 m 2,0,1
  658.5 258.812 658.5 258.812 704 219 c 0,2,3
@@ -7293,7 +7242,7 @@ EndChar
 StartChar: uni026C
 Encoding: 620 620 620
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 681.502 406 m 2,0,1
@@ -7329,7 +7278,7 @@ EndChar
 StartChar: uni026D
 Encoding: 621 621 621
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 658.5 -20 m 2,0,1
  658.5 -143.987 658.5 -143.987 704 -207 c 128,-1,2
@@ -7349,7 +7298,7 @@ EndChar
 StartChar: uni026E
 Encoding: 622 622 622
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 859.5 128 m 1,0,-1
@@ -7384,7 +7333,7 @@ EndChar
 StartChar: uni026F
 Encoding: 623 623 623
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 562.5 141 m 1,0,1
  528.5 69 528.5 69 476 34.5 c 128,-1,2
@@ -7419,7 +7368,7 @@ EndChar
 StartChar: uni0270
 Encoding: 624 624 624
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 562.5 141 m 1,0,1
  528.5 69 528.5 69 476 34.5 c 128,-1,2
@@ -7454,7 +7403,7 @@ EndChar
 StartChar: uni0271
 Encoding: 625 625 625
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 670.119 1006 m 1,0,1
  704.118 1078 704.118 1078 756.619 1112.5 c 0,2,3
@@ -7498,7 +7447,7 @@ EndChar
 StartChar: uni0272
 Encoding: 626 626 626
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 489 -20 m 1,10,-1
  489 -234 489 -234 428.25 -330 c 128,-1,4
@@ -7528,7 +7477,7 @@ EndChar
 StartChar: uni0273
 Encoding: 627 627 627
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 744 0 m 1,0,-1
  744 128 l 1,1,-1
@@ -7562,7 +7511,7 @@ EndChar
 StartChar: uni0274
 Encoding: 628 628 628
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 144 1147 m 1,0,-1
@@ -7581,7 +7530,7 @@ EndChar
 StartChar: uni0275
 Encoding: 629 629 629
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 616 1147 m 0,0,1
  848.998 1147 848.998 1147 972.5 996 c 0,2,3
@@ -7609,7 +7558,7 @@ EndChar
 StartChar: uni0276
 Encoding: 630 630 630
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 1153.12 1120 m 1,0,-1
@@ -7641,7 +7590,7 @@ EndChar
 StartChar: uni0277
 Encoding: 631 631 631
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 354.351 780 m 0,0,0
@@ -7682,7 +7631,7 @@ EndChar
 StartChar: uni0278
 Encoding: 632 632 632
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 532 1391 m 1,0,-1
@@ -7729,7 +7678,7 @@ EndChar
 StartChar: uni0279
 Encoding: 633 633 633
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 288.5 172 m 1,0,1
  319.5 154 319.5 154 355.5 146 c 128,-1,2
@@ -7751,7 +7700,7 @@ EndChar
 StartChar: uni027A
 Encoding: 634 634 634
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 288.5 -224 m 1,0,1
  319.5 -242 319.5 -242 355.5 -250 c 128,-1,2
@@ -7773,7 +7722,7 @@ EndChar
 StartChar: uni027B
 Encoding: 635 635 635
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 173.5 172 m 1,0,1
  204.496 154.002 204.496 154.002 240.5 146 c 0,2,3
@@ -7805,7 +7754,7 @@ EndChar
 StartChar: uni027C
 Encoding: 636 636 636
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 944.5 948 m 1,0,1
  913.5 966 913.5 966 877.5 974 c 128,-1,2
@@ -7827,7 +7776,7 @@ EndChar
 StartChar: uni027D
 Encoding: 637 637 637
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 945 948 m 1,0,1
  914.004 965.998 914.004 965.998 878 974 c 0,2,3
@@ -7859,7 +7808,7 @@ EndChar
 StartChar: uni027E
 Encoding: 638 638 638
 Width: 1418
-Flags: HW
+Flags: W
 Fore
 502 741 m 2,0,1
  502 953 502 953 584 1051 c 0,2,3
@@ -7881,7 +7830,7 @@ EndChar
 StartChar: uni027F
 Encoding: 639 639 639
 Width: 1418
-Flags: HW
+Flags: W
 Fore
 694 741 m 2,0,-1
  694 143 l 1,1,-1
@@ -7903,7 +7852,7 @@ EndChar
 StartChar: uni0280
 Encoding: 640 640 640
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 724 525 m 1,0,1
  779 508 779 508 832 454 c 0,21,22
@@ -7935,7 +7884,7 @@ EndChar
 StartChar: uni0281
 Encoding: 641 641 641
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 724 595 m 1,0,1
  830 568 830 568 886 498 c 128,-1,2
@@ -7967,7 +7916,7 @@ EndChar
 StartChar: uni0282
 Encoding: 642 642 642
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 984.5 1087 m 1,0,-1
@@ -8014,7 +7963,7 @@ EndChar
 StartChar: uni0283
 Encoding: 643 643 643
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 464.5 -20 m 0,11,-1
  463.5 604 463.5 604 461.5 1198 c 0,16,17
@@ -8038,7 +7987,7 @@ EndChar
 StartChar: uni0284
 Encoding: 644 644 644
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 234.5 0 m 1,0,-1
  234.5 164 l 1,1,-1
@@ -8074,7 +8023,7 @@ EndChar
 StartChar: uni0285
 Encoding: 645 645 645
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 768.5 -20 m 0,11,-1
  768.5 -173 768.5 -173 806.5 -222 c 128,-1,10
@@ -8098,7 +8047,7 @@ EndChar
 StartChar: uni0286
 Encoding: 646 646 646
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 568 -154 m 1,0,-1
@@ -8130,7 +8079,7 @@ EndChar
 StartChar: uni0287
 Encoding: 647 647 647
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 646 -318 m 1,0,-1
  646 0 l 1,1,-1
@@ -8156,7 +8105,7 @@ EndChar
 StartChar: uni0288
 Encoding: 648 648 648
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 587 1438 m 1,0,-1
  587 1120 l 1,1,-1
@@ -8182,7 +8131,7 @@ EndChar
 StartChar: uni0289
 Encoding: 649 649 649
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 -32.5 452 m 1,0,-1
  -32.5 616 l 1,1,-1
@@ -8218,7 +8167,7 @@ EndChar
 StartChar: uni028A
 Encoding: 650 650 650
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 95 956 m 1,0,-1
@@ -8251,7 +8200,7 @@ EndChar
 StartChar: uni028B
 Encoding: 651 651 651
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 532 986 m 0,0,0
@@ -8280,7 +8229,7 @@ EndChar
 StartChar: uni028C
 Encoding: 652 652 652
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1161.5 0 m 1,0,-1
  966.5 0 l 1,1,-1
@@ -8295,7 +8244,7 @@ EndChar
 StartChar: uni028D
 Encoding: 653 653 653
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1217.7 0 m 1,0,-1
  1070.5 0 l 1,1,-1
@@ -8316,7 +8265,7 @@ EndChar
 StartChar: uni028E
 Encoding: 654 654 654
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 563.5 798 m 1,0,1
  641.5 998 641.5 998 715.5 1059 c 128,-1,2
@@ -8338,7 +8287,7 @@ EndChar
 StartChar: uni028F
 Encoding: 655 655 655
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 102 1149 m 1,0,-1
@@ -8356,7 +8305,7 @@ EndChar
 StartChar: uni0290
 Encoding: 656 656 656
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 212.625 1120 m 1,0,-1
@@ -8385,7 +8334,7 @@ EndChar
 StartChar: uni0291
 Encoding: 657 657 657
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 682.326 1.08518e-06 m 1,0,-1
@@ -8415,7 +8364,7 @@ EndChar
 StartChar: uni0292
 Encoding: 658 658 658
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 609 476 m 1,0,0
@@ -8446,7 +8395,7 @@ EndChar
 StartChar: uni0293
 Encoding: 659 659 659
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 483 -436 m 0,0,1
@@ -8484,7 +8433,7 @@ EndChar
 StartChar: uni0294
 Encoding: 660 660 660
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 446 798 m 9,0,0
  509 798 l 1,10,11
@@ -8509,7 +8458,7 @@ EndChar
 StartChar: uni0295
 Encoding: 661 661 661
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 786 798 m 17,0,0
  786 0 l 1,1,-1
@@ -8534,7 +8483,7 @@ EndChar
 StartChar: uni0296
 Encoding: 662 662 662
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 446 756 m 17,0,0
  447 1554 l 1,1,-1
@@ -8559,7 +8508,7 @@ EndChar
 StartChar: uni0297
 Encoding: 663 663 663
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 194 1086 m 17,0,0
@@ -8588,7 +8537,7 @@ EndChar
 StartChar: uni0298
 Encoding: 664 664 664
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 94.9004 565.2 m 0,14,15
  94.9004 776.8 94.9004 776.8 249.46 933.2 c 0,16,17
@@ -8622,7 +8571,7 @@ EndChar
 StartChar: uni0299
 Encoding: 665 665 665
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 411 530 m 1,0,-1
  411 170 l 1,1,-1
@@ -8657,7 +8606,7 @@ EndChar
 StartChar: uni029A
 Encoding: 666 666 666
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 562.5 984 m 0,28,29
@@ -8692,7 +8641,7 @@ EndChar
 StartChar: uni029B
 Encoding: 667 667 667
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 718 178 m 1,0,-1
@@ -8732,7 +8681,7 @@ EndChar
 StartChar: uni029C
 Encoding: 668 668 668
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 144 1147 m 1,0,-1
  346 1147 l 1,1,-1
@@ -8752,7 +8701,7 @@ EndChar
 StartChar: uni029D
 Encoding: 669 669 669
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 665.5 1556 m 1,0,-1
@@ -8783,7 +8732,7 @@ EndChar
 StartChar: uni029E
 Encoding: 670 670 670
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1113.5 -436 m 1,0,-1
  928.5 -436 l 1,1,-1
@@ -8802,7 +8751,7 @@ EndChar
 StartChar: uni029F
 Encoding: 671 671 671
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 245 1147 m 1,0,-1
  447 1147 l 1,1,-1
@@ -8816,7 +8765,7 @@ EndChar
 StartChar: uni02A0
 Encoding: 672 672 672
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 698.625 168 m 1,0,1
@@ -8857,7 +8806,7 @@ EndChar
 StartChar: uni02A1
 Encoding: 673 673 673
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 446 798 m 1,0,-1
  509 798 l 2,1,2
@@ -8890,7 +8839,7 @@ EndChar
 StartChar: uni02A2
 Encoding: 674 674 674
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 584 440 m 1,0,-1
  584 652 l 1,1,2
@@ -8923,7 +8872,7 @@ EndChar
 StartChar: uni02A3
 Encoding: 675 675 675
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 167.699 559 m 0,0,1
@@ -8965,7 +8914,7 @@ EndChar
 StartChar: uni02A4
 Encoding: 676 676 676
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 141 559 m 0,0,1
@@ -9019,7 +8968,7 @@ EndChar
 StartChar: uni02A5
 Encoding: 677 677 677
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 168.6 559 m 0,0,1
@@ -9072,7 +9021,7 @@ EndChar
 StartChar: uni02A6
 Encoding: 678 678 678
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 1044 1087 m 1,0,-1
@@ -9127,7 +9076,7 @@ EndChar
 StartChar: uni02A7
 Encoding: 679 679 679
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 393 1438 m 1,0,-1
@@ -9171,7 +9120,7 @@ EndChar
 StartChar: uni02A8
 Encoding: 680 680 680
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 373.199 1438 m 1,0,-1
@@ -9224,7 +9173,7 @@ EndChar
 StartChar: uni02A9
 Encoding: 681 681 681
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 1095.1 676 m 2,0,-1
@@ -9273,7 +9222,7 @@ EndChar
 StartChar: uni02AA
 Encoding: 682 682 682
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 958 1087 m 1,0,-1
@@ -9316,7 +9265,7 @@ EndChar
 StartChar: uni02AB
 Encoding: 683 683 683
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 219.375 1556 m 1,0,-1
@@ -9340,7 +9289,7 @@ EndChar
 StartChar: uni02AC
 Encoding: 684 684 684
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 143.055 597.2 m 1,0,-1
@@ -9376,7 +9325,7 @@ EndChar
 StartChar: uni02AD
 Encoding: 685 685 685
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 143 597 m 1,0,-1
@@ -9402,7 +9351,7 @@ EndChar
 StartChar: uni02AE
 Encoding: 686 686 686
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 489 1002 m 1,0,-1
@@ -9437,7 +9386,7 @@ EndChar
 StartChar: uni02AF
 Encoding: 687 687 687
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 786.9 0 m 1,0,-1
@@ -9481,7 +9430,7 @@ StartChar: uni02B0
 Encoding: 688 688 688
 Width: 1233
 VWidth: 2732
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 911.97 1062.56 m 2,0,-1
@@ -9506,7 +9455,7 @@ EndChar
 StartChar: uni02B1
 Encoding: 689 689 689
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 436.95 1212.38 m 1,13,-1
@@ -9539,7 +9488,7 @@ EndChar
 StartChar: uni02B2
 Encoding: 690 690 690
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 630.99 1311.2 m 1,0,-1
@@ -9563,7 +9512,7 @@ EndChar
 StartChar: uni02B3
 Encoding: 691 691 691
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 823.14 1214.88 m 1,0,1
@@ -9586,7 +9535,7 @@ EndChar
 StartChar: uni02B4
 Encoding: 692 692 692
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 409.86 780.32 m 1,0,1
@@ -9609,7 +9558,7 @@ EndChar
 StartChar: uni02B5
 Encoding: 693 693 693
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 337.41 780.32 m 1,0,1
@@ -9642,7 +9591,7 @@ EndChar
 StartChar: uni02B6
 Encoding: 694 694 694
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 684.225 1017.2 m 1,0,1
@@ -9675,7 +9624,7 @@ EndChar
 StartChar: uni02B7
 Encoding: 695 695 695
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 143.055 1311.2 m 1,0,-1
@@ -9697,7 +9646,7 @@ EndChar
 StartChar: uni02B8
 Encoding: 696 696 696
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 649.891 625.76 m 1,0,1
@@ -9737,7 +9686,7 @@ EndChar
 StartChar: afii57929
 Encoding: 700 700 700
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 561 1556 m 1,0,-1
@@ -9753,7 +9702,7 @@ StartChar: uni02C0
 Encoding: 704 704 704
 Width: 1233
 VWidth: 1730
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 509.085 1372.88 m 9,0,-1
@@ -9780,7 +9729,7 @@ StartChar: uni02C1
 Encoding: 705 705 705
 Width: 1233
 VWidth: 1730
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 723.285 1372.88 m 17,0,-1
@@ -9842,7 +9791,7 @@ EndChar
 StartChar: uni02D0
 Encoding: 720 720 720
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 616.5 728.801 m 1,0,-1
@@ -9858,7 +9807,7 @@ EndChar
 StartChar: uni02D1
 Encoding: 721 721 721
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 616.5 728.801 m 1,0,-1
@@ -10029,7 +9978,7 @@ StartChar: uni02E0
 Encoding: 736 736 736
 Width: 1233
 VWidth: 1540
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 692.73 1246.32 m 1,0,1
@@ -10054,7 +10003,7 @@ StartChar: uni02E1
 Encoding: 737 737 737
 Width: 1233
 VWidth: 1731
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 558.54 1797.36 m 1,0,-1
@@ -10068,7 +10017,7 @@ StartChar: uni02E2
 Encoding: 738 738 738
 Width: 1233
 VWidth: 1634
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 848.34 1550.96 m 1,0,-1
@@ -10106,7 +10055,7 @@ StartChar: uni02E3
 Encoding: 739 739 739
 Width: 1233
 VWidth: 1635
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 945.36 1553.2 m 1,0,-1
@@ -10128,7 +10077,7 @@ StartChar: uni02E4
 Encoding: 740 740 740
 Width: 1233
 VWidth: 1730
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 723.285 1372.88 m 17,0,-1
@@ -10154,7 +10103,7 @@ EndChar
 StartChar: uni0312
 Encoding: 786 786 786
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 708 967 m 1,5,-1
@@ -10167,7 +10116,7 @@ EndChar
 StartChar: uni0326
 Encoding: 806 806 806
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 502 -120 m 1,5,-1
  741 -120 l 1,2,-1
@@ -11015,21 +10964,21 @@ EndChar
 StartChar: uni0400
 Encoding: 1024 1024 1024
 Width: 1233
-Flags: HW
-Ref: 65541 -1 N 1 0 0 1 0 373
-Ref: 1045 1045 N 1 0 0 1 0 0
+Flags: W
+Refer: 65541 -1 N 1 0 0 1 0 373
+Refer: 1045 1045 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10023
 Encoding: 1025 1025 1025
 Width: 1233
-Flags: HW
-Ref: 65538 -1 N 1 0 0 1 56 373
-Ref: 1045 1045 N 1 0 0 1 0 0
+Flags: W
+Refer: 65538 -1 N 1 0 0 1 56 373
+Refer: 1045 1045 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10051
 Encoding: 1026 1026 1026
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 573 -287.104 m 129,-1,0
  651.378 -304.308 l 2,1,2
@@ -11068,14 +11017,14 @@ EndChar
 StartChar: afii10052
 Encoding: 1027 1027 1027
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 72 373
-Ref: 1043 1043 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 72 373
+Refer: 1043 1043 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10053
 Encoding: 1028 1028 1028
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1073 53 m 1,0,1
  996.009 12.0024 996.009 12.0024 915 -8.5 c 0,2,3
@@ -11104,7 +11053,7 @@ EndChar
 StartChar: afii10054
 Encoding: 1029 1029 1029
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1012 1442 m 1,0,-1
  1012 1237 l 1,1,2
@@ -11140,7 +11089,7 @@ EndChar
 StartChar: afii10055
 Encoding: 1030 1030 1030
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 201 1493 m 1,0,-1
  1030 1493 l 1,1,-1
@@ -11160,14 +11109,14 @@ EndChar
 StartChar: afii10056
 Encoding: 1031 1031 1031
 Width: 1233
-Flags: HW
-Ref: 65538 -1 N 1 0 0 1 1 373
-Ref: 1030 1030 N 1 0 0 1 0 0
+Flags: W
+Refer: 65538 -1 N 1 0 0 1 1 373
+Refer: 1030 1030 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10057
 Encoding: 1032 1032 1032
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 109 61 m 1,0,-1
  109 297 l 1,1,2
@@ -11189,7 +11138,7 @@ EndChar
 StartChar: afii10058
 Encoding: 1033 1033 1033
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 865 893 m 1,0,-1
  896 893 l 2,1,2
@@ -11231,7 +11180,7 @@ EndChar
 StartChar: afii10059
 Encoding: 1034 1034 1034
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 874 893 m 1,0,-1
  905 893 l 2,1,2
@@ -11272,7 +11221,7 @@ EndChar
 StartChar: afii10060
 Encoding: 1035 1035 1035
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 383 1325 m 1,0,-1
  383 800 l 1,1,2
@@ -11304,28 +11253,28 @@ EndChar
 StartChar: afii10061
 Encoding: 1036 1036 1036
 Width: 1233
-Flags: HW
-Ref: 65539 -1 N 1 0 0 1 27 373
-Ref: 1050 1050 N 1 0 0 1 0 0
+Flags: W
+Refer: 65539 -1 N 1 0 0 1 27 373
+Refer: 1050 1050 N 1 0 0 1 0 0
 EndChar
 StartChar: uni040D
 Encoding: 1037 1037 1037
 Width: 1233
-Flags: HW
-Ref: 65541 -1 N 1 0 0 1 0 373
-Ref: 1048 1048 N 1 0 0 1 0 0
+Flags: W
+Refer: 65541 -1 N 1 0 0 1 0 373
+Refer: 1048 1048 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10062
 Encoding: 1038 1038 1038
 Width: 1233
-Flags: HW
-Ref: 65546 -1 N 1 0 0 1 0 373
-Ref: 1059 1059 N 1 0 0 1 0 0
+Flags: W
+Refer: 65546 -1 N 1 0 0 1 0 373
+Refer: 1059 1059 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10145
 Encoding: 1039 1039 1039
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 137 0 m 1,0,-1
  515 0 l 1,1,-1
@@ -11345,7 +11294,7 @@ EndChar
 StartChar: afii10017
 Encoding: 1040 1040 1040
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 616 1315 m 1,0,-1
  403 551 l 1,1,-1
@@ -11365,7 +11314,7 @@ EndChar
 StartChar: afii10018
 Encoding: 1041 1041 1041
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 369 713 m 1,0,-1
  369 166 l 1,1,-1
@@ -11392,7 +11341,7 @@ EndChar
 StartChar: afii10019
 Encoding: 1042 1042 1042
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 369 713 m 1,0,-1
  369 166 l 1,1,-1
@@ -11427,7 +11376,7 @@ EndChar
 StartChar: afii10020
 Encoding: 1043 1043 1043
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 215 0 m 1,0,-1
  418 0 l 1,1,-1
@@ -11441,7 +11390,7 @@ EndChar
 StartChar: afii10021
 Encoding: 1044 1044 1044
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1072.38 170 m 1,16,17
  1188 170 l 1,1,-1
@@ -11470,7 +11419,7 @@ EndChar
 StartChar: afii10022
 Encoding: 1045 1045 1045
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 197 1493 m 1,0,-1
  1083 1493 l 1,1,-1
@@ -11490,7 +11439,7 @@ EndChar
 StartChar: afii10024
 Encoding: 1046 1046 1046
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 514 711 m 1,0,-1
  404 711 l 1,1,-1
@@ -11520,7 +11469,7 @@ EndChar
 StartChar: afii10025
 Encoding: 1047 1047 1047
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 776 799 m 1,0,1
  923 760 923 760 1001 660.5 c 0,2,3
@@ -11557,7 +11506,7 @@ EndChar
 StartChar: afii10026
 Encoding: 1048 1048 1048
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 139 0 m 1,0,-1
  395 0 l 1,1,-1
@@ -11575,14 +11524,14 @@ EndChar
 StartChar: afii10027
 Encoding: 1049 1049 1049
 Width: 1233
-Flags: HW
-Ref: 65546 -1 N 1 0 0 1 0 373
-Ref: 1048 1048 N 1 0 0 1 0 0
+Flags: W
+Refer: 65546 -1 N 1 0 0 1 0 373
+Refer: 1048 1048 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10028
 Encoding: 1050 1050 1050
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 137 1493 m 1,0,-1
  340 1493 l 1,1,-1
@@ -11602,7 +11551,7 @@ EndChar
 StartChar: afii10029
 Encoding: 1051 1051 1051
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 420 1323 m 1,0,-1
  920 1323 l 1,1,-1
@@ -11622,7 +11571,7 @@ EndChar
 StartChar: afii10030
 Encoding: 1052 1052 1052
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 86 1493 m 1,0,-1
  356 1493 l 1,1,-1
@@ -11643,7 +11592,7 @@ EndChar
 StartChar: afii10031
 Encoding: 1053 1053 1053
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 137 1493 m 1,0,-1
  340 1493 l 1,1,-1
@@ -11663,7 +11612,7 @@ EndChar
 StartChar: afii10032
 Encoding: 1054 1054 1054
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 905 745 m 0,0,1
  905 1074 905 1074 837.5 1215 c 0,2,3
@@ -11688,7 +11637,7 @@ EndChar
 StartChar: afii10033
 Encoding: 1055 1055 1055
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 137 1493 m 1,0,-1
  1096 1493 l 1,1,-1
@@ -11704,7 +11653,7 @@ EndChar
 StartChar: afii10034
 Encoding: 1056 1056 1056
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 399 1327 m 1,0,-1
  399 766 l 1,1,-1
@@ -11729,7 +11678,7 @@ EndChar
 StartChar: afii10035
 Encoding: 1057 1057 1057
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1073 53 m 1,0,1
  996.009 12.0024 996.009 12.0024 915 -8.5 c 0,2,3
@@ -11755,7 +11704,7 @@ EndChar
 StartChar: afii10036
 Encoding: 1058 1058 1058
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 47 1493 m 1,0,-1
  1186 1493 l 1,1,-1
@@ -11771,7 +11720,7 @@ EndChar
 StartChar: afii10037
 Encoding: 1059 1059 1059
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 858 733 m 1,0,1
  741 425 l 1,2,3
@@ -11796,7 +11745,7 @@ EndChar
 StartChar: afii10038
 Encoding: 1060 1060 1060
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 514 1366.99 m 1,0,-1
  514 1637 l 1,1,-1
@@ -11838,7 +11787,7 @@ EndChar
 StartChar: afii10039
 Encoding: 1061 1061 1061
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 86 1493 m 1,0,-1
  303 1493 l 1,1,-1
@@ -11858,7 +11807,7 @@ EndChar
 StartChar: afii10040
 Encoding: 1062 1062 1062
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 58.5 0 m 1,0,-1
  971.5 0 l 1,1,-1
@@ -11878,7 +11827,7 @@ EndChar
 StartChar: afii10041
 Encoding: 1063 1063 1063
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 140 1030 m 2,0,-1
  140 1495 l 1,1,-1
@@ -11906,7 +11855,7 @@ EndChar
 StartChar: afii10042
 Encoding: 1064 1064 1064
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1114 0 m 17,0,-1
  113 0 l 1,1,-1
@@ -11926,7 +11875,7 @@ EndChar
 StartChar: afii10043
 Encoding: 1065 1065 1065
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 20.333 0 m 1,0,-1
  20.333 1493 l 1,1,-1
@@ -11950,7 +11899,7 @@ EndChar
 StartChar: afii10044
 Encoding: 1066 1066 1066
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 495 166 m 1,0,-1
  495 727 l 1,1,-1
@@ -11977,7 +11926,7 @@ EndChar
 StartChar: afii10045
 Encoding: 1067 1067 1067
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 797 1493 m 1,0,-1
  1271 1493 l 1,1,-1
@@ -12015,7 +11964,7 @@ EndChar
 StartChar: afii10046
 Encoding: 1068 1068 1068
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 399 166 m 1,0,-1
  399 727 l 1,1,-1
@@ -12040,7 +11989,7 @@ EndChar
 StartChar: afii10047
 Encoding: 1069 1069 1069
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 139 53 m 1,0,1
  215.99 12.002 215.99 12.002 297 -8.5 c 0,2,3
@@ -12069,7 +12018,7 @@ EndChar
 StartChar: afii10048
 Encoding: 1070 1070 1070
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 -40 1493 m 1,0,-1
  434 1493 l 1,1,-1
@@ -12121,7 +12070,7 @@ EndChar
 StartChar: afii10049
 Encoding: 1071 1071 1071
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 616 705 m 1,0,1
  538 685 538 685 483 629.5 c 0,2,3
@@ -12153,7 +12102,7 @@ EndChar
 StartChar: afii10065
 Encoding: 1072 1072 1072
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 702 563 m 1,0,-1
  641 563 l 2,1,2
@@ -12193,7 +12142,7 @@ EndChar
 StartChar: afii10066
 Encoding: 1073 1073 1073
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 616 991 m 0,0,1
  475.995 991 475.995 991 404 882 c 0,2,3
@@ -12232,7 +12181,7 @@ EndChar
 StartChar: afii10067
 Encoding: 1074 1074 1074
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1052 328 m 0,0,1
  1052 174.519 1052 174.519 945 92.1814 c 0,2,3
@@ -12273,7 +12222,7 @@ EndChar
 StartChar: afii10068
 Encoding: 1075 1075 1075
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 441 936 m 1,0,-1
  1009 936 l 1,1,-1
@@ -12287,7 +12236,7 @@ EndChar
 StartChar: afii10069
 Encoding: 1076 1076 1076
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1032.58 184 m 1,16,17
  1134 184 l 1,7,-1
@@ -12316,7 +12265,7 @@ EndChar
 StartChar: afii10070
 Encoding: 1077 1077 1077
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1112 606 m 2,0,-1
  1112 516 l 1,1,-1
@@ -12346,7 +12295,7 @@ EndChar
 StartChar: afii10072
 Encoding: 1078 1078 1078
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 704 505 m 1,0,-1
  704 0 l 1,1,-1
@@ -12376,7 +12325,7 @@ EndChar
 StartChar: afii10073
 Encoding: 1079 1079 1079
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 790.141 591.625 m 1,0,1
  875.471 572.876 875.471 572.876 933.693 518.22 c 1,2,3
@@ -12423,7 +12372,7 @@ EndChar
 StartChar: afii10074
 Encoding: 1080 1080 1080
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 866 718 m 1,0,-1
  866 0 l 1,1,-1
@@ -12442,14 +12391,14 @@ EndChar
 StartChar: afii10075
 Encoding: 1081 1081 1081
 Width: 1233
-Flags: HW
-Ref: 1080 1080 N 1 0 0 1 0 0
-Ref: 728 728 N 1 0 0 1 6 -52
+Flags: W
+Refer: 1080 1080 N 1 0 0 1 0 0
+Refer: 728 728 N 1 0 0 1 6 -52
 EndChar
 StartChar: afii10076
 Encoding: 1082 1082 1082
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 236 1120 m 1,0,-1
  426 1120 l 1,1,-1
@@ -12469,7 +12418,7 @@ EndChar
 StartChar: afii10077
 Encoding: 1083 1083 1083
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 195 1120 m 1,0,-1
  1050 1120 l 1,1,-1
@@ -12491,7 +12440,7 @@ EndChar
 StartChar: afii10078
 Encoding: 1084 1084 1084
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 620 429.422 m 1,0,-1
  995 1120 l 1,1,-1
@@ -12512,7 +12461,7 @@ EndChar
 StartChar: afii10079
 Encoding: 1085 1085 1085
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 866 505 m 1,0,-1
  866 0 l 1,1,-1
@@ -12532,7 +12481,7 @@ EndChar
 StartChar: afii10080
 Encoding: 1086 1086 1086
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 616 991 m 0,0,1
  476 991 476 991 404 882 c 0,2,3
@@ -12557,7 +12506,7 @@ EndChar
 StartChar: afii10081
 Encoding: 1087 1087 1087
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 866 936 m 1,0,-1
  866 0 l 1,1,-1
@@ -12573,7 +12522,7 @@ EndChar
 StartChar: afii10082
 Encoding: 1088 1088 1088
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 375 141 m 1,0,-1
  375 -426 l 1,1,-1
@@ -12603,7 +12552,7 @@ EndChar
 StartChar: afii10083
 Encoding: 1089 1089 1089
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1061 57 m 1,0,1
  987.01 14.0029 987.01 14.0029 908.5 -7.5 c 0,2,3
@@ -12629,7 +12578,7 @@ EndChar
 StartChar: afii10084
 Encoding: 1090 1090 1090
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 720 942 m 1,0,-1
  1031 942 l 1,1,-1
@@ -12645,7 +12594,7 @@ EndChar
 StartChar: afii10085
 Encoding: 1091 1091 1091
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 858 360 m 1,0,1
  741 52 l 1,2,3
@@ -12668,7 +12617,7 @@ EndChar
 StartChar: afii10086
 Encoding: 1092 1092 1092
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 520 1062.15 m 1,0,-1
  520 1307 l 1,1,-1
@@ -12710,7 +12659,7 @@ EndChar
 StartChar: afii10087
 Encoding: 1093 1093 1093
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1118 1120 m 1,0,-1
  717 584 l 1,1,-1
@@ -12730,7 +12679,7 @@ EndChar
 StartChar: afii10088
 Encoding: 1094 1094 1094
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1139.5 184 m 1,0,-1
  1139.5 -286 l 1,1,-1
@@ -12750,7 +12699,7 @@ EndChar
 StartChar: afii10089
 Encoding: 1095 1095 1095
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 195 855 m 2,0,-1
  195 1122 l 1,1,-1
@@ -12775,7 +12724,7 @@ EndChar
 StartChar: afii10090
 Encoding: 1096 1096 1096
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1114 0 m 1,0,-1
  113 0 l 1,1,-1
@@ -12795,7 +12744,7 @@ EndChar
 StartChar: afii10091
 Encoding: 1097 1097 1097
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 20.333 0 m 1,0,-1
  20.333 1120 l 1,1,-1
@@ -12819,7 +12768,7 @@ EndChar
 StartChar: afii10092
 Encoding: 1098 1098 1098
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 513.488 165.125 m 1,0,-1
  513.488 522.875 l 1,1,-1
@@ -12849,7 +12798,7 @@ EndChar
 StartChar: afii10093
 Encoding: 1099 1099 1099
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1120 1120 m 1,0,-1
  936 1120 l 1,1,-1
@@ -12882,7 +12831,7 @@ EndChar
 StartChar: afii10094
 Encoding: 1100 1100 1100
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 380.488 165.125 m 1,0,-1
  380.488 522.875 l 1,1,-1
@@ -12910,7 +12859,7 @@ EndChar
 StartChar: afii10095
 Encoding: 1101 1101 1101
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 195 57 m 1,0,1
  268.99 14.0029 268.99 14.0029 347.5 -7.5 c 0,2,3
@@ -12939,7 +12888,7 @@ EndChar
 StartChar: afii10096
 Encoding: 1102 1102 1102
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 784 1147 m 0,0,1
  945.005 1147 945.005 1147 1060.5 996 c 0,2,3
@@ -12971,7 +12920,7 @@ EndChar
 StartChar: afii10097
 Encoding: 1103 1103 1103
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 504.417 528.892 m 1,0,1
  445.901 513.888 445.901 513.888 404.641 472.251 c 0,2,3
@@ -13003,21 +12952,21 @@ EndChar
 StartChar: uni0450
 Encoding: 1104 1104 1104
 Width: 1233
-Flags: HW
-Ref: 1077 1077 N 1 0 0 1 0 0
-Ref: 96 96 N 1 0 0 1 -30 7
+Flags: W
+Refer: 1077 1077 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 -30 7
 EndChar
 StartChar: afii10071
 Encoding: 1105 1105 1105
 Width: 1233
-Flags: HW
-Ref: 1077 1077 N 1 0 0 1 0 0
-Ref: 168 168 N 1 0 0 1 35 -81
+Flags: W
+Refer: 1077 1077 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 35 -81
 EndChar
 StartChar: afii10099
 Encoding: 1106 1106 1106
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1051 -11 m 2,0,1
  1051 -204.835 1051 -204.835 960.5 -311.5 c 0,2,3
@@ -13055,14 +13004,14 @@ EndChar
 StartChar: afii10100
 Encoding: 1107 1107 1107
 Width: 1233
-Flags: HW
-Ref: 1075 1075 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 81 7
+Flags: W
+Refer: 1075 1075 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 81 7
 EndChar
 StartChar: afii10101
 Encoding: 1108 1108 1108
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 1061 57 m 1,0,1
  987.01 14.0029 987.01 14.0029 908.5 -7.5 c 0,2,3
@@ -13091,7 +13040,7 @@ EndChar
 StartChar: afii10102
 Encoding: 1109 1109 1109
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 973 1081 m 1,0,-1
  973 901 l 1,1,2
@@ -13127,7 +13076,7 @@ EndChar
 StartChar: afii10103
 Encoding: 1110 1110 1110
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 256 1120 m 1,0,-1
  727 1120 l 1,1,-1
@@ -13150,14 +13099,14 @@ EndChar
 StartChar: afii10104
 Encoding: 1111 1111 1111
 Width: 1233
-Flags: HW
-Ref: 168 168 N 1 0 0 1 -44 -81
-Ref: 305 305 N 1 0 0 1 0 0
+Flags: W
+Refer: 168 168 N 1 0 0 1 -44 -81
+Refer: 305 305 N 1 0 0 1 0 0
 EndChar
 StartChar: afii10105
 Encoding: 1112 1112 1112
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 600 -20 m 2,0,-1
  600 977 l 1,1,-1
@@ -13182,7 +13131,7 @@ EndChar
 StartChar: afii10106
 Encoding: 1113 1113 1113
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 865.98 684.748 m 1,0,-1
  866 1120 l 1,1,-1
@@ -13221,7 +13170,7 @@ EndChar
 StartChar: afii10107
 Encoding: 1114 1114 1114
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 839 1120 m 1,0,-1
  655 1120 l 1,1,-1
@@ -13260,7 +13209,7 @@ EndChar
 StartChar: afii10108
 Encoding: 1115 1115 1115
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 379 1362 m 1,0,-1
  757 1362 l 1,1,-1
@@ -13292,28 +13241,28 @@ EndChar
 StartChar: afii10109
 Encoding: 1116 1116 1116
 Width: 1233
-Flags: HW
-Ref: 1082 1082 N 1 0 0 1 0 0
-Ref: 180 180 N 1 0 0 1 48.5 7
+Flags: W
+Refer: 1082 1082 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 48.5 7
 EndChar
 StartChar: uni045D
 Encoding: 1117 1117 1117
 Width: 1233
-Flags: HW
-Ref: 1080 1080 N 1 0 0 1 0 0
-Ref: 96 96 N 1 0 0 1 64.5 7
+Flags: W
+Refer: 1080 1080 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 64.5 7
 EndChar
 StartChar: afii10110
 Encoding: 1118 1118 1118
 Width: 1233
-Flags: HW
-Ref: 1091 1091 N 1 0 0 1 0 0
-Ref: 728 728 N 1 0 0 1 12 -52
+Flags: W
+Refer: 1091 1091 N 1 0 0 1 0 0
+Refer: 728 728 N 1 0 0 1 12 -52
 EndChar
 StartChar: afii10193
 Encoding: 1119 1119 1119
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 714 0 m 1,0,-1
  714 -276 l 1,1,-1
@@ -13413,18 +13362,16 @@ EndChar
 StartChar: uni1E12
 Encoding: 7698 7698 7698
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 65542 -1 N 1 0 0 1 -161 -1650
-Ref: 68 68 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 -161 -1650
+Refer: 68 68 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E13
 Encoding: 7699 7699 7699
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 710 710 N 1 0 0 1 -57.5 -1784
-Ref: 100 100 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 -57.5 -1784
+Refer: 100 100 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E1E
 Encoding: 7710 7710 7710
@@ -13441,18 +13388,16 @@ EndChar
 StartChar: uni1E3C
 Encoding: 7740 7740 7740
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 65542 -1 N 1 0 0 1 10.5 -1650
-Ref: 76 76 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 10.5 -1650
+Refer: 76 76 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E3D
 Encoding: 7741 7741 7741
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 710 710 N 1 0 0 1 119 -1754
-Ref: 108 108 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 119 -1754
+Refer: 108 108 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E40
 Encoding: 7744 7744 7744
@@ -13469,34 +13414,30 @@ EndChar
 StartChar: uni1E44
 Encoding: 7748 7748 7748
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 65547 -1 N 1 0 0 1 0 348
-Ref: 78 78 N 1 0 0 1 0 0
+Refer: 65547 -1 N 1 0 0 1 0 348
+Refer: 78 78 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E45
 Encoding: 7749 7749 7749
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 729 729 N 1 0 0 1 6.5 -79
-Ref: 110 110 N 1 0 0 1 0 0
+Refer: 729 729 N 1 0 0 1 6.5 -79
+Refer: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E4A
 Encoding: 7754 7754 7754
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 65542 -1 N 1 0 0 1 0 -1650
-Ref: 78 78 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 0 -1650
+Refer: 78 78 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E4B
 Encoding: 7755 7755 7755
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 710 710 N 1 0 0 1 6.5 -1754
-Ref: 110 110 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 6.5 -1754
+Refer: 110 110 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E56
 Encoding: 7766 7766 7766
@@ -13537,74 +13478,72 @@ EndChar
 StartChar: uni1E70
 Encoding: 7792 7792 7792
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 65542 -1 N 1 0 0 1 1 -1650
-Ref: 84 84 N 1 0 0 1 0 0
+Refer: 65542 -1 N 1 0 0 1 1 -1650
+Refer: 84 84 N 1 0 0 1 0 0
 EndChar
 StartChar: uni1E71
 Encoding: 7793 7793 7793
 Width: 1233
-Flags: H
 TeX: 0 0 0 0
-Ref: 710 710 N 1 0 0 1 66 -1753
-Ref: 116 116 N 1 0 0 1 0 0
+Refer: 710 710 N 1 0 0 1 66 -1753
+Refer: 116 116 N 1 0 0 1 0 0
 EndChar
 StartChar: Wgrave
 Encoding: 7808 7808 7808
 Width: 1233
 Flags: W
-Ref: 96 96 N 1 0 0 1 -64 380
-Ref: 87 87 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 -64 380
+Refer: 87 87 N 1 0 0 1 0 0
 EndChar
 StartChar: wgrave
 Encoding: 7809 7809 7809
 Width: 1233
 Flags: W
-Ref: 96 96 N 1 0 0 1 -64 7
-Ref: 119 119 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 -64 7
+Refer: 119 119 N 1 0 0 1 0 0
 EndChar
 StartChar: Wacute
 Encoding: 7810 7810 7810
 Width: 1233
 Flags: W
-Ref: 180 180 N 1 0 0 1 64 380
-Ref: 87 87 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 64 380
+Refer: 87 87 N 1 0 0 1 0 0
 EndChar
 StartChar: wacute
 Encoding: 7811 7811 7811
 Width: 1233
 Flags: W
-Ref: 180 180 N 1 0 0 1 64 7
-Ref: 119 119 N 1 0 0 1 0 0
+Refer: 180 180 N 1 0 0 1 64 7
+Refer: 119 119 N 1 0 0 1 0 0
 EndChar
 StartChar: Wdieresis
 Encoding: 7812 7812 7812
 Width: 1233
 Flags: W
-Ref: 168 168 N 1 0 0 1 0 292
-Ref: 87 87 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 0 292
+Refer: 87 87 N 1 0 0 1 0 0
 EndChar
 StartChar: wdieresis
 Encoding: 7813 7813 7813
 Width: 1233
 Flags: W
-Ref: 168 168 N 1 0 0 1 0 -81
-Ref: 119 119 N 1 0 0 1 0 0
+Refer: 168 168 N 1 0 0 1 0 -81
+Refer: 119 119 N 1 0 0 1 0 0
 EndChar
 StartChar: Ygrave
 Encoding: 7922 7922 7922
 Width: 1233
 Flags: W
-Ref: 96 96 N 1 0 0 1 -64 380
-Ref: 89 89 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 -64 380
+Refer: 89 89 N 1 0 0 1 0 0
 EndChar
 StartChar: ygrave
 Encoding: 7923 7923 7923
 Width: 1233
 Flags: W
-Ref: 96 96 N 1 0 0 1 -52 7
-Ref: 121 121 N 1 0 0 1 0 0
+Refer: 96 96 N 1 0 0 1 -52 7
+Refer: 121 121 N 1 0 0 1 0 0
 EndChar
 StartChar: uni2010
 Encoding: 8208 8208 8208
@@ -13624,8 +13563,8 @@ EndChar
 StartChar: uni2011
 Encoding: 8209 8209 8209
 Width: 1233
-Flags: HW
-Ref: 8208 8208 N 1 0 0 1 0 0
+Flags: W
+Refer: 8208 8208 N 1 0 0 1 0 0
 EndChar
 StartChar: figuredash
 Encoding: 8210 8210 8210
@@ -14020,7 +13959,7 @@ StartChar: uni207F
 Encoding: 8319 8319 8319
 Width: 1233
 VWidth: 2732
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 920.23 1072.64 m 2,0,-1
@@ -14523,7 +14462,7 @@ EndChar
 StartChar: SF100000
 Encoding: 9472 9472 9472
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -14536,7 +14475,7 @@ EndChar
 StartChar: uni2501
 Encoding: 9473 9473 9473
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -14549,7 +14488,7 @@ EndChar
 StartChar: SF110000
 Encoding: 9474 9474 9474
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -14562,7 +14501,7 @@ EndChar
 StartChar: uni2503
 Encoding: 9475 9475 9475
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -14575,7 +14514,7 @@ EndChar
 StartChar: uni2504
 Encoding: 9476 9476 9476
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 945 80 m 9,0,-1
@@ -14598,7 +14537,7 @@ EndChar
 StartChar: uni2505
 Encoding: 9477 9477 9477
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 945 -6 m 9,0,-1
@@ -14621,7 +14560,7 @@ EndChar
 StartChar: uni2506
 Encoding: 9478 9478 9478
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -14644,7 +14583,7 @@ EndChar
 StartChar: uni2507
 Encoding: 9479 9479 9479
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -14667,7 +14606,7 @@ EndChar
 StartChar: uni2508
 Encoding: 9480 9480 9480
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -21 80 m 1,0,-1
@@ -14695,7 +14634,7 @@ EndChar
 StartChar: uni2509
 Encoding: 9481 9481 9481
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -14723,7 +14662,7 @@ EndChar
 StartChar: uni250A
 Encoding: 9482 9482 9482
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 1014 m 17,0,-1
@@ -14751,7 +14690,7 @@ EndChar
 StartChar: uni250B
 Encoding: 9483 9483 9483
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 1014 m 17,0,-1
@@ -14779,7 +14718,7 @@ EndChar
 StartChar: SF010000
 Encoding: 9484 9484 9484
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -14794,7 +14733,7 @@ EndChar
 StartChar: uni250D
 Encoding: 9485 9485 9485
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -14809,7 +14748,7 @@ EndChar
 StartChar: uni250E
 Encoding: 9486 9486 9486
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -14824,7 +14763,7 @@ EndChar
 StartChar: uni250F
 Encoding: 9487 9487 9487
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -14839,7 +14778,7 @@ EndChar
 StartChar: SF030000
 Encoding: 9488 9488 9488
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -14854,7 +14793,7 @@ EndChar
 StartChar: uni2511
 Encoding: 9489 9489 9489
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -14869,7 +14808,7 @@ EndChar
 StartChar: uni2512
 Encoding: 9490 9490 9490
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -14884,7 +14823,7 @@ EndChar
 StartChar: uni2513
 Encoding: 9491 9491 9491
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -14899,7 +14838,7 @@ EndChar
 StartChar: SF020000
 Encoding: 9492 9492 9492
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 80 m 1,0,-1
@@ -14914,7 +14853,7 @@ EndChar
 StartChar: uni2515
 Encoding: 9493 9493 9493
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -6 m 1,0,-1
@@ -14929,7 +14868,7 @@ EndChar
 StartChar: uni2516
 Encoding: 9494 9494 9494
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 80 m 1,0,-1
@@ -14944,7 +14883,7 @@ EndChar
 StartChar: uni2517
 Encoding: 9495 9495 9495
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -6 m 1,0,-1
@@ -14959,7 +14898,7 @@ EndChar
 StartChar: SF040000
 Encoding: 9496 9496 9496
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -14974,7 +14913,7 @@ EndChar
 StartChar: uni2519
 Encoding: 9497 9497 9497
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -14989,7 +14928,7 @@ EndChar
 StartChar: uni251A
 Encoding: 9498 9498 9498
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -15004,7 +14943,7 @@ EndChar
 StartChar: uni251B
 Encoding: 9499 9499 9499
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -15019,7 +14958,7 @@ EndChar
 StartChar: SF080000
 Encoding: 9500 9500 9500
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15036,7 +14975,7 @@ EndChar
 StartChar: uni251D
 Encoding: 9501 9501 9501
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15053,7 +14992,7 @@ EndChar
 StartChar: uni251E
 Encoding: 9502 9502 9502
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15072,7 +15011,7 @@ EndChar
 StartChar: uni251F
 Encoding: 9503 9503 9503
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15091,7 +15030,7 @@ EndChar
 StartChar: uni2520
 Encoding: 9504 9504 9504
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15108,7 +15047,7 @@ EndChar
 StartChar: uni2521
 Encoding: 9505 9505 9505
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15127,7 +15066,7 @@ EndChar
 StartChar: uni2522
 Encoding: 9506 9506 9506
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15146,7 +15085,7 @@ EndChar
 StartChar: uni2523
 Encoding: 9507 9507 9507
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15163,7 +15102,7 @@ EndChar
 StartChar: SF090000
 Encoding: 9508 9508 9508
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15180,7 +15119,7 @@ EndChar
 StartChar: uni2525
 Encoding: 9509 9509 9509
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15197,7 +15136,7 @@ EndChar
 StartChar: uni2526
 Encoding: 9510 9510 9510
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15216,7 +15155,7 @@ EndChar
 StartChar: uni2527
 Encoding: 9511 9511 9511
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15235,7 +15174,7 @@ EndChar
 StartChar: uni2528
 Encoding: 9512 9512 9512
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15252,7 +15191,7 @@ EndChar
 StartChar: uni2529
 Encoding: 9513 9513 9513
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15271,7 +15210,7 @@ EndChar
 StartChar: uni252A
 Encoding: 9514 9514 9514
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15290,7 +15229,7 @@ EndChar
 StartChar: uni252B
 Encoding: 9515 9515 9515
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15307,7 +15246,7 @@ EndChar
 StartChar: SF060000
 Encoding: 9516 9516 9516
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15324,7 +15263,7 @@ EndChar
 StartChar: uni252D
 Encoding: 9517 9517 9517
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15343,7 +15282,7 @@ EndChar
 StartChar: uni252E
 Encoding: 9518 9518 9518
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15362,7 +15301,7 @@ EndChar
 StartChar: uni252F
 Encoding: 9519 9519 9519
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15379,7 +15318,7 @@ EndChar
 StartChar: uni2530
 Encoding: 9520 9520 9520
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15396,7 +15335,7 @@ EndChar
 StartChar: uni2531
 Encoding: 9521 9521 9521
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15415,7 +15354,7 @@ EndChar
 StartChar: uni2532
 Encoding: 9522 9522 9522
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15434,7 +15373,7 @@ EndChar
 StartChar: uni2533
 Encoding: 9523 9523 9523
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15451,7 +15390,7 @@ EndChar
 StartChar: SF070000
 Encoding: 9524 9524 9524
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -15468,7 +15407,7 @@ EndChar
 StartChar: uni2535
 Encoding: 9525 9525 9525
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -15487,7 +15426,7 @@ EndChar
 StartChar: uni2536
 Encoding: 9526 9526 9526
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -15506,7 +15445,7 @@ EndChar
 StartChar: uni2537
 Encoding: 9527 9527 9527
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -15523,7 +15462,7 @@ EndChar
 StartChar: uni2538
 Encoding: 9528 9528 9528
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -15540,7 +15479,7 @@ EndChar
 StartChar: uni2539
 Encoding: 9529 9529 9529
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -15559,7 +15498,7 @@ EndChar
 StartChar: uni253A
 Encoding: 9530 9530 9530
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -15578,7 +15517,7 @@ EndChar
 StartChar: uni253B
 Encoding: 9531 9531 9531
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -15595,7 +15534,7 @@ EndChar
 StartChar: SF050000
 Encoding: 9532 9532 9532
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 696 80 m 1,0,-1
@@ -15616,7 +15555,7 @@ EndChar
 StartChar: uni253D
 Encoding: 9533 9533 9533
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15637,7 +15576,7 @@ EndChar
 StartChar: uni253E
 Encoding: 9534 9534 9534
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15658,7 +15597,7 @@ EndChar
 StartChar: uni253F
 Encoding: 9535 9535 9535
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15679,7 +15618,7 @@ EndChar
 StartChar: uni2540
 Encoding: 9536 9536 9536
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15700,7 +15639,7 @@ EndChar
 StartChar: uni2541
 Encoding: 9537 9537 9537
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15721,7 +15660,7 @@ EndChar
 StartChar: uni2542
 Encoding: 9538 9538 9538
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15742,7 +15681,7 @@ EndChar
 StartChar: uni2543
 Encoding: 9539 9539 9539
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15765,7 +15704,7 @@ EndChar
 StartChar: uni2544
 Encoding: 9540 9540 9540
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15788,7 +15727,7 @@ EndChar
 StartChar: uni2545
 Encoding: 9541 9541 9541
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15811,7 +15750,7 @@ EndChar
 StartChar: uni2546
 Encoding: 9542 9542 9542
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15834,7 +15773,7 @@ EndChar
 StartChar: uni2547
 Encoding: 9543 9543 9543
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -15855,7 +15794,7 @@ EndChar
 StartChar: uni2548
 Encoding: 9544 9544 9544
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15876,7 +15815,7 @@ EndChar
 StartChar: uni2549
 Encoding: 9545 9545 9545
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15897,7 +15836,7 @@ EndChar
 StartChar: uni254A
 Encoding: 9546 9546 9546
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15918,7 +15857,7 @@ EndChar
 StartChar: uni254B
 Encoding: 9547 9547 9547
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -15939,7 +15878,7 @@ EndChar
 StartChar: uni254C
 Encoding: 9548 9548 9548
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -15957,7 +15896,7 @@ EndChar
 StartChar: uni254D
 Encoding: 9549 9549 9549
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 696 -6 m 9,0,-1
@@ -15975,7 +15914,7 @@ EndChar
 StartChar: uni254E
 Encoding: 9550 9550 9550
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 338 m 17,0,-1
@@ -15993,7 +15932,7 @@ EndChar
 StartChar: uni254F
 Encoding: 9551 9551 9551
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 338 m 17,0,-1
@@ -16011,7 +15950,7 @@ EndChar
 StartChar: SF430000
 Encoding: 9552 9552 9552
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 252 m 1,0,-1
@@ -16029,7 +15968,7 @@ EndChar
 StartChar: SF240000
 Encoding: 9553 9553 9553
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 376 -1034 m 1,0,-1
@@ -16047,7 +15986,7 @@ EndChar
 StartChar: SF510000
 Encoding: 9554 9554 9554
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16066,7 +16005,7 @@ EndChar
 StartChar: SF520000
 Encoding: 9555 9555 9555
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 376 -1034 m 1,0,-1
@@ -16085,7 +16024,7 @@ EndChar
 StartChar: SF390000
 Encoding: 9556 9556 9556
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 376 -1034 m 1,0,-1
@@ -16107,7 +16046,7 @@ EndChar
 StartChar: SF220000
 Encoding: 9557 9557 9557
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16126,7 +16065,7 @@ EndChar
 StartChar: SF210000
 Encoding: 9558 9558 9558
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -16145,7 +16084,7 @@ EndChar
 StartChar: SF250000
 Encoding: 9559 9559 9559
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 696 -1034 m 1,0,-1
@@ -16167,7 +16106,7 @@ EndChar
 StartChar: SF500000
 Encoding: 9560 9560 9560
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -92 m 1,0,-1
@@ -16186,7 +16125,7 @@ EndChar
 StartChar: SF490000
 Encoding: 9561 9561 9561
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 376 80 m 1,0,-1
@@ -16205,7 +16144,7 @@ EndChar
 StartChar: SF380000
 Encoding: 9562 9562 9562
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 696 252 m 1,0,-1
@@ -16227,7 +16166,7 @@ EndChar
 StartChar: SF280000
 Encoding: 9563 9563 9563
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -92 m 1,0,-1
@@ -16246,7 +16185,7 @@ EndChar
 StartChar: SF270000
 Encoding: 9564 9564 9564
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -16265,7 +16204,7 @@ EndChar
 StartChar: SF260000
 Encoding: 9565 9565 9565
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 252 m 1,0,-1
@@ -16287,7 +16226,7 @@ EndChar
 StartChar: SF360000
 Encoding: 9566 9566 9566
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16308,7 +16247,7 @@ EndChar
 StartChar: SF370000
 Encoding: 9567 9567 9567
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 376 -1034 m 1,0,-1
@@ -16330,7 +16269,7 @@ EndChar
 StartChar: SF420000
 Encoding: 9568 9568 9568
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 696 252 m 1,0,-1
@@ -16357,7 +16296,7 @@ EndChar
 StartChar: SF190000
 Encoding: 9569 9569 9569
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16378,7 +16317,7 @@ EndChar
 StartChar: SF200000
 Encoding: 9570 9570 9570
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 376 -1034 m 1,0,-1
@@ -16400,7 +16339,7 @@ EndChar
 StartChar: SF230000
 Encoding: 9571 9571 9571
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 252 m 1,0,-1
@@ -16427,7 +16366,7 @@ EndChar
 StartChar: SF470000
 Encoding: 9572 9572 9572
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16449,7 +16388,7 @@ EndChar
 StartChar: SF480000
 Encoding: 9573 9573 9573
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -16470,7 +16409,7 @@ EndChar
 StartChar: SF410000
 Encoding: 9574 9574 9574
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 252 m 1,0,-1
@@ -16497,7 +16436,7 @@ EndChar
 StartChar: SF450000
 Encoding: 9575 9575 9575
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -92 m 1,0,-1
@@ -16519,7 +16458,7 @@ EndChar
 StartChar: SF460000
 Encoding: 9576 9576 9576
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -16540,7 +16479,7 @@ EndChar
 StartChar: SF400000
 Encoding: 9577 9577 9577
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -92 m 1,0,-1
@@ -16567,7 +16506,7 @@ EndChar
 StartChar: SF540000
 Encoding: 9578 9578 9578
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16596,7 +16535,7 @@ EndChar
 StartChar: SF530000
 Encoding: 9579 9579 9579
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -16625,7 +16564,7 @@ EndChar
 StartChar: SF440000
 Encoding: 9580 9580 9580
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 696 -1034 m 1,0,-1
@@ -16661,7 +16600,7 @@ EndChar
 StartChar: uni256D
 Encoding: 9581 9581 9581
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16680,7 +16619,7 @@ EndChar
 StartChar: uni256E
 Encoding: 9582 9582 9582
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16699,7 +16638,7 @@ EndChar
 StartChar: uni256F
 Encoding: 9583 9583 9583
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 17,0,-1
@@ -16718,7 +16657,7 @@ EndChar
 StartChar: uni2570
 Encoding: 9584 9584 9584
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 1253 80 m 9,0,-1
@@ -16737,7 +16676,7 @@ EndChar
 StartChar: uni2571
 Encoding: 9585 9585 9585
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -109 -1034 m 1,0,-1
@@ -16750,7 +16689,7 @@ EndChar
 StartChar: uni2572
 Encoding: 9586 9586 9586
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 1342 -1034 m 1,0,-1
@@ -16763,7 +16702,7 @@ EndChar
 StartChar: uni2573
 Encoding: 9587 9587 9587
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 1342 -1034 m 1,0,-1
@@ -16784,7 +16723,7 @@ EndChar
 StartChar: uni2574
 Encoding: 9588 9588 9588
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -16797,7 +16736,7 @@ EndChar
 StartChar: uni2575
 Encoding: 9589 9589 9589
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 166 m 1,0,-1
@@ -16810,7 +16749,7 @@ EndChar
 StartChar: uni2576
 Encoding: 9590 9590 9590
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 636 80 m 1,0,-1
@@ -16823,7 +16762,7 @@ EndChar
 StartChar: uni2577
 Encoding: 9591 9591 9591
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -16836,7 +16775,7 @@ EndChar
 StartChar: uni2578
 Encoding: 9592 9592 9592
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -16849,7 +16788,7 @@ EndChar
 StartChar: uni2579
 Encoding: 9593 9593 9593
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 166 m 1,0,-1
@@ -16862,7 +16801,7 @@ EndChar
 StartChar: uni257A
 Encoding: 9594 9594 9594
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 636 -6 m 1,0,-1
@@ -16875,7 +16814,7 @@ EndChar
 StartChar: uni257B
 Encoding: 9595 9595 9595
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -16888,7 +16827,7 @@ EndChar
 StartChar: uni257C
 Encoding: 9596 9596 9596
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 80 m 1,0,-1
@@ -16905,7 +16844,7 @@ EndChar
 StartChar: uni257D
 Encoding: 9597 9597 9597
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 456 -1034 m 1,0,-1
@@ -16922,7 +16861,7 @@ EndChar
 StartChar: uni257E
 Encoding: 9598 9598 9598
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 -20 -6 m 1,0,-1
@@ -16939,7 +16878,7 @@ EndChar
 StartChar: uni257F
 Encoding: 9599 9599 9599
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 536 -1034 m 1,0,-1
@@ -18337,7 +18276,7 @@ EndChar
 StartChar: uniFFFD
 Encoding: 65533 65533 65533
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 616 1816 m 1,0,0
@@ -18380,7 +18319,7 @@ EndChar
 StartChar: dlLtcaron
 Encoding: 65537 -1 65537
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 544 1638 m 1,0,-1
  742 1638 l 1,1,-1
@@ -18413,7 +18352,7 @@ EndChar
 StartChar: Acute
 Encoding: 65539 -1 65539
 Width: 1233
-Flags: HW
+Flags: W
 TtfInstrs: 107
 [/^72!<WH9eAO'A&CeWP!)'O)<*6g6"TQ7;!<<6&"9:\H&N;[P!)'O+<*6g6"9:[e!<<6&"TQ7s
 &N;[P5UI!A%fm"=$3M@M*s!Gb*s4.r0**^-0*;Un!"T)P!$;4p!&"?W>le42
@@ -18596,7 +18535,7 @@ EndChar
 StartChar: Hungarumlaut
 Encoding: 65548 -1 65548
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 860 1526 m 1,0,-1
  1046 1526 l 1,1,-1
@@ -18613,7 +18552,7 @@ EndChar
 StartChar: Doubleacute
 Encoding: 65549 -1 65549
 Width: 1233
-Flags: HW
+Flags: W
 Fore
 373 1526 m 1,0,-1
  187 1526 l 1,1,-1
