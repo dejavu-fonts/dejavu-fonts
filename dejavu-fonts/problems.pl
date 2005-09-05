@@ -20,6 +20,7 @@ sub process_sfd_file($$);
 # glyph name => ( 'dec_enc' => dec_enc, 'hex_enc' => hex_enc )
 %glyphs = ();
 $glyphs_loaded = 0;
+%problems_counter = ();
 
 sub process_sfd_file($$) {
   my ($sfd_file, $with_warns) = @_;
@@ -77,6 +78,7 @@ sub process_sfd_file($$) {
           if ($glyphs_loaded) {
             if (!exists $glyphs{$curchar}) {
               print $sfd_file, ': etalon-free glyph: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
+              $problems_counter{'etalon-free glyph'}++;
             }
           } else {
             $glyphs{$curchar}{'dec_enc'} = $dec_enc;
@@ -86,27 +88,34 @@ sub process_sfd_file($$) {
       }
       if (defined $colorized && defined $flags && ($flags =~ /W/)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', flags=', $flags, "\n";
+        $problems_counter{'colorized content'}++;
       }
       if (defined $colorized && ($curwidth != 2048)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', width=', $curwidth, "\n";
+        $problems_counter{'colorized content'}++;
       }
       if ($curwidth == -1) {
         print $sfd_file, ': glyph w/o width: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
+        $problems_counter{'glyph w/o width'}++;
       } elsif ($is_mono && defined $flags && ($flags =~ /W/)) {
         if ($font_width == -1) {
           $font_width = $curwidth;
         } elsif ($curwidth != $font_width) {
           print $sfd_file, ': incorrect width: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': font width=', $font_width, ', glyph width=', $curwidth, "\n";
+          $problems_counter{'incorrect width'}++;
         }
       }
       if (defined $colorized && $has_ligature) {
         print $sfd_file, ': colorized ligature: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': color=', $colorized, "\n";
+        $problems_counter{'colorized ligature'}++;
       }
       if ($is_empty && $has_ligature) {
         print $sfd_file, ': empty ligature: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
+        $problems_counter{'empty ligature'}++;
       }
       if (exists $all_glyphs{$dec_enc}) {
         print $sfd_file, ': duplicate: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
+        $problems_counter{'duplicate'}++;
       }
       $all_glyphs{$dec_enc} = 1;
     } elsif (/^FontName:\s*(.*?)\s*$/) {
@@ -122,6 +131,7 @@ sub process_sfd_file($$) {
   close (SFD);
   if ($is_mono_name != $is_mono_panose) {
     print $sfd_file, ': mixed monospace: font name=', $fontname, ', panose=', $panose, "\n";
+    $problems_counter{'mixed monospace'}++;
   }
   foreach $glyph (sort { $content_glyphs{$a}{'dec_enc'} <=> $content_glyphs{$b}{'dec_enc'} } keys %content_glyphs) {
     my $dec_enc = $content_glyphs{$glyph}{'dec_enc'};
@@ -129,6 +139,7 @@ sub process_sfd_file($$) {
     foreach $liga (@{$content_glyphs{$glyph}{'ligature'}}) {
       if ($with_warns && !exists ($content_glyphs{$liga})) {
         print $sfd_file, ': ligature references colorized or missing glyph: ', $glyph, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': ligature ref=', $liga, "\n";
+        $problems_counter{'ligature references colorized or missing glyph'}++;
       }
     }
   }
@@ -138,6 +149,7 @@ sub process_sfd_file($$) {
       my $hex_enc = $glyphs{$glyph}{'hex_enc'};
       if (!exists $content_glyphs{$glyph}) {
         print $sfd_file, ': missing glyph: ', $glyph, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
+        $problems_counter{'missing glyph'}++;
       }
     }
   }
@@ -158,6 +170,10 @@ if ($ARGV[0] eq '-w') {
 
 foreach $sfd_file (@sfd_files) {
   process_sfd_file ($sfd_file, $with_warns);
+}
+
+foreach $problem (sort keys %problems_counter) {
+  print $problems_counter{$problem}, ' problems of type "', $problem, '"', "\n";
 }
 
 1;
