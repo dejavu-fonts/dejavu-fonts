@@ -79,7 +79,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65550 1109
+BeginChars: 65550 1115
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -6060,6 +6060,18 @@ Fore
  739 0 l 1,5,-1
 EndSplineSet
 EndChar
+StartChar: uni0186
+Encoding: 390 390 390
+Width: 2048
+TeX: 117 0 0 0
+Colour: ffff00
+EndChar
+StartChar: uni0190
+Encoding: 400 400 400
+Width: 2048
+TeX: 117 0 0 0
+Colour: ffff00
+EndChar
 StartChar: florin
 Encoding: 402 402 402
 Width: 1233
@@ -7603,7 +7615,7 @@ EndChar
 StartChar: uni0274
 Encoding: 628 628 628
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 120 1120 m 1,0,-1
@@ -7652,7 +7664,7 @@ EndChar
 StartChar: uni0276
 Encoding: 630 630 630
 Width: 1233
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 622 902 m 1,0,-1
@@ -10245,6 +10257,30 @@ Fore
  612 1360 612 1360 737 1360 c 1,10,11
  791 1360 l 17,0,0
 EndSplineSet
+EndChar
+StartChar: gravecomb
+Encoding: 768 768 768
+Width: 0
+TeX: 103 0 0 0
+Colour: ffff00
+EndChar
+StartChar: acutecomb
+Encoding: 769 769 769
+Width: 0
+TeX: 97 0 0 0
+Colour: ffff00
+EndChar
+StartChar: uni0302
+Encoding: 770 770 770
+Width: 0
+TeX: 117 0 0 0
+Colour: ffff00
+EndChar
+StartChar: uni030C
+Encoding: 780 780 780
+Width: 0
+TeX: 117 0 0 0
+Colour: ffff00
 EndChar
 StartChar: uni0312
 Encoding: 786 786 786
