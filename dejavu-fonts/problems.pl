@@ -90,7 +90,7 @@ sub process_sfd_file($$) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', flags=', $flags, "\n";
         $problems_counter{'colorized content'}++;
       }
-      if (defined $colorized && ($curwidth != 2048)) {
+      if (defined $colorized && ($curwidth != 2048) && ($curwidth != 0)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', width=', $curwidth, "\n";
         $problems_counter{'colorized content'}++;
       }
