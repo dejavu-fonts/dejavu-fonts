@@ -11,3 +11,4 @@ cp *.sfd *.pe *.me *.sh *.pl README LICENSE AUTHORS NEWS BUGS *.txt packaged/dej
 mkdir packaged/dejavu-ttf-$version
 cp generated/*.ttf README LICENSE AUTHORS NEWS BUGS *.txt packaged/dejavu-ttf-$version
 (cd packaged; tar czvf dejavu-ttf-$version.tar.gz dejavu-ttf-$version)
+(cd packaged; zip -rv dejavu-ttf-$version.zip dejavu-ttf-$version)
