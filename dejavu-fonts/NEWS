@@ -1,3 +1,17 @@
+Changes from 1.13 to 1.14:
+
+- fixed bug where Mono faces were not recognized as fixed pitch in Windows
+  by correcting Venda glyphs (by David Jez)
+- added and improved TrueType instructions (by Keenan Pepper)
+- added 6 Uzbekian glyphs (by Mashrab Kuvatov)
+- added Greek glyphs to Sans and Serif, changed pi and omega to fit in (by
+  Ben Laenen)
+- added IPA and related superscript glyphs (by Denis Jacquerye)
+- fixed buggy Venda glyphs (by David Lawrence Ramsey and Stepan Roh)
+- added U+2302, U+2310, U+2319 (by David Lawrence Ramsey)
+- fixed slanted U+00AC in Serif Oblique faces (by David Lawrence Ramsey)
+- added 29 glyphs from Block Elements (by David Lawrence Ramsey)
+
 Changes from 1.12 to 1.13:
 
 - removed all stems (PS hints) (requested by David Jez)
