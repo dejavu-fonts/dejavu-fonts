@@ -20,8 +20,6 @@
 #   Ref     - renamed to Refer
 #   KernsSLIF
 #           - renamed to KernsSLIFO
-# backwards compatibility with versions from 20050911 prior to 20050917 (CVS)
-#   Refer   - ROUND_XY_TO_GRID flag is removed from 10th parameter
 
 # !!! Always review changes done by this utility !!!
 
@@ -54,7 +52,6 @@ sub process_sfd_file($) {
     } elsif ($in_spline_set) {
       s/(\s+)(\S+?)(,\S+\s*)$/$1.($2 & ~4).$3/e;
     }
-    s,^(Refer:(?:\s+\S+){9}\s+)(\S+),$1.($2 % 2),e;
     if (/^BeginChars:/) {
       $in_chars = 1;
     } elsif (/^EndChars\s*$/) {
