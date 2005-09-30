@@ -14,6 +14,7 @@
 #   ligature in empty glyph
 #   W: ligature referencing colorized or missing glyphs
 #   different set of mapped content glyphs (first SFD file specified on command line is taken as an etalon)
+#   not normalized file (looks for WinInfo or Ref)
 
 sub process_sfd_file($$);
 
@@ -68,6 +69,13 @@ sub process_sfd_file($$) {
       $is_empty = 0;
     } elsif (/^Ref:/) {
       $is_empty = 0;
+      print $sfd_file, ': old-style "Ref": ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), "\n";
+      $problems_counter{'old-style "Ref"'}++;
+    } elsif (/^Refer:/) {
+      $is_empty = 0;
+    } elsif (/^WinInfo:/) {
+      print $sfd_file, ': not normalized', "\n";
+      $problems_counter{'not normalized'}++;
     } elsif (/^EndChar\s*$/) {
       if (!defined $colorized && !$is_empty) {
         $content_glyphs{$curchar}{'dec_enc'} = $dec_enc;
