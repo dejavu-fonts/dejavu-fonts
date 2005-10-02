@@ -14,7 +14,7 @@
 #   ligature in empty glyph
 #   W: ligature referencing colorized or missing glyphs
 #   different set of mapped content glyphs (first SFD file specified on command line is taken as an etalon)
-#   not normalized file (looks for WinInfo or Ref)
+#   not normalized file (looks for DisplaySize or Ref)
 
 sub process_sfd_file($$);
 
@@ -73,7 +73,7 @@ sub process_sfd_file($$) {
       $problems_counter{'old-style "Ref"'}++;
     } elsif (/^Refer:/) {
       $is_empty = 0;
-    } elsif (/^WinInfo:/) {
+    } elsif (/^DisplaySize:/) {
       print $sfd_file, ': not normalized', "\n";
       $problems_counter{'not normalized'}++;
     } elsif (/^EndChar\s*$/) {
