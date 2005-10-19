@@ -51,6 +51,7 @@ sub process_sfd_file($$) {
       undef $flags;
       $has_ligature = 0;
       @ligature_refs = ();
+      $is_empty = 1;
     } elsif (/^Colour:\s*(\S+)\s*/) {
       $colorized = $1;
     } elsif (/^Flags:\s*(\S+)\s*/) {
@@ -94,11 +95,15 @@ sub process_sfd_file($$) {
           }
         }
       }
+      if (defined $colorized && !$is_empty) {
+        print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, "\n";
+        $problems_counter{'colorized content'}++;
+      }
       if (defined $colorized && defined $flags && ($flags =~ /W/)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', flags=', $flags, "\n";
         $problems_counter{'colorized content'}++;
       }
-      if (defined $colorized && ($curwidth != 2048)) {
+      if (!$is_mono && defined $colorized && ($curwidth != 2048) && ($curwidth != 0)) {
         print $sfd_file, ': colorized content: ', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '') , ': color=', $colorized, ', width=', $curwidth, "\n";
         $problems_counter{'colorized content'}++;
       }
