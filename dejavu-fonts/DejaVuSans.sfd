@@ -87,6 +87,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass: "above" mark 0 0 1 0 
 BeginChars: 65549 1261
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -2312,11 +2313,12 @@ EndChar
 StartChar: o
 Encoding: 111 111 111
 Width: 1253
-Flags: W
+Flags: HW
 TtfInstrs: 74
 5SF@4&cfHN\.X`;#ndbG!tl>;(_HW3o^":4&ENKM&FM5;,<m&m!.+p"#Cd#/$%E;3$[W;3%=\k;
 %t>.?&UP.`)=SLU!F5[*
 EndTtf
+AnchorPoint: "above" 637 1147 basechar 0
 Fore
 627 991 m 0,0,1
  479 991 479 991 393 875.5 c 128,-1,2
@@ -4294,7 +4296,7 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 224
 Width: 1255
-Flags: HW
+Flags: W
 TtfInstrs: 11
 5R0M#0.%bf"'mV]
 EndTtf
@@ -4306,7 +4308,7 @@ EndChar
 StartChar: aacute
 Encoding: 225 225 225
 Width: 1255
-Flags: HW
+Flags: W
 TtfInstrs: 11
 5R0M#0.%bf"'mV]
 EndTtf
@@ -4583,7 +4585,7 @@ EndChar
 StartChar: ograve
 Encoding: 242 242 242
 Width: 1253
-Flags: W
+Flags: HW
 Refer: 111 111 N 1 0 0 1 0 0 3
 Refer: 96 96 N 1 0 0 1 115 0 2
 KernsSLIFO: 8222 -131 0 0 8221 -73 0 0 8220 -149 0 0 120 -63 0 0 46 -36 0 0 45 38 0 0
@@ -4593,7 +4595,7 @@ EndChar
 StartChar: oacute
 Encoding: 243 243 243
 Width: 1253
-Flags: W
+Flags: HW
 Refer: 111 111 N 1 0 0 1 0 0 3
 Refer: 180 180 N 1 0 0 1 115 0 2
 KernsSLIFO: 8222 -131 0 0 8221 -73 0 0 8220 -149 0 0 120 -63 0 0 46 -36 0 0 45 38 0 0
@@ -4603,7 +4605,7 @@ EndChar
 StartChar: ocircumflex
 Encoding: 244 244 244
 Width: 1253
-Flags: W
+Flags: HW
 TtfInstrs: 6
 YoF/`4>?g9
 EndTtf
@@ -4616,7 +4618,7 @@ EndChar
 StartChar: otilde
 Encoding: 245 245 245
 Width: 1253
-Flags: W
+Flags: HW
 TtfInstrs: 20
 ZkX]9%gOUM#p:?D/eB-I/d,H7
 EndTtf
@@ -4629,7 +4631,7 @@ EndChar
 StartChar: odieresis
 Encoding: 246 246 246
 Width: 1253
-Flags: W
+Flags: HW
 TtfInstrs: 20
 Zi_Bg#mVtG#s]S.)DE6t)?a>#
 EndTtf
@@ -5165,14 +5167,14 @@ EndChar
 StartChar: Gcommaaccent
 Encoding: 290 290 290
 Width: 1587
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 349.5 -19 2
 Refer: 71 71 N 1 0 0 1 0 0 3
 EndChar
 StartChar: gcommaaccent
 Encoding: 291 291 291
 Width: 1300
-Flags: W
+Flags: HW
 Refer: 786 786 N 1 0 0 1 340.5 268 2
 Refer: 103 103 N 1 0 0 1 0 0 3
 EndChar
@@ -5400,14 +5402,14 @@ EndChar
 StartChar: Kcommaaccent
 Encoding: 310 310 310
 Width: 1343
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 283 10 2
 Refer: 75 75 N 1 0 0 1 0 0 3
 EndChar
 StartChar: kcommaaccent
 Encoding: 311 311 311
 Width: 1186
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 172.5 10 2
 Refer: 107 107 N 1 0 0 1 0 0 3
 EndChar
@@ -5461,14 +5463,14 @@ EndChar
 StartChar: Lcommaaccent
 Encoding: 315 315 315
 Width: 1141
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 155 10 2
 Refer: 76 76 N 1 0 0 1 0 0 3
 EndChar
 StartChar: lcommaaccent
 Encoding: 316 316 316
 Width: 569
-Flags: W
+Flags: HW
 TtfInstrs: 7
 5Qa7O!F7D[
 EndTtf
@@ -5591,14 +5593,14 @@ EndChar
 StartChar: Ncommaaccent
 Encoding: 325 325 325
 Width: 1532
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 255.5 10 2
 Refer: 78 78 N 1 0 0 1 0 0 3
 EndChar
 StartChar: ncommaaccent
 Encoding: 326 326 326
 Width: 1298
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 144.5 10 2
 Refer: 110 110 N 1 0 0 1 0 0 3
 EndChar
@@ -5709,6 +5711,7 @@ EndChar
 StartChar: omacron
 Encoding: 333 333 333
 Width: 1253
+Flags: H
 Refer: 175 175 N 1 0 0 1 115 -1 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -5724,6 +5727,7 @@ EndChar
 StartChar: obreve
 Encoding: 335 335 335
 Width: 1253
+Flags: H
 Refer: 728 728 N 1 0 0 1 115 0 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -5737,6 +5741,7 @@ EndChar
 StartChar: ohungarumlaut
 Encoding: 337 337 337
 Width: 1253
+Flags: H
 Refer: 733 733 N 1 0 0 1 160 0 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -5847,7 +5852,7 @@ EndChar
 StartChar: Rcommaaccent
 Encoding: 342 342 342
 Width: 1423
-Flags: W
+Flags: HW
 TeX: 0 0 0 0
 Refer: 806 806 N 1 0 0 1 272 10 2
 Refer: 82 82 N 1 0 0 1 0 0 3
@@ -5855,7 +5860,7 @@ EndChar
 StartChar: rcommaaccent
 Encoding: 343 343 343
 Width: 842
-Flags: W
+Flags: HW
 TeX: 0 0 0 0
 Refer: 806 806 N 1 0 0 1 -232 10 2
 Refer: 114 114 N 1 0 0 1 0 0 3
@@ -6569,7 +6574,7 @@ EndChar
 StartChar: uni01D2
 Encoding: 466 466 466
 Width: 1253
-Flags: W
+Flags: HW
 Refer: 111 111 N 1 0 0 1 0 0 3
 Refer: 711 711 N 1 0 0 1 118 0 2
 Ligature: 0 0 'liga' o uni030C
@@ -6666,6 +6671,7 @@ EndChar
 StartChar: uni01EB
 Encoding: 491 491 491
 Width: 1253
+Flags: H
 Refer: 731 731 N 1 0 0 1 127.5 -15.8333 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -6678,34 +6684,35 @@ EndChar
 StartChar: uni01ED
 Encoding: 493 493 493
 Width: 1253
+Flags: H
 Refer: 175 175 N 1 0 0 1 115 -1 2
 Refer: 491 491 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Scommaaccent
 Encoding: 536 536 536
 Width: 1300
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 118 0 2
 Refer: 83 83 N 1 0 0 1 0 0 3
 EndChar
 StartChar: scommaaccent
 Encoding: 537 537 537
 Width: 1067
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 44 0 2
 Refer: 115 115 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni021A
 Encoding: 538 538 538
 Width: 1251
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 83 0 2
 Refer: 84 84 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni021B
 Encoding: 539 539 539
 Width: 803
-Flags: W
+Flags: HW
 Refer: 806 806 N 1 0 0 1 0 0 2
 Refer: 116 116 N 1 0 0 1 0 0 3
 EndChar
@@ -6717,6 +6724,7 @@ EndChar
 StartChar: uni022B
 Encoding: 555 555 555
 Width: 1253
+Flags: H
 Refer: 175 175 N 1 0 0 1 115 315 2
 Refer: 246 246 N 1 0 0 1 0 0 3
 EndChar
@@ -6728,6 +6736,7 @@ EndChar
 StartChar: uni022D
 Encoding: 557 557 557
 Width: 1253
+Flags: H
 Refer: 175 175 N 1 0 0 1 113.5 315 2
 Refer: 245 245 N 1 0 0 1 0 0 3
 EndChar
@@ -6740,6 +6749,7 @@ EndChar
 StartChar: uni022F
 Encoding: 559 559 559
 Width: 1253
+Flags: H
 Refer: 729 729 N 1 0 0 1 115 0 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -6751,6 +6761,7 @@ EndChar
 StartChar: uni0231
 Encoding: 561 561 561
 Width: 1253
+Flags: H
 Refer: 175 175 N 1 0 0 1 115 315 2
 Refer: 559 559 N 1 0 0 1 0 0 3
 EndChar
@@ -10662,80 +10673,81 @@ EndSplineSet
 EndChar
 StartChar: gravecomb
 Encoding: 768 768 768
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 103 0 0 0
-Refer: 96 96 N 1 0 0 1 0 0 2
+Refer: 96 96 N 1 0 0 1 -1026 0 2
 EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 97 0 0 0
-Refer: 180 180 N 1 0 0 1 0 0 2
+Refer: 180 180 N 1 0 0 1 -1026 0 2
 EndChar
 StartChar: uni0302
 Encoding: 770 770 770
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 710 710 N 1 0 0 1 0 0 2
+AnchorPoint: "above" -512 1147 mark 0
+Refer: 710 710 N 1 0 0 1 -1026 0 2
 EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 116 0 0 0
-Refer: 732 732 N 1 0 0 1 0 0 2
+Refer: 732 732 N 1 0 0 1 -1026 0 2
 EndChar
 StartChar: uni0304
 Encoding: 772 772 772
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 175 175 N 1 0 0 1 0 0 2
+Refer: 175 175 N 1 0 0 1 -1020 0 2
 EndChar
 StartChar: uni0306
 Encoding: 774 774 774
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 728 728 N 1 0 0 1 0 0 2
+Refer: 728 728 N 1 0 0 1 -1032 0 2
 EndChar
 StartChar: uni0307
 Encoding: 775 775 775
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 729 729 N 1 0 0 1 0 0 2
+Refer: 729 729 N 1 0 0 1 -1014 0 2
 EndChar
 StartChar: uni0308
 Encoding: 776 776 776
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 168 168 N 1 0 0 1 0 0 2
+Refer: 168 168 N 1 0 0 1 -1026 0 2
 EndChar
 StartChar: uni030A
 Encoding: 778 778 778
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 730 730 N 1 0 0 1 0 0 2
+Refer: 730 730 N 1 0 0 1 -1026 0 2
 EndChar
 StartChar: uni030B
 Encoding: 779 779 779
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 733 733 N 1 0 0 1 0 0 2
+Refer: 733 733 N 1 0 0 1 -1020 0 2
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
-Refer: 711 711 N 1 0 0 1 0 0 2
+Refer: 711 711 N 1 0 0 1 -1020 0 2
 EndChar
 StartChar: uni030F
 Encoding: 783 783 783
@@ -10757,18 +10769,18 @@ EndSplineSet
 EndChar
 StartChar: uni0312
 Encoding: 786 786 786
-Width: 651
-Flags: W
+Width: 0
+Flags: HW
 TeX: 0 0 0 0
 TtfInstrs: 10
 5Q_&g"99"_bV0"s
 EndTtf
 Fore
-385 1001 m 1,0,-1
- 174 1001 l 1,1,-1
- 338 1320 l 1,2,-1
- 467 1320 l 1,3,-1
- 385 1001 l 1,0,-1
+-270 1001 m 1,0,-1
+ -481 1001 l 1,1,-1
+ -317 1320 l 1,2,-1
+ -188 1320 l 1,3,-1
+ -270 1001 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni0318
@@ -10892,40 +10904,40 @@ EndSplineSet
 EndChar
 StartChar: uni0321
 Encoding: 801 801 801
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
 Fore
-1124 128 m 17,0,-1
- 1124 -20 l 2,1,2
- 1124 -234 1124 -234 1042 -330 c 0,3,4
- 961 -426 961 -426 780 -426 c 2,5,-1
- 526 -426 l 1,6,-1
- 526 -270 l 1,7,-1
- 759 -270 l 2,8,9
- 864 -270 864 -270 902 -222 c 0,10,11
- 940 -173 940 -173 940 -20 c 2,12,-1
- 940 128 l 1,13,-1
- 1124 128 l 17,0,-1
+-48 128 m 17,0,-1
+ -48 -20 l 2,1,2
+ -48 -234 -48 -234 -130 -330 c 0,3,4
+ -211 -426 -211 -426 -392 -426 c 2,5,-1
+ -646 -426 l 1,6,-1
+ -646 -270 l 1,7,-1
+ -413 -270 l 2,8,9
+ -308 -270 -308 -270 -270 -222 c 0,10,11
+ -232 -173 -232 -173 -232 -20 c 2,12,-1
+ -232 128 l 1,13,-1
+ -48 128 l 17,0,-1
 EndSplineSet
 EndChar
 StartChar: uni0322
 Encoding: 802 802 802
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TeX: 117 0 0 0
 Fore
-187 128 m 9,0,-1
- 371 128 l 1,1,-1
- 371 -20 l 2,2,3
- 371 -173 371 -173 409 -222 c 0,4,5
- 447 -270 447 -270 552 -270 c 2,6,-1
- 785 -270 l 1,7,-1
- 785 -426 l 1,8,-1
- 531 -426 l 2,9,10
- 350 -426 350 -426 269 -330 c 0,11,12
- 187 -234 187 -234 187 -20 c 2,13,-1
- 187 128 l 9,0,-1
+-649 128 m 9,0,-1
+ -465 128 l 1,1,-1
+ -465 -20 l 2,2,3
+ -465 -173 -465 -173 -427 -222 c 0,4,5
+ -389 -270 -389 -270 -284 -270 c 2,6,-1
+ -51 -270 l 1,7,-1
+ -51 -426 l 1,8,-1
+ -305 -426 l 2,9,10
+ -486 -426 -486 -426 -567 -330 c 0,11,12
+ -649 -234 -649 -234 -649 -20 c 2,13,-1
+ -649 128 l 9,0,-1
 EndSplineSet
 EndChar
 StartChar: dotbelowcomb
@@ -10936,17 +10948,17 @@ Colour: ffff00
 EndChar
 StartChar: uni0326
 Encoding: 806 806 806
-Width: 1024
-Flags: W
+Width: 0
+Flags: HW
 TtfInstrs: 10
 5Q_)g"99"_bV0"s
 EndTtf
 Fore
-446 -132 m 1,0,-1
- 657 -132 l 1,1,-1
- 493 -452 l 1,2,-1
- 364 -452 l 1,3,-1
- 446 -132 l 1,0,-1
+-580 -132 m 1,0,-1
+ -369 -132 l 1,1,-1
+ -533 -452 l 1,2,-1
+ -662 -452 l 1,3,-1
+ -580 -132 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni0374
@@ -11828,7 +11840,7 @@ EndChar
 StartChar: omicron
 Encoding: 959 959 959
 Width: 1253
-Flags: MW
+Flags: HMW
 TeX: 0 0 0 0
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -12089,7 +12101,7 @@ EndChar
 StartChar: omicrontonos
 Encoding: 972 972 972
 Width: 1253
-Flags: MW
+Flags: HMW
 TeX: 0 0 0 0
 Refer: 900 900 N 1 0 0 1 125 0 2
 Refer: 959 959 N 1 0 0 1 0 0 3
@@ -13966,7 +13978,7 @@ EndChar
 StartChar: afii10080
 Encoding: 1086 1086 1086
 Width: 1253
-Flags: W
+Flags: HW
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
 StartChar: afii10081
