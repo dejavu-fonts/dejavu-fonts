@@ -5167,7 +5167,7 @@ EndChar
 StartChar: gcommaaccent
 Encoding: 291 291 291
 Width: 1432
-Flags: HW
+Flags: W
 Refer: 786 786 N 1 0 0 1 1331.72 280 2
 Refer: 103 103 N 1 0 0 1 0 0 2
 EndChar
@@ -7131,7 +7131,7 @@ EndChar
 StartChar: uni025B
 Encoding: 603 603 603
 Width: 1150
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "above" 672 1092 basechar 0
 Fore
@@ -11371,7 +11371,7 @@ EndChar
 StartChar: gravecomb
 Encoding: 768 768 768
 Width: 0
-Flags: HW
+Flags: W
 TeX: 103 0 0 0
 AnchorPoint: "above-mark" -473 1200 mark 0
 AnchorPoint: "above" -473 1092 mark 0
@@ -11380,7 +11380,7 @@ EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
 Width: 0
-Flags: HW
+Flags: W
 TeX: 97 0 0 0
 AnchorPoint: "above-mark" -473 1200 mark 0
 AnchorPoint: "above" -473 1092 mark 0
@@ -11389,7 +11389,7 @@ EndChar
 StartChar: uni0302
 Encoding: 770 770 770
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -473 1200 mark 0
 AnchorPoint: "above-mark" -426 1638 basemark 0
@@ -11399,7 +11399,7 @@ EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
 Width: 0
-Flags: HW
+Flags: W
 TeX: 116 0 0 0
 AnchorPoint: "above-mark" -438 1272 mark 0
 AnchorPoint: "above-mark" -372 1596 basemark 0
@@ -11409,7 +11409,7 @@ EndChar
 StartChar: uni0304
 Encoding: 772 772 772
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -438 1272 mark 0
 AnchorPoint: "above-mark" -372 1596 basemark 0
@@ -11419,7 +11419,7 @@ EndChar
 StartChar: uni0306
 Encoding: 774 774 774
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -438 1272 mark 0
 AnchorPoint: "above-mark" -372 1596 basemark 0
@@ -11429,7 +11429,7 @@ EndChar
 StartChar: uni0307
 Encoding: 775 775 775
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -438 1272 mark 0
 AnchorPoint: "above-mark" -372 1596 basemark 0
@@ -11439,7 +11439,7 @@ EndChar
 StartChar: uni0308
 Encoding: 776 776 776
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -438 1272 mark 0
 AnchorPoint: "above-mark" -372 1596 basemark 0
@@ -11449,7 +11449,7 @@ EndChar
 StartChar: uni030A
 Encoding: 778 778 778
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -438 1230 mark 0
 AnchorPoint: "above-mark" -328.848 1818 basemark 0
@@ -11459,7 +11459,7 @@ EndChar
 StartChar: uni030B
 Encoding: 779 779 779
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -456 1200 mark 0
 AnchorPoint: "above-mark" -426 1638 basemark 0
@@ -11469,7 +11469,7 @@ EndChar
 StartChar: uni030C
 Encoding: 780 780 780
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -456 1200 mark 0
 AnchorPoint: "above-mark" -426 1638 basemark 0
@@ -11479,7 +11479,7 @@ EndChar
 StartChar: uni030F
 Encoding: 783 783 783
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -456 1200 mark 0
 AnchorPoint: "above-mark" -426 1638 basemark 0
@@ -11500,7 +11500,7 @@ EndChar
 StartChar: uni0312
 Encoding: 786 786 786
 Width: 0
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "above" -545 812 mark 0
 Fore
@@ -17615,7 +17615,10 @@ EndChar
 StartChar: bullet
 Encoding: 8226 8226 8226
 Width: 1309
-Flags: W
+Flags: HW
+TtfInstrs: 20
+5R822&Jl8m!#H4%grqJQgt^+-
+EndTtf
 Fore
 295 762 m 0,0,1
  295 836 295 836 321.5 901 c 128,-1,2
@@ -17627,12 +17630,12 @@ Fore
  961 964 961 964 987.5 899.5 c 128,-1,11
  1014 835 1014 835 1014 762 c 0,12,13
  1014 688 1014 688 987 622.5 c 128,-1,14
- 960 557 960 557 909 506 c 0,15,16
- 858 455 858 455 792.5 428 c 128,-1,17
- 727 401 727 401 653 401 c 0,18,19
- 580 401 580 401 515 428 c 128,-1,20
- 450 455 450 455 399 506 c 0,21,22
- 349 557 349 557 322 622.5 c 128,-1,23
+ 960 557 960 557 909 506 c 128,-1,15
+ 858 455 858 455 792.5 428 c 128,-1,16
+ 727 401 727 401 653 401 c 0,17,18
+ 580 401 580 401 515 428 c 128,-1,19
+ 450 455 450 455 399 506 c 0,20,21
+ 349 557 349 557 322 622.5 c 128,-1,22
  295 688 295 688 295 762 c 0,0,1
 EndSplineSet
 EndChar
