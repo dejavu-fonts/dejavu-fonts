@@ -88,7 +88,7 @@ AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass: "above" mark 0 0 1 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65549 1294
+BeginChars: 65549 1295
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -5503,8 +5503,8 @@ TtfInstrs: 11
 EndTtf
 Refer: 65537 -1 N 1 0 0 1 -731 2 2
 Refer: 108 108 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' l uni030C
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: Ldot
 Encoding: 319 319 319
@@ -10728,8 +10728,18 @@ EndChar
 StartChar: uni0305
 Encoding: 773 773 773
 Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+AnchorPoint: "above-mark" -512 1282 mark 0
+AnchorPoint: "above-mark" -512 1556 basemark 0
+AnchorPoint: "above" -512 1147 mark 0
+Fore
+-1024.5 1526 m 1,0,-1
+ 0 1526 l 1,1,-1
+ 0 1378 l 1,2,-1
+ -1024.5 1378 l 1,3,-1
+ -1024.5 1526 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0306
 Encoding: 774 774 774
@@ -10800,14 +10810,29 @@ EndChar
 StartChar: uni030D
 Encoding: 781 781 781
 Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+AnchorPoint: "above-mark" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1704 basemark 0
+AnchorPoint: "above" -512 1147 mark 0
+Fore
+-444 1704 m 1,0,-1
+ -444 1260 l 1,1,-1
+ -580 1260 l 1,2,-1
+ -580 1704 l 1,3,-1
+ -444 1704 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni030E
 Encoding: 782 782 782
 Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+AnchorPoint: "above-mark" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1704 basemark 0
+AnchorPoint: "above" -512 1147 mark 0
+Refer: 781 781 N 1 0 0 1 -204 0 2
+Refer: 781 781 N 1 0 0 1 204 0 2
 EndChar
 StartChar: uni030F
 Encoding: 783 783 783
@@ -10833,14 +10858,23 @@ EndChar
 StartChar: uni0310
 Encoding: 784 784 784
 Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+AnchorPoint: "above-mark" -512 1282 mark 0
+AnchorPoint: "above-mark" -512 1754 basemark 0
+AnchorPoint: "above" -512 1147 mark 0
+Refer: 729 729 N 1 0 0 1 -1020 198 2
+Refer: 728 728 N 1 0 0 1 -1032 0 2
 EndChar
 StartChar: uni0311
 Encoding: 785 785 785
 Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+AnchorPoint: "above-mark" -512 1282 mark 0
+AnchorPoint: "above-mark" -512 1604 basemark 0
+AnchorPoint: "above" -512 1147 mark 0
+Refer: 728 728 N -1 0 0 -1 -8 2929 2
 EndChar
 StartChar: uni0312
 Encoding: 786 786 786
@@ -10873,21 +10907,25 @@ Colour: ffff00
 EndChar
 StartChar: uni0315
 Encoding: 789 789 789
-Width: 0
+Width: 2048
 TeX: 117 0 0 0
 Colour: ffff00
 EndChar
 StartChar: uni0316
 Encoding: 790 790 790
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 96 96 N 1 0 0 1 -1026 -1769 2
 EndChar
 StartChar: uni0317
 Encoding: 791 791 791
 Width: 0
+VWidth: 228
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 180 180 N 1 0 0 1 -1026 -1769 2
 EndChar
 StartChar: uni0318
 Encoding: 792 792 792
@@ -11013,7 +11051,20 @@ Fore
  -352 -690 l 1,11,-1
  -352 -513 l 1,0,-1
 EndSplineSet
-Colour: ffff00
+EndChar
+StartChar: uni0320
+Encoding: 800 800 800
+Width: 0
+VWidth: 1848
+Flags: W
+TeX: 117 0 0 0
+Fore
+-529 -336 m 1,1,-1
+ -529 -200 l 1,2,-1
+ -39 -200 l 1,7,-1
+ -39 -336 l 1,8,-1
+ -529 -336 l 1,1,-1
+EndSplineSet
 EndChar
 StartChar: uni0321
 Encoding: 801 801 801
@@ -11062,14 +11113,18 @@ EndChar
 StartChar: uni0324
 Encoding: 804 804 804
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 168 168 N 1 0 0 1 -1026 -1685 2
 EndChar
 StartChar: uni0325
 Encoding: 805 805 805
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 730 730 N 1 0 0 1 -1026 -1931 2
 EndChar
 StartChar: uni0326
 Encoding: 806 806 806
@@ -11085,13 +11140,20 @@ Fore
  -662 -452 l 1,3,-1
  -580 -132 l 1,0,-1
 EndSplineSet
-Colour: ffff00
 EndChar
 StartChar: uni0329
 Encoding: 809 809 809
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Fore
+-444 -132 m 1,0,-1
+ -444 -576 l 1,1,-1
+ -580 -576 l 1,2,-1
+ -580 -132 l 1,3,-1
+ -444 -132 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni032A
 Encoding: 810 810 810
@@ -11108,44 +11170,64 @@ EndChar
 StartChar: uni032C
 Encoding: 812 812 812
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 711 711 N 1 0 0 1 -1020 -1772 2
 EndChar
 StartChar: uni032D
 Encoding: 813 813 813
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 710 710 N 1 0 0 1 -1026 -1769 2
 EndChar
 StartChar: uni032E
 Encoding: 814 814 814
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 728 728 N 1 0 0 1 -1032 -1736 2
 EndChar
 StartChar: uni032F
 Encoding: 815 815 815
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 728 728 N -1 0 0 -1 -8 1190 2
 EndChar
 StartChar: uni0330
 Encoding: 816 816 816
 Width: 0
+VWidth: 228
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 732 732 N 1 0 0 1 -1026 -1724 2
 EndChar
 StartChar: uni0331
 Encoding: 817 817 817
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Refer: 175 175 N 1 0 0 1 -1020 -1658 2
 EndChar
 StartChar: uni0332
 Encoding: 818 818 818
 Width: 0
+VWidth: 360
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Fore
+-1024.5 -132 m 1,0,-1
+ 0 -132 l 1,1,-1
+ 0 -280 l 1,2,-1
+ -1024.5 -280 l 1,3,-1
+ -1024.5 -132 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0333
 Encoding: 819 819 819
