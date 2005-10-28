@@ -48,7 +48,7 @@ ChainSub: class 0 0 'ccmp' 3 0 3 1
  1
   SeqLookup: 0 's001'
 EndFPST
-GenTags: 1 sb's001'
+GenTags: 2 sb's001' sb'sd01'
 TtfTable: prep 1374
 \,q1Gi5bg!`Y/Hn`$>N*A-9e9"N2Pf_[Q^b_']E'A-9Xq"2J1E^O63s$Nn!K"1l#W"hHGk\J,.U
 1'>#b"1J12[Jg97rWBJ*"0o(#"gRn+YX\f!rWB<O"0MP)X:>?5WXK'3'Eb?D"0"$XW+6".*Wr2n
@@ -5585,7 +5585,7 @@ EndChar
 StartChar: Gdotaccent
 Encoding: 288 288 288
 Width: 1636
-Refer: 65546 -1 N 1 0 0 1 344 373 2
+Refer: 65546 -1 N 1 0 0 1 1368 373 2
 Refer: 71 71 N 1 0 0 1 0 0 3
 EndChar
 StartChar: gdotaccent
@@ -5888,8 +5888,8 @@ Width: 655
 Flags: W
 Refer: 65539 -1 N 1 0 0 1 771 374 2
 Refer: 108 108 N 1 0 0 1 0 0 3
-LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' l acutecomb
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: Lcommaaccent
 Encoding: 315 315 315
@@ -5912,8 +5912,8 @@ Flags: W
 Refer: 65537 -1 N 1 0 0 1 1491 -146 2
 Refer: 76 76 N 1 0 0 1 0 0 3
 KernsSLIFO: 376 -131 0 0 85 -112 0 0 84 -167 0 0 87 -178 0 0 86 -243 0 0 89 -131 0 0 356 -167 0 0 220 -112 0 0 8221 -491 0 0 218 -112 0 0 255 -36 0 0 366 -112 0 0 8217 -491 0 0 217 -112 0 0 253 -36 0 0 121 -36 0 0 219 -112 0 0 221 -131 0 0
-LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' L uni030C
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: lcaron
 Encoding: 318 318 318
@@ -11793,6 +11793,7 @@ TeX: 103 0 0 0
 AnchorPoint: "above-mark" -730 1180 mark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 96 96 N 1 0 0 1 -1236 0 2
+Substitution: 0 65534 'sd01' Grave
 EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
@@ -11802,6 +11803,7 @@ TeX: 97 0 0 0
 AnchorPoint: "above-mark" -730 1180 mark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 180 180 N 1 0 0 1 -1242 0 2
+Substitution: 0 65534 'sd01' Acute
 EndChar
 StartChar: uni0302
 Encoding: 770 770 770
@@ -11812,6 +11814,7 @@ AnchorPoint: "above-mark" -730 1180 mark 0
 AnchorPoint: "above-mark" -730 1638 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 710 710 N 1 0 0 1 -1242 0 2
+Substitution: 0 65534 'sd01' Circumflex
 EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
@@ -11822,6 +11825,7 @@ AnchorPoint: "above-mark" -730 1240 mark 0
 AnchorPoint: "above-mark" -730 1556 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 732 732 N 1 0 0 1 -1248 0 2
+Substitution: 0 65534 'sd01' Tilde
 EndChar
 StartChar: uni0304
 Encoding: 772 772 772
@@ -11858,6 +11862,7 @@ AnchorPoint: "above-mark" -730 1180 mark 0
 AnchorPoint: "above-mark" -730 1607 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 728 728 N 1 0 0 1 -1242 0 2
+Substitution: 0 65534 'sd01' Breve
 EndChar
 StartChar: uni0307
 Encoding: 775 775 775
@@ -11868,6 +11873,7 @@ AnchorPoint: "above-mark" -730 1240 mark 0
 AnchorPoint: "above-mark" -730 1556 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 729 729 N 1 0 0 1 -1242 0 2
+Substitution: 0 65534 'sd01' Dotaccent
 EndChar
 StartChar: uni0308
 Encoding: 776 776 776
@@ -11878,6 +11884,7 @@ AnchorPoint: "above-mark" -730 1240 mark 0
 AnchorPoint: "above-mark" -730 1556 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 168 168 N 1 0 0 1 -1248 0 2
+Substitution: 0 65534 'sd01' Dieresis
 EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
@@ -11904,6 +11911,7 @@ AnchorPoint: "above-mark" -730 1180 mark 0
 AnchorPoint: "above-mark" -730 1638 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 733 733 N 1 0 0 1 -1242 0 2
+Substitution: 0 65534 'sd01' Hungarumlaut
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
@@ -11914,6 +11922,7 @@ AnchorPoint: "above-mark" -730 1180 mark 0
 AnchorPoint: "above-mark" -730 1638 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
 Refer: 711 711 N 1 0 0 1 -1242 0 2
+Substitution: 0 65534 'sd01' Caron
 EndChar
 StartChar: uni030D
 Encoding: 781 781 781
@@ -11962,6 +11971,7 @@ Fore
  -1177 1638 l 1,7,-1
  -999 1638 l 1,4,-1
 EndSplineSet
+Substitution: 0 65534 'sd01' Doubleacute
 EndChar
 StartChar: uni0310
 Encoding: 784 784 784
@@ -12016,8 +12026,15 @@ EndChar
 StartChar: uni0315
 Encoding: 789 789 789
 Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Fore
+-569 1638 m 1,0,-1
+ -370 1638 l 1,1,-1
+ -514 1262 l 1,2,-1
+ -631 1262 l 1,3,-1
+ -569 1638 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0316
 Encoding: 790 790 790

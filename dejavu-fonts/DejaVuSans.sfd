@@ -36,19 +36,30 @@ OS2Vendor: 'PfEd'
 ScriptLang: 2
  1 latn 1 dflt 
  1 DFLT 1 dflt 
-ChainSub: class 0 0 'ccmp' 3 0 3 1
+ChainSub: class 0 0 'ccmp' 4 4 4 2
   Class: 3 i j
   Class: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
+  Class: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z f h l Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
+  BClass: 3 i j
+  BClass: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
+  BClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z f h l Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
   FClass: 3 i j
   FClass: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
+  FClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z f h l Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
  1 0 1
   ClsList: 1
   BClsList:
   FClsList: 2
  1
   SeqLookup: 0 's001'
+ 1 1 0
+  ClsList: 2
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 'sd01'
 EndFPST
-GenTags: 1 sb's001'
+GenTags: 2 sb's001' sb'sd01'
 TtfTable: prep 1384
 \,q1Gs82ctq@j&-,m3ot"8A)`p'q2trWDfl"7mf@ndYclQ36V&"7M+5"n2EmmZmtBQ36LM"7,dc
 lM^nM3WnS4"6]Xcjt[&#jAQ6DQ363*5m?=J"68Ao"loF]i\(DmrWD*X"5bj9h@p(JQ35qA"5=Fj
@@ -1095,6 +1106,7 @@ TtfInstrs: 186
 !<HIk3Y)3m!-S?]!/pm]#6>)3"p5/7(',9S<WQ;(:^gt;BEEDZFom$nEWgRkGR0'*L]W)8Qi`ZX
 Q38"0!*oR)
 EndTtf
+AnchorPoint: "above" 700 1520 basechar 0
 Fore
 700 1294 m 1,0,-1
  426 551 l 1,1,-1
@@ -1120,6 +1132,7 @@ TtfInstrs: 67
 5U.-HPmRh_&qL(K$EYB^$O?eI)'9"^%NH5f)&t78!#uUS+V=S<1ApLglk($o3B8eo0C8&tlk&SF
 0X;35!<HI+
 EndTtf
+AnchorPoint: "above" 700 1520 basechar 0
 Fore
 403 713 m 1,0,-1
  403 166 l 1,1,-1
@@ -1159,6 +1172,7 @@ Flags: W
 TtfInstrs: 54
 5T1**%^$/(&HSR*Xot"+OV*Nj#8msN0GG':&H(lMlnJJOjRhg2lk&UYmP)!Y)]p"#!F5[*
 EndTtf
+AnchorPoint: "above" 844 1520 basechar 0
 Fore
 1319 1378 m 1,0,-1
  1319 1165 l 1,1,2
@@ -1189,6 +1203,7 @@ Flags: W
 TtfInstrs: 46
 5SX9a$%W,B&-r=K$315I%5Io'#m:kPr9X(B&NMj33ACLem.BWuZ="=H!F5[*
 EndTtf
+AnchorPoint: "above" 748 1540 basechar 0
 Fore
 403 1327 m 1,0,-1
  403 166 l 1,1,-1
@@ -1216,6 +1231,7 @@ Flags: W
 TtfInstrs: 46
 5SXKg"9OhgJI%MDXU544#mUPP!!E]Ar9Q2g`5FA10C8&tlk&S=Z6'MV!F5[*
 EndTtf
+AnchorPoint: "above" 670 1520 basechar 0
 Fore
 201 1493 m 1,0,-1
  1145 1493 l 1,1,-1
@@ -1261,6 +1277,7 @@ Flags: W
 TtfInstrs: 57
 5Tg%1)Zc3+)jL[ATb4FBPn&o^N#i$#*"b"11Dgu;&0;D\m/5rB`%_6'jRhg2lk'0GmL_H>0E;(Q
 EndTtf
+AnchorPoint: "above" 860 1520 basechar 0
 Fore
 1219 213 m 1,0,-1
  1219 614 l 1,1,-1
@@ -1295,6 +1312,7 @@ Flags: W
 TtfInstrs: 44
 5SOKh!j)S*JI2Sd!uqJ(#lu"G":Pk>ln\M*1,/b^4QJ9qlnG_A%06K8
 EndTtf
+AnchorPoint: "above" 770 1520 basechar 0
 Fore
 201 1493 m 1,0,-1
  403 1493 l 1,1,-1
@@ -1319,6 +1337,7 @@ Flags: W
 TtfInstrs: 46
 [fET5!?;(B";(K(YRjc9\GuU05WDp50`Wln0EFEJ0Ej]F:^(51Ns2-Z#$h3/
 EndTtf
+AnchorPoint: "above" 303 1520 basechar 0
 Fore
 201 1493 m 1,0,-1
  403 1493 l 1,1,-1
@@ -1335,6 +1354,7 @@ TtfInstrs: 66
 5SFM,!!ebmYQ04_"UG;m!?;(B$kW>0YRjc9\GuU05WDp5j>f4T!"e5hlk)6<0EFEJ0F^8V:^peA
 Nt%]j#$h3/
 EndTtf
+AnchorPoint: "above" 302 1520 basechar 0
 Fore
 201 1493 m 1,0,-1
  403 1493 l 1,1,-1
@@ -1430,6 +1450,7 @@ TtfInstrs: 121
 =X(-n$NU965VP(t3!VtU7gE`0Ad<hf#6k28"r..W#"AVb#$1h-#%[gL#'gE,!K%)H!La4b$P6SD
 >lXj)
 EndTtf
+AnchorPoint: "above" 757 1506 basechar 0
 Fore
 201 1493 m 1,0,-1
  473 1493 l 1,1,-1
@@ -1451,6 +1472,7 @@ Flags: W
 TtfInstrs: 35
 5SF?e&ce1*OV3Ti#oO70!uVgb(_HW3r9Q-<&ENKM&FM4P
 EndTtf
+AnchorPoint: "above" 807 1520 basechar 0
 Fore
 807 1356 m 0,0,1
  587 1356 587 1356 457.5 1192 c 128,-1,2
@@ -1546,6 +1568,7 @@ TtfInstrs: 177
 `9\'P3>"833ACLe4S8!ilk2;k3>+>+92ept&-_G+&-_G5(HGVBZ9TH3!F7rWH4p;_!!NB,!X8`3
 ";LnO!>GSN!uD(d!$qXl![\!s"ssR%#UTj#*]=$W!_*2[!b_a["Eall'8QjK#FG^_#9R4O>lXj)
 EndTtf
+AnchorPoint: "above" 637 1506 basechar 0
 Fore
 909 700 m 1,0,1
  974 678 974 678 1035.5 606 c 128,-1,2
@@ -1584,6 +1607,7 @@ TtfInstrs: 126
 +t+#X`9dEgj:N"b3B9)S!"e5`jQmHGp?iL3&JmG]92ept&.\(>(HD^3%daiE3E[Q3%k.M[?+(h(
 0.B[G"'km,
 EndTtf
+AnchorPoint: "above" 659 1520 basechar 0
 Fore
 1096 1444 m 1,0,-1
  1096 1247 l 1,1,2
@@ -1625,6 +1649,7 @@ TtfInstrs: 74
 5Rmu"PlQ@<!C-`,!'g\n&Cfe=j=pWfo^"=e!DBX(<*6g6#QR*i!<<B*#lh\"&N;[P5SF,(*rliQ
 &-<pY&.(T.E!`-C$!dN2
 EndTtf
+AnchorPoint: "above" 627 1506 basechar 0
 Fore
 -6 1493 m 1,0,-1
  1257 1493 l 1,1,-1
@@ -1646,6 +1671,7 @@ TtfInstrs: 64
 5SaV,&ISRBPn&`Z!.bag*""Y+)ur8;&H#2*&6)cB!!*&73*GVGlnJJOj>-Ao&NMj33A:KB*ts\K
 T+_<4
 EndTtf
+AnchorPoint: "above" 750 1520 basechar 0
 Fore
 178 1493 m 1,0,-1
  381 1493 l 1,1,-1
@@ -1700,6 +1726,7 @@ Ifb!$Ig(?0Q3*<T*<uQN!XJl."9o#0"TS`-#6Y;4#R:Y9#m:SB$igbU!u1qR#T4$^%Nklt"X"!l
 %Tid5#[%R4%V>cT"(;=A"^hOB#@IgJ$"OBR$[2So!IFlm"*Xli"aL;t#BpGm#^?c-%"AbA!f$l6
 "Gm;9$&T+O%[R<j%^-@H>l\.1
 EndTtf
+AnchorPoint: "above" 1013 1527 basechar 0
 Fore
 68 1493 m 1,0,-1
  272 1493 l 1,1,-1
@@ -1756,6 +1783,7 @@ TtfInstrs: 148
 &-_G+&.%Y.&.%Y.&-_H(,-h1U!<HIk49Yd#!]:$5!\ad3#Y"k\!^HoS#Z1Y#"]5P:!e^W=!Y?+J
 )?V&g-35Ot2ZYl?5RM-)BENJ]E!i3E%:&s>
 EndTtf
+AnchorPoint: "above" 626 1527 basechar 0
 Fore
 -4 1493 m 1,0,-1
  213 1493 l 1,1,-1
@@ -1779,6 +1807,7 @@ TtfInstrs: 144
 0M>>H#7q(+#7q(+=X!l35Qq2r#8d[p![\.3#=nnd#=o+,"To,<!"0PE)@-l^0+0W>3=%hW7fu?h
 :CC/)=U8UABaAVbG6<'qIg_kV(0poG
 EndTtf
+AnchorPoint: "above" 702 1520 basechar 0
 Fore
 115 1493 m 1,0,-1
  1288 1493 l 1,1,-1
@@ -2152,6 +2181,7 @@ Flags: W
 TtfInstrs: 52
 5T'Y1!!<]3#)<[#\."]2!<NN,:(7L8$UtgAr9Q32lnJJn4RD^Ylk'jH3A@aH'`e>@
 EndTtf
+AnchorPoint: "above" 278 1520 basechar 0
 Fore
 1124 676 m 2,0,-1
  1124 0 l 1,1,-1
@@ -4148,6 +4178,7 @@ TtfInstrs: 158
 &1eCjm/64c&J@)a(HE*g3=ula3>"8+!"e5`lk&Rr^_"9n&ihrb3>*,g&igO:3B8cY.TZUR'iu8Q
 +_ha'+aXrI*-ED27MAo)<YK3JA.rJnC++H0Et`^:H70/,!F5[*
 EndTtf
+AnchorPoint: "above" 807 1520 basechar 0
 Fore
 1206 1112 m 1,0,-1
  489 266 l 1,1,2
@@ -5225,6 +5256,7 @@ Flags: W
 TtfInstrs: 58
 5TU+2&sWb;&Iap>XTSWT%LNFL(Bb]]3"cZ7!?;(V&DZV-1<f[_1,@'.!&$Iq1ApLo1,A2O1,&\.
 EndTtf
+AnchorPoint: "above" 938 1520 basechar 0
 Fore
 369 1493 m 1,0,-1
  571 1493 l 1,1,-1
@@ -5262,6 +5294,7 @@ TtfInstrs: 62
 5Tp49!!<u;%MFO+'aBF/)7U6E$3:26!)=1;&JYTX&.9HhgbS4O1<du7lnJJn4RD^Ym+aA_1(b-8
 3A:F5
 EndTtf
+AnchorPoint: "above" 337 1520 basechar 0
 Fore
 1183 676 m 2,0,-1
  1183 0 l 1,1,-1
@@ -5669,6 +5702,7 @@ TtfInstrs: 74
 5Tp^O!<N9'&J,Nc649%c&HW%7Y7M?T&-3@E*!A/3)upZah!Ft*&NMkq0`WjhlnUR]h!?^f;cj89
 "RQF*"RT>9Z6'e^!F5[*
 EndTtf
+AnchorPoint: "above" 757 1506 basechar 0
 Fore
 213 1493 m 1,0,-1
  397 1493 l 1,1,-1
@@ -5768,7 +5802,7 @@ EndChar
 StartChar: OE
 Encoding: 338 338 338
 Width: 2191
-Flags: W
+Flags: HW
 TtfInstrs: 59
 5T^/p!tbR!!.bslPln,p(_RAe'a=^Z&HDq>'c@Gl)A)i5eAT;TlnT263B9)S!&*^*1A'og&FM4P
 EndTtf
@@ -6336,6 +6370,7 @@ TeX: 117 0 0 0
 TtfInstrs: 48
 5T:Sq!/MDU"-FK2L(&kLPmNBf)\<Z#"u$Jd)A([do^(p!!"eeho^!.]m.BWu
 EndTtf
+AnchorPoint: "above" 604 1520 basechar 0
 Fore
 115 1378 m 1,0,1
  219 1449 219 1449 337.5 1484.5 c 128,-1,2
@@ -6367,6 +6402,7 @@ TtfInstrs: 64
 5U6\k$&B%U#*C>7(6oQ8.3F9eL`D[)N%$4j#p0]r!uVt'&1J1gm*tCO`5KkS!"eeho^!.]lo>XL
 m.BWu
 EndTtf
+AnchorPoint: "above" 700 1520 basechar 0
 Fore
 464 805 m 1,0,1
  333 838 333 838 262 923.5 c 128,-1,2
@@ -6685,6 +6721,7 @@ EndChar
 StartChar: uni01EA
 Encoding: 490 490 490
 Width: 1612
+AnchorPoint: "above" 807 1520 basechar 0
 Refer: 731 731 N 1 0 0 1 307.5 -15.8333 2
 Refer: 79 79 N 1 0 0 1 0 0 3
 EndChar
@@ -10707,6 +10744,7 @@ TeX: 103 0 0 0
 AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 96 96 N 1 0 0 1 -1026 0 2
+Substitution: 0 65534 'sd01' Grave
 EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
@@ -10716,6 +10754,7 @@ TeX: 97 0 0 0
 AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 180 180 N 1 0 0 1 -1026 0 2
+Substitution: 0 65534 'sd01' Acute
 EndChar
 StartChar: uni0302
 Encoding: 770 770 770
@@ -10726,6 +10765,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 710 710 N 1 0 0 1 -1026 0 2
+Substitution: 0 65534 'sd01' Circumflex
 EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
@@ -10736,6 +10776,7 @@ AnchorPoint: "above-mark" -512 1200 mark 0
 AnchorPoint: "above-mark" -512 1597 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 732 732 N 1 0 0 1 -1026 0 2
+Substitution: 0 65534 'sd01' Tilde
 EndChar
 StartChar: uni0304
 Encoding: 772 772 772
@@ -10772,6 +10813,7 @@ AnchorPoint: "above-mark" -512 1282 mark 0
 AnchorPoint: "above-mark" -512 1604 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 728 728 N 1 0 0 1 -1032 0 2
+Substitution: 0 65534 'sd01' Breve
 EndChar
 StartChar: uni0307
 Encoding: 775 775 775
@@ -10782,6 +10824,7 @@ AnchorPoint: "above-mark" -512 1282 mark 0
 AnchorPoint: "above-mark" -512 1556 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 729 729 N 1 0 0 1 -1014 0 2
+Substitution: 0 65534 'sd01' Dotaccent
 EndChar
 StartChar: uni0308
 Encoding: 776 776 776
@@ -10792,6 +10835,7 @@ AnchorPoint: "above-mark" -512 1282 mark 0
 AnchorPoint: "above-mark" -512 1556 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 168 168 N 1 0 0 1 -1026 0 2
+Substitution: 0 65534 'sd01' Dieresis
 EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
@@ -10818,6 +10862,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 733 733 N 1 0 0 1 -1020 0 2
+Substitution: 0 65534 'sd01' Hungarumlaut
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
@@ -10828,6 +10873,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 711 711 N 1 0 0 1 -1020 0 2
+Substitution: 0 65534 'sd01' Caron
 EndChar
 StartChar: uni030D
 Encoding: 781 781 781
@@ -10876,6 +10922,7 @@ Fore
  -229 1262 l 1,7,-1
  -419 1638 l 1,4,-1
 EndSplineSet
+Substitution: 0 65534 'sd01' Doubleacute
 EndChar
 StartChar: uni0310
 Encoding: 784 784 784
@@ -10929,9 +10976,16 @@ Colour: ffff00
 EndChar
 StartChar: uni0315
 Encoding: 789 789 789
-Width: 2048
+Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Fore
+0 1554 m 1,0,-1
+ 199 1554 l 1,1,-1
+ 82 1178 l 1,2,-1
+ -71 1178 l 1,3,-1
+ 0 1554 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0316
 Encoding: 790 790 790
@@ -11081,11 +11135,11 @@ VWidth: 1848
 Flags: W
 TeX: 117 0 0 0
 Fore
--529 -336 m 1,1,-1
- -529 -200 l 1,2,-1
- -39 -200 l 1,7,-1
- -39 -336 l 1,8,-1
- -529 -336 l 1,1,-1
+-529 -336 m 1,0,-1
+ -529 -200 l 1,1,-1
+ -39 -200 l 1,2,-1
+ -39 -336 l 1,3,-1
+ -529 -336 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni0321
@@ -11338,17 +11392,17 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 Fore
-0 1710 m 24,4,5
- -55 1710 -55 1710 -340 1685 c 128,-1,6
- -608.079 1661.96 -608.079 1661.96 -735 1520 c 1,7,-1
- -853 1520 l 1,8,9
- -853 1760 -853 1760 -345 1820 c 128,-1,10
- -116.4 1847 -116.4 1847 0 1847 c 24,11,12
- 116.4 1847 116.4 1847 345 1820 c 128,-1,10
- 853 1760 853 1760 853 1520 c 1,8,9
- 735 1520 l 1,7,-1
- 608.079 1661.96 608.079 1661.96 340 1685 c 128,-1,6
- 55 1710 55 1710 0 1710 c 24,4,5
+0 1710 m 24,0,1
+ -55 1710 -55 1710 -340 1685 c 0,2,3
+ -608.079 1661.96 -608.079 1661.96 -735 1520 c 1,4,-1
+ -853 1520 l 1,5,6
+ -853 1760 -853 1760 -345 1820 c 0,7,8
+ -116.4 1847 -116.4 1847 0 1847 c 152,-1,9
+ 116.4 1847 116.4 1847 345 1820 c 0,10,11
+ 853 1760 853 1760 853 1520 c 1,12,-1
+ 735 1520 l 1,13,14
+ 608.079 1661.96 608.079 1661.96 340 1685 c 0,15,16
+ 55 1710 55 1710 0 1710 c 24,0,1
 EndSplineSet
 EndChar
 StartChar: uni0374
@@ -19312,6 +19366,9 @@ TtfInstrs: 165
 %TH**%9-P)YSU8C=M4\?s1eU8!!iQ1!'iLU2`Oq@9<]"-9<]:5>?JQ=#QR*i!<<B*#lh\"&N;[P
 !)'O5<*6g6#lh[?!<<B*#QR+L&N;[P5S7B)?ij^>?j:QNDust^E!?RK>lXj)
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -418 1497 m 1,0,-1
  -215 1497 l 1,1,-1
@@ -19334,6 +19391,8 @@ TtfInstrs: 127
 5WB?73*?5SYRXW7]`8085QCfb"98T)^c2ob3*AKh"p,M@,lo:n2?H>L<W[":B*&AM!"T)P!$;4p
 !&"?W>le42
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -457 1526 m 1,0,-1
  -272 1526 l 1,1,-1
@@ -19350,6 +19409,9 @@ TtfInstrs: 117
 5TpmS%g*IR#6=f,#T!oe";AZl#l5SR!=o/8(027W<XBfYeEk]O&NMj33ACLFoK;KilnT1i3=ul?
 3A:G+YRFK5]`9,R^]4B8*WR5]5WB?73*?5SYRXW7]`9)R5QCfb*WR8]^c2ob3*EU"$Qg8g>lXj)
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -516 1337 m 1,0,-1
  -573 1370 l 2,1,2
@@ -19385,6 +19447,8 @@ TtfInstrs: 137
 5WB?73*?5SYRXW7]`8085QCfb"98T)^c2ob3*AKr"oni.('"sJ,QK(j2$$&F<<-#"T)bJaY5ka,
 %M&OM"!7Lb""sX-!sW$3>lXj)
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -569 1526 m 1,0,-1
  -373 1262 l 1,1,-1
@@ -19401,6 +19465,9 @@ TtfInstrs: 119
 5RIVo"TnN*"9Jc4&CeWY0`VdW4N'66!)'O)<*6g6#QMR>!<<?)#67"K&N;[P!)'O+<*6g6#67!h
 !<<?)#QMS!&N;[P!DBX,<*6g6#QMR>!<<?)#67"K&N;[P5SFY.%fm(A*rmA`*<\"q0**X-#ln62
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -606 1528 m 1,0,-1
  -418 1528 l 1,1,-1
@@ -19421,6 +19488,9 @@ TtfInstrs: 134
 2`Oq?9<\n*=M4\>!'gMb!!`K/s1gT+2`Oq@9<\n*=M4\>s1eU8!!`K/!'iLU2`Or*'*&"7!rrN:
 !"oAF"s<mi"!@dS!*oR)
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -606 1262 m 1,0,-1
  -817 1528 l 1,1,-1
@@ -19469,6 +19539,9 @@ TtfInstrs: 106
 5Rn#!"N(WD%L6#?!EK11&Cg'rlnJJOo_cW_0E=bM$rg?B!"T%E!!*'0!"Juo3"\)/=TD+!%THQD
 !"Juo!!*'0!"T%E3"\)/=TM1"%TH**%ocb8]`8QB^]4B8%KHt=5WB?73*?4]
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -825 1528 m 1,0,-1
  -707 1528 l 1,1,2
@@ -19490,6 +19563,9 @@ Flags: W
 TtfInstrs: 17
 [K$C*"9AK*&CeoY!"eeH0E;(Q
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -614 1499 m 1,0,-1
  -410 1499 l 1,1,-1
@@ -19505,6 +19581,9 @@ Flags: W
 TtfInstrs: 19
 5R.8l!s])3";&d3!"dXBbVCjP
 EndTtf
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -263 1526 m 1,0,-1
  -78 1526 l 1,1,-1
@@ -19522,6 +19601,9 @@ StartChar: Doubleacute
 Encoding: 65548 -1 65548
 Width: 0
 Flags: W
+AnchorPoint: "above" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1147 mark 0
 Fore
 -761 1526 m 1,0,-1
  -946 1526 l 1,1,-1

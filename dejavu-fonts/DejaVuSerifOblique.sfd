@@ -48,7 +48,7 @@ ChainSub: class 0 0 'ccmp' 3 0 3 1
  1
   SeqLookup: 0 's001'
 EndFPST
-GenTags: 1 sb's001'
+GenTags: 2 sb's001' sb'sd01'
 TtfTable: prep 1374
 \,q1Gi5bg!`Y/Hn`$>N*A-9e9"N2Pf_[Q^b_']E'A-9Xq"2J1E^O63s$Nn!K"1l#W"hHGk\J,.U
 1'>#b"1J12[Jg97rWBJ*"0o(#"gRn+YX\f!rWB<O"0MP)X:>?5WXK'3'Eb?D"0"$XW+6".*Wr2n
@@ -11354,6 +11354,7 @@ TeX: 103 0 0 0
 AnchorPoint: "above-makr" -480 1200 mark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 96 96 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Grave
 EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
@@ -11363,6 +11364,7 @@ TeX: 97 0 0 0
 AnchorPoint: "above-makr" -480 1200 mark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 180 180 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Acute
 EndChar
 StartChar: uni0302
 Encoding: 770 770 770
@@ -11373,6 +11375,7 @@ AnchorPoint: "above-makr" -480 1200 mark 0
 AnchorPoint: "above-makr" -384 1638 basemark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 710 710 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Circumflex
 EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
@@ -11383,6 +11386,7 @@ AnchorPoint: "above-makr" -470 1290 mark 0
 AnchorPoint: "above-makr" -402 1596 basemark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 732 732 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Tilde
 EndChar
 StartChar: uni0304
 Encoding: 772 772 772
@@ -11419,6 +11423,7 @@ AnchorPoint: "above-makr" -470 1290 mark 0
 AnchorPoint: "above-makr" -402 1596 basemark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 728 728 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Breve
 EndChar
 StartChar: uni0307
 Encoding: 775 775 775
@@ -11429,6 +11434,7 @@ AnchorPoint: "above-makr" -470 1290 mark 0
 AnchorPoint: "above-makr" -402 1596 basemark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 729 729 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Dotaccent
 EndChar
 StartChar: uni0308
 Encoding: 776 776 776
@@ -11439,6 +11445,7 @@ AnchorPoint: "above-makr" -470 1290 mark 0
 AnchorPoint: "above-makr" -402 1596 basemark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 168 168 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Dieresis
 EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
@@ -11465,6 +11472,7 @@ AnchorPoint: "above-makr" -480 1200 mark 0
 AnchorPoint: "above-makr" -384 1638 basemark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 733 733 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Hungarumlaut
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
@@ -11475,6 +11483,7 @@ AnchorPoint: "above-makr" -480 1200 mark 0
 AnchorPoint: "above-makr" -384 1638 basemark 0
 AnchorPoint: "above" -519 1092 mark 0
 Refer: 711 711 N 1 0 0 1 -1139 0 2
+Substitution: 0 65534 'sd01' Caron
 EndChar
 StartChar: uni030D
 Encoding: 781 781 781
@@ -11523,6 +11532,7 @@ Fore
  -518.912 1638 l 1,7,-1
  -301.912 1638 l 1,4,-1
 EndSplineSet
+Substitution: 0 65534 'sd01' Doubleacute
 EndChar
 StartChar: uni0310
 Encoding: 784 784 784
@@ -11576,9 +11586,16 @@ Colour: ffff00
 EndChar
 StartChar: uni0315
 Encoding: 789 789 789
-Width: 0
+Width: 1024
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Fore
+491.544 1638 m 1,0,-1
+ 690.544 1638 l 1,1,-1
+ 473.456 1262 l 1,2,-1
+ 356.456 1262 l 1,3,-1
+ 491.544 1638 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0316
 Encoding: 790 790 790
