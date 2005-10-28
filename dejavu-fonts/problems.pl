@@ -10,9 +10,10 @@
 #   level 0:
 #     monospaced font (with Mono in name) without indication in Panose (and vice-versa)
 #     glyphs in monospaced face with different width
-#     not normalized file (looks for DisplaySize or Ref)
-#     glyphs without width
+#     not normalized file (looks for DisplaySize, Ref, different position than encoding or unordered glyphs)
+#     glyphs without width or with negative width
 #     duplicate glyphs
+#     combining marks with non-zero width in non-monospaced fonts
 #   level 1 (default):
 #     colorized glyphs with content
 #   level 2:
@@ -40,6 +41,15 @@ sub process_sfd_file($$) {
       $problems_counter{'['.$level.'] '.$problem}++;
     }
   }
+
+  sub is_combining($) {
+    my ($dec_enc) = @_;
+    
+    return (($dec_enc >= 0x0300) && ($dec_enc <= 0x036F))
+        || (($dec_enc >= 0x1DC0) && ($dec_enc <= 0x1DFF))
+        || (($dec_enc >= 0x20D0) && ($dec_enc <= 0x20FF))
+        || (($dec_enc >= 0xFE20) && ($dec_enc <= 0xFE2F));
+  }
   
   my $curchar = '';
   my $hex_enc = '';
@@ -55,6 +65,7 @@ sub process_sfd_file($$) {
   my %content_glyphs = ();
   my @ligature_refs = ();
   my %all_glyphs = ();
+  my $prev_enc = -1;
   open (SFD, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   while (<SFD>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
@@ -71,11 +82,18 @@ sub process_sfd_file($$) {
       $colorized = $1;
     } elsif (/^Flags:\s*(\S+)\s*/) {
       $flags = $1;
-    } elsif (/^Encoding:\s*(\d+)\s*((?:-|\d)+)\s*\d+\s*$/) {
+    } elsif (/^Encoding:\s*(\d+)\s*((?:-|\d)+)\s*(\d+)\s*$/) {
       $dec_enc = $1;
       if ($2 > -1) {
         $hex_enc = sprintf ('%04x', $2);
       }
+      if ($dec_enc != $3) {
+        problem (0, 'not normalized: glyph position differs from encoding', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': position=', $3);
+      }
+      if ($dec_enc <= $prev_enc) {
+        problem (0, 'not normalized: unordered glyphs', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': previous=', $prev_enc);
+      }
+      $prev_enc = $dec_enc;
     } elsif (/^Width:\s*(\S+)\s*/) {
       $curwidth = $1;
     } elsif (/^Ligature:\s*\S*\s*\S*\s*\S*\s*(.*?)\s*$/) {
@@ -85,11 +103,11 @@ sub process_sfd_file($$) {
       $is_empty = 0;
     } elsif (/^Ref:/) {
       $is_empty = 0;
-      problem (0, 'old-style "Ref"', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
+      problem (0, 'not normalized: old-style "Ref"', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
     } elsif (/^Refer:/) {
       $is_empty = 0;
     } elsif (/^DisplaySize:/) {
-      problem (0, 'not normalized');
+      problem (0, 'not normalized: DisplaySize');
     } elsif (/^EndChar\s*$/) {
       if (!defined $colorized && !$is_empty) {
         $content_glyphs{$curchar}{'dec_enc'} = $dec_enc;
@@ -118,12 +136,16 @@ sub process_sfd_file($$) {
       }
       if ($curwidth == -1) {
         problem (0, 'glyph w/o width', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
+      } elsif ($curwidth < 0) {
+        problem (0, 'negative width', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': width=', $curwidth);
       } elsif ($is_mono && defined $flags && ($flags =~ /W/)) {
         if ($font_width == -1) {
           $font_width = $curwidth;
         } elsif ($curwidth != $font_width) {
           problem (0, 'incorrect width', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': font width=', $font_width, ', glyph width=', $curwidth);
         }
+      } elsif (!$is_mono && is_combining($dec_enc) && ($curwidth != 0) && !$is_empty) {
+        problem (0, 'combining mark with non-zero width', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': width=', $curwidth);
       }
       if (defined $colorized && $has_ligature) {
         problem (3, 'colorized ligature', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': color=', $colorized);
