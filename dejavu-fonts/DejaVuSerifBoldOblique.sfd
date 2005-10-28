@@ -36,6 +36,19 @@ OS2Vendor: 'PfEd'
 ScriptLang: 2
  1 latn 1 dflt 
  1 DFLT 1 dflt 
+ChainSub: class 0 0 'ccmp' 3 0 3 1
+  Class: 3 i j
+  Class: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
+  FClass: 3 i j
+  FClass: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 's001'
+EndFPST
+GenTags: 1 sb's001'
 TtfTable: prep 1407
 \,q1GjNmf-c:\8arWC@O"3D#Ta>*k<]*$'b"3(*=`0LMBrWC"9"2MZA"i,Ng^IJC?0E]":"2#!D
 ]D_oDrWB_1"1SjD[L*,E'a(fi"1&=:ZTnZ!Yo3eN)?[4I)?m>d"0WUFY+H.,Xu?HbT+(t++Tnf)
@@ -2326,6 +2339,7 @@ Fore
  630.4 1063 l 1,26,-1
  447.29 121 l 1,19,-1
 EndSplineSet
+Substitution: 0 65534 's001' dotlessi
 EndChar
 StartChar: j
 Encoding: 106 106 106
@@ -2362,6 +2376,7 @@ Fore
  63.79 -248 63.79 -248 87.7 -125 c 2,43,-1
  295.1 942 l 1,19,-1
 EndSplineSet
+Substitution: 0 65534 's001' dotlessj
 EndChar
 StartChar: k
 Encoding: 107 107 107
@@ -3905,7 +3920,7 @@ Encoding: 192 192 192
 Width: 1589
 Flags: W
 Refer: 65 65 N 1 0 0 1 0 0 2
-Refer: 65541 -1 N 1 0 0 1 332.504 373 2
+Refer: 65541 -1 N 1 0 0 1 1356.5 373 2
 KernsSLIFO: 357 -36 0 0 356 -112 0 0 253 -83 0 0 221 -102 0 0 64258 -36 0 0 64257 -36 0 0 376 -102 0 0 255 -83 0 0 8217 -243 0 0 8221 -243 0 0 121 -83 0 0 119 -83 0 0 118 -83 0 0 116 -36 0 0 102 -36 0 0 89 -102 0 0 87 -102 0 0 86 -149 0 0 84 -112 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A gravecomb
@@ -3915,8 +3930,9 @@ Encoding: 193 193 193
 Width: 1589
 Flags: W
 Refer: 65 65 N 1 0 0 1 0 0 2
-Refer: 65539 -1 N 1 0 0 1 332.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1356.5 373 2
 KernsSLIFO: 357 -36 0 0 356 -112 0 0 253 -83 0 0 221 -102 0 0 64258 -36 0 0 64257 -36 0 0 376 -102 0 0 255 -83 0 0 8217 -243 0 0 8221 -243 0 0 121 -83 0 0 119 -83 0 0 118 -83 0 0 116 -36 0 0 102 -36 0 0 89 -102 0 0 87 -102 0 0 86 -149 0 0 84 -112 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A acutecomb
 EndChar
 StartChar: Acircumflex
@@ -3924,7 +3940,7 @@ Encoding: 194 194 194
 Width: 1589
 Flags: W
 Refer: 65 65 N 1 0 0 1 0 0 2
-Refer: 65542 -1 N 1 0 0 1 332.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1356.5 373 2
 KernsSLIFO: 357 -36 0 0 356 -112 0 0 253 -83 0 0 221 -102 0 0 64258 -36 0 0 64257 -36 0 0 376 -102 0 0 255 -83 0 0 8217 -243 0 0 8221 -243 0 0 121 -83 0 0 119 -83 0 0 118 -83 0 0 116 -36 0 0 102 -36 0 0 89 -102 0 0 87 -102 0 0 86 -149 0 0 84 -112 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A uni0302
@@ -3934,8 +3950,9 @@ Encoding: 195 195 195
 Width: 1589
 Flags: W
 Refer: 65 65 N 1 0 0 1 0 0 2
-Refer: 65540 -1 N 1 0 0 1 332.504 373 2
+Refer: 65540 -1 N 1 0 0 1 1356.5 373 2
 KernsSLIFO: 357 -36 0 0 356 -112 0 0 253 -83 0 0 221 -102 0 0 64258 -36 0 0 64257 -36 0 0 376 -102 0 0 255 -83 0 0 8217 -243 0 0 8221 -243 0 0 121 -83 0 0 119 -83 0 0 118 -83 0 0 116 -36 0 0 102 -36 0 0 89 -102 0 0 87 -102 0 0 86 -149 0 0 84 -112 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A tildecomb
 EndChar
 StartChar: Adieresis
@@ -3943,7 +3960,7 @@ Encoding: 196 196 196
 Width: 1589
 Flags: W
 Refer: 65 65 N 1 0 0 1 0 0 2
-Refer: 65538 -1 N 1 0 0 1 290.504 373 2
+Refer: 65538 -1 N 1 0 0 1 1314.5 373 2
 KernsSLIFO: 357 -36 0 0 356 -112 0 0 253 -83 0 0 221 -102 0 0 64258 -36 0 0 64257 -36 0 0 376 -102 0 0 255 -83 0 0 8217 -243 0 0 8221 -243 0 0 121 -83 0 0 119 -83 0 0 118 -83 0 0 116 -36 0 0 102 -36 0 0 89 -102 0 0 87 -102 0 0 86 -149 0 0 84 -112 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A uni0308
@@ -3991,6 +4008,7 @@ Fore
  691.559 1118 l 1,41,-1
  345.567 547 l 1,39,-1
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' A uni030A
 EndChar
 StartChar: AE
@@ -4060,8 +4078,9 @@ Encoding: 200 200 200
 Width: 1561
 Flags: W
 Refer: 69 69 N 1 0 0 1 0 0 2
-Refer: 65541 -1 N 1 0 0 1 375.504 373 2
+Refer: 65541 -1 N 1 0 0 1 1399.5 373 2
 KernsSLIFO: 45 38 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' E gravecomb
 EndChar
 StartChar: Eacute
@@ -4069,8 +4088,9 @@ Encoding: 201 201 201
 Width: 1561
 Flags: W
 Refer: 69 69 N 1 0 0 1 0 0 2
-Refer: 65539 -1 N 1 0 0 1 375.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1399.5 373 2
 KernsSLIFO: 45 38 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' E acutecomb
 EndChar
 StartChar: Ecircumflex
@@ -4078,8 +4098,9 @@ Encoding: 202 202 202
 Width: 1561
 Flags: W
 Refer: 69 69 N 1 0 0 1 0 0 2
-Refer: 65542 -1 N 1 0 0 1 375.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1399.5 373 2
 KernsSLIFO: 45 38 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' E uni0302
 EndChar
 StartChar: Edieresis
@@ -4087,8 +4108,9 @@ Encoding: 203 203 203
 Width: 1561
 Flags: W
 Refer: 69 69 N 1 0 0 1 0 0 2
-Refer: 65538 -1 N 1 0 0 1 375.504 373 2
+Refer: 65538 -1 N 1 0 0 1 1399.5 373 2
 KernsSLIFO: 45 38 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' E uni0308
 EndChar
 StartChar: Igrave
@@ -4096,7 +4118,8 @@ Encoding: 204 204 204
 Width: 958
 Flags: W
 Refer: 73 73 N 1 0 0 1 0 0 2
-Refer: 65541 -1 N 1 0 0 1 39.5039 373 2
+Refer: 65541 -1 N 1 0 0 1 1063.5 373 2
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' I gravecomb
 EndChar
 StartChar: Iacute
@@ -4104,7 +4127,8 @@ Encoding: 205 205 205
 Width: 958
 Flags: W
 Refer: 73 73 N 1 0 0 1 0 0 2
-Refer: 65539 -1 N 1 0 0 1 39.5039 373 2
+Refer: 65539 -1 N 1 0 0 1 1063.5 373 2
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' I acutecomb
 EndChar
 StartChar: Icircumflex
@@ -4112,7 +4136,8 @@ Encoding: 206 206 206
 Width: 958
 Flags: W
 Refer: 73 73 N 1 0 0 1 0 0 2
-Refer: 65542 -1 N 1 0 0 1 39.5039 373 2
+Refer: 65542 -1 N 1 0 0 1 1063.5 373 2
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' I uni0302
 EndChar
 StartChar: Idieresis
@@ -4120,7 +4145,7 @@ Encoding: 207 207 207
 Width: 958
 Flags: W
 Refer: 73 73 N 1 0 0 1 0 0 2
-Refer: 65538 -1 N 1 0 0 1 -37.4961 373 2
+Refer: 65538 -1 N 1 0 0 1 986.504 373 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' I uni0308
 EndChar
@@ -4165,8 +4190,9 @@ Encoding: 209 209 209
 Width: 1872
 Flags: W
 Refer: 78 78 N 1 0 0 1 0 0 2
-Refer: 65540 -1 N 1 0 0 1 496.504 373 2
+Refer: 65540 -1 N 1 0 0 1 1520.5 373 2
 KernsSLIFO: 59 -73 0 0 58 -73 0 0 46 -131 0 0 44 -131 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' N tildecomb
 EndChar
 StartChar: Ograve
@@ -4174,8 +4200,9 @@ Encoding: 210 210 210
 Width: 1784
 Flags: W
 Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65541 -1 N 1 0 0 1 453.504 373 2
+Refer: 65541 -1 N 1 0 0 1 1477.5 373 2
 KernsSLIFO: 88 -36 0 0 86 -36 0 0 46 -120 0 0 45 75 0 0 44 -120 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' O gravecomb
 EndChar
 StartChar: Oacute
@@ -4183,8 +4210,9 @@ Encoding: 211 211 211
 Width: 1784
 Flags: W
 Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65539 -1 N 1 0 0 1 453.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1477.5 373 2
 KernsSLIFO: 88 -36 0 0 86 -36 0 0 46 -120 0 0 45 75 0 0 44 -120 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' O acutecomb
 EndChar
 StartChar: Ocircumflex
@@ -4192,8 +4220,9 @@ Encoding: 212 212 212
 Width: 1784
 Flags: W
 Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65542 -1 N 1 0 0 1 453.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1477.5 373 2
 KernsSLIFO: 88 -36 0 0 86 -36 0 0 46 -120 0 0 45 75 0 0 44 -120 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' O uni0302
 EndChar
 StartChar: Otilde
@@ -4201,8 +4230,9 @@ Encoding: 213 213 213
 Width: 1784
 Flags: W
 Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65540 -1 N 1 0 0 1 453.504 373 2
+Refer: 65540 -1 N 1 0 0 1 1477.5 373 2
 KernsSLIFO: 88 -36 0 0 86 -36 0 0 46 -120 0 0 45 75 0 0 44 -120 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' O tildecomb
 EndChar
 StartChar: Odieresis
@@ -4210,8 +4240,9 @@ Encoding: 214 214 214
 Width: 1784
 Flags: W
 Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65538 -1 N 1 0 0 1 453.504 373 2
+Refer: 65538 -1 N 1 0 0 1 1477.5 373 2
 KernsSLIFO: 88 -36 0 0 86 -36 0 0 46 -120 0 0 45 75 0 0 44 -120 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' O uni0308
 EndChar
 StartChar: multiply
@@ -4285,8 +4316,9 @@ Encoding: 217 217 217
 Width: 1786
 Flags: W
 Refer: 85 85 N 1 0 0 1 0 0 2
-Refer: 65541 -1 N 1 0 0 1 504.504 373 2
+Refer: 65541 -1 N 1 0 0 1 1528.5 373 2
 KernsSLIFO: 193 -63 0 0 194 -63 0 0 195 -63 0 0 192 -63 0 0 196 -63 0 0 65 -63 0 0 59 -73 0 0 58 -73 0 0 46 -188 0 0 45 -36 0 0 44 -188 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' U gravecomb
 EndChar
 StartChar: Uacute
@@ -4294,8 +4326,9 @@ Encoding: 218 218 218
 Width: 1786
 Flags: W
 Refer: 85 85 N 1 0 0 1 0 0 2
-Refer: 65539 -1 N 1 0 0 1 504.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1528.5 373 2
 KernsSLIFO: 193 -63 0 0 194 -63 0 0 195 -63 0 0 192 -63 0 0 196 -63 0 0 65 -63 0 0 59 -73 0 0 58 -73 0 0 46 -188 0 0 45 -36 0 0 44 -188 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' U acutecomb
 EndChar
 StartChar: Ucircumflex
@@ -4303,8 +4336,9 @@ Encoding: 219 219 219
 Width: 1786
 Flags: W
 Refer: 85 85 N 1 0 0 1 0 0 2
-Refer: 65542 -1 N 1 0 0 1 504.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1528.5 373 2
 KernsSLIFO: 193 -63 0 0 194 -63 0 0 195 -63 0 0 192 -63 0 0 196 -63 0 0 65 -63 0 0 59 -73 0 0 58 -73 0 0 46 -188 0 0 45 -36 0 0 44 -188 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' U uni0302
 EndChar
 StartChar: Udieresis
@@ -4312,8 +4346,9 @@ Encoding: 220 220 220
 Width: 1786
 Flags: W
 Refer: 85 85 N 1 0 0 1 0 0 2
-Refer: 65538 -1 N 1 0 0 1 504.504 373 2
+Refer: 65538 -1 N 1 0 0 1 1528.5 373 2
 KernsSLIFO: 193 -63 0 0 194 -63 0 0 195 -63 0 0 192 -63 0 0 196 -63 0 0 65 -63 0 0 59 -73 0 0 58 -73 0 0 46 -188 0 0 45 -36 0 0 44 -188 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' U uni0308
 EndChar
 StartChar: Yacute
@@ -4321,8 +4356,9 @@ Encoding: 221 221 221
 Width: 1462
 Flags: W
 Refer: 89 89 N 1 0 0 1 0 0 2
-Refer: 65539 -1 N 1 0 0 1 291.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1315.5 373 2
 KernsSLIFO: 367 -178 0 0 283 -178 0 0 268 -36 0 0 262 -36 0 0 193 -131 0 0 194 -131 0 0 339 -178 0 0 195 -131 0 0 192 -131 0 0 248 -178 0 0 230 -159 0 0 252 -178 0 0 251 -178 0 0 249 -178 0 0 250 -178 0 0 245 -178 0 0 246 -178 0 0 244 -178 0 0 242 -178 0 0 243 -178 0 0 235 -178 0 0 234 -178 0 0 232 -178 0 0 233 -178 0 0 229 -159 0 0 227 -159 0 0 228 -159 0 0 226 -159 0 0 224 -159 0 0 225 -159 0 0 199 -36 0 0 196 -131 0 0 117 -178 0 0 111 -178 0 0 105 -36 0 0 101 -178 0 0 97 -159 0 0 67 -36 0 0 65 -131 0 0 59 -253 0 0 58 -253 0 0 46 -264 0 0 45 -206 0 0 44 -264 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' Y acutecomb
 EndChar
 StartChar: Thorn
@@ -4893,8 +4929,9 @@ Encoding: 262 262 262
 Width: 1630
 Flags: W
 Refer: 67 67 N 1 0 0 1 0 0 2
-Refer: 65539 -1 N 1 0 0 1 449.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1473.5 373 2
 KernsSLIFO: 46 -36 0 0 44 -36 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' C acutecomb
 EndChar
 StartChar: cacute
@@ -4908,7 +4945,7 @@ EndChar
 StartChar: Ccircumflex
 Encoding: 264 264 264
 Width: 1630
-Refer: 65542 -1 N 1 0 0 1 449.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1473.5 373 2
 Refer: 67 67 N 1 0 0 1 0 0 2
 EndChar
 StartChar: ccircumflex
@@ -4920,7 +4957,7 @@ EndChar
 StartChar: Cdotaccent
 Encoding: 266 266 266
 Width: 1630
-Refer: 65546 -1 N 1 0 0 1 449.504 373 2
+Refer: 65546 -1 N 1 0 0 1 1473.5 373 2
 Refer: 67 67 N 1 0 0 1 0 0 2
 EndChar
 StartChar: cdotaccent
@@ -4934,7 +4971,7 @@ Encoding: 268 268 268
 Width: 1630
 Flags: W
 Refer: 67 67 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 449.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1473.5 373 2
 KernsSLIFO: 46 -36 0 0 44 -36 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' C uni030C
@@ -4953,7 +4990,7 @@ Encoding: 270 270 270
 Width: 1776
 Flags: W
 Refer: 68 68 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 425.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1449.5 373 2
 KernsSLIFO: 86 -36 0 0 46 -73 0 0 45 38 0 0 44 -73 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' D uni030C
@@ -4963,7 +5000,7 @@ Encoding: 271 271 271
 Width: 1432
 Flags: W
 Refer: 100 100 N 1 0 0 1 0 0 2
-Refer: 65537 -1 N 1 0 0 1 1168.67 -84 2
+Refer: 65537 -1 N 1 0 0 1 2192.67 -84 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' d uni030C
 EndChar
@@ -5061,7 +5098,7 @@ EndChar
 StartChar: Ebreve
 Encoding: 276 276 276
 Width: 1561
-Refer: 65545 -1 N 1 0 0 1 375.504 373 2
+Refer: 65545 -1 N 1 0 0 1 1399.5 373 2
 Refer: 69 69 N 1 0 0 1 0 0 2
 EndChar
 StartChar: ebreve
@@ -5073,7 +5110,7 @@ EndChar
 StartChar: Edotaccent
 Encoding: 278 278 278
 Width: 1561
-Refer: 65546 -1 N 1 0 0 1 375.504 373 2
+Refer: 65546 -1 N 1 0 0 1 1399.5 373 2
 Refer: 69 69 N 1 0 0 1 0 0 2
 EndChar
 StartChar: edotaccent
@@ -5101,7 +5138,7 @@ Encoding: 282 282 282
 Width: 1561
 Flags: W
 Refer: 69 69 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 372.67 379 2
+Refer: 65543 -1 N 1 0 0 1 1396.67 379 2
 KernsSLIFO: 45 38 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' E uni030C
@@ -5118,7 +5155,7 @@ EndChar
 StartChar: Gcircumflex
 Encoding: 284 284 284
 Width: 1749
-Refer: 65542 -1 N 1 0 0 1 469.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1493.5 373 2
 Refer: 71 71 N 1 0 0 1 0 0 2
 EndChar
 StartChar: gcircumflex
@@ -5132,8 +5169,9 @@ Encoding: 286 286 286
 Width: 1749
 Flags: W
 Refer: 71 71 N 1 0 0 1 0 0 2
-Refer: 65545 -1 N 1 0 0 1 434.504 373 2
+Refer: 65545 -1 N 1 0 0 1 1458.5 373 2
 KernsSLIFO: 46 -73 0 0 45 38 0 0 44 -73 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' G uni0306
 EndChar
 StartChar: gbreve
@@ -5148,7 +5186,7 @@ EndChar
 StartChar: Gdotaccent
 Encoding: 288 288 288
 Width: 1749
-Refer: 65546 -1 N 1 0 0 1 469.504 373 2
+Refer: 65546 -1 N 1 0 0 1 1493.5 373 2
 Refer: 71 71 N 1 0 0 1 0 0 2
 EndChar
 StartChar: gdotaccent
@@ -5174,13 +5212,13 @@ EndChar
 StartChar: Hcircumflex
 Encoding: 292 292 292
 Width: 1935
-Refer: 65542 -1 N 1 0 0 1 530.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1554.5 373 2
 Refer: 72 72 N 1 0 0 1 0 0 2
 EndChar
 StartChar: hcircumflex
 Encoding: 293 293 293
 Width: 1489
-Refer: 65542 -1 N 1 0 0 1 -115.496 373 2
+Refer: 65542 -1 N 1 0 0 1 908.504 373 2
 Refer: 104 104 N 1 0 0 1 0 0 2
 EndChar
 StartChar: Hbar
@@ -5273,7 +5311,7 @@ EndChar
 StartChar: Itilde
 Encoding: 296 296 296
 Width: 958
-Refer: 65540 -1 N 1 0 0 1 39.5039 373 2
+Refer: 65540 -1 N 1 0 0 1 1063.5 373 2
 Refer: 73 73 N 1 0 0 1 0 0 2
 EndChar
 StartChar: itilde
@@ -5297,7 +5335,7 @@ EndChar
 StartChar: Ibreve
 Encoding: 300 300 300
 Width: 958
-Refer: 65545 -1 N 1 0 0 1 39.5039 373 2
+Refer: 65545 -1 N 1 0 0 1 1063.5 373 2
 Refer: 73 73 N 1 0 0 1 0 0 2
 EndChar
 StartChar: ibreve
@@ -5325,7 +5363,8 @@ Encoding: 304 304 304
 Width: 958
 Flags: W
 Refer: 73 73 N 1 0 0 1 0 0 2
-Refer: 65546 -1 N 1 0 0 1 39.5039 373 2
+Refer: 65546 -1 N 1 0 0 1 1063.5 373 2
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' I uni0307
 EndChar
 StartChar: dotlessi
@@ -5367,7 +5406,7 @@ StartChar: Jcircumflex
 Encoding: 308 308 308
 Width: 969
 Flags: W
-Refer: 65542 -1 N 1 0 0 1 53.5039 373 2
+Refer: 65542 -1 N 1 0 0 1 1077.5 373 2
 Refer: 74 74 N 1 0 0 1 0 0 2
 EndChar
 StartChar: jcircumflex
@@ -5421,7 +5460,7 @@ StartChar: Lacute
 Encoding: 313 313 313
 Width: 1440
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 126.698 374 2
+Refer: 65539 -1 N 1 0 0 1 1150.7 374 2
 Refer: 76 76 N 1 0 0 1 0 0 2
 KernsSLIFO: 8220 -491 0 0 376 -131 0 0 8216 -491 0 0 85 -112 0 0 84 -167 0 0 87 -139 0 0 86 -243 0 0 89 -131 0 0 356 -167 0 0 220 -112 0 0 8221 -491 0 0 218 -112 0 0 255 -73 0 0 366 -112 0 0 8217 -491 0 0 217 -112 0 0 253 -73 0 0 121 -73 0 0 219 -112 0 0 221 -131 0 0
 LCarets: 0 65535 '    ' 1 0 
@@ -5431,7 +5470,7 @@ StartChar: lacute
 Encoding: 314 314 314
 Width: 778
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 6.69824 374 2
+Refer: 65539 -1 N 1 0 0 1 1030.7 374 2
 Refer: 108 108 N 1 0 0 1 0 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' l acutecomb
@@ -5454,7 +5493,7 @@ StartChar: Lcaron
 Encoding: 317 317 317
 Width: 1440
 Flags: W
-Refer: 65537 -1 N 1 0 0 1 672.815 -145 2
+Refer: 65537 -1 N 1 0 0 1 1696.81 -145 2
 Refer: 76 76 N 1 0 0 1 0 0 2
 KernsSLIFO: 8220 -491 0 0 376 -131 0 0 8216 -491 0 0 85 -112 0 0 84 -167 0 0 87 -139 0 0 86 -243 0 0 89 -131 0 0 356 -167 0 0 220 -112 0 0 8221 -491 0 0 218 -112 0 0 255 -73 0 0 366 -112 0 0 8217 -491 0 0 217 -112 0 0 253 -73 0 0 121 -73 0 0 219 -112 0 0 221 -131 0 0
 LCarets: 0 65535 '    ' 1 0 
@@ -5464,7 +5503,7 @@ StartChar: lcaron
 Encoding: 318 318 318
 Width: 1040
 Flags: W
-Refer: 65537 -1 N 1 0 0 1 478.06 -82 2
+Refer: 65537 -1 N 1 0 0 1 1502.06 -82 2
 Refer: 108 108 N 1 0 0 1 0 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' l uni030C
@@ -5550,7 +5589,7 @@ StartChar: Nacute
 Encoding: 323 323 323
 Width: 1872
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 500.698 374 2
+Refer: 65539 -1 N 1 0 0 1 1524.7 374 2
 Refer: 78 78 N 1 0 0 1 0 0 2
 EndChar
 StartChar: nacute
@@ -5579,7 +5618,7 @@ Encoding: 327 327 327
 Width: 1872
 Flags: W
 Refer: 78 78 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 479.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1503.5 373 2
 KernsSLIFO: 59 -73 0 0 58 -73 0 0 46 -131 0 0 44 -131 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' N uni030C
@@ -5693,7 +5732,7 @@ EndChar
 StartChar: Obreve
 Encoding: 334 334 334
 Width: 1784
-Refer: 65545 -1 N 1 0 0 1 453.504 373 2
+Refer: 65545 -1 N 1 0 0 1 1477.5 373 2
 Refer: 79 79 N 1 0 0 1 0 0 2
 EndChar
 StartChar: obreve
@@ -5706,7 +5745,7 @@ StartChar: Ohungarumlaut
 Encoding: 336 336 336
 Width: 1784
 Flags: W
-Refer: 65547 -1 N 1 0 0 1 453.504 373 2
+Refer: 65547 -1 N 1 0 0 1 1477.5 373 2
 Refer: 79 79 N 1 0 0 1 0 0 2
 EndChar
 StartChar: ohungarumlaut
@@ -5810,7 +5849,7 @@ StartChar: Racute
 Encoding: 340 340 340
 Width: 1702
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 446.698 374 2
+Refer: 65539 -1 N 1 0 0 1 1470.7 374 2
 Refer: 82 82 N 1 0 0 1 0 0 2
 KernsSLIFO: 248 38 0 0 229 47 0 0 230 47 0 0 224 47 0 0 376 -63 0 0 225 47 0 0 226 47 0 0 84 -36 0 0 87 -45 0 0 86 -73 0 0 89 -63 0 0 228 47 0 0 356 -36 0 0 97 47 0 0 8221 -73 0 0 255 -36 0 0 8217 -73 0 0 253 -36 0 0 227 47 0 0 121 -36 0 0 221 -63 0 0
 LCarets: 0 65535 '    ' 1 0 
@@ -5846,7 +5885,7 @@ Encoding: 344 344 344
 Width: 1702
 Flags: W
 Refer: 82 82 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 425.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1449.5 373 2
 KernsSLIFO: 356 -36 0 0 253 -36 0 0 221 -63 0 0 376 -63 0 0 255 -36 0 0 8217 -73 0 0 8221 -73 0 0 248 38 0 0 230 47 0 0 229 47 0 0 227 47 0 0 228 47 0 0 226 47 0 0 224 47 0 0 225 47 0 0 121 -36 0 0 97 47 0 0 89 -63 0 0 87 -45 0 0 86 -73 0 0 84 -36 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' R uni030C
@@ -5865,7 +5904,7 @@ StartChar: Sacute
 Encoding: 346 346 346
 Width: 1479
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 446.698 374 2
+Refer: 65539 -1 N 1 0 0 1 1470.7 374 2
 Refer: 83 83 N 1 0 0 1 0 0 2
 EndChar
 StartChar: sacute
@@ -5878,7 +5917,7 @@ EndChar
 StartChar: Scircumflex
 Encoding: 348 348 348
 Width: 1479
-Refer: 65542 -1 N 1 0 0 1 289.504 373 2
+Refer: 65542 -1 N 1 0 0 1 1313.5 373 2
 Refer: 83 83 N 1 0 0 1 0 0 2
 EndChar
 StartChar: scircumflex
@@ -5911,8 +5950,9 @@ Encoding: 352 352 352
 Width: 1479
 Flags: W
 Refer: 83 83 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 299.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1323.5 373 2
 KernsSLIFO: 350 -45 0 0 352 -45 0 0 83 -45 0 0 46 -73 0 0 45 75 0 0 44 -73 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' S uni030C
 EndChar
 StartChar: scaron
@@ -5942,7 +5982,7 @@ Encoding: 356 356 356
 Width: 1524
 Flags: W
 Refer: 84 84 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 329.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1353.5 373 2
 KernsSLIFO: 252 -188 0 0 229 -196 0 0 230 -159 0 0 59 -73 0 0 242 -235 0 0 255 -225 0 0 45 -339 0 0 8222 -149 0 0 367 -188 0 0 245 -235 0 0 235 -235 0 0 249 -188 0 0 44 -225 0 0 224 -196 0 0 195 -112 0 0 234 -235 0 0 231 -235 0 0 341 -149 0 0 232 -235 0 0 196 -112 0 0 193 -112 0 0 269 -235 0 0 345 -149 0 0 233 -235 0 0 251 -188 0 0 253 -225 0 0 8218 -149 0 0 227 -196 0 0 194 -112 0 0 248 -159 0 0 244 -235 0 0 353 -188 0 0 65 -112 0 0 283 -235 0 0 187 -149 0 0 351 -188 0 0 228 -196 0 0 119 -225 0 0 246 -235 0 0 250 -188 0 0 8250 -149 0 0 263 -235 0 0 225 -196 0 0 46 -264 0 0 84 -73 0 0 226 -196 0 0 101 -235 0 0 356 -73 0 0 97 -196 0 0 99 -235 0 0 171 -149 0 0 339 -159 0 0 8249 -149 0 0 111 -235 0 0 115 -188 0 0 114 -149 0 0 117 -188 0 0 192 -112 0 0 121 -225 0 0 58 -73 0 0 243 -235 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' T uni030C
@@ -5952,7 +5992,7 @@ Encoding: 357 357 357
 Width: 946
 Flags: W
 Refer: 116 116 N 1 0 0 1 0 0 2
-Refer: 65537 -1 N 1 0 0 1 462.23 -40 2
+Refer: 65537 -1 N 1 0 0 1 1486.23 -40 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' t uni030C
 EndChar
@@ -6031,7 +6071,7 @@ EndChar
 StartChar: Utilde
 Encoding: 360 360 360
 Width: 1786
-Refer: 65540 -1 N 1 0 0 1 504.504 373 2
+Refer: 65540 -1 N 1 0 0 1 1528.5 373 2
 Refer: 85 85 N 1 0 0 1 0 0 2
 EndChar
 StartChar: utilde
@@ -6055,7 +6095,7 @@ EndChar
 StartChar: Ubreve
 Encoding: 364 364 364
 Width: 1786
-Refer: 65545 -1 N 1 0 0 1 504.504 373 2
+Refer: 65545 -1 N 1 0 0 1 1528.5 373 2
 Refer: 85 85 N 1 0 0 1 0 0 2
 EndChar
 StartChar: ubreve
@@ -6086,7 +6126,7 @@ EndChar
 StartChar: Uhungarumlaut
 Encoding: 368 368 368
 Width: 1786
-Refer: 65547 -1 N 1 0 0 1 504.504 373 2
+Refer: 65547 -1 N 1 0 0 1 1528.5 373 2
 Refer: 85 85 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uhungarumlaut
@@ -6116,7 +6156,7 @@ Encoding: 372 372 372
 Width: 2300
 Flags: W
 Refer: 87 87 N 1 0 0 1 0 0 2
-Refer: 65542 -1 N 1 0 0 1 725 380 2
+Refer: 65542 -1 N 1 0 0 1 1749 380 2
 EndChar
 StartChar: wcircumflex
 Encoding: 373 373 373
@@ -6130,7 +6170,7 @@ Encoding: 374 374 374
 Width: 1462
 Flags: W
 Refer: 89 89 N 1 0 0 1 0 0 2
-Refer: 65542 -1 N 1 0 0 1 299 380 2
+Refer: 65542 -1 N 1 0 0 1 1323 380 2
 EndChar
 StartChar: ycircumflex
 Encoding: 375 375 375
@@ -6144,15 +6184,16 @@ Encoding: 376 376 376
 Width: 1462
 Flags: W
 Refer: 89 89 N 1 0 0 1 0 0 2
-Refer: 65538 -1 N 1 0 0 1 291.504 373 2
+Refer: 65538 -1 N 1 0 0 1 1315.5 373 2
 KernsSLIFO: 367 -178 0 0 283 -178 0 0 268 -36 0 0 262 -36 0 0 193 -131 0 0 194 -131 0 0 339 -178 0 0 195 -131 0 0 192 -131 0 0 248 -178 0 0 230 -159 0 0 252 -178 0 0 251 -178 0 0 249 -178 0 0 250 -178 0 0 245 -178 0 0 246 -178 0 0 244 -178 0 0 242 -178 0 0 243 -178 0 0 235 -178 0 0 234 -178 0 0 232 -178 0 0 233 -178 0 0 229 -159 0 0 227 -159 0 0 228 -159 0 0 226 -159 0 0 224 -159 0 0 225 -159 0 0 199 -36 0 0 196 -131 0 0 117 -178 0 0 111 -178 0 0 105 -36 0 0 101 -178 0 0 97 -159 0 0 67 -36 0 0 65 -131 0 0 59 -253 0 0 58 -253 0 0 46 -264 0 0 45 -206 0 0 44 -264 0 0
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' Y uni0308
 EndChar
 StartChar: Zacute
 Encoding: 377 377 377
 Width: 1495
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 446.698 374 2
+Refer: 65539 -1 N 1 0 0 1 1470.7 374 2
 Refer: 90 90 N 1 0 0 1 0 0 2
 EndChar
 StartChar: zacute
@@ -6167,7 +6208,7 @@ Encoding: 379 379 379
 Width: 1495
 Flags: W
 Refer: 90 90 N 1 0 0 1 0 0 2
-Refer: 65546 -1 N 1 0 0 1 312 399 2
+Refer: 65546 -1 N 1 0 0 1 1336 399 2
 EndChar
 StartChar: zdotaccent
 Encoding: 380 380 380
@@ -6181,7 +6222,7 @@ Encoding: 381 381 381
 Width: 1495
 Flags: W
 Refer: 90 90 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 308.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1332.5 373 2
 KernsSLIFO: 46 -36 0 0 44 -36 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' Z uni030C
@@ -6428,7 +6469,7 @@ Encoding: 461 461 461
 Width: 1589
 Flags: W
 Refer: 65 65 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 280.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1304.5 373 2
 Ligature: 0 0 'liga' A uni030C
 LCarets: 0 65535 '    ' 1 0 
 EndChar
@@ -6446,7 +6487,7 @@ Encoding: 463 463 463
 Width: 958
 Flags: W
 Refer: 73 73 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 14.5039 373 2
+Refer: 65543 -1 N 1 0 0 1 1038.5 373 2
 Ligature: 0 0 'liga' I uni030C
 LCarets: 0 65535 '    ' 1 0 
 EndChar
@@ -6464,7 +6505,7 @@ Encoding: 465 465 465
 Width: 1784
 Flags: W
 Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 455.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1479.5 373 2
 Ligature: 0 0 'liga' O uni030C
 LCarets: 0 65535 '    ' 1 0 
 EndChar
@@ -6482,7 +6523,7 @@ Encoding: 467 467 467
 Width: 1786
 Flags: W
 Refer: 85 85 N 1 0 0 1 0 0 2
-Refer: 65543 -1 N 1 0 0 1 511.504 373 2
+Refer: 65543 -1 N 1 0 0 1 1535.5 373 2
 Ligature: 0 0 'liga' U uni030C
 LCarets: 0 65535 '    ' 1 0 
 EndChar
@@ -6646,7 +6687,7 @@ Encoding: 558 558 558
 Width: 1784
 Flags: W
 Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65546 -1 N 1 0 0 1 379 373 2
+Refer: 65546 -1 N 1 0 0 1 1403 373 2
 EndChar
 StartChar: uni022F
 Encoding: 559 559 559
@@ -11981,8 +12022,26 @@ EndChar
 StartChar: uni033D
 Encoding: 829 829 829
 Width: 0
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+AnchorPoint: "above" -787.577 1092 mark 0
+AnchorPoint: "above-mark" -675.614 1668 basemark 0
+AnchorPoint: "above-mark" -787.577 1092 mark 0
+Fore
+-744.944 1301.58 m 1,0,-1
+ -878.384 1189.85 l 1,1,-1
+ -985.479 1322.79 l 1,2,-1
+ -852.04 1434.51 l 1,3,-1
+ -942.046 1546.23 l 1,4,-1
+ -783.271 1679.17 l 1,5,-1
+ -693.265 1567.45 l 1,6,-1
+ -559.824 1679.17 l 1,7,-1
+ -452.729 1546.23 l 1,8,-1
+ -586.168 1434.51 l 1,9,-1
+ -496.162 1322.79 l 1,10,-1
+ -654.938 1189.85 l 1,11,-1
+ -744.944 1301.58 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni033E
 Encoding: 830 830 830
@@ -12937,7 +12996,7 @@ Encoding: 938 938 938
 Width: 958
 Flags: W
 TeX: 0 0 0 0
-Refer: 65538 -1 N 1 0 0 1 -26 373 2
+Refer: 65538 -1 N 1 0 0 1 998 373 2
 Refer: 921 921 N 1 0 0 1 0 0 2
 EndChar
 StartChar: Upsilondieresis
@@ -12945,7 +13004,7 @@ Encoding: 939 939 939
 Width: 1462
 Flags: W
 TeX: 0 0 0 0
-Refer: 65538 -1 N 1 0 0 1 263 373 2
+Refer: 65538 -1 N 1 0 0 1 1287 373 2
 Refer: 933 933 N 1 0 0 1 0 0 2
 EndChar
 StartChar: alphatonos
@@ -14062,14 +14121,14 @@ StartChar: uni0400
 Encoding: 1024 1024 1024
 Width: 1561
 Flags: W
-Refer: 65541 -1 N 1 0 0 1 375.504 373 2
+Refer: 65541 -1 N 1 0 0 1 1399.5 373 2
 Refer: 1045 1045 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii10023
 Encoding: 1025 1025 1025
 Width: 1561
 Flags: W
-Refer: 65538 -1 N 1 0 0 1 375.504 373 2
+Refer: 65538 -1 N 1 0 0 1 1399.5 373 2
 Refer: 1045 1045 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii10051
@@ -14121,7 +14180,7 @@ StartChar: afii10052
 Encoding: 1027 1027 1027
 Width: 1454
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 375.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1399.5 373 2
 Refer: 1043 1043 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii10053
@@ -14217,7 +14276,7 @@ StartChar: afii10056
 Encoding: 1031 1031 1031
 Width: 958
 Flags: W
-Refer: 65538 -1 N 1 0 0 1 48.5039 373 2
+Refer: 65538 -1 N 1 0 0 1 1072.5 373 2
 Refer: 1030 1030 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii10057
@@ -14390,21 +14449,21 @@ StartChar: afii10061
 Encoding: 1036 1036 1036
 Width: 1780
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 565.504 373 2
+Refer: 65539 -1 N 1 0 0 1 1589.5 373 2
 Refer: 1050 1050 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni040D
 Encoding: 1037 1037 1037
 Width: 1935
 Flags: W
-Refer: 65541 -1 N 1 0 0 1 560.504 373 2
+Refer: 65541 -1 N 1 0 0 1 1584.5 373 2
 Refer: 1048 1048 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii10062
 Encoding: 1038 1038 1038
 Width: 1662
 Flags: W
-Refer: 65545 -1 N 1 0 0 1 384.504 373 2
+Refer: 65545 -1 N 1 0 0 1 1408.5 373 2
 Refer: 1059 1059 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii10145
@@ -14762,7 +14821,7 @@ Encoding: 1049 1049 1049
 Width: 1935
 Flags: W
 Refer: 1048 1048 N 1 0 0 1 0 0 2
-Refer: 65545 -1 N 1 0 0 1 554.504 373 2
+Refer: 65545 -1 N 1 0 0 1 1578.5 373 2
 EndChar
 StartChar: afii10028
 Encoding: 1050 1050 1050
@@ -17388,7 +17447,7 @@ StartChar: uni1E12
 Encoding: 7698 7698 7698
 Width: 1776
 TeX: 0 0 0 0
-Refer: 65542 -1 N 1 0 0 1 -181.94 -1648 2
+Refer: 65542 -1 N 1 0 0 1 842.06 -1648 2
 Refer: 68 68 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1E13
@@ -17450,7 +17509,7 @@ StartChar: uni1E3C
 Encoding: 7740 7740 7740
 Width: 1440
 TeX: 0 0 0 0
-Refer: 65542 -1 N 1 0 0 1 -77.4385 -1648 2
+Refer: 65542 -1 N 1 0 0 1 946.562 -1648 2
 Refer: 76 76 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1E3D
@@ -17488,7 +17547,7 @@ StartChar: uni1E44
 Encoding: 7748 7748 7748
 Width: 1872
 TeX: 0 0 0 0
-Refer: 65546 -1 N 1 0 0 1 492.638 385 2
+Refer: 65546 -1 N 1 0 0 1 1516.64 385 2
 Refer: 78 78 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1E45
@@ -17514,7 +17573,7 @@ StartChar: uni1E4A
 Encoding: 7754 7754 7754
 Width: 1872
 TeX: 0 0 0 0
-Refer: 65542 -1 N 1 0 0 1 21.5615 -1648 2
+Refer: 65542 -1 N 1 0 0 1 1045.56 -1648 2
 Refer: 78 78 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1E4B
@@ -17612,7 +17671,7 @@ StartChar: uni1E70
 Encoding: 7792 7792 7792
 Width: 1524
 TeX: 0 0 0 0
-Refer: 65542 -1 N 1 0 0 1 -59.938 -1648 2
+Refer: 65542 -1 N 1 0 0 1 964.062 -1648 2
 Refer: 84 84 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1E71
@@ -21466,139 +21525,139 @@ EndSplineSet
 EndChar
 StartChar: dlLtcaron
 Encoding: 65537 -1 65537
-Width: 1024
+Width: 0
 Flags: W
 Fore
-451.544 1638 m 1,0,-1
- 730.544 1638 l 1,1,-1
- 473.456 1262 l 1,2,-1
- 309.456 1262 l 1,3,-1
- 451.544 1638 l 1,0,-1
+-572.456 1638 m 1,0,-1
+ -293.456 1638 l 1,1,-1
+ -550.544 1262 l 1,2,-1
+ -714.544 1262 l 1,3,-1
+ -572.456 1638 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: Dieresis
 Encoding: 65538 -1 65538
-Width: 1024
+Width: 0
 Flags: W
 Fore
-324 1403 m 0,0,1
- 336 1463 336 1463 388 1506 c 128,-1,2
- 440 1550 440 1550 500 1550 c 0,3,4
- 559 1550 559 1550 594 1506 c 128,-1,5
- 629 1463 629 1463 617 1403 c 0,6,7
- 605 1343 605 1343 554 1300 c 128,-1,8
- 504 1257 504 1257 444 1257 c 0,9,10
- 384 1257 384 1257 348 1300 c 128,-1,11
- 312 1343 312 1343 324 1403 c 0,0,1
-771 1403 m 0,12,13
- 783 1463 783 1463 835 1506 c 128,-1,14
- 886 1550 886 1550 946 1550 c 0,15,16
- 1006 1550 1006 1550 1042 1506 c 128,-1,17
- 1078 1463 1078 1463 1066 1403 c 0,18,19
- 1054 1343 1054 1343 1002 1300 c 128,-1,20
- 950 1257 950 1257 890 1257 c 0,21,22
- 830 1257 830 1257 794 1300 c 128,-1,23
- 759 1343 759 1343 771 1403 c 0,12,13
+-700 1403 m 0,0,1
+ -688 1463 -688 1463 -636 1506 c 128,-1,2
+ -584 1550 -584 1550 -524 1550 c 0,3,4
+ -465 1550 -465 1550 -430 1506 c 128,-1,5
+ -395 1463 -395 1463 -407 1403 c 0,6,7
+ -419 1343 -419 1343 -470 1300 c 128,-1,8
+ -520 1257 -520 1257 -580 1257 c 0,9,10
+ -640 1257 -640 1257 -676 1300 c 128,-1,11
+ -712 1343 -712 1343 -700 1403 c 0,0,1
+-253 1403 m 0,12,13
+ -241 1463 -241 1463 -189 1506 c 128,-1,14
+ -138 1550 -138 1550 -78 1550 c 0,15,16
+ -18 1550 -18 1550 18 1506 c 128,-1,17
+ 54 1463 54 1463 42 1403 c 0,18,19
+ 30 1343 30 1343 -22 1300 c 128,-1,20
+ -74 1257 -74 1257 -134 1257 c 0,21,22
+ -194 1257 -194 1257 -230 1300 c 128,-1,23
+ -265 1343 -265 1343 -253 1403 c 0,12,13
 EndSplineSet
 EndChar
 StartChar: Acute
 Encoding: 65539 -1 65539
-Width: 1024
+Width: 0
 Flags: W
 TtfInstrs: 56
 [/p=2!<WH9eAO'A&CeWP5Re5(%fmaP*s""p0*)8_!)'O)<*6g6"TQ7;!<<6&"9:\H&N;[P
 EndTtf
 Fore
-694 1526 m 1,0,-1
- 973 1526 l 1,1,-1
- 624 1262 l 1,2,-1
- 460 1262 l 1,3,-1
- 694 1526 l 1,0,-1
+-330 1526 m 1,0,-1
+ -51 1526 l 1,1,-1
+ -400 1262 l 1,2,-1
+ -564 1262 l 1,3,-1
+ -330 1526 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: Tilde
 Encoding: 65540 -1 65540
-Width: 1024
+Width: 0
 Flags: W
 Fore
-258 1262 m 1,0,-1
- 260 1274 l 2,1,2
- 284 1397 284 1397 351 1464 c 128,-1,3
- 418 1530 418 1530 518 1530 c 0,4,5
- 579 1530 579 1530 652 1491 c 0,6,7
- 660 1487 660 1487 663 1485 c 2,8,-1
- 729 1452 l 2,9,10
- 755 1439 755 1439 772 1434 c 128,-1,11
- 789 1430 789 1430 807 1430 c 0,12,13
- 848 1430 848 1430 877 1455 c 128,-1,14
- 907 1480 907 1480 915 1524 c 2,15,-1
- 916 1528 l 1,16,-1
- 1026 1528 l 1,17,-1
- 1023 1513 l 2,18,19
- 999 1391 999 1391 933 1326 c 128,-1,20
- 867 1260 867 1260 766 1260 c 0,21,22
- 732 1260 732 1260 700 1269 c 128,-1,23
- 668 1278 668 1278 621 1305 c 2,24,-1
- 569 1333 l 2,25,26
- 544 1346 544 1346 520 1353 c 128,-1,27
- 496 1360 496 1360 477 1360 c 0,28,29
- 436 1360 436 1360 407 1334 c 128,-1,30
- 377 1309 377 1309 369 1266 c 2,31,-1
- 368 1262 l 1,32,-1
- 258 1262 l 1,0,-1
+-766 1262 m 1,0,-1
+ -764 1274 l 2,1,2
+ -740 1397 -740 1397 -673 1464 c 128,-1,3
+ -606 1530 -606 1530 -506 1530 c 0,4,5
+ -445 1530 -445 1530 -372 1491 c 0,6,7
+ -364 1487 -364 1487 -361 1485 c 2,8,-1
+ -295 1452 l 2,9,10
+ -269 1439 -269 1439 -252 1434 c 128,-1,11
+ -235 1430 -235 1430 -217 1430 c 0,12,13
+ -176 1430 -176 1430 -147 1455 c 128,-1,14
+ -117 1480 -117 1480 -109 1524 c 2,15,-1
+ -108 1528 l 1,16,-1
+ 2 1528 l 1,17,-1
+ -1 1513 l 2,18,19
+ -25 1391 -25 1391 -91 1326 c 128,-1,20
+ -157 1260 -157 1260 -258 1260 c 0,21,22
+ -292 1260 -292 1260 -324 1269 c 128,-1,23
+ -356 1278 -356 1278 -403 1305 c 2,24,-1
+ -455 1333 l 2,25,26
+ -480 1346 -480 1346 -504 1353 c 128,-1,27
+ -528 1360 -528 1360 -547 1360 c 0,28,29
+ -588 1360 -588 1360 -617 1334 c 128,-1,30
+ -647 1309 -647 1309 -655 1266 c 2,31,-1
+ -656 1262 l 1,32,-1
+ -766 1262 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: Grave
 Encoding: 65541 -1 65541
-Width: 1024
+Width: 0
 Flags: W
 TtfInstrs: 56
 [/g71!<WH9eAO'A&CeWP5Re5(%g*mR*s4.r0*;Da!)'O)<*6g6"TQ7;!<<6&"9:\H&N;[P
 EndTtf
 Fore
-617 1526 m 1,0,-1
- 747 1262 l 1,1,-1
- 583 1262 l 1,2,-1
- 338 1526 l 1,3,-1
- 617 1526 l 1,0,-1
+-407 1526 m 1,0,-1
+ -277 1262 l 1,1,-1
+ -441 1262 l 1,2,-1
+ -686 1526 l 1,3,-1
+ -407 1526 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: Circumflex
 Encoding: 65542 -1 65542
-Width: 1024
+Width: 0
 Flags: W
 TtfInstrs: 74
 5R@Ps!WWH.!X8l@eAO@%!"dYu1-%$R'+Y'R!=o;T!$;4`">9a.!A=Q^>l[O%$rg?B!!iP>!!*')
 !!`Kh3"\)/=gA26!F5[*
 EndTtf
 Fore
-501 1526 m 1,0,-1
- 809 1526 l 1,1,-1
- 980 1262 l 1,2,-1
- 816 1262 l 1,3,-1
- 635 1423 l 1,4,-1
- 390 1262 l 1,5,-1
- 226 1262 l 1,6,-1
- 501 1526 l 1,0,-1
+-523 1526 m 1,0,-1
+ -215 1526 l 1,1,-1
+ -44 1262 l 1,2,-1
+ -208 1262 l 1,3,-1
+ -389 1423 l 1,4,-1
+ -634 1262 l 1,5,-1
+ -798 1262 l 1,6,-1
+ -523 1526 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: Caron
 Encoding: 65543 -1 65543
-Width: 1024
+Width: 0
 Flags: W
 TtfInstrs: 80
 5R@Mm"9A`0"T\i>eAO@%!"dXB`&TM:)%Q`Y!Y5DE"Wmae!ZqOe"YTm0!\X[0"UnZ:9<\h(=M4\>
 s1eU8!!`K/!'iLU2`OsG$3L<7
 EndTtf
 Fore
-479 1262 m 1,0,-1
- 308 1526 l 1,1,-1
- 472 1526 l 1,2,-1
- 653 1364 l 1,3,-1
- 898 1526 l 1,4,-1
- 1062 1526 l 1,5,-1
- 787 1262 l 1,6,-1
- 479 1262 l 1,0,-1
+-545 1262 m 1,0,-1
+ -716 1526 l 1,1,-1
+ -552 1526 l 1,2,-1
+ -371 1364 l 1,3,-1
+ -126 1526 l 1,4,-1
+ 38 1526 l 1,5,-1
+ -237 1262 l 1,6,-1
+ -545 1262 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: foursuperior
@@ -21634,70 +21693,70 @@ EndSplineSet
 EndChar
 StartChar: Breve
 Encoding: 65545 -1 65545
-Width: 1024
+Width: 0
 Flags: W
 Fore
-336 1526 m 1,0,-1
- 459 1526 l 1,1,2
- 470 1471 470 1471 520 1442 c 128,-1,3
- 570 1413 570 1413 654 1413 c 0,4,5
- 738 1413 738 1413 800 1442 c 128,-1,6
- 862 1472 862 1472 893 1526 c 1,7,-1
- 1016 1526 l 1,8,9
- 962 1395 962 1395 864 1328 c 128,-1,10
- 765 1262 765 1262 624 1262 c 0,11,12
- 480 1262 480 1262 409 1327 c 128,-1,13
- 338 1392 338 1392 336 1526 c 1,0,-1
+-688 1526 m 1,0,-1
+ -565 1526 l 1,1,2
+ -554 1471 -554 1471 -504 1442 c 128,-1,3
+ -454 1413 -454 1413 -370 1413 c 0,4,5
+ -286 1413 -286 1413 -224 1442 c 128,-1,6
+ -162 1472 -162 1472 -131 1526 c 1,7,-1
+ -8 1526 l 1,8,9
+ -62 1395 -62 1395 -160 1328 c 128,-1,10
+ -259 1262 -259 1262 -400 1262 c 0,11,12
+ -544 1262 -544 1262 -615 1327 c 128,-1,13
+ -686 1392 -686 1392 -688 1526 c 1,0,-1
 EndSplineSet
 EndChar
 StartChar: Dotaccent
 Encoding: 65546 -1 65546
-Width: 1024
+Width: 0
 Flags: W
 Fore
-503 1403 m 0,0,1
- 515 1463 515 1463 567 1506 c 128,-1,2
- 618 1550 618 1550 678 1550 c 0,3,4
- 738 1550 738 1550 774 1506 c 128,-1,5
- 809 1463 809 1463 797 1403 c 0,6,7
- 785 1343 785 1343 733 1300 c 128,-1,8
- 682 1257 682 1257 622 1257 c 0,9,10
- 562 1257 562 1257 526 1300 c 128,-1,11
- 491 1343 491 1343 503 1403 c 0,0,1
+-521 1403 m 0,0,1
+ -509 1463 -509 1463 -457 1506 c 128,-1,2
+ -406 1550 -406 1550 -346 1550 c 0,3,4
+ -286 1550 -286 1550 -250 1506 c 128,-1,5
+ -215 1463 -215 1463 -227 1403 c 0,6,7
+ -239 1343 -239 1343 -291 1300 c 128,-1,8
+ -342 1257 -342 1257 -402 1257 c 0,9,10
+ -462 1257 -462 1257 -498 1300 c 128,-1,11
+ -533 1343 -533 1343 -521 1403 c 0,0,1
 EndSplineSet
 EndChar
 StartChar: Hungarumlaut
 Encoding: 65547 -1 65547
-Width: 1024
+Width: 0
 Flags: W
 Fore
-904 1526 m 1,0,-1
- 1183 1526 l 1,1,-1
- 834 1262 l 1,2,-1
- 670 1262 l 1,3,-1
- 904 1526 l 1,0,-1
-572 1526 m 1,0,-1
- 851 1526 l 1,1,-1
- 502 1262 l 1,2,-1
- 338 1262 l 1,3,-1
- 572 1526 l 1,0,-1
+-120 1526 m 1,0,-1
+ 159 1526 l 1,1,-1
+ -190 1262 l 1,2,-1
+ -354 1262 l 1,3,-1
+ -120 1526 l 1,0,-1
+-452 1526 m 1,0,-1
+ -173 1526 l 1,1,-1
+ -522 1262 l 1,2,-1
+ -686 1262 l 1,3,-1
+ -452 1526 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: Doublegrave
 Encoding: 65548 -1 65548
-Width: 1024
+Width: 0
 Flags: W
 Fore
-271.658 1526 m 1,0,-1
- -7.3418 1526 l 1,1,-1
- 238.342 1262 l 1,2,-1
- 402.342 1262 l 1,3,-1
- 271.658 1526 l 1,0,-1
-603.658 1526 m 1,0,-1
- 324.658 1526 l 1,1,-1
- 570.342 1262 l 1,2,-1
- 734.342 1262 l 1,3,-1
- 603.658 1526 l 1,0,-1
+-752.342 1526 m 1,0,-1
+ -1031.34 1526 l 1,1,-1
+ -785.658 1262 l 1,2,-1
+ -621.658 1262 l 1,3,-1
+ -752.342 1526 l 1,0,-1
+-420.342 1526 m 1,0,-1
+ -699.342 1526 l 1,1,-1
+ -453.658 1262 l 1,2,-1
+ -289.658 1262 l 1,3,-1
+ -420.342 1526 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
