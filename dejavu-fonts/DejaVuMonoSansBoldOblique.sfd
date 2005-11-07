@@ -75,7 +75,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65551 1317
+BeginChars: 65552 1322
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -15365,6 +15365,46 @@ Fore
  496 1059 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: exclamdbl
+Encoding: 8252 8252 8252
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 33 33 N 1 0 0 1 -308 0 2
+Refer: 33 33 N 1 0 0 1 308 0 2
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 0 'liga' exclam exclam
+EndChar
+StartChar: uni2047
+Encoding: 8263 8263 8263
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 65551 -1 N 1 0 0 1 -308 0 2
+Refer: 65551 -1 N 1 0 0 1 308 0 2
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 0 'liga' thinquestion thinquestion
+EndChar
+StartChar: uni2048
+Encoding: 8264 8264 8264
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 65551 -1 N 1 0 0 1 -244.5 0 2
+Refer: 33 33 N 1 0 0 1 308 0 2
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 0 'liga' thinquestion exclam
+EndChar
+StartChar: uni2049
+Encoding: 8265 8265 8265
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 33 33 N 1 0 0 1 -308 0 2
+Refer: 65551 -1 N 1 0 0 1 244.5 0 2
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 0 'liga' exclam thinquestion
+EndChar
 StartChar: uni207F
 Encoding: 8319 8319 8319
 Width: 1233
@@ -18945,6 +18985,42 @@ Fore
  500 1262 l 1,2,-1
  271 1526 l 1,3,-1
  535 1526 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: thinquestion
+Encoding: 65551 -1 65551
+Width: 1233
+Flags: W
+Fore
+329 283 m 1,0,-1
+ 596 283 l 1,1,-1
+ 541 0 l 1,2,-1
+ 274 0 l 1,3,-1
+ 329 283 l 1,0,-1
+619 401 m 1,4,-1
+ 352 401 l 1,5,-1
+ 382 555 l 0,6,7
+ 430 710 430 710 435 724 c 0,8,9
+ 484 840 484 840 563 920 c 0,11,12
+ 620 979 620 979 638 1021 c 0,13,14
+ 665 1086 665 1086 668 1104 c 0,15,16
+ 673 1129 673 1129 673 1149 c 0,0,0
+ 673 1185 673 1185 658 1205 c 0,17,18
+ 639 1232 639 1232 609 1232 c 0,0,0
+ 584 1232 584 1232 551 1213 c 1,19,20
+ 485 1188 485 1188 393 1098 c 1,22,-1
+ 453 1407 l 1,23,24
+ 528 1463 528 1463 599 1492 c 128,-1,25
+ 669 1520 669 1520 735 1520 c 0,26,27
+ 866 1520 866 1520 923 1426 c 128,-1,28
+ 959 1366 959 1366 959 1277 c 0,0,0
+ 959 1227 959 1227 948 1167 c 0,29,30
+ 935 1101 935 1101 898 1026 c 0,31,32
+ 857 943 857 943 810 884 c 8,33,-1
+ 716 770 716 770 686 674 c 0,36,37
+ 655 581 655 581 653 571 c 2,38,39
+ 643 524 l 1,41,-1
+ 619 401 l 1,4,-1
 EndSplineSet
 EndChar
 EndChars

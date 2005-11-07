@@ -110,7 +110,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65548 1294
+BeginChars: 65548 1298
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -15982,6 +15982,48 @@ Fore
  643 506 l 1,6,-1
  78 135 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: exclamdbl
+Encoding: 8252 8252 8252
+Width: 1284
+Flags: W
+TeX: 0 0 0 0
+Refer: 33 33 N 1 0 0 1 -146 0 2
+Refer: 33 33 N 1 0 0 1 496 0 2
+EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' exclam exclam
+EndChar
+StartChar: uni2047
+Encoding: 8263 8263 8263
+Width: 2110
+Flags: W
+TeX: 0 0 0 0
+Refer: 63 63 N 1 0 0 1 -70.5 0 2
+Refer: 63 63 N 1 0 0 1 984.5 0 2
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' question question
+EndChar
+StartChar: uni2048
+Encoding: 8264 8264 8264
+Width: 1697
+Flags: W
+TeX: 0 0 0 0
+Refer: 63 63 N 1 0 0 1 0 0 2
+Refer: 33 33 N 1 0 0 1 909 0 2
+EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' question exclam
+EndChar
+StartChar: uni2049
+Encoding: 8265 8265 8265
+Width: 1697
+Flags: W
+TeX: 0 0 0 0
+Refer: 33 33 N 1 0 0 1 -146 0 2
+Refer: 63 63 N 1 0 0 1 501 0 2
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 1 'liga' exclam question
 EndChar
 StartChar: uni207F
 Encoding: 8319 8319 8319
