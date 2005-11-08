@@ -3981,6 +3981,9 @@ StartChar: Ecircumflex
 Encoding: 202 202 202
 Width: 1294
 Flags: W
+TtfInstrs: 7
+5Qa7[!F7D[
+EndTtf
 Refer: 69 69 N 1 0 0 1 0 0 3
 Refer: 65542 -1 N 1 0 0 1 1182 373 2
 LCarets: 0 65535 '    ' 1 0 
@@ -3989,7 +3992,7 @@ EndChar
 StartChar: Edieresis
 Encoding: 203 203 203
 Width: 1294
-Flags: HW
+Flags: W
 TtfInstrs: 9
 5QsC]5S+!&0`V1R
 EndTtf
@@ -4871,8 +4874,8 @@ EndChar
 StartChar: Amacron
 Encoding: 256 256 256
 Width: 1401
-TtfInstrs: 8
-Zjm0>#mVt8
+TtfInstrs: 16
+Zjm0>#mVtG"[E/c!WlX^
 EndTtf
 Refer: 175 175 N 1 0 0 1 188.5 315 2
 Refer: 65 65 N 1 0 0 1 0 0 3
@@ -5006,9 +5009,9 @@ EndChar
 StartChar: dcaron
 Encoding: 271 271 271
 Width: 1300
-Flags: W
-TtfInstrs: 13
-5RCd<591gd%ikdY0`V1R
+Flags: HW
+TtfInstrs: 11
+5R1X:591gd"'mV]
 EndTtf
 Refer: 100 100 N 1 0 0 1 0 0 3
 Refer: 65537 -1 N 1 0 0 1 1300 0 2
@@ -5111,6 +5114,9 @@ EndChar
 StartChar: Ebreve
 Encoding: 276 276 276
 Width: 1294
+TtfInstrs: 7
+5Qa7O!F7D[
+EndTtf
 Refer: 65545 -1 N 1 0 0 1 1185 373 2
 Refer: 69 69 N 1 0 0 1 0 0 3
 EndChar
@@ -5153,6 +5159,9 @@ StartChar: Ecaron
 Encoding: 282 282 282
 Width: 1294
 Flags: W
+TtfInstrs: 7
+5Qa7[!F7D[
+EndTtf
 Refer: 69 69 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 1190 367 2
 LCarets: 0 65535 '    ' 1 0 
@@ -5549,9 +5558,9 @@ EndChar
 StartChar: lcaron
 Encoding: 318 318 318
 Width: 768
-Flags: W
-TtfInstrs: 11
-5R3>M*rlfO"'mV]
+Flags: HW
+TtfInstrs: 9
+5R!2K*rl@J0`V1R
 EndTtf
 Refer: 65537 -1 N 1 0 0 1 569 2 2
 Refer: 108 108 N 1 0 0 1 0 0 2
@@ -5771,6 +5780,10 @@ EndChar
 StartChar: omacron
 Encoding: 333 333 333
 Width: 1253
+Flags: H
+TtfInstrs: 8
+ZkEKC)$_ZH
+EndTtf
 Refer: 175 175 N 1 0 0 1 115 -1 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -5786,6 +5799,10 @@ EndChar
 StartChar: obreve
 Encoding: 335 335 335
 Width: 1253
+Flags: H
+TtfInstrs: 8
+ZlKDP,6o_R
+EndTtf
 Refer: 728 728 N 1 0 0 1 115 0 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -6196,6 +6213,9 @@ StartChar: uring
 Encoding: 367 367 367
 Width: 1298
 Flags: W
+TtfInstrs: 9
+5QsCe5Tg,60`V1R
+EndTtf
 Refer: 117 117 N 1 0 0 1 0 0 3
 Refer: 730 730 N 1 0 0 1 124 -60 2
 LCarets: 0 65535 '    ' 1 0 
@@ -6589,6 +6609,9 @@ StartChar: uni01CD
 Encoding: 461 461 461
 Width: 1401
 Flags: W
+TtfInstrs: 6
+YmpaF4>?g9
+EndTtf
 Refer: 65 65 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 1214 373 2
 Ligature: 0 0 'liga' A uni030C
@@ -6607,6 +6630,9 @@ StartChar: uni01CF
 Encoding: 463 463 463
 Width: 604
 Flags: W
+TtfInstrs: 11
+Zj.]S!!!R%@lc=E
+EndTtf
 Refer: 73 73 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 815 373 2
 Ligature: 0 0 'liga' I uni030C
@@ -6616,6 +6642,9 @@ StartChar: uni01D0
 Encoding: 464 464 464
 Width: 569
 Flags: W
+TtfInstrs: 11
+Zj.]S!!!R%@lc=E
+EndTtf
 Refer: 305 305 N 1 0 0 1 0 0 3
 Refer: 711 711 N 1 0 0 1 -225 0 2
 Ligature: 0 0 'liga' i uni030C
@@ -6634,6 +6663,9 @@ StartChar: uni01D2
 Encoding: 466 466 466
 Width: 1253
 Flags: W
+TtfInstrs: 6
+Yo=)_4>?g9
+EndTtf
 Refer: 111 111 N 1 0 0 1 0 0 3
 Refer: 711 711 N 1 0 0 1 118 0 2
 Ligature: 0 0 'liga' o uni030C
@@ -6643,6 +6675,9 @@ StartChar: uni01D3
 Encoding: 467 467 467
 Width: 1499
 Flags: W
+TtfInstrs: 6
+Yn[ER4>?g9
+EndTtf
 Refer: 85 85 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 1270 373 2
 Ligature: 0 0 'liga' U uni030C
@@ -6652,6 +6687,9 @@ StartChar: uni01D4
 Encoding: 468 468 468
 Width: 1298
 Flags: W
+TtfInstrs: 11
+Zkjhm!<Ea'@lc=E
+EndTtf
 Refer: 117 117 N 1 0 0 1 0 0 3
 Refer: 711 711 N 1 0 0 1 118 0 2
 Ligature: 0 0 'liga' u uni030C
@@ -16031,7 +16069,6 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 33 33 N 1 0 0 1 -162 0 2
 Refer: 33 33 N 1 0 0 1 335 0 2
-EndSplineSet
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' exclam exclam
 EndChar

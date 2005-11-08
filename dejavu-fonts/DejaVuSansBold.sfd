@@ -4542,7 +4542,7 @@ EndChar
 StartChar: atilde
 Encoding: 227 227 227
 Width: 1382
-Flags: HW
+Flags: W
 TtfInstrs: 8
 ZjT)P*sX;N
 EndTtf
@@ -4565,7 +4565,7 @@ EndChar
 StartChar: aring
 Encoding: 229 229 229
 Width: 1382
-Flags: HW
+Flags: W
 TtfInstrs: 17
 5Ri5jJ20nI:GP-]5;EFK0`V1R
 EndTtf
@@ -4809,12 +4809,12 @@ EndChar
 StartChar: ocircumflex
 Encoding: 244 244 244
 Width: 1407
-Flags: W
+Flags: HW
 TtfInstrs: 6
 YoF/`4>?g9
 EndTtf
 Refer: 111 111 N 1 0 0 1 0 0 3
-Refer: 710 710 N 1 0 0 1 215 0 2
+Refer: 710 710 N 1 0 0 1 191 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' o uni0302
 EndChar
@@ -5240,8 +5240,8 @@ EndChar
 StartChar: Emacron
 Encoding: 274 274 274
 Width: 1399
-TtfInstrs: 8
-ZipL5":$G3
+TtfInstrs: 16
+ZipL5":$GB"[E/c!WlX^
 EndTtf
 Refer: 175 175 N 1 0 0 1 195.5 315 2
 Refer: 69 69 N 1 0 0 1 0 0 3
@@ -5542,7 +5542,7 @@ EndChar
 StartChar: Idotaccent
 Encoding: 304 304 304
 Width: 762
-Flags: HW
+Flags: W
 TtfInstrs: 8
 ZiL@9!!b#/
 EndTtf
@@ -5644,7 +5644,7 @@ EndChar
 StartChar: Lacute
 Encoding: 313 313 313
 Width: 1305
-Flags: HW
+Flags: W
 TtfInstrs: 17
 5RhZ4:]Ol'5QEJ<&-)o?0`V1R
 EndTtf
@@ -5657,7 +5657,7 @@ EndChar
 StartChar: lacute
 Encoding: 314 314 314
 Width: 702
-Flags: HW
+Flags: W
 TtfInstrs: 35
 5RDr@Dua8G5QCpm0`XkN%8g6<!!!!a3*AKMNrYdP!aRJ[
 EndTtf
@@ -5915,19 +5915,21 @@ EndChar
 StartChar: Obreve
 Encoding: 334 334 334
 Width: 1741
+Flags: H
 TtfInstrs: 20
 ZlKDP,6o_a$#flo#XAAc#R"Ef
 EndTtf
-Refer: 65544 -1 N 1 0 0 1 1358 373 2
+Refer: 65544 -1 N 1 0 0 1 1376 373 2
 Refer: 79 79 N 1 0 0 1 0 0 3
 EndChar
 StartChar: obreve
 Encoding: 335 335 335
 Width: 1407
+Flags: H
 TtfInstrs: 16
 ZlKDP,6o_a"[E&`#Qe9d
 EndTtf
-Refer: 728 728 N 1 0 0 1 215 0 2
+Refer: 728 728 N 1 0 0 1 191 6 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
 StartChar: Ohungarumlaut
@@ -5939,7 +5941,6 @@ EndChar
 StartChar: ohungarumlaut
 Encoding: 337 337 337
 Width: 1407
-Flags: H
 Refer: 733 733 N 1 0 0 1 215 0 2
 Refer: 111 111 N 1 0 0 1 0 0 3
 EndChar
@@ -6168,12 +6169,12 @@ EndChar
 StartChar: Tcaron
 Encoding: 356 356 356
 Width: 1397
-Flags: W
+Flags: HW
 TtfInstrs: 11
 ZjRuW!!!R%@lc=E
 EndTtf
 Refer: 84 84 N 1 0 0 1 0 0 3
-Refer: 65543 -1 N 1 0 0 1 1225 373 2
+Refer: 65543 -1 N 1 0 0 1 1207 379 2
 KernsSLIFO: 252 -225 0 0 229 -264 0 0 230 -196 0 0 59 -112 0 0 242 -272 0 0 45 -301 0 0 8222 -264 0 0 367 -225 0 0 245 -272 0 0 235 -272 0 0 249 -225 0 0 58 -112 0 0 224 -264 0 0 195 -159 0 0 234 -272 0 0 231 -272 0 0 341 -225 0 0 232 -272 0 0 196 -159 0 0 193 -159 0 0 269 -272 0 0 345 -225 0 0 251 -225 0 0 253 -243 0 0 8218 -264 0 0 227 -264 0 0 194 -159 0 0 248 -159 0 0 244 -272 0 0 353 -272 0 0 65 -159 0 0 283 -272 0 0 351 -272 0 0 228 -264 0 0 119 -225 0 0 246 -272 0 0 250 -225 0 0 263 -272 0 0 225 -264 0 0 46 -311 0 0 84 47 0 0 226 -264 0 0 233 -272 0 0 356 47 0 0 97 -264 0 0 99 -272 0 0 101 -272 0 0 339 -159 0 0 255 -243 0 0 111 -272 0 0 115 -272 0 0 114 -225 0 0 117 -225 0 0 192 -159 0 0 121 -243 0 0 44 -292 0 0 243 -272 0 0
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' T uni030C
@@ -6256,10 +6257,11 @@ EndChar
 StartChar: Utilde
 Encoding: 360 360 360
 Width: 1663
+Flags: H
 TtfInstrs: 20
 Zn<:),R5hb#p9R.)\<>u)['G$
 EndTtf
-Refer: 65540 -1 N 1 0 0 1 1319 373 2
+Refer: 65540 -1 N 1 0 0 1 1343 373 2
 Refer: 85 85 N 1 0 0 1 0 0 3
 EndChar
 StartChar: utilde
@@ -6317,7 +6319,7 @@ EndChar
 StartChar: uring
 Encoding: 367 367 367
 Width: 1458
-Flags: HW
+Flags: W
 TtfInstrs: 21
 5S8MbJ0nYB?m\\g:aSCF5:-YA0`V1R
 EndTtf
@@ -6335,7 +6337,6 @@ EndChar
 StartChar: uhungarumlaut
 Encoding: 369 369 369
 Width: 1458
-Flags: H
 TtfInstrs: 10
 !'g]P!'^Sf>qc6Y
 EndTtf
@@ -6680,6 +6681,9 @@ StartChar: uni01CD
 Encoding: 461 461 461
 Width: 1585
 Flags: W
+TtfInstrs: 6
+Ymq*P4>?g9
+EndTtf
 Refer: 65 65 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 1280 373 2
 Ligature: 0 0 'liga' A uni030C
@@ -6698,6 +6702,9 @@ StartChar: uni01CF
 Encoding: 463 463 463
 Width: 762
 Flags: W
+TtfInstrs: 11
+Zj.]S!!!R%@lc=E
+EndTtf
 Refer: 73 73 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 895 373 2
 Ligature: 0 0 'liga' I uni030C
@@ -6707,6 +6714,9 @@ StartChar: uni01D0
 Encoding: 464 464 464
 Width: 702
 Flags: W
+TtfInstrs: 11
+Zj.]S!!!R%@lc=E
+EndTtf
 Refer: 305 305 N 1 0 0 1 0 0 3
 Refer: 711 711 N 1 0 0 1 -131 0 2
 Ligature: 0 0 'liga' i uni030C
@@ -6716,6 +6726,9 @@ StartChar: uni01D1
 Encoding: 465 465 465
 Width: 1741
 Flags: W
+TtfInstrs: 6
+Yo=)_4>?g9
+EndTtf
 Refer: 79 79 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 1357 373 2
 Ligature: 0 0 'liga' O uni030C
@@ -6725,6 +6738,9 @@ StartChar: uni01D2
 Encoding: 466 466 466
 Width: 1407
 Flags: W
+TtfInstrs: 6
+Yo=)_4>?g9
+EndTtf
 Refer: 111 111 N 1 0 0 1 0 0 3
 Refer: 711 711 N 1 0 0 1 214 0 2
 Ligature: 0 0 'liga' o uni030C
@@ -6734,6 +6750,9 @@ StartChar: uni01D3
 Encoding: 467 467 467
 Width: 1663
 Flags: W
+TtfInstrs: 6
+Yn[ER4>?g9
+EndTtf
 Refer: 85 85 N 1 0 0 1 0 0 3
 Refer: 65543 -1 N 1 0 0 1 1315 373 2
 Ligature: 0 0 'liga' U uni030C
@@ -6743,6 +6762,9 @@ StartChar: uni01D4
 Encoding: 468 468 468
 Width: 1458
 Flags: W
+TtfInstrs: 11
+Zi_Ef#RCu5@lc=E
+EndTtf
 Refer: 711 711 N 1 0 0 1 239 0 2
 Refer: 117 117 N 1 0 0 1 0 0 3
 EndChar
@@ -10593,7 +10615,7 @@ EndChar
 StartChar: hungarumlaut
 Encoding: 733 733 733
 Width: 1024
-Flags: HW
+Flags: W
 TtfInstrs: 37
 5SO>$#6P6^"Y^)]"^_L1#6G,2!sfIfbg]qB>ql<je3(r10E;(Q
 EndTtf
@@ -10960,7 +10982,7 @@ EndChar
 StartChar: uni030B
 Encoding: 779 779 779
 Width: 0
-Flags: HW
+Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above-mark" -514 1147 mark 0
 AnchorPoint: "above-mark" -514 1638 basemark 0
@@ -15842,7 +15864,6 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 33 33 N 1 0 0 1 -146 0 2
 Refer: 33 33 N 1 0 0 1 496 0 2
-EndSplineSet
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' exclam exclam
 EndChar
@@ -15863,7 +15884,6 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 63 63 N 1 0 0 1 0 0 2
 Refer: 33 33 N 1 0 0 1 909 0 2
-EndSplineSet
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' question exclam
 EndChar
