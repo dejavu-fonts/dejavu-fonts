@@ -10,7 +10,7 @@
 #   level 0:
 #     monospaced font (with Mono in name) without indication in Panose (and vice-versa)
 #     glyphs in monospaced face with different width
-#     not normalized file (looks for DisplaySize, Ref, different position than encoding or unordered glyphs)
+#     not normalized file (looks for DisplaySize, Ref, different position than encoding, unordered glyphs or H flag)
 #     glyphs without width or with negative width
 #     duplicate glyphs
 #     combining marks with non-zero width in non-monospaced fonts
@@ -82,6 +82,9 @@ sub process_sfd_file($$) {
       $colorized = $1;
     } elsif (/^Flags:\s*(\S+)\s*/) {
       $flags = $1;
+      if ($flags =~ /H/) {
+        problem (0, 'not normalized: H flag', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': flags=', $flags);
+      }
     } elsif (/^Encoding:\s*(\d+)\s*((?:-|\d)+)\s*(\d+)\s*$/) {
       $dec_enc = $1;
       if ($2 > -1) {

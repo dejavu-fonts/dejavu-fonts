@@ -11,7 +11,7 @@
 #   WinInfo - discarded
 #   DisplaySize
 #           - discarded
-#   Flags   - discarded O (open)
+#   Flags   - discarded O (open) and H (changed since last hinting - useless for TTF)
 #   Refer   - changed S (selected) to N (not selected)
 #   Fore, Back, SplineSet, Grid
 #           - all points have 4 masked out from flags (selected)
@@ -44,6 +44,9 @@ sub process_sfd_file($) {
     s,^Ref:,Refer:,;
     s,^KernsSLIF:,KernsSLIFO:,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
+    s,^(Flags:.*?)H(.*)$,$1$2,;
+    # remove empty Flags line
+    next if (/^Flags:\s*$/);
     s,^(Refer:.*?)S(.*)$,$1N$2,;
     if (/^(Fore|Back|SplineSet|Grid)\s*$/) {
       $in_spline_set = 1;
