@@ -112,7 +112,7 @@ AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass: "above" mark 0 0 1 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65549 1299
+BeginChars: 65549 1300
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -6414,6 +6414,13 @@ Fore
  115 1378 l 1,0,1
 EndSplineSet
 EndChar
+StartChar: uni0189
+Encoding: 393 393 393
+Width: 1587
+Flags: W
+TeX: 117 0 0 0
+Refer: 208 208 N 1 0 0 1 0 0 2
+EndChar
 StartChar: uni0190
 Encoding: 400 400 400
 Width: 1303
@@ -10873,8 +10880,27 @@ EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
 Width: 0
+Flags: W
 TeX: 104 0 0 0
-Colour: ffff00
+AnchorPoint: "above-mark" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1733 basemark 0
+AnchorPoint: "above" -512 1147 mark 0
+Fore
+-552 1734 m 0,0,1
+ -321.136 1734 -321.136 1734 -314.204 1564.13 c 0,2,3
+ -314 1559.13 -314 1559.13 -314 1554 c 0,4,5
+ -314 1490.1 -314 1490.1 -341 1453.5 c 0,6,7
+ -391.249 1387.22 -391.249 1387.22 -443 1353.6 c 1,8,-1
+ -443 1266 l 1,9,-1
+ -591 1266 l 1,10,-1
+ -591 1374 l 1,11,12
+ -524.267 1396.24 -524.267 1396.24 -475.5 1443.5 c 0,13,14
+ -454 1464.33 -454 1464.33 -454 1517 c 0,15,16
+ -454 1611 -454 1611 -573 1611 c 0,17,18
+ -664 1611 -664 1611 -728 1579 c 1,19,-1
+ -728 1710 l 1,20,21
+ -642 1734 -642 1734 -552 1734 c 0,0,1
+EndSplineSet
 EndChar
 StartChar: uni030A
 Encoding: 778 778 778
