@@ -11,10 +11,12 @@
 #   WinInfo - discarded
 #   DisplaySize
 #           - discarded
-#   Flags   - discarded O (open) and H (changed since last hinting - useless for TTF)
+#   Flags   - discarded O (open), H (changed since last hinting - useless for TTF), M (manual hinting - useless for TTF)
 #   Refer   - changed S (selected) to N (not selected)
 #   Fore, Back, SplineSet, Grid
 #           - all points have 4 masked out from flags (selected)
+#   HStem, VStem
+#           - discarded (those are Type1 stems = PS hints)
 #   recalculate number of characters and positional encoding
 # changes making it incompatible with FF older than (approx.) 20050728:
 #   Ref     - renamed to Refer
@@ -40,11 +42,12 @@ sub process_sfd_file($) {
   my %pos_glyphs_map = ();
 
   while (<SFD>) {
-    next if (/^(WinInfo|DisplaySize):/);
+    next if (/^(WinInfo|DisplaySize|HStem|VStem):/);
     s,^Ref:,Refer:,;
     s,^KernsSLIF:,KernsSLIFO:,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
     s,^(Flags:.*?)H(.*)$,$1$2,;
+    s,^(Flags:.*?)M(.*)$,$1$2,;
     # remove empty Flags line
     next if (/^Flags:\s*$/);
     s,^(Refer:.*?)S(.*)$,$1N$2,;

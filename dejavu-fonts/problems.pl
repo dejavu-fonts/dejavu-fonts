@@ -10,7 +10,8 @@
 #   level 0:
 #     monospaced font (with Mono in name) without indication in Panose (and vice-versa)
 #     glyphs in monospaced face with different width
-#     not normalized file (looks for DisplaySize, Ref, different position than encoding, unordered glyphs or H flag)
+#     not normalized file (looks for WinInfo, DisplaySize, HStem, VStem, Ref, KernsSLIF, different position than encoding,
+#       unordered glyphs or H or M flag)
 #     glyphs without width or with negative width
 #     duplicate glyphs
 #     combining marks with non-zero width in non-monospaced fonts
@@ -82,8 +83,8 @@ sub process_sfd_file($$) {
       $colorized = $1;
     } elsif (/^Flags:\s*(\S+)\s*/) {
       $flags = $1;
-      if ($flags =~ /H/) {
-        problem (0, 'not normalized: H flag', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': flags=', $flags);
+      if ($flags =~ /([MH])/) {
+        problem (0, 'not normalized: '.$1.' flag', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ': flags=', $flags);
       }
     } elsif (/^Encoding:\s*(\d+)\s*((?:-|\d)+)\s*(\d+)\s*$/) {
       $dec_enc = $1;
@@ -111,6 +112,14 @@ sub process_sfd_file($$) {
       $is_empty = 0;
     } elsif (/^DisplaySize:/) {
       problem (0, 'not normalized: DisplaySize');
+    } elsif (/^WinInfo:/) {
+      problem (0, 'not normalized: WinInfo');
+    } elsif (/^HStem:/) {
+      problem (0, 'not normalized: HStem');
+    } elsif (/^VStem:/) {
+      problem (0, 'not normalized: VStem');
+    } elsif (/^KernsSLIF:/) {
+      problem (0, 'not normalized: KernsSLIF');
     } elsif (/^EndChar\s*$/) {
       if (!defined $colorized && !$is_empty) {
         $content_glyphs{$curchar}{'dec_enc'} = $dec_enc;
