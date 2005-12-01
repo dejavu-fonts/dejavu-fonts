@@ -34,7 +34,7 @@ HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
 ScriptLang: 2
- 1 latn 1 dflt 
+ 3 cyrl 1 dflt grek 1 dflt latn 1 dflt 
  1 DFLT 1 dflt 
 ChainSub: class 0 0 'ccmp' 4 4 4 2
   Class: 3 i j
@@ -11095,11 +11095,14 @@ Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above" -400 1138 mark 0
 Fore
--466 1558 m 1,0,-1
- -142 1558 l 1,1,-1
- -364 1260 l 1,2,-1
- -556 1260 l 1,3,-1
- -466 1558 l 1,0,-1
+-544 1729 m 1,0,-1
+ -270 1729 l 1,1,-1
+ -270 1483 l 2,2,3
+ -270 1219 -270 1219 -544 1218 c 1,4,-1
+ -544 1361 l 1,5,6
+ -423.632 1361 -423.632 1361 -423 1483 c 1,7,-1
+ -544 1483 l 1,8,-1
+ -544 1729 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni0314
@@ -12221,6 +12224,7 @@ Encoding: 949 949 949
 Width: 1140
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "above" 573 1147 basechar 0
 Refer: 1079 1079 N -1 0 0 1 1120 0 3
 EndChar
 StartChar: zeta
