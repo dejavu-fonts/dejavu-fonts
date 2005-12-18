@@ -1,3 +1,38 @@
+Changes from 2.0 to 2.1:
+
+*** Be aware that names of some TTF files changed since version 2.0. ***
+
+- added U+0323, U+1E0C, U+1E0D, U+1E24, U+1E25, U+1E36 - U+1E39, U+1E42,
+  U+1E43, U+1E46, U+1E47, U+1E5A - U+1E5D, U+1E62, U+1E63, U+1E6C, U+1E6D,
+  U+1E7E, U+1E7F (by Tim May)
+- fixed bug where GNOME applications used Mono Bold Oblique instead of
+  Mono Oblique (by Keenan Pepper)
+- added and improved TrueType instructions and related settings (by
+  Keenan Pepper)
+- added U+1E41, U+1E57, U+1E61 (by Sander Vesik)
+- added U+0189, U+0309, U+0313, U+0314, U+031A, U+031B, U+0327, U+0328,
+  U+032B, U+0333, U+033C (by Denis Jacquerye)
+- adjusted and fixed U+0186, U+0254, U+0291, U+0316 - U+0319, U+031C -
+  U+0320, U+0323 - U+0326, U+0329 - U+032A, U+032C - U+0332, U+0339 - U+033B,
+  U+033E, U+033F (by Denis Jacquerye)
+- fixed U+1E12, U+1E3C, U+1E4A, U+1E70 to have normal below diacritics
+  (by Denis Jacquerye)
+- fixed U+1E82, U+1E84 and U+1EF2 to have uppercase above diacritics (by
+  Denis Jacquerye)
+- added anchor points to some glyphs (by Denis Jacquerye)
+- dropped "-Roman" from font names - affects both internal TTF names and
+  names of generated files (by Stepan Roh)
+- attempt to fix bug Vertical spacing too big for Mono by exchanging
+  LineGap and OS2TypoLinegap values (proofed by Stefan Rank)
+- added Greek capitals U+0391 - U+03A1, U+03A3 - U+03A9, U+03AA, U+03AB
+  in Mono (by Ben Laenen)
+- added the per ten thousand sign U+2031 (by Mederic Boquien)
+- added U+2207, U+221D, U+221F, U+2227 - U+222A, and U+2261 (by David
+  Lawrence Ramsey)
+- new logo (by Gee Fung Sit)
+- added U+0180, U+018E, U+201F, U+2024, U+2025, U+203D, U+2200, U+2203,
+  U+2213, U+222C, U+222D, U+2263 to Sans (by Gee Fung Sit) 
+
 Changes from 1.15 to 2.0:
 
 - "Italized" basic glyphs in all Serif Oblique and their Condensed faces
