@@ -20,7 +20,8 @@ versions=`grep 'U+' status.txt \
  | sed 's,^\(.\).0\(.\)$,\1.\2,' \
  | sed 's,0\.0,original,'`
 for ver in $versions; do
-  count=`grep "^U+.*$ver\( \|$\)" status.txt | wc -l`
+  sver=`echo $ver | sed 's,\.,\\\\.,'`
+  count=`grep "^U+.*$sver\( \|$\)" status.txt | wc -l`
   printf '%-8s %10i\n' $ver $count
 done
 echo
