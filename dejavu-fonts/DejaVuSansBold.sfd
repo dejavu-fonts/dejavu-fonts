@@ -121,7 +121,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65548 1482
+BeginChars: 65548 1486
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -7264,6 +7264,13 @@ Encoding: 476 476 476
 Width: 2048
 Colour: ff00
 EndChar
+StartChar: uni01DD
+Encoding: 477 477 477
+Width: 1389
+Flags: W
+TeX: 117 0 0 0
+Refer: 601 601 N 1 0 0 1 0 0 2
+EndChar
 StartChar: uni01DE
 Encoding: 478 478 478
 Width: 2048
@@ -10974,6 +10981,44 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 8217 8217 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uni02BE
+Encoding: 702 702 702
+Width: 750
+Flags: W
+TeX: 117 0 0 0
+Fore
+238 1140 m 17,0,1
+ 293 1140 293 1140 331 1179 c 0,2,3
+ 369 1217 369 1217 369 1271 c 128,-1,4
+ 369 1325 369 1325 330 1363 c 0,5,6
+ 292 1402 292 1402 238 1402 c 1,7,-1
+ 238 1556 l 17,8,9
+ 356 1556 356 1556 440 1473 c 0,10,11
+ 523 1389 523 1389 523 1271 c 128,-1,12
+ 523 1153 523 1153 440 1069 c 0,13,14
+ 356 986 356 986 238 986 c 1,15,-1
+ 238 1140 l 17,0,1
+EndSplineSet
+EndChar
+StartChar: uni02BF
+Encoding: 703 703 703
+Width: 750
+Flags: W
+TeX: 117 0 0 0
+Fore
+523 1140 m 9,0,1
+ 523 986 l 1,15,-1
+ 405 986 405 986 321 1069 c 0,13,14
+ 238 1153 238 1153 238 1271 c 128,-1,12
+ 238 1389 238 1389 321 1473 c 0,10,11
+ 405 1556 405 1556 523 1556 c 9,8,9
+ 523 1402 l 1,7,-1
+ 469 1402 469 1402 431 1363 c 0,5,6
+ 392 1325 392 1325 392 1271 c 128,-1,4
+ 392 1217 392 1217 430 1179 c 0,2,3
+ 468 1140 468 1140 523 1140 c 9,0,1
+EndSplineSet
+EndChar
 StartChar: uni02C0
 Encoding: 704 704 704
 Width: 668
@@ -11123,19 +11168,14 @@ Encoding: 722 722 722
 Width: 750
 Flags: W
 TeX: 0 0 0 0
-Fore
-238 1403 m 17,0,1
- 293 1403 293 1403 331 1442 c 0,2,3
- 369 1480 369 1480 369 1534 c 128,-1,4
- 369 1588 369 1588 330 1626 c 0,5,6
- 292 1665 292 1665 238 1665 c 1,7,-1
- 238 1819 l 17,8,9
- 356 1819 356 1819 440 1736 c 0,10,11
- 523 1652 523 1652 523 1534 c 128,-1,12
- 523 1416 523 1416 440 1332 c 0,13,14
- 356 1249 356 1249 238 1249 c 1,15,-1
- 238 1403 l 17,0,1
-EndSplineSet
+Refer: 702 702 N 1 0 0 1 0 -436 2
+EndChar
+StartChar: uni02D3
+Encoding: 723 723 723
+Width: 750
+Flags: W
+TeX: 117 0 0 0
+Refer: 703 703 N 1 0 0 1 0 -436 2
 EndChar
 StartChar: uni02D6
 Encoding: 726 726 726

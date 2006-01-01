@@ -85,7 +85,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65549 1444
+BeginChars: 65549 1448
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -6647,6 +6647,13 @@ Encoding: 476 476 476
 Width: 2048
 Colour: ff00
 EndChar
+StartChar: uni01DD
+Encoding: 477 477 477
+Width: 1237
+Flags: W
+TeX: 117 0 0 0
+Refer: 601 601 N 0.9 0 0 1 64.7 0 2
+EndChar
 StartChar: uni01DE
 Encoding: 478 478 478
 Width: 2048
@@ -10853,6 +10860,44 @@ Fore
  163.65 1070 l 1,0,1
 EndSplineSet
 EndChar
+StartChar: uni02BE
+Encoding: 702 702 702
+Width: 713
+Flags: W
+TeX: 117 0 0 0
+Fore
+252.25 1140 m 17,0,1
+ 301.75 1140 301.75 1140 335.95 1179 c 0,2,3
+ 370.15 1217 370.15 1217 370.15 1271 c 128,-1,4
+ 370.15 1325 370.15 1325 335.05 1363 c 0,5,6
+ 300.85 1402 300.85 1402 252.25 1402 c 1,7,-1
+ 252.25 1556 l 17,8,9
+ 358.45 1556 358.45 1556 434.05 1473 c 0,10,11
+ 508.75 1389 508.75 1389 508.75 1271 c 128,-1,12
+ 508.75 1153 508.75 1153 434.05 1069 c 0,13,14
+ 358.45 986 358.45 986 252.25 986 c 1,15,-1
+ 252.25 1140 l 17,0,1
+EndSplineSet
+EndChar
+StartChar: uni02BF
+Encoding: 703 703 703
+Width: 713
+Flags: W
+TeX: 117 0 0 0
+Fore
+508.75 1140 m 9,0,1
+ 508.75 986 l 1,15,-1
+ 402.55 986 402.55 986 326.95 1069 c 0,13,14
+ 252.25 1153 252.25 1153 252.25 1271 c 128,-1,12
+ 252.25 1389 252.25 1389 326.95 1473 c 0,10,11
+ 402.55 1556 402.55 1556 508.75 1556 c 9,8,9
+ 508.75 1402 l 1,7,-1
+ 460.15 1402 460.15 1402 425.95 1363 c 0,5,6
+ 390.85 1325 390.85 1325 390.85 1271 c 128,-1,4
+ 390.85 1217 390.85 1217 425.05 1179 c 0,2,3
+ 459.25 1140 459.25 1140 508.75 1140 c 9,0,1
+EndSplineSet
+EndChar
 StartChar: uni02C0
 Encoding: 704 704 704
 Width: 610
@@ -11033,6 +11078,13 @@ Fore
  347.45 1249 347.45 1249 241.25 1249 c 1,11,-1
  241.25 1403 l 17,0,1
 EndSplineSet
+EndChar
+StartChar: uni02D3
+Encoding: 723 723 723
+Width: 713
+Flags: W
+TeX: 117 0 0 0
+Refer: 703 703 N 1 0 0 1 0 -436 2
 EndChar
 StartChar: uni02D6
 Encoding: 726 726 726
