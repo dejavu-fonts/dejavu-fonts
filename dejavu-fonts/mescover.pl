@@ -25,7 +25,7 @@ sub parse_mes_spec_file($) {
       $mes_collection = $1;
     } elsif (/^Plane\s+(\d+)\s*$/) {
       $plane = $1;
-    } elsif (/^([A-F,0-9]+)\s+(.*?)\s*$/) {
+    } elsif (/^([A-F0-9]+)\s+(.*?)\s*$/) {
       my $row = $1;
       my @cells = split(/\s+/, $2);
       foreach $cell (@cells) {
