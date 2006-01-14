@@ -40,6 +40,10 @@ while ( i < $argc )
     RemoveATT("Ligature", "*", "*")
     SelectNone()
   endif
+  # ONLY FOR 2.2 RELEASE: remove ligature tag from U+FB00, U+FB03 and U+FB04
+  SelectSingletons(0uFB00, 0uFB03, 0uFB04)
+  RemoveATT("Ligature", "*", "*")
+  SelectNone()
   Generate("generated/" + $fontname + ".ttf", "", gen_flags)
   i++
 endloop
