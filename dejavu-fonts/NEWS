@@ -1,3 +1,47 @@
+Changes from 2.1 to 2.2:
+
+- reworked the vertical orientation of the Blocks Elements characters
+  in all faces to remove their overly large descenders, in order to fix
+  problems with e.g. terminal emulators (by David Lawrence Ramsey)
+- copied bullet in Sans faces to Serif faces for consistency (by David
+  Lawrence Ramsey)
+- added U+2023, U+25D8, U+25E6, and U+29EB to all faces (by David
+  Lawrence Ramsey)
+- added U+1EB8, U+1EB9, U+1ECA - U+1ECD, U+1EE4, U+1EE5 (by Tim May)
+- added U+01DD, U+02BE, U+02BF, U+02D3 to all, changed U+02D2 in
+  non-Condensed and U+1EE5 in Serif (by Tim May)
+- fixed U+01CE, replacing wrong circumflex by caron (by Denis Jacquerye)
+- added anchor points to some glyphs (by Denis Jacquerye)
+- added U+20B5 (by Denis Jacquerye)
+- added U+0181 - U+0183, U+0187, U+0188, U+018A - U+018D, U+0191,
+  U+0193, U+0195 - U+019B, U+019D, U+019E, U+01A4, U+01A7 - U+01A9, U+01AB -
+  U+01AE, U+01B1, U+01B5, U+01B6, U+01BB, U+01C0 - U+01C3, U+01F1 - U+01F3,
+  U+0238, U+0239, U+1D02, U+1D08, U+1D09, U+1D14, U+1D1F, U+1D77, U+2103,
+  U+2126, U+2127, U+212A, U+212B, U+2132, U+214B, U+2210, U+2217, U+2218,
+  U+2A0C - U+2A0E, U+FB00, U+FB03 and U+FB04 to Sans (by Gee Fung Sit)
+- added U+01A9, U+01C3 and U+2126 to Mono and Serif (by Gee Fung Sit)
+- adjusted bearings of U+028B in Sans (by Gee Fung Sit)
+- added U+018F, U+0494-U+0497, U+04A0-U+04A7, U+04AC-U+04AF,
+  U+04B4-U+04B7, U+04BA-U+04BB, U+04C1-U+04C2, U+04C5-U+04C8, U+04CB-U+04CC,
+  U+04D0-U+04D9, U+04DC-U+04DD, U+04E6-U+04EB to Sans (by Eugeniy
+  Meshcheryakov)
+- replaced with references U+0391-U+0393, U+0395-U+0397, U+0399, U+039A,
+  U+039C, U+039D, U+039F-U+03A1, U+03A4, U+03A5, U+03A7, U+03BF, U+03DC,
+  U+0405, U+0406, U+0408, U+0410, U+0412, U+0415, U+0417, U+041A,
+  U+041C-U+041E, U+0420-U+0422, U+0425, U+0430, U+0435, U+043E, U+0440,
+  U+0441, U+0443, U+0445, U+0455-U+0458 in Serif and Mono (by Eugeniy
+  Meshcheryakov)
+- added U+04D0-U+04D7, U+04E6-U+04EB to Serif (by Eugeniy Meshcheryakov)
+- added U+212A and U+212B to the rest of the faces (by Lars Naesbye
+  Christensen)
+- added U+2318 and U+2325 to Sans and Serif (by Lars Naesbye Christensen)
+- added and improved TrueType instructions and related settings (by
+  Keenan Pepper)
+- completed basic Greek alphabet: added U+0374-U+0375, U+037A, U+037E,
+  U+0384-U+038A, U+038C, U+038E-U+0390, U+03AC-U+03BF, U+03C1-U+03CE (by Ben
+  Laenen)
+- added U+2070 and U+2074-U+2079 (by Mederic Boquien) 
+
 Changes from 2.0 to 2.1:
 
 *** Be aware that names of some TTF files changed since version 2.0. ***
