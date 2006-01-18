@@ -121,7 +121,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-AnchorClass: "above" mark 0 0 1 0 "above-mark" mkmk 0 0 2 1 
+AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
 BeginChars: 65548 1520
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -9699,40 +9699,48 @@ EndSplineSet
 EndChar
 StartChar: uni027E
 Encoding: 638 638 638
-Width: 1010
+Width: 1220
 Flags: W
-AnchorPoint: "above" 597 1147 basechar 0
+AnchorPoint: "above" 807 1147 basechar 0
 Fore
-172 0 m 17,0,-1
- 171 658 l 2,1,2
- 170.662 880.623 170.662 880.623 281 1002 c 0,3,4
- 389 1120 389 1120 594 1120 c 2,5,-1
- 875 1120 l 1,6,-1
- 875 885 l 1,7,-1
- 709 885 l 2,8,9
- 604.571 885 604.571 885 569 839 c 0,10,11
- 530.8 789.608 530.8 789.608 531 658 c 2,12,-1
- 532 0 l 17,13,-1
- 172 0 l 17,0,-1
+945 235 m 1
+ 945 0 l 1
+ 172 0 l 1
+ 172 235 l 1
+ 381.68 235 l 1
+ 381 658 l 2
+ 380.662 880.623 380.662 880.623 491 1002 c 0
+ 599 1120 599 1120 804 1120 c 2
+ 1085 1120 l 1
+ 1085 885 l 1
+ 919 885 l 2
+ 814.574 885 814.574 885 779 839 c 0
+ 740.8 789.604 740.8 789.604 741 658 c 2
+ 741.68 235 l 1
+ 945 235 l 1
 EndSplineSet
 EndChar
 StartChar: uni027F
 Encoding: 639 639 639
-Width: 1010
+Width: 1220
 Flags: W
-AnchorPoint: "above" 457 1147 basechar 0
+AnchorPoint: "above" 450 1147 basechar 0
 Fore
-874 0 m 9,0,-1
- 514 0 l 9,1,-1
- 515 658 l 2,2,3
- 515.2 789.608 515.2 789.608 477 839 c 0,4,5
- 441.429 885 441.429 885 337 885 c 2,6,-1
- 171 885 l 1,7,-1
- 171 1120 l 1,8,-1
- 452 1120 l 2,9,10
- 657 1120 657 1120 765 1002 c 0,11,12
- 875.338 880.623 875.338 880.623 875 658 c 2,13,-1
- 874 0 l 9,0,-1
+312 235 m 1
+ 515.32 235 l 1
+ 516 658 l 2
+ 516.2 789.604 516.2 789.604 478 839 c 0
+ 442.426 885 442.426 885 338 885 c 2
+ 172 885 l 1
+ 172 1120 l 1
+ 453 1120 l 2
+ 658 1120 658 1120 766 1002 c 0
+ 876.338 880.623 876.338 880.623 876 658 c 2
+ 875.32 235 l 1
+ 1085 235 l 1
+ 1085 0 l 1
+ 312 0 l 1
+ 312 235 l 1
 EndSplineSet
 EndChar
 StartChar: uni0280
@@ -12547,6 +12555,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -544 0 mark 0
 Refer: 96 96 N 1 0 0 1 -1026 -1828 2
 EndChar
 StartChar: uni0317
@@ -12555,6 +12564,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -487 0 mark 0
 Refer: 180 180 N 1 0 0 1 -1032 -1828 2
 EndChar
 StartChar: uni0318
@@ -12563,6 +12573,7 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -316 0 mark 0
 Fore
 -411 -597 m 1,0,-1
  -594 -597 l 1,1,-1
@@ -12581,16 +12592,17 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -500 0 mark 0
 Fore
--405 -225 m 1,0,-1
- -216 -225 l 1,1,-1
- -216 -408 l 1,2,-1
- -33 -408 l 1,3,-1
- -33 -597 l 1,4,-1
- -216 -597 l 1,5,-1
- -216 -780 l 1,6,-1
+-405 -597 m 1,0,-1
  -405 -780 l 1,7,-1
- -405 -225 l 1,0,-1
+ -594 -780 l 1,6,-1
+ -594 -225 l 1,5,-1
+ -405 -225 l 1,4,-1
+ -405 -408 l 1,3,-1
+ -222 -408 l 1,2,-1
+ -222 -597 l 1,1,-1
+ -405 -597 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni031A
@@ -12638,6 +12650,7 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -337 0 mark 0
 Fore
 -221 -379 m 17,0,1
  -276 -379 -276 -379 -314 -417 c 0,2,3
@@ -12658,6 +12671,7 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -304 -3 mark 0
 Fore
 -582 -597 m 1,0,-1
  -582 -408 l 1,1,-1
@@ -12676,6 +12690,7 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -304 -3 mark 0
 Fore
 -405 -597 m 1,0,-1
  -588 -597 l 1,1,-1
@@ -12694,6 +12709,7 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -304 -3 mark 0
 Fore
 -405 -597 m 1,0,-1
  -588 -597 l 1,1,-1
@@ -12716,6 +12732,7 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -304 -3 mark 0
 Fore
 -588 -414 m 1,0,-1
  -588 -225 l 1,1,-1
@@ -12767,6 +12784,7 @@ Encoding: 803 803 803
 Width: 0
 Flags: W
 TeX: 100 0 0 0
+AnchorPoint: "below" -517 0 mark 0
 Refer: 729 729 N 1 0 0 1 -1024 -1774 2
 EndChar
 StartChar: uni0324
@@ -12775,6 +12793,7 @@ Width: 0
 VWidth: 360
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 168 168 N 1 0 0 1 -1020 -1765 2
 EndChar
 StartChar: uni0325
@@ -12783,6 +12802,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 730 730 N 1 0 0 1 -1026 -2014 2
 EndChar
 StartChar: uni0326
@@ -12793,6 +12813,7 @@ Flags: W
 TtfInstrs: 17
 5R%2j"9AT-&CeoY!"dZ(0E;(Q
 EndTtf
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -580 -191 m 1,0,-1
  -256 -191 l 1,1,-1
@@ -12821,6 +12842,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -420 -191 m 1,0,-1
  -420 -635 l 1,1,-1
@@ -12835,6 +12857,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -199 -191 m 1,0,-1
  -199 -565 l 1,1,-1
@@ -12853,6 +12876,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -105.729 -192 m 1,0,1
  -111.9 -399.766 -111.9 -399.766 -232.971 -463.73 c 0,2,3
@@ -12878,6 +12902,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 711 711 N 1 0 0 1 -1026 -1828 2
 EndChar
 StartChar: uni032D
@@ -12886,6 +12911,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 710 710 N 1 0 0 1 -1026 -1831 2
 EndChar
 StartChar: uni032E
@@ -12894,6 +12920,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 728 728 N 1 0 0 1 -1014 -1798 2
 EndChar
 StartChar: uni032F
@@ -12902,6 +12929,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 728 728 N -1 0 0 -1 10 1114 2
 EndChar
 StartChar: uni0330
@@ -12910,6 +12938,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 732 732 N 1 0 0 1 -1032 -1786 2
 EndChar
 StartChar: uni0331
@@ -12918,6 +12947,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 175 175 N 1 0 0 1 -1026 -1747 2
 EndChar
 StartChar: uni0332
@@ -12926,6 +12956,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -1131 -191 m 1,0,-1
  102 -191 l 1,1,-1
@@ -12940,6 +12971,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -1131 -567 m 1,0,-1
  102 -567 l 1,1,-1
@@ -12959,6 +12991,7 @@ Width: 0
 VWidth: 2039
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -364 -6 mark 0
 Refer: 796 796 N -1 0 0 -1 -727 -1002 2
 EndChar
 StartChar: uni033A
@@ -12967,6 +13000,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Refer: 810 810 N -1 0 -0 -1 -1028 -738 2
 EndChar
 StartChar: uni033B
@@ -12975,6 +13009,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -227 -191 m 1,0,-1
  -227 -764 l 1,1,-1
@@ -12994,6 +13029,7 @@ Width: 0
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "below" -502 0 mark 0
 Fore
 -921 -489 m 1,0,1
  -914.828 -281.233 -914.828 -281.233 -793.758 -217.27 c 0,2,3
