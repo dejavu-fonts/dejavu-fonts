@@ -111,7 +111,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65548 1526
+BeginChars: 65548 1532
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -21383,6 +21383,36 @@ Fore
  1183.5 1480 l 1,8,-1
 EndSplineSet
 EndChar
+StartChar: angleleft
+Encoding: 9001 9001 9001
+Width: 936
+Flags: W
+TeX: 97 0 0 0
+Fore
+214.966 642 m 1,0,-1
+ 322.726 -270 l 1
+ 594.726 -270 l 1
+ 486.424 642 l 1
+ 949.274 1554 l 1
+ 677.274 1554 l 1
+ 214.966 642 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: angleright
+Encoding: 9002 9002 9002
+Width: 936
+Flags: W
+TeX: 97 0 0 0
+Fore
+721.034 642 m 1,0,-1
+ 258.726 -270 l 1
+ -13.2744 -270 l 1
+ 449.576 642 l 1
+ 341.274 1554 l 1
+ 613.274 1554 l 1
+ 721.034 642 l 1,0,-1
+EndSplineSet
+EndChar
 StartChar: uni237D
 Encoding: 9085 9085 9085
 Width: 1767
@@ -22523,6 +22553,36 @@ Fore
  315 1320 l 1,7,-1
  315 165 l 1,4,-1
 EndSplineSet
+EndChar
+StartChar: uni27E8
+Encoding: 10216 10216 10216
+Width: 936
+Flags: W
+TeX: 117 0 0 0
+Refer: 9001 9001 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni27E9
+Encoding: 10217 10217 10217
+Width: 936
+Flags: W
+TeX: 117 0 0 0
+Refer: 9002 9002 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni27EA
+Encoding: 10218 10218 10218
+Width: 1476
+Flags: W
+TeX: 117 0 0 0
+Refer: 9001 9001 N 1 0 0 1 0 0 2
+Refer: 9001 9001 N 1 0 0 1 540 0 2
+EndChar
+StartChar: uni27EB
+Encoding: 10219 10219 10219
+Width: 1476
+Flags: W
+TeX: 117 0 0 0
+Refer: 9002 9002 N 1 0 0 1 0 0 2
+Refer: 9002 9002 N 1 0 0 1 540 0 2
 EndChar
 StartChar: uni2800
 Encoding: 10240 10240 10240
