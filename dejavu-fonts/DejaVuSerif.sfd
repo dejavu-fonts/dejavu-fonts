@@ -108,7 +108,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65549 1692
+BeginChars: 65549 1694
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -11955,13 +11955,7 @@ TeX: 117 0 0 0
 AnchorPoint: "above-mark" -730 1240 mark 0
 AnchorPoint: "above-mark" -730 1556 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
-Fore
--1247 1526 m 1,0,-1
- -213 1526 l 1,1,-1
- -213 1378 l 1,2,-1
- -1247 1378 l 1,3,-1
- -1247 1526 l 1,0,-1
-EndSplineSet
+Refer: 8254 8254 N 1 0 0 1 -1024 0 2
 EndChar
 StartChar: uni0306
 Encoding: 774 774 774
@@ -12589,13 +12583,7 @@ Width: 0
 VWidth: 210
 Flags: W
 TeX: 117 0 0 0
-Fore
--1247 -156 m 1,0,-1
- -213 -156 l 1,1,-1
- -213 -304 l 1,2,-1
- -1247 -304 l 1,3,-1
- -1247 -156 l 1,0,-1
-EndSplineSet
+Refer: 95 95 N 1 0 0 1 -1024 0 2
 EndChar
 StartChar: uni0333
 Encoding: 819 819 819
@@ -12603,18 +12591,7 @@ Width: 0
 VWidth: 210
 Flags: W
 TeX: 117 0 0 0
-Fore
--1247 -452 m 1,0,-1
- -213 -452 l 1,1,-1
- -213 -600 l 1,2,-1
- -1247 -600 l 1,3,-1
- -1247 -452 l 1,0,-1
--1247 -156 m 1,0,-1
- -213 -156 l 1,1,-1
- -213 -304 l 1,2,-1
- -1247 -304 l 1,3,-1
- -1247 -156 l 1,0,-1
-EndSplineSet
+Refer: 8215 8215 N 1 0 0 1 -1024 0 2
 EndChar
 StartChar: uni0339
 Encoding: 825 825 825
@@ -12739,18 +12716,8 @@ TeX: 117 0 0 0
 AnchorPoint: "above-mark" -730 1240 mark 0
 AnchorPoint: "above-mark" -730 1556 basemark 0
 AnchorPoint: "above" -730 1092 mark 0
-Fore
--1247 1822 m 1,0,-1
- -213 1822 l 1,1,-1
- -213 1674 l 1,2,-1
- -1247 1674 l 1,3,-1
- -1247 1822 l 1,0,-1
--1247 1526 m 1,0,-1
- -213 1526 l 1,1,-1
- -213 1378 l 1,2,-1
- -1247 1378 l 1,3,-1
- -1247 1526 l 1,0,-1
-EndSplineSet
+Refer: 8254 8254 N 1 0 0 1 -1024 0 2
+Refer: 8254 8254 N 1 0 0 1 -1024 -240 2
 EndChar
 StartChar: uni0361
 Encoding: 865 865 865
@@ -20901,6 +20868,14 @@ Fore
  0 610 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: underscoredbl
+Encoding: 8215 8215 8215
+Width: 1024
+Flags: W
+TeX: 117 0 0 0
+Refer: 95 95 N 1 0 0 1 0 0 2
+Refer: 95 95 N 1 0 0 1 0 240 2
+EndChar
 StartChar: quoteleft
 Encoding: 8216 8216 8216
 Width: 651
@@ -21390,6 +21365,13 @@ Encoding: 8253 8253 8253
 Width: 2048
 TeX: 117 0 0 0
 Colour: ffff00
+EndChar
+StartChar: uni203E
+Encoding: 8254 8254 8254
+Width: 1024
+Flags: W
+TeX: 117 0 0 0
+Refer: 95 95 N 1 0 0 1 0 1950 2
 EndChar
 StartChar: uni2047
 Encoding: 8263 8263 8263

@@ -82,7 +82,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65551 1459
+BeginChars: 65551 1461
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -10743,13 +10743,7 @@ Encoding: 773 773 773
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Fore
-0 1556 m 1,0,-1
- 1233 1556 l 1,1,-1
- 1233 1368 l 1,2,-1
- 0 1368 l 1,3,-1
- 0 1556 l 1,0,-1
-EndSplineSet
+Refer: 8254 8254 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0306
 Encoding: 774 774 774
@@ -11316,13 +11310,7 @@ Width: 1233
 VWidth: 324
 Flags: W
 TeX: 117 0 0 0
-Fore
-0 -218 m 1,0,-1
- 1233 -218 l 1,1,-1
- 1233 -406 l 1,2,-1
- 0 -406 l 1,3,-1
- 0 -218 l 1,0,-1
-EndSplineSet
+Refer: 95 95 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0333
 Encoding: 819 819 819
@@ -11330,18 +11318,7 @@ Width: 1233
 VWidth: 351
 Flags: W
 TeX: 117 0 0 0
-Fore
-0 -567 m 1,0,-1
- 1233 -567 l 1,1,-1
- 1233 -755 l 1,2,-1
- 0 -755 l 1,3,-1
- 0 -567 l 1,0,-1
-0 -191 m 1,0,-1
- 1233 -191 l 1,1,-1
- 1233 -379 l 1,2,-1
- 0 -379 l 1,3,-1
- 0 -191 l 1,0,-1
-EndSplineSet
+Refer: 8215 8215 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0339
 Encoding: 825 825 825
@@ -11461,18 +11438,8 @@ Encoding: 831 831 831
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Fore
-0 1932 m 1,0,-1
- 1233 1932 l 1,1,-1
- 1233 1744 l 1,2,-1
- 0 1744 l 1,3,-1
- 0 1932 l 1,0,-1
-0 1556 m 1,0,-1
- 1233 1556 l 1,1,-1
- 1233 1368 l 1,2,-1
- 0 1368 l 1,3,-1
- 0 1556 l 1,0,-1
-EndSplineSet
+Refer: 8254 8254 N 1 0 0 1 0 0 2
+Refer: 8254 8254 N 1 0 0 1 0 -275 2
 EndChar
 StartChar: uni0361
 Encoding: 865 865 865
@@ -16150,6 +16117,15 @@ Fore
  0 690 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: underscoredbl
+Encoding: 8215 8215 8215
+Width: 1233
+VWidth: 324
+Flags: W
+TeX: 117 0 0 0
+Refer: 95 95 N 1 0 0 1 0 0 2
+Refer: 95 95 N 1 0 0 1 0 275 2
+EndChar
 StartChar: quoteleft
 Encoding: 8216 8216 8216
 Width: 1233
@@ -16620,6 +16596,13 @@ Encoding: 8253 8253 8253
 Width: 1233
 TeX: 117 0 0 0
 Colour: ffff00
+EndChar
+StartChar: uni203E
+Encoding: 8254 8254 8254
+Width: 1233
+Flags: W
+TeX: 117 0 0 0
+Refer: 95 95 N 1 0 0 1 0 1840 2
 EndChar
 StartChar: uni2047
 Encoding: 8263 8263 8263
