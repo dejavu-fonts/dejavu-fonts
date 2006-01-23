@@ -113,7 +113,7 @@ AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65549 1618
+BeginChars: 65549 1621
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -24610,6 +24610,18 @@ Fore
  6 -252.5 l 25,0,-1
 EndSplineSet
 EndChar
+StartChar: triagrt
+Encoding: 9658 9658 9658
+Width: 1575
+Flags: W
+TeX: 0 0 0 0
+Fore
+6 22 m 25,0,0
+ 6 1042 l 25,0,0
+ 1569 532 l 25,0,0
+ 6 22 l 25,0,0
+EndSplineSet
+EndChar
 StartChar: triagdn
 Encoding: 9660 9660 9660
 Width: 1575
@@ -24632,6 +24644,31 @@ Fore
  1569 1316.5 l 25,2,-1
  1569 -252.5 l 25,3,-1
  6 532 l 25,1,-1
+EndSplineSet
+EndChar
+StartChar: triaglf
+Encoding: 9668 9668 9668
+Width: 1575
+Flags: W
+TeX: 0 0 0 0
+Fore
+6 532 m 25,0,0
+ 1569 1042 l 25,0,0
+ 1569 22 l 25,0,0
+ 6 532 l 25,0,0
+EndSplineSet
+EndChar
+StartChar: uni25C6
+Encoding: 9670 9670 9670
+Width: 1575
+Flags: W
+TeX: 0 0 0 0
+Fore
+6 532 m 25,0,0
+ 787 1316.5 l 25,0,0
+ 1569 532 l 25,0,0
+ 787 -252.5 l 25,0,0
+ 6 532 l 25,0,0
 EndSplineSet
 EndChar
 StartChar: lozenge
