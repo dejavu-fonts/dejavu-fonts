@@ -15,6 +15,7 @@
 #     glyphs without width or with negative width
 #     duplicate glyphs
 #     combining marks with non-zero width in non-monospaced fonts
+#     missing point numbers in splines
 #   level 1 (default):
 #     colorized glyphs with content
 #   level 2:
@@ -67,6 +68,7 @@ sub process_sfd_file($$) {
   my @ligature_refs = ();
   my %all_glyphs = ();
   my $prev_enc = -1;
+  my $in_spline_set = 0;
   open (SFD, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   while (<SFD>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
@@ -79,6 +81,7 @@ sub process_sfd_file($$) {
       $has_ligature = 0;
       @ligature_refs = ();
       $is_empty = 1;
+      $in_spline_set = 0;
     } elsif (/^Colour:\s*(\S+)\s*/) {
       $colorized = $1;
     } elsif (/^Flags:\s*(\S+)\s*/) {
@@ -105,6 +108,11 @@ sub process_sfd_file($$) {
       $has_ligature = 1;
     } elsif (/^Fore\s*$/) {
       $is_empty = 0;
+      $in_spline_set = 1;
+    } elsif (/^EndSplineSet\s*$/) {
+      $in_spline_set = 0;
+    } elsif ($in_spline_set && !/.+,.+,.+$/) {
+      problem (0, 'point numbers missing', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
     } elsif (/^Ref:/) {
       $is_empty = 0;
       problem (0, 'not normalized: old-style "Ref"', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
