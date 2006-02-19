@@ -1,3 +1,65 @@
+Changes from 2.2 to 2.3:
+
+- fixed bug U+042B and U+044B behave badly in Sans Bold or Oblique (by
+  Keenan Pepper)
+- added and improved TrueType instructions and related settings (by
+  Keenan Pepper)
+- added U+04D0-U+04D7, U+04E6, U+04E7 to Mono (by Eugeniy Meshcheryakov)
+- added U+048A - U+048D, U+0498, U+0499, U+04AA, U+04AB, U+04B0, U+04B1,
+  U+04C0, U+04C9, U+04CA, U+04CE, U+04CD, U+04DA, U+04DB, U+04DE, U+04DF,
+  U+04E2 - U+04E5, U+04EC - U+04F8, U+04F9 to Sans (by Eugeniy Meshcheryakov)
+- added U+04E0, U+04E1 to all faces (by Eugeniy Meshcheryakov)
+- added Greek Extended to Sans and Serif: U+1F00-U+1F15, U+1F18-U+1F1D,
+  U+1F20-U+1F45, U+1F48-U+1F4D, U+1F50-U+1F57, U+1F59, U+1F5B, U+1F5D,
+  U+1F5F-U+1F7D, U+1F80-U+1FB4, U+1FB6-U+1FC4, U+1FC6-U+1FD3, U+1FD6-U+1FDB,
+  U+1FDD-U+1FEF, U+1FF2-U+1FF4, U+1FF6-U+1FFE (by Ben Laenen)
+- added Greek variant letterforms, archaic letters and symbols to Mono:
+  U+03D0-U+03E1, U+03F0-U+03FF (by Ben Laenen)
+- added Armenian block and Armenian ligatures to Sans (U+0531 - U+0556,
+  U+0559 - U+055F, U+0561 - U+0587, U+0589 - U+058A, U+FB13 - U+FB17) (by Ben
+  Laenen)
+- redid some Greek characters in Sans and Mono to make them look better
+  and to correct some errors (by Ben Laenen)
+- added U+27E0 to all faces (by David Lawrence Ramsey)
+- added underscore (U+005F) consistency fixes: extended the Sans Mono
+  and Sans Mono Oblique underscores to touch both horizontal edges, and
+  reduced the height of the Sans Bold Oblique underscore to match the Sans
+  Bold underscore (by David Lawrence Ramsey)
+- added underscore (U+005F) derivatives and consistency fixes for them:
+  made U+0332 a reference to underscore at Denis Jacquerye's suggestion; made
+  U+0333 two references to underscore; made U+033F two references to U+203E;
+  added U+2017 as two references to underscore, and made U+0333 a reference to
+  it; and added U+203E as a reference to underscore, and made U+0305 a
+  reference to it (by David Lawrence Ramsey)
+- added U+201B, U+2220, U+2320-U+2321, U+23AE, U+23CF, all remaining
+  Geometric Shapes glyphs (U+25A0-U+25C9, U+25CB-U+25D7, U+25D9-U+25E5,
+  U+25E7-U+25FF), and U+2B12-U+2B13 to all faces (by David Lawrence Ramsey)
+- added minor positional adjustments to U+2638 in all faces (by David
+  Lawrence Ramsey)
+- added U+201F to Sans Mono and Serif faces (by David Lawrence Ramsey)
+- added U+01B7, U+01F6, U+0464 - U+0465, U+2160 - U+2180, U+2183,
+  U+220A, U+220D, U+2329, U+232A, U+2422, U+27E8 - U+27EB, U+2680 - U+2685 to
+  Sans (by Gee Fung Sit ???)
+- added U+2116 to Sans and Serif (by Gee Fung Sit)
+- changed florin sign U+0192 in Sans (by Gee Fung Sit)
+- added anchor points to some glyphs (by Denis Jacquerye)
+- adjusted height of IPA superscripts U+02B0-02B8, U+02C0-02C1,
+  U+02E0-02E4, U+207F to match with height of U+00B2 (by Denis Jacquerye)
+- added U+0184-U+0185, U+019C, U+019F, U+01A0-U+01A3, U+01A6, U+01AA,
+  U+01AF-U+01B0, U+01B2-U+01B4, U+01B7-U+01B8, U+01BC-U+01BC, U+0224-U+0225,
+  U+023A-U+0240, U+1D16-U+1D17, U+1D1D-U+1D1E, U+1D43-U+1D5B, U+1D7B,
+  U+1D85,U+1D9B-1DB7, U+1DB9-U+1DBF, U+20A6 to all fonts (by Denis Jacquerye)
+- added added U+0182, U+018B, U+018E, U+01A0-U+01A1, U+01B1, U+01B9,
+  U+01C0-U+01C3, U+0238-U+0239, U+1D02, U+1D08-U+1D09, U+1D14, U+1D1F, U+1D77
+  to Serif and Mono (by Denis Jacquerye)
+- added U+0181, U+0183, U+0187-U+0188, U+018A-U+018F, U+0191, U+0193,
+  U+0195-U+019B, U+019D-U+019E, U+01A4-U+01A5, U+01AC-U+01AE, U+01B5-U+01B6,
+  U+01B9, U+01BB, U+01F6 to Serif (by Denis Jacquerye)
+- added U+0181, U+0187-U+0188, U+018A, U+018D, U+018F, U+0191, U+0193,
+  U+0195-U+019F, U+01A4-01A5, U+01AC-01AD, U+01B5-U+01B6, U+1BB, U+01F6,
+  U+01D7-U+01DC, U+0238-U+0239, U+0241 to Mono (by Denis Jacquerye)
+- added to Mono and Serif (by Denis Jacquerye) 
+
 Changes from 2.1 to 2.2:
 
 - reworked the vertical orientation of the Blocks Elements characters
