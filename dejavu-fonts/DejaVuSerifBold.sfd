@@ -110,7 +110,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65549 1962
+BeginChars: 65549 1971
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -4289,9 +4289,10 @@ StartChar: onequarter
 Encoding: 188 188 188
 Width: 2136
 Flags: W
+Refer: 8308 8308 N 1 0 0 1 1239 -668 2
 Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 897 0 2
-Refer: 65544 -1 N 1 0 0 1 1239 -668 2
+LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'frac' one slash four
 Ligature: 0 1 'frac' one fraction four
 EndChar
@@ -4302,6 +4303,7 @@ Flags: W
 Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 897 0 2
 Refer: 178 178 N 1 0 0 1 1239 -668 2
+LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'frac' one slash two
 Ligature: 0 1 'frac' one fraction two
 EndChar
@@ -4309,9 +4311,10 @@ StartChar: threequarters
 Encoding: 190 190 190
 Width: 2136
 Flags: W
+Refer: 8308 8308 N 1 0 0 1 1239 -668 2
 Refer: 179 179 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 897 0 2
-Refer: 65544 -1 N 1 0 0 1 1239 -668 2
+LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'frac' three slash four
 Ligature: 0 1 'frac' three fraction four
 EndChar
@@ -27052,8 +27055,12 @@ Encoding: 8308 8308 8308
 Width: 897
 Flags: W
 TeX: 117 0 0 0
+TtfInstrs: 80
+5U[5c"pY>Da9MqS.M)gq$-3JW%0FTNc3J\/&Hr1i%g-SS!&4lf"VMBre3)g1r&j$P3ACLFo_e&2
+e3*(Q&NMO<;cj89"RQF*"moG:
+EndTtf
 Fore
-805 684 m 1,0,0
+805 684 m 1,0,-1
  287 684 l 1,1,-1
  287 778 l 1,2,-1
  412 778 l 1,3,-1
@@ -27068,11 +27075,11 @@ Fore
  680 899 l 1,12,-1
  680 778 l 1,13,-1
  805 778 l 1,14,-1
- 805 684 l 1,0,0
-412 993 m 1,0,0
- 412 1327 l 1,1,-1
- 172 993 l 1,2,-1
- 412 993 l 1,0,0
+ 805 684 l 1,0,-1
+412 993 m 1,15,-1
+ 412 1327 l 1,16,-1
+ 172 993 l 1,17,-1
+ 412 993 l 1,15,-1
 EndSplineSet
 EndChar
 StartChar: uni2075
@@ -27276,6 +27283,76 @@ Fore
  507 684 l 1,32,-1
  95 684 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: uni2080
+Encoding: 8320 8320 8320
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 8304 8304 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2081
+Encoding: 8321 8321 8321
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 185 185 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2082
+Encoding: 8322 8322 8322
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 178 178 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2083
+Encoding: 8323 8323 8323
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 179 179 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2084
+Encoding: 8324 8324 8324
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 8308 8308 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2085
+Encoding: 8325 8325 8325
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 8309 8309 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2086
+Encoding: 8326 8326 8326
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 8310 8310 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2087
+Encoding: 8327 8327 8327
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 8311 8311 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2088
+Encoding: 8328 8328 8328
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 8312 8312 N 1 0 0 1 0 -684 2
+EndChar
+StartChar: uni2089
+Encoding: 8329 8329 8329
+Width: 897
+Flags: W
+TeX: 117 0 0 0
+Refer: 8313 8313 N 1 0 0 1 0 -684 2
 EndChar
 StartChar: uni20A6
 Encoding: 8358 8358 8358
@@ -33582,37 +33659,6 @@ Fore
  -135 1526 l 1,5,-1
  -358 1262 l 1,6,-1
  -666 1262 l 1,0,-1
-EndSplineSet
-EndChar
-StartChar: foursuperior
-Encoding: 65544 -1 65544
-Width: 897
-Flags: W
-TtfInstrs: 80
-5U[5c"pY>Da9MqS.M)gq$-3JW%0FTNc3J\/&Hr1i%g-SS!&4lf"VMBre3)g1r&j$P3ACLFo_e&2
-e3*(Q&NMO<;cj89"RQF*"moG:
-EndTtf
-Fore
-805 684 m 1,0,-1
- 287 684 l 1,1,-1
- 287 778 l 1,2,-1
- 412 778 l 1,3,-1
- 412 899 l 1,4,-1
- 49 899 l 1,5,-1
- 49 987 l 1,6,-1
- 428 1520 l 1,7,-1
- 680 1520 l 1,8,-1
- 680 993 l 1,9,-1
- 827 993 l 1,10,-1
- 827 899 l 1,11,-1
- 680 899 l 1,12,-1
- 680 778 l 1,13,-1
- 805 778 l 1,14,-1
- 805 684 l 1,0,-1
-412 993 m 1,15,-1
- 412 1327 l 1,16,-1
- 172 993 l 1,17,-1
- 412 993 l 1,15,-1
 EndSplineSet
 EndChar
 StartChar: Breve
