@@ -15,6 +15,7 @@
 #   Refer   - changed S (selected) to N (not selected)
 #   Fore, Back, SplineSet, Grid
 #           - all points have 4 masked out from flags (selected)
+#             and 256 (do not interpolate)
 #   HStem, VStem
 #           - discarded (those are Type1 stems = PS hints)
 #   recalculate number of characters and positional encoding
@@ -56,7 +57,7 @@ sub process_sfd_file($) {
     } elsif (/^EndSplineSet\s*$/) {
       $in_spline_set = 0;
     } elsif ($in_spline_set) {
-      s/(\s+)(\S+?)(,\S+\s*)$/$1.($2 & ~4).$3/e;
+      s/(\s+)(\S+?)(,\S+\s*)$/$1.($2 & ~4 & ~256).$3/e;
     }
     if (/^BeginChars:/) {
       $in_chars = 1;
