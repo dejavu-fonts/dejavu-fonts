@@ -120,10 +120,11 @@ EndTtf
 LangName: 1033 "" "" "" "DejaVu Sans Bold" "" "Version 2.3" "" "" "Stepan Roh and DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
+NameList: Adobe Glyph List
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65548 2699
+BeginChars: 65548 2703
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -8996,6 +8997,53 @@ Flags: W
 Refer: 104 104 N 1 0 0 1 0 0 1
 Refer: 711 711 N 1 0 0 0.700012 82 752 0
 EndChar
+StartChar: uni0221
+Encoding: 545 545 545
+Width: 1771
+Flags: W
+TeX: 117 0 0 0
+AnchorPoint: "above" 1114 1520 basechar 0
+AnchorPoint: "below" 729 0 basechar 0
+Fore
+1392 230 m 0,0,1
+ 1526 230 1526 230 1524 319 c 0,2,3
+ 1524 344 1524 344 1497 344 c 0,4,5
+ 1422 344 1422 344 1380 293 c 2,6,-1
+ 1343 246 l 1,7,8
+ 1365 230 1365 230 1392 230 c 0,0,1
+698 231 m 0,9,10
+ 813 231 813 231 874 315 c 0,11,12
+ 934 399 934 399 934 559 c 128,-1,13
+ 934 719 934 719 874 803 c 0,14,15
+ 813 887 813 887 698 887 c 0,16,17
+ 584 887 584 887 524 803 c 0,18,19
+ 463 719 463 719 463 559 c 128,-1,20
+ 463 399 463 399 524 315 c 0,21,22
+ 584 231 584 231 698 231 c 0,9,10
+1294 514 m 9,23,24
+ 1370 606 1370 606 1476 606 c 0,25,26
+ 1570 606 1570 606 1621 550 c 0,27,28
+ 1685 481 1685 481 1683 327 c 0,29,30
+ 1683 167 1683 167 1617 80 c 0,31,32
+ 1540 -25 1540 -25 1374 -26 c 0,33,34
+ 1283 -26 1283 -26 1212 0 c 17,35,36
+ 1176 -74 1176 -74 1146 -154 c 25,37,-1
+ 982 -82 l 17,38,39
+ 1002 -27 1002 -27 1048 86 c 17,40,41
+ 1032 100 1032 100 1020 118 c 1,42,43
+ 975 50 975 50 905 15 c 0,44,45
+ 817 -29 817 -29 565 -29 c 0,46,47
+ 358 -29 358 -29 225 136 c 0,48,49
+ 92 300 92 300 92 559 c 128,-1,50
+ 92 818 92 818 225 982 c 0,51,52
+ 358 1147 358 1147 565 1147 c 0,53,54
+ 681 1147 681 1147 770 1100 c 0,55,56
+ 860 1054 860 1054 934 956 c 1,57,-1
+ 934 1556 l 1,58,-1
+ 1294 1556 l 1,59,-1
+ 1294 514 l 9,23,24
+EndSplineSet
+EndChar
 StartChar: uni0224
 Encoding: 548 548 548
 Width: 1485
@@ -9138,6 +9186,116 @@ Encoding: 563 563 563
 Width: 1335
 Refer: 175 175 N 1 0 0 1 149.5 6 2
 Refer: 121 121 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni0234
+Encoding: 564 564 564
+Width: 1007
+Flags: W
+TeX: 117 0 0 0
+AnchorPoint: "above" 356 1520 basechar 0
+AnchorPoint: "below" 356 0 basechar 0
+Fore
+641 230 m 0,0,0
+ 775 230 775 230 773 319 c 0,1,2
+ 773 344 773 344 746 344 c 0,0,0
+ 671 344 671 344 629 293 c 2,0,0
+ 592 246 l 1,1,2
+ 614 230 614 230 641 230 c 0,0,0
+530 514 m 9,2,-1
+ 606 606 606 606 712 606 c 0,0,0
+ 799 606 799 606 850 558 c 0,0,0
+ 921 490 921 490 919 327 c 0,0,0
+ 919 166 919 166 853 78 c 0,0,0
+ 776 -26 776 -26 610 -26 c 0,0,0
+ 519 -26 519 -26 448 0 c 17,0,0
+ 412 -74 412 -74 382 -154 c 25,0,0
+ 218 -82 l 17,0,0
+ 238 -27 238 -27 284 86 c 17,0,0
+ 172 198 172 198 172 559 c 18,3,-1
+ 172 1556 l 1,0,-1
+ 530 1556 l 1,1,-1
+ 530 514 l 9,2,-1
+EndSplineSet
+EndChar
+StartChar: uni0235
+Encoding: 565 565 565
+Width: 1775
+Flags: W
+TeX: 117 0 0 0
+Fore
+1298 514 m 25,0,0
+ 1374 606 1374 606 1480 606 c 0,0,0
+ 1561 606 1561 606 1611 564 c 0,0,0
+ 1689 498 1689 498 1687 327 c 0,0,0
+ 1685 154 1685 154 1611 66 c 0,0,0
+ 1534 -26 1534 -26 1378 -26 c 0,0,0
+ 1287 -26 1287 -26 1216 0 c 17,0,0
+ 1180 -74 1180 -74 1150 -154 c 25,0,0
+ 986 -82 l 17,0,0
+ 1006 -27 1006 -27 1052 86 c 17,0,0
+ 934 205 934 205 938 522 c 0,4,5
+ 940 656 940 656 932 722 c 0,6,7
+ 925 777 925 777 909 803 c 0,7,8
+ 888 838 888 838 852 858 c 128,-1,9
+ 816 877 816 877 770 877 c 0,10,11
+ 658 877 658 877 594 790 c 128,-1,12
+ 530 704 530 704 530 551 c 2,13,-1
+ 530 0 l 1,14,-1
+ 172 0 l 1,15,-1
+ 172 1120 l 1,16,-1
+ 530 1120 l 1,17,-1
+ 530 956 l 1,18,19
+ 611 1054 611 1054 702 1100 c 128,-1,20
+ 793 1147 793 1147 903 1147 c 0,21,22
+ 1097 1147 1097 1147 1198 1028 c 128,-1,23
+ 1298 909 1298 909 1298 682 c 10,0,-1
+ 1298 514 l 25,0,0
+1409 230 m 0,0,0
+ 1543 234 1543 234 1541 319 c 0,1,2
+ 1540 344 1540 344 1514 344 c 0,0,0
+ 1439 346 1439 346 1397 293 c 2,0,0
+ 1360 246 l 1,1,2
+ 1382 230 1382 230 1409 230 c 0,0,0
+EndSplineSet
+EndChar
+StartChar: uni0236
+Encoding: 566 566 566
+Width: 1048
+Flags: W
+TeX: 117 0 0 0
+AnchorPoint: "above" 394 1520 basechar 0
+AnchorPoint: "below" 394 0 basechar 0
+Fore
+665 240 m 0,0,0
+ 799 244 799 244 797 329 c 0,1,2
+ 796 354 796 354 770 354 c 0,0,0
+ 695 356 695 356 653 303 c 2,0,0
+ 616 256 l 1,1,2
+ 638 240 638 240 665 240 c 0,0,0
+563 1438 m 1,0,-1
+ 563 1120 l 1,1,-1
+ 932 1120 l 1,2,-1
+ 932 864 l 1,3,-1
+ 563 864 l 1,4,-1
+ 564 508 l 25,5,6
+ 647 604 647 604 753 604 c 0,0,0
+ 844 604 844 604 895 552 c 0,0,0
+ 962 483 962 483 960 325 c 128,-1,0
+ 958 167 958 167 896 80 c 0,0,0
+ 820 -28 820 -28 651 -28 c 0,0,0
+ 560 -28 560 -28 489 -2 c 17,0,0
+ 453 -76 453 -76 423 -156 c 25,0,0
+ 259 -84 l 17,0,0
+ 280 -22 280 -22 318 68 c 1,0,0
+ 305 77 305 77 294 88 c 16,0,0
+ 205 177 205 177 205 389 c 2,14,-1
+ 205 864 l 1,15,-1
+ 27 864 l 1,16,-1
+ 27 1120 l 1,17,-1
+ 205 1120 l 1,18,-1
+ 205 1438 l 1,19,-1
+ 563 1438 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: dotlessj
 Encoding: 567 567 567
