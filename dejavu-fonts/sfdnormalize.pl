@@ -19,6 +19,8 @@
 #   HStem, VStem
 #           - discarded (those are Type1 stems = PS hints)
 #   recalculate number of characters and positional encoding
+#   NameList
+#           - discarded (temporary)
 # changes making it incompatible with FF older than (approx.) 20050728:
 #   Ref     - renamed to Refer
 #   KernsSLIF
@@ -43,7 +45,7 @@ sub process_sfd_file($) {
   my %pos_glyphs_map = ();
 
   while (<SFD>) {
-    next if (/^(WinInfo|DisplaySize|HStem|VStem):/);
+    next if (/^(WinInfo|DisplaySize|HStem|VStem|NameList):/);
     s,^Ref:,Refer:,;
     s,^KernsSLIF:,KernsSLIFO:,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
