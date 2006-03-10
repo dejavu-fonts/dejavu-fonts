@@ -3470,6 +3470,7 @@ Fore
  197 1368 l 1,3,-1
  197 1556 l 1,0,-1
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' space uni0304
 EndChar
 StartChar: degree
@@ -13322,13 +13323,7 @@ StartChar: uni02C9
 Encoding: 713 713 713
 Width: 1024
 Flags: W
-Fore
-197 1556 m 1,0,-1
- 827 1556 l 1,1,-1
- 827 1368 l 1,2,-1
- 197 1368 l 1,3,-1
- 197 1556 l 1,0,-1
-EndSplineSet
+Refer: 175 175 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni02CA
 Encoding: 714 714 714
@@ -13371,13 +13366,7 @@ StartChar: uni02CD
 Encoding: 717 717 717
 Width: 1024
 Flags: W
-Fore
-197 69 m 1,0,-1
- 827 69 l 1,1,-1
- 827 -119 l 1,2,-1
- 197 -119 l 1,3,-1
- 197 69 l 1,0,-1
-EndSplineSet
+Refer: 175 175 N 1 0 0 1 0 -1747 2
 EndChar
 StartChar: uni02CE
 Encoding: 718 718 718
@@ -14591,7 +14580,7 @@ VWidth: 351
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 0 mark 0
-Refer: 175 175 N 1 0 0 1 -1026 -1747 2
+Refer: 717 717 N 1 0 0 1 -1026 0 2
 EndChar
 StartChar: uni0332
 Encoding: 818 818 818
@@ -26413,14 +26402,14 @@ Encoding: 7686 7686 7686
 Width: 1561
 Flags: W
 Refer: 66 66 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1302 4 0
+Refer: 717 717 N 1 0 0 1 165 4 0
 EndChar
 StartChar: uni1E07
 Encoding: 7687 7687 7687
 Width: 1466
 Flags: W
 Refer: 98 98 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1306 4 0
+Refer: 717 717 N 1 0 0 1 169 4 0
 EndChar
 StartChar: uni1E08
 Encoding: 7688 7688 7688
@@ -26471,14 +26460,14 @@ Encoding: 7694 7694 7694
 Width: 1700
 Flags: W
 Refer: 68 68 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1397 4 0
+Refer: 717 717 N 1 0 0 1 260 4 0
 EndChar
 StartChar: uni1E0F
 Encoding: 7695 7695 7695
 Width: 1466
 Flags: W
 Refer: 100 100 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1376 5 0
+Refer: 717 717 N 1 0 0 1 239 5 0
 EndChar
 StartChar: uni1E10
 Encoding: 7696 7696 7696
@@ -26741,14 +26730,14 @@ Encoding: 7732 7732 7732
 Width: 1587
 Flags: W
 Refer: 75 75 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1502 4 0
+Refer: 717 717 N 1 0 0 1 365 4 0
 EndChar
 StartChar: uni1E35
 Encoding: 7733 7733 7733
 Width: 1362
 Flags: W
 Refer: 107 107 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1342 5 0
+Refer: 717 717 N 1 0 0 1 205 5 0
 EndChar
 StartChar: uni1E36
 Encoding: 7734 7734 7734
@@ -26787,14 +26776,14 @@ Encoding: 7738 7738 7738
 Width: 1305
 Flags: W
 Refer: 76 76 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1372 4 0
+Refer: 717 717 N 1 0 0 1 235 4 0
 EndChar
 StartChar: uni1E3B
 Encoding: 7739 7739 7739
 Width: 702
 Flags: W
 Refer: 108 108 N 1 0 0 1 0 0 1
-Refer: 817 817 N 0.799988 0 0 1 847 5 0
+Refer: 717 717 N 0.799988 0 0 1 -290 5 0
 EndChar
 StartChar: uni1E3C
 Encoding: 7740 7740 7740
@@ -26889,14 +26878,14 @@ Encoding: 7752 7752 7752
 Width: 1714
 Flags: W
 Refer: 78 78 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1481 5 0
+Refer: 717 717 N 1 0 0 1 344 5 0
 EndChar
 StartChar: uni1E49
 Encoding: 7753 7753 7753
 Width: 1458
 Flags: W
 Refer: 110 110 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1359 5 0
+Refer: 717 717 N 1 0 0 1 222 5 0
 EndChar
 StartChar: uni1E4A
 Encoding: 7754 7754 7754
@@ -27047,14 +27036,14 @@ Encoding: 7774 7774 7774
 Width: 1577
 Flags: W
 Refer: 82 82 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1463 4 0
+Refer: 717 717 N 1 0 0 1 326 4 0
 EndChar
 StartChar: uni1E5F
 Encoding: 7775 7775 7775
 Width: 1010
 Flags: W
 Refer: 114 114 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1008 5 0
+Refer: 717 717 N 1 0 0 1 -129 5 0
 EndChar
 StartChar: uni1E60
 Encoding: 7776 7776 7776
@@ -27165,14 +27154,14 @@ Encoding: 7790 7790 7790
 Width: 1397
 Flags: W
 Refer: 84 84 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1294 4 0
+Refer: 717 717 N 1 0 0 1 157 4 0
 EndChar
 StartChar: uni1E6F
 Encoding: 7791 7791 7791
 Width: 979
 Flags: W
 Refer: 116 116 N 1 0 0 1 0 0 1
-Refer: 817 817 N 0.799988 0 0 1 1028 5 0
+Refer: 717 717 N 0.799988 0 0 1 -109 5 0
 EndChar
 StartChar: uni1E70
 Encoding: 7792 7792 7792
@@ -27433,21 +27422,21 @@ Encoding: 7828 7828 7828
 Width: 1485
 Flags: W
 Refer: 90 90 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1399 5 0
+Refer: 717 717 N 1 0 0 1 262 5 0
 EndChar
 StartChar: uni1E95
 Encoding: 7829 7829 7829
 Width: 1192
 Flags: W
 Refer: 122 122 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1199 4 0
+Refer: 717 717 N 1 0 0 1 62 4 0
 EndChar
 StartChar: uni1E96
 Encoding: 7830 7830 7830
 Width: 1458
 Flags: W
 Refer: 104 104 N 1 0 0 1 0 0 1
-Refer: 817 817 N 1 0 0 1 1324 5 0
+Refer: 717 717 N 1 0 0 1 187 5 0
 EndChar
 StartChar: uni1E97
 Encoding: 7831 7831 7831
@@ -32027,7 +32016,7 @@ Encoding: 8363 8363 8363
 Width: 1425
 Flags: W
 Refer: 273 273 N 1 0 0 1 -30 0 0
-Refer: 817 817 N 1 0 0 1 1313 4 0
+Refer: 717 717 N 1 0 0 1 176 4 0
 EndChar
 StartChar: Euro
 Encoding: 8364 8364 8364
