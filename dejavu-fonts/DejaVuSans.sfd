@@ -23822,8 +23822,6 @@ Fore
  1406.99 225.896 1406.99 225.896 1408.71 128 c 0,0,0
  1410.27 38.9 1410.27 38.9 1366 -35 c 0,0,0
 EndSplineSet
-Substitution: 9 4 'init' uniFBE8
-Substitution: 9 4 'medi' uniFBE9
 Substitution: 9 4 'fina' uniFEF0
 EndChar
 StartChar: afii57450
@@ -24125,9 +24123,9 @@ Fore
  1595.56 538.598 1595.56 538.598 1572 600 c 9,0,0
  1756 600 l 17,0,0
 EndSplineSet
-Substitution: 9 4 'init' arabic_dotless_beh.init
-Substitution: 9 4 'medi' arabic_dotless_beh.medi
-Substitution: 9 4 'fina' arabic_dotless_beh.fina
+Substitution: 9 4 'medi' uni066E.medi
+Substitution: 9 4 'init' uni066E.init
+Substitution: 9 4 'fina' uni066E.fina
 EndChar
 StartChar: uni066F
 Encoding: 1647 1647 1647
@@ -24169,9 +24167,9 @@ Fore
  282.544 32.1403 282.544 32.1403 295 -20 c 0,0,0
  347.748 -249 347.748 -249 528 -249 c 0,0,0
 EndSplineSet
-Substitution: 9 4 'init' arabic_dotless_qaf.init
-Substitution: 9 4 'medi' arabic_dotless_qaf.medi
-Substitution: 9 4 'fina' arabic_dotless_qaf.fina
+Substitution: 9 4 'medi' uni066F.medi
+Substitution: 9 4 'init' uni066F.init
+Substitution: 9 4 'fina' uni066F.fina
 EndChar
 StartChar: uni0674
 Encoding: 1652 1652 1652
@@ -24240,9 +24238,9 @@ Fore
  1951.29 707.29 1951.29 707.29 1950.07 570 c 0,0,0
  1948.06 343.55 1948.06 343.55 1872 219 c 16,0,0
 EndSplineSet
-Substitution: 9 4 'init' arabic_dotless_feh.init
-Substitution: 9 4 'medi' arabic_dotless_feh.medi
-Substitution: 9 4 'fina' arabic_dotless_feh.fina
+Substitution: 9 4 'medi' uni06A1.medi
+Substitution: 9 4 'init' uni06A1.init
+Substitution: 9 4 'fina' uni06A1.fina
 EndChar
 StartChar: afii57514
 Encoding: 1722 1722 1722
@@ -24270,8 +24268,8 @@ Fore
  1248 750 l 25,0,0
  1350.57 594.008 1350.57 594.008 1352 312 c 24,0,0
 EndSplineSet
-Substitution: 9 4 'init' arabic_noon_ghunna.init
-Substitution: 9 4 'medi' arabic_noon_ghunna.medi
+Substitution: 9 4 'medi' uni06BA.medi
+Substitution: 9 4 'init' uni06BA.init
 Substitution: 9 4 'fina' uniFB9F
 EndChar
 StartChar: uni1D02
@@ -56296,7 +56294,7 @@ Fore
  0 150 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: arabic_dotless_beh.fina
+StartChar: uni066E.fina
 Encoding: 65555 -1 65555
 Width: 2011
 Flags: W
@@ -56330,7 +56328,7 @@ Fore
  1024.6 88.4082 1024.6 88.4082 1220 145 c 24,0,0
 EndSplineSet
 EndChar
-StartChar: arabic_dotless_beh.init
+StartChar: uni066E.init
 Encoding: 65556 -1 65556
 Width: 570
 Flags: W
@@ -56339,7 +56337,7 @@ AnchorPoint: "rtl-above" 299 1000 basechar 0
 AnchorPoint: "rtl-below" 299 -100 basechar 0
 Refer: 64488 64488 N 1 0 0 1 0 0 2
 EndChar
-StartChar: arabic_dotless_beh.medi
+StartChar: uni066E.medi
 Encoding: 65557 -1 65557
 Width: 618
 Flags: W
@@ -56348,7 +56346,7 @@ AnchorPoint: "rtl-above" 299 1000 basechar 0
 AnchorPoint: "rtl-below" 299 -100 basechar 0
 Refer: 64489 64489 N 1 0 0 1 0 0 2
 EndChar
-StartChar: arabic_dotless_feh.fina
+StartChar: uni06A1.fina
 Encoding: 65558 -1 65558
 Width: 2120
 Flags: W
@@ -56394,7 +56392,7 @@ Fore
  1572.53 259.856 1572.53 259.856 1656 223.054 c 1,0,0
 EndSplineSet
 EndChar
-StartChar: arabic_dotless_feh.init
+StartChar: uni06A1.init
 Encoding: 65559 -1 65559
 Width: 979
 Flags: W
@@ -56432,7 +56430,7 @@ Fore
  -20 184 l 17,0,0
 EndSplineSet
 EndChar
-StartChar: arabic_dotless_feh.medi
+StartChar: uni06A1.medi
 Encoding: 65560 -1 65560
 Width: 1036
 Flags: W
@@ -56474,7 +56472,7 @@ Fore
  531.667 592 531.667 592 518 592 c 0,0,0
 EndSplineSet
 EndChar
-StartChar: arabic_dotless_qaf.fina
+StartChar: uni066F.fina
 Encoding: 65561 -1 65561
 Width: 1708
 Flags: W
@@ -56521,7 +56519,7 @@ Fore
  1255.65 204.592 1255.65 204.592 1259.76 203 c 1,0,0
 EndSplineSet
 EndChar
-StartChar: arabic_dotless_qaf.init
+StartChar: uni066F.init
 Encoding: 65562 -1 65562
 Width: 979
 Flags: W
@@ -56530,7 +56528,7 @@ AnchorPoint: "rtl-below" 500 -150 basechar 0
 AnchorPoint: "rtl-above" 500 1100 basechar 0
 Refer: 65559 -1 N 1 0 0 1 0 0 2
 EndChar
-StartChar: arabic_dotless_qaf.medi
+StartChar: uni066F.medi
 Encoding: 65563 -1 65563
 Width: 1036
 Flags: W
@@ -56539,7 +56537,7 @@ AnchorPoint: "rtl-below" 518 -150 basechar 0
 AnchorPoint: "rtl-above" 518 950 basechar 0
 Refer: 65560 -1 N 1 0 0 1 0 0 2
 EndChar
-StartChar: arabic_noon_ghunna.init
+StartChar: uni06BA.init
 Encoding: 65564 -1 65564
 Width: 570
 Flags: W
@@ -56549,7 +56547,7 @@ AnchorPoint: "rtl-below" 299 -100 basechar 0
 Refer: 65556 -1 N 1 0 0 1 0 0 2
 Refer: 65549 -1 N 1 0 0 1 224 850 2
 EndChar
-StartChar: arabic_noon_ghunna.medi
+StartChar: uni06BA.medi
 Encoding: 65565 -1 65565
 Width: 618
 Flags: W
