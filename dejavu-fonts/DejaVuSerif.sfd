@@ -33,10 +33,9 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-ScriptLang: 3
+ScriptLang: 2
  3 cyrl 1 dflt grek 1 dflt latn 1 dflt 
  1 DFLT 1 dflt 
- 1 hebr 1 dflt 
 ChainSub: class 0 0 'ccmp' 4 4 4 2
   Class: 3 i j
   Class: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
@@ -38010,7 +38009,7 @@ Fore
  -600 1262 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: inverterBreve
+StartChar: uni0311.case
 Encoding: 65544 -1 65544
 Width: 0
 Flags: W
@@ -38022,7 +38021,7 @@ Fore
 -201 1286 m 1,0,-1
  -295 1286 l 1,1,2
  -313 1341 -313 1341 -366.5 1368 c 128,-1,3
- -420 1395 -420 1395 -512 1395 c 0,4,5
+ -420 1395 -420 1395 -512 1395 c 128,-1,5
  -604 1395 -604 1395 -657.5 1368 c 128,-1,6
  -711 1341 -711 1341 -729 1286 c 1,7,-1
  -823 1286 l 1,8,9
@@ -38031,8 +38030,6 @@ Fore
  -380 1528 -380 1528 -300.5 1466 c 128,-1,13
  -221 1404 -221 1404 -201 1286 c 1,0,-1
 EndSplineSet
-Ligature: 1 2 'liga' uniFFFF uniFFFF
-LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: Breve
 Encoding: 65545 -1 65545
