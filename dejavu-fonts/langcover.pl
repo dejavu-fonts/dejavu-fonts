@@ -86,13 +86,17 @@ sub parse_orth_file($;$) {
       next;
     }
     my ($start) = ($_ =~ /^\s*(\S+)/);
+    if ($lang eq 'ibo') {
+      # XXX ibo.orth 1ee1 -> 1ee4 (https://bugs.freedesktop.org/show_bug.cgi?id=6237)
+      $start = '1ee4' if ($start eq '1ee1');
+    }
     my $end = $start;
     if ($start =~ /-/) {
       ($start, $end) = split(/-/, $start);
     }
+    # XXX ab.orth 0re1 -> 04e1 (https://bugs.freedesktop.org/show_bug.cgi?id=6238)
+    $end = '04e1' if ($end eq '0re1');
     $start = hex ($start);
-    # XXX ab.orth 0re1 -> 04e1
-    $end = 0x04e1 if ($end eq '0re1');
     $end = hex ($end);
     for (my $dec_enc = $start; $dec_enc <= $end; $dec_enc++) {
       $langs{$lang}{'chars'}{$dec_enc} = 1;
