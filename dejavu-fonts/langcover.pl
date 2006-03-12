@@ -8,7 +8,6 @@
 #  files from http://webcvs.freedesktop.org/fontconfig/fontconfig/fc-lang/ should be downloaded to fc-lang directory
 
 use FileHandle;
-use Encode;
 
 sub parse_fc_lang_dir($);
 sub parse_orth_file($;$);
@@ -31,6 +30,21 @@ sub parse_fc_lang_dir($) {
   }
 }
 
+# missing or UTF-8 lang names
+%lang_names = (
+  'gn' => 'Guarani',
+  'ja' => 'Japanese',
+  'nb' => 'Norwegian Bokmal',
+  'no' => 'Norwegian (Bokmal)',
+  'se' => 'North Sami',
+  'sma' => 'South Sami',
+  'smj' => 'Lule Sami',
+  'smn' => 'Inari Sami',
+  'sms' => 'Skolt Sami',
+  'vo' => 'Volapuk',
+  'zh-tw' => 'Chinese (traditional)',
+);
+
 sub parse_orth_file($;$) {
   my ($orth_file, $lang) = @_;
 
@@ -43,22 +57,25 @@ sub parse_orth_file($;$) {
   $orth_lang = 'kw' if ($orth_lang eq 'ay');
   $orth_lang = 'kw' if ($orth_lang eq 'fj');
   $orth_lang = 'eth' if ($orth_lang eq 'gez');
-  $langs{$lang}{'name'} = 'Japanese' if ($orth_lang eq 'ja');
   $orth_lang = 'hi' if ($orth_lang eq 'pa');
   $orth_lang = 'cu' if ($orth_lang eq 'sco');
   $orth_lang = 'af' if ($orth_lang eq 'sm');
   $orth_lang = 'smj' if ($orth_lang eq 'sms');
   $orth_lang = 'ge' if ($orth_lang eq 'te');
-  $langs{$lang}{'name'} = 'Chinese (traditional)' if ($orth_lang eq 'zh-tw');
+  if (exists($lang_names{$lang})) {
+    $langs{$lang}{'name'} = $lang_names{$lang};
+  }
   my $f = new FileHandle($orth_file) || die "Unable to open $orth_file : $!\n";
   while (<$f>) {
-    if (/^#\s*(.*?)\s*\($lang\)/i) {
-      $langs{$lang}{'name'} = $1;
-      next;
-    }
-    if (/^#\s*(.*?)\s*\($orth_lang\)/i) {
-      $langs{$lang}{'name'} = $1;
-      next;
+    if (!exists($langs{$lang}{'name'})) {
+      if  (/^#\s*(.*?)\s*\($lang\)/i) {
+        $langs{$lang}{'name'} = $1;
+        next;
+      }
+      if (/^#\s*(.*?)\s*\($orth_lang\)/i) {
+        $langs{$lang}{'name'} = $1;
+        next;
+      }
     }
     next if (/^\s*(#|$)/);
     if (/^\s*include\s+(\S+)/) {
@@ -133,8 +150,6 @@ END
   print "\n";
   foreach $lang (sort keys %langs) {
     my $name = $langs{$lang}{'name'};
-    # XXX may not work if Perl decides to read data from files as UTF-8
-    Encode::from_to($name, "utf8", "ascii");
     my $length = keys %{$langs{$lang}{'chars'}};
     printf "%-6s %-40s", $lang, $name;
     foreach $sfd_file (@sfd_files) {
