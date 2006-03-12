@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-# $Id: unicover.pl 237 2005-08-23 22:29:14Z src $
+# $Id$
 
 # language coverage analyzator
 # (c)2006 Stepan Roh
