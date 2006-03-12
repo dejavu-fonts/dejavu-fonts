@@ -34,6 +34,9 @@ while ( i < $argc )
   if (Strcasestr ($fontname, "Condensed") > -1)
     gen_flags = exp_gen_flags
   endif
+  if (Strcasestr ($fontname, "ExtraLight") > -1)
+    gen_flags = exp_gen_flags
+  endif
   # no non-combining ligatures in Mono (we remove all because there are no valid combining ligatures right now)
   if (Strcasestr ($fontname, "Mono") > -1)
     SelectAll()
