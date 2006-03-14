@@ -3824,9 +3824,9 @@ StartChar: onequarter
 Encoding: 188 188 188
 Width: 2023
 Flags: W
+Refer: 8308 8308 N 1 0 0 1 995 -684 2
 Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 807.3 0 2
-Refer: 65544 -1 N 1 0 0 1 998.235 -668 2
 LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'frac' one slash four
 Ligature: 0 1 'frac' one fraction four
@@ -3845,9 +3845,10 @@ StartChar: threequarters
 Encoding: 190 190 190
 Width: 2020
 Flags: W
+Refer: 8308 8308 N 1 0 0 1 995 -684 2
 Refer: 179 179 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 807.3 0 2
-Refer: 65544 -1 N 1 0 0 1 998.235 -668 2
+LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'frac' three slash four
 Ligature: 0 1 'frac' three fraction four
 EndChar
@@ -38402,37 +38403,6 @@ Fore
  1024.3 1526 l 1,5,-1
  776.8 1262 l 1,6,-1
  499.6 1262 l 1,0,-1
-EndSplineSet
-EndChar
-StartChar: foursuperior
-Encoding: 65544 -1 65544
-Width: 848
-Flags: W
-TtfInstrs: 80
-5U[5c"pY>Da9MqS.M)gq$-3JW%0FTNc3J\/&Hr1i%g-SS!&4lf"VMBre3)g1r&j$P3ACLFo_e&2
-e3*(Q&NMO<;cj89"RQF*"moG:
-EndTtf
-Fore
-692.142 684 m 1,0,-1
- 225.941 684 l 1,1,-1
- 242.387 778 l 1,2,-1
- 354.887 778 l 1,3,-1
- 376.055 899 l 1,4,-1
- 49.3545 899 l 1,5,-1
- 64.749 987 l 1,6,-1
- 499.094 1520 l 1,7,-1
- 725.894 1520 l 1,8,-1
- 633.698 993 l 1,9,-1
- 765.998 993 l 1,10,-1
- 749.555 899 l 1,11,-1
- 617.255 899 l 1,12,-1
- 596.087 778 l 1,13,-1
- 708.587 778 l 1,14,-1
- 692.142 684 l 1,0,-1
-392.498 993 m 1,15,-1
- 450.929 1327 l 1,16,-1
- 176.498 993 l 1,17,-1
- 392.498 993 l 1,15,-1
 EndSplineSet
 EndChar
 StartChar: Breve
