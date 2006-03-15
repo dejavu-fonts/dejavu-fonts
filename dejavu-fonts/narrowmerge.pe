@@ -22,8 +22,13 @@ endif
 Open(file, 1)
 i = 3
 while (i < $argc)
-  SelectMore(Strtol($argv[i]))
+  Select(Strtol($argv[i]))
+  ref_count = GlyphInfo("RefCount")
+  if (ref_count == 0)
+    Scale(scale, 100)
+  else
+    Print(GlyphInfo("Name"), " contains references: not scaled")
+  endif
   i++
 endloop
-Scale(scale, 100)
 Save(file + ".narrow")
