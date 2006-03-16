@@ -25,7 +25,7 @@ while (i < $argc)
   Select(Strtol($argv[i]))
   ref_count = GlyphInfo("RefCount")
   if (ref_count == 0)
-    Scale(scale, 100)
+    Scale(scale, 100, 0, 0)
   else
     Print(GlyphInfo("Name"), " contains references: not scaled")
   endif

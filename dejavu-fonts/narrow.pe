@@ -17,7 +17,7 @@ i = 2
 while (i < $argc)
   Open($argv[i], 1)
   SelectAll()
-  Scale(scale, 100)
+  Scale(scale, 100, 0, 0)
   # Panose changes are valid only for DejaVu fonts (I guess)
   SetPanose(3, 6)
   new_fontname = $fontname
