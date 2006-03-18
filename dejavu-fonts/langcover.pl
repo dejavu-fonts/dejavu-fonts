@@ -49,7 +49,7 @@ sub parse_orth_file($;$) {
   my ($orth_file, $lang) = @_;
 
   if (!defined $lang) {
-    ($lang) = ($orth_file =~ m,/(.*)\.,);
+    ($lang) = ($orth_file =~ m,/([^/]*)\.[^./]*$,);
     $lang =~ tr/_/-/;
   }
   # XXX some names in orth files have different language codes
