@@ -1,3 +1,56 @@
+Changes from 2.3 to 2.4:
+
+- added U+04A2, U+04A3, U+04AC - U+04AF, U+04BA, U+04BB, U+04C0 -
+  U+04C2, U+04CB, U+04CD, U+04D8 - U+04DF, U+04E2 - U+04E5, U+04E8 - U+04F5,
+  U+04F6 - U+04F9 to Mono (by Eugeniy Meshcheryakov)
+- added U+048C, U+048D, U+0494, U+0495, U+049E - U+04A7, U+04AC -
+  U+04AE, U+04B4- U+04B7, U+04BA, U+04BB, U+04C0 - U+04C4, U+04C7, U+04C8,
+  U+04CB, U+04CC, U+04D8 - U+04DF, U+04E2 - U+04E5, U+04EC - U+04F9 to Serif
+  (by Eugeniy Meshcheryakov)
+- added U+2134 to Sans (by Gee Fung Sit)
+- added U+2080 - U+2089 to all faces (by Gee Fung Sit)
+- several minor corrections to Sans (by Gee Fung Sit)
+- major corrections to Sans Condensed (by Gee Fung Sit)
+- corrected Superscripts and Subscripts in Sans (by Gee Fung Sit)
+- corrected anchors of U+0316-U+0319 (by Denis Jacquerye)
+- Verajja integrated (by Stepan Roh)
+- copied U+2328, U+2600, U+2639-U+263C, U+263F-U+2647, U+2660-U+2667,
+  and U+2669-U+266F from Sans to Serif, and copied scaled-down versions of
+  them to Sans Mono (by David Lawrence Ramsey)
+- added U+20B4 to all faces (by Eugeniy Meshcheryakov)
+- added more minor positional adjustments to U+2638 in all faces to
+  match the other miscellaneous symbols in Verajja, and rescale it in Sans
+  Mono so that it looks better (by David Lawrence Ramsey)
+- added U+2242, U+2243 and U+22A4 (by Mederic Boquien)
+- corrected U+2245 in Sans (by Mederic Boquien)
+- added U+0221, U+0234-0236 (by Denis Jacquerye)
+- added in Arabic block to Sans: U+060C, U+0615, U+061B, U+061F, U+0621
+- U+063A, U+0640 - U+0655, U+0660 - U+066F, U+0679 - U+0687, U+0698, U+06A1,
+  U+06A9, U+06AF, U+06BA, U+06BF, U+06CC, U+06F0 - U+06F9 (by Ben Laenen)
+- added in Arabic Presentation Forms A to Sans: U+FB52 - U+FB81, U+FB8A
+- U+FB95, U+FB9E - U+FB9F, U+FBE8 - U+FBE9, U+FBFC - U+FBFF (by Ben Laenen)
+- added complete Arabic Presentation Forms B to Sans: U+FE70 - U+FE74,
+  U+FE76 - U+FEFC, U+FEFF (by Ben Laenen)
+- added complete Greek Extended block to Mono (by Ben Laenen)
+- modified Greek capitals with tonos in Mono (by Ben Laenen)
+- added U+01C4-01CC, U+01D5, U+01DE, U+01E0-U+01E1, U+01E6-U+01E9,
+  U+01EE-U+01F5, U+01F8-U+0217, U+021E-U+021F, U+0226-U+022A, U+022C to Serif
+  (by Denis Jacquerye)
+- adjusted U+043B and U+044F in Serif (by Denis Jacquerye)
+- added U+2000-U+200A (by Denis Jacquerye)
+- added U+1E00-U+1E0B, U+1E0E-U+1E11, U+1E14-U+1E1C, U+1E1E-U+1E23,
+  U+1E26-U+1E2D, U+1E30-U+1E35, U+1E3A-U+1E3B, U+1E3E-U+1E40, U+1E48-U+1E49,
+  U+1E50-U+1E56, U+1E58-U+1E59, U+1E5E-U+1E60, U+1E68-U+1E6B, U+1E6E-U+1E6F,
+  U+1E72-U+1E7D, U+1E86-U+1E9B, U+1EA0-U+1EA3, U+1EAC-U+1EB7, U+1EBA-U+1EBD,
+  U+1EC6-U+1ECF, U+1ED8-U+1ED9, U+1EE6-U+1EE7, U+1EF4-U+1EF9 to Serif (by
+  Denis Jacquerye)
+- added U+048E, U+048F, U+049C-U+049F, U+04B8, U+04B9, U+04BC-U+04BF,
+  U+04C3, U+04C4 to Sans (by Eugeniy Meshcheryakov)
+- added DejaVu Sans Extra Light (by Denis Jacquerye)
+- Adjusted underline position for (hopefully) improved legibility in
+  Sans, Serif, Mono (Tim May)
+- added auto-generated DejaVu LGC (by Stepan Roh) 
+
 Changes from 2.2 to 2.3:
 
 - fixed bug U+042B and U+044B behave badly in Sans Bold or Oblique (by
