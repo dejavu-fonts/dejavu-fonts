@@ -3,7 +3,7 @@
 # $Id$
 
 # status.txt file generator
-# (c)2004 Stepan Roh
+# (c)2004 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./status.pl version_tag status_file sfd_files+
 #   will print new status file on standard output
 

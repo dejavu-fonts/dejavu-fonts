@@ -3,7 +3,7 @@
 # $Id$
 
 # SFD files merger
-# (c)2005 Stepan Roh
+# (c)2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./merge.pl sfd_from sfd_to sfd_out
 #  will merge sfd_to with sfd_from into the sfd_out (if there are some merges)
 #  will print merged glyph codes on stdout

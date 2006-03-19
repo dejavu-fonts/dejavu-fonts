@@ -3,7 +3,7 @@
 # $Id$
 
 # possible problems finder
-# (c)2004,2005 Stepan Roh
+# (c)2004,2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./problems.pl [-l <0|1|2|3>] sfd_files+
 
 # detected problems (higher levels contain lower levels):

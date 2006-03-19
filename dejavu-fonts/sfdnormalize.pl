@@ -3,7 +3,7 @@
 # $Id$
 
 # SFD normalizer (discards GUI information from SFD files)
-# (c)2004,2005 Stepan Roh
+# (c)2004,2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./sfdnormalize.pl sfd_file(s)
 #  will create files with suffix .norm
 

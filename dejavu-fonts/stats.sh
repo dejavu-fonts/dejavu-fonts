@@ -3,7 +3,7 @@
 # $Id$
 
 # DejaVu fonts statistics generator
-# (c)2005 Stepan Roh
+# (c)2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./stats.sh
 
 # Motto: "To proof that each task can be coded in very complicated way."

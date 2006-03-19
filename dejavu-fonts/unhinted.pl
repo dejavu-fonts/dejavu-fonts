@@ -3,7 +3,7 @@
 # $Id$
 
 # output (TT-)unhinted glyphs
-# (c)2005 Stepan Roh
+# (c)2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./unhinted.pl [-v] [-c] sfd_files+
 
 sub parse_sfd_file($$$);

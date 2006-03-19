@@ -3,7 +3,7 @@
 # $Id$
 
 # glyph comment colorizing
-# (c)2004 Stepan Roh
+# (c)2004 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./colorize.pl color sfd_files+ < glyph_codes_file
 #  will create files with suffix .color
 #  color is either none, yellow, green or hexadecimal 24bit value (0xff0000 is red)

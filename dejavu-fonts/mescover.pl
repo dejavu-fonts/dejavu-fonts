@@ -3,7 +3,7 @@
 # $Id$
 
 # MES coverage analyzer
-# (c)2005 Stepan Roh
+# (c)2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./mescover.pl mes_spec_file sfd_files+
 
 sub parse_mes_spec_file($);

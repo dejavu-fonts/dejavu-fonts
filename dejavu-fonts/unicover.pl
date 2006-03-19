@@ -3,7 +3,7 @@
 # $Id$
 
 # unicode coverage analyzator
-# (c)2004,2005 Stepan Roh
+# (c)2004,2005 Stepan Roh (PUBLIC DOMAIN)
 # usage: ./unicover.pl unicode_data_file blocks_file sfd_file1 label1 (sfd_file2 label2...)
 #  unicode data file can be downloaded from http://www.unicode.org/Public/UNIDATA/UnicodeData.txt
 #  blocks file can be downloaded from http://www.unicode.org/Public/UNIDATA/Blocks.txt
