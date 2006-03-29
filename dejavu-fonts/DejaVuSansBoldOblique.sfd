@@ -33,11 +33,12 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-ScriptLang: 4
+ScriptLang: 5
  3 cyrl 1 dflt grek 1 dflt latn 1 dflt 
  1 DFLT 1 dflt 
  1 latn 1 dflt 
  1 armn 1 dflt 
+ 1 latn 1 DNK  
 ChainSub: class 0 0 'ccmp' 4 4 4 2
   Class: 19 i j uni0268 uni029D
   Class: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
@@ -5779,8 +5780,9 @@ Fore
  64 0 l 1,19,-1
  354 1493 l 1,0,-1
 EndSplineSet
-AlternateSubs: 0 2 'salt' Eng.alt
-AlternateSubs: 0 2 'aalt' Eng.alt
+Substitution: 0 2 'salt' Eng.alt
+Substitution: 0 4 'locl' Eng.alt
+Substitution: 0 2 'aalt' Eng.alt
 EndChar
 StartChar: eng
 Encoding: 331 331 331
