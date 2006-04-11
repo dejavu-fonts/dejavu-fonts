@@ -33,13 +33,14 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-ScriptLang: 6
+ScriptLang: 7
  3 cyrl 1 dflt grek 1 dflt latn 1 dflt 
  1 DFLT 1 dflt 
  1 latn 1 dflt 
  1 armn 1 dflt 
  1 arab 1 dflt 
  1 latn 1 DNK  
+ 1 grek 1 dflt 
 ChainSub: class 0 0 'ccmp' 4 4 4 2
   Class: 19 i j uni0268 uni029D
   Class: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
@@ -2000,6 +2001,8 @@ Fore
  1221 908 1221 908 1221 639 c 2,11,-1
 EndSplineSet
 KernsSLIFO: 253 -63 2 0 255 -63 2 0 121 -63 2 0
+Substitution: 0 2 'salt' uni0251
+Substitution: 0 2 'aalt' uni0251
 EndChar
 StartChar: b
 Encoding: 98 98 98
@@ -15875,6 +15878,8 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 933 933 N 1 0 0 1 528 0 2
 Refer: 900 900 N 1 0 0 1 -402 0 2
+Substitution: 0 6 'salt' uni03D3
+Substitution: 0 6 'aalt' uni03D3
 EndChar
 StartChar: Omegatonos
 Encoding: 911 911 911
@@ -16087,6 +16092,8 @@ Width: 1483
 Flags: W
 TeX: 0 0 0 0
 Refer: 89 89 N 1 0 0 1 0 0 3
+Substitution: 0 6 'salt' Upsilon1
+Substitution: 0 6 'aalt' Upsilon1
 EndChar
 StartChar: Phi
 Encoding: 934 934 934
@@ -16178,6 +16185,8 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 933 933 N 1 0 0 1 0 0 3
 Refer: 65538 -1 N 1 0 0 1 1261 373 2
+Substitution: 0 6 'salt' uni03D4
+Substitution: 0 6 'aalt' uni03D4
 EndChar
 StartChar: alphatonos
 Encoding: 940 940 940
@@ -16282,6 +16291,8 @@ Fore
  515.7 1315.15 515.7 1315.15 515.7 1107 c 2,28,-1
  515.7 418 l 1,15,16
 EndSplineSet
+Substitution: 0 6 'salt' uni03D0
+Substitution: 0 6 'aalt' uni03D0
 EndChar
 StartChar: gamma
 Encoding: 947 947 947
@@ -16468,6 +16479,8 @@ Fore
  113 1148.7 113 1148.7 249.5 1360.19 c 0,32,33
  385.999 1571.69 385.999 1571.69 687 1571.69 c 0,18,19
 EndSplineSet
+Substitution: 0 6 'salt' theta1
+Substitution: 0 6 'aalt' theta1
 EndChar
 StartChar: iota
 Encoding: 953 953 953
@@ -16641,6 +16654,8 @@ Fore
  1303 864 l 17,0,0
  1303 362 l 2,3,4
 EndSplineSet
+Substitution: 0 6 'salt' omega1
+Substitution: 0 6 'aalt' omega1
 EndChar
 StartChar: rho
 Encoding: 961 961 961
@@ -16815,6 +16830,8 @@ Fore
  1127.93 728.791 1127.93 728.791 1100.5 805.5 c 0,2,3
  1077.87 867.855 1077.87 867.855 1040 864 c 24,0,1
 EndSplineSet
+Substitution: 0 6 'salt' phi1
+Substitution: 0 6 'aalt' phi1
 EndChar
 StartChar: chi
 Encoding: 967 967 967
