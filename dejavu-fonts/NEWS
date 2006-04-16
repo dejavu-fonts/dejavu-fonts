@@ -1,3 +1,48 @@
+Changes from 2.4 to 2.5:
+
+- fixed excessive kerning bug that occurs with Pango (by Denis Jacquerye)
+- added U+20AF to Sans and Serif (by Lars Naesbye Christensen)
+- regenerated Condensed faces (by Ben Laenen)
+- added U+035C-U+035D to Sans, fixed U+0361 (by Denis Jacquerye)
+- integrated 255 characters from Arev fonts: Latin Extended-B, Spacing
+  Modifiers, Combining Diacritical Marks, Cyrillic, Cyrillic supplement,
+  General Punctuation, Letterlike Symbols, Arrows, Mathematical Operators,
+  Miscellaneous Technical, Dingbats, Alphabetic Presentation Forms (by Denis
+  Jacquerye)
+- added basic Cyrillic and basic Greek to Sans ExtraLight (by Denis Jacquerye)
+- added U+0498, U+049A, U+04AA, U+04AB, U+04AF to Serif (by Eugeniy
+  Meshcheryakov)
+- added U+0494, U+0495, U+0498, U+0499, U+04AA, U+04AB, U+04C3, U+04C4,
+  U+04C7, U+04C8 to Mono (by Eugeniy Meshcheryakov)
+- adjusted weight of U+0256, U+0257, U+0260, U+0272, U+0273, U+0277, U+029B,
+  U+02A0 and modifed  U+028B and U+027A in Mono (by Denis Jacquerye)
+- added U+2000-200A to Mono (by Denis Jacquerye)
+- added vulgar fractions U+2153 - U+215F to Mono (by Gee Fung Sit)
+- adapted metrics of Arabic glyphs so they stay above cut-off height in Sans
+  (by Ben Laenen)
+- fixed mkmk anchors for Arabic diacritics so they stack properly in Sans (by
+  Ben Laenen)
+- fixed weight of lowercase upsilon in Sans Bold, make small adjustment to
+  lowercase omega in Sans (by Ben Laenen)
+- added U+210E (by Mederic Boquien)
+- unslanted U+2201, U+221B and U+221C in Sans Oblique (by Mederic Boquien)
+- added several mathematical relation symbols to Sans and Mono (U+2241-224C,
+  U+2250-2255, U+2260-2269, U+226E-2277, U+2282-2287) modified U+223C to match
+  other tildes, and U+2282-2284 to have the same shape. (by Remy Oudompheng)
+- made U+2234-U+2237 refer to U+2219 instead of U+00B7 in Sans (by Mederic
+  Boquien)
+- added U+2238-223B, U+226A-226B, U+2278-2281, U+2288-228B to Sans (by Remy
+  Oudompheng)
+- unslanted and changed reference of U+22C5 from U+00B7 to U+2219 in Sans (by
+  Mederic Boquien)
+- added U+224D-225F, U+226D, U+22C6 to Sans and unslanted U+2219 in Sans
+  Oblique. (by Remy Oudompheng)
+- added U+224D-225F, U+226D to Mono, shifted U+2266-2269 higher upwards and
+  unslanted U+2219 in Oblique. (by Remy Oudompheng)
+- merged Coptic glyphs from Arev 0.2 (by Lars Naesbye Christensen)
+- fixed and adjusted various Cyrillic glyphs in Serif (by Andrey V. Panov)
+- made fi, fl... ligatures discretionary ligatures (by Ben Laenen)
+
 Changes from 2.3 to 2.4:
 
 - added U+04A2, U+04A3, U+04AC - U+04AF, U+04BA, U+04BB, U+04C0 -
@@ -226,7 +271,7 @@ Changes from 1.14 to 1.15:
 - added U+2311, U+237D and U+2638 (by David Lawrence Ramsey)
 - added U+01CD - U+01D4 (by Denis Jacquerye)
 - fixed accents of U+00F2 - U+00F6 by replacing them with references in Mono
-  Bold (by David Je¾)
+  Bold (by David Jez)
 - added U+0490, U+0491 (by Eugeniy Meshcheryakov)
 - added hints to U+0404 and U+0454 in Sans (by Eugeniy Meshcheryakov)
 - completed Greek glyphs from U+0370 to U+03CF in Serif (by Ben Laenen)
