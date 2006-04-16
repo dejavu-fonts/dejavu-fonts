@@ -19740,7 +19740,7 @@ EndSplineSet
 EndChar
 StartChar: uni0461
 Encoding: 1121 1121 1121
-Width: 1495
+Width: 1543
 Flags: W
 TeX: 117 0 0 0
 Refer: 969 969 N 1 0 0 1 0 0 0
@@ -20499,10 +20499,10 @@ Refer: 1120 1120 N 1 0 0 1 0 0 0
 EndChar
 StartChar: uni047D
 Encoding: 1149 1149 1149
-Width: 1495
+Width: 1543
 Flags: W
 TeX: 117 0 0 0
-Refer: 1155 1155 N 1 0 0 1 1305 -22 0
+Refer: 1155 1155 N 1 0 0 1 1329 -22 0
 Refer: 1121 1121 N 1 0 0 1 0 0 0
 EndChar
 StartChar: uni047E
@@ -20529,23 +20529,23 @@ Refer: 1120 1120 N 1 0 0 1 0 0 0
 EndChar
 StartChar: uni047F
 Encoding: 1151 1151 1151
-Width: 1495
+Width: 1543
 Flags: W
 TeX: 117 0 0 0
 Fore
-1152.9 1504 m 9,1,-1
- 1062.9 1304.09 l 25,0,0
- 1017.9 1304 l 25,0,0
- 972.9 1404 l 25,0,0
- 815.4 1404.16 l 25,0,0
- 770.4 1304 l 25,0,0
- 725.4 1304 l 25,0,0
- 680.4 1404 l 25,0,0
- 522.9 1404 l 25,0,0
- 477.9 1304 l 25,0,0
- 432.9 1304 l 25,0,0
- 342.9 1504 l 17,0,-1
- 1152.9 1504 l 9,1,-1
+1176.9 1504 m 9,1,-1
+ 1086.9 1304.09 l 25,0,0
+ 1041.9 1304 l 25,0,0
+ 996.9 1404 l 25,0,0
+ 839.4 1404.16 l 25,0,0
+ 794.4 1304 l 25,0,0
+ 749.4 1304 l 25,0,0
+ 704.4 1404 l 25,0,0
+ 546.9 1404 l 25,0,0
+ 501.9 1304 l 25,0,0
+ 456.9 1304 l 25,0,0
+ 366.9 1504 l 17,0,-1
+ 1176.9 1504 l 9,1,-1
 EndSplineSet
 Refer: 1121 1121 N 1 0 0 1 0 0 0
 EndChar
@@ -66935,8 +66935,8 @@ Fore
  978.3 1556 978.3 1556 1148.4 1556 c 2,36,-1
  1305 1556 l 1,0,-1
 EndSplineSet
+Ligature: 0 2 'dlig' f f
 LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 2 'liga' f f
 EndChar
 StartChar: fi
 Encoding: 64257 64257 64257
@@ -66970,8 +66970,8 @@ Fore
  821.7 1321 l 1,25,-1
  821.7 1554 l 1,22,-1
 EndSplineSet
+Ligature: 0 0 'dlig' f i
 LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 0 'liga' f i
 EndChar
 StartChar: fl
 Encoding: 64258 64258 64258
@@ -67000,8 +67000,8 @@ Fore
  200.7 1385 200.7 1385 279 1470.5 c 128,-1,21
  357.3 1556 357.3 1556 527.4 1556 c 2,0,-1
 EndSplineSet
+Ligature: 0 0 'dlig' f l
 LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 0 'liga' f l
 EndChar
 StartChar: uniFB03
 Encoding: 64259 64259 64259
@@ -67051,9 +67051,9 @@ Fore
  1442.7 1321 l 1,45,-1
  1442.7 1554 l 1,42,-1
 EndSplineSet
+Ligature: 0 2 'dlig' ff i
+Ligature: 0 2 'dlig' f f i
 LCarets: 0 65535 '    ' 2 0 0 
-Ligature: 0 2 'liga' ff i
-Ligature: 0 2 'liga' f f i
 EndChar
 StartChar: uniFB04
 Encoding: 64260 64260 64260
@@ -67097,9 +67097,9 @@ Fore
  357.3 1556 357.3 1556 527.4 1556 c 2,38,-1
  684 1556 l 1,0,-1
 EndSplineSet
+Ligature: 0 2 'dlig' ff l
+Ligature: 0 2 'dlig' f f l
 LCarets: 0 65535 '    ' 2 0 0 
-Ligature: 0 2 'liga' ff l
-Ligature: 0 2 'liga' f f l
 EndChar
 StartChar: uniFB05
 Encoding: 64261 64261 64261
@@ -67143,6 +67143,7 @@ Fore
  591.3 1120 l 1,17,-1
  712.8 1120 l 1,18,-1
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 2 'hlig' longs t
 EndChar
 StartChar: uniFB06
@@ -67207,8 +67208,8 @@ Fore
  724.5 1258 724.5 1258 724.5 1194 c 0,90,91
  724.5 1133 724.5 1133 764.1 1087 c 1,1,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 2 'dlig' s t
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB13
 Encoding: 64275 64275 64275
