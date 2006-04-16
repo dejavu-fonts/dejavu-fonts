@@ -34715,63 +34715,63 @@ EndSplineSet
 EndChar
 StartChar: minute
 Encoding: 8242 8242 8242
-Width: 563
+Width: 465
 Flags: W
 Fore
-250 1506 m 1,0,-1
- 106 969 l 1,1,-1
- 270 925 l 1,2,-1
- 414 1462 l 1,3,-1
- 250 1506 l 1,0,-1
+40 1120 m 25,0,-1
+ 213 1493 l 25,1,-1
+ 416 1493 l 25,2,-1
+ 127 1120 l 25,3,-1
+ 40 1120 l 25,0,-1
 EndSplineSet
 EndChar
 StartChar: second
 Encoding: 8243 8243 8243
-Width: 888
+Width: 765
 Flags: W
 Refer: 8242 8242 N 1 0 0 1 0 0 2
-Refer: 8242 8242 N 1 0 0 1 325 0 2
+Refer: 8242 8242 N 1 0 0 1 300 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' minute minute
 EndChar
 StartChar: uni2034
 Encoding: 8244 8244 8244
-Width: 1213
+Width: 1065
 Flags: W
+Refer: 8242 8242 N 1 0 0 1 300 0 2
 Refer: 8242 8242 N 1 0 0 1 0 0 2
-Refer: 8242 8242 N 1 0 0 1 325 0 2
-Refer: 8242 8242 N 1 0 0 1 650 0 2
+Refer: 8242 8242 N 1 0 0 1 600 0 2
 LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'liga' minute minute minute
 EndChar
 StartChar: uni2035
 Encoding: 8245 8245 8245
-Width: 563
+Width: 465
 Flags: W
 Fore
-292 1506 m 1,0,-1
- 436 969 l 1,1,-1
- 272 925 l 1,2,-1
- 128 1462 l 1,3,-1
- 292 1506 l 1,0,-1
+416 1120 m 25,0,-1
+ 329 1120 l 25,3,-1
+ 40 1493 l 25,2,-1
+ 243 1493 l 25,1,-1
+ 416 1120 l 25,0,-1
 EndSplineSet
 EndChar
 StartChar: uni2036
 Encoding: 8246 8246 8246
-Width: 888
+Width: 765
 Flags: W
-Refer: 8245 8245 N 1 0 0 1 325 0 2
 Refer: 8245 8245 N 1 0 0 1 0 0 2
+Refer: 8245 8245 N 1 0 0 1 300 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' uni2035 uni2035
 EndChar
 StartChar: uni2037
 Encoding: 8247 8247 8247
-Width: 1213
+Width: 1065
 Flags: W
 Refer: 8245 8245 N 1 0 0 1 0 0 2
-Refer: 8245 8245 N 1 0 0 1 650 0 2
-Refer: 8245 8245 N 1 0 0 1 325 0 2
+Refer: 8245 8245 N 1 0 0 1 600 0 2
+Refer: 8245 8245 N 1 0 0 1 300 0 2
 LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'liga' uni2035 uni2035 uni2035
 EndChar
@@ -35271,28 +35271,10 @@ Encoding: 8279 8279 8279
 Width: 1358
 Flags: W
 TeX: 117 0 0 0
-Fore
-940 1120 m 25,0,-1
- 1113 1493 l 25,1,-1
- 1316 1493 l 25,2,-1
- 1027 1120 l 25,3,-1
- 940 1120 l 25,0,-1
-640 1120 m 25,0,-1
- 813 1493 l 25,1,-1
- 1016 1493 l 25,2,-1
- 727 1120 l 25,3,-1
- 640 1120 l 25,0,-1
-340 1120 m 25,0,-1
- 513 1493 l 25,1,-1
- 716 1493 l 25,2,-1
- 427 1120 l 25,3,-1
- 340 1120 l 25,0,-1
-40 1120 m 25,4,-1
- 213 1493 l 25,5,-1
- 416 1493 l 25,6,-1
- 127 1120 l 25,7,-1
- 40 1120 l 25,4,-1
-EndSplineSet
+Refer: 8242 8242 N 1 0 0 1 300 0 2
+Refer: 8242 8242 N 1 0 0 1 0 0 2
+Refer: 8242 8242 N 1 0 0 1 900 0 2
+Refer: 8242 8242 N 1 0 0 1 600 0 2
 EndChar
 StartChar: uni2058
 Encoding: 8280 8280 8280
