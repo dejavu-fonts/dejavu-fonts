@@ -33,7 +33,7 @@ foreach $enc (sort { $a <=> $b } keys %encmap) {
   my $char = $encmap{$enc};
   printf '%-16s %5d', $char, $enc;
   print ' kerning:';
-  my $kern = $chardata{$char}{'kernsslif'};
+  my $kern = $chardata{$char}{'kernsslifo'};
   if ($kern) {
     my @kern = split (/\s+/, $kern);
     my $kern_str;
