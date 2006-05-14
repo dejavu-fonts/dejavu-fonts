@@ -1,3 +1,43 @@
+Changes from 2.5 to 2.6:
+
+- redid U+2032 - U+2037, U+2057 based on Arev in Sans (by Gee Fung Sit)
+- added U+0195, corrected U+039E, U+204B in Sans ExtraLight (by Gee Fung Sit)
+- added instructions for some Cyrillic letters in Sans Bold (by Eugeniy
+  Meshcheryakov)
+- added vulgar fractions U+2153-U+215F for Serif, made with references (by
+  Lars Naesbye Christensen)
+- added U+228F-2292, U+2299-22AF, U+22B2-22B5, U+22CD, U+22D8-22ED to Sans
+  (by Remy Oudompheng)
+- added U+2208-220D, U+2238-223D, U+2278-2281, U+228A-228B, U+228F-2292,
+  U+22CD, U+22DA-22E9 to Mono (by Remy Oudompheng)
+- fixed misplaced dot in U+2250 in Mono (by Remy Oudompheng)
+- added instructions for some Cyrillic letters in Mono Book and Bold(by
+  Eugeniy Meshcheryakov)
+- minor changes to U+2241, U+2261-2263, U+22A4, U+22A5 in Sans (by Remy
+  Oudompheng)
+- added hinting instructions to lowercase Armenian glyphs in Sans Book (by
+  Ben Laenen)
+- changed U+2208, U+220B to match U+2209 and U+220C in Sans Bold (by Remy
+  Oudompheng)
+- added Braille patterns U+2800-U+28FF to Sans (by Mederic Boquien)
+- added instructions for some Cyrillic letters in Serif Book (by Eugeniy
+  Meshcheryakov)
+- renamed BoldOblique fonts to Bold Oblique in TTF Name as originally in
+  Bitstream Vera fonts (by Denis Jacquerye)
+- added hinting instructions to some Latin-B Extended and IPA characters in
+  Sans Book (by Denis Jacquerye and Ben Laenen)
+- adjusted bearings, replaced diacritics, hinted hook and horn for
+  Vietnamese in Sans Book (by Denis Jacquerye)
+- made FAX, TM, TEL, etc. discritionary ligatures in Sans and Serif fonts
+  (by Denis Jacquerye)
+- removed ligatures of precomposed characters in Sans and Serif fonts (by
+  Denis Jacquerye)
+- added U+F208, U+F20A, U+F215-F217, U+F21A-F21B, U+F25F in PUA (from SIL's
+  PUA, probably in Unicode 5.0): U+0243, U+0244, U+0245, U+024C, U+024D,
+  U+2C64, (U+2C6D), (U+2C71)
+- modified some glyphs in Serif Oblique to make them more italic (by Denis
+  Jacquerye)
+
 Changes from 2.4 to 2.5:
 
 - fixed excessive kerning bug that occurs with Pango (by Denis Jacquerye)
