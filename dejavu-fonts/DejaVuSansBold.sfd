@@ -126,7 +126,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-below" mark 1 4 4 0 "rtl-above" mark 1 4 5 0 "above-mark" mkmk 0 0 2 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
-BeginChars: 65612 3608
+BeginChars: 65620 3623
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -26964,15 +26964,15 @@ Fore
  463.2 1414.42 463.2 1414.42 510 1414.42 c 0,9,10
  556.08 1414.42 556.08 1414.42 587.761 1446.1 c 128,-1,11
  619.439 1477.78 619.439 1477.78 619.439 1523.86 c 0,0,1
-784 1524 m 0,12,13
+784 1524 m 128,-1,13
  784 1409 784 1409 704.5 1329 c 128,-1,14
- 625 1249 625 1249 510 1249 c 0,15,16
+ 625 1249 625 1249 510 1249 c 128,-1,16
  395 1249 395 1249 315.5 1329 c 128,-1,17
- 236 1409 236 1409 236 1524 c 0,18,19
+ 236 1409 236 1409 236 1524 c 128,-1,19
  236 1639 236 1639 315.5 1718.5 c 128,-1,20
- 395 1798 395 1798 510 1798 c 0,21,22
+ 395 1798 395 1798 510 1798 c 128,-1,22
  625 1798 625 1798 704.5 1718.5 c 128,-1,23
- 784 1639 784 1639 784 1524 c 0,12,13
+ 784 1639 784 1639 784 1524 c 128,-1,13
 EndSplineSet
 EndChar
 StartChar: uni0653
@@ -27018,6 +27018,25 @@ AnchorPoint: "rtl-below-mark" 512 0 mark 0
 AnchorPoint: "rtl-below-mark" 512 -550 basemark 0
 AnchorPoint: "rtl-below" 512 0 mark 0
 Refer: 1652 1652 N 1 0 0 1 213 -1814 2
+EndChar
+StartChar: uni065A
+Encoding: 1626 1626 1626
+Width: 1024
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 510 1650 basemark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+Fore
+398 1262 m 1,0,-1
+ 203 1588 l 1,1,-1
+ 382 1588 l 1,2,-1
+ 512 1393 l 1,3,-1
+ 642 1588 l 1,4,-1
+ 821 1588 l 1,5,-1
+ 626 1262 l 1,6,-1
+ 398 1262 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57392
 Encoding: 1632 1632 1632
@@ -27618,6 +27637,18 @@ Refer: 1557 1557 N 1 0 0 1 288 -450 2
 Refer: 1585 1585 N 1 0 0 1 0 0 2
 Substitution: 9 4 'fina' uniFB8D
 EndChar
+StartChar: uni0695
+Encoding: 1685 1685 1685
+Width: 1395
+VWidth: 1848
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+Refer: 1626 1626 N 1 0 0 1 722 -1762 2
+Refer: 1585 1585 N 1 0 0 1 0 0 2
+Substitution: 9 4 'fina' uni0695.fina
+EndChar
 StartChar: afii57508
 Encoding: 1688 1688 1688
 Width: 1179
@@ -27752,6 +27783,19 @@ Substitution: 9 4 'medi' uniFB95
 Substitution: 9 4 'init' uniFB94
 Substitution: 9 4 'fina' uniFB93
 EndChar
+StartChar: uni06B5
+Encoding: 1717 1717 1717
+Width: 1777
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 800 -450 basechar 0
+AnchorPoint: "rtl-above" 1414 2100 basechar 0
+Refer: 1626 1626 N 1 0 0 1 902 400 2
+Refer: 1604 1604 N 1 0 0 1 0 0 2
+Substitution: 9 4 'medi' uni06B5.medi
+Substitution: 9 4 'init' uni06B5.init
+Substitution: 9 4 'fina' uni06B5.fina
+EndChar
 StartChar: afii57514
 Encoding: 1722 1722 1722
 Width: 1748
@@ -27796,6 +27840,17 @@ Substitution: 9 4 'medi' uni06BF.medi
 Substitution: 9 4 'init' uni06BF.init
 Substitution: 9 4 'fina' uni06BF.fina
 EndChar
+StartChar: uni06C6
+Encoding: 1734 1734 1734
+Width: 1273
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 625 -450 basechar 0
+AnchorPoint: "rtl-above" 625 1600 basechar 0
+Refer: 1626 1626 N 1 0 0 1 113 -100 2
+Refer: 1608 1608 N 1 0 0 1 0 0 2
+Substitution: 9 4 'fina' uniFBDA
+EndChar
 StartChar: uni06CC
 Encoding: 1740 1740 1740
 Width: 1877
@@ -27807,6 +27862,19 @@ Refer: 1609 1609 N 1 0 0 1 0 0 2
 Substitution: 9 4 'medi' uniFBFF
 Substitution: 9 4 'init' uniFBFE
 Substitution: 9 4 'fina' uniFBFD
+EndChar
+StartChar: uni06CE
+Encoding: 1742 1742 1742
+Width: 1877
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 550 1250 basechar 0
+AnchorPoint: "rtl-below" 850 -300 basechar 0
+Refer: 1626 1626 N 1 0 0 1 38 -450 2
+Refer: 1609 1609 N 1 0 0 1 0 0 2
+Substitution: 9 4 'medi' uni06CE.medi
+Substitution: 9 4 'init' uni06CE.init
+Substitution: 9 4 'fina' uni06CE.fina
 EndChar
 StartChar: uni06F0
 Encoding: 1776 1776 1776
@@ -73028,6 +73096,26 @@ Fore
  1521.16 543.058 1521.16 543.058 1529.32 524.561 c 24,0,0
 EndSplineSet
 EndChar
+StartChar: uniFBD9
+Encoding: 64473 64473 64473
+Width: 1273
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 625 -450 basechar 0
+AnchorPoint: "rtl-above" 625 1600 basechar 0
+Refer: 1608 1608 N 1 0 0 1 0 0 2
+Refer: 1626 1626 N 1 0 0 1 113 -100 2
+EndChar
+StartChar: uniFBDA
+Encoding: 64474 64474 64474
+Width: 1284
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 625 1250 basechar 0
+AnchorPoint: "rtl-below" 625 -550 basechar 0
+Refer: 1626 1626 N 1 0 0 1 113 -450 2
+Refer: 65262 65262 N 1 0 0 1 0 0 2
+EndChar
 StartChar: uniFBE8
 Encoding: 64488 64488 64488
 Width: 769
@@ -76631,6 +76719,107 @@ Fore
  312 -29 312 -29 208.5 -3 c 128,-1,15
  105 23 105 23 0 74 c 1,0,-1
 EndSplineSet
+EndChar
+StartChar: uni0695.fina
+Encoding: 65612 -1 65612
+Width: 1395
+VWidth: 1848
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+Refer: 1626 1626 N 1 0 0 1 722 -1762 2
+Refer: 65613 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFEAE.fina.longstart
+Encoding: 65613 -1 65613
+Width: 1395
+VWidth: 1848
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+AnchorPoint: "rtl-above" 800 750 basechar 0
+Fore
+1011.69 26 m 1,0,1
+ 990.056 -55.4802 990.056 -55.4802 952 -112 c 0,2,3
+ 824.565 -301.265 824.565 -301.265 602 -399 c 0,4,5
+ 372 -500 372 -500 -85 -500 c 9,6,-1
+ -85 -244 l 17,7,8
+ 223.998 -244 223.998 -244 380 -176 c 0,9,10
+ 533.86 -108.933 533.86 -108.933 613 0 c 0,11,12
+ 686.092 100.609 686.092 100.609 684.345 284 c 0,13,14
+ 683.532 428.956 683.532 428.956 632 550 c 1,15,-1
+ 990 550 l 1,16,17
+ 1001.33 516.133 1001.33 516.133 1010.1 484 c 8,18,19
+ 1044.02 359.484 1044.02 359.484 1102 300 c 0,20,21
+ 1146.14 256 1146.14 256 1219 256 c 10,22,-1
+ 1415 256 l 25,23,-1
+ 1415 0 l 25,24,-1
+ 1164 0 l 18,25,26
+ 1078.27 0 1078.27 0 1011.69 26 c 1,0,1
+EndSplineSet
+EndChar
+StartChar: uni06B5.fina
+Encoding: 65614 -1 65614
+Width: 1828
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 1414 2100 basechar 0
+AnchorPoint: "rtl-below" 800 -450 basechar 0
+Refer: 1626 1626 N 1 0 0 1 902 400 2
+Refer: 65246 65246 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06B5.init
+Encoding: 65615 -1 65615
+Width: 769
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+AnchorPoint: "rtl-above" 418 2100 basechar 0
+Refer: 1626 1626 N 1 0 0 1 -94 400 2
+Refer: 65247 65247 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06B5.medi
+Encoding: 65616 -1 65616
+Width: 836
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 418 2100 basechar 0
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+Refer: 1626 1626 N 1 0 0 1 -94 400 2
+Refer: 65248 65248 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06CE.fina
+Encoding: 65617 -1 65617
+Width: 2072
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 750 1050 basechar 0
+AnchorPoint: "rtl-below" 850 -350 basechar 0
+Refer: 1626 1626 N 1 0 0 1 238 -650 2
+Refer: 65264 65264 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06CE.init
+Encoding: 65618 -1 65618
+Width: 769
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 418 1200 basechar 0
+AnchorPoint: "rtl-below" 418 -420 basechar 0
+Refer: 1626 1626 N 1 0 0 1 -94 -500 2
+Refer: 64488 64488 N 1 0 0 1 0 0 2
+Refer: 65549 -1 N 1 0 0 1 218 -340 2
+EndChar
+StartChar: uni06CE.medi
+Encoding: 65619 -1 65619
+Width: 836
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 418 1200 basechar 0
+AnchorPoint: "rtl-below" 418 -420 basechar 0
+Refer: 1626 1626 N 1 0 0 1 -94 -500 2
+Refer: 64489 64489 N 1 0 0 1 0 0 2
+Refer: 65549 -1 N 1 0 0 1 218 -340 2
 EndChar
 EndChars
 EndSplineFont
