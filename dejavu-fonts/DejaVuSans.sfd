@@ -117,7 +117,7 @@ AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-below" mark 1 4 4 0 "rtl-above" mark 1 4 5 0 "above-mark" mkmk 0 0 2 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
-BeginChars: 65620 3623
+BeginChars: 65621 3627
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -28081,6 +28081,17 @@ Refer: 1557 1557 N 1 0 0 1 188 -450 2
 Refer: 1585 1585 N 1 0 0 1 0 0 2
 Substitution: 9 4 'fina' uniFB8D
 EndChar
+StartChar: uni0692
+Encoding: 1682 1682 1682
+Width: 989
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 700 1200 basechar 0
+AnchorPoint: "rtl-below" 500 -500 basechar 0
+Refer: 1626 1626 N 1 0 0 1 188 -450 2
+Refer: 1585 1585 N 1 0 0 1 0 0 2
+Substitution: 9 4 'fina' uni0692.fina
+EndChar
 StartChar: uni0695
 Encoding: 1685 1685 1685
 Width: 1250
@@ -35567,6 +35578,18 @@ Encoding: 8202 8202 8202
 Width: 204
 Flags: W
 TeX: 117 0 0 0
+EndChar
+StartChar: uni200B
+Encoding: 8203 8203 8203
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+EndChar
+StartChar: afii61664
+Encoding: 8204 8204 8204
+Width: 0
+Flags: W
+TeX: 0 0 0 0
 EndChar
 StartChar: uni2010
 Encoding: 8208 8208 8208
@@ -77305,6 +77328,16 @@ AnchorPoint: "rtl-below" 299 -350 basechar 0
 Refer: 1626 1626 N 1 0 0 1 -213 -500 2
 Refer: 65550 -1 N 1 0 0 1 99 -300 2
 Refer: 64489 64489 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni0692.fina
+Encoding: 65620 -1 65620
+Width: 1130
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 500 -500 basechar 0
+AnchorPoint: "rtl-above" 700 1200 basechar 0
+Refer: 1626 1626 N 1 0 0 1 188 -450 2
+Refer: 65198 65198 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
