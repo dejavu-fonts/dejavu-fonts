@@ -1,3 +1,25 @@
+Changes from 2.6 to 2.7:
+-  added glyphs needed for Kurdish: U+0695, U+06B5, U+06C6, U+06CE and their init/medi/fina forms in Sans (by Ben Laenen)
+- added U+02CD, U+01F8 - U+01F9, U+1E3E - U+1E3F, U+1E30 - U+1E35, U+1EBC - U+1EBD, U+1EF8 - U+1EF9 (includes glyphs needed for Yoruba, Maori, Guarani and Twi) (by Ben Laenen)
+- added U+22C8-22CC, U+29CE-29D5, U+2A7D-2AA0, U+2AAE-2ABA, U+2AF9-2AFA to Sans (by Remy Oudompheng)
+- adjusted diacritics on Vietnamese, Pinyin and other characters: U+01A0-U+01A1, U+01AF-U+01B0, U+01D5-U+01DC, U+01DE-01E1, U+01FA-U+01FB U+022A-U+022D, U+0230-U+0231, U+1E14-U+1E17, U+1E4C-U+1E53, U+1E78-U+1E7B, U+1EA4-U+1EF1 in Sans (Book, Bold and Oblique) (by Denis Jacquerye)
+- added basic arrows U+2190-U+2193 in Serif, which completes MES-1 compliance for Serif (by Ben Laenen)
+- added U+01E4, U+01E5, U+01FA, U+01FB, U+02BD, U+02C9 and U+02EE to Serif (by Ben Laenen)
+- fixed U+0209 in Serif Bold Oblique (by Ben Laenen)
+- adjusted Box Drawing block characters U+2500-257F in Mono to fit character cell, shifting them up by 416 (Denis Jacquerye)
+- redid U+0194 in Sans (by Ben Laenen)
+- added U+2217-2218, U+2295-22A1 to Mono (by Remy Oudompheng)
+- added U+0462 to Serif (by Andrey V. Panov)
+- added U+226C, U+228C-228E, U+2293-2294, U+22F2-22FF to Sans (by Remy Oudompheng)
+- adjusted U+2208-220D in Sans (by Remy Oudompheng)
+- improved some Cyrillic glyphs in Mono (by Andrey V. Panov), rewritten instructions for changed glyphs (by Eugeniy Meshcheryakov)
+- added U+1E0E-1E0F, U+1E8E-1E8F to Mono fonts (by Denis Jacquerye). (bug #7166)
+- renamed 'Dotabove' to 'Dotaccent' in Mono Sans Oblique to match other fonts (by Denis Jacquerye).
+- added U+200B-U+200F in Sans faces and Serif faces, U+200B and U+200C were in Sans already (by Lars Naesbye Christensen)
+- added U+2601-U+262F, U+263D, U+263E, U+2648-U+265F, U+2668, U+2670-U+268B, U+2690-U+269C, U+26A0, U+26A1, U+2794, U+2798-U+27AF, U+27B1-U+27BE to Mono (by Heikki Lindroos)
+- replaced the references with unshifted ones for both κ U+03BA and к U+043A in Mono Book (by Denis Jacquerye)
+- fixing glyph for U+04ED in Mono Book, consisted only of dieresis (by Andrey V. Panov). 
+
 Changes from 2.5 to 2.6:
 
 - redid U+2032 - U+2037, U+2057 based on Arev in Sans (by Gee Fung Sit)
