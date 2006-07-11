@@ -36,8 +36,8 @@ OS2Vendor: 'PfEd'
 ScriptLang: 4
  3 cyrl 1 dflt grek 1 dflt latn 1 dflt 
  1 DFLT 1 dflt 
- 1 cyrl 1 dflt 
  1 cyrl 1 SRB  
+ 1 latn 1 dflt 
 ChainSub: class 0 0 'ccmp' 4 4 4 2
   Class: 3 i j
   Class: 181 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E
@@ -110,7 +110,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65549 2308
+BeginChars: 65549 2318
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -141,6 +141,9 @@ StartChar: exclam
 Encoding: 33 33 33
 Width: 740
 Flags: W
+TtfInstrs: 36
+5S=S0@0p<M@M0.O&.JgD$ighO&B*):r59070`VdGo_cW]
+EndTtf
 Fore
 251.1 104 m 0,0,1
  251.1 160 251.1 160 285.3 199 c 128,-1,2
@@ -229,6 +232,10 @@ StartChar: dollar
 Encoding: 36 36 36
 Width: 1172
 Flags: W
+TtfInstrs: 102
+5WK#X'IEr+%k]Fb%h96QALnuI,mS!#*?$R^?nro5+>+QG!s],4&./mL"s=1#/0u8<!"&o?(BQ?'
+oYg+7(GaM$lk&Rrm2%MhmP+\Qj>,4I`9]8/`";>lf#A9:^_%1q3A:F5
+EndTtf
 Fore
 621 68 m 1,0,1
  722.7 78 722.7 78 776.25 133 c 128,-1,2
@@ -277,6 +284,10 @@ StartChar: percent
 Encoding: 37 37 37
 Width: 1751
 Flags: W
+TtfInstrs: 98
+5Vj_h-R:&b"!o9?9akbR#&5ajC*XF,(a^;3-mWL`,o$q<#m1\H+VbD)#n/='!t6ml1_B<G`74,b
+mage<&igO:3ACLFj>-?i`9\''f'X+;0M>>H#7q(+#7q(+=X!hG
+EndTtf
 Fore
 413.1 1427 m 0,0,1
  333.9 1427 333.9 1427 289.35 1344 c 128,-1,2
@@ -325,6 +336,12 @@ StartChar: ampersand
 Encoding: 38 38 38
 Width: 1640
 Flags: W
+TtfInstrs: 192
+5\1E7!Y5\N2)[<"&2lF(!W`B(&1K(X#RLP;!"^V0.8;ZL$ii0d/JT]V0eI;s#At%oC`[+3DB!:#
+?oDp1.4-/e/hJ+u1("FI/H?n7!>Qpu2[V;_%j!;51+!PR(^(=(&e-f3oYg+G`9\''&FL+F^_%2>
+3=ula&ihra&igO:3B7Za3ACLemc=*0rpC?cf'Y:+3B7^4&NMj33A=*)=9fBIm1C-p#7qC4&JmG4
+&-_G+&.\(>(HGVB
+EndTtf
 Fore
 995.4 231 m 1,0,-1
  471.6 844 l 1,1,2
@@ -391,6 +408,9 @@ StartChar: parenleft
 Encoding: 40 40 40
 Width: 719
 Flags: W
+TtfInstrs: 28
+5Rdr-!![EQ"onuB!s/rDo_cW_0`Vd_bW.[;
+EndTtf
 Fore
 587.7 -319 m 1,0,1
  369 -210 369 -210 257.4 26.5 c 128,-1,2
@@ -409,6 +429,9 @@ StartChar: parenright
 Encoding: 41 41 41
 Width: 719
 Flags: W
+TtfInstrs: 27
+5R[ku!!mQS$P<UD":c!m`%p[6!"f(P3B8bn
+EndTtf
 Fore
 130.5 -319 m 1,0,-1
  130.5 -221 l 1,1,2
@@ -480,6 +503,9 @@ StartChar: comma
 Encoding: 44 44 44
 Width: 585
 Flags: W
+TtfInstrs: 28
+5R[_p#QtG>!!Nu8!soOg`9\*s0`Vd7bW.[;
+EndTtf
 Fore
 66.5996 -199 m 1,0,1
  151.2 -130 151.2 -130 190.8 -36.5 c 128,-1,2
@@ -511,6 +537,9 @@ StartChar: period
 Encoding: 46 46 46
 Width: 585
 Flags: W
+TtfInstrs: 56
+Zjd3>!"9Fgr5;74'2_l=$3C25"?\dX4?Qb$!42i:$"+/Qo^#5T'2_l="T\]5#<Y*[4?Qb#
+EndTtf
 Fore
 173.7 104 m 0,0,1
  173.7 160 173.7 160 207.9 199 c 128,-1,2
@@ -542,6 +571,9 @@ StartChar: zero
 Encoding: 48 48 48
 Width: 1172
 Flags: W
+TtfInstrs: 35
+5SF-/$jL8UBaeAd!sTJS#mLnJ(_H?+o^":4&ENKM&FM4P
+EndTtf
 Fore
 585.9 70 m 0,0,1
  723.6 70 723.6 70 792 238 c 128,-1,2
@@ -591,6 +623,10 @@ StartChar: two
 Encoding: 50 50 50
 Width: 1172
 Flags: W
+TtfInstrs: 77
+5TpOM!"TM=F95tkAHccWG7bMu$l8mN!>bqG%LNaJ&do]koYf8GeEdb7&NMj30`Wlpp?qqJ&B#/@
+3A<]+7LDTm7LVa#7MQ(->lXj)
+EndTtf
 Fore
 235.8 1137 m 1,0,-1
  135 1137 l 1,1,-1
@@ -621,6 +657,10 @@ StartChar: three
 Encoding: 51 51 51
 Width: 1172
 Flags: W
+TtfInstrs: 77
+5V!-]AKMS-&nMkj*tKfB!+dKg")/9R.j,l>*@!!?!$_[P)?pTa$31\?.hM?km*tCOlk&Rs3B9)[
+0`VdGo^)MB&B=/;mL\eH0E;(Q
+EndTtf
 Fore
 179.1 1430 m 1,0,1
  284.4 1474 284.4 1474 381.15 1497 c 128,-1,2
@@ -692,6 +732,11 @@ StartChar: five
 Encoding: 53 53 53
 Width: 1172
 Flags: W
+TtfInstrs: 173
+5U?L:*I&K6"qYkeAJA\[$itPP@LQWe*>&>[*WQu\#p'Zc%g!jbo^'NGm)0J'&NMQG&ENKM&B=/;
+mL]BY&ihWH9<\_%9<\e'>>)12<*NJ<!$M<W!!*'B!$D8,3"\)/=TM1"&l_N.'3&1<]`9/T5QCfb
++93Pa^c2ob3*AKn%g*=F%g<IJ%gNUN%iGlr%iZ$!%il0%$kE=K!?V:`!A=F+!<ug0>lXj)
+EndTtf
 Fore
 927 1493 m 1,0,-1
  927 1329 l 1,1,-1
@@ -724,6 +769,10 @@ StartChar: six
 Encoding: 54 54 54
 Width: 1172
 Flags: W
+TtfInstrs: 99
+5U$U:#%\;FAJH;'*dJuA)eg$p-6NX:('=aR'at9Q"W.Uo&G5>Uo^)5:0`VdGo^)MB&FS-;&NMO1
+,matd%1r^S"V:kL#8%4T$kj']%M0-^&.oL'$n2W\+&3qR+VJ&\
+EndTtf
 Fore
 603 70 m 0,0,1
  729.9 70 729.9 70 798.3 173.5 c 128,-1,2
@@ -780,6 +829,10 @@ StartChar: eight
 Encoding: 56 56 56
 Width: 1172
 Flags: W
+TtfInstrs: 62
+5U%Hj"(`2RAKD@n.VTr30I.JD&d9Wk"YB]Y)\iP]-QrjO&G3p-o^()o&FL,j3ACLFjRhdMmaged
+3A:F5
+EndTtf
 Fore
 858.6 408 m 0,0,1
  858.6 568 858.6 568 787.05 656.5 c 128,-1,2
@@ -822,6 +875,10 @@ StartChar: nine
 Encoding: 57 57 57
 Width: 1172
 Flags: W
+TtfInstrs: 93
+5U6=J+CtWgC_D"0AIek]AI3&]?mZQp&c`+\"Ul+d"qh[U$RQGWjQuO*lk&S>!"e5`m)0J'rpC?c
+&NMO1)]o)&!ZqLd"<Rdh*ZlIG+<MaK,!cl.'L<HC>lXj)
+EndTtf
 Fore
 862.2 669 m 1,0,1
  801.9 594 801.9 594 723.6 557 c 128,-1,2
@@ -857,6 +914,9 @@ StartChar: colon
 Encoding: 58 58 58
 Width: 621
 Flags: W
+TtfInstrs: 31
+5S!s*#o-kZ$"+S_"oo&3(_G1ZlnU9q&EM@-&FM4P
+EndTtf
 Fore
 191.7 104 m 0,0,1
  191.7 160 191.7 160 226.35 199 c 128,-1,2
@@ -882,6 +942,9 @@ StartChar: semicolon
 Encoding: 59 59 59
 Width: 621
 Flags: W
+TtfInstrs: 34
+5S+"t#QtcK$j7:O!"T5G!u2Bsr7('f!"d)ulk%H&3A:F5
+EndTtf
 Fore
 66.5996 -199 m 1,0,1
  151.2 -130 151.2 -130 190.8 -36.5 c 128,-1,2
@@ -962,6 +1025,10 @@ StartChar: question
 Encoding: 63 63 63
 Width: 988
 Flags: W
+TtfInstrs: 60
+5TggE@0mbc+UfE''b>!b?m>jU!#lgh'`e:N&g78a![A9Km)7Dllk&RrmP+\QjRgCWeAMpD&H9X&
+
+EndTtf
 Fore
 324 104 m 0,0,1
  324 160 324 160 358.65 199 c 128,-1,2
@@ -996,6 +1063,10 @@ StartChar: at
 Encoding: 64 64 64
 Width: 1843
 Flags: W
+TtfInstrs: 109
+5W_:u91:4',RaZG749D`%7PRL96q+p5QcBZH7K;L(j[\k:+%G&%S.NC5n!`4%NH*%4U)lI)a,nW
+:(['9r9P!orU)Er&FL,C3B8eo&CeYrlk'0p4RVVKm_f\M3=ula3=ula&J@)a0E;(Q
+EndTtf
 Fore
 1164.6 248 m 1,0,1
  1111.5 166 1111.5 166 1045.35 126 c 128,-1,2
@@ -1095,6 +1166,10 @@ StartChar: B
 Encoding: 66 66 66
 Width: 1354
 Flags: W
+TtfInstrs: 69
+5URTXD[@-iD\ljr!,i0m&eGBT!>lk'"TSuA)[$Wo((ql!!"fng,nT_81?:4?m*tA6(HFK90`Wln
+ln\5"1(`k60E;(Q
+EndTtf
 AnchorPoint: "below" 668.7 0 basechar 0
 AnchorPoint: "above" 668.7 1465 basechar 0
 Fore
@@ -1137,6 +1212,9 @@ StartChar: C
 Encoding: 67 67 67
 Width: 1410
 Flags: W
+TtfInstrs: 56
+5T:VZ!!<d^%qHAl$u#fO*YAnn-64H6(Cg`t*Y@u1eElho0`VdGo^)MB&B=,lZk+<t*s)IK
+EndTtf
 AnchorPoint: "below" 746.1 0 basechar 0
 AnchorPoint: "above" 746.1 1465 basechar 0
 Fore
@@ -1169,6 +1247,10 @@ StartChar: D
 Encoding: 68 68 68
 Width: 1477
 Flags: W
+TtfInstrs: 61
+5T't8D[p4`!,i/K!>Q+F":c%R#p]K_$R$8so^(WoeEdc-3B9)S!&*[oo^"=e5RB+\:D\NtT,.V2
+>lXj)
+EndTtf
 AnchorPoint: "below" 668.7 0 basechar 0
 AnchorPoint: "above" 668.7 1465 basechar 0
 Fore
@@ -1275,6 +1357,10 @@ StartChar: G
 Encoding: 71 71 71
 Width: 1472
 Flags: W
+TtfInstrs: 71
+5U$UK#n:e`$#UFWIiW&%DAm4'?lo@Z*=`Ji*@;=%%MpE5&G5>=jSZq-mP+\QjRhg:lk&U9mL_H>
+0X`)H0Ha.6!s)[-
+EndTtf
 AnchorPoint: "below" 770.4 0 basechar 0
 AnchorPoint: "above" 770.4 1465 basechar 0
 Fore
@@ -1376,6 +1462,10 @@ StartChar: J
 Encoding: 74 74 74
 Width: 738
 Flags: W
+TtfInstrs: 109
+5T9t>#lt$:"`=q^$#^2\&qUi"%fd"`%M9$R'bJm5r8cAo0`VdOo^"=Emf(3<3B8bo9<\b&=M4\L
+!'gMb!#5JKs1gT+2`OsG0GX[p!DBX,<(jG+<*NJ<!#>OL!!*'7!#5K!3"\)/=TAF%
+EndTtf
 AnchorPoint: "below" 168.3 -430 basechar 0
 AnchorPoint: "above" 391.5 1465 basechar 0
 Fore
@@ -1552,6 +1642,9 @@ StartChar: O
 Encoding: 79 79 79
 Width: 1511
 Flags: W
+TtfInstrs: 44
+5S='7$jLSdBaeAm!tH7V%MC'2&G5>=lnJJOjRhdMmP)(V,&\Zu+p.jO
+EndTtf
 AnchorPoint: "below" 756 0 basechar 0
 AnchorPoint: "above" 756 1465 basechar 0
 Fore
@@ -1586,6 +1679,10 @@ StartChar: P
 Encoding: 80 80 80
 Width: 1240
 Flags: W
+TtfInstrs: 67
+5Tp,G'nZo"D[p4m$?$4U!>Q+J(aB"`%MB3W,Sg@l$R$E"o^"?o1=YY%jq0U63B8eo0CCUhmP=e0
+0X>%)!<HI+
+EndTtf
 AnchorPoint: "below" 365.4 0 basechar 0
 AnchorPoint: "above" 668.7 1465 basechar 0
 Fore
@@ -1660,6 +1757,11 @@ StartChar: R
 Encoding: 82 82 82
 Width: 1387
 Flags: W
+TtfInstrs: 136
+5Y)7i#m1SA&-E%;#7q"@"&0%(!#u(D*,c4;,84u1@M'%PD\!$W)'^.0#Qu7["9elF('#He"pGkS
+,Rbe*)&*W-*"3Dl+XI]lln[WWeEdb-&AZ'n&ihra3>+=a&f3P?3ACLe4ROs[p?j^8mLhMm3>+>+
+92ept&-_G+&-_G5(HGVB
+EndTtf
 AnchorPoint: "below" 657.9 0 basechar 0
 AnchorPoint: "above" 657.9 1465 basechar 0
 Fore
@@ -1703,6 +1805,13 @@ StartChar: S
 Encoding: 83 83 83
 Width: 1262
 Flags: W
+TtfInstrs: 295
+5XH\>![Jp#$OdCa*s*H*&.AsT9a_@P+TrP]IfO!_DC63L'kA5#&nr_$.Nf*-+WUh)%i#-V!!k"g
+#:(<=!"T,\&G3p-eE#s-mL\du&ihs43ACLFjRhg:lk&UamL^6q0M>>H#7qC4&JmG4&.\(>(HGVB
+Z4JMe!F7qu+=f,r:b-K8J1Ce/!DBX0<(jG/<*N#"'NA:=]`9M^5QCfb.KCsu^c2ob3*ALg-jhC2
+.1@X7.3Bu].3U,a3!hSP3X[tW3Xn(Z3?C4'3ZpI,3?gF-8IA#s8dn9#80:DG8KgYL=UJ:>=U\FB
+=Wgij=X%SeC^OtdC^b(gCEI@8Ca!U=Bd7s3HOG0/HOY61HQRSWHQd_[Gp>8@/$LN*>l\.1
+EndTtf
 AnchorPoint: "below" 631.8 0 basechar 0
 AnchorPoint: "above" 631.8 1465 basechar 0
 Fore
@@ -1776,6 +1885,10 @@ StartChar: U
 Encoding: 85 85 85
 Width: 1553
 Flags: W
+TtfInstrs: 110
+5U?gC)%uuVKbb70"9SXB%g$2U?lB+m"V)dd%hL!!!@.g\!$N6lo^(YgjS\'Mj=pWGjRbS$(GZQi
+&NMj33A@f^)djTd!F5_!YS'o.YS0u?=M4\Q!'gMb!#bhUs1gT+2`OsIO;ji3!aPd+
+EndTtf
 AnchorPoint: "below" 812.7 0 basechar 0
 AnchorPoint: "above" 812.7 1465 basechar 0
 Fore
@@ -2102,6 +2215,11 @@ StartChar: a
 Encoding: 97 97 97
 Width: 1098
 Flags: W
+TtfInstrs: 126
+5VF'"$Q/pU$itYlP6d3_+c[e,*fhY,'4;5p%K[LO!$Np<%4iD.!%/-X)BoqH.1l-im*tAW1?9#7
+&J@)a0`WlpjSnT@jq-tSmL_H>&NLIa0L-lp.W6e].)7;8H76Q0^]M:R`!"!^`!4-p`"p9-^_jj)
+^`!Yf!F5[*
+EndTtf
 AnchorPoint: "below" 512.1 0 basechar 0
 AnchorPoint: "above" 512.1 1092 basechar 0
 Fore
@@ -2144,6 +2262,10 @@ StartChar: b
 Encoding: 98 98 98
 Width: 1179
 Flags: W
+TtfInstrs: 71
+5U@QW&JYBJ*g?pIPR[_?"*"<e%U]R$&fV_s2%p$B'bLQr!&,T.o^"=gj>-Ao0`WlnjQug2&FL+t
+&JmGf0X?0Q!<HI+
+EndTtf
 AnchorPoint: "above" 295.2 1536 basechar 0
 AnchorPoint: "below" 656.1 10 basechar 0
 Fore
@@ -2181,6 +2303,9 @@ StartChar: c
 Encoding: 99 99 99
 Width: 1032
 Flags: W
+TtfInstrs: 53
+5T0Wj(QSY-QOK,kNsUaI?lKS-$lT*[)?qZ1&G5>=bgbu6!"e5hm/62]ro>c=D]AcY>lXj)
+EndTtf
 AnchorPoint: "below" 554.4 10 basechar 0
 AnchorPoint: "above" 554.4 1092 basechar 0
 Fore
@@ -2210,6 +2335,10 @@ StartChar: d
 Encoding: 100 100 100
 Width: 1179
 Flags: W
+TtfInstrs: 79
+5UI6L&/>9I)3bRPPQqeH'6+"u#@J""!YR%!&-F9\/-%OI)@@r<&G5>]jSV,&j=pWfm,[O2lk&Rr
+mL^6q3A<])!$`%"Ij;0B"9Dd.
+EndTtf
 AnchorPoint: "above" 884.7 1536 basechar 0
 AnchorPoint: "below" 512.1 0 basechar 0
 Fore
@@ -2247,6 +2376,10 @@ StartChar: e
 Encoding: 101 101 101
 Width: 1090
 Flags: W
+TtfInstrs: 78
+5TTt4'm]icR0AW[(lnZd&r[6,*!cic)?:]W)@n;;&G5<EeEk]/0`VdGr9Wb]ro=XY&ihX2&g/2[
+*If(3cN)8lcN;E-cPm$n!F5[*
+EndTtf
 AnchorPoint: "below" 545.4 0 basechar 0
 AnchorPoint: "above" 545.4 1092 basechar 0
 Fore
@@ -2278,6 +2411,10 @@ StartChar: f
 Encoding: 102 102 102
 Width: 682
 Flags: W
+TtfInstrs: 113
+5UH^O!"oWb#QPhINu;pK%!iTnS.5i7!A+9\$O8$Z2A6TP'bN,?&G/*G1?A?q`";>K3ACLemP=2c
+rpJ@W&FM:d3B8e!Nue<&>ldU&'i\;K!$2*T!!*'?!$)&)3"\)/=gqc=?i^<n*W]OH>lXj)
+EndTtf
 AnchorPoint: "below" 307.8 0 basechar 0
 AnchorPoint: "above" 508.5 1536 basechar 0
 Fore
@@ -2314,6 +2451,10 @@ StartChar: g
 Encoding: 103 103 103
 Width: 1179
 Flags: W
+TtfInstrs: 102
+5Vjqk%fm=T*$>>4!.#Y7PS4=o#7QXr,Es()'4:s6*Ln\f/I*=J+<1n>!&Z)A#<*DJ/J.R8m.BX"
+1?9#70`VdOm,\*2&FSE;&FL+t&JmG?3B7^40L,pE/eBXb0!Hr2!F5[*
+EndTtf
 AnchorPoint: "below" 543.6 -430 basechar 0
 AnchorPoint: "above" 543.6 1092 basechar 0
 Fore
@@ -2358,6 +2499,10 @@ StartChar: h
 Encoding: 104 104 104
 Width: 1187
 Flags: W
+TtfInstrs: 111
+5V*ff#7U\MKaIp."`YIo%Kc`X$B,Mr&NpdI/-ZV9'.45M"=tGq-NG\!0HLetjQnY_o^(WMj:LB,
+!&$J&mM@YVmL\du3B9)[0X`VVIikm:!s)[.9<].1=M4\Us1eU8!$2+]!'iLU2`Oq?
+EndTtf
 AnchorPoint: "below" 605.7 0 basechar 0
 AnchorPoint: "above" 295.2 1537 basechar 0
 Fore
@@ -2428,6 +2573,10 @@ StartChar: j
 Encoding: 106 106 106
 Width: 571
 Flags: W
+TtfInstrs: 105
+5U%6\(CUBP(D[sN'+#(n%\+3'*uHRF!!<E@2@h/E/.=3S&G5&]jOEN-mP+\Qm/64g&FS,h&C(k#
+3B8e%0-FXFE$,5`>ldU&'i\;K!$D6V!!*'A!$;2+3"\)/=gW5dEu4rY>lXj)
+EndTtf
 AnchorPoint: "below" 106.2 -430 basechar 0
 AnchorPoint: "above" 295.2 1536 basechar 0
 Fore
@@ -2533,6 +2682,11 @@ StartChar: m
 Encoding: 109 109 109
 Width: 1747
 Flags: W
+TtfInstrs: 169
+5X?M2'+G'K.f]YV*>!o,-[I53,p=*>$O$c]/d%%W('ssY'+-l2+tOiB/.<m158QI#-P\0G5:A'4
++=AEc-87.co]5?ojRhO2jRhg"&EFD`&J@)Y!&$GsmP=2H1B-\QmP5@j3>X\05RTe3?SZOTO>=$q
+"T_m09<].1=M4\hs1eU8!&4I.!'iLU2`Or*'/'\G$SN;L(s`Q8$dTX8(r.m5>lXj)
+EndTtf
 AnchorPoint: "above" 886.5 1092 basechar 0
 AnchorPoint: "below" 886.5 0 basechar 0
 Fore
@@ -2584,6 +2738,10 @@ StartChar: n
 Encoding: 110 110 110
 Width: 1187
 Flags: W
+TtfInstrs: 112
+5V<9N'H.)V!>gFs"*t-@)\NV_!I>*3&-*;*'-&P-%kJAA%6=VC)?qPh/-7LH&G5&M1?A)oj:LA`
+j=pWf4RVVR1ApPOmL^'J3A@lp++GB:*s2OL!DBX3<*6g6*rj"U!<=/@*WSGb&N;[P
+EndTtf
 AnchorPoint: "below" 605.7 0 basechar 0
 AnchorPoint: "above" 534.6 1092 basechar 0
 Fore
@@ -2620,6 +2778,9 @@ StartChar: o
 Encoding: 111 111 111
 Width: 1109
 Flags: W
+TtfInstrs: 43
+5SF-Y$jMb*N!s)2!u_nB#oX=((_H?+o^":4&ENcU&FM6Z+;o)8!WcR,
+EndTtf
 AnchorPoint: "below" 554.4 0 basechar 0
 AnchorPoint: "above" 554.4 1092 basechar 0
 Fore
@@ -2648,6 +2809,10 @@ StartChar: p
 Encoding: 112 112 112
 Width: 1179
 Flags: W
+TtfInstrs: 85
+5V)p9&KLr_"I'f6H4M2@H6<QZ'T<r<+G(,o,TeQ;#9"C9+V$%D&-+'e0I.5%lnU?W1A'oEj=pWG
+m-Ng2lk&S?&FL+t&JmGf0XQ<UYU'>O>lXj)
+EndTtf
 AnchorPoint: "below" 295.2 -430 basechar 0
 AnchorPoint: "above" 638.1 1092 basechar 0
 Fore
@@ -2687,6 +2852,10 @@ StartChar: q
 Encoding: 113 113 113
 Width: 1179
 Flags: W
+TtfInstrs: 83
+5V"&a',L`N+I!35H5$M`H35(M&<$s("+h5W,QoY7'*]g!!\==/*?#A:,S9V7o].e*4?V[Z!"eM`
+jS\?UmP5@A&FL,H3B8e#IjM<F!WcR,
+EndTtf
 AnchorPoint: "above" 512.1 1092 basechar 0
 AnchorPoint: "below" 884.7 -430 basechar 0
 Fore
@@ -2726,6 +2895,11 @@ StartChar: r
 Encoding: 114 114 114
 Width: 881
 Flags: W
+TtfInstrs: 149
+5U$I?'*SC:%seff"W!%+$$m2R$OR.@/H?>5&dTin/.O?O&G5&M1??sO&B$:'0CJ6`rl2qhmL[AM
+3>"8*5WB;T&-3=D&-EIH&-WU[&/Gfn&/[&=5QF%M5QX1Q5Qj=U6kqs&5Sl[&'`\77!Y>AD![%Ld
+!X;p2>ldU&'i\;K!#bgP!!*';!#Yc%3"\)/=TAF%
+EndTtf
 AnchorPoint: "below" 295.2 0 basechar 0
 AnchorPoint: "above" 496.8 1092 basechar 0
 Fore
@@ -2758,6 +2932,12 @@ StartChar: s
 Encoding: 115 115 115
 Width: 945
 Flags: W
+TtfInstrs: 217
+5X?V=![JpQ$k"*u!Z`CI$OdD;$Oe.$";V$3!2'LV-PiBjTGik(N$i!_+:AT$*=*H5'cfIK#U^?V
+,Q]P.!(A@KoYg+GjQmHG&FL,C3B9)[0`VdGr9X(B&FT8[&JmG]92ept&.\(>(HD^1m1C-p=X(-o
+.ffZV5ZfBU-Qjc[-R'o_=peF@=q"RD=s$oj=s7&n=<iPBL*23oL*D?sQ62D8Q6DP<Q6W7KVBD`Z
+VBVl^*C)-)/$BYj'sACV(U"[Z)8?m#'u(O!(V^g%)%KpP>lXj)
+EndTtf
 AnchorPoint: "below" 473.4 0 basechar 0
 AnchorPoint: "above" 473.4 1092 basechar 0
 Fore
@@ -2798,6 +2978,10 @@ StartChar: t
 Encoding: 116 116 116
 Width: 740
 Flags: W
+TtfInstrs: 104
+5TLXJ!"]U#'Ee[AH3OG@'OVa_&.npo#mD[Y!&#0#oK;IqjODC60`VdGr&j=$`";pd&NMj*!DBX+
+<*6g6(]Zf$!<<r:)#qB2&N;[P5SXG-"UGhJ'aQ,k-3u7BIi4:bT,@uA
+EndTtf
 AnchorPoint: "above" 281.7 1536 basechar 0
 AnchorPoint: "below" 462.6 0 basechar 0
 Fore
@@ -2828,6 +3012,10 @@ StartChar: u
 Encoding: 117 117 117
 Width: 1187
 Flags: W
+TtfInstrs: 117
+5U%!V"q1qT!egpt%=/NbS-`R+!%\oi-Nbn#3Y!\P-O_XH&G5>Mo]5p4j=pWfjSV.,1(`k/&NMj3
+3A:J,YR=E4]`8rN5QCfb)?:]U^c2ob3*EV<)mC7_>ldU&'i\;K!#kmQ!!*'<!#bi&3"\)/=TAF%
+EndTtf
 AnchorPoint: "below" 534.6 0 basechar 0
 AnchorPoint: "above" 525.6 1092 basechar 0
 Fore
@@ -2983,6 +3171,13 @@ StartChar: y
 Encoding: 121 121 121
 Width: 1041
 Flags: W
+TtfInstrs: 259
+5Zn,[!W`fA)]Snt!1sc4%LWUF$(h\<%LA[3#S.FU#X/P#!<N9*"p,#n!WiBs#TWsW)?9gS'cN,G
+%1*4@!dY4WS._A5!Yl1P#m^b>!<<B9$l:K1$j.L]eATl'&NLXf&NMQG&FB<Wlk_DgmafAi3>"7`
+&ihX=;cj89"mm*]#7q1.#7q1.#7q(+(GZ4,%daiE3<oiW=X(-V%KQT95["s8=TN4;GQ@pP%i#X)
+"XsX*$7ZE2%OVc6&6Js3!`]D#"]Yb'##bb-$<@OJ!Fu7>"^hOF#Bg)k!I+Zp"+CAp"`sro$$Zl'
+%=&G+%s8G,&U#(9)g32L>l\.1
+EndTtf
 AnchorPoint: "below" 514.8 -430 basechar 0
 AnchorPoint: "above" 514.8 1092 basechar 0
 Fore
@@ -3047,6 +3242,10 @@ StartChar: braceleft
 Encoding: 123 123 123
 Width: 1172
 Flags: W
+TtfInstrs: 94
+5VO&d'ak3h#oX?i$O%Xr*=6cp!-8/UEt`O:$4.+C,m>P0!##DK'EJ1O+;lO;"XO`04R=g7^qdb$
+^q^RC3=ul?3ACLer9Vr"eEf1-3B7Za3B7Za3=ula3A:F5
+EndTtf
 Fore
 942.3 -229 m 1,0,-1
  942.3 -334 l 1,1,-1
@@ -3099,6 +3298,10 @@ StartChar: braceright
 Encoding: 125 125 125
 Width: 1172
 Flags: W
+TtfInstrs: 91
+5VEN])%Rel#TFKd)%Qln"<2D"!-9@qEtNBp*#TY0&.\dA"=40V)]BG5'dj@l,nSQglnT-f^q^Np
+(HE'?3B8eo0Dt1dm*tA63B7Za3B7[3&igO:3B8bn
+EndTtf
 Fore
 230.4 -229 m 1,0,-1
  293.4 -229 l 2,1,2
@@ -3136,6 +3339,10 @@ StartChar: asciitilde
 Encoding: 126 126 126
 Width: 1544
 Flags: W
+TtfInstrs: 62
+5TgdU)%m/Y$NpJC%iG`T&d4sI$_n=S'bglW"998K(E="Ylk_Z:!"dZHeEda^&J@)93=ula3=ula
+3A:F5
+EndTtf
 Fore
 1349.1 807 m 1,0,-1
  1349.1 659 l 1,1,2
@@ -3167,6 +3374,9 @@ StartChar: exclamdown
 Encoding: 161 161 161
 Width: 740
 Flags: W
+TtfInstrs: 33
+5S+D3@0:3P%fm+O"oo&3%2'5jeAV:'&FM7Q0D>Ca0E;(Q
+EndTtf
 Fore
 251.1 1389 m 0,0,1
  251.1 1445 251.1 1445 285.3 1483.5 c 128,-1,2
@@ -3230,6 +3440,10 @@ StartChar: sterling
 Encoding: 163 163 163
 Width: 1172
 Flags: W
+TtfInstrs: 76
+5U[HS#QP>C'FJme!$28S)efq+%"K*!&.&RB$31MB%i#[J$O77['-@e84R=ia1=Y[?lk)64!&)8G
+m-OB2eAMpd1(_A9&ihs+
+EndTtf
 Fore
 991.8 1225 m 1,0,-1
  897.3 1225 l 1,1,2
@@ -3265,6 +3479,10 @@ StartChar: currency
 Encoding: 164 164 164
 Width: 1172
 Flags: W
+TtfInstrs: 111
+5Wohg!uh@p*WRQ2$ORR]">CGs/IrjA!WrHH/Is3P0HLi8!!Fbs*?5b,">Cc0.MrHo,RXq[!s0_P
+.MsiNeBHFd^_]!D3B7Za3B7]g3=ul?3ACLFeBHFd&AT)B&J@)a&f3P?&ihra(HF/L
+EndTtf
 Fore
 810.9 985 m 1,0,-1
  999 1192 l 1,1,-1
@@ -3383,6 +3601,10 @@ StartChar: section
 Encoding: 167 167 167
 Width: 921
 Flags: W
+TtfInstrs: 107
+5W]/R!!=&Z1H>RI-mpQa,Rk.oDa.q]63RPq"ooJr";Dn1%QP4*.45g%4>0;M%L`Y9+WDd28j#!5
+64ie-m)7Dlm*s5jmL\dtc4L[L&J@)9(HE'?3ACLF`:WEG`";@f`Xs"I(HF/L
+EndTtf
 Fore
 341.1 936 m 1,0,1
  279.9 890 279.9 890 255.15 848.5 c 128,-1,2
@@ -3436,6 +3658,11 @@ StartChar: dieresis
 Encoding: 168 168 168
 Width: 921
 Flags: W
+TtfInstrs: 122
+5RJ,.$ih+T'a"aZ&CfLbbV9)/e3(r10E=bM$<0[&%9-P)YS'o>9<](/>?JQ=(]Zf$!<<r:)#qB2
+&N;[P!DBX)<(jG(<*N#"%ocb8]`8oL^]4B8(]YBQ5WB?73*?8TYROQ6]`8oLJ,fTM(]YBQJ2e-"
+3*?4]
+EndTtf
 Fore
 285.3 1569 m 0,0,1
  328.5 1569 328.5 1569 359.55 1534.5 c 128,-1,2
@@ -3462,6 +3689,10 @@ StartChar: copyright
 Encoding: 169 169 169
 Width: 1843
 Flags: W
+TtfInstrs: 77
+5V!6T#lq"BVumL0&Z?!<WBU]g1Su+f5GfeB"r[IO$rTMe+U1e(9-I"]9+]V>r9P!orQ`p<&C*!1
+0CJi=m1AXrro=Xij:N"b0E;(Q
+EndTtf
 Fore
 1238.4 573 m 1,0,1
  1214.1 442 1214.1 442 1132.65 371.5 c 128,-1,2
@@ -3523,6 +3754,10 @@ StartChar: ordfeminine
 Encoding: 170 170 170
 Width: 875
 Flags: W
+TtfInstrs: 113
+5Wf#g&/G`Z-6=60\-"61+1Mfn.42P,#Ssug\.c@X],PH9.2N@7,6TIt!"L4V()I#n%g6#8,?Yfj
+!\FuU`9c"?1,?cZc4L[L&J@)9&igO:3ACLFo^(rBj:K8tc2R,Bc4KCU3>"7`&igRb0E;(Q
+EndTtf
 Fore
 754.2 1219 m 2,0,-1
  754.2 840 l 1,1,-1
@@ -3626,6 +3861,11 @@ StartChar: registered
 Encoding: 174 174 174
 Width: 1843
 Flags: W
+TtfInstrs: 153
+5ZAF2&d&j\:(.R?&5EZD$r%<B%1*$5'H._rW#-&C0cUFs'HX.uVELb1VF_4,2\7/I&I/=>(CVK0
+#m;&@'`^uL),M7T:*N@j91'Xl.n`6(:K7tUm/62]rr)6rj>-]sjq0U6&igR@3>+=a3B8eo0CJi=
+rPn7\&H+`Z1,9F/3>+>40M>>H#7q(+#7q(+&JmH1+ohTC
+EndTtf
 Fore
 805.5 791 m 1,0,-1
  918 791 l 2,1,2
@@ -3717,6 +3957,9 @@ StartChar: degree
 Encoding: 176 176 176
 Width: 921
 Flags: W
+TtfInstrs: 26
+5RRc2!"<Q\#nd=W)\CNCeBBWI&G42rbV0"s
+EndTtf
 Fore
 460.8 1382 m 0,0,1
  392.4 1382 392.4 1382 345.6 1329.5 c 128,-1,2
@@ -3772,6 +4015,10 @@ StartChar: twosuperior
 Encoding: 178 178 178
 Width: 738
 Flags: W
+TtfInstrs: 107
+5W0%e&eblb!=9.M',)!Q!Z;=Q"UbtD%`8nf`=N$e)8Zs#"_\k_$O@CS$NLrI#Rq:V!!*-@&G42r
+eBHG/&NMj3&J@)Y!"ee`r8\Fg`oI^l3=ula&ihX=;cj89%daiE3<p*!m9(V5
+EndTtf
 Fore
 153 1296 m 1,0,-1
  90 1296 l 1,1,-1
@@ -3802,6 +4049,10 @@ StartChar: threesuperior
 Encoding: 179 179 179
 Width: 738
 Flags: W
+TtfInstrs: 82
+5V*Na%fdpY#p7#)'>kX'%k5CC_@OF&`WKm)+<Ch0,:NU;>Qu*O$kr[S!\4iS`6?`teEdal&NMj3
+3ACLFo]5*2j:M=O&FMOj&igO:3A:F5
+EndTtf
 Fore
 112.5 1468 m 1,0,1
  178.2 1494 178.2 1494 238.5 1507 c 128,-1,2
@@ -3859,6 +4110,11 @@ StartChar: mu
 Encoding: 181 181 181
 Width: 1197
 Flags: W
+TtfInstrs: 127
+5VjDs"r\-`"9KKq#n[Vm%iuC1'`aa*H4PT6?j%#`'FlZ&!%],o-Nbn#3YX+\$muZA+;"231?A)g
+r&j$Oj:N"b0`Wlfm-aj8mP5@A1(`jc&igO:3B9)RZ4J/[!F5_!YR=E4]`9/T5QCfb+93Pa^c2ob
+3*EP:+TYjK
+EndTtf
 Fore
 665.1 1063 m 1,0,-1
  974.7 1063 l 1,1,-1
@@ -3920,6 +4176,9 @@ StartChar: periodcentered
 Encoding: 183 183 183
 Width: 585
 Flags: W
+TtfInstrs: 18
+[g?IF$jH\3$kUqT0`Vd7lnAD>
+EndTtf
 Fore
 171 711 m 0,0,1
  171 767 171 767 205.65 805.5 c 128,-1,2
@@ -3936,6 +4195,9 @@ StartChar: cedilla
 Encoding: 184 184 184
 Width: 921
 Flags: W
+TtfInstrs: 34
+5S"/*$4X`S!##Y=!so&@'G/d<`"G'C3ACLeeGR5t3A:F5
+EndTtf
 Fore
 520.2 0 m 1,0,1
  577.8 -64 577.8 -64 606.15 -120 c 128,-1,2
@@ -3983,6 +4245,9 @@ StartChar: ordmasculine
 Encoding: 186 186 186
 Width: 866
 Flags: W
+TtfInstrs: 44
+5Sk=U!4WHL#.P:[*#K1m)$="V$!@c?*"_c/eEf1-&ihZH&G5>em+ff=
+EndTtf
 Fore
 432.9 813 m 0,0,1
  528.3 813 528.3 813 576.45 892.5 c 128,-1,2
@@ -4072,6 +4337,9 @@ StartChar: questiondown
 Encoding: 191 191 191
 Width: 988
 Flags: W
+TtfInstrs: 56
+5TUaW('@tO+Uf),AIi/TBd3f^!#5MN+TVuj)A3)r&G5>=m*tCOlnJJOjRhfWeAMpt`=U<K
+EndTtf
 Fore
 700.2 1389 m 0,0,1
  700.2 1333 700.2 1333 665.55 1294 c 128,-1,2
@@ -4147,6 +4415,13 @@ StartChar: Aring
 Encoding: 197 197 197
 Width: 1331
 Flags: W
+TtfInstrs: 247
+5[b(3&J>ZcA.9"]&eQQ@![hLk&LM$#&ePTb$k==#*XrZ&*[M@>*[2g1,S2%>*_d+c&d]k&$j.=T
+$"bP0*s3'm+V,h?+<)^V-4pXi.MX6R%0IOZ&fq5W)^#>"+:fq5eATk\&Ceu;3B9)3(HE'?(HE'?
+3B8eo00JY=1?QU-c4KCV3B9)R92ept&-_G;1'\!M#6jK"&.%Y.&-_G+"mm*]#7q1.#7q(+=X(-^
+)$'_C5WUOu0**1!+9iqn0+0*8.1II6+VPt4+;H"70,cJ_0,uSb/flG`-m^5f'b:?V!tPMF(Cq?5
+%PJ:s>le42
+EndTtf
 AnchorPoint: "above" 657.9 1907 basechar 0
 Fore
 798.3 1626 m 0,0,1
@@ -4316,6 +4591,10 @@ StartChar: Eth
 Encoding: 208 208 208
 Width: 1487
 Flags: W
+TtfInstrs: 77
+5U@$LJ.N)&#B(Ae%KLDV&KVAg#6=oI(B=RJ)AN],#QPGM%j;u*oK;Iqj>,6O&NMif3=ula0`Wln
+1A'oge3*(Q0XNMUJ0+gn>lXj)
+EndTtf
 Fore
 462.6 106 m 1,0,-1
  631.8 106 l 2,1,2
@@ -4425,6 +4704,10 @@ StartChar: Oslash
 Encoding: 216 216 216
 Width: 1511
 Flags: W
+TtfInstrs: 115
+5WTu<%4`b=$4-\8*?ZdF":YG_-6<V6)?Xk(Bc:A1+"SWd'Gh<'*[;=*#lk)K.1c\6&.TK\%O38N
+&G5>=m(a2G3B7m9&ihra&ihra&ihZH&ENKM&FR=F^_%1q3>X[g3=ula0Xb=?D_7V6!s)[-
+EndTtf
 AnchorPoint: "above" 756 1465 basechar 0
 AnchorPoint: "below" 756 0 basechar 0
 Fore
@@ -4511,6 +4794,10 @@ StartChar: Thorn
 Encoding: 222 222 222
 Width: 1245
 Flags: W
+TtfInstrs: 77
+5UH_S&cchf&.EIe@N,Ym)$pNK)&!,m%jM&W%MfK[,T76p&ITa'&G5<E1?:4?lk&55&NMj33ACLe
+`9oDSmP5@Af'Y5t?QT:L>lXj)
+EndTtf
 Fore
 455.4 434 m 1,0,-1
  693 434 l 2,1,2
@@ -4547,6 +4834,12 @@ StartChar: germandbls
 Encoding: 223 223 223
 Width: 1231
 Flags: W
+TtfInstrs: 181
+5W]f7/f=a9"q(EW&L/JINunIb&Ire&?jV,a(_m#`&K*&M/en@3/Kton0`WR5.OQ2["t'[-*"`N3
+1_B;t`8pj7&FL+teF!n9&J@)a&igOa&J@)Y!&*d$rl4@;mafAhmQ!9?(HFK05XYo1(bHOV0/[,M
+?kRB8O#71C!!!T2&c`RF'Ef-S('cJr0Ej021&s*A!"]_R&eG]g'GM8s()SV=0,6/U0b?)O1DsI!
+>lXj)
+EndTtf
 Fore
 846 1210 m 1,0,1
  838.8 1329 838.8 1329 776.25 1393.5 c 128,-1,2
@@ -4640,6 +4933,11 @@ StartChar: ae
 Encoding: 230 230 230
 Width: 1732
 Flags: W
+TtfInstrs: 175
+5Xtf*1+FOe(*""r1'fmd.KOi0179eV#`f[`%NLKMN@LD[)36-gN&D/R5QV)s,V'Q4!$!R25:[WP
+1,BXF3>s@N)BBD>5S3S+m*tC?1=XMZmP5@A&J@):3B7^40`VdG1Aj9$1@4Yo&E`E[j:L_jmL^'l
+&J@)93=ula3A<]H%mb,"!l+iP!l+oV"N1J^#/h(k&]><t'>P<t(!eAU/'fcm3R9o%>le42
+EndTtf
 AnchorPoint: "above" 833.4 1097 basechar 0
 AnchorPoint: "below" 833.4 5 basechar 0
 Fore
@@ -4770,6 +5068,10 @@ StartChar: eth
 Encoding: 240 240 240
 Width: 1109
 Flags: W
+TtfInstrs: 97
+5VjuC.jlSe+pT8%-lrJO)[VQ??lOnME@rgo&e$!/(a0;8-l=!N.h;ae$lTaH"r\=./eI[Ao^!/+
+3>+>4&igRb3=ula3ACLFm-OB2&FMOk3B7m90XMrUD_D.m>lXj)
+EndTtf
 Fore
 738.9 928 m 1,0,1
  698.4 937 698.4 937 661.95 941.5 c 128,-1,2
@@ -4866,6 +5168,9 @@ StartChar: divide
 Encoding: 247 247 247
 Width: 1544
 Flags: W
+TtfInstrs: 39
+5SF6.#o-kZ)KH-$*#T@n!#Q+E*"^U^`;Da90`Vd7`;J-O&FM4P
+EndTtf
 Fore
 652.5 1012 m 0,0,1
  652.5 1068 652.5 1068 687.15 1106.5 c 128,-1,2
@@ -4896,6 +5201,11 @@ StartChar: oslash
 Encoding: 248 248 248
 Width: 1109
 Flags: W
+TtfInstrs: 129
+5X-bK-6F9I'+,$G"<AU6'EejI.OH2GNuA+]-B&jN/0?Df.MN[1+<Da@$4-\8"t:?"*?tb=&/l?Q
+"r\^9/.hI?o^'@*&igO:3>*,g&NMi`&ihra&ihZH&ENcU&FR=F^_%1q3>X[f&igO:3A<]*+>%L`
+!d=Wh'*;G?>lXj)
+EndTtf
 Fore
 756 879 m 1,0,1
  721.8 936 721.8 936 671.4 964.5 c 128,-1,2
@@ -4979,6 +5289,10 @@ StartChar: thorn
 Encoding: 254 254 254
 Width: 1179
 Flags: W
+TtfInstrs: 83
+5Uuj8&KLu]PS=7b)Bp5K+:WW-E>i4-JeX.h+"RBs)Ab7S%P/V3!%/40,S9V71,@oGo^!.M0`VdO
+m,\*2&FM:bmL\du3B9)[0X@o/!<HI+
+EndTtf
 Fore
 378 584 m 2,0,-1
  378 479 l 2,1,2
@@ -5141,42 +5455,17 @@ StartChar: Dcroat
 Encoding: 272 272 272
 Width: 1487
 Flags: W
-Fore
-462.6 106 m 1,0,-1
- 631.8 106 l 2,1,2
- 893.7 106 893.7 106 1034.1 272 c 128,-1,3
- 1174.5 438 1174.5 438 1174.5 748 c 0,4,5
- 1174.5 1058 1174.5 1058 1034.55 1222 c 128,-1,6
- 894.6 1386 894.6 1386 631.8 1386 c 2,7,-1
- 462.6 1386 l 1,8,-1
- 462.6 844 l 1,9,-1
- 765 844 l 1,10,-1
- 765 719 l 1,11,-1
- 462.6 719 l 1,12,-1
- 462.6 106 l 1,0,-1
-110.7 0 m 1,13,-1
- 110.7 106 l 1,14,-1
- 281.7 106 l 1,15,-1
- 281.7 719 l 1,16,-1
- 101.7 719 l 1,17,-1
- 101.7 844 l 1,18,-1
- 281.7 844 l 1,19,-1
- 281.7 1386 l 1,20,-1
- 110.7 1386 l 1,21,-1
- 110.7 1493 l 1,22,-1
- 645.3 1493 l 2,23,24
- 992.7 1493 992.7 1493 1186.65 1296 c 128,-1,25
- 1380.6 1099 1380.6 1099 1380.6 748 c 0,26,27
- 1380.6 396 1380.6 396 1186.2 198 c 128,-1,28
- 991.8 0 991.8 0 645.3 0 c 2,29,-1
- 110.7 0 l 1,13,-1
-EndSplineSet
+Refer: 208 208 N 1 0 0 1 0 0 2
 KernsSLIFO: 86 -36 0 0 46 -73 0 0 45 38 0 0 44 -73 0 0
 EndChar
 StartChar: dcroat
 Encoding: 273 273 273
 Width: 1179
 Flags: W
+TtfInstrs: 100
+5VaA`&01ir!#ZGr)\F6X%4@AF'm^[9!."lX%?(?$,ShpO'G(?K-Q3":(]ZE=)@@rD&G5>]4QJ9q
+(Hgaj3ACLem,[O2lk&RrmaXGf1(b-83B8cY#llIe.t9(R.g,lY
+EndTtf
 Fore
 967.5 106 m 1,0,-1
  1125.9 106 l 1,1,-1
@@ -5351,6 +5640,11 @@ StartChar: Hbar
 Encoding: 294 294 294
 Width: 1607
 Flags: W
+TtfInstrs: 129
+5TV$^,QT5%,S1n9(*jM:!>-=h#Rgh]"!eEi$3hY%&G/*O1,@oG1=SGQ1,@oG1(`M%&EGT$5SbSp
+!#H:Z!t0#^%:UV,*<QI`!.H!m!&$J&mM@YP4RO"@&FMdj)%$t+#93dH$NUhP3A3KWlnU=M5RAP^
+E%-;d^F99d>lXj)
+EndTtf
 Fore
 455.4 870 m 1,0,-1
  1152 870 l 1,1,-1
@@ -5400,6 +5694,11 @@ StartChar: hbar
 Encoding: 295 295 295
 Width: 1187
 Flags: W
+TtfInstrs: 138
+5T1M')[muC$5Y64-P\ZG#V7/0$7>g)#6HS+&G/*GlnU?W1A'qo&EM%Hj=rn8+rh+.!?[".#C6\r
+,8q="!I>B;(]XOh4RVVR1ApPOmL_H>3B9>1"q,_Z%Ls*X&J@)W4R=gW[P'"X-a4s#!F5_!YSC,>
+]`9DZ^]4B8-3,@m5WB?73*?4]
+EndTtf
 Fore
 75.5996 0 m 1,0,-1
  75.5996 106 l 1,1,-1
@@ -5572,6 +5871,15 @@ StartChar: kgreenlandic
 Encoding: 312 312 312
 Width: 1116
 Flags: W
+TtfInstrs: 383
+5Zehp#m_<='c%)]&"aCD#RLbHT*Yf0',1K\'g<0?%hCi6%i,oq9bn6F!s/o<H4'k%#+QME&-Du[
+$_.h0!<iQ3'b_)d$3h(X#8.UK!%\ok-Nu%'0H(MpjSV.$&AZ'o3>*,g&J@)Y!&$J$lk_GTlk&S?
+&JmG]92ept&.%Y.&-_G5(HD^3"mlO+#jhj&m0<d]=X(-^)Z]tF5hZGK#nI=X#T"6^)@m`%-3u%2
+.2FlR3>OUk8.S`,<tApLB+JVjBGYjuL_c9e[Km]Q#mUeB$O$qB%0d:B%L*FL'+5KZ((poe$53d\
+$kj'_%M0*b%iZ3"'c.W6#q--/$RQ?4%kS>B&LnDD'J'tJ(,$Ub$oSPQ%QP(X'0-dl)b(-%$q(Om
+%Rh%6$!7O:$Wdj>&QTNF'5.\a$t]r]%V6/`&7H/Z&n2Mc'P8+g)gD[6$?ur)&9ne3&p=q7'oN``
+'T!Q](69E#&!dd;$+^JT$b-sO>l\.1
+EndTtf
 Fore
 527.4 0 m 1,0,-1
  63 0 l 1,1,-1
@@ -5782,6 +6090,11 @@ StartChar: Eng
 Encoding: 330 330 330
 Width: 1612
 Flags: W
+TtfInstrs: 140
+5SOMM#9tK;$R?i"%h/XA,U!["+XI]lm,TqOln[W5j:LCY(_7Ae&Cg&$5S#"C!=T59D[HYW+ouTl
+!!"[lmP=JumP6O03B=Pb(1\D&&tL<[r9X'o0L-!h&-`@D#7r"$+AGL-=9fB?m0=1*m9(X=+;FnX
+>sJl'#6?M*:F:$-J0pm8"^M+6
+EndTtf
 AnchorPoint: "above" 783.9 1475 basechar 0
 Fore
 90 0 m 1,0,-1
@@ -5820,6 +6133,10 @@ StartChar: eng
 Encoding: 331 331 331
 Width: 1187
 Flags: W
+TtfInstrs: 108
+5S5@p"s,-%3Wpu["t'C%!\c&7o]5?ojRhdMjK]OZ%M7\U5SOG5+!h$l!@!4)"*t-@-NSN#MuWi2
+md;k.mL\du&f3R:()7aK&tK"6r9VqO0XPm<Eu+lX>sJcN.UX`V.^1D<.KoiY
+EndTtf
 AnchorPoint: "above" 534.6 1092 basechar 0
 Fore
 75.5996 0 m 1,0,-1
@@ -5898,6 +6215,10 @@ StartChar: OE
 Encoding: 338 338 338
 Width: 2096
 Flags: W
+TtfInstrs: 94
+5VO<%)M&lY(kEG8'S$4&&7PWX*e5#T#m^SD$3_Fb&HEad%iH#k&K_M`#mCeJ,pEomm*ru?eEk]O
+1(`k/&ihs43ACLemdBN:mf(-9jSn3O`%\P@,;:>D!F5[*
+EndTtf
 AnchorPoint: "above" 1118.7 1459 basechar 0
 AnchorPoint: "below" 1118.7 -6 basechar 0
 Fore
@@ -5940,6 +6261,10 @@ StartChar: oe
 Encoding: 339 339 339
 Width: 1822
 Flags: W
+TtfInstrs: 107
+5VET]$n!V2)\`9(H41LU&HIk/%%ApTO")E6*Z/9A)^dEN)?UZg/K+^"#oXs:1_B<GeAU_'bRj1t
+3B8eo&EGVE4R=ii&H4fQ&FL,C3=ula&J@)X5RpUJ!RD2#%F5O1/^H3V>le42
+EndTtf
 AnchorPoint: "above" 923.4 1092 basechar 0
 AnchorPoint: "below" 923.4 0 basechar 0
 Fore
@@ -6124,13 +6449,18 @@ Encoding: 358 358 358
 Width: 1229
 Flags: W
 TeX: 0 0 0 0
+TtfInstrs: 144
+5SO\=$j[@N(*j;$'bCrW,RO\[!Z2Ku4N,2!r&hp9j:L_jmP-s=&I*.f!rrc:%gR"\@MJo^!!"\?
+1A(Q.`%hnR4R=gW!DBX'<*6g6(]Zf$!<<r:)#qB2&N;[PZ6'qb>ldU&$WKd'$rgG5]`8oL^]4B8
+(]YBQ5WB?73*AKS0,\.8Nu=T.^DR2\
+EndTtf
 Fore
 351.9 0 m 1,0,-1
  351.9 106 l 1,1,-1
  523.8 106 l 1,2,-1
- 523.8 628 l 1,3,-1
- 285.3 628 l 1,4,-1
- 285.3 798 l 1,5,-1
+ 523.8 679 l 1,3,-1
+ 284.4 679 l 1,4,-1
+ 284.4 798 l 1,5,-1
  523.8 798 l 1,6,-1
  523.8 1374 l 1,7,-1
  128.7 1374 l 1,8,-1
@@ -6144,8 +6474,8 @@ Fore
  705.6 1374 l 1,16,-1
  705.6 798 l 1,17,-1
  945 798 l 1,18,-1
- 945 628 l 1,19,-1
- 705.6 628 l 1,20,-1
+ 945 679 l 1,19,-1
+ 705.6 679 l 1,20,-1
  705.6 106 l 1,21,-1
  877.5 106 l 1,22,-1
  877.5 0 l 1,23,-1
@@ -6350,6 +6680,10 @@ Encoding: 383 383 383
 Width: 682
 Flags: W
 TeX: 0 0 0 0
+TtfInstrs: 105
+5S"JZ&HNas&N0jr/-uJ6)A)O'j>,fo`";>k5S=qA&I*Oe&J,\<%<2LNH3g#B!&*d.1B-^m`XqPN
+3B8e!NuJ*#>ldU&'i\;K!#kmQ!"o8M!#bi&3"\)/=gqcN?kNN*)Za4E>lXj)
+EndTtf
 Fore
 390.6 106 m 1,0,-1
  603 106 l 1,1,-1
@@ -8081,40 +8415,42 @@ EndSplineSet
 EndChar
 StartChar: uni01B4
 Encoding: 436 436 436
-Width: 1372
+Width: 1221
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "above" 515.25 1092 basechar 0
 Fore
-490.5 -240 m 1,0,1
- 445.5 -364 445.5 -364 390.6 -409.5 c 128,-1,2
- 335.7 -455 335.7 -455 235.8 -455 c 0,3,4
- 193.5 -455 193.5 -455 148.95 -447 c 128,-1,5
- 104.4 -439 104.4 -439 59.4004 -424 c 1,6,-1
- 59.4004 -221 l 1,7,-1
- 144 -221 l 1,8,9
- 149.4 -289 149.4 -289 175.05 -318.5 c 128,-1,10
- 200.7 -348 200.7 -348 254.7 -348 c 0,11,12
- 304.2 -348 304.2 -348 334.35 -317.5 c 128,-1,13
- 364.5 -287 364.5 -287 397.8 -195 c 1,14,-1
- 460.8 -18 l 1,15,-1
- 103.5 956 l 1,16,-1
- -5.40039 956 l 1,17,-1
- -5.40039 1063 l 1,18,-1
- 434.7 1063 l 1,19,-1
- 434.7 956 l 1,20,-1
- 281.7 956 l 1,21,-1
+882.9 825 m 18,37,-1
+ 916.2 917 916.2 917 946.35 947.5 c 128,-1,13
+ 976.5 978 976.5 978 1026 978 c 0,11,12
+ 1080 978 1080 978 1105.65 948.5 c 128,-1,10
+ 1131.3 919 1131.3 919 1136.7 851 c 1,8,9
+ 1221.3 851 l 1,7,-1
+ 1221.3 1054 l 1,6,-1
+ 1176.3 1069 1176.3 1069 1131.75 1077 c 128,-1,5
+ 1087.2 1085 1087.2 1085 1044.9 1085 c 0,3,4
+ 945 1085 945 1085 890.1 1039.5 c 128,-1,2
+ 835.2 994 835.2 994 790.2 870 c 10,23,24
  550.8 225 l 1,22,-1
- 788.4 864 l 2,23,24
- 870.98 1086.09 870.98 1086.09 1091.7 1085 c 0,25,26
- 1175.32 1084.59 1175.32 1084.59 1215 1068 c 0,27,28
- 1325.34 1021.88 1325.34 1021.88 1330.2 1019 c 1,29,-1
- 1330.2 800 l 1,30,-1
- 1244.7 800 l 1,31,32
- 1238.4 896 1238.4 896 1200.6 941 c 0,33,34
- 1161.9 986 1161.9 986 1088.1 986 c 0,35,36
- 939.015 986 939.015 986 885.6 840 c 2,37,-1
- 490.5 -240 l 1,0,1
+ 281.7 956 l 1,21,-1
+ 434.7 956 l 1,20,-1
+ 434.7 1063 l 1,19,-1
+ -5.40039 1063 l 1,18,-1
+ -5.40039 956 l 1,17,-1
+ 103.5 956 l 1,16,-1
+ 460.8 -18 l 1,15,-1
+ 397.8 -195 l 1,14,-1
+ 364.5 -287 364.5 -287 334.35 -317.5 c 128,-1,13
+ 304.2 -348 304.2 -348 254.7 -348 c 0,11,12
+ 200.7 -348 200.7 -348 175.05 -318.5 c 128,-1,10
+ 149.4 -289 149.4 -289 144 -221 c 1,8,9
+ 59.4004 -221 l 1,7,-1
+ 59.4004 -424 l 1,6,-1
+ 104.4 -439 104.4 -439 148.95 -447 c 128,-1,5
+ 193.5 -455 193.5 -455 235.8 -455 c 0,3,4
+ 335.7 -455 335.7 -455 390.6 -409.5 c 128,-1,2
+ 445.5 -364 445.5 -364 490.5 -240 c 1,0,1
+ 882.9 825 l 18,37,-1
 EndSplineSet
 EndChar
 StartChar: uni01B5
@@ -9659,6 +9995,10 @@ StartChar: dotlessj
 Encoding: 567 567 567
 Width: 571
 Flags: W
+TtfInstrs: 85
+5R\&Q$48Zn-NPau0G>#ijS\'MmP-s<&d/RB$ORE*#69&OS-PSu!"eMplk&U9`XrhD3A@lp'OVVo
+'E\AA!DBX3<*6[2'*(9W=gW5XEsr*M>lXj)
+EndTtf
 AnchorPoint: "below" 106.2 -430 basechar 0
 AnchorPoint: "above" 295.2 1092 basechar 0
 Fore
@@ -10113,6 +10453,8 @@ StartChar: uni0250
 Encoding: 592 592 592
 Width: 1098
 Flags: W
+AnchorPoint: "above" 647.1 1092 basechar 0
+AnchorPoint: "below" 647.1 0 basechar 0
 Fore
 405 729 m 2,0,-1
  405 504 l 1,1,-1
@@ -10154,36 +10496,41 @@ Encoding: 593 593 593
 Width: 1179
 Flags: W
 TeX: 0 0 0 0
+TtfInstrs: 79
+5UI6L&/>9I)3bRPPQqkJ&tArJ#@J""!Yl7K-P@s2/-%OI)@@r<&G5>]jQ-5$4>?ghm,[O2lk&Rr
+mL^6q3A<])!$`%"Ij;0B"9Dd.
+EndTtf
+AnchorPoint: "below" 512.1 0 basechar 0
 AnchorPoint: "above" 512.1 1092 basechar 0
 Fore
-801.9 897 m 8,0,-1
- 801.9 1063 l 1,1,-1
- 1125.9 1063 l 1,2,-1
- 1125.9 956 l 1,3,-1
- 967.5 956 l 1,4,-1
- 967.5 106 l 17,5,-1
- 1125.9 106 l 1,6,-1
- 1125.9 0 l 1,7,-1
- 801.9 0 l 1,8,-1
- 801.9 166 l 1,9,10
- 753.3 66 753.3 66 678.6 18 c 0,11,12
- 603 -29 603 -29 492.3 -29 c 0,13,14
- 315.9 -29 315.9 -29 203.4 126 c 0,15,16
- 91.7998 282 91.7998 282 91.7998 532 c 128,-1,17
- 91.7998 782 91.7998 782 203.4 937 c 128,-1,18
- 315 1092 315 1092 492.3 1092 c 0,19,20
- 603 1092 603 1092 678.6 1044 c 0,21,22
- 753.3 997 753.3 997 801.9 897 c 8,0,-1
-801.9 479 m 2,23,-1
- 801.9 584 l 2,24,25
- 801.9 775 801.9 775 736.2 876 c 0,26,27
- 669.6 977 669.6 977 543.6 977 c 0,28,29
- 415.8 977 415.8 977 351 865 c 0,30,31
- 285.3 753 285.3 753 285.3 532 c 0,32,33
- 285.3 312 285.3 312 351 199 c 0,34,35
- 415.8 86 415.8 86 543.6 86 c 0,36,37
- 669.6 86 669.6 86 736.2 186 c 0,38,39
- 801.9 287 801.9 287 801.9 479 c 2,23,-1
+967.5 107 m 1,0,-1
+ 1125.9 107 l 1,1,-1
+ 1125.9 0 l 1,2,-1
+ 801.9 0 l 1,3,-1
+ 801.9 166 l 1,4,5
+ 753.3 66 753.3 66 678.15 18.5 c 128,-1,6
+ 603 -29 603 -29 492.3 -29 c 0,7,8
+ 315.9 -29 315.9 -29 203.85 126.5 c 128,-1,9
+ 91.7998 282 91.7998 282 91.7998 532 c 0,10,11
+ 91.7998 782 91.7998 782 203.4 937 c 128,-1,12
+ 315 1092 315 1092 492.3 1092 c 0,13,14
+ 603 1092 603 1092 678.15 1044.5 c 128,-1,15
+ 753.3 997 753.3 997 801.9 897 c 1,16,-1
+ 801.9 1063 l 1,17,-1
+ 1125.9 1063 l 1,18,-1
+ 1125.9 956 l 1,19,-1
+ 967.5 956 l 1,20,-1
+ 967.5 107 l 1,0,-1
+801.9 479 m 2,21,-1
+ 801.9 584 l 2,22,23
+ 801.9 775 801.9 775 735.75 876 c 128,-1,24
+ 669.6 977 669.6 977 543.6 977 c 0,25,26
+ 415.8 977 415.8 977 350.55 865 c 128,-1,27
+ 285.3 753 285.3 753 285.3 532 c 0,28,29
+ 285.3 312 285.3 312 350.55 199 c 128,-1,30
+ 415.8 86 415.8 86 543.6 86 c 0,31,32
+ 669.6 86 669.6 86 735.75 186.5 c 128,-1,33
+ 801.9 287 801.9 287 801.9 479 c 2,21,-1
 EndSplineSet
 EndChar
 StartChar: uni0252
@@ -10191,6 +10538,7 @@ Encoding: 594 594 594
 Width: 1179
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "below" 710.1 0 basechar 0
 AnchorPoint: "above" 710.1 1092 basechar 0
 Fore
 415.8 166 m 8,0,-1
@@ -10272,6 +10620,10 @@ StartChar: uni0254
 Encoding: 596 596 596
 Width: 1032
 Flags: W
+TtfInstrs: 65
+5RA;H#9X!Y/Is!9e?B6P<3Q^&<*NJ8!"]+F3*GUtbgbu6!'h%pR2q=jN!g2`%i(-5?m-*Rr7('E
+o_dc(!<<*"
+EndTtf
 AnchorPoint: "above" 496.8 1092 basechar 0
 Fore
 91.7998 744 m 1,0,1
@@ -10288,11 +10640,11 @@ Fore
  238.5 198 238.5 198 302.4 134 c 0,19,20
  365.4 70 365.4 70 483.3 70 c 0,21,22
  617.4 70 617.4 70 685.8 185 c 0,23,24
- 754.2 301 754.2 301 754.2 531 c 128,-1,25
- 754.2 761 754.2 761 685.8 877 c 0,26,27
- 618.3 993 618.3 993 483.3 993 c 0,28,29
- 376.2 993 376.2 993 312.3 931 c 128,-1,30
- 248.4 869 248.4 869 225 744 c 1,31,-1
+ 754.2 301 754.2 301 754.2 531 c 0,25,26
+ 754.2 761 754.2 761 685.8 877 c 0,27,28
+ 618.3 993 618.3 993 483.3 993 c 0,29,30
+ 376.2 993 376.2 993 312.3 931 c 128,-1,31
+ 248.4 869 248.4 869 225 744 c 1,32,-1
  91.7998 744 l 1,0,1
 EndSplineSet
 EndChar
@@ -10527,9 +10879,14 @@ EndSplineSet
 EndChar
 StartChar: uni025B
 Encoding: 603 603 603
-Width: 989
+Width: 954
 Flags: W
 TeX: 0 0 0 0
+TtfInstrs: 98
+5S+PW#RVXZ+V,Ik(`EB'.PVM,4R<XGe3)5C&J@)Y!'h;O'RC?',m5;5*02BQQO"%]"H4X70bEF<
+m)7rrm*rrc&ihW33A:J!$ZIk/#Z)[01*A=U?++,r:bk9k"*";@
+EndTtf
+AnchorPoint: "below" 478.8 0 basechar 0
 AnchorPoint: "above" 478.8 1092 basechar 0
 Fore
 143.1 810 m 0,0,1
@@ -10539,24 +10896,24 @@ Fore
  731.7 1041 731.7 1041 832.5 1010 c 1,8,-1
  832.5 789 l 1,9,-1
  735.3 789 l 1,10,11
- 724.5 878 724.5 878 659.7 923 c 128,-1,13
- 594.9 968 594.9 968 510.3 968 c 8,14,15
- 300.6 968 300.6 968 300.6 801 c 8,16,17
- 300.6 610 300.6 610 531.9 610 c 2,18,-1
- 615.6 610 l 1,19,-1
- 615.6 505 l 1,20,-1
- 532.8 505 l 2,21,22
- 390.6 505 390.6 505 321.3 443 c 0,23,24
- 254.7 383 254.7 383 254.7 267 c 0,25,26
- 254.7 188 254.7 188 302.4 138 c 0,27,28
- 380.7 56 380.7 56 508.5 56 c 0,29,30
- 612.9 56 612.9 56 688.5 109 c 128,-1,31
- 764.1 162 764.1 162 773.1 264 c 1,32,-1
- 870.3 264 l 1,33,-1
- 870.3 33 l 1,34,35
- 774.9 -3 774.9 -3 677.7 -21 c 0,36,37
- 584.1 -39 584.1 -39 512.1 -39 c 0,38,39
- 310.5 -39 310.5 -39 199.8 40 c 0,40,41
+ 724.5 878 724.5 878 659.7 923 c 128,-1,12
+ 594.9 968 594.9 968 510.3 968 c 8,13,14
+ 300.6 968 300.6 968 300.6 801 c 8,15,16
+ 300.6 610 300.6 610 531.9 610 c 2,17,-1
+ 615.6 610 l 1,18,-1
+ 615.6 505 l 1,19,-1
+ 532.8 505 l 2,20,21
+ 390.6 505 390.6 505 321.3 443 c 0,22,23
+ 254.7 383 254.7 383 254.7 267 c 0,24,25
+ 254.7 188 254.7 188 302.4 138 c 0,26,27
+ 380.7 56 380.7 56 508.5 56 c 0,28,29
+ 612.9 56 612.9 56 688.5 109 c 128,-1,30
+ 764.1 162 764.1 162 773.1 264 c 1,31,-1
+ 870.3 264 l 1,32,-1
+ 870.3 33 l 1,33,34
+ 774.9 -3 774.9 -3 677.7 -21 c 0,35,36
+ 584.1 -39 584.1 -39 512.1 -39 c 0,37,38
+ 310.5 -39 310.5 -39 199.8 40 c 0,39,40
  90 119 90 119 90.9004 269 c 0,41,42
  90.9004 404 90.9004 404 185.4 482 c 0,43,44
  249.3 536 249.3 536 357.3 562 c 1,45,46
@@ -10569,6 +10926,7 @@ Encoding: 604 604 604
 Width: 937
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "below" 500.4 0 basechar 0
 AnchorPoint: "above" 500.4 1092 basechar 0
 Fore
 450.9 968 m 16,0,1
@@ -10608,6 +10966,7 @@ Encoding: 605 605 605
 Width: 1424
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "below" 500.4 0 basechar 0
 AnchorPoint: "above" 500.4 1092 basechar 0
 Fore
 450.9 968 m 0,0,1
@@ -10659,6 +11018,8 @@ Encoding: 606 606 606
 Width: 1130
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "above" 651.6 1092 basechar 0
+AnchorPoint: "below" 651.6 0 basechar 0
 Fore
 653.4 987 m 0,0,1
  642.6 987 642.6 987 563.4 969 c 0,2,3
@@ -10699,6 +11060,7 @@ StartChar: uni025F
 Encoding: 607 607 607
 Width: 580
 Flags: W
+AnchorPoint: "below" 106.2 -430 basechar 0
 AnchorPoint: "above" 295.2 1092 basechar 0
 Fore
 225 956 m 1,0,-1
@@ -10710,15 +11072,15 @@ Fore
  547.2 464 l 1,6,-1
  390.6 464 l 1,7,-1
  390.6 -104 l 2,8,9
- 390.6 -268 390.6 -268 302.85 -361.5 c 0,10,11
+ 390.6 -268 390.6 -268 302.85 -361.5 c 128,-1,11
  215.1 -455 215.1 -455 61.2002 -455 c 0,12,13
- -3.59961 -455 -3.59961 -455 -62.5498 -438.5 c 0,14,15
+ -3.59961 -455 -3.59961 -455 -62.5498 -438.5 c 128,-1,15
  -121.5 -422 -121.5 -422 -177.3 -389 c 1,16,-1
  -177.3 -170 l 1,17,-1
  -91.7998 -170 l 1,18,19
- -85.5 -266 -85.5 -266 -47.25 -311 c 0,20,21
+ -85.5 -266 -85.5 -266 -47.25 -311 c 128,-1,21
  -9 -356 -9 -356 64.7998 -356 c 0,22,23
- 146.7 -356 146.7 -356 185.85 -294.5 c 0,24,25
+ 146.7 -356 146.7 -356 185.85 -294.5 c 128,-1,25
  225 -233 225 -233 225 -104 c 2,26,-1
  225 464 l 1,27,-1
  66.5996 464 l 1,28,-1
@@ -10872,15 +11234,23 @@ Fore
  1143.9 956 l 1,12,-1
  992.7 956 l 1,13,-1
  735.3 543 l 0,14,15
- 1151.41 -99.9922 1151.41 -99.9922 986.04 -312 c 0,16,17
- 873.72 -456 873.72 -456 620.28 -456 c 16,18,19
- 364.68 -456 364.68 -456 320.76 -256 c 0,20,21
- 257.347 -75 257.347 -75 552.6 465 c 0,0,-1
-612 368 m 1,22,23
- 410.641 -14.3281 410.641 -14.3281 412.92 -212 c 24,24,25
- 414.511 -350 414.511 -350 620.28 -350 c 16,26,27
- 816.12 -350 816.12 -350 816.12 -212 c 16,28,29
- 816.12 61.1533 816.12 61.1533 612 368 c 1,22,23
+ 871.603 332.378 871.603 332.378 945.513 168 c 0,0,0
+ 1033.07 -26.7256 1033.07 -26.7256 1033.07 -156.556 c 0,16,17
+ 1033.07 -306.857 1033.07 -306.857 928.8 -381.717 c 0,0,0
+ 825.334 -456 825.334 -456 619.2 -456 c 0,18,19
+ 429.996 -456 429.996 -456 356.4 -353.246 c 0,0,0
+ 309.549 -287.832 309.549 -287.832 309.549 -180.775 c 0,20,21
+ 309.549 -60.1143 309.549 -60.1143 396.92 148 c 0,0,0
+ 455.273 286.995 455.273 286.995 552.6 465 c 0,0,-1
+412.895 -207.551 m 0,22,23
+ 412.895 -262.414 412.895 -262.414 442.8 -296.146 c 0,0,0
+ 490.543 -350 490.543 -350 614.508 -350 c 0,24,25
+ 732.213 -350 732.213 -350 781.2 -302.963 c 0,0,0
+ 816.12 -269.432 816.12 -269.432 816.12 -212 c 0,26,27
+ 816.12 -64.8867 816.12 -64.8867 756.912 92 c 0,0,0
+ 706.186 226.413 706.186 226.413 612 368 c 1,28,29
+ 535.452 222.657 535.452 222.657 488.335 104 c 0,0,0
+ 412.895 -85.9795 412.895 -85.9795 412.895 -207.551 c 0,22,23
 EndSplineSet
 EndChar
 StartChar: uni0264
@@ -10889,30 +11259,40 @@ Width: 1039
 Flags: W
 TeX: 0 0 0 0
 Fore
-541.8 883 m 1,0,1
- 674.965 1087.49 674.965 1087.49 858.6 1086 c 8,2,3
+129.6 1020 m 17,26,27
+ 208.679 1089.04 208.679 1089.04 309.377 1089.04 c 128,-1,0
+ 410.076 1089.04 410.076 1089.04 541.8 883 c 1,0,1
+ 674.002 1086.01 674.002 1086.01 855.946 1086.01 c 0,0,0
+ 858.6 1086 l 8,2,3
  901.422 1085.65 901.422 1085.65 928.8 1029 c 1,4,-1
  928.8 954 l 25,5,-1
  834.3 954 l 25,6,-1
- 834.3 973 l 26,7,8
- 834.3 1020.72 834.3 1020.72 791.1 1020 c 0,9,10
+ 834.3 973 l 18,7,8
+ 834.3 1020.01 834.3 1020.01 792.374 1020.01 c 0,0,0
+ 791.1 1020 l 0,9,10
  730.022 1020 730.022 1020 598.5 797 c 1,11,12
- 915.975 221.351 915.975 221.351 786.6 74 c 0,13,14
- 692.465 -31.8633 692.465 -31.8633 487.8 -33 c 0,15,16
- 355.24 -33.8574 355.24 -33.8574 253.8 74 c 0,17,18
- 108.849 224.464 108.849 224.464 440.1 744 c 1,19,20
- 303.244 1015.33 303.244 1015.33 259.2 1017 c 0,21,22
- 221.4 1018.44 221.4 1018.44 221.4 930 c 26,23,-1
+ 683.657 642.592 683.657 642.592 736.663 519 c 0,0,0
+ 824.057 315.231 824.057 315.231 824.057 195.227 c 0,0,0
+ 824.057 116.662 824.057 116.662 786.6 74 c 0,13,14
+ 691.447 -33.0068 691.447 -33.0068 485.711 -33.0068 c 0,0,0
+ 354.439 -33.0068 354.439 -33.0068 253.8 74 c 0,17,18
+ 209.679 119.8 209.679 119.8 209.679 199.795 c 0,0,0
+ 209.679 301.669 209.679 301.669 281.233 459 c 0,0,0
+ 338.084 583.997 338.084 583.997 440.1 744 c 1,19,20
+ 302.39 1017.02 302.39 1017.02 257.998 1017.02 c 0,0,0
+ 221.4 1017.02 221.4 1017.02 221.4 930 c 10,23,-1
  221.4 912 l 25,24,-1
  129.6 912 l 25,25,-1
  129.6 1020 l 17,26,27
- 205.2 1086 205.2 1086 310.5 1089 c 0,28,29
- 408.315 1091.79 408.315 1091.79 541.8 883 c 1,0,1
-494.1 658 m 1,30,31
- 325.584 391.407 325.584 391.407 326.7 182 c 0,32,33
- 327.277 74 327.277 74 487.8 74 c 0,34,35
- 590.477 74 590.477 74 646.2 178 c 0,36,37
- 691.091 258.886 691.091 258.886 494.1 658 c 1,30,31
+326.692 184.758 m 0,0,0
+ 326.692 125.635 326.692 125.635 372.6 98.0723 c 0,0,0
+ 412.692 74 412.692 74 487.8 74 c 0,34,35
+ 569.13 74 569.13 74 621 139.251 c 0,0,0
+ 654.531 181.432 654.531 181.432 654.531 218.984 c 0,0,0
+ 654.531 283.097 654.531 283.097 603.765 414 c 0,0,0
+ 564.284 515.802 564.284 515.802 494.1 658 c 1,30,31
+ 413.83 531.012 413.83 531.012 372.048 417 c 0,0,0
+ 326.692 293.234 326.692 293.234 326.692 184.758 c 0,0,0
 EndSplineSet
 EndChar
 StartChar: uni0265
@@ -11238,7 +11618,7 @@ Fore
  1244.7 217 1244.7 217 1244.7 25 c 0,25,26
  1244.7 -209 1244.7 -209 1117.8 -334 c 0,27,28
  991.8 -458 991.8 -458 754.2 -458 c 0,29,30
- 649.348 -458 649.348 -458 549 -430 c 0,31,32
+ 649.349 -458 649.349 -458 549 -430 c 0,31,32
  447.775 -401.755 447.775 -401.755 349.2 -345 c 1,33,-1
  349.2 -21 l 1,34,-1
  450 -21 l 1,35,36
@@ -13212,44 +13592,44 @@ Fore
  676.8 956 l 1,8,-1
  365.4 956 l 1,9,-1
  365.4 281 l 2,10,11
- 365.4 146 365.4 146 388.8 108 c 0,12,13
+ 365.4 146 365.4 146 388.8 108 c 128,-1,13
  412.2 70 412.2 70 475.2 70 c 0,14,15
- 540.001 70 540.001 70 569.7 112.5 c 0,16,17
+ 540.001 70 540.001 70 569.7 112.5 c 128,-1,17
  599.399 155 599.399 155 601.2 250 c 1,18,-1
  770.4 250 l 1,19,20
  770.4 200.554 770.4 200.554 822.541 143.971 c 0,21,22
  829.671 136.233 829.671 136.233 837.45 129 c 0,23,24
  900.9 70 900.9 70 1025.1 70 c 0,25,26
- 1136.7 70 1136.7 70 1195.2 116.5 c 0,27,28
+ 1136.7 70 1136.7 70 1195.2 116.5 c 128,-1,28
  1253.7 162.999 1253.7 162.999 1253.7 252 c 0,29,30
- 1253.7 322 1253.7 322 1210.95 365 c 0,31,32
+ 1253.7 322 1253.7 322 1210.95 365 c 128,-1,32
  1168.2 408.002 1168.2 408.002 1030.5 457 c 1,33,-1
  910.8 502 l 1,34,35
- 787.499 546.001 787.499 546.001 732.15 612 c 0,36,37
+ 787.499 546.001 787.499 546.001 732.15 612 c 128,-1,37
  676.8 678 676.8 678 676.8 780 c 0,38,39
- 676.8 926 676.8 926 773.1 1009 c 0,40,41
+ 676.8 926 676.8 926 773.1 1009 c 128,-1,41
  869.4 1092 869.4 1092 1039.5 1092 c 0,42,43
- 1115.1 1092 1115.1 1092 1198.8 1070 c 0,44,45
+ 1115.1 1092 1115.1 1092 1198.8 1070 c 128,-1,45
  1282.49 1048 1282.49 1048 1371.6 1006 c 1,46,-1
  1371.6 774 l 1,47,-1
  1276.2 774 l 1,48,49
- 1272.6 877.001 1272.6 877.001 1211.4 935 c 0,50,51
+ 1272.6 877.001 1272.6 877.001 1211.4 935 c 128,-1,51
  1150.2 993 1150.2 993 1044.9 993 c 0,52,53
- 940.5 993 940.5 993 886.95 952 c 0,54,55
+ 940.5 993 940.5 993 886.95 952 c 128,-1,55
  833.4 910.998 833.4 910.998 833.4 829 c 0,56,57
  833.4 762 833.4 762 873.9 721.5 c 0,58,59
  914.994 680.405 914.994 680.405 1035.9 639 c 2,60,-1
  1167.3 594 l 2,61,62
  1302.65 547.646 1302.65 547.646 1363.05 476.5 c 0,63,64
  1422.9 406.001 1422.9 406.001 1422.9 295 c 0,65,66
- 1422.9 143.999 1422.9 143.999 1318.95 57.5 c 0,67,68
+ 1422.9 143.999 1422.9 143.999 1318.95 57.5 c 128,-1,68
  1215 -29 1215 -29 1032.3 -29 c 0,69,70
- 939.609 -29 939.609 -29 851.4 -7 c 0,71,72
+ 939.609 -29 939.609 -29 851.4 -7 c 128,-1,72
  763.203 14.998 763.203 14.998 675 59 c 1,73,-1
  675 62.6094 l 1,74,75
  665.894 49.2129 665.894 49.2129 655.2 38 c 0,76,77
  591.298 -29 591.298 -29 460.8 -29 c 0,78,79
- 317.7 -29 317.7 -29 258.3 41.5 c 0,80,81
+ 317.7 -29 317.7 -29 258.3 41.5 c 128,-1,81
  198.9 112 198.9 112 198.9 281 c 2,82,-1
  198.9 956 l 1,0,-1
 EndSplineSet
@@ -13353,7 +13733,7 @@ Fore
  742.5 762.005 742.5 762.005 742.5 532 c 0,62,63
  742.5 373 742.5 373 774.9 268 c 1,0,1
 828 164 m 1,64,65
- 888.055 71.752 888.055 71.752 1013.4 70 c 0,66,67
+ 888.056 71.752 888.056 71.752 1013.4 70 c 0,66,67
  1252.8 68.002 1252.8 68.002 1252.8 177.001 c 0,68,69
  1252.8 301.968 1252.8 301.968 1056.6 300 c 0,70,71
  894.6 298.002 894.6 298.002 828 164 c 1,64,65
@@ -14024,6 +14404,9 @@ Encoding: 700 700 700
 Width: 585
 Flags: W
 TeX: 0 0 0 0
+TtfInstrs: 29
+5Rdeq#R"TC#QP#@!!<N=eAU\d3ACLFoZT<U0E;(Q
+EndTtf
 Fore
 188.1 1094 m 1,0,1
  257.4 1158 257.4 1158 288.45 1243 c 128,-1,2
@@ -14298,6 +14681,10 @@ StartChar: breve
 Encoding: 728 728 728
 Width: 921
 Flags: W
+TtfInstrs: 110
+5Rdqu$blfS#?qH7>6#-EeEk]O0`Vd7m)1Y5!DBX,<*6g6%fa<E!<<T0%KJaR&N;[P!)'O&<*6g6
+%fa<E!<<T0%KJaR&N;[P!)'O,<(jG.<*N#"'3&1<]`8NB5QCfb%KI"=^c2ob3*?4]
+EndTtf
 Fore
 179.1 1608 m 1,0,-1
  265.5 1608 l 1,1,2
@@ -14311,12 +14698,16 @@ Fore
  330.3 1321 330.3 1321 259.2 1393 c 128,-1,13
  188.1 1465 188.1 1465 179.1 1608 c 1,0,-1
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' space uni0306
 EndChar
 StartChar: dotaccent
 Encoding: 729 729 729
 Width: 921
 Flags: W
+TtfInstrs: 45
+[0?U>!soAIeBBWI&CeoX!)'O*<(jG&<*NJ<!"8im!!*'.!"AnC3"\)/=TAF%
+EndTtf
 Fore
 460.8 1569 m 0,0,1
  504 1569 504 1569 535.05 1534.5 c 128,-1,2
@@ -14328,12 +14719,17 @@ Fore
  355.5 1500 355.5 1500 386.55 1534.5 c 128,-1,11
  417.6 1569 417.6 1569 460.8 1569 c 0,0,1
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' space uni0307
 EndChar
 StartChar: ring
 Encoding: 730 730 730
 Width: 921
 Flags: W
+TtfInstrs: 92
+5Rn=>#o12W(^sUK&mGPW&Cg'rlnJJOeEk]O0EFhN%9-!)$rgG(YR=E7=M4\Os1eU8!#P\Q!'iLU
+2`Oq?9<\h(9<\_%>?JQ=)#qAO!<<r:(]Zf\&N;[P
+EndTtf
 Fore
 707.4 1524 m 0,0,1
  707.4 1409 707.4 1409 635.85 1329 c 128,-1,2
@@ -14361,6 +14757,9 @@ StartChar: ogonek
 Encoding: 731 731 731
 Width: 921
 Flags: W
+TtfInstrs: 38
+5S4A6$3C24^CC5D&HVt?";)=ZeD.u&3>+>,!&)jg&NMi`3A:F5
+EndTtf
 Fore
 414.9 0 m 1,0,-1
  499.5 0 l 1,1,-1
@@ -14384,6 +14783,12 @@ StartChar: tilde
 Encoding: 732 732 732
 Width: 921
 Flags: W
+TtfInstrs: 200
+5T]t=#7_+E!>5VJ'aqbZ'#,:h*"N&[!!a6C('e%L*"^WdeEdc-3B9)S!"dXBm*tAW3=ula&J@)9
+&ihX25m[N"$4I:N$k*RR%L`jV&.B-Z&e#Ea'Ftoh((V2f)]8Vq$60En$lf]r%NH!!&0)9%&f_Q,
+'H\&3(*=>1)^#/e!DBX+<(jG+<*N#"&6)k9]`9&P^]4B8)uprY5WB?73*?5SYRa]+YS'o>9<]+0
+>?JQ=)ur5(!<=)>*<3f6&N;[P
+EndTtf
 Fore
 457.2 1370 m 1,0,-1
  405.9 1425 l 2,1,2
@@ -16236,6 +16641,10 @@ StartChar: Omega
 Encoding: 937 937 937
 Width: 1528
 Flags: W
+TtfInstrs: 77
+5U[6L'`n@DDBW^1!-](Z(_R>Z#mC>?!sJuD%i,Zi#n@%b%h99m,q9Ju`9c!llk&Rr`"9iumL^'l
+&J@)Y!&$J&1A:,I`%j>50E;(Q
+EndTtf
 Fore
 1008 164 m 1,0,-1
  1310.4 164 l 1,1,-1
@@ -17037,7 +17446,7 @@ Fore
  958.5 955 l 1,31,-1
  618.246 252 l 1,32,-1
  738 -195 l 2,33,34
- 764.65 -294.475 764.65 -294.475 792 -317 c 0,35,36
+ 764.649 -294.475 764.649 -294.475 792 -317 c 0,35,36
  829.64 -348 829.64 -348 844.2 -348 c 0,37,38
  898.2 -348 898.2 -348 923.4 -319 c 0,39,40
  949.5 -289 949.5 -289 954.9 -221 c 1,41,-1
@@ -18261,43 +18670,48 @@ StartChar: afii10051
 Encoding: 1026 1026 1026
 Width: 1472
 Flags: W
+TtfInstrs: 85
+5Sk+F'+YTb-4_C&&KMMk,SgUs$7$/k/J-FMjSV.$`74/'lk&RrmP+],(F3N?DBXTX$3P/a$5=$e
+%;uhf#RbPX0CCUfr]J+S&Cg%Xbl$ns0E;(Q
+EndTtf
 Fore
 1154.7 463 m 2,0,1
- 1154.7 643 1154.7 643 1084.5 696 c 0,2,3
- 976.5 777 976.5 777 808.2 753 c 0,4,5
- 707.4 739 707.4 739 626.4 648 c 0,6,7
- 549.9 562 549.9 562 549.9 451 c 2,8,-1
- 549.9 107 l 1,9,-1
- 719.1 107 l 1,10,-1
- 719.1 0 l 1,11,-1
- 196.2 0 l 1,12,-1
- 196.2 107 l 1,13,-1
- 367.2 107 l 1,14,-1
- 367.2 1374 l 1,15,-1
- 39.5996 1374 l 1,16,-1
- 39.5996 1141 l 1,17,-1
- -71.0996 1141 l 1,18,-1
- -71.0996 1493 l 1,19,-1
- 1137.6 1493 l 1,20,-1
- 1137.6 1141 l 1,21,-1
- 1026.9 1141 l 1,22,-1
- 1026.9 1374 l 1,23,-1
- 549.9 1374 l 1,24,-1
- 549.9 714 l 1,25,26
- 601.2 854 601.2 854 831.6 892 c 0,27,28
- 1092.6 935 1092.6 935 1235.7 769 c 0,29,30
- 1334.7 655 1334.7 655 1334.7 463 c 2,31,-1
- 1334.7 24 l 2,32,33
- 1334.7 -223 1334.7 -223 1245.6 -333 c 128,-1,35
- 1156.5 -443 1156.5 -443 961.2 -443 c 0,36,37
- 897.3 -443 897.3 -443 831.15 -426 c 128,-1,38
- 765 -409 765 -409 699.3 -375 c 1,39,-1
- 699.3 -140 l 1,40,-1
- 801.9 -140 l 1,41,42
- 804.6 -239 804.6 -239 844.2 -287.5 c 128,-1,43
- 883.8 -336 883.8 -336 963 -336 c 0,44,45
- 1070.1 -336 1070.1 -336 1112.4 -261 c 128,-1,47
- 1154.7 -186 1154.7 -186 1154.7 32 c 2,48,-1
+ 1154.7 647.279 1154.7 647.279 1074.6 702.871 c 128,-1,2
+ 994.5 758.463 994.5 758.463 886.5 758.463 c 0,3,4
+ 724.5 758.463 724.5 758.463 637.2 660.232 c 128,-1,5
+ 549.9 562 549.9 562 549.9 451 c 2,6,-1
+ 549.9 107 l 1,7,-1
+ 719.1 107 l 1,8,-1
+ 719.1 0 l 1,9,-1
+ 196.2 0 l 1,10,-1
+ 196.2 107 l 1,11,-1
+ 367.2 107 l 1,12,-1
+ 367.2 1374 l 1,13,-1
+ 39.5996 1374 l 1,14,-1
+ 39.5996 1141 l 1,15,-1
+ -71.0996 1141 l 1,16,-1
+ -71.0996 1493 l 1,17,-1
+ 1137.6 1493 l 1,18,-1
+ 1137.6 1141 l 1,19,-1
+ 1026.9 1141 l 1,20,-1
+ 1026.9 1374 l 1,21,-1
+ 549.9 1374 l 1,22,-1
+ 549.9 714 l 1,23,24
+ 600.25 851.407 600.25 851.407 741.125 876.125 c 128,-1,25
+ 882 900.843 882 900.843 936 900.843 c 0,26,27
+ 1120.5 900.843 1120.5 900.843 1227.6 777.922 c 128,-1,28
+ 1334.7 655 1334.7 655 1334.7 463 c 2,29,-1
+ 1334.7 24 l 2,30,31
+ 1334.7 -223 1334.7 -223 1245.6 -333 c 128,-1,32
+ 1156.5 -443 1156.5 -443 961.2 -443 c 0,33,34
+ 897.3 -443 897.3 -443 831.15 -426 c 128,-1,35
+ 765 -409 765 -409 699.3 -375 c 1,36,-1
+ 699.3 -140 l 1,37,-1
+ 801.9 -140 l 1,38,39
+ 804.6 -239 804.6 -239 844.2 -287.5 c 128,-1,40
+ 883.8 -336 883.8 -336 963 -336 c 0,41,42
+ 1070.1 -336 1070.1 -336 1112.4 -261 c 128,-1,43
+ 1154.7 -186 1154.7 -186 1154.7 32 c 2,44,-1
  1154.7 463 l 2,0,1
 EndSplineSet
 EndChar
@@ -18312,6 +18726,10 @@ StartChar: afii10053
 Encoding: 1028 1028 1028
 Width: 1410
 Flags: W
+TtfInstrs: 85
+5Rn/)%g"'j-PHgr%N-Q4&G5<LeElho`%_6W)@m;a#QtAD%"J^*&8i-s"+LA_#AsNU(18*njRhg:
+lk%2)&Cg%Y&f3P^!'giD$82c?$ni%m>lXj)
+EndTtf
 Fore
 761.4 1520 m 0,0,1
  978.705 1520 978.705 1520 1262.7 1391 c 1,2,-1
@@ -18330,8 +18748,8 @@ Fore
  1299.6 395 l 1,19,20
  1240.2 186 1240.2 186 1100.25 78.5 c 128,-1,21
  960.3 -29 960.3 -29 746.1 -29 c 0,22,23
- 479.7 -29 479.7 -29 302.4 168 c 0,24,25
- 103.5 389 103.5 389 103.5 741 c 128,-1,26
+ 479.7 -29 479.7 -29 291.6 180 c 128,-1,24
+ 103.5 389 103.5 389 103.5 741 c 0,25,26
  103.5 1093 103.5 1093 284.4 1306.5 c 128,-1,27
  465.3 1520 465.3 1520 761.4 1520 c 0,0,1
 EndSplineSet
@@ -18352,6 +18770,11 @@ StartChar: afii10056
 Encoding: 1031 1031 1031
 Width: 728
 Flags: W
+TtfInstrs: 125
+YRO6)YRaB+>Hel9<*QRC92o-"(e[h4YTZY=>Hf>F<*NH*^&TDY5QCfb!!"8E,lbY>&i;F)=g/K2
+<*017!$hP0!!!!E!$qT[3"e&-=g/N3<3R$/<*QRG92o-"*D9@9YT?G:>?Cp>!$qT[!!*'F!$hP0
+3"e&-=TAF%
+EndTtf
 Refer: 65538 -1 N 1 0 0 1 826.2 373 2
 Refer: 1030 1030 N 1 0 0 1 0 0 3
 EndChar
@@ -18365,6 +18788,10 @@ StartChar: afii10058
 Encoding: 1033 1033 1033
 Width: 1886
 Flags: W
+TtfInstrs: 82
+5Sb^W!$`'d%g4-^&KN,=,8qg5%hBL.&CeqjjO?<Qr9P!]&Cg&$!'h>MD]jZ7&.]Im$jV;()K-R(
+$t(=`DZ_ZZ1?A)o1@,S=eAMptmP"V@
+EndTtf
 Fore
 1791.9 432 m 0,0,1
  1791.9 0 1791.9 0 1307.7 0 c 2,2,-1
@@ -18380,81 +18807,89 @@ Fore
  0 5 0 5 -65.7002 39 c 1,15,-1
  -65.7002 206 l 1,16,-1
  36.9004 206 l 1,17,18
- 36.9004 178 36.9004 178 72.9004 134.5 c 0,19,20
- 108.486 91.5 108.486 91.5 175.05 91.5 c 0,21,22
- 241.087 91.5 241.087 91.5 278.1 173 c 0,23,24
- 330.3 288 330.3 288 352.8 743 c 0,25,26
- 360.9 909 360.9 909 359.1 1080 c 2,27,-1
- 359.1 1386 l 1,28,-1
- 188.1 1386 l 1,29,-1
- 188.1 1493 l 1,30,-1
- 1332 1493 l 1,31,-1
- 1332 1386 l 1,32,-1
- 1161 1386 l 1,33,-1
- 1161 870 l 1,34,-1
- 1269 870 l 2,35,36
- 1577.7 870 1577.7 870 1702.8 710 c 0,37,38
+ 36.9004 178 36.9004 178 72.6934 134.75 c 128,-1,19
+ 108.486 91.5 108.486 91.5 175.05 91.5 c 0,20,21
+ 241.087 91.5 241.087 91.5 285.693 189.75 c 128,-1,22
+ 330.3 288 330.3 288 345.6 598.5 c 128,-1,23
+ 360.9 909 360.9 909 359.1 1080 c 2,24,-1
+ 359.1 1386 l 1,25,-1
+ 188.1 1386 l 1,26,-1
+ 188.1 1493 l 1,27,-1
+ 1332 1493 l 1,28,-1
+ 1332 1386 l 1,29,-1
+ 1161 1386 l 1,30,-1
+ 1161 870 l 1,31,-1
+ 1269 870 l 2,32,33
+ 1577.7 870 1577.7 870 1684.8 741 c 128,-1,34
  1791.9 612 1791.9 612 1791.9 432 c 0,0,1
-1161 106 m 1,39,-1
- 1309.5 106 l 2,40,41
- 1436.4 106 1436.4 106 1511.1 184 c 128,-1,42
- 1585.8 262 1585.8 262 1585.8 427.5 c 128,-1,43
- 1585.8 593 1585.8 593 1511.55 670.5 c 128,-1,44
- 1437.3 748 1437.3 748 1309.5 748 c 2,45,-1
- 1161 748 l 1,46,-1
- 1161 106 l 1,39,-1
+1161 106 m 1,35,-1
+ 1309.5 106 l 2,36,37
+ 1436.4 106 1436.4 106 1511.1 184 c 128,-1,38
+ 1585.8 262 1585.8 262 1585.8 427.5 c 0,39,40
+ 1585.8 593 1585.8 593 1511.55 670.5 c 128,-1,41
+ 1437.3 748 1437.3 748 1309.5 748 c 2,42,-1
+ 1161 748 l 1,43,-1
+ 1161 106 l 1,35,-1
 EndSplineSet
 EndChar
 StartChar: afii10059
 Encoding: 1034 1034 1034
 Width: 2061
 Flags: W
+TtfInstrs: 94
+5TBn:#pg!&,T[R:,TJ!R%iu</!#QCq&0)8t+Xmupln[WWe3*(Qj:LB-&EGSXeEemi5Ssb;J/ojV
+)Zpmp+W4`$%0-JFD^?EQ$PY6VmP=2H1A3iu(GZQi1,&\.
+EndTtf
 Fore
 1334.7 106 m 1,0,-1
  1483.2 106 l 2,1,2
  1610.1 106 1610.1 106 1684.8 184 c 128,-1,3
- 1759.5 262 1759.5 262 1759.5 427.5 c 128,-1,4
- 1759.5 593 1759.5 593 1685.25 670.5 c 128,-1,5
- 1611 748 1611 748 1483.2 748 c 2,6,-1
- 1334.7 748 l 1,7,-1
+ 1759.5 262 1759.5 262 1759.5 427.5 c 0,4,5
+ 1759.5 593 1759.5 593 1685.25 670.5 c 128,-1,6
+ 1611 748 1611 748 1483.2 748 c 2,7,-1
+ 1334.7 748 l 1,8,-1
  1334.7 106 l 1,0,-1
-1965.6 432 m 0,8,9
- 1965.6 0 1965.6 0 1481.4 0 c 2,10,-1
- 981 0 l 1,11,-1
- 981 106 l 1,12,-1
- 1152 106 l 1,13,-1
- 1152 748 l 1,14,-1
- 455.4 748 l 1,15,-1
- 455.4 106 l 1,16,-1
- 626.4 106 l 1,17,-1
- 626.4 0 l 1,18,-1
- 101.7 0 l 1,19,-1
- 101.7 106 l 1,20,-1
- 272.7 106 l 1,21,-1
- 272.7 1386 l 1,22,-1
- 101.7 1386 l 1,23,-1
- 101.7 1493 l 1,24,-1
- 626.4 1493 l 1,25,-1
- 626.4 1386 l 1,26,-1
- 455.4 1386 l 1,27,-1
- 455.4 870 l 1,28,-1
- 1152 870 l 1,29,-1
- 1152 1386 l 1,30,-1
- 981 1386 l 1,31,-1
- 981 1493 l 1,32,-1
- 1505.7 1493 l 1,33,-1
- 1505.7 1386 l 1,34,-1
- 1334.7 1386 l 1,35,-1
- 1334.7 870 l 1,36,-1
- 1442.7 870 l 2,37,38
- 1751.4 870 1751.4 870 1877.4 710 c 0,39,40
- 1965.6 612 1965.6 612 1965.6 432 c 0,8,9
+1965.6 432 m 0,9,10
+ 1965.6 0 1965.6 0 1481.4 0 c 2,11,-1
+ 981 0 l 1,12,-1
+ 981 106 l 1,13,-1
+ 1152 106 l 1,14,-1
+ 1152 748 l 1,15,-1
+ 455.4 748 l 1,16,-1
+ 455.4 106 l 1,17,-1
+ 626.4 106 l 1,18,-1
+ 626.4 0 l 1,19,-1
+ 101.7 0 l 1,20,-1
+ 101.7 106 l 1,21,-1
+ 272.7 106 l 1,22,-1
+ 272.7 1386 l 1,23,-1
+ 101.7 1386 l 1,24,-1
+ 101.7 1493 l 1,25,-1
+ 626.4 1493 l 1,26,-1
+ 626.4 1386 l 1,27,-1
+ 455.4 1386 l 1,28,-1
+ 455.4 870 l 1,29,-1
+ 1152 870 l 1,30,-1
+ 1152 1386 l 1,31,-1
+ 981 1386 l 1,32,-1
+ 981 1493 l 1,33,-1
+ 1505.7 1493 l 1,34,-1
+ 1505.7 1386 l 1,35,-1
+ 1334.7 1386 l 1,36,-1
+ 1334.7 870 l 1,37,-1
+ 1442.7 870 l 2,38,39
+ 1751.4 870 1751.4 870 1858.5 741 c 128,-1,40
+ 1965.6 612 1965.6 612 1965.6 432 c 0,9,10
 EndSplineSet
 EndChar
 StartChar: afii10060
 Encoding: 1035 1035 1035
 Width: 1607
 Flags: W
+TtfInstrs: 79
+5SsS6!$Ddr%jV\u$mZ/t,QJV`&K;u>*?u-F`8phY`8oG/r8\FW&FM7Q5SFiL#6H%O+)`?4#7D%Z
+!uu4h)_X>?(G`r$r]J+S&F;(N
+EndTtf
 Fore
 1137.6 1493 m 1,0,-1
  1137.6 1141 l 1,1,-1
@@ -18462,31 +18897,31 @@ Fore
  1026.9 1374 l 1,3,-1
  549.9 1374 l 1,4,-1
  549.9 714 l 1,5,6
- 601.2 854 601.2 854 831.6 892 c 0,7,8
- 1092.6 935 1092.6 935 1235.7 769 c 0,9,10
- 1334.7 655 1334.7 655 1334.7 463 c 2,11,-1
- 1334.7 107 l 1,12,-1
- 1505.7 107 l 1,13,-1
- 1505.7 0 l 1,14,-1
- 988.2 0 l 1,15,-1
- 988.2 107 l 1,16,-1
- 1154.7 107 l 1,17,-1
- 1154.7 463 l 2,18,19
- 1154.7 643 1154.7 643 1084.5 696 c 0,20,21
- 978.3 775 978.3 775 808.2 753 c 0,22,23
- 707.4 739 707.4 739 626.4 648 c 0,24,25
- 549.9 562 549.9 562 549.9 451 c 2,26,-1
- 549.9 107 l 1,27,-1
- 719.1 107 l 1,28,-1
- 719.1 0 l 1,29,-1
- 196.2 0 l 1,30,-1
- 196.2 107 l 1,31,-1
- 367.2 107 l 1,32,-1
- 367.2 1374 l 1,33,-1
- 39.5996 1374 l 1,34,-1
- 39.5996 1141 l 1,35,-1
- -71.0996 1141 l 1,36,-1
- -71.0996 1493 l 1,37,-1
+ 669.6 897.306 669.6 897.306 893.7 898.959 c 0,7,8
+ 1117.8 900.612 1117.8 900.612 1226.25 777.806 c 128,-1,9
+ 1334.7 655 1334.7 655 1334.7 463 c 2,10,-1
+ 1334.7 107 l 1,11,-1
+ 1505.7 107 l 1,12,-1
+ 1505.7 0 l 1,13,-1
+ 988.2 0 l 1,14,-1
+ 988.2 107 l 1,15,-1
+ 1154.7 107 l 1,16,-1
+ 1154.7 463 l 2,17,18
+ 1154.7 648.28 1154.7 648.28 1074.15 703.036 c 128,-1,19
+ 993.6 757.791 993.6 757.791 880.2 757.791 c 0,20,21
+ 718.2 757.791 718.2 757.791 634.05 658.398 c 128,-1,22
+ 549.9 559.004 549.9 559.004 549.9 451 c 2,23,-1
+ 549.9 107 l 1,24,-1
+ 719.1 107 l 1,25,-1
+ 719.1 0 l 1,26,-1
+ 196.2 0 l 1,27,-1
+ 196.2 107 l 1,28,-1
+ 367.2 107 l 1,29,-1
+ 367.2 1374 l 1,30,-1
+ 39.5996 1374 l 1,31,-1
+ 39.5996 1141 l 1,32,-1
+ -71.0996 1141 l 1,33,-1
+ -71.0996 1493 l 1,34,-1
  1137.6 1493 l 1,0,-1
 EndSplineSet
 EndChar
@@ -18508,66 +18943,44 @@ StartChar: afii10062
 Encoding: 1038 1038 1038
 Width: 1332
 Flags: W
-Fore
-628.2 113 m 0,0,1
- 527.4 -29 527.4 -29 408.6 -29 c 0,2,3
- 371.7 -29 371.7 -29 306.45 -12 c 128,-1,4
- 241.2 5 241.2 5 174.6 39 c 1,5,-1
- 174.6 206 l 1,6,-1
- 277.2 206 l 1,7,8
- 277.2 178 277.2 178 318.6 128 c 128,-1,9
- 360 78 360 78 410.4 78 c 0,10,11
- 486 78 486 78 529.2 153 c 0,12,-1
- 593.1 278 l 1,13,-1
- 165.6 1386 l 1,14,-1
- 21.5996 1386 l 1,15,-1
- 21.5996 1493 l 1,16,-1
- 554.4 1493 l 1,17,-1
- 554.4 1386 l 1,18,-1
- 396 1386 l 1,19,-1
- 712.8 568 l 1,20,-1
- 1042.2 1386 l 1,21,-1
- 869.4 1386 l 1,22,-1
- 869.4 1493 l 1,23,-1
- 1310.4 1493 l 1,24,-1
- 1310.4 1386 l 1,25,-1
- 1159.2 1386 l 1,26,-1
- 680.4 204 l 2,27,28
- 662.4 158 662.4 158 628.2 113 c 0,0,1
-EndSplineSet
-Refer: 63185 63185 N 1 0 0 1 185.4 378 2
+Refer: 1059 1059 N 1 0 0 1 0 0 2
+Refer: 63185 63185 N 1 0 0 1 216 373 2
 EndChar
 StartChar: afii10145
 Encoding: 1039 1039 1039
 Width: 1607
 Flags: W
+TtfInstrs: 70
+5SXeT&/6B'&Jl?2)$C$M#p^&o$6^B#o^(WoeD/R71Ap2Ej=pX"&Jl)l!t9)_%:Tp")@:<b)[J)Z
+bj7+OoK;IV1,&\.
+EndTtf
 Fore
 994.5 0 m 2,0,1
- 903.6 0 903.6 0 889.2 -142 c 0,2,3
- 871.2 -319 871.2 -319 871.2 -321 c 1,4,-1
- 736.2 -321 l 1,5,6
- 736.2 -319 736.2 -319 718.2 -142 c 0,7,8
- 703.779 0 703.779 0 612.9 0 c 2,9,-1
- 101.7 0 l 1,10,-1
- 101.7 106 l 1,11,-1
- 272.7 106 l 1,12,-1
- 272.7 1387 l 1,13,-1
- 101.7 1387 l 1,14,-1
- 101.7 1493 l 1,15,-1
- 626.4 1493 l 1,16,-1
- 626.4 1387 l 1,17,-1
- 455.4 1387 l 1,18,-1
- 455.4 123 l 1,19,-1
- 1152 123 l 1,20,-1
- 1152 1387 l 1,21,-1
- 981 1387 l 1,22,-1
- 981 1493 l 1,23,-1
- 1505.7 1493 l 1,24,-1
- 1505.7 1387 l 1,25,-1
- 1334.7 1387 l 1,26,-1
- 1334.7 106 l 1,27,-1
- 1505.7 106 l 1,28,-1
- 1505.7 0 l 1,29,-1
+ 903.6 0 903.6 0 887.4 -159.5 c 128,-1,2
+ 871.2 -319 871.2 -319 871.2 -321 c 1,3,-1
+ 736.2 -321 l 1,4,5
+ 736.2 -319 736.2 -319 719.99 -159.5 c 128,-1,6
+ 703.779 0 703.779 0 612.9 0 c 2,7,-1
+ 101.7 0 l 1,8,-1
+ 101.7 106 l 1,9,-1
+ 272.7 106 l 1,10,-1
+ 272.7 1387 l 1,11,-1
+ 101.7 1387 l 1,12,-1
+ 101.7 1493 l 1,13,-1
+ 626.4 1493 l 1,14,-1
+ 626.4 1387 l 1,15,-1
+ 455.4 1387 l 1,16,-1
+ 455.4 123 l 1,17,-1
+ 1152 123 l 1,18,-1
+ 1152 1387 l 1,19,-1
+ 981 1387 l 1,20,-1
+ 981 1493 l 1,21,-1
+ 1505.7 1493 l 1,22,-1
+ 1505.7 1387 l 1,23,-1
+ 1334.7 1387 l 1,24,-1
+ 1334.7 106 l 1,25,-1
+ 1505.7 106 l 1,26,-1
+ 1505.7 0 l 1,27,-1
  994.5 0 l 2,0,1
 EndSplineSet
 EndChar
@@ -18581,6 +18994,10 @@ StartChar: afii10018
 Encoding: 1041 1041 1041
 Width: 1354
 Flags: W
+TtfInstrs: 84
+5Sab=$5jBU#8RFJ":c(O(aKRs&K)`3&G5<Ej>,6O&f3P>eEemi5S4D7#]C6+(Cks7D[BkQ(iL3D
+mP=M(mL]Bc&Blg/5R@r.%grmV%h/YI
+EndTtf
 Fore
 455.4 106 m 1,0,-1
  724.5 106 l 2,1,2
@@ -18598,15 +19015,15 @@ Fore
  455.4 1370 l 1,14,-1
  455.4 862 l 1,15,-1
  684 862 l 2,16,17
- 1026 862 1026 862 1153.8 694 c 1,18,19
- 1242 576 1242 576 1242 432 c 0,20,21
- 1242 210 1242 210 1116 105 c 128,-1,22
- 990 0 990 0 722.7 0 c 2,23,-1
- 101.7 0 l 1,24,-1
- 101.7 106 l 1,25,-1
- 272.7 106 l 1,26,-1
- 272.7 1386 l 1,27,-1
- 101.7 1386 l 1,28,-1
+ 1026 862 1026 862 1134 719 c 128,-1,18
+ 1242 576 1242 576 1242 432 c 0,19,20
+ 1242 210 1242 210 1116 105 c 128,-1,21
+ 990 0 990 0 722.7 0 c 2,22,-1
+ 101.7 0 l 1,23,-1
+ 101.7 106 l 1,24,-1
+ 272.7 106 l 1,25,-1
+ 272.7 1386 l 1,26,-1
+ 101.7 1386 l 1,27,-1
  101.7 1493 l 1,9,-1
 EndSplineSet
 EndChar
@@ -18620,6 +19037,9 @@ StartChar: afii10020
 Encoding: 1043 1043 1043
 Width: 1278
 Flags: W
+TtfInstrs: 45
+5Ssh:J-Kot@K6OL!s&i=%g`IC,Rk=h+V#(Um,TqOlk%)i!&*aqp?qpu0E;(Q
+EndTtf
 Fore
 455.4 106 m 1,0,-1
  670.5 106 l 1,1,-1
@@ -18642,39 +19062,42 @@ StartChar: afii10021
 Encoding: 1044 1044 1044
 Width: 1498
 Flags: W
+TtfInstrs: 65
+5SFnH&Ip&m&J#6p*<uTU+Vu%:+qW8J3S`s]3TS]VjP7s>0`XHK%h!:UJ.,lu#97Xq)](0O1@-bO
+o^(p"0E;(Q
+EndTtf
 Fore
 505.8 1370 m 1,0,-1
  505.8 1080 l 18,1,2
- 505.8 458 505.8 458 432 162 c 0,3,4
- 424.8 140 424.8 140 424.8 129 c 0,5,6
- 424.8 121 424.8 121 427.5 117 c 0,7,8
- 437.4 106 437.4 106 466.2 106 c 2,9,-1
- 1014.3 106 l 1,10,-1
- 1014.3 1370 l 1,11,-1
+ 505.8 458 505.8 458 465.3 299 c 128,-1,3
+ 424.8 140 424.8 140 424.8 129 c 0,4,5
+ 424.8 121 424.8 121 431.1 113.5 c 128,-1,6
+ 437.4 106 437.4 106 466.2 106 c 2,7,-1
+ 1014.3 106 l 1,8,-1
+ 1014.3 1370 l 1,9,-1
  505.8 1370 l 1,0,-1
-395.1 1386 m 1,12,-1
- 224.1 1386 l 1,13,-1
- 224.1 1493 l 1,14,-1
- 1368 1493 l 1,15,-1
- 1368 1386 l 1,16,-1
- 1197 1386 l 1,17,-1
- 1197 106 l 1,18,-1
- 1404.9 106 l 1,19,-1
- 1404.9 -321 l 1,20,-1
- 1309.5 -321 l 1,21,22
- 1309.5 -319 1309.5 -319 1291.5 -142 c 0,23,24
- 1284.3 -71 1284.3 -71 1258.2 -35.5 c 128,-1,25
- 1232.1 0 1232.1 0 1187.1 0 c 2,26,-1
- 309.6 0 l 2,27,28
- 219.6 0 219.6 0 205.2 -142 c 0,29,30
- 187.2 -319 187.2 -319 187.2 -321 c 1,31,-1
- 91.7998 -321 l 1,32,-1
- 91.7998 106 l 1,33,-1
- 180 106 l 0,34,35
- 318.6 106 318.6 106 367.2 439 c 0,36,37
- 380.7 531 380.7 531 388.8 743 c 0,0,0
- 396 971 396 971 395.1 1080 c 0,1,-1
- 395.1 1386 l 1,12,-1
+395.1 1386 m 1,10,-1
+ 224.1 1386 l 1,11,-1
+ 224.1 1493 l 1,12,-1
+ 1368 1493 l 1,13,-1
+ 1368 1386 l 1,14,-1
+ 1197 1386 l 1,15,-1
+ 1197 106 l 1,16,-1
+ 1404.9 106 l 1,17,-1
+ 1404.9 -321 l 1,18,-1
+ 1309.5 -321 l 1,19,20
+ 1309.5 -319 1309.5 -319 1297.71 -165.559 c 128,-1,21
+ 1285.92 -12.1182 1285.92 -12.1182 1187.1 0 c 2,22,-1
+ 309.6 0 l 2,23,24
+ 219.6 0 219.6 0 203.4 -159.5 c 128,-1,25
+ 187.2 -319 187.2 -319 187.2 -321 c 1,26,-1
+ 91.7998 -321 l 1,27,-1
+ 91.7998 106 l 1,28,-1
+ 180 106 l 2,29,30
+ 318.6 106 318.6 106 349.65 318.5 c 128,-1,31
+ 380.7 531 380.7 531 388.35 751 c 128,-1,32
+ 396 971 396 971 395.1 1080 c 2,33,-1
+ 395.1 1386 l 1,10,-1
 EndSplineSet
 EndChar
 StartChar: afii10022
@@ -18687,6 +19110,13 @@ StartChar: afii10024
 Encoding: 1046 1046 1046
 Width: 1844
 Flags: W
+TtfInstrs: 292
+5TLCH&H`@K'ab-a*ZP8,+W)F@![JZb&JYEo'*]cpe3)eIr&j$q`"G'B(HE&F&igO?3ACM!*_d:Q
+$lU8h"puIm)&3bf%W<@'%q6^`"To*M,m4N-4?VsH1A![klk_Dh(HF0B;cl:'+_2c?)B0S8*#iE2
++Wr'B+sJ0R&0N+r!$qj]#jhj."mlO+"mn'##7q1.5T1&A$Od[]'+b`gA.8qV#S7@O$k*[V$jR"C
+#7q1.#7q(+#7q(+1,9(G#jkaq5ZuDFcOc`\TFlYnIiVT'?Q<Dn59)m.*?H4C*ZuOD&If?_&e>Nc
+&.fEd+"&'Q*[;^O*[MF,&IK*V&I8ge%3H'&!Y5>B!=]PY%NGs!!>#8D!"oG@#ph-.
+EndTtf
 Fore
 1014.3 709 m 1,0,-1
  1014.3 106 l 1,1,-1
@@ -18733,6 +19163,10 @@ StartChar: afii10025
 Encoding: 1047 1047 1047
 Width: 1148
 Flags: W
+TtfInstrs: 73
+5SP7Z#TEmi-R\s<"pGhJ$PFfe&Le:@`9c"?eEdb7&JmG^!'h5()eC$%'kJBq-Zf?",\7$k%U^^s
+jRhg:lk%2)bRj2&0E;(Q
+EndTtf
 Fore
 116.1 1430 m 1,0,1
  331.486 1520 331.486 1520 517.5 1520 c 0,2,3
@@ -18743,26 +19177,26 @@ Fore
  853.2 789 853.2 789 944.55 681.5 c 128,-1,10
  1035.9 574 1035.9 574 1035.9 403 c 0,11,12
  1035.9 194 1035.9 194 909.45 82.5 c 128,-1,13
- 783 -29 783 -29 566.789 -29 c 128,-1,14
- 350.578 -29 350.578 -29 227.25 78.5 c 0,15,16
+ 783 -29 783 -29 566.789 -29 c 0,14,15
+ 350.578 -29 350.578 -29 242.151 65.5107 c 128,-1,16
  133.725 160.022 133.725 160.022 99.9004 265 c 1,17,-1
  265.5 265 l 1,18,19
- 272.04 208.095 272.04 208.095 333.9 157.5 c 0,20,21
- 440.881 70 440.881 70 563.791 70 c 128,-1,22
+ 272.04 208.095 272.04 208.095 356.461 139.048 c 128,-1,20
+ 440.881 70 440.881 70 563.791 70 c 0,21,22
  686.7 70 686.7 70 766.35 158.5 c 128,-1,23
- 846 247 846 247 846 412 c 128,-1,24
- 846 577 846 577 765.005 666.5 c 128,-1,25
- 684.01 756 684.01 756 486.9 756 c 2,26,-1
- 401.4 756 l 1,27,-1
- 401.4 862 l 1,28,-1
- 446.4 862 l 2,29,30
- 642.973 862 642.973 862 720.637 933.5 c 128,-1,31
- 798.3 1005 798.3 1005 798.3 1143.5 c 128,-1,32
- 798.3 1282 798.3 1282 733.5 1351.5 c 128,-1,33
- 668.7 1421 668.7 1421 515.7 1421 c 128,-1,34
- 362.7 1421 362.7 1421 295.65 1357 c 128,-1,35
- 228.6 1293 228.6 1293 216.9 1167 c 1,36,-1
- 116.1 1167 l 1,37,-1
+ 846 247 846 247 846 412 c 0,24,25
+ 846 577 846 577 765.005 666.5 c 128,-1,26
+ 684.01 756 684.01 756 486.9 756 c 2,27,-1
+ 401.4 756 l 1,28,-1
+ 401.4 862 l 1,29,-1
+ 446.4 862 l 2,30,31
+ 642.973 862 642.973 862 720.637 933.5 c 128,-1,32
+ 798.3 1005 798.3 1005 798.3 1143.5 c 0,33,34
+ 798.3 1282 798.3 1282 733.5 1351.5 c 128,-1,35
+ 668.7 1421 668.7 1421 515.7 1421 c 0,36,37
+ 362.7 1421 362.7 1421 295.65 1357 c 128,-1,38
+ 228.6 1293 228.6 1293 216.9 1167 c 1,39,-1
+ 116.1 1167 l 1,40,-1
  116.1 1430 l 1,0,1
 EndSplineSet
 EndChar
@@ -18770,6 +19204,10 @@ StartChar: afii10026
 Encoding: 1048 1048 1048
 Width: 1607
 Flags: W
+TtfInstrs: 114
+5St1D,RPFo,R>"m,Sg_!&-MtY(^L]T+WM'cln[WWeEesO1(`M%&EGT$!'hGs$4-bN$4@[g%grUE
+")eVP@Momm!s*<R!&$J$(GbVFlk_Dg`"9j!(HF0B;cl9l(M!jZ$415[(Dm8[&FB]6m9'Dh
+EndTtf
 AnchorPoint: "above" 803.7 1472 basechar 0
 Fore
 101.7 0 m 1,0,-1
@@ -18807,8 +19245,11 @@ StartChar: afii10027
 Encoding: 1049 1049 1049
 Width: 1607
 Flags: W
+TtfInstrs: 34
+YR*s%YR4$&>Heu<<*NH*]`:"l5QCfb2ukr<^c2r`3*?4]
+EndTtf
 Refer: 1048 1048 N 1 0 0 1 0 0 2
-Refer: 63185 63185 N 1 0 0 1 340.2 370 2
+Refer: 63185 63185 N 1 0 0 1 340.2 373 2
 EndChar
 StartChar: afii10028
 Encoding: 1050 1050 1050
@@ -18820,35 +19261,39 @@ StartChar: afii10029
 Encoding: 1051 1051 1051
 Width: 1425
 Flags: W
+TtfInstrs: 69
+5S=J9$6LMo&K)Q6)\s\$%gj!n&CeqjjOE6Gr9P!]0`XHP$OR+LD?g5n)A[6-@L$9\+)`2Rln[Yo
+ln[o=lk%[b0E;(Q
+EndTtf
 Fore
-978.3 106 m 1,11,-1
- 978.3 1370 l 1,12,-1
- 469.8 1370 l 1,13,-1
- 469.8 1080 l 18,14,15
- 469.8 465 469.8 465 396 169 c 24,16,17
- 346.5 -29 346.5 -29 167.4 -29 c 0,18,19
- 132.3 -29 132.3 -29 66.1504 -12 c 128,-1,20
- 0 5 0 5 -65.7002 39 c 1,21,-1
- -65.7002 206 l 1,22,-1
- 36.9004 206 l 1,23,24
- 36.9004 178 36.9004 178 79.2002 127 c 0,25,26
- 108.9 91 108.9 91 169.2 92 c 16,27,28
- 241.2 92 241.2 92 273.6 164 c 0,29,30
- 315 254 315 254 331.2 439 c 0,31,32
- 346.5 615 346.5 615 352.8 743 c 0,0,0
- 360.9 909 360.9 909 359.1 1080 c 0,1,-1
- 359.1 1386 l 1,2,-1
- 188.1 1386 l 1,3,-1
- 188.1 1493 l 1,4,-1
- 1332 1493 l 1,5,-1
- 1332 1386 l 1,6,-1
- 1161 1386 l 1,7,-1
- 1161 106 l 1,6,-1
- 1332 106 l 1,7,-1
- 1332 0 l 1,8,-1
- 807.3 0 l 1,9,-1
- 807.3 106 l 1,10,-1
- 978.3 106 l 1,11,-1
+978.3 106 m 1,0,-1
+ 978.3 1370 l 1,1,-1
+ 469.8 1370 l 1,2,-1
+ 469.8 1080 l 18,3,4
+ 469.8 465 469.8 465 396 169 c 24,5,6
+ 346.5 -29 346.5 -29 167.4 -29 c 0,7,8
+ 132.3 -29 132.3 -29 66.1504 -12 c 128,-1,9
+ 0 5 0 5 -65.7002 39 c 1,10,-1
+ -65.7002 206 l 1,11,-1
+ 36.9004 206 l 1,12,13
+ 36.9004 178 36.9004 178 72.9004 134.5 c 128,-1,14
+ 108.9 91 108.9 91 169.2 92 c 16,15,16
+ 241.2 92 241.2 92 278.1 173 c 128,-1,17
+ 315 254 315 254 330.75 434.5 c 128,-1,18
+ 346.5 615 346.5 615 352.8 761.994 c 128,-1,19
+ 359.1 908.988 359.1 908.988 359.1 1080 c 2,20,-1
+ 359.1 1386 l 1,21,-1
+ 188.1 1386 l 1,22,-1
+ 188.1 1493 l 1,23,-1
+ 1332 1493 l 1,24,-1
+ 1332 1386 l 1,25,-1
+ 1161 1386 l 1,26,-1
+ 1161 106 l 1,27,-1
+ 1332 106 l 1,28,-1
+ 1332 0 l 1,29,-1
+ 807.3 0 l 1,30,-1
+ 807.3 106 l 1,31,-1
+ 978.3 106 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10030
@@ -18873,6 +19318,10 @@ StartChar: afii10033
 Encoding: 1055 1055 1055
 Width: 1607
 Flags: W
+TtfInstrs: 62
+5SFPO$3qg_&HDqZ!tu.i$5!gm'G0p'j>,6G1Ap2Ej=pX"%gmgg&T8=l":#>;%rVX^00JS;1A'og
+lnAD>
+EndTtf
 Fore
 1505.7 1493 m 1,0,-1
  1505.7 1386 l 1,1,-1
@@ -18919,39 +19368,47 @@ StartChar: afii10037
 Encoding: 1059 1059 1059
 Width: 1332
 Flags: W
+TtfInstrs: 114
+5R\2?%0[7E$PsZi$QK`-`8&9Bh!>Uc3ACM!(/5DL%1!(=#]9WM*#KA%!tB/`%UpChoK;IV1(a*E
+eBAL;3B8cd;cl:&$P3p`'+>Ea&J>af(^^X]$OdYY&ePuu)$^]Ym0N)>"VC&+&FB`7m9'Dh
+EndTtf
 AnchorPoint: "above" 666 1475 basechar 0
 Fore
-628.2 113 m 0,0,1
- 527.4 -29 527.4 -29 408.6 -29 c 0,2,3
- 371.7 -29 371.7 -29 306.45 -12 c 128,-1,4
- 241.2 5 241.2 5 174.6 39 c 1,5,-1
- 174.6 206 l 1,6,-1
- 277.2 206 l 1,7,8
- 277.2 178 277.2 178 318.6 128 c 128,-1,9
- 360 78 360 78 410.4 78 c 0,10,11
- 486 78 486 78 529.2 153 c 0,12,-1
- 593.1 278 l 1,13,-1
- 165.6 1386 l 1,14,-1
- 21.5996 1386 l 1,15,-1
- 21.5996 1493 l 1,16,-1
- 554.4 1493 l 1,17,-1
- 554.4 1386 l 1,18,-1
- 396 1386 l 1,19,-1
- 712.8 568 l 1,20,-1
- 1042.2 1386 l 1,21,-1
- 869.4 1386 l 1,22,-1
- 869.4 1493 l 1,23,-1
- 1310.4 1493 l 1,24,-1
- 1310.4 1386 l 1,25,-1
- 1159.2 1386 l 1,26,-1
- 680.4 204 l 2,27,28
- 662.4 158 662.4 158 628.2 113 c 0,0,1
+408.6 -29 m 0,0,1
+ 371.7 -29 371.7 -29 306.45 -12 c 128,-1,2
+ 241.2 5 241.2 5 174.6 39 c 1,3,-1
+ 174.6 206 l 1,4,-1
+ 277.2 206 l 1,5,6
+ 277.2 178 277.2 178 318.6 128 c 128,-1,7
+ 360 78 360 78 410.4 78 c 0,8,9
+ 486 78 486 78 529.2 153 c 1,10,-1
+ 593.1 278 l 1,11,-1
+ 165.6 1386 l 1,12,-1
+ 21.5996 1386 l 1,13,-1
+ 21.5996 1493 l 1,14,-1
+ 554.4 1493 l 1,15,-1
+ 554.4 1386 l 1,16,-1
+ 396 1386 l 1,17,-1
+ 712.8 568 l 1,18,-1
+ 1042.2 1386 l 1,19,-1
+ 869.4 1386 l 1,20,-1
+ 869.4 1493 l 1,21,-1
+ 1310.4 1493 l 1,22,-1
+ 1310.4 1386 l 1,23,-1
+ 1159.2 1386 l 1,24,-1
+ 680.4 204 l 2,25,26
+ 662.4 158 662.4 158 594.9 64.5 c 128,-1,27
+ 527.4 -29 527.4 -29 408.6 -29 c 0,0,1
 EndSplineSet
 EndChar
 StartChar: afii10038
 Encoding: 1060 1060 1060
 Width: 1530
 Flags: W
+TtfInstrs: 96
+5SYdZ$53Id&LISl,VooN'EBBo0-iLge3#kS1=YY%r&d+&1=YYF!'gu#!+HWi2f90C&f#=!0Dmrf
+4R=g7oLi+bZmIGD,6U+klnTNh-806>,6K30r&iaslnV]t
+EndTtf
 Fore
 503.1 1493 m 1,0,-1
  1026.9 1493 l 1,1,-1
@@ -18960,50 +19417,50 @@ Fore
  855.9 1288 l 1,4,-1
  877.5 1288 l 2,5,6
  964.8 1288 964.8 1288 1056.6 1255 c 128,-1,7
- 1148.4 1222 1148.4 1222 1230.3 1150 c 0,8,9
- 1324.8 1069 1324.8 1069 1372.5 972 c 0,10,11
- 1424.7 862 1424.7 862 1424.7 745 c 0,12,13
- 1424.7 623 1424.7 623 1372.5 519 c 0,14,15
- 1324.8 424 1324.8 424 1230.3 342 c 0,16,17
- 1152.9 278 1152.9 278 1053.9 235 c 0,18,19
- 981.9 204 981.9 204 877.5 204 c 2,20,-1
- 855.9 204 l 1,21,-1
- 855.9 106 l 1,22,-1
- 1026.9 106 l 1,23,-1
- 1026.9 0 l 1,24,-1
- 503.1 0 l 9,25,-1
- 503.1 106 l 17,26,-1
- 674.1 106 l 1,27,-1
- 674.1 204 l 1,28,-1
- 652.5 204 l 2,29,30
- 542.7 204 542.7 204 476.1 235 c 0,31,32
- 404.1 267 404.1 267 299.7 342 c 0,33,34
- 225 395 225 395 157.5 519 c 0,35,36
- 105.3 615 105.3 615 105.3 745 c 0,37,38
- 105.3 857 105.3 857 157.5 972 c 0,39,40
- 198 1056 198 1056 299.7 1150 c 0,41,42
- 378 1225 378 1225 476.1 1256 c 0,43,44
- 574.2 1288 574.2 1288 652.5 1288 c 2,45,-1
- 674.1 1288 l 1,46,-1
- 674.1 1386 l 1,47,-1
- 503.1 1386 l 1,48,-1
+ 1148.4 1222 1148.4 1222 1236.6 1145.5 c 128,-1,8
+ 1324.8 1069 1324.8 1069 1374.75 965.5 c 128,-1,9
+ 1424.7 862 1424.7 862 1424.7 745 c 0,10,11
+ 1424.7 623 1424.7 623 1374.75 523.5 c 128,-1,12
+ 1324.8 424 1324.8 424 1238.85 351 c 128,-1,13
+ 1152.9 278 1152.9 278 1067.4 241 c 128,-1,14
+ 981.9 204 981.9 204 877.5 204 c 2,15,-1
+ 855.9 204 l 1,16,-1
+ 855.9 106 l 1,17,-1
+ 1026.9 106 l 1,18,-1
+ 1026.9 0 l 1,19,-1
+ 503.1 0 l 9,20,-1
+ 503.1 106 l 17,21,-1
+ 674.1 106 l 1,22,-1
+ 674.1 204 l 1,23,-1
+ 652.5 204 l 2,24,25
+ 542.7 204 542.7 204 473.4 235.5 c 128,-1,26
+ 404.1 267 404.1 267 314.55 331 c 128,-1,27
+ 225 395 225 395 165.15 505 c 128,-1,28
+ 105.3 615 105.3 615 105.3 745 c 0,29,30
+ 105.3 857 105.3 857 151.65 956.5 c 128,-1,31
+ 198 1056 198 1056 288 1140.5 c 128,-1,32
+ 378 1225 378 1225 476.1 1256.5 c 128,-1,33
+ 574.2 1288 574.2 1288 652.5 1288 c 2,34,-1
+ 674.1 1288 l 1,35,-1
+ 674.1 1386 l 1,36,-1
+ 503.1 1386 l 1,37,-1
  503.1 1493 l 1,0,-1
-855.9 1182 m 1,49,-1
- 855.9 310 l 1,50,-1
- 877.5 310 l 2,51,52
- 1018.8 310 1018.8 310 1120.5 396 c 0,53,54
- 1217.7 477 1217.7 477 1217.7 745 c 0,55,56
- 1217.7 1000 1217.7 1000 1120.5 1095 c 0,57,58
- 1031.4 1182 1031.4 1182 877.5 1182 c 2,59,-1
- 855.9 1182 l 1,49,-1
-674.1 1182 m 1,60,-1
- 652.5 1182 l 2,61,62
- 518.4 1182 518.4 1182 409.5 1095 c 0,63,64
- 312.3 1019 312.3 1019 312.3 745 c 0,65,66
- 312.3 526 312.3 526 427.5 396 c 0,67,68
- 503.1 310 503.1 310 652.5 310 c 2,69,-1
- 674.1 310 l 1,70,-1
- 674.1 1182 l 1,60,-1
+855.9 1182 m 1,38,-1
+ 855.9 310 l 1,39,-1
+ 877.5 310 l 2,40,41
+ 1018.8 310 1018.8 310 1118.25 393.5 c 128,-1,42
+ 1217.7 477 1217.7 477 1217.7 745 c 0,43,44
+ 1217.7 1000 1217.7 1000 1124.55 1091 c 128,-1,45
+ 1031.4 1182 1031.4 1182 877.5 1182 c 2,46,-1
+ 855.9 1182 l 1,38,-1
+674.1 1182 m 1,47,-1
+ 652.5 1182 l 2,48,49
+ 518.4 1182 518.4 1182 415.35 1100.5 c 128,-1,50
+ 312.3 1019 312.3 1019 312.3 745 c 0,51,52
+ 312.3 526 312.3 526 407.7 418 c 128,-1,53
+ 503.1 310 503.1 310 652.5 310 c 2,54,-1
+ 674.1 310 l 1,55,-1
+ 674.1 1182 l 1,47,-1
 EndSplineSet
 EndChar
 StartChar: afii10039
@@ -19016,37 +19473,45 @@ StartChar: afii10040
 Encoding: 1062 1062 1062
 Width: 1607
 Flags: W
+TtfInstrs: 70
+5SahT$O7pa!#6.Y,RY1s"p#tV&Ha0n&G5>M1=Y[Ogrqbij:LB,!'h)-$jd">D[lt\&cutYJ/&)<
+bj=[OoK;IV1,&\.
+EndTtf
 Fore
-1324.8 0 m 1,3,-1
- 101.7 0 l 1,4,-1
- 101.7 107 l 1,5,-1
- 272.7 107 l 1,6,-1
- 272.7 1387 l 1,7,-1
- 101.7 1387 l 1,8,-1
- 101.7 1493 l 1,9,-1
- 626.4 1493 l 1,10,-1
- 626.4 1387 l 1,11,-1
- 455.4 1387 l 1,12,-1
- 455.4 123 l 1,13,-1
- 1152 123 l 1,14,-1
- 1152 1387 l 1,15,-1
- 981 1387 l 1,16,-1
- 981 1493 l 1,17,-1
- 1505.7 1493 l 1,18,-1
- 1505.7 1387 l 1,19,-1
- 1334.7 1387 l 1,20,-1
- 1334.7 107 l 1,21,-1
- 1542.6 107 l 1,0,-1
- 1542.6 -321 l 1,1,-1
- 1447.2 -321 l 1,2,-1
- 1447.2 -318 1447.2 -318 1429.2 -142 c 0,0,0
- 1414.8 0 1414.8 0 1324.8 0 c 1,3,-1
+1324.8 0 m 2,0,-1
+ 101.7 0 l 1,1,-1
+ 101.7 107 l 1,2,-1
+ 272.7 107 l 1,3,-1
+ 272.7 1387 l 1,4,-1
+ 101.7 1387 l 1,5,-1
+ 101.7 1493 l 1,6,-1
+ 626.4 1493 l 1,7,-1
+ 626.4 1387 l 1,8,-1
+ 455.4 1387 l 1,9,-1
+ 455.4 123 l 1,10,-1
+ 1152 123 l 1,11,-1
+ 1152 1387 l 1,12,-1
+ 981 1387 l 1,13,-1
+ 981 1493 l 1,14,-1
+ 1505.7 1493 l 1,15,-1
+ 1505.7 1387 l 1,16,-1
+ 1334.7 1387 l 1,17,-1
+ 1334.7 107 l 1,18,-1
+ 1542.6 107 l 1,19,-1
+ 1542.6 -321 l 1,20,-1
+ 1447.2 -321 l 1,21,22
+ 1447.2 -318 1447.2 -318 1431 -159 c 128,-1,23
+ 1414.8 0 1414.8 0 1324.8 0 c 2,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10041
 Encoding: 1063 1063 1063
 Width: 1424
 Flags: W
+TtfInstrs: 67
+5SFbU'F,O%#T43S"=+'[,SUh"*"^WdjOE6Gr&j$q&EGPG5S4<Q(]kTh!tT;h&7QIZ#B'f"lnZfW
+4R<k>&F;(N
+EndTtf
 Fore
 1330.2 1493 m 1,0,-1
  1330.2 1386 l 1,1,-1
@@ -19081,8 +19546,12 @@ StartChar: afii10042
 Encoding: 1064 1064 1064
 Width: 2103
 Flags: W
+TtfInstrs: 92
+5T17\'E]T]&I&Oe#T"a$&K2np%gsWs&Ifm'&G5>M1=YC_jOE6Go]-SE0`XHP#6Gh['*Ska";h\Z
+!#0qi$uZM,ln[o_oK58&(G[ZF5R@r;%i>9a!#buG
+EndTtf
 Fore
-1143 123 m 1,8,-1
+1143 123 m 1,0,-1
  1647.9 123 l 1,1,-1
  1647.9 1387 l 1,2,-1
  1476.9 1387 l 1,3,-1
@@ -19104,21 +19573,35 @@ Fore
  455.4 1387 l 1,19,-1
  455.4 123 l 1,20,-1
  960.3 123 l 1,21,-1
- 960.3 1387 l 1,2,-1
- 789.3 1387 l 1,3,-1
- 789.3 1493 l 1,4,-1
- 1314 1493 l 1,5,-1
- 1314 1387 l 1,6,-1
- 1143 1387 l 1,7,-1
- 1143 123 l 1,8,-1
+ 960.3 1387 l 1,22,-1
+ 789.3 1387 l 1,23,-1
+ 789.3 1493 l 1,24,-1
+ 1314 1493 l 1,25,-1
+ 1314 1387 l 1,26,-1
+ 1143 1387 l 1,27,-1
+ 1143 123 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10043
 Encoding: 1065 1065 1065
 Width: 2103
 Flags: W
+TtfInstrs: 100
+5TL1:"U#G`'H\S@&HX3\(F0_-)C-:5$R?Du%3Zi*o^(WoeE$PgeE$8_&EFDXbW.BX5SO;A)\s(j
+%W;=a&7QUnJ-H,bD[S5b1<f)?oK58&(G[ZF5R@r;%i>9a!#buG
+EndTtf
 Fore
-101.7 0 m 1,11,-1
+1476.9 1493 m 1,0,-1
+ 2001.6 1493 l 1,1,-1
+ 2001.6 1387 l 1,2,-1
+ 1830.6 1387 l 1,3,-1
+ 1830.6 107 l 1,4,-1
+ 2001.6 107 l 1,5,-1
+ 2001.6 -321 l 1,6,-1
+ 1906.2 -321 l 1,7,8
+ 1906.2 -318 1906.2 -318 1890 -159 c 128,-1,9
+ 1873.8 0 1873.8 0 1783.8 0 c 2,10,-1
+ 101.7 0 l 1,11,-1
  101.7 107 l 1,12,-1
  272.7 107 l 1,13,-1
  272.7 1387 l 1,14,-1
@@ -19129,49 +19612,43 @@ Fore
  455.4 1387 l 1,19,-1
  455.4 123 l 1,20,-1
  960.3 123 l 1,21,-1
- 960.3 1387 l 1,2,-1
- 789.3 1387 l 1,3,-1
- 789.3 1493 l 1,4,-1
- 1314 1493 l 1,5,-1
- 1314 1387 l 1,6,-1
- 1143 1387 l 1,7,-1
- 1143 123 l 1,8,-1
- 1647.9 123 l 1,1,-1
- 1647.9 1387 l 1,2,-1
- 1476.9 1387 l 1,3,-1
- 1476.9 1493 l 1,4,-1
- 2001.6 1493 l 1,5,-1
- 2001.6 1387 l 1,6,-1
- 1830.6 1387 l 1,7,-1
- 1830.6 107 l 1,8,-1
- 2001.6 107 l 1,0,-1
- 2001.6 -321 l 1,1,-1
- 1906.2 -321 l 1,2,-1
- 1906.2 -318 1906.2 -318 1888.2 -142 c 0,0,0
- 1873.8 0 1873.8 0 1783.8 0 c 0,10,-1
- 101.7 0 l 1,11,-1
+ 960.3 1387 l 1,22,-1
+ 789.3 1387 l 1,23,-1
+ 789.3 1493 l 1,24,-1
+ 1314 1493 l 1,25,-1
+ 1314 1387 l 1,26,-1
+ 1143 1387 l 1,27,-1
+ 1143 123 l 1,28,-1
+ 1647.9 123 l 1,29,-1
+ 1647.9 1387 l 1,30,-1
+ 1476.9 1387 l 1,31,-1
+ 1476.9 1493 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10044
 Encoding: 1066 1066 1066
 Width: 1464
 Flags: W
+TtfInstrs: 71
+5Sk7J)ANkc#7UeI$7#l[%M0="$j[F[)\CNc1??sO&EXQ@3=s^,0`XHM#B('(',VO9$?$hl!#0>b
+0CCUhmek!7rpDH?
+EndTtf
 AnchorPoint: "above" 586.8 1460 basechar 0
 Fore
 677.7 106 m 1,0,-1
  916.2 106 l 2,1,2
  1043.1 106 1043.1 106 1117.8 184 c 128,-1,3
- 1192.5 262 1192.5 262 1192.5 431.5 c 128,-1,4
- 1192.5 601 1192.5 601 1118.25 678.5 c 128,-1,5
- 1044 756 1044 756 916.2 756 c 2,6,-1
- 677.7 756 l 1,7,-1
+ 1192.5 262 1192.5 262 1192.5 431.5 c 0,4,5
+ 1192.5 601 1192.5 601 1118.25 678.5 c 128,-1,6
+ 1044 756 1044 756 916.2 756 c 2,7,-1
+ 677.7 756 l 1,8,-1
  677.7 106 l 1,0,-1
-848.7 1493 m 1,8,-1
- 848.7 1386 l 1,9,-1
- 677.7 1386 l 1,10,-1
- 677.7 878 l 1,11,-1
- 875.7 878 l 2,12,13
- 1166.4 878 1166.4 878 1310.4 718 c 0,14,15
+848.7 1493 m 1,9,-1
+ 848.7 1386 l 1,10,-1
+ 677.7 1386 l 1,11,-1
+ 677.7 878 l 1,12,-1
+ 875.7 878 l 2,13,14
+ 1166.4 878 1166.4 878 1282.5 749 c 128,-1,15
  1398.6 620 1398.6 620 1398.6 436 c 0,16,17
  1398.6 0 1398.6 0 914.4 0 c 2,18,-1
  324 0 l 1,19,-1
@@ -19182,7 +19659,7 @@ Fore
  173.7 1161 l 1,24,-1
  63 1161 l 1,25,-1
  63 1493 l 1,26,-1
- 848.7 1493 l 1,8,-1
+ 848.7 1493 l 1,9,-1
 EndSplineSet
 EndChar
 StartChar: afii10045
@@ -19197,65 +19674,77 @@ StartChar: afii10046
 Encoding: 1068 1068 1068
 Width: 1242
 Flags: W
+TtfInstrs: 64
+5SXY-#8RFF'-dbc%LE[T,S^Rs%Nu]$o^"?o1=YY%jq/Ci0`XHK#B(B1$ks7k&Rk_LD[\;e1A:,k
+&H;)O
+EndTtf
 Fore
 455.4 106 m 1,0,-1
  693.9 106 l 2,1,2
  820.8 106 820.8 106 895.5 184 c 128,-1,3
- 970.2 262 970.2 262 970.2 431.5 c 128,-1,4
- 970.2 601 970.2 601 895.95 678.5 c 128,-1,5
- 821.7 756 821.7 756 693.9 756 c 2,6,-1
- 455.4 756 l 1,7,-1
+ 970.2 262 970.2 262 970.2 431.5 c 0,4,5
+ 970.2 601 970.2 601 895.95 678.5 c 128,-1,6
+ 821.7 756 821.7 756 693.9 756 c 2,7,-1
+ 455.4 756 l 1,8,-1
  455.4 106 l 1,0,-1
-1176.3 436 m 0,8,9
- 1176.3 0 1176.3 0 692.1 0 c 2,10,-1
- 101.7 0 l 1,11,-1
- 101.7 106 l 1,12,-1
- 272.7 106 l 1,13,-1
- 272.7 1386 l 1,14,-1
- 101.7 1386 l 1,15,-1
- 101.7 1493 l 1,16,-1
- 626.4 1493 l 1,17,-1
- 626.4 1386 l 1,18,-1
- 455.4 1386 l 1,19,-1
- 455.4 878 l 1,20,-1
- 653.4 878 l 2,21,22
- 963.9 878 963.9 878 1088.1 718 c 0,23,24
- 1176.3 620 1176.3 620 1176.3 436 c 0,8,9
+1176.3 436 m 0,9,10
+ 1176.3 0 1176.3 0 692.1 0 c 2,11,-1
+ 101.7 0 l 1,12,-1
+ 101.7 106 l 1,13,-1
+ 272.7 106 l 1,14,-1
+ 272.7 1386 l 1,15,-1
+ 101.7 1386 l 1,16,-1
+ 101.7 1493 l 1,17,-1
+ 626.4 1493 l 1,18,-1
+ 626.4 1386 l 1,19,-1
+ 455.4 1386 l 1,20,-1
+ 455.4 878 l 1,21,-1
+ 653.4 878 l 2,22,23
+ 963.9 878 963.9 878 1070.1 749 c 128,-1,24
+ 1176.3 620 1176.3 620 1176.3 436 c 0,9,10
 EndSplineSet
 EndChar
 StartChar: afii10047
 Encoding: 1069 1069 1069
 Width: 1410
 Flags: W
+TtfInstrs: 86
+5Rn;;%Kd#-(_7K2$7?-"&Cg(=m)0Iblo?d#5T1(A',1Qa$kRq$*"6]k"rVn/A//t^Ba.rb&ENKM
+r9P!7mL[n7&J>m?0E=?E0+ooM0+]cI"C2!-
+EndTtf
 AnchorPoint: "above" 659.7 1472 basechar 0
 Fore
-269.1 395 m 1,0,1
- 355.773 78 355.773 78 657 78 c 0,2,3
- 872.1 78 872.1 78 978.3 241 c 128,-1,4
- 1084.5 404 1084.5 404 1092.6 694 c 1,5,-1
- 444.6 694 l 1,6,-1
- 444.6 816 l 1,7,-1
- 1092.6 816 l 1,8,9
- 1081.8 1093 1081.8 1093 982.8 1244 c 0,10,11
- 872.1 1413 872.1 1413 657 1413 c 0,12,13
- 476.1 1413 476.1 1413 375.75 1324 c 128,-1,14
- 275.4 1235 275.4 1235 242.1 1047 c 1,15,-1
- 140.4 1047 l 1,16,-1
- 140.4 1391 l 1,17,18
- 424.398 1520 424.398 1520 641.7 1520 c 0,19,20
- 937.8 1520 937.8 1520 1118.7 1306.5 c 128,-1,21
- 1299.6 1093 1299.6 1093 1299.6 745 c 0,22,23
- 1299.6 389 1299.6 389 1100.7 168 c 0,24,25
- 923.4 -29 923.4 -29 657 -29 c 0,26,27
- 442.8 -29 442.8 -29 302.85 78.5 c 128,-1,28
- 162.9 186 162.9 186 103.5 395 c 1,29,-1
- 269.1 395 l 1,0,1
+641.7 1520 m 0,0,1
+ 937.8 1520 937.8 1520 1118.7 1306.5 c 128,-1,2
+ 1299.6 1093 1299.6 1093 1299.6 745 c 0,3,4
+ 1299.6 389 1299.6 389 1111.5 180 c 128,-1,5
+ 923.4 -29 923.4 -29 657 -29 c 0,6,7
+ 442.8 -29 442.8 -29 302.85 78.5 c 128,-1,8
+ 162.9 186 162.9 186 103.5 395 c 1,9,-1
+ 269.1 395 l 1,10,11
+ 355.773 78 355.773 78 657 78 c 0,12,13
+ 872.1 78 872.1 78 978.3 241 c 128,-1,14
+ 1084.5 404 1084.5 404 1092.6 694 c 1,15,-1
+ 444.6 694 l 1,16,-1
+ 444.6 816 l 1,17,-1
+ 1092.6 816 l 1,18,19
+ 1081.8 1093 1081.8 1093 976.95 1253 c 128,-1,20
+ 872.1 1413 872.1 1413 657 1413 c 0,21,22
+ 476.1 1413 476.1 1413 375.75 1324 c 128,-1,23
+ 275.4 1235 275.4 1235 242.1 1047 c 1,24,-1
+ 140.4 1047 l 1,25,-1
+ 140.4 1391 l 1,26,27
+ 424.398 1520 424.398 1520 641.7 1520 c 0,0,1
 EndSplineSet
 EndChar
 StartChar: afii10048
 Encoding: 1070 1070 1070
 Width: 2199
 Flags: W
+TtfInstrs: 81
+5SP=N%hp?#%3#<T,TI1(#6Z:U+Xmupj>-Wqj>,LNm*n&^0`XHU,AnA0&SW8'(LR=bJ.)ejD[9e\
+!<d<C0C1I<o^"=Elk&gUoJnqu0E;(Q
+EndTtf
 AnchorPoint: "above" 902.7 1472 basechar 0
 Fore
 455.4 106 m 1,0,-1
@@ -19272,32 +19761,35 @@ Fore
  455.4 1386 l 1,11,-1
  455.4 850 l 1,12,-1
  778.5 850 l 1,13,14
- 788.4 969 788.4 969 830.25 1090 c 128,-1,16
- 872.1 1211 872.1 1211 966.6 1316 c 0,17,18
- 1150.2 1520 1150.2 1520 1434.6 1520 c 128,-1,22
- 1719 1520 1719 1520 1899 1307 c 128,-1,23
- 2079 1094 2079 1094 2079 745 c 0,24,25
- 2079 388.018 2079 388.018 1879.2 168 c 0,28,29
- 1701.9 -29 1701.9 -29 1426.5 -29 c 0,32,33
- 1150.2 -29 1150.2 -29 972.9 168 c 0,36,37
- 788.381 373.021 788.381 373.021 774.9 694 c 1,40,-1
- 455.4 694 l 1,41,-1
+ 803.845 1135.16 803.845 1135.16 977.021 1327.58 c 0,15,16
+ 1150.2 1520 1150.2 1520 1426.5 1520 c 0,17,18
+ 1719 1520 1719 1520 1899 1307 c 128,-1,19
+ 2079 1094 2079 1094 2079 745 c 0,20,21
+ 2079 388.018 2079 388.018 1890.45 179.509 c 128,-1,22
+ 1701.9 -29 1701.9 -29 1426.5 -29 c 0,23,24
+ 1150.2 -29 1150.2 -29 972.9 168 c 0,25,26
+ 788.381 373.021 788.381 373.021 774.9 694 c 1,27,-1
+ 455.4 694 l 1,28,-1
  455.4 106 l 1,0,-1
-1426.05 78 m 128,-1,43
- 1647 78 1647 78 1759.5 246.5 c 128,-1,45
- 1872 415 1872 415 1872 745.5 c 128,-1,47
- 1872 1076 1872 1076 1759.5 1244.5 c 128,-1,49
- 1647 1413 1647 1413 1426.05 1413 c 128,-1,51
- 1205.1 1413 1205.1 1413 1092.6 1244.5 c 128,-1,53
- 980.1 1076 980.1 1076 980.1 745.5 c 128,-1,55
- 980.1 415 980.1 415 1092.6 246.5 c 128,-1,57
- 1205.1 78 1205.1 78 1426.05 78 c 128,-1,43
+1426.05 78 m 0,29,30
+ 1647 78 1647 78 1759.5 246.5 c 128,-1,31
+ 1872 415 1872 415 1872 745.5 c 0,32,33
+ 1872 1076 1872 1076 1759.5 1244.5 c 128,-1,34
+ 1647 1413 1647 1413 1426.05 1413 c 0,35,36
+ 1205.1 1413 1205.1 1413 1092.6 1244.5 c 128,-1,37
+ 980.1 1076 980.1 1076 980.1 745.5 c 0,38,39
+ 980.1 415 980.1 415 1092.6 246.5 c 128,-1,40
+ 1205.1 78 1205.1 78 1426.05 78 c 0,29,30
 EndSplineSet
 EndChar
 StartChar: afii10049
 Encoding: 1071 1071 1071
 Width: 1555
 Flags: W
+TtfInstrs: 87
+5Rn8L*"W\f$R?'&%Mo3n&CeM^eDrC_4QJ3s5S6]j*,cFA*=-Qg@L<n]D\`d84R=gYo^"@2lo?am
+;cl9o&J>`Z&/5Zn'bD3!)$^]Rm1AXs(HGUu
+EndTtf
 AnchorPoint: "above" 882 1472 basechar 0
 Fore
 650.7 741 m 1,0,1
@@ -19329,9 +19821,9 @@ Fore
  1078.2 1386 l 1,29,-1
  812.7 1386 l 2,30,31
  676.8 1386 676.8 1386 612 1315 c 128,-1,32
- 547.2 1244 547.2 1244 547.2 1094 c 128,-1,33
- 547.2 944 547.2 944 612 872.5 c 128,-1,34
- 676.8 801 676.8 801 812.7 801 c 2,35,-1
+ 547.2 1244 547.2 1244 547.2 1094 c 0,33,34
+ 547.2 944 547.2 944 612 872.5 c 128,-1,35
+ 676.8 801 676.8 801 812.7 801 c 2,36,-1
  1078.2 801 l 1,28,-1
 EndSplineSet
 EndChar
@@ -19345,45 +19837,51 @@ StartChar: afii10066
 Encoding: 1073 1073 1073
 Width: 1109
 Flags: W
+TtfInstrs: 66
+5S+_T)upEt)B;-k)ANDV!%\]2`5KIXo^('>&ihs,!'h,$&/,3^$mUfJ+W64eNuqa\&GGPc3B?NI
+&NMj33A:F5
+EndTtf
 Fore
 90.9004 532 m 2,0,-1
  82.7998 708 l 2,1,2
  78.2998 815 78.2998 815 78.2998 862 c 128,-1,3
- 78.2998 909 78.2998 909 80.0996 924 c 0,4,5
- 99.9004 1077 99.9004 1077 130.5 1146 c 0,6,7
- 210.6 1325 210.6 1325 362.7 1406 c 0,8,9
- 447.3 1451 447.3 1451 517.5 1459 c 0,10,11
- 695.614 1479.3 695.614 1479.3 733.172 1493.29 c 128,-1,12
- 770.729 1507.28 770.729 1507.28 811.13 1540.32 c 128,-1,13
- 851.532 1573.36 851.532 1573.36 857.7 1590 c 1,14,-1
- 953.1 1590 l 1,15,16
- 939.6 1495 939.6 1495 851.4 1376 c 0,17,18
- 800.1 1305 800.1 1305 735.3 1294 c 0,19,20
- 430.207 1242.21 430.207 1242.21 372.825 1216.9 c 128,-1,21
- 315.442 1191.59 315.442 1191.59 225 1084 c 0,22,23
- 165.6 1013 165.6 1013 166.5 826 c 1,24,25
- 216.9 936 216.9 936 229.5 954 c 0,26,27
- 303.3 1048 303.3 1048 449.1 1081 c 0,28,29
- 498.6 1092 498.6 1092 553.5 1092 c 0,30,31
- 763.2 1092 763.2 1092 889.65 939 c 128,-1,32
- 1016.1 786 1016.1 786 1016.1 532 c 128,-1,33
- 1016.1 278 1016.1 278 889.65 124.5 c 128,-1,34
- 763.2 -29 763.2 -29 553.95 -29 c 128,-1,35
- 344.7 -29 344.7 -29 224.1 117 c 128,-1,36
+ 78.2998 909 78.2998 909 89.0996 993 c 128,-1,4
+ 99.9004 1077 99.9004 1077 130.5 1146 c 0,5,6
+ 210.6 1325 210.6 1325 362.7 1406 c 0,7,8
+ 447.3 1451 447.3 1451 571.458 1465.15 c 128,-1,9
+ 695.614 1479.3 695.614 1479.3 733.172 1493.29 c 128,-1,10
+ 770.729 1507.28 770.729 1507.28 811.13 1540.32 c 128,-1,11
+ 851.532 1573.36 851.532 1573.36 857.7 1590 c 1,12,-1
+ 953.1 1590 l 1,13,14
+ 939.6 1495 939.6 1495 869.85 1400 c 128,-1,15
+ 800.1 1305 800.1 1305 735.3 1294 c 0,16,17
+ 430.207 1242.21 430.207 1242.21 372.825 1216.9 c 128,-1,18
+ 315.442 1191.59 315.442 1191.59 225 1084 c 0,19,20
+ 165.6 1013 165.6 1013 166.5 826 c 1,21,22
+ 216.9 936 216.9 936 297.45 1013 c 0,23,24
+ 378 1090 378 1090 553.5 1092 c 0,25,26
+ 762.794 1092.49 762.794 1092.49 889.447 939.245 c 128,-1,27
+ 1016.1 786 1016.1 786 1016.1 532 c 0,28,29
+ 1016.1 278 1016.1 278 889.65 124.5 c 128,-1,30
+ 763.2 -29 763.2 -29 553.95 -29 c 0,31,32
+ 344.7 -29 344.7 -29 224.1 117 c 0,33,34
  103.5 263 103.5 263 90.9004 532 c 2,0,-1
-553.5 993 m 128,-1,37
- 284.4 993 284.4 993 284.4 532 c 0,38,39
- 284.4 304 284.4 304 352.8 187 c 128,-1,40
- 421.2 70 421.2 70 553.5 70 c 0,41,42
- 822.6 70 822.6 70 822.6 531.5 c 128,-1,43
- 822.6 993 822.6 993 553.5 993 c 128,-1,37
+553.5 993 m 0,35,36
+ 284.4 993 284.4 993 284.4 532 c 0,37,38
+ 284.4 304 284.4 304 352.8 187 c 128,-1,39
+ 421.2 70 421.2 70 553.5 70 c 0,40,41
+ 822.6 70 822.6 70 822.6 531.5 c 0,42,43
+ 822.6 993 822.6 993 553.5 993 c 0,35,36
 EndSplineSet
-Substitution: 0 3 'locl' afii10064
+Substitution: 0 2 'locl' afii10064
 EndChar
 StartChar: afii10067
 Encoding: 1074 1074 1074
 Width: 1037
 Flags: W
+TtfInstrs: 56
+5S"SJ!Zi6b&K1ia$nMiA,7sM.1@-dGm*tAV!'h"t&UGW=%seeW+rUl9$SUj%bk16W&F;D2
+EndTtf
 Fore
 595.8 1063 m 2,0,1
  909 1063 909 1063 909 800 c 0,2,3
@@ -19402,25 +19900,28 @@ Fore
 381.6 642 m 1,17,-1
  533.7 642 l 2,18,19
  629.1 642 629.1 642 680.85 686.5 c 128,-1,20
- 732.6 731 732.6 731 732.6 799 c 128,-1,21
- 732.6 867 732.6 867 680.269 912 c 128,-1,22
- 627.938 957 627.938 957 533.7 957 c 2,23,-1
- 381.6 957 l 1,24,-1
+ 732.6 731 732.6 731 732.6 799 c 0,21,22
+ 732.6 867 732.6 867 680.269 912 c 128,-1,23
+ 627.938 957 627.938 957 533.7 957 c 2,24,-1
+ 381.6 957 l 1,25,-1
  381.6 642 l 1,17,-1
-381.6 106 m 1,25,-1
- 565.2 106 l 2,26,27
- 670.5 106 670.5 106 728.1 162 c 0,28,29
- 784.8 218 784.8 218 784.8 309 c 128,-1,30
- 784.8 400 784.8 400 728.1 455 c 128,-1,31
- 671.4 510 671.4 510 565.2 510 c 2,32,-1
- 381.6 510 l 1,33,-1
- 381.6 106 l 1,25,-1
+381.6 106 m 1,26,-1
+ 565.2 106 l 2,27,28
+ 670.5 106 670.5 106 727.65 162 c 128,-1,29
+ 784.8 218 784.8 218 784.8 309 c 0,30,31
+ 784.8 400 784.8 400 728.1 455 c 128,-1,32
+ 671.4 510 671.4 510 565.2 510 c 2,33,-1
+ 381.6 510 l 1,34,-1
+ 381.6 106 l 1,26,-1
 EndSplineSet
 EndChar
 StartChar: afii10068
 Encoding: 1075 1075 1075
 Width: 990
 Flags: W
+TtfInstrs: 48
+5RmuL"Tp=V"U5DB/.+'@&G5$=m*tA5j=pX"$NUBa%!iAQ"poS]0C1Idm/5']
+EndTtf
 Fore
 910.8 1063 m 1,0,-1
  910.8 774 l 1,1,-1
@@ -19443,39 +19944,42 @@ StartChar: afii10069
 Encoding: 1076 1076 1076
 Width: 1125
 Flags: W
+TtfInstrs: 66
+5SFnH&Ip>u"qM(m*<uTs+Vu%:+qW8J3S`s]3TS]VjP7s>0`XHL%h![`KaaIVKb,5M',q`@bVJN?
+m.BZ21,&\.
+EndTtf
 Fore
-66.5996 106 m 1,6,-1
- 99 106 l 2,7,8
- 204.576 106 204.576 106 235.8 313 c 2,9,-1
- 249.475 333.692 249.475 333.692 262.8 492 c 0,10,11
- 271.8 598.925 271.8 598.925 271.8 769 c 0,0,0
- 271.8 957 l 1,10,-1
+382.5 942 m 1,0,-1
+ 382.5 768 l 2,1,2
+ 387.551 539.06 387.551 539.06 359.375 377.53 c 128,-1,3
+ 331.2 216 331.2 216 312.3 137 c 0,4,5
+ 310.239 129.235 310.239 129.235 314.869 126.117 c 128,-1,6
+ 319.5 123 319.5 123 342 123 c 2,7,-1
+ 745.2 123 l 1,8,-1
+ 745.2 942 l 1,9,-1
+ 382.5 942 l 1,0,-1
+271.8 957 m 1,10,-1
  122.4 957 l 1,11,-1
  122.4 1063 l 1,12,-1
  1059.3 1063 l 1,13,-1
  1059.3 957 l 1,14,-1
  910.8 957 l 1,15,-1
- 910.8 106 l 1,16,17
- 1059.3 106 l 1,20,-1
- 1059.3 -283 l 1,21,-1
- 965.7 -283 l 1,2,-1
- 951.3 -142 l 0,0,0
- 936.9 0 936.9 0 846.9 0 c 2,26,-1
- 279 0 l 2,0,1
- 189 0 189 0 174.6 -142 c 0,0,0
- 160.2 -283 l 1,2,-1
- 66.5996 -283 l 1,21,-1
- 66.5996 106 l 1,6,-1
-745.2 123 m 1,27,-1
- 745.2 942 l 1,28,-1
- 382.5 942 l 1,29,-1
- 382.5 768 l 0,0,0
- 382.5 606 382.5 606 373.5 492 c 0,1,2
- 369.9 461 369.9 461 346.5 307 c 2,30,31
- 312.3 137 l 1,0,0
- 312.3 132 312.3 132 313.2 130 c 0,34,35
- 319.5 123 319.5 123 342 123 c 2,36,-1
- 745.2 123 l 1,27,-1
+ 910.8 106 l 1,16,-1
+ 1059.3 106 l 1,17,-1
+ 1059.3 -283 l 1,18,-1
+ 965.7 -283 l 1,19,-1
+ 951.3 -142 l 0,20,21
+ 936.9 0 936.9 0 846.9 0 c 2,22,-1
+ 279 0 l 2,23,24
+ 189 0 189 0 174.6 -142 c 0,25,-1
+ 160.2 -283 l 1,26,-1
+ 66.5996 -283 l 1,27,-1
+ 66.5996 106 l 1,28,-1
+ 99 106 l 2,29,30
+ 165.655 106 165.655 106 207.809 225.955 c 128,-1,31
+ 249.962 345.911 249.962 345.911 260.881 472.418 c 128,-1,32
+ 271.8 598.925 271.8 598.925 271.8 769 c 2,33,-1
+ 271.8 957 l 1,10,-1
 EndSplineSet
 EndChar
 StartChar: afii10070
@@ -19488,6 +19992,12 @@ StartChar: afii10072
 Encoding: 1078 1078 1078
 Width: 1406
 Flags: W
+TtfInstrs: 199
+5TLCH&H`@K'ab-a*ZP8,+W)F@!^.G&"r.8('*]cpe3)eIr&j$q`"G'B(HE&F&igO?3ACM!*_d:Q
+$lU8h"puIm)&3bf%XK-2&"FgE"To*X,m4N-4?VsH1A![klk_Dh(HF0B;cl:'+eKr%)B0S8*#kLm
++Wr'p+sJ0R4s2!K!$qj]#jhj."mlO+"mn'##7q1.5T1''$Od[]'+b`gT+)2<#X/V($k,</$jR"C
+#7q1.#7q(+#7q(+1,9(G#jkap
+EndTtf
 Fore
 789.3 505 m 1,0,-1
  789.3 106 l 1,1,-1
@@ -19534,85 +20044,101 @@ StartChar: afii10073
 Encoding: 1079 1079 1079
 Width: 1005
 Flags: W
+TtfInstrs: 69
+5S>%T)$:s+/H?js";V1K&c`Ii&CeYBeEk]O&FL,H3ACM!&dK>$)\EaE%4;-"Nrk7Z%:CLop<NC"
+hTc]#c4KD(0E;(Q
+EndTtf
 Fore
-467.1 986 m 0,0,1
- 234.9 986 234.9 986 215.1 815 c 1,2,-1
- 117.9 815 l 1,3,-1
- 117.9 1018 l 1,4,5
- 275.4 1092 275.4 1092 481.5 1092 c 0,6,7
- 861.3 1092 861.3 1092 861.3 810 c 0,8,9
- 861.3 667 861.3 667 758.7 609 c 0,10,-1
- 647.1 562 l 1,11,12
- 780.3 542 780.3 542 826.2 503 c 0,13,14
- 913.5 429 913.5 429 913.5 278.5 c 128,-1,15
- 913.5 128 913.5 128 791.55 49.5 c 128,-1,16
- 669.6 -29 669.6 -29 487.8 -29 c 0,17,18
- 419.4 -29 419.4 -29 355.5 -17.5 c 128,-1,19
- 291.6 -6 291.6 -6 211.5 56 c 0,20,21
- 105.3 138 105.3 138 81 259 c 1,22,-1
- 214.2 259 l 1,23,24
- 273.6 70 273.6 70 493.2 70 c 0,25,26
- 603.9 70 603.9 70 676.8 133.5 c 128,-1,27
- 749.7 197 749.7 197 749.7 286.5 c 128,-1,28
- 749.7 376 749.7 376 670.95 440.5 c 128,-1,29
- 592.2 505 592.2 505 435.6 505 c 2,30,-1
- 352.8 505 l 1,31,-1
- 352.8 611 l 1,32,-1
- 396 611 l 2,33,34
- 553.5 611 553.5 611 628.65 662 c 128,-1,35
- 703.8 713 703.8 713 703.8 793 c 0,36,37
- 703.8 884 703.8 884 639.9 935 c 128,-1,38
- 576 986 576 986 467.1 986 c 0,0,1
+117.9 1018 m 1,0,1
+ 275.4 1092 275.4 1092 481.5 1092 c 0,2,3
+ 862.906 1092 862.906 1092 861.3 810 c 0,4,5
+ 860.4 652 860.4 652 765 608 c 128,-1,6
+ 669.6 564 669.6 564 647.1 562 c 1,7,8
+ 780.3 542 780.3 542 846.9 485.5 c 128,-1,9
+ 913.5 429 913.5 429 913.5 278.5 c 0,10,11
+ 913.5 128 913.5 128 791.55 49.5 c 128,-1,12
+ 669.6 -29 669.6 -29 487.8 -29 c 0,13,14
+ 322.357 -38.0635 322.357 -38.0635 213.828 49.9688 c 128,-1,15
+ 105.3 138 105.3 138 81 259 c 1,16,-1
+ 214.2 259 l 1,17,18
+ 273.6 70 273.6 70 493.2 70 c 0,19,20
+ 603.9 70 603.9 70 676.8 133.5 c 128,-1,21
+ 749.7 197 749.7 197 749.7 286.5 c 0,22,23
+ 749.7 376 749.7 376 670.95 440.5 c 128,-1,24
+ 592.2 505 592.2 505 435.6 505 c 2,25,-1
+ 352.8 505 l 1,26,-1
+ 352.8 611 l 1,27,-1
+ 396 611 l 2,28,29
+ 553.5 611 553.5 611 628.65 662 c 128,-1,30
+ 703.8 713 703.8 713 703.8 793 c 0,31,32
+ 703.8 884 703.8 884 639.9 935 c 128,-1,33
+ 576 986 576 986 467.1 986 c 0,34,35
+ 234.9 986 234.9 986 215.1 815 c 1,36,-1
+ 117.9 815 l 1,37,-1
+ 117.9 1018 l 1,0,1
 EndSplineSet
 EndChar
 StartChar: afii10074
 Encoding: 1080 1080 1080
 Width: 1228
 Flags: W
+TtfInstrs: 138
+5St1D4UN)34U;Z1//AQs&-Mta(^L<I0H:Yrln[WWeEesO1(`M%&EGT$!'hGs$4-bN$4@[g%grUE
+"*tC[S/E%R!s*]]!&$J$(GbVFlk_Dg`"9j!(HF0B;cl9l(S;$@$43=A(Dm8[&FB]6m9-Y$92o!o
+]`9#P5QCca)upuY^c2r`3*?4]
+EndTtf
 AnchorPoint: "above" 598.5 1092 basechar 0
 Fore
-981.9 957 m 1,0,-1
- 981.9 106 l 1,1,-1
- 1131.3 106 l 1,2,-1
- 1131.3 0 l 1,3,-1
- 666.9 0 l 1,4,-1
- 666.9 106 l 1,5,-1
- 816.3 106 l 1,6,-1
- 816.3 700 l 1,7,-1
- 378.9 185 l 1,8,-1
- 378 106 l 1,9,-1
- 527.4 106 l 1,10,-1
- 527.4 0 l 1,11,-1
- 63 0 l 1,12,-1
- 63 106 l 1,13,-1
- 212.4 106 l 1,14,-1
- 212.4 957 l 1,15,-1
- 63 957 l 1,16,-1
- 63 1063 l 1,17,-1
- 527.4 1063 l 1,18,-1
- 527.4 957 l 1,19,-1
- 378 957 l 1,20,-1
- 378 347 l 1,21,-1
- 816.3 862 l 1,22,-1
- 816.3 957 l 1,23,-1
- 666.9 957 l 1,24,-1
- 666.9 1063 l 1,25,-1
- 1131.3 1063 l 1,26,-1
- 1131.3 957 l 1,27,-1
- 981.9 957 l 1,0,-1
+63 0 m 1,0,-1
+ 63 106 l 1,1,-1
+ 212.4 106 l 1,2,-1
+ 212.4 957 l 1,3,-1
+ 63 957 l 1,4,-1
+ 63 1063 l 1,5,-1
+ 527.4 1063 l 1,6,-1
+ 527.4 957 l 1,7,-1
+ 378 957 l 1,8,-1
+ 378 347 l 1,9,-1
+ 816.3 862 l 1,10,-1
+ 816.3 957 l 1,11,-1
+ 666.9 957 l 1,12,-1
+ 666.9 1063 l 1,13,-1
+ 1131.3 1063 l 1,14,-1
+ 1131.3 957 l 1,15,-1
+ 981.9 957 l 1,16,-1
+ 981.9 106 l 1,17,-1
+ 1131.3 106 l 1,18,-1
+ 1131.3 0 l 1,19,-1
+ 666.9 0 l 1,20,-1
+ 666.9 106 l 1,21,-1
+ 816.3 106 l 1,22,-1
+ 816.3 700 l 1,23,-1
+ 378.9 185 l 1,24,-1
+ 378 106 l 1,25,-1
+ 527.4 106 l 1,26,-1
+ 527.4 0 l 1,27,-1
+ 63 0 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10075
 Encoding: 1081 1081 1081
 Width: 1228
 Flags: W
-Refer: 63188 63188 N 1 0 0 1 135.9 -110 2
+TtfInstrs: 59
+YRX<*YTHM;>?Cp>!&jkm!!!!W!&agB3"e&-=g/T5<3RW@<*NH*]`9qj5QCca2?5Z8^c2r`3*?7^
+EndTtf
+Refer: 63188 63188 N 1 0 0 1 140.4 -24 2
 Refer: 1080 1080 N 1 0 0 1 0 0 3
 EndChar
 StartChar: afii10076
 Encoding: 1082 1082 1082
 Width: 1116
 Flags: W
+TtfInstrs: 139
+5T'n@&d\[F#S7II%28h+!tkeD%2p$6(bcp@o].dObksTa1(b<_&NMi`&ihs,!'hAq!t#VQ";V7H
+!Ws?e"rj'@%ho*^H4C]D4R<k>oK;IV1(kB`0M>>H5TC.q&.1T5#ndg]$47.I&eP]e#ndlC!stS&
+"9Sl?"mlj(m10^4#S?A,&FEU#
+EndTtf
 Fore
 520.2 1063 m 1,0,-1
  520.2 957 l 1,1,-1
@@ -19649,36 +20175,40 @@ StartChar: afii10077
 Encoding: 1083 1083 1083
 Width: 1125
 Flags: W
+TtfInstrs: 63
+5S+Ji&I&Rn%6Y+)//0ZX"XO`0bj=E?jQ-7"0`XHO+<Meg*#"#5#C6ZG*+03eH4M[q1?A)o1@,S=
+eAO$@
+EndTtf
 Fore
 203.4 151 m 0,0,1
- 219.6 193 219.6 193 238.5 313 c 0,9,-1
- 250.2 388 250.2 388 262.8 492 c 0,10,11
- 271.8 569 271.8 569 271.8 769 c 0,0,0
- 271.8 957 l 1,10,-1
- 122.4 957 l 1,11,-1
- 122.4 1063 l 1,12,-1
- 1059.3 1063 l 1,13,-1
- 1059.3 957 l 1,14,-1
- 910.8 957 l 1,15,-1
- 910.8 106 l 1,14,-1
- 1059.3 106 l 1,15,-1
- 1059.3 0 l 1,16,-1
- 595.8 0 l 1,17,-1
- 595.8 106 l 1,18,-1
- 745.2 106 l 1,19,-1
- 745.2 942 l 1,28,-1
- 382.5 942 l 1,29,-1
- 382.5 768 l 0,0,0
- 382.5 609 382.5 609 373.5 492 c 0,1,2
- 367.2 409 367.2 409 349.2 307 c 0,30,31
- 331.2 202 331.2 202 312.3 122 c 0,24,25
- 296.1 50 296.1 50 248.4 16 c 0,0,0
- 185.4 -29 185.4 -29 110.7 -29 c 0,0,0
- 95.4004 -29 95.4004 -29 79.2002 -27 c 0,26,27
- 36 -22 36 -22 -25.2002 0 c 1,0,-1
- -30.5996 125 l 1,1,2
- 37.7998 94 37.7998 94 94.5 94 c 0,0,0
- 131.4 94 131.4 94 152.1 101 c 0,0,0
+ 219.6 193 219.6 193 234.9 290.5 c 128,-1,2
+ 250.2 388 250.2 388 262.8 492 c 0,3,4
+ 271.8 569 271.8 569 271.8 769 c 2,5,-1
+ 271.8 957 l 1,6,-1
+ 122.4 957 l 1,7,-1
+ 122.4 1063 l 1,8,-1
+ 1059.3 1063 l 1,9,-1
+ 1059.3 957 l 1,10,-1
+ 910.8 957 l 1,11,-1
+ 910.8 106 l 1,12,-1
+ 1059.3 106 l 1,13,-1
+ 1059.3 0 l 1,14,-1
+ 595.8 0 l 1,15,-1
+ 595.8 106 l 1,16,-1
+ 745.2 106 l 1,17,-1
+ 745.2 942 l 1,18,-1
+ 382.5 942 l 1,19,-1
+ 382.5 768 l 2,20,21
+ 382.5 609 382.5 609 373.5 492 c 0,22,23
+ 367.2 409 367.2 409 349.2 305.5 c 128,-1,24
+ 331.2 202 331.2 202 312.3 122 c 0,25,26
+ 296.1 50 296.1 50 240.75 10.5 c 128,-1,27
+ 185.4 -29 185.4 -29 110.7 -29 c 0,28,29
+ 95.4004 -29 95.4004 -29 65.7002 -25.5 c 128,-1,30
+ 36 -22 36 -22 -25.2002 0 c 1,31,-1
+ -30.5996 125 l 1,32,33
+ 37.7998 94 37.7998 94 94.5 94 c 0,34,35
+ 131.4 94 131.4 94 159.75 104 c 128,-1,36
  188.1 114 188.1 114 203.4 151 c 0,0,1
 EndSplineSet
 EndChar
@@ -19686,8 +20216,19 @@ StartChar: afii10078
 Encoding: 1084 1084 1084
 Width: 1433
 Flags: W
+TtfInstrs: 131
+5TU+E'GC]R(C1O7&JmSF&I&[q#qQGe//8Zq/-7LC&G5&MjOE8Olk&4hj>deg3>+>,!'h8!'b_2b
+"9Ai3H3a\E((^lV!I>4U00JY=1A!]s1(b<_0M>>H5SOm(#7(PIT*P]-'g;g,"r'6+#6kDE"mlO+
+"RQF*"RQF*"moFm
+EndTtf
 Fore
-454.5 1063 m 1,6,-1
+66.5996 0 m 1,0,-1
+ 66.5996 106 l 1,1,-1
+ 216 106 l 1,2,-1
+ 216 957 l 1,3,-1
+ 66.5996 957 l 1,4,-1
+ 66.5996 1063 l 1,5,-1
+ 454.5 1063 l 1,6,-1
  723.6 332 l 1,7,-1
  992.7 1063 l 1,8,-1
  1367.1 1063 l 1,9,-1
@@ -19706,19 +20247,17 @@ Fore
  326.7 106 l 1,22,-1
  476.1 106 l 1,23,-1
  476.1 0 l 1,24,-1
- 66.5996 0 l 1,25,-1
- 66.5996 106 l 1,26,-1
- 216 106 l 1,27,-1
- 216 957 l 1,28,-1
- 66.5996 957 l 1,29,-1
- 66.5996 1063 l 1,30,-1
- 454.5 1063 l 1,6,-1
+ 66.5996 0 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10079
 Encoding: 1085 1085 1085
 Width: 1228
 Flags: W
+TtfInstrs: 81
+5St.A/-m'r4Vn>-)a+6R!>GeD&.C*"0H:Yrj>-'WeE#]g4QJ7/j>&Fi5SXQY'at'Z'E\nm)%iA>
+"UP8?H3=X04R<k>oK;IV1(`7-0E;(Q
+EndTtf
 Fore
 981.9 957 m 1,0,-1
  981.9 106 l 1,1,-1
@@ -19761,6 +20300,10 @@ StartChar: afii10081
 Encoding: 1087 1087 1087
 Width: 1228
 Flags: W
+TtfInstrs: 62
+5SFPW$3r^#"oncW!tu.q$3h%q'G0p'j>,6G1Ap2Ej=pX"%gn!l&UG+\":#>;%seEi00JS;1A'og
+lnAD>
+EndTtf
 Fore
 1141.2 1063 m 1,0,-1
  1141.2 957 l 1,1,-1
@@ -19801,6 +20344,9 @@ StartChar: afii10084
 Encoding: 1090 1090 1090
 Width: 1019
 Flags: W
+TtfInstrs: 51
+5S!rK!!XtX"ptek%gaco&.mXXh!>UMjP9)V!'gnn%Km2o&"Ee0H3c1j1A(K,`%j"H
+EndTtf
 Fore
 949.5 1063 m 1,0,-1
  949.5 774 l 1,1,-1
@@ -19831,56 +20377,60 @@ StartChar: afii10086
 Encoding: 1092 1092 1092
 Width: 1442
 Flags: W
+TtfInstrs: 98
+5SZ6s$PP&p1(jd-.N0?0//9]90Gcnae3#kSjOEN-r&d+&eEemi5U/#r0a.P&0Gk'=)Zb6eEBZH3
+NsHnf2(ak!)dkiB(4$^I4qRAQ1(a(?ln\2qlnT.Elk'jH3A:F5
+EndTtf
 Fore
 639 972 m 1,0,-1
  639 1451 l 1,1,-1
  479.7 1451 l 1,2,-1
  479.7 1556 l 1,3,-1
  804.6 1556 l 1,4,-1
- 804.6 972 l 1,7,-1
- 864.9 1042 l 2,8,9
- 908.1 1092 908.1 1092 1002.6 1092 c 0,0,0
+ 804.6 972 l 1,5,-1
+ 864.9 1042 l 2,6,7
+ 908.1 1092 908.1 1092 1002.6 1092 c 0,8,9
  1119.6 1092 1119.6 1092 1246.05 939 c 128,-1,10
  1372.5 786 1372.5 786 1372.5 532 c 0,11,12
- 1372.5 271 1372.5 271 1245.6 124 c 0,12,13
- 1113.3 -29 1113.3 -29 1001.7 -29 c 0,0,0
- 909 -29 909 -29 864.9 21 c 2,13,-1
- 804.6 90 l 1,14,-1
- 804.6 -320 l 1,15,-1
- 954 -320 l 1,16,-1
- 954 -426 l 1,17,-1
- 489.6 -426 l 1,18,-1
- 489.6 -320 l 1,19,-1
- 639 -320 l 1,20,-1
- 639 91 l 1,21,-1
- 577.8 21 l 2,22,23
- 533.7 -29 533.7 -29 441 -29 c 0,0,0
- 324 -29 324 -29 197.1 124 c 0,1,2
- 70.2002 278 70.2002 278 70.2002 532 c 0,3,4
- 70.2002 791 70.2002 791 196.2 939 c 0,5,6
- 327.6 1092 327.6 1092 440.1 1092 c 0,0,0
- 533.7 1092 533.7 1092 577.8 1042 c 2,27,-1
+ 1372.5 271 1372.5 271 1242.9 121 c 128,-1,13
+ 1113.3 -29 1113.3 -29 1011.15 -29 c 0,14,15
+ 909 -29 909 -29 864.9 21 c 2,16,-1
+ 804.6 90 l 1,17,-1
+ 804.6 -320 l 1,18,-1
+ 954 -320 l 1,19,-1
+ 954 -426 l 1,20,-1
+ 489.6 -426 l 1,21,-1
+ 489.6 -320 l 1,22,-1
+ 639 -320 l 1,23,-1
+ 639 91 l 1,24,-1
+ 577.8 21 l 2,25,26
+ 533.7 -29 533.7 -29 441 -29 c 0,27,28
+ 324 -29 324 -29 197.1 124.5 c 128,-1,29
+ 70.2002 278 70.2002 278 70.2002 532 c 0,30,31
+ 70.2002 791 70.2002 791 198.9 941.5 c 128,-1,32
+ 327.6 1092 327.6 1092 440.1 1092 c 0,33,34
+ 533.7 1092 533.7 1092 577.8 1042 c 2,35,-1
  639 972 l 1,0,-1
-639 873 m 1,28,-1
- 577.8 943 l 2,29,30
- 542.7 983 542.7 983 472.5 983 c 0,0,0
- 394.2 983 394.2 983 331.2 876 c 0,1,2
- 263.7 760 263.7 760 263.7 532 c 0,3,4
- 263.7 298 263.7 298 332.1 187 c 0,5,6
- 398.7 79 398.7 79 473.4 79 c 0,0,0
- 541.8 79 541.8 79 577.8 120 c 2,34,-1
- 639 190 l 1,35,-1
- 639 873 l 1,28,-1
-804.6 873 m 1,36,-1
- 804.6 190 l 1,37,-1
- 864.9 120 l 2,38,39
- 900 79 900 79 969.3 79 c 0,0,0
- 1047.6 79 1047.6 79 1110.6 187 c 0,1,2
- 1179 304 1179 304 1179 532 c 0,3,4
- 1179 763 1179 763 1110.6 876 c 0,5,6
- 1045.8 983 1045.8 983 970.2 983 c 0,0,0
- 899.1 983 899.1 983 864.9 943 c 2,43,-1
- 804.6 873 l 1,36,-1
+639 873 m 1,36,-1
+ 577.8 943 l 2,37,38
+ 542.7 983 542.7 983 472.5 983 c 0,39,40
+ 394.2 983 394.2 983 328.95 871.5 c 128,-1,41
+ 263.7 760 263.7 760 263.7 532 c 0,42,43
+ 263.7 298 263.7 298 331.2 188.5 c 128,-1,44
+ 398.7 79 398.7 79 473.4 79 c 0,45,46
+ 541.8 79 541.8 79 577.8 120 c 2,47,-1
+ 639 190 l 1,48,-1
+ 639 873 l 1,36,-1
+804.6 873 m 1,49,-1
+ 804.6 190 l 1,50,-1
+ 864.9 120 l 2,51,52
+ 900 79 900 79 969.3 79 c 0,53,54
+ 1047.6 79 1047.6 79 1113.3 191.5 c 128,-1,55
+ 1179 304 1179 304 1179 532 c 0,56,57
+ 1179 763 1179 763 1112.4 873 c 128,-1,58
+ 1045.8 983 1045.8 983 970.2 983 c 0,59,60
+ 899.1 983 899.1 983 864.9 943 c 2,61,-1
+ 804.6 873 l 1,49,-1
 EndSplineSet
 EndChar
 StartChar: afii10087
@@ -19893,140 +20443,156 @@ StartChar: afii10088
 Encoding: 1094 1094 1094
 Width: 1185
 Flags: W
+TtfInstrs: 70
+5Sahm$O83i!#6.Y/.2Xp"p$7^"p6Or&G5>M1=Y[Ogrqbij:LB,!'h)-$jd">H4C.L&d!@dKbXVA
+bj=[OoK;IV1,&\.
+EndTtf
 Fore
-922.5 0 m 1,2,-1
- 66.5996 0 l 1,3,-1
- 66.5996 105 l 1,4,-1
- 216 105 l 1,5,-1
- 216 957 l 1,6,-1
- 66.5996 957 l 1,7,-1
- 66.5996 1063 l 1,8,-1
- 531 1063 l 1,9,-1
- 531 957 l 1,10,-1
- 381.6 957 l 1,11,-1
- 381.6 123 l 1,12,-1
- 819.9 123 l 1,13,-1
- 819.9 957 l 1,14,-1
- 670.5 957 l 1,15,-1
- 670.5 1063 l 1,16,-1
- 1134.9 1063 l 1,17,-1
- 1134.9 957 l 1,18,-1
- 985.5 957 l 1,19,-1
- 985.5 106 l 1,20,-1
- 1134.9 106 l 1,26,-1
- 1134.9 -283 l 1,27,-1
- 1041.3 -283 l 1,2,-1
- 1026.9 -142 l 0,0,0
- 1012.5 0 1012.5 0 922.5 0 c 1,2,-1
+922.5 0 m 2,0,-1
+ 66.5996 0 l 1,1,-1
+ 66.5996 105 l 1,2,-1
+ 216 105 l 1,3,-1
+ 216 957 l 1,4,-1
+ 66.5996 957 l 1,5,-1
+ 66.5996 1063 l 1,6,-1
+ 531 1063 l 1,7,-1
+ 531 957 l 1,8,-1
+ 381.6 957 l 1,9,-1
+ 381.6 123 l 1,10,-1
+ 819.9 123 l 1,11,-1
+ 819.9 957 l 1,12,-1
+ 670.5 957 l 1,13,-1
+ 670.5 1063 l 1,14,-1
+ 1134.9 1063 l 1,15,-1
+ 1134.9 957 l 1,16,-1
+ 985.5 957 l 1,17,-1
+ 985.5 106 l 1,18,-1
+ 1134.9 106 l 1,19,-1
+ 1134.9 -283 l 1,20,-1
+ 1041.3 -283 l 1,21,-1
+ 1026.9 -142 l 0,22,23
+ 1012.5 0 1012.5 0 922.5 0 c 2,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10089
 Encoding: 1095 1095 1095
 Width: 1224
 Flags: W
+TtfInstrs: 68
+5SOh^'F-0-4U;o0!!FhT%kJD!%3,r/m,Z[W1Aj8qj:LB,!'h,&Kbsk0'*Abk)\AMV":'5W0C1I<
+oK;IV1(`e+
+EndTtf
 Fore
-212.4 617 m 2,0,-1
- 212.4 957 l 1,1,-1
- 63 957 l 1,2,-1
- 63 1063 l 1,3,-1
- 527.4 1063 l 1,4,-1
- 527.4 957 l 1,5,-1
- 378 957 l 1,6,-1
- 378 768 l 2,7,8
- 378 653 378 653 394 613 c 128,-1,9
- 410 573 410 573 467.1 573 c 2,10,-1
- 816.3 573 l 1,11,-1
- 816.3 957 l 1,12,-1
- 666.9 957 l 1,13,-1
- 666.9 1063 l 1,14,-1
- 1131.3 1063 l 1,15,-1
- 1131.3 957 l 1,16,-1
- 981.9 957 l 1,17,-1
- 981.9 106 l 1,18,-1
- 1131.3 106 l 1,19,-1
- 1131.3 0 l 1,20,-1
- 666.9 0 l 1,21,-1
- 666.9 106 l 1,22,-1
- 816.3 106 l 1,23,-1
- 816.3 449 l 1,24,-1
- 378.9 449 l 2,25,26
- 303.3 449 303.3 449 249.3 503 c 0,27,28
- 212.4 540 212.4 540 212.4 617 c 2,0,-1
+1131.3 1063 m 1,0,-1
+ 1131.3 957 l 1,1,-1
+ 981.9 957 l 1,2,-1
+ 981.9 106 l 1,3,-1
+ 1131.3 106 l 1,4,-1
+ 1131.3 0 l 1,5,-1
+ 666.9 0 l 1,6,-1
+ 666.9 106 l 1,7,-1
+ 816.3 106 l 1,8,-1
+ 816.3 449 l 1,9,-1
+ 378.9 449 l 2,10,11
+ 303.3 449 303.3 449 257.85 494.5 c 128,-1,12
+ 212.4 540 212.4 540 212.4 617 c 2,13,-1
+ 212.4 957 l 1,14,-1
+ 63 957 l 1,15,-1
+ 63 1063 l 1,16,-1
+ 527.4 1063 l 1,17,-1
+ 527.4 957 l 1,18,-1
+ 378 957 l 1,19,-1
+ 378 768 l 2,20,21
+ 378 653 378 653 394 613 c 128,-1,22
+ 410 573 410 573 467.1 573 c 2,23,-1
+ 816.3 573 l 1,24,-1
+ 816.3 957 l 1,25,-1
+ 666.9 957 l 1,26,-1
+ 666.9 1063 l 1,27,-1
+ 1131.3 1063 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10090
 Encoding: 1096 1096 1096
 Width: 1713
 Flags: W
+TtfInstrs: 94
+5T17d'E]le"pPAb#T#W="r]W)%gsp&"q<7+&G5>M1=YC_jOE6Go]-SE0`XHP#6Gh['*Skl";h]?
+!#1+n%!i:7ln[o_oK58&(G[ZF5RS\Q+;lgL0,G->"^M*.
+EndTtf
 Fore
-947.7 123 m 1,26,-1
- 1348.2 123 l 1,19,-1
- 1348.2 957 l 1,20,-1
- 1198.8 957 l 1,21,-1
- 1198.8 1063 l 1,22,-1
- 1663.2 1063 l 1,23,-1
- 1663.2 957 l 1,24,-1
- 1513.8 957 l 1,25,-1
- 1513.8 106 l 1,26,-1
- 1663.2 106 l 1,27,-1
- 1663.2 0 l 1,0,-1
- 66.5996 0 l 1,1,-1
- 66.5996 106 l 1,2,-1
- 216 106 l 1,3,-1
- 216 957 l 1,4,-1
- 66.5996 957 l 1,5,-1
- 66.5996 1063 l 1,6,-1
- 531 1063 l 1,7,-1
- 531 957 l 1,8,-1
- 381.6 957 l 1,9,-1
- 381.6 123 l 1,10,-1
- 782.1 123 l 1,19,-1
- 782.1 957 l 1,20,-1
- 632.7 957 l 1,21,-1
- 632.7 1063 l 1,22,-1
- 1097.1 1063 l 1,23,-1
- 1097.1 957 l 1,24,-1
- 947.7 957 l 1,25,-1
- 947.7 123 l 1,26,-1
+947.7 123 m 1,0,-1
+ 1348.2 123 l 1,1,-1
+ 1348.2 957 l 1,2,-1
+ 1198.8 957 l 1,3,-1
+ 1198.8 1063 l 1,4,-1
+ 1663.2 1063 l 1,5,-1
+ 1663.2 957 l 1,6,-1
+ 1513.8 957 l 1,7,-1
+ 1513.8 106 l 1,8,-1
+ 1663.2 106 l 1,9,-1
+ 1663.2 0 l 1,10,-1
+ 66.5996 0 l 1,11,-1
+ 66.5996 106 l 1,12,-1
+ 216 106 l 1,13,-1
+ 216 957 l 1,14,-1
+ 66.5996 957 l 1,15,-1
+ 66.5996 1063 l 1,16,-1
+ 531 1063 l 1,17,-1
+ 531 957 l 1,18,-1
+ 381.6 957 l 1,19,-1
+ 381.6 123 l 1,20,-1
+ 782.1 123 l 1,21,-1
+ 782.1 957 l 1,22,-1
+ 632.7 957 l 1,23,-1
+ 632.7 1063 l 1,24,-1
+ 1097.1 1063 l 1,25,-1
+ 1097.1 957 l 1,26,-1
+ 947.7 957 l 1,27,-1
+ 947.7 123 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10091
 Encoding: 1097 1097 1097
 Width: 1713
 Flags: W
+TtfInstrs: 102
+5TL1:"U#Gh'H\kH"p-=Y(HiK;)Ef&N$S2tr%58n9o^(WoeE$PgeE$8_&EFDXbW.BX5SO;A)\s(j
+%XJ*l&=a^SKa%YgH4)Cm1<f)?oK58&(G[ZF5RT4]0,PfL+;tb6"^M*.
+EndTtf
 Fore
-1569.6 -283 m 1,2,-1
- 1555.2 -142 l 0,0,0
- 1540.8 0 1540.8 0 1450.8 0 c 1,0,-1
- 66.5996 0 l 1,1,-1
- 66.5996 106 l 1,2,-1
- 216 106 l 1,3,-1
- 216 957 l 1,4,-1
- 66.5996 957 l 1,5,-1
- 66.5996 1063 l 1,6,-1
- 531 1063 l 1,7,-1
- 531 957 l 1,8,-1
- 381.6 957 l 1,9,-1
- 381.6 123 l 1,10,-1
- 782.1 123 l 1,19,-1
- 782.1 957 l 1,20,-1
- 632.7 957 l 1,21,-1
- 632.7 1063 l 1,22,-1
- 1097.1 1063 l 1,23,-1
- 1097.1 957 l 1,24,-1
- 947.7 957 l 1,25,-1
- 947.7 123 l 1,26,-1
- 1348.2 123 l 1,19,-1
- 1348.2 957 l 1,20,-1
- 1198.8 957 l 1,21,-1
- 1198.8 1063 l 1,22,-1
- 1663.2 1063 l 1,23,-1
- 1663.2 957 l 1,24,-1
- 1513.8 957 l 1,25,-1
- 1513.8 106 l 1,26,-1
- 1663.2 106 l 1,26,-1
- 1663.2 -283 l 1,27,-1
- 1569.6 -283 l 1,2,-1
+1198.8 1063 m 1,0,-1
+ 1663.2 1063 l 1,1,-1
+ 1663.2 957 l 1,2,-1
+ 1513.8 957 l 1,3,-1
+ 1513.8 106 l 1,4,-1
+ 1663.2 106 l 1,5,-1
+ 1663.2 -283 l 1,6,-1
+ 1569.6 -283 l 1,7,-1
+ 1555.2 -142 l 0,8,9
+ 1540.8 0 1540.8 0 1450.8 0 c 2,10,-1
+ 66.5996 0 l 1,11,-1
+ 66.5996 106 l 1,12,-1
+ 216 106 l 1,13,-1
+ 216 957 l 1,14,-1
+ 66.5996 957 l 1,15,-1
+ 66.5996 1063 l 1,16,-1
+ 531 1063 l 1,17,-1
+ 531 957 l 1,18,-1
+ 381.6 957 l 1,19,-1
+ 381.6 123 l 1,20,-1
+ 782.1 123 l 1,21,-1
+ 782.1 957 l 1,22,-1
+ 632.7 957 l 1,23,-1
+ 632.7 1063 l 1,24,-1
+ 1097.1 1063 l 1,25,-1
+ 1097.1 957 l 1,26,-1
+ 947.7 957 l 1,27,-1
+ 947.7 123 l 1,28,-1
+ 1348.2 123 l 1,29,-1
+ 1348.2 957 l 1,30,-1
+ 1198.8 957 l 1,31,-1
+ 1198.8 1063 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: afii10092
@@ -20067,49 +20633,74 @@ Width: 1431
 Flags: W
 AnchorPoint: "above" 702 1092 basechar 0
 Fore
-1215.9 955 m 1,0,-1
- 1215.9 106 l 1,1,-1
- 1365.3 106 l 1,2,-1
- 1365.3 0 l 1,3,-1
- 900.9 0 l 1,4,-1
- 900.9 106 l 1,5,-1
- 1050.3 106 l 1,6,-1
- 1050.3 957 l 1,7,-1
- 891 957 l 1,8,-1
- 891 1063 l 1,9,-1
- 1365.3 1063 l 1,10,-1
- 1365.3 955 l 1,11,-1
- 1215.9 955 l 1,0,-1
+378 106 m 1,0,-1
+ 546.3 106 l 2,1,2
+ 637.2 106 637.2 106 690.3 162 c 128,-1,3
+ 743.4 218 743.4 218 743.4 310 c 0,4,5
+ 743.4 402 743.4 402 689.85 457.5 c 128,-1,6
+ 636.3 513 636.3 513 546.3 513 c 2,7,-1
+ 378 513 l 1,8,-1
+ 378 106 l 1,0,-1
+890.1 308 m 0,9,10
+ 890.1 0 890.1 0 545.4 0 c 2,11,-1
+ 54 0 l 1,12,-1
+ 54 106 l 1,13,-1
+ 212.4 106 l 1,14,-1
+ 212.4 957 l 1,15,-1
+ 54 957 l 1,16,-1
+ 54 1063 l 1,17,-1
+ 527.4 1063 l 1,18,-1
+ 527.4 957 l 1,19,-1
+ 378 957 l 1,20,-1
+ 378 623 l 1,21,-1
+ 517.5 623 l 2,22,23
+ 890.1 623 890.1 623 890.1 308 c 0,9,10
+1215.9 955 m 1,24,-1
+ 1215.9 106 l 1,25,-1
+ 1365.3 106 l 1,26,-1
+ 1365.3 0 l 1,27,-1
+ 900.9 0 l 1,28,-1
+ 900.9 106 l 1,29,-1
+ 1050.3 106 l 1,30,-1
+ 1050.3 957 l 1,31,-1
+ 891 957 l 1,32,-1
+ 891 1063 l 1,33,-1
+ 1365.3 1063 l 1,34,-1
+ 1365.3 955 l 1,35,-1
+ 1215.9 955 l 1,24,-1
 EndSplineSet
-Refer: 1100 1100 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii10094
 Encoding: 1100 1100 1100
 Width: 982
 Flags: W
+TtfInstrs: 78
+5S"MZ!!EK4'`\FL%4huC(_H?#1@-dGlk&54!'gu.H3b/qH4cYQ!"F5_0C1I<o^"=ElnC[>'a#*Q
+&-`[^'F>HV&-iaP&/Gfl$=*W3
+EndTtf
 Fore
 378 106 m 1,0,-1
  546.3 106 l 2,1,2
  637.2 106 637.2 106 690.3 162 c 128,-1,3
- 743.4 218 743.4 218 743.4 310 c 128,-1,4
- 743.4 402 743.4 402 689.85 457.5 c 128,-1,5
- 636.3 513 636.3 513 546.3 513 c 2,6,-1
- 378 513 l 1,7,-1
+ 743.4 218 743.4 218 743.4 310 c 0,4,5
+ 743.4 402 743.4 402 689.85 457.5 c 128,-1,6
+ 636.3 513 636.3 513 546.3 513 c 2,7,-1
+ 378 513 l 1,8,-1
  378 106 l 1,0,-1
-890.1 308 m 0,8,9
- 890.1 0 890.1 0 545.4 0 c 2,10,-1
- 54 0 l 1,11,-1
- 54 106 l 1,12,-1
- 212.4 106 l 1,13,-1
- 212.4 957 l 1,14,-1
- 54 957 l 1,15,-1
- 54 1063 l 1,16,-1
- 527.4 1063 l 1,17,-1
- 527.4 957 l 1,18,-1
- 378 957 l 1,19,-1
- 378 623 l 1,20,-1
- 517.5 623 l 2,21,22
- 890.1 623 890.1 623 890.1 308 c 0,8,9
+890.1 308 m 0,9,10
+ 890.1 0 890.1 0 545.4 0 c 2,11,-1
+ 54 0 l 1,12,-1
+ 54 106 l 1,13,-1
+ 212.4 106 l 1,14,-1
+ 212.4 957 l 1,15,-1
+ 54 957 l 1,16,-1
+ 54 1063 l 1,17,-1
+ 527.4 1063 l 1,18,-1
+ 527.4 957 l 1,19,-1
+ 378 957 l 1,20,-1
+ 378 623 l 1,21,-1
+ 517.5 623 l 2,22,23
+ 890.1 623 890.1 623 890.1 308 c 0,9,10
 EndSplineSet
 EndChar
 StartChar: afii10095
@@ -20143,6 +20734,10 @@ StartChar: afii10096
 Encoding: 1102 1102 1102
 Width: 1604
 Flags: W
+TtfInstrs: 84
+5SbI\&/l9O-5m@6$N_jg!<ri6/-[dW&G5$=r&j$qgbS6g3B?F\!'hA1K`D6#Nt<3BN#drr?j$lC
+H3p)C"aU;)mP=M(1(a0Ip,P/$&Dlh/
+EndTtf
 AnchorPoint: "above" 715.5 1092 basechar 0
 Fore
 378 463 m 1,0,-1
@@ -20160,65 +20755,69 @@ Fore
  378 956 l 1,12,-1
  378 582 l 1,13,-1
  598.5 582 l 1,14,15
- 608.4 799 608.4 799 721.8 939 c 1,16,17
- 848.7 1092 848.7 1092 1058.4 1092 c 128,-1,18
- 1268.1 1092 1268.1 1092 1394.55 939 c 128,-1,19
- 1521 786 1521 786 1521 532 c 128,-1,20
- 1521 278 1521 278 1394.55 124.5 c 128,-1,21
- 1268.1 -29 1268.1 -29 1058.4 -29 c 0,22,23
- 847.8 -29 847.8 -29 722.7 124 c 0,24,25
- 612.9 259 612.9 259 599.4 463 c 1,26,-1
+ 608.4 799 608.4 799 721.8 939 c 0,16,17
+ 848.7 1092 848.7 1092 1058.4 1092 c 0,18,19
+ 1268.1 1092 1268.1 1092 1394.55 939 c 128,-1,20
+ 1521 786 1521 786 1521 532 c 0,21,22
+ 1521 278 1521 278 1394.55 124.5 c 128,-1,23
+ 1268.1 -29 1268.1 -29 1058.4 -29 c 0,24,25
+ 847.8 -29 847.8 -29 722.7 124 c 0,26,27
+ 612.9 259 612.9 259 599.4 463 c 1,28,-1
  378 463 l 1,0,-1
-1058.4 70 m 0,27,28
- 1191.6 70 1191.6 70 1259.55 187 c 128,-1,29
- 1327.5 304 1327.5 304 1327.5 532 c 128,-1,30
- 1327.5 760 1327.5 760 1259.55 876.5 c 128,-1,31
- 1191.6 993 1191.6 993 1058.4 993 c 128,-1,32
- 925.2 993 925.2 993 857.25 876.5 c 128,-1,33
- 789.3 760 789.3 760 789.3 532 c 128,-1,34
- 789.3 304 789.3 304 857.7 187 c 128,-1,35
- 926.1 70 926.1 70 1058.4 70 c 0,27,28
+1058.4 70 m 0,29,30
+ 1191.6 70 1191.6 70 1259.55 187 c 128,-1,31
+ 1327.5 304 1327.5 304 1327.5 532 c 0,32,33
+ 1327.5 760 1327.5 760 1259.55 876.5 c 128,-1,34
+ 1191.6 993 1191.6 993 1058.4 993 c 0,35,36
+ 925.2 993 925.2 993 857.25 876.5 c 128,-1,37
+ 789.3 760 789.3 760 789.3 532 c 0,38,39
+ 789.3 304 789.3 304 857.7 187 c 128,-1,40
+ 926.1 70 926.1 70 1058.4 70 c 0,29,30
 EndSplineSet
 EndChar
 StartChar: afii10097
 Encoding: 1103 1103 1103
 Width: 1192
 Flags: W
+TtfInstrs: 86
+5Rn8e*"W;[$S2W."r@@f&CeM^eDrC_4QJ3s5S*nq*-r2;#^Q`G$5X1u((DoZmP6QkmP<Ye3A=*)
+=?m<-&eb?Y'L!BL4r>+S#7pq'&FC&G3EZ=^
+EndTtf
 AnchorPoint: "above" 649.8 1092 basechar 0
 Fore
 456.3 536 m 1,0,1
- 346.5 551 346.5 551 291.15 614 c 128,-1,31
- 235.8 677 235.8 677 235.8 796 c 128,-1,29
- 235.8 915 235.8 915 311.4 989 c 0,26,27
- 387.9 1063 387.9 1063 527.4 1063 c 2,24,25
- 1072.8 1063 l 1,23,-1
- 1072.8 957 l 1,22,-1
- 922.5 957 l 1,21,-1
- 920.7 103 l 1,20,-1
- 1071 103 l 1,19,-1
- 1072.8 0 l 1,18,-1
- 609.3 0 l 1,17,-1
- 609.3 103 l 1,16,-1
+ 346.5 551 346.5 551 291.15 614 c 128,-1,2
+ 235.8 677 235.8 677 235.8 796 c 0,3,4
+ 235.8 915 235.8 915 311.85 989 c 128,-1,5
+ 387.9 1063 387.9 1063 527.4 1063 c 2,6,-1
+ 1072.8 1063 l 1,7,-1
+ 1072.8 957 l 1,8,-1
+ 922.5 957 l 1,9,-1
+ 920.7 103 l 1,10,-1
+ 1071 103 l 1,11,-1
+ 1072.8 0 l 1,12,-1
+ 609.3 0 l 1,13,-1
+ 609.3 103 l 1,14,-1
  758.7 103 l 1,15,-1
- 758.7 494 l 1,14,-1
- 648.9 494 l 2,13,-1
- 586.8 494 586.8 494 550.891 465.073 c 128,-1,12
- 514.981 436.146 514.981 436.146 471.6 338 c 2,9,10
- 322.2 0 l 1,8,-1
- 63.9004 0 l 1,7,-1
- 63.9004 103 l 1,6,-1
- 194.4 103 l 1,5,-1
- 321.3 391 l 2,4,-1
- 353.542 464.172 353.542 464.172 382.421 493.086 c 128,-1,3
+ 758.7 494 l 1,16,-1
+ 648.9 494 l 2,17,18
+ 586.8 494 586.8 494 550.891 465.073 c 128,-1,19
+ 514.981 436.146 514.981 436.146 471.6 338 c 2,20,-1
+ 322.2 0 l 1,21,-1
+ 63.9004 0 l 1,22,-1
+ 63.9004 103 l 1,23,-1
+ 194.4 103 l 1,24,-1
+ 321.3 391 l 2,25,26
+ 353.542 464.172 353.542 464.172 382.421 493.086 c 128,-1,27
  411.3 522 411.3 522 456.3 536 c 1,0,1
-758.7 597 m 1,32,-1
- 758.7 957 l 1,41,-1
- 603 957 l 2,40,-1
- 505.783 957 505.783 957 459.9 907 c 128,-1,39
- 414 857 414 857 414 778 c 128,-1,37
- 414 699 414 699 459.45 648 c 128,-1,36
- 504.9 597 504.9 597 603 597 c 2,33,34
- 758.7 597 l 1,32,-1
+758.7 597 m 1,28,-1
+ 758.7 957 l 1,29,-1
+ 603 957 l 2,30,31
+ 505.783 957 505.783 957 459.9 907 c 128,-1,32
+ 414 857 414 857 414 778 c 0,33,34
+ 414 699 414 699 459.45 648 c 128,-1,35
+ 504.9 597 504.9 597 603 597 c 2,36,-1
+ 758.7 597 l 1,28,-1
 EndSplineSet
 EndChar
 StartChar: uni0450
@@ -20292,33 +20891,31 @@ StartChar: afii10101
 Encoding: 1108 1108 1108
 Width: 1032
 Flags: W
+TtfInstrs: 63
+5RePJ&M4Lp!u;am#q?l*o^"?_bgbtk3ACM!'c)*5".9.M"q[+3Pn]8sRgb5[?lK[<r9WeJlk'0W
+&F;(N
+EndTtf
 Fore
-556.2 70 m 1,0,1
+556.2 70 m 0,0,1
  767.7 73 767.7 73 814.5 319 c 1,2,-1
  947.7 319 l 1,3,4
- 918 176 918 176 853.2 101 c 0,5,6
- 836.1 81 836.1 81 812.7 60 c 1,7,8
- 731.7 -5 731.7 -5 650.7 -21 c 0,9,10
- 609.3 -29 609.3 -29 554.4 -29 c 0,11,12
- 387 -28 387 -28 270 71 c 0,13,14
- 241.2 95 241.2 95 218.7 124 c 0,15,16
- 118.8 254 118.8 254 98.0996 424 c 0,17,18
- 92.7002 474 92.7002 474 91.7998 532 c 1,19,20
- 94.5 785 94.5 785 218.7 940 c 1,21,22
- 338.4 1071 338.4 1071 508.5 1089 c 0,23,24
- 531 1091 531 1091 554.4 1092 c 0,25,26
- 657 1093 657 1093 747.9 1068 c 0,27,28
- 833.4 1044 833.4 1044 916.2 997 c 1,29,-1
- 916.2 725 l 1,30,-1
- 819.9 725 l 1,31,32
- 806.4 863 806.4 863 738 929 c 1,33,34
- 673.2 994 673.2 994 556.2 993 c 0,35,36
- 359.1 992 359.1 992 305.1 744 c 0,37,38
- 290.7 682 290.7 682 287.1 604 c 1,39,-1
- 713.7 604 l 1,40,-1
- 713.7 499 l 1,41,-1
- 285.3 499 l 1,42,43
- 295.2 70 295.2 70 556.2 70 c 1,0,1
+ 918 176 918 176 829.8 73.5 c 128,-1,5
+ 741.6 -29 741.6 -29 554.4 -29 c 0,6,7
+ 334.8 -29 334.8 -29 213.898 124.492 c 128,-1,8
+ 92.9961 277.985 92.9961 277.985 91.7998 532 c 0,9,10
+ 94.6113 795.468 94.6113 795.468 221.906 943.734 c 128,-1,11
+ 349.2 1092 349.2 1092 554.4 1092 c 0,12,13
+ 657 1093 657 1093 745.2 1068.5 c 128,-1,14
+ 833.4 1044 833.4 1044 916.2 997 c 1,15,-1
+ 916.2 725 l 1,16,-1
+ 819.9 725 l 1,17,18
+ 806.4 863 806.4 863 739.8 928.5 c 128,-1,19
+ 673.2 994 673.2 994 556.2 993 c 0,20,21
+ 291.6 993 291.6 993 287.1 604 c 1,22,-1
+ 713.7 604 l 1,23,-1
+ 713.7 499 l 1,24,-1
+ 285.3 499 l 1,25,26
+ 295.2 70 295.2 70 556.2 70 c 0,0,1
 EndSplineSet
 EndChar
 StartChar: afii10102
@@ -20337,6 +20934,10 @@ StartChar: afii10104
 Encoding: 1111 1111 1111
 Width: 589
 Flags: W
+TtfInstrs: 74
+YRO6)YRaB+>HeZ3<*QRP92o+t!PSOX!'gMb!!!!C!$_HY3"e&)3*EI+92r,:92o+t!PSOXs1eU8
+!!!!C!$VD.3"e&)3*?4]
+EndTtf
 Refer: 168 168 N 1 0 0 1 -165.6 0 2
 Refer: 305 305 N 1 0 0 1 0 0 2
 EndChar
@@ -20351,14 +20952,9 @@ Encoding: 1113 1113 1113
 Width: 1393
 Flags: W
 Fore
-1059.3 1063 m 1,0,-1
- 1059.3 957 l 1,1,-1
- 910.8 957 l 1,2,-1
- 910.8 623 l 1,3,4
- 1174.5 623 1174.5 623 1279.8 515 c 0,5,6
- 1342.8 450 1342.8 450 1342.8 308 c 0,7,8
- 1342.8 0 1342.8 0 998.1 0 c 2,9,-1
- 745.2 0 l 1,10,-1
+587.7 0 m 1,10,-1
+ 587.7 102 l 1,12,-1
+ 745.2 102 l 9,0,0
  745.2 942 l 1,11,-1
  382.5 942 l 1,12,-1
  382.5 768 l 2,13,14
@@ -20377,6 +20973,13 @@ Fore
  122.4 957 l 1,29,-1
  122.4 1063 l 1,30,-1
  1059.3 1063 l 1,0,-1
+ 1059.3 957 l 1,1,-1
+ 910.8 957 l 1,2,-1
+ 910.8 623 l 1,3,4
+ 1174.5 623 1174.5 623 1279.8 515 c 0,5,6
+ 1342.8 450 1342.8 450 1342.8 308 c 0,7,8
+ 1342.8 0 1342.8 0 998.1 0 c 2,9,-1
+ 587.7 0 l 1,10,-1
 910.8 102 m 1,31,-1
  999 102 l 2,32,33
  1089.9 102 1089.9 102 1143 158 c 128,-1,34
@@ -20493,7 +21096,7 @@ StartChar: afii10110
 Encoding: 1118 1118 1118
 Width: 1041
 Flags: W
-Refer: 63188 63188 N 1 0 0 1 86.4 -110 2
+Refer: 63188 63188 N 1 0 0 1 86.4 -27 2
 Refer: 1091 1091 N 1 0 0 1 0 0 3
 EndChar
 StartChar: afii10193
@@ -20760,6 +21363,9 @@ Encoding: 1168 1168 1168
 Width: 1278
 Flags: W
 TeX: 97 0 0 0
+TtfInstrs: 47
+5Rd`'#nIFL"!e<f"X+?eo^(WoeEdab0`XHH$4MFhD[9eP"E+AqmP=M(m`[?b
+EndTtf
 Fore
 455.4 106 m 1,0,-1
  670.5 106 l 1,1,-1
@@ -20783,6 +21389,9 @@ Encoding: 1169 1169 1169
 Width: 990
 Flags: W
 TeX: 97 0 0 0
+TtfInstrs: 48
+5RmuL"TU+V"U5DB/.+'@&G5$=m*tA5j=pX"$NUBa%!iAQ"poS]0C1Idm-MqM
+EndTtf
 Fore
 816.3 1063 m 1,0,-1
  816.3 1368 l 1,1,-1
@@ -21003,11 +21612,12 @@ Fore
  1334.7 1386 l 1,19,-1
  1183.5 1386 l 1,20,-1
  606.6 823 l 1,21,-1
- 1251.9 106 l 1,22,-1
+ 1251 107 l 1,22,-1
  1404.9 106 l 1,23,-1
- 1404.9 -321 l 1,24,-1
- 1308.6 -321 l 1,25,-1
- 1308.6 0 l 9,26,-1
+ 1404.9 -322 l 1,24,-1
+ 1309.5 -322 l 1,25,26
+ 1309.5 -319 1309.5 -319 1293.3 -160 c 0,27,28
+ 1277.1 -1.95215 1277.1 -1.95215 1187.1 -1 c 10,29,-1
  1092.6 0 l 17,0,-1
 EndSplineSet
 EndChar
@@ -21042,11 +21652,12 @@ Fore
  1076.4 956 l 1,22,-1
  912.6 956 l 1,23,-1
  628.2 664 l 1,24,-1
- 991.8 106 l 1,25,-1
- 1129.5 106 l 1,26,-1
- 1129.5 -283 l 1,27,-1
- 1033.2 -283 l 1,28,-1
- 1033.2 0 l 9,29,-1
+ 991.8 106 l 1,4,-1
+ 1141.2 106 l 1,5,-1
+ 1141.2 -283 l 1,6,-1
+ 1047.6 -283 l 1,7,-1
+ 1033.2 -142 l 0,8,9
+ 1018.8 0 1018.8 0 928.8 0 c 10,10,-1
  657.9 0 l 17,0,-1
 EndSplineSet
 EndChar
@@ -21236,7 +21847,8 @@ TeX: 117 0 0 0
 AnchorPoint: "below" 803.7 0 basechar 0
 AnchorPoint: "above" 803.7 1465 basechar 0
 Fore
-981 0 m 17,0,-1
+1287.9 0 m 10,10,-1
+ 981 0 l 17,0,-1
  981 106 l 1,1,-1
  1152 106 l 1,2,-1
  1152 748 l 1,3,-1
@@ -21261,12 +21873,12 @@ Fore
  1505.7 1493 l 1,22,-1
  1505.7 1386 l 1,23,-1
  1334.7 1386 l 1,24,-1
- 1334.7 107 l 1,25,-1
- 1542.6 107 l 1,26,-1
- 1542.6 -321 l 1,27,-1
- 1360.8 -321 l 1,28,-1
- 1360.8 0 l 9,29,-1
- 981 0 l 17,0,-1
+ 1334.7 107 l 1,4,-1
+ 1505.7 107 l 1,5,-1
+ 1505.7 -321 l 1,6,-1
+ 1410.3 -321 l 1,7,8
+ 1410.3 -318 1410.3 -318 1394.1 -159 c 128,-1,9
+ 1377.9 0 1377.9 0 1287.9 0 c 10,10,-1
 EndSplineSet
 EndChar
 StartChar: uni04A3
@@ -21275,9 +21887,9 @@ Width: 1271
 Flags: W
 TeX: 117 0 0 0
 Fore
-666.9 0 m 17,0,-1
- 666.9 106 l 1,1,-1
- 816.3 106 l 1,2,-1
+667.8 0 m 17,0,-1
+ 667.8 106 l 1,1,-1
+ 817.2 106 l 1,2,-1
  817.2 516 l 1,3,-1
  378.9 516 l 1,4,-1
  378 106 l 1,5,-1
@@ -21300,12 +21912,13 @@ Fore
  1131.3 1063 l 1,22,-1
  1131.3 957 l 1,23,-1
  981.9 957 l 1,24,-1
- 981.9 123 l 1,25,-1
- 1236.6 123 l 1,26,-1
- 1236.6 -283 l 1,27,-1
- 1071 -283 l 1,28,-1
- 1071 0 l 9,29,-1
- 666.9 0 l 17,0,-1
+ 981.9 106 l 1,25,-1
+ 1131.3 106 l 1,5,-1
+ 1131.3 -283 l 1,6,-1
+ 1037.7 -283 l 1,7,-1
+ 1023.3 -142 l 0,8,9
+ 1008.9 0 1008.9 0 918.9 0 c 10,10,-1
+ 667.8 0 l 17,0,-1
 EndSplineSet
 EndChar
 StartChar: uni04A4
@@ -21530,11 +22143,12 @@ Fore
  1100.7 1141 l 1,10,-1
  1100.7 1374 l 1,11,-1
  705.6 1374 l 1,12,-1
- 705.6 106 l 1,13,-1
- 913.5 106 l 1,14,-1
- 913.5 -322 l 1,15,-1
- 731.7 -322 l 1,16,-1
- 731.7 -1 l 9,17,-1
+ 705.6 107 l 1,4,-1
+ 876.6 107 l 1,5,-1
+ 876.6 -321 l 1,6,-1
+ 781.2 -321 l 1,7,8
+ 781.2 -318 781.2 -318 765 -159 c 128,-1,9
+ 748.8 0 748.8 0 658.8 0 c 10,10,-1
  351.9 0 l 17,0,-1
 EndSplineSet
 EndChar
@@ -21557,11 +22171,12 @@ Fore
  855 796 l 1,10,-1
  855 940 l 1,11,-1
  594.9 940 l 1,12,-1
- 594.9 123 l 1,13,-1
- 849.6 123 l 1,14,-1
- 849.6 -283 l 1,15,-1
- 684 -283 l 1,16,-1
- 684 0 l 9,17,-1
+ 594 106 l 1,4,-1
+ 743.4 106 l 1,5,-1
+ 743.4 -283 l 1,6,-1
+ 649.8 -283 l 1,7,-1
+ 635.4 -142 l 0,8,9
+ 621 0 621 0 531 0 c 10,10,-1
  279.9 0 l 17,0,-1
 EndSplineSet
 EndChar
@@ -21620,8 +22235,7 @@ Width: 1312
 Flags: W
 TeX: 0 0 0 0
 Fore
-1206.9 0 m 9,0,-1
- 770.4 0 l 17,1,-1
+770.4 0 m 17,1,-1
  770.4 106 l 1,2,-1
  930.6 106 l 1,3,-1
  610.2 639 l 1,4,-1
@@ -21646,11 +22260,13 @@ Fore
  1242 1386 l 1,23,-1
  1090.8 1386 l 1,24,-1
  735.3 811 l 1,25,-1
- 1159.2 106 l 1,26,-1
- 1303.2 106 l 1,27,-1
- 1303.2 -321 l 1,28,-1
- 1206.9 -321 l 1,29,-1
- 1206.9 0 l 9,0,-1
+ 1159.2 107 l 1,4,-1
+ 1321.2 107 l 1,5,-1
+ 1321.2 -321 l 1,6,-1
+ 1225.8 -321 l 1,7,8
+ 1225.8 -318 1225.8 -318 1209.6 -159 c 128,-1,9
+ 1193.4 0 1193.4 0 1103.4 0 c 10,10,-1
+ 770.4 0 l 17,1,-1
 EndSplineSet
 EndChar
 StartChar: uni04B3
@@ -21659,8 +22275,7 @@ Width: 1039
 Flags: W
 TeX: 0 0 0 0
 Fore
-920.7 0 m 9,0,-1
- 575.1 0 l 17,1,-1
+575.1 0 m 17,1,-1
  575.1 106 l 1,2,-1
  696.6 106 l 1,3,-1
  488.7 424 l 1,4,-1
@@ -21685,11 +22300,13 @@ Fore
  976.5 956 l 1,23,-1
  849.6 956 l 1,24,-1
  593.1 563 l 1,25,-1
- 891.9 106 l 1,26,-1
- 1017 106 l 1,27,-1
- 1017 -283 l 1,28,-1
- 920.7 -283 l 1,29,-1
- 920.7 0 l 9,0,-1
+ 891.9 106 l 1,4,-1
+ 1023.3 106 l 1,5,-1
+ 1023.3 -283 l 1,6,-1
+ 929.7 -283 l 1,7,-1
+ 915.3 -142 l 0,8,9
+ 900.9 0 900.9 0 810.9 0 c 10,10,-1
+ 575.1 0 l 17,1,-1
 EndSplineSet
 EndChar
 StartChar: uni04B4
@@ -21698,7 +22315,7 @@ Width: 1989
 Flags: W
 TeX: 117 0 0 0
 Fore
-351.9 0 m 1,0,-1
+351.9 0 m 17,0,-1
  351.9 106 l 1,1,-1
  523.8 106 l 1,2,-1
  523.8 1374 l 1,3,-1
@@ -21719,12 +22336,13 @@ Fore
  1887.3 1493 l 1,18,-1
  1887.3 1387 l 1,19,-1
  1716.3 1387 l 1,20,-1
- 1716.3 107 l 1,21,-1
- 1924.2 107 l 1,22,-1
- 1924.2 -321 l 1,23,-1
- 1742.4 -321 l 1,24,-1
- 1742.4 0 l 1,25,-1
- 351.9 0 l 1,0,-1
+ 1716.3 107 l 1,4,-1
+ 1887.3 107 l 1,5,-1
+ 1887.3 -321 l 1,6,-1
+ 1791.9 -321 l 1,7,8
+ 1791.9 -318 1791.9 -318 1775.7 -159 c 128,-1,9
+ 1759.5 0 1759.5 0 1669.5 0 c 10,10,-1
+ 351.9 0 l 17,0,-1
 EndSplineSet
 EndChar
 StartChar: uni04B5
@@ -21733,7 +22351,7 @@ Width: 1657
 Flags: W
 TeX: 117 0 0 0
 Fore
-279.9 0 m 1,0,-1
+279.9 0 m 17,0,-1
  279.9 106 l 1,1,-1
  429.3 106 l 1,2,-1
  429.3 940 l 1,3,-1
@@ -21754,12 +22372,13 @@ Fore
  1517.4 1063 l 1,18,-1
  1517.4 957 l 1,19,-1
  1368 957 l 1,20,-1
- 1368 123 l 1,21,-1
- 1622.7 123 l 1,22,-1
- 1622.7 -283 l 1,23,-1
- 1457.1 -283 l 1,24,-1
- 1457.1 0 l 1,25,-1
- 279.9 0 l 1,0,-1
+ 1368 106 l 1,21,-1
+ 1517.4 106 l 1,5,-1
+ 1517.4 -283 l 1,6,-1
+ 1423.8 -283 l 1,7,-1
+ 1409.4 -142 l 0,8,9
+ 1395 0 1395 0 1305 0 c 10,10,-1
+ 279.9 0 l 17,0,-1
 EndSplineSet
 EndChar
 StartChar: uni04B6
@@ -21791,11 +22410,12 @@ Fore
  1259.1 1493 l 1,22,-1
  1259.1 1386 l 1,23,-1
  1088.1 1386 l 1,24,-1
- 1088.1 106 l 1,25,-1
- 1296 106 l 1,26,-1
- 1296 -322 l 1,27,-1
- 1114.2 -322 l 1,28,-1
- 1114.2 -1 l 9,29,-1
+ 1088.1 107 l 1,4,-1
+ 1259.1 107 l 1,5,-1
+ 1259.1 -321 l 1,6,-1
+ 1163.7 -321 l 1,7,8
+ 1163.7 -318 1163.7 -318 1147.5 -159 c 128,-1,9
+ 1131.3 0 1131.3 0 1041.3 0 c 10,10,-1
  737.1 0 l 17,0,-1
 EndSplineSet
 EndChar
@@ -21805,9 +22425,9 @@ Width: 1271
 Flags: W
 TeX: 117 0 0 0
 Fore
-666.9 0 m 17,0,-1
- 666.9 106 l 1,1,-1
- 816.3 106 l 1,2,-1
+667.8 0 m 17,0,-1
+ 667.8 106 l 1,1,-1
+ 817.2 106 l 1,2,-1
  817.2 449 l 1,3,-1
  378.9 449 l 2,4,5
  303.3 449 303.3 449 249.3 503 c 0,6,7
@@ -21828,12 +22448,13 @@ Fore
  1131.3 1063 l 1,24,-1
  1131.3 957 l 1,25,-1
  981.9 957 l 1,26,-1
- 981.9 123 l 1,27,-1
- 1236.6 123 l 1,28,-1
- 1236.6 -283 l 1,29,-1
- 1071 -283 l 1,30,-1
- 1071 0 l 9,31,-1
- 666.9 0 l 17,0,-1
+ 981.9 106 l 1,4,-1
+ 1131.3 106 l 1,5,-1
+ 1131.3 -283 l 1,6,-1
+ 1037.7 -283 l 1,7,-1
+ 1023.3 -142 l 0,8,9
+ 1008.9 0 1008.9 0 918.9 0 c 10,10,-1
+ 667.8 0 l 17,0,-1
 EndSplineSet
 EndChar
 StartChar: uni04B8
@@ -22161,11 +22782,12 @@ Flags: W
 TeX: 117 0 0 0
 Fore
 1285.2 0 m 9,0,-1
- 879.3 -1 l 17,29,-1
- 879.3 -322 l 1,28,-1
- 697.5 -322 l 1,27,-1
- 697.5 106 l 1,26,-1
- 905.4 106 l 1,25,-1
+ 952.2 0 l 18,10,-1
+ 862.2 0 862.2 0 846 -159 c 128,-1,9
+ 829.8 -318 829.8 -318 829.8 -321 c 1,7,8
+ 734.4 -321 l 1,6,-1
+ 734.4 107 l 1,5,-1
+ 905.4 107 l 1,4,-1
  905.4 653 l 1,24,-1
  623.7 653 l 2,23,-1
  356.4 653 356.4 653 238.5 767 c 128,-1,22
@@ -22198,11 +22820,12 @@ Flags: W
 TeX: 117 0 0 0
 Fore
 1131.3 0 m 9,0,-1
- 727.2 0 l 17,31,-1
- 727.2 -283 l 1,30,-1
- 561.6 -283 l 1,29,-1
- 561.6 123 l 1,28,-1
- 816.3 123 l 1,27,-1
+ 879.3 0 l 18,10,-1
+ 789.3 0 789.3 0 774.9 -142 c 0,8,9
+ 760.5 -283 l 1,7,-1
+ 666.9 -283 l 1,6,-1
+ 666.9 106 l 1,5,-1
+ 816.3 106 l 1,4,-1
  817.2 449 l 1,26,-1
  378.9 449 l 2,25,-1
  303.3 449 303.3 449 249.3 503 c 0,23,24
@@ -22553,11 +23176,12 @@ Fore
  1090.8 1161 l 1,8,-1
  1090.8 1370 l 1,9,-1
  455.4 1370 l 1,10,-1
- 455.4 106 l 1,11,-1
- 663.3 106 l 1,12,-1
- 663.3 -322 l 1,13,-1
- 481.5 -322 l 1,14,-1
- 481.5 -1 l 9,15,-1
+ 455.4 107 l 1,4,-1
+ 626.4 107 l 1,5,-1
+ 626.4 -321 l 1,6,-1
+ 531 -321 l 1,7,8
+ 531 -318 531 -318 514.8 -159 c 128,-1,9
+ 498.6 0 498.6 0 408.6 0 c 10,10,-1
  101.7 0 l 17,0,-1
 EndSplineSet
 EndChar
@@ -22578,11 +23202,12 @@ Fore
  816.3 796 l 1,8,-1
  816.3 940 l 1,9,-1
  378 940 l 1,10,-1
- 378 123 l 1,11,-1
- 632.7 123 l 1,12,-1
- 632.7 -283 l 1,13,-1
- 467.1 -283 l 1,14,-1
- 467.1 0 l 9,15,-1
+ 378 106 l 1,4,-1
+ 527.4 106 l 1,5,-1
+ 527.4 -283 l 1,6,-1
+ 433.8 -283 l 1,7,-1
+ 419.4 -142 l 0,8,9
+ 405 0 405 0 315 0 c 10,10,-1
  63 0 l 17,0,-1
 EndSplineSet
 EndChar
@@ -23705,7 +24330,7 @@ Fore
  923.643 762.64 923.643 762.64 932.715 818.08 c 1,28,-1
  986.58 818.08 l 1,29,-1
  986.58 697.68 l 1,30,31
- 932.148 674.72 932.148 674.72 880.835 663.24 c 128,-1,32
+ 932.147 674.72 932.147 674.72 880.835 663.24 c 128,-1,32
  829.521 651.76 829.521 651.76 780.759 651.76 c 0,33,34
  700.812 651.76 700.812 651.76 646.097 676.12 c 128,-1,35
  591.381 700.48 591.381 700.48 560.196 750.88 c 1,36,37
@@ -29265,6 +29890,36 @@ Width: 183
 Flags: W
 TeX: 117 0 0 0
 EndChar
+StartChar: uni200B
+Encoding: 8203 8203 8203
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+EndChar
+StartChar: afii61664
+Encoding: 8204 8204 8204
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+EndChar
+StartChar: afii301
+Encoding: 8205 8205 8205
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+EndChar
+StartChar: afii299
+Encoding: 8206 8206 8206
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+EndChar
+StartChar: afii300
+Encoding: 8207 8207 8207
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+EndChar
 StartChar: uni2010
 Encoding: 8208 8208 8208
 Width: 622
@@ -29396,6 +30051,9 @@ StartChar: quotesinglbase
 Encoding: 8218 8218 8218
 Width: 585
 Flags: W
+TtfInstrs: 28
+5R[_p#QtG>!!Nu8!soOg`9\*s0`Vd7bW.[;
+EndTtf
 Fore
 81 -199 m 1,0,1
  166.5 -130 166.5 -130 205.65 -36.5 c 128,-1,2
@@ -29427,6 +30085,9 @@ StartChar: quotedblleft
 Encoding: 8220 8220 8220
 Width: 942
 Flags: W
+TtfInstrs: 47
+5Ssn9!rrH5";(oR&ePNY#QOr>"UPSM%MB?&r5@+_`&SDB3ACLFoK:>Q(HF/L
+EndTtf
 Fore
 849.6 1440 m 1,0,1
  781.2 1376 781.2 1376 750.15 1291 c 128,-1,2
@@ -29451,6 +30112,9 @@ StartChar: quotedblright
 Encoding: 8221 8221 8221
 Width: 942
 Flags: W
+TtfInstrs: 51
+5T1%;!rrH9#RpoG&ePNY#Qk&:&d\sM&c`"H&CeYreAU\c&igO:3ACLFoK:>Q(HF/L
+EndTtf
 Fore
 130.5 1067 m 1,0,1
  200.7 1130 200.7 1130 232.2 1216 c 128,-1,2
@@ -29474,6 +30138,9 @@ StartChar: quotedblbase
 Encoding: 8222 8222 8222
 Width: 954
 Flags: W
+TtfInstrs: 50
+5T't4#lk)?#RpnL&I\sO!rrfD#n-tM!!<iFeAV:7`9\'K3=ula0`Vd74NoPs3A:F5
+EndTtf
 Fore
 81 -199 m 1,0,1
  166.5 -130 166.5 -130 205.65 -36.5 c 128,-1,2
@@ -29579,6 +30246,9 @@ StartChar: bullet
 Encoding: 8226 8226 8226
 Width: 1087
 Flags: W
+TtfInstrs: 16
+[0ZpD"oo&CeBBWI&CeoX
+EndTtf
 Fore
 276.3 762 m 0,0,1
  276.3 886 276.3 886 354.15 971.5 c 128,-1,2
@@ -29620,6 +30290,9 @@ StartChar: ellipsis
 Encoding: 8230 8230 8230
 Width: 1843
 Flags: W
+TtfInstrs: 38
+5SG(I"(<>f$","Y!!Wi3&fq#i,S8K'eEk]O0`VdW4?Vsc1,&\.
+EndTtf
 Fore
 1415.7 104 m 0,0,1
  1415.7 160 1415.7 160 1450.35 199 c 128,-1,2
@@ -29655,6 +30328,11 @@ StartChar: perthousand
 Encoding: 8240 8240 8240
 Width: 2473
 Flags: W
+TtfInstrs: 124
+5XI[;5Wq@q"$Sq59ajN;C&f;i7i5u(.M?JN!'`CH?pQqi9dDnV""blc+WDd;3Y`&*%h&ar$p$3g
+$q)ok$q^n%&G5>-eEdadma^aVmL\du&igO:(HF2M&EGV=4?UP;lnT.?f'X+;&NMO<;cj89"mlO+
+"moG:
+EndTtf
 Fore
 2062.8 784 m 0,0,1
  2205 784 2205 784 2288.7 674 c 128,-1,2
@@ -30284,6 +30962,10 @@ StartChar: Euro
 Encoding: 8364 8364 8364
 Width: 1172
 Flags: W
+TtfInstrs: 112
+5W^P%F"7M>&p"U=AH2fNIi2c<AJSt^?m?4?/Lr(K-mL8e&dU?+#n8L1//&3s+tP,]))M=A"q_(L
+2%\9U1@3N/eAMp:`"G'j&ihrb3B7[33=ula&JmG^!"d((jRhg:lk%2)&FM=04ROsY
+EndTtf
 Fore
 1023.3 395 m 1,0,1
  984.6 190 984.6 190 880.65 80.5 c 128,-1,2
@@ -30506,11 +31188,55 @@ EndSplineSet
 EndChar
 StartChar: afii61352
 Encoding: 8470 8470 8470
-Width: 2360
+Width: 1744
 Flags: W
 TeX: 97 0 0 0
-Refer: 78 78 N 1 0 0 1 0 0 2
-Refer: 186 186 N 1 0 0 1 1494 0 2
+Fore
+1651.5 622 m 128,-1,1
+ 1651.5 484 1651.5 484 1586.7 388 c 128,-1,2
+ 1521.9 292 1521.9 292 1429.2 292 c 0,3,4
+ 1335.6 292 1335.6 292 1271.25 388 c 128,-1,5
+ 1206.9 484 1206.9 484 1206.9 622 c 128,-1,7
+ 1206.9 760 1206.9 760 1271.25 855.5 c 128,-1,8
+ 1335.6 951 1335.6 951 1429.2 951 c 0,9,10
+ 1521.9 951 1521.9 951 1586.7 855.5 c 128,-1,11
+ 1651.5 760 1651.5 760 1651.5 622 c 128,-1,1
+1516.95 492.5 m 128,-1,23
+ 1552.5 545 1552.5 545 1552.5 621.5 c 128,-1,13
+ 1552.5 698 1552.5 698 1516.95 750.5 c 128,-1,14
+ 1481.4 803 1481.4 803 1428.75 803 c 128,-1,16
+ 1376.1 803 1376.1 803 1341 751 c 128,-1,17
+ 1305.9 699 1305.9 699 1305.9 621.5 c 128,-1,19
+ 1305.9 544 1305.9 544 1341 492 c 128,-1,20
+ 1376.1 440 1376.1 440 1428.75 440 c 128,-1,22
+ 1481.4 440 1481.4 440 1516.95 492.5 c 128,-1,23
+1206 104 m 1,0,-1
+ 1650.6 104 l 1,1,-1
+ 1650.6 0 l 1,2,-1
+ 1206 0 l 1,3,-1
+ 1206 104 l 1,0,-1
+929.7 1198 m 2,4,5
+ 929.7 1336 929.7 1336 988.65 1414.5 c 128,-1,7
+ 1047.6 1493 1047.6 1493 1238.4 1493 c 1,8,-1
+ 1238.4 1354 l 1,9,10
+ 1102.5 1354 1102.5 1354 1071 1326 c 0,11,12
+ 1040.4 1297 1040.4 1297 1040.4 1217 c 2,13,-1
+ 1040.4 -29 l 1,14,-1
+ 931.5 -29 l 1,15,-1
+ 377.1 1229 l 1,16,-1
+ 377.1 267 l 2,17,18
+ 377.1 128 377.1 128 318.15 49.5 c 128,-1,20
+ 259.2 -29 259.2 -29 68.4004 -29 c 1,21,-1
+ 68.4004 110 l 1,22,23
+ 204.3 110 204.3 110 235.8 138 c 0,24,25
+ 266.4 167 266.4 167 266.4 248 c 2,26,-1
+ 266.4 1386 l 1,27,-1
+ 95.4004 1386 l 1,28,-1
+ 95.4004 1493 l 1,29,-1
+ 430.2 1493 l 1,30,-1
+ 929.7 315 l 1,31,-1
+ 929.7 1198 l 2,4,5
+EndSplineSet
 EndChar
 StartChar: trademark
 Encoding: 8482 8482 8482
@@ -31479,6 +32205,9 @@ StartChar: partialdiff
 Encoding: 8706 8706 8706
 Width: 953
 Flags: W
+TtfInstrs: 54
+5T'PL+UK(l-PZgr+WCq,Ypp/-!rsAT,T&!BeBH^l3B7[30`VdGbhUDRc4J85&igO:3A:F5
+EndTtf
 Fore
 680.4 621 m 1,0,1
  693.9 708 693.9 708 700.65 789.5 c 128,-1,2
@@ -31654,6 +32383,9 @@ StartChar: periodcentered
 Encoding: 8729 8729 8729
 Width: 585
 Flags: W
+TtfInstrs: 18
+[g?IF$jH\3$kUqT0`Vd7lnAD>
+EndTtf
 Fore
 171 711 m 0,0,1
  171 767 171 767 205.65 805.5 c 128,-1,2
@@ -31728,6 +32460,10 @@ StartChar: infinity
 Encoding: 8734 8734 8734
 Width: 1535
 Flags: W
+TtfInstrs: 68
+5U6XZ%i$Z8!":+i":kS^+TnkdY7IcZXY:.`,T%-u<@SV]*\\/Tm*tA63B9)[0`Vd_m/62]^_%1q
+3>+>4&J@)X
+EndTtf
 Fore
 823.5 559 m 1,0,1
  868.5 470 868.5 470 928.35 425.5 c 128,-1,2
@@ -31878,6 +32614,9 @@ StartChar: integral
 Encoding: 8747 8747 8747
 Width: 960
 Flags: W
+TtfInstrs: 35
+5S>3J!#i<U[M&nR-43ik*EWFk&DZX-lnJJOr64O*bj7"`
+EndTtf
 Fore
 279.9 -262 m 0,0,1
  375.3 -262 375.3 -262 387.9 426 c 0,2,3
@@ -34508,12 +35247,12 @@ TeX: 0 0 0 0
 Fore
 5.40039 532 m 0,0,1
  5.40039 981.947 5.40039 981.947 357.3 1208 c 0,2,3
- 533.209 1321 533.209 1321 708.3 1321 c 0,4,5
+ 533.21 1321 533.21 1321 708.3 1321 c 0,4,5
  884.29 1321 884.29 1321 1060.2 1208 c 0,6,7
  1412.1 981.947 1412.1 981.947 1412.1 532 c 0,8,9
  1412.1 82.0518 1412.1 82.0518 1060.2 -144 c 0,10,11
  884.29 -257 884.29 -257 708.3 -257 c 0,12,13
- 533.209 -257 533.209 -257 357.3 -144 c 0,14,15
+ 533.21 -257 533.21 -257 357.3 -144 c 0,14,15
  5.40039 82.0518 5.40039 82.0518 5.40039 532 c 0,0,1
 367.2 1077 m 1,16,-1
  367.2 -13 l 1,17,18
@@ -34841,7 +35580,7 @@ Fore
  1412.1 532 l 1,4,5
  1412.1 981.947 1412.1 981.947 1060.2 1208 c 0,6,7
  884.29 1321 884.29 1321 708.3 1321 c 0,8,9
- 533.209 1321 533.209 1321 357.3 1208 c 0,10,11
+ 533.21 1321 533.21 1321 357.3 1208 c 0,10,11
  5.40039 981.947 5.40039 981.947 5.40039 532 c 1,12,-1
  -18 532 l 1,0,-1
 1306.6 532 m 1,13,-1
@@ -34862,7 +35601,7 @@ Fore
  -18 532 l 1,1,-1
  5.40039 532 l 1,2,3
  5.40039 82.0518 5.40039 82.0518 357.3 -144 c 0,4,5
- 533.209 -257 533.209 -257 708.3 -257 c 0,6,7
+ 533.21 -257 533.21 -257 708.3 -257 c 0,6,7
  884.29 -257 884.29 -257 1060.2 -144 c 0,8,9
  1412.1 82.0518 1412.1 82.0518 1412.1 532 c 1,10,-1
  1435.5 532 l 1,11,-1
@@ -35332,12 +36071,12 @@ TeX: 0 0 0 0
 Fore
 5.40039 532 m 0,0,1
  5.40039 981.947 5.40039 981.947 357.3 1208 c 0,2,3
- 533.209 1321 533.209 1321 708.3 1321 c 0,4,5
+ 533.21 1321 533.21 1321 708.3 1321 c 0,4,5
  884.29 1321 884.29 1321 1060.2 1208 c 0,6,7
  1412.1 981.947 1412.1 981.947 1412.1 532 c 0,8,9
  1412.1 82.0518 1412.1 82.0518 1060.2 -144 c 0,10,11
  884.29 -257 884.29 -257 708.3 -257 c 0,12,13
- 533.209 -257 533.209 -257 357.3 -144 c 0,14,15
+ 533.21 -257 533.21 -257 357.3 -144 c 0,14,15
  5.40039 82.0518 5.40039 82.0518 5.40039 532 c 0,0,1
 657 1199.79 m 1,16,17
  533.769 1186.09 533.769 1186.09 410.018 1106.6 c 0,18,19
@@ -35363,12 +36102,12 @@ TeX: 0 0 0 0
 Fore
 5.40039 532 m 0,0,1
  5.40039 981.947 5.40039 981.947 357.3 1208 c 0,2,3
- 533.209 1321 533.209 1321 708.3 1321 c 0,4,5
+ 533.21 1321 533.21 1321 708.3 1321 c 0,4,5
  884.29 1321 884.29 1321 1060.2 1208 c 0,6,7
  1412.1 981.947 1412.1 981.947 1412.1 532 c 0,8,9
  1412.1 82.0518 1412.1 82.0518 1060.2 -144 c 0,10,11
  884.29 -257 884.29 -257 708.3 -257 c 0,12,13
- 533.209 -257 533.209 -257 357.3 -144 c 0,14,15
+ 533.21 -257 533.21 -257 357.3 -144 c 0,14,15
  5.40039 82.0518 5.40039 82.0518 5.40039 532 c 0,0,1
 759.6 -135.835 m 1,16,17
  883.54 -122.214 883.54 -122.214 1007.48 -42.5996 c 0,18,19
@@ -35394,12 +36133,12 @@ TeX: 0 0 0 0
 Fore
 5.40039 532 m 0,0,1
  5.40039 981.947 5.40039 981.947 357.3 1208 c 0,2,3
- 533.209 1321 533.209 1321 708.3 1321 c 0,4,5
+ 533.21 1321 533.21 1321 708.3 1321 c 0,4,5
  884.29 1321 884.29 1321 1060.2 1208 c 0,6,7
  1412.1 981.947 1412.1 981.947 1412.1 532 c 0,8,9
  1412.1 82.0518 1412.1 82.0518 1060.2 -144 c 0,10,11
  884.29 -257 884.29 -257 708.3 -257 c 0,12,13
- 533.209 -257 533.209 -257 357.3 -144 c 0,14,15
+ 533.21 -257 533.21 -257 357.3 -144 c 0,14,15
  5.40039 82.0518 5.40039 82.0518 5.40039 532 c 0,0,1
 110.902 532 m 0,16,17
  110.902 149.545 110.902 149.545 410.018 -42.5996 c 0,18,19
@@ -35425,12 +36164,12 @@ TeX: 0 0 0 0
 Fore
 5.40039 532 m 0,0,1
  5.40039 981.947 5.40039 981.947 357.3 1208 c 0,2,3
- 533.209 1321 533.209 1321 708.3 1321 c 0,4,5
+ 533.21 1321 533.21 1321 708.3 1321 c 0,4,5
  884.29 1321 884.29 1321 1060.2 1208 c 0,6,7
  1412.1 981.947 1412.1 981.947 1412.1 532 c 0,8,9
  1412.1 82.0518 1412.1 82.0518 1060.2 -144 c 0,10,11
  884.29 -257 884.29 -257 708.3 -257 c 0,12,13
- 533.209 -257 533.209 -257 357.3 -144 c 0,14,15
+ 533.21 -257 533.21 -257 357.3 -144 c 0,14,15
  5.40039 82.0518 5.40039 82.0518 5.40039 532 c 0,0,1
 110.902 532 m 0,16,17
  110.902 149.545 110.902 149.545 410.018 -42.5996 c 0,18,19
@@ -35753,6 +36492,14 @@ StartChar: uni2639
 Encoding: 9785 9785 9785
 Width: 1652
 Flags: W
+TtfInstrs: 353
+\c<-=!!!*O\,ZpK\c=Da/-#c&\,\2o\c<fP,QIos\,[T^\c;p7&c`"a\,Z^E5oTe>!"8iS!"8ic
+!"8is!"8j.!"8j>!"8jN!"8j^!"8jn!"8k)!"8k9!"8kI!"8kY!"8i:>sSVojT#\ho`,C#!aS(q
+!9sOs!;Z[.!!6Fl)ZU`U&ca?\&caol&cbK'&cc&7&ccVG&cd1W&cdag&ce="&cem2&cfHB&cg#R
+&cgSb&c`AH\,\&k\,[Jp\,[T^\,[r(\,[p15oTe>!&+C"!&+C2!&+CB!&+CR!&+Cb!&+Cr!&+D-
+!&+D=!&+DM!&+D]!&+Dm!&+E(!&+B^>sSVojT$t7o`-ZG!aW;9"q\9E1Y_uA!"T&9!!=a]!"TXP
+!!<39!!=a]!!<eD!$)%V!!=a]!$)W^!%%[i!!=a]!%&8e!$Vua!%Q@*!%&8e!%uVP0`V1R
+EndTtf
 Fore
 153 746 m 0,0,1
  153 1057 153 1057 350.1 1276.5 c 128,-1,2
@@ -35795,6 +36542,14 @@ StartChar: smileface
 Encoding: 9786 9786 9786
 Width: 1652
 Flags: W
+TtfInstrs: 353
+\c<-=!!!*O\,ZpK\c=Da/-#c&\,\2o\c<ZL,QIos\,[HZ\c;p7&c`"a\,Z^E5oTe>!"8iS!"8ic
+!"8is!"8j.!"8j>!"8jN!"8j^!"8jn!"8k)!"8k9!"8kI!"8kY!"8i:>sSVojT#\ho`,C#!aS(q
+!9sOs!;Z[.!!6Fl)ZU`U&ca?\&caol&cbK'&cc&7&ccVG&cd1W&cdag&ce="&cem2&cfHB&cg#R
+&cgSb&c`AH\,\&k\,[Vt\,[HZ\,[r(\,[p15oTe>!&+C"!&+C2!&+CB!&+CR!&+Cb!&+Cr!&+D-
+!&+D=!&+DM!&+D]!&+Dm!&+E(!&+B^>sSVojT$t7o`-ZG!aW;9"q\9E1Y_uA!"T&9!!=a]!"TXP
+!!<39!!=a]!!<eD!#P\V!!=a]!#Q9Y!%%[i!!=a]!%&8e!$Vua!%Q@*!%&8e!%uVP0`V1R
+EndTtf
 Fore
 153 746 m 0,0,1
  153 1057 153 1057 350.1 1276.5 c 128,-1,2
@@ -35837,6 +36592,12 @@ StartChar: invsmileface
 Encoding: 9787 9787 9787
 Width: 1652
 Flags: W
+TtfInstrs: 205
+\c<0>!!!*O\,ZsL\c<WK*WQ9m\,[EY\c;p7&HDn`\,Z^E\,[*P\,[;k\,[9t5m78R!$2.:!$2+A
+>sTD0)#t]X.0(Ch3<1*#8H9e3=TBKCB`K1SGlSlcM#\RsR/e9.W;mt>\H!ZNaT*@^f`3&n%:-ID
+%1p#L,1*h"+tpG+"q\9E-en^5!"T&9!!=a]!"TXP!!<3D!!=a]!!<eD!#ttN!!=a]!#uQ[!"fdP
+!"@5a!":Nj!$Di_!#X(m!#uQ[!$ooF0`V1R
+EndTtf
 Fore
 153 746 m 0,0,1
  153 1057 153 1057 350.1 1276.5 c 128,-1,2
@@ -35966,6 +36727,13 @@ StartChar: uni263F
 Encoding: 9791 9791 9791
 Width: 1131
 Flags: W
+TtfInstrs: 289
+\c=Yh(B=Of\,\H!\c<$:%fc\^\,ZgH\c=>_.f]Z%\,\,m\c;^1(B?'"&imH%"OOXY#nXTH%+)Ka
+$no*j%hQ5N'%"2i)ZUZS/eJ^V\,[<V\,[Vt5oTe>!&jm)!&jm9!&jmI!&jmY!&jmi!&jn$!&jn4
+!&jnD!&jnT!&jnd!&jnt!&jo/!&jle>sSVojT%4>o`-oN!aW;92\<J!+jd_!.hK2j4j^\=/eGMm
+6JMRN!$Er)!$X)+!%T_4!%fk6!"CTm!"&]6!!=a]!"':K!%.b%!!=a]!%/>h!'1)n!!=a]!'1\&
+!!!!S!%/?k3Of&&&@_]Gd's&`&@_]Nd's&_&@_]Pd's&f0=h-&!&=O%&J@)X0`V1R
+EndTtf
 Fore
 785.7 1110 m 1,0,1
  821.7 1084 821.7 1084 854.1 1048 c 0,2,3
@@ -36018,6 +36786,13 @@ StartChar: female
 Encoding: 9792 9792 9792
 Width: 1347
 Flags: W
+TtfInstrs: 275
+\c;p7%KHS]\,Z^E\c<TJ*rlBn\,[BX\c<EE!!!*O\,[3S5m78R!!!#q!!!!#>sTD0)#sX:.0'>J
+3<0$Z8H8_j=TAF%B`J,5GlRgEM#[MUR/d3eW;lnu\GuU0aT);@f`2!P%:)7=!#>P=!%%[M!&af]
+!(Hqm!*0((!+l38!-S>H!/:IX!1!Th!2]`#!4Dk3!6,!C!7h,S!"E4""T[Wa"p";r"on^1\,[BX
+\,[Mq\,[L%\,[T^\,[`"\,[3S\,[l2!4W"L0=h,q!!<3'/%>Qk&@qi[!#kn?/%>Qt&@qiJ!$_IG
+/%>Qc&@_]b&@_]Wd's&p&@_]^d's&o&@_]`d's'!0/,*\
+EndTtf
 Fore
 1028.7 930 m 0,0,1
  1028.7 1094 1028.7 1094 924.3 1208 c 128,-1,2
@@ -36054,6 +36829,13 @@ StartChar: uni2641
 Encoding: 9793 9793 9793
 Width: 1347
 Flags: W
+TtfInstrs: 283
+\c;g4+TMTp\,ZUB\c<NH$igA[\,[<V\c<ZL#lk&X\,[HZ5oTe>!!<3J!!<3Z!!<3j!!<4%!!<45
+!!<4E!!<4U!!<4e!!<4u!!<50!!<5@!!<5P!!<31>sSVojT#A_o`,'o!aS(q!9sOj!;Z[%!!6Fl
+)ZU`U#llCS#llsc#lmNs#ln*.#lnZ>#lo5N#loe^#lp@n#lpq)#lqL9#lr'I#lrWY#lkE?\,ZpK
+\,[)e\,['n\,[<V\,[/g\,[-p\,[HZ\,[l2!4W"@0=h,f!$2+B/%>Q`&@qiQ!"Ao1/%>Qj&@qiM
+!!!!$/%>Qf&@_]O&@_]Rd's&h0=Uuk&@_]Td's&j0=Uuj&@_]VcnI0S
+EndTtf
 Fore
 675 689 m 0,0,1
  527.4 689 527.4 689 423.45 581.5 c 128,-1,2
@@ -36090,6 +36872,9 @@ StartChar: male
 Encoding: 9794 9794 9794
 Width: 1652
 Flags: W
+TtfInstrs: 31
+\c<cO*rlBn\,[Q]\,[i1!4i.M!#bh>/%>R!&25g=
+EndTtf
 Fore
 910.8 821 m 0,0,1
  806.4 936 806.4 936 665.1 941 c 128,-1,2
@@ -36125,6 +36910,11 @@ StartChar: uni2643
 Encoding: 9795 9795 9795
 Width: 1652
 Flags: W
+TtfInstrs: 159
+\,[O&\,[R'\,[N\\,ZZY\,ZXb\,[/s5oTe>!"o8Y!"o8i!"o9$!"o94!"o9D!"o9T!"o9d!"o9t
+!"o:/!"o:?!"o:O!"o:_!"o8@>sSVojT#nno`,U)!aWA;'EA79&ePa:\,[Q]\,[B$\,[E%\,[8j
+!4W"G0=Uut0=h,o!!`K+/%>Qi&@qiV!#bh>/%>Qo&@_]?cnI0S
+EndTtf
 Fore
 702.9 531 m 1,0,-1
  702.9 532 l 1,1,2
@@ -36156,6 +36946,12 @@ StartChar: uni2644
 Encoding: 9796 9796 9796
 Width: 1652
 Flags: W
+TtfInstrs: 199
+\,[X)\,[[*\,[W_\,ZNU\,ZL^\,ZWX\,ZL?\,Zij\,Z]Z\,[Z`\,[&p\,[?#5m78R!#GY3!#GV:
+>sTD0)#tHQ.0(.a3<0iq8H9P,=TB6<B`JqLGlSW\M#\=lR/e$'W;m_7\H!EGaT*+Wf`2fg%:-ID
+'%",g&hg`p#nXTH*RFer!#%#q!$3f'!!Fsd!!<3$!!=a]!!<eD!"8iG!!=a]!"9FK!!<eB!!^f[
+!!!S?!!pr_!"&]E!"9GP3A</f
+EndTtf
 Fore
 498.6 1165 m 1,0,-1
  403.2 1165 l 1,1,-1
@@ -36190,6 +36986,12 @@ StartChar: uni2645
 Encoding: 9797 9797 9797
 Width: 1652
 Flags: W
+TtfInstrs: 203
+\c<`N*WQ9m\,[N\\c<-=)?9ji\,ZpK\c=>_.f]Z%\,\,m\,[N\\,[Z,\,[Q]\,[`"\,[N\\,[f$
+\,[EY\,[l&\,ZpK\,[r(\,\#j\,\,9\,\50\,\#j\,\;2\,\,m\,\GB!4W"B0=h-/!$M=E/%>R)
+&@qia!$)%A/%>R%&@qig!#kn?/%>R+&@_]c&@_]fd's'&&@_]hd's'$&@_]jd's'!&@_]ld's&u
+&@_]nd's&r&@_]pd's&p&@_]rcnI0S
+EndTtf
 Fore
 825.3 396 m 0,0,1
  774.9 396 774.9 396 739.35 356.5 c 128,-1,2
@@ -38312,29 +39114,33 @@ Encoding: 63185 63185 63185
 Width: 921
 Flags: W
 TeX: 0 0 0 0
+TtfInstrs: 80
+ZjmcT!#uR"bgaik!4<C@(r$Ct0G)b#`%j$N$qjR(#tn6%=9-#7*<3eS!!!u=)ur5`&i;RNYRX<*
+=9-#7)ur5(!!!u=*<3f6&i;RN
+EndTtf
 AnchorPoint: "above" 460.8 1092 mark 0
 AnchorPoint: "above-mark" 460.8 1526 basemark 0
 AnchorPoint: "above-mark" 460.8 1180 mark 0
 Fore
-777.6 1390 m 24,0,1
- 768.6 1379 768.6 1379 691.2 1330 c 0,2,3
- 612.9 1281 612.9 1281 463.5 1281 c 0,4,5
- 314.1 1281 314.1 1281 232.2 1328 c 0,6,7
- 150.3 1375 150.3 1375 142.2 1386 c 24,8,9
- 112.5 1425 112.5 1425 112.5 1472 c 0,10,11
- 112.5 1518 112.5 1518 144 1552 c 0,12,13
- 174.6 1587 174.6 1587 217.8 1587 c 0,14,15
- 261 1587 261 1587 291.6 1552 c 0,16,17
- 323.1 1518 323.1 1518 323.1 1470 c 0,18,19
- 323.1 1460 323.1 1460 317.7 1438 c 1,20,21
- 362.7 1419 362.7 1419 460.8 1419 c 0,22,23
- 558.9 1419 558.9 1419 603.9 1438 c 1,24,25
- 598.5 1454 598.5 1454 598.5 1470 c 0,26,27
- 598.5 1518 598.5 1518 630 1552 c 0,28,29
- 660.6 1587 660.6 1587 703.8 1587 c 0,30,31
- 747 1587 747 1587 777.6 1552 c 0,32,33
- 809.1 1518 809.1 1518 809.1 1472 c 0,34,35
- 809.1 1427 809.1 1427 777.6 1390 c 24,0,1
+112.5 1472 m 0,0,1
+ 112.5 1518 112.5 1518 143.55 1552.5 c 128,-1,2
+ 174.6 1587 174.6 1587 217.8 1587 c 0,3,4
+ 261 1587 261 1587 292.05 1552.5 c 128,-1,5
+ 323.1 1518 323.1 1518 323.1 1470 c 0,6,7
+ 323.1 1460 323.1 1460 317.7 1438 c 1,8,9
+ 362.7 1419 362.7 1419 460.8 1419 c 0,10,11
+ 558.9 1419 558.9 1419 603.9 1438 c 1,12,13
+ 598.5 1454 598.5 1454 598.5 1470 c 0,14,15
+ 598.5 1518 598.5 1518 629.55 1552.5 c 128,-1,16
+ 660.6 1587 660.6 1587 703.8 1587 c 0,17,18
+ 747 1587 747 1587 778.05 1552.5 c 128,-1,19
+ 809.1 1518 809.1 1518 809.1 1472 c 0,20,21
+ 809.1 1427 809.1 1427 788.85 1403 c 152,-1,22
+ 768.6 1379 768.6 1379 690.75 1330 c 128,-1,23
+ 612.9 1281 612.9 1281 463.5 1281 c 0,24,25
+ 314.1 1281 314.1 1281 232.2 1328 c 128,-1,26
+ 150.3 1375 150.3 1375 131.4 1400 c 152,-1,27
+ 112.5 1425 112.5 1425 112.5 1472 c 0,0,1
 EndSplineSet
 EndChar
 StartChar: cyrbreve
@@ -38342,30 +39148,96 @@ Encoding: 63188 63188 63188
 Width: 921
 Flags: W
 TeX: 0 0 0 0
+TtfInstrs: 85
+ZjmcS!#cEubgaik!4<C@(V^:q0G)b#`%j$N#tn6"!5/@Ns1eU7!#bhU!'iLV1cSXB%nfm+&kc2.
+YS0Z/>?Cm=!#bi&!!!!;!#kmQ3"e&-=TAF%
+EndTtf
 Fore
-617.4 1495 m 1,0,1
- 594.9 1518 594.9 1518 594.9 1554 c 128,-1,2
- 594.9 1590 594.9 1590 616.5 1614 c 128,-1,3
- 638.1 1638 638.1 1638 668.7 1638 c 128,-1,4
- 699.3 1638 699.3 1638 720.9 1614 c 128,-1,5
- 742.5 1590 742.5 1590 742.5 1563 c 128,-1,6
- 742.5 1536 742.5 1536 736.2 1520 c 0,7,8
- 695.7 1373 695.7 1373 460.8 1373 c 128,-1,9
- 225.9 1373 225.9 1373 185.4 1520 c 0,10,11
- 179.1 1536 179.1 1536 179.1 1563 c 128,-1,12
- 179.1 1590 179.1 1590 200.7 1614 c 128,-1,13
- 222.3 1638 222.3 1638 252.9 1638 c 128,-1,14
- 283.5 1638 283.5 1638 305.1 1614 c 128,-1,15
- 326.7 1590 326.7 1590 326.7 1554 c 128,-1,16
- 326.7 1518 326.7 1518 304.2 1495 c 1,17,18
- 349.2 1460 349.2 1460 460.8 1460 c 128,-1,20
- 572.4 1460 572.4 1460 617.4 1495 c 1,0,1
+179.1 1563 m 0,0,1
+ 179.1 1590 179.1 1590 200.7 1614 c 128,-1,2
+ 222.3 1638 222.3 1638 252.9 1638 c 0,3,4
+ 283.5 1638 283.5 1638 305.1 1614 c 128,-1,5
+ 326.7 1590 326.7 1590 326.7 1554 c 0,6,7
+ 326.7 1518 326.7 1518 304.2 1495 c 1,8,9
+ 349.2 1460 349.2 1460 460.8 1460 c 0,10,11
+ 572.4 1460 572.4 1460 617.4 1495 c 1,12,13
+ 594.9 1518 594.9 1518 594.9 1554 c 0,14,15
+ 594.9 1590 594.9 1590 616.5 1614 c 128,-1,16
+ 638.1 1638 638.1 1638 668.7 1638 c 0,17,18
+ 699.3 1638 699.3 1638 720.9 1614 c 128,-1,19
+ 742.5 1590 742.5 1590 742.5 1563 c 0,20,21
+ 742.5 1536 742.5 1536 719.1 1454.5 c 128,-1,22
+ 695.7 1373 695.7 1373 460.8 1373 c 0,23,24
+ 225.9 1373 225.9 1373 202.5 1454.5 c 128,-1,25
+ 179.1 1536 179.1 1536 179.1 1563 c 0,0,1
 EndSplineSet
+EndChar
+StartChar: uniFB00
+Encoding: 64256 64256 64256
+Width: 1494
+Flags: W
+TeX: 0 0 0 0
+Fore
+856.35 955 m 1,10,-1
+ 856.35 105 l 1,17,-1
+ 697.95 105 l 1,16,-1
+ 697.95 -1 l 1,15,-1
+ 1234.35 -1 l 1,14,-1
+ 1234.35 105 l 1,13,-1
+ 1021.95 105 l 1,12,-1
+ 1021.95 955 l 1,11,-1
+ 1289.25 955 l 1,10,-1
+ 1289.25 1062 l 1,9,-1
+ 1021.95 1062 l 1,8,-1
+ 1021.95 1199 l 2,7,-1
+ 1021.95 1344 1021.95 1344 1059.75 1400.5 c 128,-1,6
+ 1097.55 1457 1097.55 1457 1190.25 1457 c 0,4,5
+ 1261.35 1457 1261.35 1457 1298.7 1418 c 128,-1,3
+ 1336.05 1379 1336.05 1379 1336.95 1304 c 1,1,2
+ 1424.25 1304 l 1,0,-1
+ 1424.25 1506 l 1,28,-1
+ 1364.85 1531 1364.85 1531 1304.55 1543 c 128,-1,27
+ 1244.25 1555 1244.25 1555 1183.95 1555 c 0,25,26
+ 1022.85 1555 1022.85 1555 939.6 1464 c 128,-1,24
+ 856.35 1373 856.35 1373 856.35 1195 c 2,22,23
+ 856.35 1063 l 1,9,-1
+ 393.75 1063 l 1,8,-1
+ 393.75 1200 l 2,7,-1
+ 393.75 1345 393.75 1345 431.55 1401.5 c 128,-1,6
+ 469.35 1458 469.35 1458 562.05 1458 c 0,4,5
+ 633.15 1458 633.15 1458 670.5 1419 c 128,-1,3
+ 707.85 1380 707.85 1380 708.75 1305 c 1,1,2
+ 796.05 1305 l 1,0,-1
+ 796.05 1507 l 1,28,-1
+ 736.65 1532 736.65 1532 676.35 1544 c 128,-1,27
+ 616.05 1556 616.05 1556 555.75 1556 c 0,25,26
+ 394.65 1556 394.65 1556 311.4 1465 c 128,-1,24
+ 228.15 1374 228.15 1374 228.15 1196 c 2,22,23
+ 228.15 1063 l 1,21,-1
+ 69.75 1063 l 1,20,-1
+ 69.75 956 l 1,19,-1
+ 228.15 956 l 1,18,-1
+ 228.15 106 l 1,17,-1
+ 69.75 106 l 1,16,-1
+ 69.75 0 l 1,15,-1
+ 606.15 0 l 1,14,-1
+ 606.15 106 l 1,13,-1
+ 393.75 106 l 1,12,-1
+ 393.75 956 l 1,11,-1
+ 856.35 955 l 1,10,-1
+EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 3 'dlig' f f
 EndChar
 StartChar: fi
 Encoding: 64257 64257 64257
 Width: 1229
 Flags: W
+TtfInstrs: 125
+5VWK`!#Q8n#QQ%ONur?W&e5!NH5['Z'FY!o!"D(%'.aA!-OVI*#oOI/&I0[&(GI'FoK;Iqj>,6'
+jQmH=&EFDj0`WjhmP=2H1B-^m`XqPn&ihs+5R@uI0-kH]THjX@>ldU&'i\;K!$hNZ!!*'E!$_J/
+3"\)/=TAF%
+EndTtf
 Fore
 963.9 1286 m 1,0,-1
  879.3 1287 l 1,1,2
@@ -38400,13 +39272,17 @@ Fore
  883.8 1530 883.8 1530 963.9 1503 c 1,34,-1
  963.9 1286 l 1,0,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'dlig' f i
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: fl
 Encoding: 64258 64258 64258
 Width: 1229
 Flags: W
+TtfInstrs: 117
+5V<Ha#T""t%1%7[E>9&i!s3cd%@e(7#lkG=4U3>:/--A7%M0$r!>lM%)AY"J&G/*G1;s)Q`8hKj
+ro=YO3ACLe4ROum(Gc!X&FM:d3B8e%&0EPITH=7:>ldU&'i\;K!$;0U!!*'@!$2,*3"\)/=TAF%
+EndTtf
 Fore
 659.7 1556 m 2,0,-1
  1017 1556 l 1,1,-1
@@ -38438,8 +39314,254 @@ Fore
  225 1360 225 1360 332.55 1458 c 128,-1,29
  440.1 1556 440.1 1556 659.7 1556 c 2,0,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'dlig' f l
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uniFB03
+Encoding: 64259 64259 64259
+Width: 1917
+Flags: W
+TeX: 0 0 0 0
+Fore
+890.1 956 m 1,10,-1
+ 890.1 106 l 1,23,-1
+ 731.7 106 l 1,22,-1
+ 731.7 0 l 1,21,-1
+ 1212.3 0 l 1,20,-1
+ 1212.3 106 l 1,19,-1
+ 1055.7 106 l 1,18,-1
+ 1055.7 956 l 1,17,-1
+ 1530 956 l 1,16,-1
+ 1530 106 l 1,15,-1
+ 1370.7 106 l 1,14,-1
+ 1370.7 0 l 1,13,-1
+ 1852.2 0 l 1,12,-1
+ 1852.2 106 l 1,11,-1
+ 1695.6 106 l 1,10,-1
+ 1695.6 1063 l 1,9,-1
+ 1055.7 1063 l 1,8,-1
+ 1055.7 1163 l 2,7,-1
+ 1055.7 1316 1055.7 1316 1119.6 1387 c 128,-1,6
+ 1183.5 1458 1183.5 1458 1321.2 1458 c 0,4,5
+ 1431.9 1458 1431.9 1458 1486.8 1415.5 c 128,-1,3
+ 1541.7 1373 1541.7 1373 1544.4 1287 c 1,1,2
+ 1629 1286 l 1,0,-1
+ 1629 1503 l 1,34,-1
+ 1548.9 1530 1548.9 1530 1467 1543 c 128,-1,33
+ 1385.1 1556 1385.1 1556 1306.8 1556 c 0,31,32
+ 1100.7 1556 1100.7 1556 995.4 1456 c 128,-1,30
+ 890.1 1356 890.1 1356 890.1 1159 c 2,28,29
+ 890.1 1063 l 1,9,-1
+ 388.8 1063 l 1,8,-1
+ 388.8 1200 l 2,7,-1
+ 388.8 1345 388.8 1345 426.6 1401.5 c 128,-1,6
+ 464.4 1458 464.4 1458 557.1 1458 c 0,4,5
+ 628.2 1458 628.2 1458 665.55 1419 c 128,-1,3
+ 702.9 1380 702.9 1380 703.8 1305 c 1,1,2
+ 791.1 1305 l 1,0,-1
+ 791.1 1507 l 1,28,-1
+ 731.7 1532 731.7 1532 671.4 1544 c 128,-1,27
+ 611.1 1556 611.1 1556 550.8 1556 c 0,25,26
+ 389.7 1556 389.7 1556 306.45 1465 c 128,-1,24
+ 223.2 1374 223.2 1374 223.2 1196 c 2,22,23
+ 223.2 1063 l 1,21,-1
+ 64.7998 1063 l 1,20,-1
+ 64.7998 956 l 1,19,-1
+ 223.2 956 l 1,18,-1
+ 223.2 106 l 1,17,-1
+ 64.7998 106 l 1,16,-1
+ 64.7998 0 l 1,15,-1
+ 601.2 0 l 1,14,-1
+ 601.2 106 l 1,13,-1
+ 388.8 106 l 1,12,-1
+ 388.8 956 l 1,11,-1
+ 890.1 956 l 1,10,-1
+EndSplineSet
+Ligature: 0 3 'dlig' ff i
+Ligature: 0 3 'dlig' f f i
+LCarets: 0 65535 '    ' 2 0 0 
+EndChar
+StartChar: uniFB04
+Encoding: 64260 64260 64260
+Width: 1899
+Flags: W
+TeX: 0 0 0 0
+Fore
+886.5 956 m 1,10,-1
+ 886.5 106 l 1,22,-1
+ 728.1 106 l 1,21,-1
+ 728.1 0 l 1,20,-1
+ 1208.7 0 l 1,19,-1
+ 1208.7 106 l 1,18,-1
+ 1052.1 106 l 1,17,-1
+ 1052.1 956 l 1,16,-1
+ 1317.6 956 l 1,15,-1
+ 1317.6 1063 l 1,14,-1
+ 1052.1 1063 l 1,13,-1
+ 1052.1 1163 l 2,12,-1
+ 1052.1 1320 1052.1 1320 1112.4 1385 c 128,-1,11
+ 1172.7 1450 1172.7 1450 1319.4 1450 c 2,9,10
+ 1512.9 1450 l 1,8,-1
+ 1512.9 106 l 1,7,-1
+ 1354.5 106 l 1,6,-1
+ 1354.5 0 l 1,5,-1
+ 1836 0 l 1,4,-1
+ 1836 106 l 1,3,-1
+ 1678.5 106 l 1,2,-1
+ 1678.5 1556 l 1,1,-1
+ 1321.2 1556 l 2,0,-1
+ 1101.6 1556 1101.6 1556 994.05 1458 c 128,-1,29
+ 886.5 1360 886.5 1360 886.5 1159 c 2,27,28
+ 886.5 1063 l 1,9,-1
+ 387 1063 l 1,8,-1
+ 387 1200 l 2,7,-1
+ 387 1345 387 1345 424.8 1401.5 c 128,-1,6
+ 462.6 1458 462.6 1458 555.3 1458 c 0,4,5
+ 626.4 1458 626.4 1458 663.75 1419 c 128,-1,3
+ 701.1 1380 701.1 1380 702 1305 c 1,1,2
+ 789.3 1305 l 1,0,-1
+ 789.3 1507 l 1,28,-1
+ 729.9 1532 729.9 1532 669.6 1544 c 128,-1,27
+ 609.3 1556 609.3 1556 549 1556 c 0,25,26
+ 387.9 1556 387.9 1556 304.65 1465 c 128,-1,24
+ 221.4 1374 221.4 1374 221.4 1196 c 2,22,23
+ 221.4 1063 l 1,21,-1
+ 63 1063 l 1,20,-1
+ 63 956 l 1,19,-1
+ 221.4 956 l 1,18,-1
+ 221.4 106 l 1,17,-1
+ 63 106 l 1,16,-1
+ 63 0 l 1,15,-1
+ 599.4 0 l 1,14,-1
+ 599.4 106 l 1,13,-1
+ 387 106 l 1,12,-1
+ 387 956 l 1,11,-1
+ 886.5 956 l 1,10,-1
+EndSplineSet
+Ligature: 0 3 'dlig' ff l
+Ligature: 0 3 'dlig' f f l
+LCarets: 0 65535 '    ' 2 0 0 
+EndChar
+StartChar: uniFB05
+Encoding: 64261 64261 64261
+Width: 1422
+Flags: W
+TeX: 0 0 0 0
+Fore
+823.5 1411.5 m 0,0,-1
+ 823.5 1062 l 1,3,-1
+ 677.7 1062 l 1,2,-1
+ 677.7 955 l 1,1,-1
+ 823.5 955 l 1,0,-1
+ 823.5 280 l 2,23,-1
+ 823.5 111 823.5 111 882.9 40.5 c 128,-1,22
+ 942.3 -30 942.3 -30 1085.4 -30 c 0,20,21
+ 1215.9 -30 1215.9 -30 1279.8 37 c 128,-1,19
+ 1343.7 104 1343.7 104 1350.9 249 c 1,17,18
+ 1225.8 249 l 1,16,-1
+ 1224 154 1224 154 1194.3 111.5 c 128,-1,15
+ 1164.6 69 1164.6 69 1099.8 69 c 0,13,14
+ 1036.8 69 1036.8 69 1013.4 107 c 128,-1,12
+ 990 145 990 145 990 280 c 2,10,11
+ 990 955 l 1,9,-1
+ 1301.4 955 l 1,8,-1
+ 1301.4 1062 l 1,7,-1
+ 990 1062 l 1,6,-1
+ 990.9 1445 l 1,5,-1
+ 930.222 1523.35 930.222 1523.35 806.4 1543 c 0,6,7
+ 724.5 1556 724.5 1556 646.2 1556 c 0,25,26
+ 440.1 1556 440.1 1556 334.8 1456 c 128,-1,24
+ 229.5 1356 229.5 1356 229.5 1159 c 2,22,23
+ 229.5 1063 l 1,21,-1
+ 71.0996 1063 l 1,20,-1
+ 71.0996 956 l 1,19,-1
+ 229.5 956 l 1,18,-1
+ 229.5 106 l 1,17,-1
+ 71.0996 106 l 1,16,-1
+ 71.0996 0 l 1,15,-1
+ 551.7 0 l 1,14,-1
+ 551.7 106 l 1,13,-1
+ 395.1 106 l 1,12,-1
+ 395.1 1063 l 1,11,-1
+ 395.1 1163 l 2,36,-1
+ 395.1 1316 395.1 1316 459 1387 c 128,-1,35
+ 522.9 1458 522.9 1458 660.6 1458 c 0,33,34
+ 763.426 1458 763.426 1458 823.5 1411.5 c 0,0,-1
+EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 3 'dlig' longs t
+EndChar
+StartChar: uniFB06
+Encoding: 64262 64262 64262
+Width: 1719
+Flags: W
+TeX: 0 0 0 0
+Fore
+786.6 1006 m 0,0,0
+ 786.6 774 l 1,22,-1
+ 691.2 774 l 1,23,24
+ 687.6 877 687.6 877 626.4 935 c 128,-1,25
+ 565.2 993 565.2 993 459.9 993 c 0,26,27
+ 355.5 993 355.5 993 301.95 952 c 128,-1,28
+ 248.4 911 248.4 911 248.4 829 c 0,29,30
+ 248.4 762 248.4 762 288.9 721.5 c 0,31,32
+ 329.994 680.406 329.994 680.406 450.9 639 c 2,32,-1
+ 582.3 594 l 2,33,34
+ 717.651 547.646 717.651 547.646 778.05 476.5 c 0,35,36
+ 837.9 406 837.9 406 837.9 295 c 0,36,37
+ 837.9 144 837.9 144 733.95 57.5 c 128,-1,38
+ 630 -29 630 -29 447.3 -29 c 0,39,40
+ 354.6 -29 354.6 -29 266.4 -7 c 128,-1,41
+ 178.2 15 178.2 15 90 59 c 1,0,-1
+ 90 307 l 1,1,-1
+ 185.4 307 l 1,2,3
+ 189 188 189 188 252.45 129 c 128,-1,4
+ 315.9 70 315.9 70 440.1 70 c 0,5,6
+ 551.7 70 551.7 70 610.2 116.5 c 128,-1,7
+ 668.7 163 668.7 163 668.7 252 c 0,8,9
+ 668.7 322 668.7 322 625.95 365 c 128,-1,10
+ 583.2 408 583.2 408 445.5 457 c 1,11,-1
+ 325.8 502 l 1,12,13
+ 202.5 546 202.5 546 147.15 612 c 128,-1,14
+ 91.7998 678 91.7998 678 91.7998 780 c 0,15,16
+ 91.7998 926 91.7998 926 188.1 1009 c 128,-1,17
+ 284.4 1092 284.4 1092 454.5 1092 c 0,18,19
+ 480.184 1092 480.184 1092 506.798 1089.46 c 24,0,0
+ 497.443 1090.35 497.443 1090.35 497.443 1177.17 c 0,24,25
+ 497.443 1348.51 497.443 1348.51 609.28 1429.26 c 128,-1,26
+ 721.116 1510 721.116 1510 882.796 1510 c 0,12,13
+ 960.597 1510 960.597 1510 1032.32 1488.73 c 128,-1,14
+ 1104.04 1467.46 1104.04 1467.46 1156.31 1427.52 c 1,15,16
+ 1212.23 1388.45 1212.23 1388.45 1240.19 1338.96 c 128,-1,17
+ 1268.1 1289.47 1268.1 1289.47 1268.1 1176.85 c 0,18,19
+ 1268.1 1063 l 1,6,-1
+ 1579.5 1063 l 1,7,-1
+ 1579.5 956 l 1,8,-1
+ 1268.1 956 l 1,9,-1
+ 1268.1 281 l 2,10,11
+ 1268.1 146 1268.1 146 1291.5 108 c 128,-1,12
+ 1314.9 70 1314.9 70 1377.9 70 c 0,13,14
+ 1442.7 70 1442.7 70 1472.4 112.5 c 128,-1,15
+ 1502.1 155 1502.1 155 1503.9 250 c 1,16,-1
+ 1629 250 l 1,17,18
+ 1621.8 105 1621.8 105 1557.9 38 c 128,-1,19
+ 1494 -29 1494 -29 1363.5 -29 c 0,20,21
+ 1220.4 -29 1220.4 -29 1161 41.5 c 128,-1,22
+ 1101.6 112 1101.6 112 1101.6 281 c 2,23,-1
+ 1101.6 956 l 1,0,-1
+ 955.8 956 l 1,1,-1
+ 955.8 1063 l 1,2,-1
+ 1101.6 1063 l 1,3,-1
+ 1101.6 1176.73 l 0,9,10
+ 1101.6 1272.29 1101.6 1272.29 1037.18 1318.74 c 128,-1,11
+ 972.747 1365.19 972.747 1365.19 882.796 1365.19 c 0,0,1
+ 790.406 1365.19 790.406 1365.19 727.194 1319.61 c 128,-1,2
+ 663.985 1274.02 663.985 1274.02 663.985 1177.17 c 0,3,4
+ 663.985 1088.68 663.985 1088.68 726.587 1044.4 c 0,5,6
+ 764.807 1017.37 764.807 1017.37 786.6 1006 c 0,0,0
+EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
+Ligature: 0 3 'dlig' s t
 EndChar
 StartChar: uniFFFD
 Encoding: 65533 65533 65533
@@ -38485,6 +39607,9 @@ StartChar: dlLtcaron
 Encoding: 65537 -1 65537
 Width: 0
 Flags: W
+TtfInstrs: 28
+ZiL..!sB1bbgakB!!<?(&CeoX[!2S#!!31,
+EndTtf
 Fore
 -512.1 1638 m 1,0,-1
  -333 1638 l 1,1,-1
@@ -38497,6 +39622,10 @@ StartChar: Dieresis
 Encoding: 65538 -1 65538
 Width: 0
 Flags: W
+TtfInstrs: 107
+5RJ,.$ih+T'a"aZ&CfLbbV9)/e3(r10E=bM%9-!)'i\C>]`8lL5QCfb(]YEQ^c2ob3*?8TYROQ)
+YRFK8=M4\Os1eU8!#P\Q!'iLU2`Oq@9<\t,=M4\O!'gMb!#P\Qs1gT+2`Oq?
+EndTtf
 AnchorPoint: "above-mark" -460.8 1180 mark 0
 AnchorPoint: "above-mark" -460.8 1526 basemark 0
 AnchorPoint: "above" -460.8 1092 mark 0
@@ -38543,6 +39672,13 @@ StartChar: Tilde
 Encoding: 65540 -1 65540
 Width: 0
 Flags: W
+TtfInstrs: 263
+5TpUJ&doWZ";8He#6_dV$QK0X'aGZn!"Ju6'jDFY>6l2[eEk]O&NMi`&igO:3B8eo&C`i?e3*(1
+3B7Za3B8cY1(+'i!=Jr>$4dLT$kEgY%hB3^&J#Kb'+Ycf'b;&f)\<M^%g3CH%gigT%h&s`%i,FV
+!F5_!YR+9%YR4?69<\n*>?JQ=)ur5(!<=)>*<3f6&N;[P5UdTO)?C`X)?Ul\)?h)f*"*_p*"Er!
+*"X)%*"j5)*u#e3*u5q7)B0Ar!)'O'<(jG'<*N#"$rgG5]`9&P^]4B8)uprY5WB?73*?5SYS:&0
+YSC,A=M4\S!'gMb!#ttYs1gT+2`Oq?
+EndTtf
 AnchorPoint: "above-mark" -460.8 1180 mark 0
 AnchorPoint: "above-mark" -460.8 1526 basemark 0
 AnchorPoint: "above" -460.8 1092 mark 0
@@ -38659,6 +39795,10 @@ StartChar: Breve
 Encoding: 65545 -1 65545
 Width: 0
 Flags: W
+TtfInstrs: 78
+5Re+9":"o:#?qH7>6#-EeEk]O0`Vd74Oi^O!)'O)<(jG'<*N#"$<153]`8QB^]4B8%KHt=5WB?7
+3*AKU%fd+@%gNUN%1*IQ#$h3/
+EndTtf
 AnchorPoint: "above-mark" -460.8 1180 mark 0
 AnchorPoint: "above-mark" -460.8 1526 basemark 0
 AnchorPoint: "above" -460.8 1092 mark 0
@@ -38680,6 +39820,9 @@ StartChar: Dotaccent
 Encoding: 65546 -1 65546
 Width: 0
 Flags: W
+TtfInstrs: 45
+[0?U>!soAIeBBWI&CeoX!DBX*<(jG'<*NJ<!"AnC!!*'.!"8im3"\)/=TAF%
+EndTtf
 AnchorPoint: "above-mark" -460.8 1180 mark 0
 AnchorPoint: "above-mark" -460.8 1526 basemark 0
 AnchorPoint: "above" -460.8 1092 mark 0
@@ -38734,4 +39877,5 @@ Fore
 EndSplineSet
 EndChar
 EndChars
+DupEnc: 65536 0
 EndSplineFont
