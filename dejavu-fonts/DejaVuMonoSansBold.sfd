@@ -204,7 +204,7 @@ Grid
  0 -492 l 1,8,-1
  0 1901 l 1,5,-1
 EndSplineSet
-BeginChars: 65572 2535
+BeginChars: 65572 2536
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -18330,13 +18330,7 @@ Encoding: 1216 1216 1216
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Fore
-680 1556 m 17,4,-1
- 680 0 l 1,9,-1
- 387 0 l 1,10,-1
- 387 1556 l 9,1,-1
- 680 1556 l 17,4,-1
-EndSplineSet
+Refer: 73 73 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni04C1
 Encoding: 1217 1217 1217
@@ -18560,6 +18554,12 @@ Fore
  770 209 l 1,0,0
 EndSplineSet
 EndChar
+StartChar: uni04CD
+Encoding: 1229 1229 1229
+Width: 1233
+TeX: 0 0 0 0
+Colour: ffff00
+EndChar
 StartChar: uni04CE
 Encoding: 1230 1230 1230
 Width: 1233
@@ -18569,8 +18569,15 @@ EndChar
 StartChar: uni04CF
 Encoding: 1231 1231 1231
 Width: 1233
+Flags: W
 TeX: 117 0 0 0
-Colour: ffff00
+Fore
+680 1556 m 17,4,-1
+ 680 0 l 1,9,-1
+ 387 0 l 1,10,-1
+ 387 1556 l 9,1,-1
+ 680 1556 l 17,4,-1
+EndSplineSet
 EndChar
 StartChar: uni04D0
 Encoding: 1232 1232 1232
