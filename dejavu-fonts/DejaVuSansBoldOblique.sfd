@@ -115,7 +115,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65575 3487
+BeginChars: 65576 3488
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -2441,6 +2441,8 @@ Fore
  63 0 l 1,3,-1
  365 1556 l 1,0,-1
 EndSplineSet
+AlternateSubs: 0 2 'aalt' l.alt
+Substitution: 0 2 'salt' l.alt
 EndChar
 StartChar: m
 Encoding: 109 109 109
@@ -76164,6 +76166,27 @@ Fore
  664.363 -29 664.363 -29 401.363 -29 c 0,13,14
  306.363 -29 306.363 -29 207.917 -3 c 128,-1,15
  109.471 23 109.471 23 14.3838 74 c 1,0,-1
+EndSplineSet
+EndChar
+StartChar: l.alt
+Encoding: 65575 -1 65575
+Width: 702
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "below" 204.772 0 basechar 0
+AnchorPoint: "above" 500.23 1520 basechar 0
+Fore
+365 1556 m 1,0,-1
+ 723 1556 l 1,1,-1
+ 510.349 462 l 2,2,3
+ 484.107 326.999 484.107 326.999 513.165 281 c 128,-1,4
+ 542.224 235 542.224 235 644.224 235 c 2,5,-1
+ 652.224 235 l 1,6,-1
+ 606.545 0 l 1,7,-1
+ 483.545 0 l 2,8,9
+ 278.545 0 278.545 0 193.579 118.5 c 128,-1,10
+ 108.613 236.999 108.613 236.999 152.349 462 c 2,11,-1
+ 365 1556 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
