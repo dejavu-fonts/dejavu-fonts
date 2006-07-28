@@ -30269,16 +30269,48 @@ EndSplineSet
 EndChar
 StartChar: onedotenleader
 Encoding: 8228 8228 8228
-Width: 2048
+Width: 684
+Flags: W
 TeX: 111 0 0 0
-Colour: ffff00
+Fore
+209 104 m 0,24,25
+ 209 160 209 160 247.5 199 c 128,-1,26
+ 286 238 286 238 342 238 c 0,27,28
+ 397 238 397 238 436 199 c 128,-1,29
+ 475 160 475 160 475 104 c 0,30,31
+ 475 49 475 49 436 10 c 128,-1,32
+ 397 -29 397 -29 342 -29 c 0,33,34
+ 285 -29 285 -29 247 9.5 c 128,-1,35
+ 209 48 209 48 209 104 c 0,24,25
+EndSplineSet
 EndChar
 StartChar: twodotenleader
 Encoding: 8229 8229 8229
-Width: 2048
+Width: 1366
+Flags: W
 TeX: 116 0 0 0
-Ligature: 0 1 'liga' period period
-Colour: ffff00
+Fore
+891 104 m 0,12,13
+ 891 160 891 160 929.5 199 c 128,-1,14
+ 968 238 968 238 1024 238 c 0,15,16
+ 1079 238 1079 238 1118 199 c 128,-1,17
+ 1157 160 1157 160 1157 104 c 0,18,19
+ 1157 49 1157 49 1118 10 c 128,-1,20
+ 1079 -29 1079 -29 1024 -29 c 0,21,22
+ 967 -29 967 -29 929 9.5 c 128,-1,23
+ 891 48 891 48 891 104 c 0,12,13
+209 104 m 0,24,25
+ 209 160 209 160 247.5 199 c 128,-1,26
+ 286 238 286 238 342 238 c 0,27,28
+ 397 238 397 238 436 199 c 128,-1,29
+ 475 160 475 160 475 104 c 0,30,31
+ 475 49 475 49 436 10 c 128,-1,32
+ 397 -29 397 -29 342 -29 c 0,33,34
+ 285 -29 285 -29 247 9.5 c 128,-1,35
+ 209 48 209 48 209 104 c 0,24,25
+EndSplineSet
+Ligature: 0 1 'dlig' period period
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: ellipsis
 Encoding: 8230 8230 8230
@@ -30316,7 +30348,8 @@ Fore
  285 -29 285 -29 247 9.5 c 128,-1,35
  209 48 209 48 209 104 c 0,24,25
 EndSplineSet
-Ligature: 0 1 'liga' period period period
+Ligature: 0 1 'dlig' period period period
+LCarets: 0 65535 '    ' 2 0 0 
 EndChar
 StartChar: perthousand
 Encoding: 8240 8240 8240
