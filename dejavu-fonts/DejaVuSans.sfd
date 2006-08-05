@@ -67,7 +67,19 @@ ChainSub: class 0 0 'ccmp' 4 4 4 2
  1
   SeqLookup: 0 'sd01'
 EndFPST
-GenTags: 2 sb's001' sb'sd01'
+ChainSub: class 1 8 'ccmp' 3 0 3 1
+  Class: 9 afii57682
+  Class: 117 afii57799 afii57801 afii57800 afii57802 afii57793 afii57794 afii57795 afii57798 afii57797 afii57796 afii57839 uni05C7
+  FClass: 9 afii57682
+  FClass: 117 afii57799 afii57801 afii57800 afii57802 afii57793 afii57794 afii57795 afii57798 afii57797 afii57796 afii57839 uni05C7
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 'hs01'
+EndFPST
+GenTags: 4 sb's001' sb'sd01' sb'ccmp' sb'hs01'
 TtfTable: prep 1384
 \,q1Gs82ctq@j&-,m3ot"8A)`p'q2trWDfl"7mf@ndYclQ36V&"7M+5"n2EmmZmtBQ36LM"7,dc
 lM^nM3WnS4"6]Xcjt[&#jAQ6DQ363*5m?=J"68Ao"loF]i\(DmrWD*X"5bj9h@p(JQ35qA"5=Fj
@@ -119,7 +131,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-below" mark 1 4 4 0 "rtl-above" mark 1 4 5 0 "above-mark" mkmk 0 0 2 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
+AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-above" mark 1 8 4 0 "rtl-inside" mark 1 8 5 0 "rtl-below" mark 1 8 8 0 "above-mark" mkmk 0 0 2 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
 BeginChars: 65622 3900
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -27006,81 +27018,254 @@ Colour: ffff00
 EndChar
 StartChar: afii57799
 Encoding: 1456 1456 1456
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 28
+Zj$R7!!j.k4NoQ8!4E(5!!E?'#S>eHgdsO\
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+632 -45 m 1,0,-1
+ 782 -45 l 1,1,-1
+ 782 -195 l 1,2,-1
+ 632 -195 l 1,3,-1
+ 632 -45 l 1,0,-1
+632 -295 m 1,4,-1
+ 782 -295 l 1,5,-1
+ 782 -445 l 1,6,-1
+ 632 -445 l 1,7,-1
+ 632 -295 l 1,4,-1
+EndSplineSet
 EndChar
 StartChar: afii57801
 Encoding: 1457 1457 1457
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 19
+YRjH*=M"P5!!E9)!'iLT4>Bt=
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Refer: 1456 1456 N 1 0 0 1 220 0 2
+Refer: 1462 1462 N 1 0 0 1 -180 0 2
 EndChar
 StartChar: afii57800
 Encoding: 1458 1458 1458
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 37
+[L*3E"9SZ5&DZ'r4NoQ8!'ght"p>29!sAW5&DTD'4PWLh0E;(Q
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+307 -195 m 17,0,-1
+ 307 -45 l 1,1,-1
+ 707 -45 l 1,2,-1
+ 707 -195 l 9,3,-1
+ 307 -195 l 17,0,-1
+832 -45 m 1,4,-1
+ 982 -45 l 1,5,-1
+ 982 -195 l 1,6,-1
+ 832 -195 l 1,7,-1
+ 832 -45 l 1,4,-1
+832 -295 m 1,8,-1
+ 982 -295 l 1,9,-1
+ 982 -445 l 1,10,-1
+ 832 -445 l 1,11,-1
+ 832 -295 l 1,8,-1
+EndSplineSet
 EndChar
 StartChar: afii57802
 Encoding: 1459 1459 1459
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 46
+5R@Vr"98o;$OmXYgt^]?gcWe90`XHH#6Fl/$3CJ@!"BJNgcX@S4NuSP3\UO6
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+832 -45 m 1,0,-1
+ 982 -45 l 1,1,-1
+ 982 -195 l 1,2,-1
+ 832 -195 l 1,3,-1
+ 832 -45 l 1,0,-1
+832 -295 m 1,4,-1
+ 982 -295 l 1,5,-1
+ 982 -445 l 1,6,-1
+ 832 -445 l 1,7,-1
+ 832 -295 l 1,4,-1
+582 -195 m 9,8,-1
+ 582 -395 l 25,9,-1
+ 432 -395 l 25,10,-1
+ 432 -195 l 17,11,-1
+ 307 -195 l 1,12,-1
+ 307 -45 l 1,13,-1
+ 707 -45 l 1,14,-1
+ 707 -195 l 1,15,-1
+ 582 -195 l 9,8,-1
+EndSplineSet
 EndChar
 StartChar: afii57793
 Encoding: 1460 1460 1460
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/p=2!WW?7grqJQ&DYJ`
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+632 -175 m 1,0,-1
+ 782 -175 l 1,1,-1
+ 782 -325 l 1,2,-1
+ 632 -325 l 1,3,-1
+ 632 -175 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57794
 Encoding: 1461 1461 1461
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 15
+Z2ak.8Q/a%!!!!a3*@s9
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Refer: 1460 1460 N 1 0 0 1 125 0 2
+Refer: 1460 1460 N 1 0 0 1 -125 0 2
 EndChar
 StartChar: afii57795
 Encoding: 1462 1462 1462
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 79
+5R@c$":G51"U#5FeBH^lgdsO]Z2b.68Q/_W$igY8$31A4#QR*i"98Z,"onf,"TQ7;";a$63*?5H
+#m1P@!"0#;":Pjs4PW'S8NJO*
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+632 -295 m 1,0,-1
+ 782 -295 l 1,1,-1
+ 782 -445 l 1,2,-1
+ 632 -445 l 1,3,-1
+ 632 -295 l 1,0,-1
+507 -45 m 1,4,-1
+ 657 -45 l 1,5,-1
+ 657 -195 l 1,6,-1
+ 507 -195 l 1,7,-1
+ 507 -45 l 1,4,-1
+757 -45 m 1,8,-1
+ 907 -45 l 1,9,-1
+ 907 -195 l 1,10,-1
+ 757 -195 l 1,11,-1
+ 757 -45 l 1,8,-1
+EndSplineSet
 EndChar
 StartChar: afii57798
 Encoding: 1463 1463 1463
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/p=2!WW?7grqJQ&DYJ`
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+407 -175 m 1,0,-1
+ 1007 -175 l 1,1,-1
+ 1007 -325 l 1,2,-1
+ 407 -325 l 1,3,-1
+ 407 -175 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57797
 Encoding: 1464 1464 1464
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 25
+Zj$L3"UG[pgt^+.!42b,!sJrAgtY$90E;(Q
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+782 -245 m 9,0,-1
+ 782 -395 l 25,1,-1
+ 632 -395 l 25,2,-1
+ 632 -245 l 17,3,-1
+ 407 -245 l 1,4,-1
+ 407 -95 l 1,5,-1
+ 1007 -95 l 1,6,-1
+ 1007 -245 l 1,7,-1
+ 782 -245 l 9,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57806
 Encoding: 1465 1465 1465
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/g@4!<WH9eBBWI&DYJ`
+EndTtf
+Fore
+0 1430 m 1,0,-1
+ 150 1430 l 1,1,-1
+ 150 1280 l 1,2,-1
+ 0 1280 l 1,3,-1
+ 0 1430 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57796
 Encoding: 1467 1467 1467
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 61
+Z2b478Q/a%!"/bA3*EQf":>;D8NJR+Z2b1>8Q/a%!"&\@3*ENe":7Xu=LeD7s1gTsZN(+7";"-c
+0E;(Q
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Refer: 1460 1460 N 1 0 0 1 275 -160 2
+Refer: 1460 1460 N 1 0 0 1 25 -10 2
+Refer: 1460 1460 N 1 0 0 1 -225 140 2
 EndChar
 StartChar: afii57807
 Encoding: 1468 1468 1468
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/g@4!<WH9eBBWI&DYJ`
+EndTtf
+AnchorPoint: "rtl-inside" 717 560 mark 0
+Fore
+642 635 m 1,0,-1
+ 792 635 l 1,1,-1
+ 792 485 l 1,2,-1
+ 642 485 l 1,3,-1
+ 642 635 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57839
 Encoding: 1469 1469 1469
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/p=2!WW?7grqJQ&DYJ`
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+632 -45 m 1,0,-1
+ 782 -45 l 9,1,-1
+ 782 -445 l 17,2,-1
+ 632 -445 l 1,3,-1
+ 632 -45 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57645
 Encoding: 1470 1470 1470
@@ -27090,33 +27275,83 @@ Colour: ffff00
 EndChar
 StartChar: afii57841
 Encoding: 1471 1471 1471
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/g@4!<WH9eBBWI&DYJ`
+EndTtf
+AnchorPoint: "rtl-above" 707 1120 mark 0
+Fore
+407 1430 m 1,0,-1
+ 1007 1430 l 1,1,-1
+ 1007 1280 l 1,2,-1
+ 407 1280 l 1,3,-1
+ 407 1430 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57842
 Encoding: 1472 1472 1472
-Width: 2048
+Width: 604
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+Fore
+209 1320 m 1,0,-1
+ 395 1320 l 1,1,-1
+ 395 -200 l 1,2,-1
+ 209 -200 l 1,3,-1
+ 209 1320 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57804
 Encoding: 1473 1473 1473
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/g@4!<WH9eBBWI&DYJ`
+EndTtf
+Fore
+1305 1430 m 1,0,-1
+ 1455 1430 l 1,1,-1
+ 1455 1280 l 1,2,-1
+ 1305 1280 l 1,3,-1
+ 1305 1430 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57803
 Encoding: 1474 1474 1474
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 16
+[/g@4!<WH9eBBWI&DYJ`
+EndTtf
+Fore
+225 1430 m 1,0,-1
+ 375 1430 l 1,1,-1
+ 375 1280 l 1,2,-1
+ 225 1280 l 1,3,-1
+ 225 1430 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57658
 Encoding: 1475 1475 1475
-Width: 2048
+Width: 604
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+Fore
+209 1120 m 1,0,-1
+ 395 1120 l 1,1,-1
+ 395 918 l 1,2,-1
+ 209 918 l 1,3,-1
+ 209 1120 l 1,0,-1
+209 202 m 1,0,-1
+ 395 202 l 1,1,-1
+ 395 0 l 1,2,-1
+ 209 0 l 1,3,-1
+ 209 202 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni05C4
 Encoding: 1476 1476 1476
@@ -27132,195 +27367,752 @@ Colour: ffff00
 EndChar
 StartChar: uni05C6
 Encoding: 1478 1478 1478
-Width: 2048
+Width: 934
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+Fore
+288 633 m 2,0,1
+ 288 827 288 827 343 902 c 128,-1,3
+ 398 977 398 977 532 977 c 2,4,-1
+ 680 977 l 1,5,-1
+ 680 1120 l 1,6,-1
+ 534 1120 l 2,7,8
+ 307 1120 307 1120 204 998 c 0,9,10
+ 102 876 102 876 102 606 c 2,11,-1
+ 102 0 l 1,12,-1
+ 732 0 l 1,13,-1
+ 732 143 l 1,14,-1
+ 288 143 l 1,15,-1
+ 288 633 l 2,0,1
+EndSplineSet
 EndChar
 StartChar: uni05C7
 Encoding: 1479 1479 1479
-Width: 2048
+Width: 0
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+TtfInstrs: 25
+Zj$L3"UG[pgt^+.!42b,!sJrAgtY$90E;(Q
+EndTtf
+AnchorPoint: "rtl-below" 707 0 mark 0
+Fore
+782 -195 m 9,0,-1
+ 782 -445 l 25,1,-1
+ 632 -445 l 25,2,-1
+ 632 -195 l 17,3,-1
+ 407 -195 l 1,4,-1
+ 407 -45 l 1,5,-1
+ 1007 -45 l 1,6,-1
+ 1007 -195 l 1,7,-1
+ 782 -195 l 9,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57664
 Encoding: 1488 1488 1488
-Width: 2048
+Width: 1358
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 607 140 basechar 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Fore
+964 1120 m 1,0,-1
+ 1148 1120 l 1,1,-1
+ 1148 942 l 2,2,3
+ 1148 679 1148 679 1059.5 581 c 128,-1,5
+ 971 483 971 483 863 454 c 1,6,-1
+ 1201 0 l 1,7,-1
+ 984 0 l 1,8,-1
+ 541 596 l 1,9,10
+ 445 581 445 581 394.5 514 c 128,-1,12
+ 344 447 344 447 344 235 c 2,13,-1
+ 344 0 l 1,14,-1
+ 160 0 l 1,15,-1
+ 160 258 l 2,16,17
+ 160 521 160 521 247 617 c 128,-1,19
+ 334 713 334 713 432 743 c 1,20,-1
+ 152 1120 l 1,21,-1
+ 369 1120 l 1,22,-1
+ 754 602 l 1,23,24
+ 860 615 860 615 912 684 c 128,-1,26
+ 964 753 964 753 964 965 c 2,27,-1
+ 964 1120 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57665
 Encoding: 1489 1489 1489
-Width: 2048
+Width: 1342
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-above" 642 1120 basechar 0
+AnchorPoint: "rtl-inside" 477 560 basechar 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Fore
+854 633 m 2,0,1
+ 854 827 854 827 799 902 c 128,-1,2
+ 744 977 744 977 610 977 c 2,3,-1
+ 152 977 l 1,4,-1
+ 152 1120 l 1,5,-1
+ 608 1120 l 2,6,7
+ 835 1120 835 1120 938 998 c 0,8,9
+ 1040 876 1040 876 1040 606 c 2,10,-1
+ 1040 143 l 1,11,-1
+ 1242 143 l 1,12,-1
+ 1242 0 l 1,13,-1
+ 100 0 l 1,14,-1
+ 100 143 l 1,15,-1
+ 854 143 l 1,16,-1
+ 854 633 l 2,0,1
+EndSplineSet
 EndChar
 StartChar: afii57666
 Encoding: 1490 1490 1490
-Width: 2048
+Width: 929
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 307 560 basechar 0
+AnchorPoint: "rtl-below" 520 0 basechar 0
+Fore
+534 606 m 2,0,1
+ 534 828 534 828 479 902 c 0,2,3
+ 424 977 424 977 290 977 c 2,4,-1
+ 150 977 l 1,5,-1
+ 150 1120 l 1,6,-1
+ 296 1120 l 2,7,8
+ 516 1120 516 1120 618 998 c 128,-1,10
+ 720 876 720 876 720 606 c 2,11,-1
+ 720 546 l 1,12,-1
+ 866 0 l 1,13,-1
+ 667 0 l 1,14,-1
+ 576 339 l 1,15,-1
+ 292 0 l 1,16,-1
+ 75 0 l 1,17,-1
+ 534 546 l 1,18,-1
+ 534 606 l 2,0,1
+EndSplineSet
 EndChar
 StartChar: afii57667
 Encoding: 1491 1491 1491
-Width: 2048
+Width: 1244
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 442 560 basechar 0
+AnchorPoint: "rtl-below" 840 0 basechar 0
+Fore
+940 977 m 1,0,-1
+ 940 0 l 1,1,-1
+ 754 0 l 1,2,-1
+ 754 977 l 1,3,-1
+ 102 977 l 1,4,-1
+ 102 1120 l 1,5,-1
+ 1142 1120 l 1,6,-1
+ 1142 977 l 1,7,-1
+ 940 977 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57668
 Encoding: 1492 1492 1492
-Width: 2048
+Width: 1414
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 717 560 basechar 0
+AnchorPoint: "rtl-below" 680 0 basechar 0
+Fore
+387 0 m 1,0,-1
+ 202 0 l 1,1,-1
+ 202 650 l 1,2,-1
+ 387 650 l 1,3,-1
+ 387 0 l 1,0,-1
+1212 0 m 1,4,-1
+ 1027 0 l 1,5,-1
+ 1027 633 l 2,6,7
+ 1027 827 1027 827 972 902 c 128,-1,8
+ 917 977 917 977 783 977 c 2,9,-1
+ 202 977 l 1,10,-1
+ 202 1120 l 1,11,-1
+ 780 1120 l 2,12,13
+ 1007 1120 1007 1120 1110 998 c 0,14,15
+ 1212 876 1212 876 1212 606 c 2,16,-1
+ 1212 0 l 1,4,-1
+EndSplineSet
 EndChar
 StartChar: afii57669
 Encoding: 1493 1493 1493
-Width: 2048
+Width: 882
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 320 560 basechar 0
+AnchorPoint: "rtl-below" 595 0 basechar 0
+Fore
+495 633 m 2,0,1
+ 495 827 495 827 440 902 c 128,-1,2
+ 385 977 385 977 251 977 c 2,3,-1
+ 102 977 l 1,4,-1
+ 102 1120 l 1,5,-1
+ 248 1120 l 2,6,7
+ 475 1120 475 1120 578 998 c 0,8,9
+ 680 876 680 876 680 606 c 2,10,-1
+ 680 0 l 1,11,-1
+ 495 0 l 1,12,-1
+ 495 633 l 2,0,1
+EndSplineSet
 EndChar
 StartChar: afii57670
 Encoding: 1494 1494 1494
-Width: 2048
+Width: 894
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 177 560 basechar 0
+AnchorPoint: "rtl-below" 460 0 basechar 0
+Fore
+102 977 m 1,0,-1
+ 102 1120 l 1,1,-1
+ 792 1120 l 1,2,-1
+ 792 977 l 1,3,4
+ 650 977 650 977 595 902 c 128,-1,5
+ 540 827 540 827 540 633 c 2,6,-1
+ 540 0 l 1,7,-1
+ 354 0 l 1,8,-1
+ 354 633 l 2,9,10
+ 354 902 354 902 443 977 c 1,11,-1
+ 102 977 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57671
 Encoding: 1495 1495 1495
-Width: 2048
+Width: 1414
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 735 0 basechar 0
+Fore
+1212 0 m 1,0,-1
+ 1026 0 l 1,1,-1
+ 1026 633 l 2,2,3
+ 1026 827 1026 827 971 902 c 128,-1,5
+ 916 977 916 977 782 977 c 2,6,-1
+ 387 977 l 1,7,-1
+ 387 0 l 1,8,-1
+ 202 0 l 1,9,-1
+ 202 1120 l 1,10,-1
+ 780 1120 l 2,11,12
+ 1007 1120 1007 1120 1110 998 c 0,13,14
+ 1212 876 1212 876 1212 606 c 2,15,-1
+ 1212 0 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57672
 Encoding: 1496 1496 1496
-Width: 2048
+Width: 1399
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 717 560 basechar 0
+AnchorPoint: "rtl-below" 729 0 basechar 0
+Fore
+202 1120 m 1,0,-1
+ 388 1120 l 1,1,-1
+ 388 586 l 2,2,3
+ 388 332 388 332 465 231 c 0,4,5
+ 541 132 541 132 724 135 c 0,6,7
+ 879 138 879 138 965 231 c 0,8,9
+ 1060 335 1060 335 1062 570 c 0,10,11
+ 1063 760 1063 760 992 873 c 0,12,13
+ 926 977 926 977 803 977 c 2,14,-1
+ 667 977 l 1,15,-1
+ 667 1120 l 1,16,-1
+ 803 1120 l 2,17,18
+ 998 1120 998 1120 1132 969 c 0,19,20
+ 1245 841 1245 841 1247 570 c 0,21,22
+ 1249 271 1249 271 1110 110 c 0,23,24
+ 986 -32 986 -32 724 -29 c 0,25,26
+ 459 -26 459 -26 336 110 c 0,27,28
+ 202 258 202 258 202 561 c 2,29,-1
+ 202 1120 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57673
 Encoding: 1497 1497 1497
-Width: 2048
+Width: 606
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 80 795 basechar 0
+AnchorPoint: "rtl-below" 295 0 basechar 0
+Fore
+396 470 m 1,0,-1
+ 210 470 l 1,1,-1
+ 210 1120 l 1,2,-1
+ 396 1120 l 1,3,-1
+ 396 470 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57674
 Encoding: 1498 1498 1498
-Width: 2048
+Width: 1314
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 433 560 basechar 0
+AnchorPoint: "rtl-below" 469 0 basechar 0
+Fore
+1112 -426 m 1,0,-1
+ 926 -426 l 1,1,-1
+ 926 633 l 2,2,3
+ 926 827 926 827 871 902 c 128,-1,4
+ 816 977 816 977 682 977 c 2,5,-1
+ 102 977 l 1,6,-1
+ 102 1120 l 1,7,-1
+ 680 1120 l 2,8,9
+ 907 1120 907 1120 1010 998 c 0,10,11
+ 1112 876 1112 876 1112 606 c 2,12,-1
+ 1112 -426 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57675
 Encoding: 1499 1499 1499
-Width: 2048
+Width: 1364
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-above" 637 1120 basechar 0
+AnchorPoint: "rtl-inside" 557 560 basechar 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Fore
+152 0 m 1,0,-1
+ 152 142 l 1,1,-1
+ 596 142 l 2,2,3
+ 831 142 831 142 911 229 c 0,4,5
+ 977 301 977 301 977 560 c 0,6,7
+ 977 831 977 831 911 890 c 0,8,9
+ 811 977 811 977 596 977 c 2,10,-1
+ 152 977 l 1,11,-1
+ 152 1120 l 1,12,-1
+ 672 1120 l 2,13,14
+ 943 1120 943 1120 1063 976 c 0,15,16
+ 1162 856 1162 856 1162 560 c 0,17,18
+ 1162 239 1162 239 1063 144 c 0,19,20
+ 914 0 914 0 672 0 c 2,21,-1
+ 152 0 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57676
 Encoding: 1500 1500 1500
-Width: 2048
+Width: 1301
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 434 560 basechar 0
+AnchorPoint: "rtl-below" 681 0 basechar 0
+Fore
+601 270 m 10,0,1
+ 601 417 601 417 761 545 c 0,2,3
+ 941 689 941 689 941 780 c 18,4,-1
+ 941 977 l 1,5,-1
+ 143 977 l 9,6,-1
+ 143 1493 l 1,7,-1
+ 330 1493 l 1,8,-1
+ 330 1120 l 25,9,-1
+ 1132 1120 l 1,10,-1
+ 1132 780 l 2,11,12
+ 1132 658 1132 658 964 520 c 0,13,14
+ 792 378 792 378 792 270 c 18,15,-1
+ 792 0 l 9,16,-1
+ 601 0 l 17,17,-1
+ 601 270 l 10,0,1
+EndSplineSet
 EndChar
 StartChar: afii57677
 Encoding: 1501 1501 1501
-Width: 2048
+Width: 1414
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 696 0 basechar 0
+Fore
+202 0 m 1,0,-1
+ 202 1120 l 1,1,-1
+ 780 1120 l 2,2,3
+ 1007 1120 1007 1120 1110 998 c 0,4,5
+ 1212 876 1212 876 1212 606 c 2,6,-1
+ 1212 0 l 1,7,-1
+ 202 0 l 1,0,-1
+388 143 m 1,8,-1
+ 1026 143 l 1,9,-1
+ 1026 633 l 2,10,11
+ 1026 827 1026 827 971 902 c 128,-1,13
+ 916 977 916 977 782 977 c 2,14,-1
+ 388 977 l 1,15,-1
+ 388 143 l 1,8,-1
+EndSplineSet
 EndChar
 StartChar: afii57678
 Encoding: 1502 1502 1502
-Width: 2048
+Width: 1508
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 786 560 basechar 0
+AnchorPoint: "rtl-below" 745 0 basechar 0
+Fore
+860 977 m 0,0,1
+ 605 977 605 977 485 746 c 0,2,3
+ 431 642 431 642 410 496 c 2,4,-1
+ 338 0 l 1,5,-1
+ 152 0 l 1,6,-1
+ 222 496 l 2,7,8
+ 250 696 250 696 350 856 c 1,9,-1
+ 152 1120 l 1,10,-1
+ 369 1120 l 1,11,-1
+ 466 992 l 1,12,13
+ 620 1120 620 1120 874 1120 c 0,14,15
+ 1101 1120 1101 1120 1204 998 c 0,16,17
+ 1306 876 1306 876 1306 606 c 2,18,-1
+ 1306 0 l 1,19,-1
+ 714 0 l 1,20,-1
+ 714 142 l 1,21,-1
+ 1120 142 l 1,22,-1
+ 1120 606 l 2,23,24
+ 1120 809 1120 809 1065 875 c 0,25,26
+ 980 979 980 979 860 977 c 0,0,1
+EndSplineSet
 EndChar
 StartChar: afii57679
 Encoding: 1503 1503 1503
-Width: 2048
+Width: 882
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 369 0 basechar 0
+Fore
+494 633 m 2,0,1
+ 494 827 494 827 439 902 c 128,-1,3
+ 384 977 384 977 250 977 c 2,4,-1
+ 102 977 l 1,5,-1
+ 102 1120 l 1,6,-1
+ 248 1120 l 2,7,8
+ 475 1120 475 1120 578 998 c 0,9,10
+ 680 876 680 876 680 606 c 2,11,-1
+ 680 -426 l 1,12,-1
+ 494 -426 l 1,13,-1
+ 494 633 l 2,0,1
+EndSplineSet
 EndChar
 StartChar: afii57680
 Encoding: 1504 1504 1504
-Width: 2048
+Width: 934
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 439 0 basechar 0
+Fore
+546 633 m 2,0,1
+ 546 827 546 827 491 902 c 128,-1,3
+ 436 977 436 977 302 977 c 2,4,-1
+ 154 977 l 1,5,-1
+ 154 1120 l 1,6,-1
+ 300 1120 l 2,7,8
+ 527 1120 527 1120 630 998 c 0,9,10
+ 732 876 732 876 732 606 c 2,11,-1
+ 732 0 l 1,12,-1
+ 102 0 l 1,13,-1
+ 102 143 l 1,14,-1
+ 546 143 l 1,15,-1
+ 546 633 l 2,0,1
+EndSplineSet
 EndChar
 StartChar: afii57681
 Encoding: 1505 1505 1505
-Width: 2048
+Width: 1580
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 838 0 basechar 0
+Fore
+290 977 m 1,0,-1
+ 88 977 l 1,1,-1
+ 88 1120 l 1,2,-1
+ 838 1120 l 2,3,4
+ 1130 1120 1130 1120 1279 976 c 0,5,6
+ 1428 831 1428 831 1428 560 c 0,7,8
+ 1427 253 1427 253 1279 115 c 0,11,12
+ 1124 -30 1124 -30 838 -29 c 0,13,14
+ 576 -28 576 -28 439 115 c 0,17,18
+ 290 270 290 270 290 559 c 2,21,-1
+ 290 977 l 1,0,-1
+838 115 m 0,22,23
+ 1030 117 1030 117 1127 200 c 0,24,25
+ 1240 296 1240 296 1243 560 c 0,28,29
+ 1246 790 1246 790 1127 890 c 0,32,33
+ 1024 977 1024 977 764 977 c 2,36,-1
+ 474 977 l 1,37,-1
+ 474 560 l 2,38,39
+ 474 274 474 274 616 180 c 0,42,43
+ 716 114 716 114 838 115 c 0,22,23
+EndSplineSet
 EndChar
 StartChar: afii57682
 Encoding: 1506 1506 1506
-Width: 2048
+Width: 1302
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 675 0 basechar 0
+Fore
+562 131 m 1,0,1
+ 664 158 664 158 750 210 c 0,2,3
+ 890 295 890 295 931 450 c 0,4,5
+ 964 575 964 575 964 873 c 2,6,-1
+ 964 1120 l 1,7,-1
+ 1150 1120 l 1,8,-1
+ 1150 822 l 2,9,10
+ 1150 403 1150 403 1029 213 c 0,11,12
+ 987 147 987 147 924 102 c 0,13,14
+ 774 -7 774 -7 475 -83 c 0,15,16
+ 236 -144 236 -144 78 -177 c 1,17,-1
+ 78 0 l 1,18,19
+ 289 41 289 41 380 71 c 1,20,-1
+ 161 1120 l 1,21,-1
+ 355 1120 l 1,22,-1
+ 562 131 l 1,0,1
+EndSplineSet
+Substitution: 1 65534 'hs01' uniFB20
 EndChar
 StartChar: afii57683
 Encoding: 1507 1507 1507
-Width: 2048
+Width: 1334
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 736 305 basechar 0
+AnchorPoint: "rtl-below" 638 0 basechar 0
+Fore
+1132 -426 m 1,0,-1
+ 946 -426 l 1,1,-1
+ 946 633 l 2,2,3
+ 946 827 946 827 891 902 c 128,-1,4
+ 836 977 836 977 702 977 c 2,5,-1
+ 307 977 l 1,6,-1
+ 307 737 l 2,7,8
+ 307 652 307 652 368 613 c 0,9,10
+ 399 593 399 593 511 593 c 2,11,-1
+ 631 593 l 1,12,-1
+ 631 450 l 1,13,-1
+ 514 450 l 2,14,15
+ 365 450 365 450 301 482 c 0,16,17
+ 122 572 122 572 122 764 c 2,18,-1
+ 122 1120 l 1,19,-1
+ 700 1120 l 2,20,21
+ 927 1120 927 1120 1030 998 c 0,22,23
+ 1132 876 1132 876 1132 606 c 2,24,-1
+ 1132 -426 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57684
 Encoding: 1508 1508 1508
-Width: 2048
+Width: 1364
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-above" 647 1120 basechar 0
+AnchorPoint: "rtl-inside" 840 560 basechar 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Fore
+202 1120 m 1,0,-1
+ 622 1120 l 2,1,2
+ 914 1120 914 1120 1063 976 c 0,3,4
+ 1212 831 1212 831 1212 560 c 0,5,6
+ 1211 288 1211 288 1063 144 c 0,7,8
+ 914 0 914 0 622 0 c 2,9,-1
+ 202 0 l 1,10,-1
+ 202 142 l 1,11,-1
+ 546 142 l 2,12,13
+ 809 142 809 142 911 229 c 0,14,15
+ 1025 326 1025 326 1027 560 c 0,16,17
+ 1030 790 1030 790 911 890 c 0,18,19
+ 809 977 809 977 547 977 c 2,20,-1
+ 388 977 l 1,21,-1
+ 388 737 l 2,22,23
+ 388 652 388 652 449 613 c 0,24,25
+ 480 593 480 593 592 593 c 2,26,-1
+ 711 593 l 1,27,-1
+ 711 450 l 1,28,-1
+ 594 450 l 2,29,30
+ 445 450 445 450 381 482 c 0,31,32
+ 202 572 202 572 202 764 c 2,33,-1
+ 202 1120 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57685
 Encoding: 1509 1509 1509
-Width: 2048
+Width: 1040
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 209 0 basechar 0
+Fore
+567 -426 m 1,0,-1
+ 381 -426 l 1,1,-1
+ 381 438 l 1,2,-1
+ 87 1120 l 1,3,-1
+ 292 1120 l 1,4,-1
+ 508 611 l 1,5,6
+ 621 627 621 627 658 676 c 0,7,8
+ 716 752 716 752 716 965 c 2,9,-1
+ 716 1120 l 1,10,-1
+ 900 1120 l 1,11,-1
+ 900 942 l 2,12,13
+ 900 701 900 701 793 560 c 0,14,15
+ 735 483 735 483 567 454 c 1,16,-1
+ 567 -426 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57686
 Encoding: 1510 1510 1510
-Width: 2048
+Width: 1309
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 368 461 basechar 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Fore
+152 1120 m 1,0,-1
+ 370 1120 l 1,1,-1
+ 755 602 l 1,2,3
+ 861 615 861 615 907 676 c 0,4,5
+ 965 753 965 753 965 965 c 2,6,-1
+ 965 1120 l 1,7,-1
+ 1149 1120 l 1,8,-1
+ 1149 942 l 2,9,10
+ 1149 679 1149 679 1042 560 c 0,11,12
+ 972 483 972 483 864 454 c 1,13,-1
+ 1202 0 l 1,14,-1
+ 152 0 l 1,15,-1
+ 152 142 l 1,16,-1
+ 880 142 l 1,17,-1
+ 152 1120 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57687
 Encoding: 1511 1511 1511
-Width: 2048
+Width: 1408
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 717 560 basechar 0
+AnchorPoint: "rtl-below" 748 0 basechar 0
+Fore
+835 0 m 1,0,-1
+ 583 0 l 1,1,-1
+ 698 117 l 2,2,3
+ 910 332 910 332 947 375 c 0,4,5
+ 1047 489 1047 489 1082 559 c 0,6,7
+ 1121 636 1121 636 1121 708 c 0,8,9
+ 1121 827 1121 827 1038 902 c 0,10,11
+ 954 977 954 977 820 977 c 2,12,-1
+ 202 977 l 1,13,-1
+ 202 1120 l 1,14,-1
+ 804 1120 l 2,15,16
+ 1031 1120 1031 1120 1170 1004 c 0,17,18
+ 1308 888 1308 888 1308 694 c 0,19,20
+ 1308 599 1308 599 1274 520 c 0,21,22
+ 1235 430 1235 430 1148 325 c 0,23,24
+ 1129 301 1129 301 989 158 c 2,25,-1
+ 835 0 l 1,0,-1
+388 -426 m 1,26,-1
+ 202 -426 l 1,27,-1
+ 202 650 l 1,28,-1
+ 388 650 l 1,29,-1
+ 388 -426 l 1,26,-1
+EndSplineSet
 EndChar
 StartChar: afii57688
 Encoding: 1512 1512 1512
-Width: 2048
+Width: 1314
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 534 560 basechar 0
+AnchorPoint: "rtl-below" 564 0 basechar 0
+Fore
+1112 0 m 1,0,-1
+ 926 0 l 1,1,-1
+ 926 633 l 2,2,3
+ 926 827 926 827 871 902 c 128,-1,4
+ 816 977 816 977 682 977 c 2,5,-1
+ 102 977 l 1,6,-1
+ 102 1120 l 1,7,-1
+ 680 1120 l 2,8,9
+ 907 1120 907 1120 1010 998 c 0,10,11
+ 1112 876 1112 876 1112 606 c 2,12,-1
+ 1112 0 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57689
 Encoding: 1513 1513 1513
-Width: 2048
+Width: 1637
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 957 560 basechar 0
+AnchorPoint: "rtl-below" 798 0 basechar 0
+Fore
+202 0 m 1,0,-1
+ 202 1120 l 1,1,-1
+ 387 1120 l 1,2,-1
+ 387 593 l 1,3,4
+ 655 596 655 596 713 773 c 0,5,6
+ 740 856 740 856 740 1120 c 1,7,-1
+ 925 1120 l 1,8,9
+ 927 810 927 810 879 702 c 0,10,11
+ 769 451 769 451 387 450 c 1,12,-1
+ 387 143 l 1,13,14
+ 719 143 719 143 875 186 c 0,15,16
+ 1074 241 1074 241 1171 400 c 0,17,18
+ 1302 612 1302 612 1300 1120 c 1,19,-1
+ 1485 1120 l 1,20,21
+ 1485 589 1485 589 1353 369 c 0,22,23
+ 1132 0 1132 0 704 0 c 0,24,25
+ 387 0 l 2,26,-1
+ 202 0 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57690
 Encoding: 1514 1514 1514
-Width: 2048
+Width: 1486
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 809 560 basechar 0
+AnchorPoint: "rtl-below" 716 0 basechar 0
+Fore
+1284 0 m 1,0,-1
+ 1098 0 l 1,1,-1
+ 1098 633 l 2,2,3
+ 1098 827 1098 827 1043 902 c 128,-1,4
+ 988 977 988 977 854 977 c 2,5,-1
+ 528 977 l 1,6,-1
+ 528 406 l 2,7,8
+ 528 192 528 192 446 96 c 0,9,10
+ 365 0 365 0 184 0 c 2,11,-1
+ 152 0 l 1,12,-1
+ 152 143 l 1,13,14
+ 266 143 266 143 304 191 c 0,15,16
+ 342 240 342 240 342 406 c 2,17,-1
+ 342 977 l 1,18,-1
+ 154 977 l 1,19,-1
+ 154 1120 l 1,20,-1
+ 852 1120 l 2,21,22
+ 1079 1120 1079 1120 1182 998 c 0,23,24
+ 1284 876 1284 876 1284 606 c 2,25,-1
+ 1284 0 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: afii57716
 Encoding: 1520 1520 1520
-Width: 2048
+Width: 1614
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 867 0 basechar 0
+Refer: 1493 1493 N 1 0 0 1 732 0 2
+Refer: 1493 1493 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii57717
 Encoding: 1521 1521 1521
-Width: 2048
+Width: 1338
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 603 0 basechar 0
+Refer: 1493 1493 N 1 0 0 1 456 0 2
+Refer: 1497 1497 N 1 0 0 1 0 0 2
 EndChar
 StartChar: afii57718
 Encoding: 1522 1522 1522
-Width: 2048
+Width: 1012
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 525 0 basechar 0
+Refer: 1497 1497 N 1 0 0 1 406 0 2
+Refer: 1497 1497 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni05F3
 Encoding: 1523 1523 1523
@@ -79140,9 +79932,13 @@ LCarets: 0 65535 '    ' 1 0
 EndChar
 StartChar: uniFB1D
 Encoding: 64285 64285 64285
-Width: 2048
+Width: 606
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-inside" 80 795 basechar 0
+Refer: 1497 1497 N 1 0 0 1 0 0 2
+Refer: 1460 1460 N 1 0 0 1 -405 416 2
+Ligature: 1 7 'ccmp' afii57673 afii57793
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB1E
 Encoding: 64286 64286 64286
@@ -79152,15 +79948,36 @@ Colour: ffff00
 EndChar
 StartChar: uniFB1F
 Encoding: 64287 64287 64287
-Width: 2048
+Width: 1012
 TeX: 0 0 0 0
-Colour: ffff00
+Refer: 1522 1522 N 1 0 0 1 0 0 2
+Refer: 1463 1463 N 1 0 0 1 -202 416 2
+Ligature: 1 7 'ccmp' afii57718 afii57798
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB20
 Encoding: 64288 64288 64288
-Width: 2048
+Width: 1302
+Flags: W
 TeX: 0 0 0 0
-Colour: ffff00
+AnchorPoint: "rtl-below" 675 0 basechar 0
+Fore
+548 177 m 1,0,1
+ 635.062 177 635.062 177 748 224 c 0,2,3
+ 881.481 279.549 881.481 279.549 931 450 c 0,4,5
+ 964 564.609 964 564.609 964 873 c 2,6,-1
+ 964 1120 l 1,7,-1
+ 1150 1120 l 1,8,-1
+ 1150 822 l 2,9,10
+ 1150 426 1150 426 1023 213 c 128,-1,11
+ 896 0 896 0 484 0 c 2,12,-1
+ 78 0 l 1,13,-1
+ 78 177 l 1,14,15
+ 354 177 l 1,16,-1
+ 161 1120 l 1,17,-1
+ 355 1120 l 1,18,-1
+ 548 177 l 1,0,1
+EndSplineSet
 EndChar
 StartChar: uniFB21
 Encoding: 64289 64289 64289
@@ -79218,227 +80035,332 @@ Colour: ffff00
 EndChar
 StartChar: uniFB2A
 Encoding: 64298 64298 64298
-Width: 2048
+Width: 1637
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 798 0 basechar 0
+AnchorPoint: "rtl-inside" 957 560 basechar 0
+Refer: 1513 1513 N 1 0 0 1 0 0 2
+Refer: 1473 1473 N 1 0 0 1 0 0 2
 Ligature: 1 7 'ccmp' afii57689 afii57804
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB2B
 Encoding: 64299 64299 64299
-Width: 2048
+Width: 1637
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 798 0 basechar 0
+AnchorPoint: "rtl-inside" 957 560 basechar 0
+Refer: 1513 1513 N 1 0 0 1 0 0 2
+Refer: 1474 1474 N 1 0 0 1 0 0 2
 Ligature: 1 7 'ccmp' afii57689 afii57803
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB2C
 Encoding: 64300 64300 64300
-Width: 2048
+Width: 1637
+Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 798 0 basechar 0
+Refer: 1473 1473 N 1 0 0 1 0 0 2
+Refer: 64329 64329 N 1 0 0 1 0 0 2
 Ligature: 1 7 'ccmp' uniFB49 afii57804
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB2D
 Encoding: 64301 64301 64301
-Width: 2048
+Width: 1637
+Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 798 0 basechar 0
+Refer: 1474 1474 N 1 0 0 1 0 0 2
+Refer: 64329 64329 N 1 0 0 1 0 0 2
 Ligature: 1 7 'ccmp' uniFB49 afii57803
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB2E
 Encoding: 64302 64302 64302
-Width: 2048
+Width: 1358
 TeX: 0 0 0 0
+AnchorPoint: "rtl-inside" 607 140 basechar 0
+Refer: 1488 1488 N 1 0 0 1 0 0 2
+Refer: 1463 1463 N 1 0 0 1 -58 0 2
 Ligature: 1 7 'ccmp' afii57664 afii57798
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB2F
 Encoding: 64303 64303 64303
-Width: 2048
+Width: 1358
 TeX: 0 0 0 0
+AnchorPoint: "rtl-inside" 607 140 basechar 0
+Refer: 1488 1488 N 1 0 0 1 0 0 2
+Refer: 1464 1464 N 1 0 0 1 -58 0 2
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 1 7 'ccmp' afii57664 afii57797
-Colour: ffff00
 EndChar
 StartChar: uniFB30
 Encoding: 64304 64304 64304
-Width: 2048
+Width: 1358
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Refer: 1488 1488 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -110 -420 2
 Ligature: 1 7 'ccmp' afii57664 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB31
 Encoding: 64305 64305 64305
-Width: 2048
+Width: 1342
 TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 642 1120 basechar 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Refer: 1489 1489 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -240 0 2
 Ligature: 1 7 'ccmp' afii57665 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB32
 Encoding: 64306 64306 64306
-Width: 2048
+Width: 929
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 520 0 basechar 0
+Refer: 1490 1490 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -410 0 2
 Ligature: 1 7 'ccmp' afii57666 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB33
 Encoding: 64307 64307 64307
-Width: 2048
+Width: 1244
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 840 0 basechar 0
+Refer: 1491 1491 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -275 0 2
 Ligature: 1 7 'ccmp' afii57667 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB34
 Encoding: 64308 64308 64308
-Width: 2048
+Width: 1414
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 680 0 basechar 0
+Refer: 1492 1492 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 0 0 2
 Ligature: 1 7 'ccmp' afii57668 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB35
 Encoding: 64309 64309 64309
-Width: 2048
+Width: 882
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 595 0 basechar 0
+Refer: 1493 1493 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -397 0 2
 Ligature: 1 7 'ccmp' afii57669 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB36
 Encoding: 64310 64310 64310
-Width: 2048
+Width: 894
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 460 0 basechar 0
+Refer: 1494 1494 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -540 0 2
 Ligature: 1 7 'ccmp' afii57670 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB38
 Encoding: 64312 64312 64312
-Width: 2048
+Width: 1399
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 729 0 basechar 0
+Refer: 1496 1496 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 0 0 2
 Ligature: 1 7 'ccmp' afii57672 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB39
 Encoding: 64313 64313 64313
-Width: 2048
+Width: 606
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 295 0 basechar 0
+Refer: 1497 1497 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -675 250 2
 Ligature: 1 7 'ccmp' afii57673 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB3A
 Encoding: 64314 64314 64314
-Width: 2048
+Width: 1314
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 469 0 basechar 0
+Refer: 1498 1498 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -284 0 2
 Ligature: 1 7 'ccmp' afii57674 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB3B
 Encoding: 64315 64315 64315
-Width: 2048
+Width: 1364
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Refer: 1499 1499 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -160 0 2
 Ligature: 1 7 'ccmp' afii57675 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB3C
 Encoding: 64316 64316 64316
-Width: 2048
+Width: 1301
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 681 0 basechar 0
+Refer: 1500 1500 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -283 0 2
 Ligature: 1 7 'ccmp' afii57676 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB3E
 Encoding: 64318 64318 64318
-Width: 2048
+Width: 1508
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 745 0 basechar 0
+Refer: 1502 1502 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 69 0 2
 Ligature: 1 7 'ccmp' afii57678 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB40
 Encoding: 64320 64320 64320
-Width: 2048
+Width: 934
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 439 0 basechar 0
+Refer: 1504 1504 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -367 0 2
 Ligature: 1 7 'ccmp' afii57680 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB41
 Encoding: 64321 64321 64321
-Width: 2048
+Width: 1580
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 838 0 basechar 0
+Refer: 1505 1505 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 131 0 2
 Ligature: 1 7 'ccmp' afii57681 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB43
 Encoding: 64323 64323 64323
-Width: 2048
+Width: 1334
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 638 0 basechar 0
+Refer: 1507 1507 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 19 -225 2
 Ligature: 1 7 'ccmp' afii57683 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB44
 Encoding: 64324 64324 64324
-Width: 2048
+Width: 1364
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Refer: 1508 1508 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 123 0 2
 Ligature: 1 7 'ccmp' afii57684 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB46
 Encoding: 64326 64326 64326
-Width: 2048
+Width: 1309
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+Refer: 1510 1510 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -346 -99 2
 Ligature: 1 7 'ccmp' afii57686 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB47
 Encoding: 64327 64327 64327
-Width: 2048
+Width: 1408
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 748 0 basechar 0
+Refer: 1511 1511 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 0 0 2
 Ligature: 1 7 'ccmp' afii57687 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB48
 Encoding: 64328 64328 64328
-Width: 2048
+Width: 1314
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 564 0 basechar 0
+Refer: 1512 1512 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 -183 0 2
 Ligature: 1 7 'ccmp' afii57688 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB49
 Encoding: 64329 64329 64329
-Width: 2048
+Width: 1637
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 798 0 basechar 0
+Refer: 1513 1513 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 240 0 2
 Ligature: 1 7 'ccmp' afii57689 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB4A
 Encoding: 64330 64330 64330
-Width: 2048
+Width: 1486
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 716 0 basechar 0
+Refer: 1514 1514 N 1 0 0 1 0 0 2
+Refer: 1468 1468 N 1 0 0 1 92 0 2
 Ligature: 1 7 'ccmp' afii57690 afii57807
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB4B
 Encoding: 64331 64331 64331
-Width: 2048
+Width: 882
 TeX: 0 0 0 0
+AnchorPoint: "rtl-inside" 320 560 basechar 0
+AnchorPoint: "rtl-below" 595 0 basechar 0
+Refer: 1493 1493 N 1 0 0 1 0 0 2
+Refer: 1465 1465 N 1 0 0 1 238 0 2
 Ligature: 1 7 'ccmp' afii57669 afii57806
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB4C
 Encoding: 64332 64332 64332
-Width: 2048
+Width: 1342
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+AnchorPoint: "rtl-inside" 477 560 basechar 0
+Refer: 1489 1489 N 1 0 0 1 0 0 2
+Refer: 1471 1471 N 1 0 0 1 -65 0 2
 Ligature: 1 7 'ccmp' afii57665 afii57841
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB4D
 Encoding: 64333 64333 64333
-Width: 2048
+Width: 1364
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+AnchorPoint: "rtl-inside" 557 560 basechar 0
+Refer: 1499 1499 N 1 0 0 1 0 0 2
+Refer: 1471 1471 N 1 0 0 1 -70 0 2
 Ligature: 1 7 'ccmp' afii57675 afii57841
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB4E
 Encoding: 64334 64334 64334
-Width: 2048
+Width: 1364
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 645 0 basechar 0
+AnchorPoint: "rtl-inside" 840 560 basechar 0
+Refer: 1508 1508 N 1 0 0 1 0 0 2
+Refer: 1471 1471 N 1 0 0 1 -60 0 2
 Ligature: 1 7 'ccmp' afii57684 afii57841
-Colour: ffff00
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB4F
 Encoding: 64335 64335 64335
