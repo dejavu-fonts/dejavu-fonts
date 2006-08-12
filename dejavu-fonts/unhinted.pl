@@ -41,7 +41,7 @@ sub parse_sfd_file($$$) {
     } elsif (/^Fore$/) {
       $contours = 1;
     } elsif (/^Encoding:\s*\d+\s*(\d+)\s*\d+\s*$/) {
-      $hex_enc = sprintf ('%04x', $1);
+      $hex_enc = sprintf ('%04X', $1);
     } elsif ($hex_enc && !$empty && /^EndChar\s*$/) {
        $total++;
        if (($composites || $contours) && !$hinted) {
