@@ -1,3 +1,38 @@
+Changes from 2.8 to 2.9:
+
+- DejaVuSansExtraLight.sfd: changed family name from "DejaVu Sans" to
+  "DejaVu Sans Light" (in case we add a Light weight variant), so legacy
+  apps that understand only 4 styles are happy. (by Denis Jacquerye)
+- added Name ID 16, aka preferred family name, and Name ID 17, aka
+  preferred style name, so contemporary apps that understand more that 4
+  styles can use big fonts families "DejaVu Sans" and "DejaVu Serif". For
+  those, Extralight and Condensed are just styles not different families.
+  (by Denis Jacquerye)
+- added U+22B6-22BD, U+22C0-22C1, U+22D6-22D7 to Sans. (by Remy Oudompheng)
+- added U+037B, U+2184, U+2C67-U+2C6A and U+2C75-U+2C77 to Sans (by Gee
+  Fung Sit)
+- adjusted asteriskmath (U+2217) for consistency with other mathematical
+  operators in Sans (by Ben Laenen)
+- hinted some Armenian capitals in Sans Book (by Ben Laenen)
+- added U+0246 - U+0249 (by Ben Laenen)
+- BUGFIX : swapped U+224E and U+224F, in Sans, Sans Condensed and Sans Mono
+  (by Remy Oudompheng)
+- adjusted U+20B5 (by Mederic Boquien)
+- swapped U+21DA and U+21DB which were in wrong order (by Heikki Lindroos)
+- added U+222E-2233, U+239B-23AD, U+2A00-2A02, U+2A0F-2A1C to Sans (by Remy
+  Oudompheng)
+- added U+239B-23AD to Mono (by Remy Oudompheng)
+- added U+2024-2025 to Serif (by Mederic Boquien)
+- added U+222C-222D, U+2A0C-2A0E to Serif (by Remy Oudompheng)
+- added U+2190-21FF to Mono (by Heikki Lindroos)
+- added Hebrew glyphs - U+05B0-U+05BD, U+05BF-U+05C3, U+05C6, U+05C7,
+  U+05D0-U+05EA, U+05F0-U+05F2, U+FB1F, U+FB20, U+FB2A-U+FB36,
+  U+FB38-U+FB3C, U+FB3E, U+FB40, U+FB41, U+FB43, U+FB44, U+FB46-U+FB4E (by
+  Gee Fung Sit and Eugeniy Meshcheryakov)
+- adjustments for Cyrillic in Sans (by Andrey V. Panov)
+- made italic shape for U+0434, U+0456, U+0457 in SerifOblique and Serif
+  Bold Oblique (by Andrey V. Panov)
+
 Changes from 2.7 to 2.8:
 
 - fixed instructions for U+0423, U+0427, U+0447, U+0448 in Serif, so they
