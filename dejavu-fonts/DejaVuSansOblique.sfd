@@ -122,7 +122,7 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
-AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-above" mark 1 7 4 0 "rtl-inside" mark 1 7 5 0 "rtl-below" mark 1 7 6 0 "above-mark" mkmk 0 0 2 1 
+AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-above" mark 1 7 4 0 "rtl-inside" mark 1 7 5 0 "rtl-below" mark 1 7 6 0 "above-mark" mkmk 0 0 2 1 "below-mark" mkmk 0 0 7 1 
 BeginChars: 65576 3595
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -28796,12 +28796,13 @@ Encoding: 3768 3768 3768
 Width: 0
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "below" -522.15 3 mark 0
+AnchorPoint: "below-mark" -522.733 0 mark 0
+AnchorPoint: "below" -522.733 0 mark 0
 Fore
 -554 -188 m 128,-1,39
  -619 -188 -619 -188 -631.5 -252.5 c 128,-1,41
  -644 -317 -644 -317 -579 -317 c 0,42,43
- -514 -316 -514 -316 -502 -252 c 24,44,45
+ -514 -316 -514 -316 -501.5 -252 c 152,-1,45
  -489 -188 -489 -188 -554 -188 c 128,-1,39
 -665 -621 m 17,41,42
  -469 -489 -469 -489 -481 -386 c 1,43,44
@@ -28819,7 +28820,8 @@ Encoding: 3769 3769 3769
 Width: 0
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "below" -530.703 3 mark 0
+AnchorPoint: "below-mark" -531.286 0 mark 0
+AnchorPoint: "below" -531.286 0 mark 0
 Fore
 -704 -178 m 128,-1,1
  -726 -178 -726 -178 -730 -200 c 128,-1,2
@@ -28875,6 +28877,7 @@ Encoding: 3772 3772 3772
 Width: 0
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "below-mark" -701.598 -544 basemark 0
 AnchorPoint: "below" -595.854 0 mark 0
 Fore
 -1080 -434 m 0,0,1
