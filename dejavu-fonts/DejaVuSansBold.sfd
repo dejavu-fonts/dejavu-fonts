@@ -13,6 +13,8 @@ Descent: 492
 Order2: 1
 NeedsXUIDChange: 1
 FSType: 0
+CreationTime: 1156703767
+ModificationTime: 1156771987
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -142,7 +144,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-above" mark 1 8 4 0 "rtl-inside" mark 1 8 8 0 "rtl-below" mark 1 8 9 0 "above-mark" mkmk 0 0 2 1 "below-mark" mkmk 0 0 5 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
-BeginChars: 65622 4017
+BeginChars: 65623 4019
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -29855,6 +29857,16 @@ Refer: 1609 1609 N 1 0 0 1 0 0 2
 Substitution: 9 4 'medi' uni06CE.medi
 Substitution: 9 4 'init' uni06CE.init
 Substitution: 9 4 'fina' uni06CE.fina
+EndChar
+StartChar: uni06D5
+Encoding: 1749 1749 1749
+Width: 1209
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 500 850 basechar 0
+AnchorPoint: "rtl-below" 600 -150 basechar 0
+Refer: 1607 1607 N 1 0 0 1 0 0 2
+Substitution: 9 4 'fina' uni06D5.fina
 EndChar
 StartChar: uni06F0
 Encoding: 1776 1776 1776
@@ -87778,5 +87790,15 @@ Fore
  172 1556 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: uni06D5.fina
+Encoding: 65622 -1 65622
+Width: 1242
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 600 850 basechar 0
+Refer: 65258 65258 N 1 0 0 1 0 0 2
+EndChar
 EndChars
+DupEnc: 65536 0
 EndSplineFont

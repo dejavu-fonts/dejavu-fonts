@@ -13,6 +13,8 @@ Descent: 492
 Order2: 1
 NeedsXUIDChange: 1
 FSType: 0
+CreationTime: 1156703767
+ModificationTime: 1156771630
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -133,7 +135,7 @@ AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-above" mark 1 8 4 0 "rtl-inside" mark 1 8 5 0 "rtl-below" mark 1 8 8 0 "above-mark" mkmk 0 0 2 1 "below-mark" mkmk 0 0 9 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
-BeginChars: 65622 4019
+BeginChars: 65623 4021
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -30367,6 +30369,16 @@ Refer: 1626 1626 N 1 0 0 1 -12 -450 2
 Substitution: 9 4 'medi' uni06CE.medi
 Substitution: 9 4 'init' uni06CE.init
 Substitution: 9 4 'fina' uni06CE.fina
+EndChar
+StartChar: uni06D5
+Encoding: 1749 1749 1749
+Width: 1073
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 450 850 basechar 0
+AnchorPoint: "rtl-below" 500 -150 basechar 0
+Refer: 1607 1607 N 1 0 0 1 0 0 2
+Substitution: 9 4 'fina' uni06D5.fina
 EndChar
 StartChar: uni06F0
 Encoding: 1776 1776 1776
@@ -86853,7 +86865,7 @@ Fore
  635 423 635 423 623 524 c 1,4,5
  503 512 503 512 421 445 c 0,6,7
  310 356 310 356 312 294 c 0,8,9
- 313 253 313 253 403 228 c 0,10,11
+ 313 253 313 253 403 228 c 128,-1,11
  493 203 493 203 676 282 c 1,0,1
 609 668 m 1,12,13
  605 707 605 707 602 750 c 1,14,-1
@@ -88597,5 +88609,15 @@ Fore
  193 1556 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: uni06D5.fina
+Encoding: 65622 -1 65622
+Width: 1098
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above" 550 850 basechar 0
+AnchorPoint: "rtl-below" 500 -150 basechar 0
+Refer: 65258 65258 N 1 0 0 1 0 0 2
+EndChar
 EndChars
+DupEnc: 65536 0
 EndSplineFont
