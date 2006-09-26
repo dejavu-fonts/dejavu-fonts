@@ -18728,6 +18728,8 @@ StartChar: afii10055
 Encoding: 1030 1030 1030
 Width: 762
 Flags: W
+AnchorPoint: "above" 539 1520 basechar 0
+AnchorPoint: "below" 234.062 6 basechar 0
 Refer: 73 73 N 1 0 0 1 0 0 3
 EndChar
 StartChar: afii10056
@@ -20185,7 +20187,7 @@ Fore
  544 1147 544 1147 847 1147 c 0,19,20
  1021 1147 1021 1147 1179 1085 c 1,21,-1
  1122 793 l 1,22,23
- 999 891 999 891 846 891 c 0,24,25
+ 999 891 999 891 846 891 c 128,-1,25
  693 891 693 891 606.5 814.5 c 128,-1,26
  520 738 520 738 492 663 c 1,27,-1
  966 663 l 1,28,-1
@@ -20202,12 +20204,16 @@ StartChar: afii10103
 Encoding: 1110 1110 1110
 Width: 702
 Flags: W
+AnchorPoint: "below" 238.772 0 basechar 0
+AnchorPoint: "above" 546.477 1583 basechar 0
 Refer: 105 105 N 1 0 0 1 0 0 3
 EndChar
 StartChar: afii10104
 Encoding: 1111 1111 1111
 Width: 702
 Flags: W
+AnchorPoint: "above" 546.477 1583 basechar 0
+AnchorPoint: "below" 238.772 0 basechar 0
 Refer: 168 168 N 1 0 0 1 -161 0 2
 Refer: 305 305 N 1 0 0 1 0 0 3
 EndChar
