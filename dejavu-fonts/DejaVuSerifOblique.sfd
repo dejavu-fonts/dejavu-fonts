@@ -110,7 +110,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-makr" mkmk 0 0 2 1 
-BeginChars: 65549 2339
+BeginChars: 65549 2340
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -3099,7 +3099,7 @@ EndSplineSet
 EndChar
 StartChar: nonbreakingspace
 Encoding: 160 160 160
-Width: 1303
+Width: 651
 Flags: W
 EndChar
 StartChar: exclamdown
@@ -29744,6 +29744,12 @@ Fore
 EndSplineSet
 LCarets: 0 65535 '    ' 2 0 0 
 Ligature: 0 1 'dlig' period period period
+EndChar
+StartChar: uni202F
+Encoding: 8239 8239 8239
+Width: 409
+Flags: W
+TeX: 0 0 0 0
 EndChar
 StartChar: perthousand
 Encoding: 8240 8240 8240
