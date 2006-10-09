@@ -13,11 +13,8 @@ Descent: 492
 Order2: 1
 NeedsXUIDChange: 1
 FSType: 0
-OS2Version: 0
-OS2_WeightWidthSlopeOnly: 0
-OS2_UseTypoMetrics: 0
 CreationTime: 1159850062
-ModificationTime: 1160089197
+ModificationTime: 1160392356
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -4648,7 +4645,9 @@ Width: 778
 Flags: W
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 180 180 N 1 0 0 1 -123 0 2
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' i acutecomb
+Ligature: 0 0 'liga' afii10103 acutecomb
 EndChar
 StartChar: icircumflex
 Encoding: 238 238 238
@@ -18409,6 +18408,7 @@ StartChar: afii10056
 Encoding: 1031 1031 1031
 Width: 958
 Flags: W
+AnchorPoint: "above" 758.5 1845 basechar 0
 Refer: 65538 -1 N 1 0 0 1 1072.5 373 2
 Refer: 1030 1030 N 1 0 0 1 0 0 2
 EndChar
@@ -18613,10 +18613,10 @@ EndSplineSet
 EndChar
 StartChar: afii10017
 Encoding: 1040 1040 1040
-Width: 1589
+Width: 1668
 Flags: W
-AnchorPoint: "above" 931.5 1465 basechar 0
-Refer: 65 65 N 1 0 0 1 0 0 2
+AnchorPoint: "above" 967.5 1465 basechar 0
+Refer: 65 65 N 1 0 0 1 36 0 2
 EndChar
 StartChar: afii10018
 Encoding: 1041 1041 1041
@@ -19311,7 +19311,7 @@ Fore
  448 830 l 1,7,-1
  1113 830 l 1,8,9
  1128 930 1128 930 1128 1012 c 0,10,11
- 1128 1399 1128 1399 793.5 1399 c 128,-1,12
+ 1128 1399 1128 1399 793.5 1399 c 0,12,13
  459 1399 459 1399 308 1024 c 1,13,-1
  181 1024 l 1,14,-1
  252 1391 l 1,15,16
@@ -20373,6 +20373,7 @@ StartChar: afii10104
 Encoding: 1111 1111 1111
 Width: 778
 Flags: W
+AnchorPoint: "above" 594.5 1495 basechar 0
 Refer: 168 168 N 1 0 0 1 -123 0 2
 Refer: 305 305 N 1 0 0 1 0 0 2
 EndChar
@@ -22321,10 +22322,10 @@ EndSplineSet
 EndChar
 StartChar: uni04D0
 Encoding: 1232 1232 1232
-Width: 1589
+Width: 1668
 Flags: W
 TeX: 117 0 0 0
-Refer: 728 728 N 1 0 0 1 307.757 328 2
+Refer: 728 728 N 1 0 0 1 343.757 328 2
 Refer: 1040 1040 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni04D1
@@ -22337,11 +22338,11 @@ Refer: 1072 1072 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni04D2
 Encoding: 1234 1234 1234
-Width: 1589
+Width: 1668
 Flags: W
 TeX: 117 0 0 0
 Refer: 1040 1040 N 1 0 0 1 0 0 2
-Refer: 65538 -1 N 1 0 0 1 1314.5 373 2
+Refer: 65538 -1 N 1 0 0 1 1350.5 373 2
 EndChar
 StartChar: uni04D3
 Encoding: 1235 1235 1235
