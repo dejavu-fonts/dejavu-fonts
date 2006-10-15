@@ -2,6 +2,6 @@
 
 # $Id$
 
-mkdir generated
+test -d generated || mkdir generated
 ./generate.pe *.sfd
 ./ttpostproc.pl generated/*.ttf
