@@ -16,7 +16,7 @@
 def_gen_flags = 0x20 + 0x40 + 0x80
 exp_gen_flags = def_gen_flags + 8
 
-if ($version < "20050502")
+if ($version < "20061014")
   Error("Your version of FontForge messes with morx TT table");
 endif
 # FoundryName is not used in TTF generation
