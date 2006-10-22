@@ -1,3 +1,18 @@
+Changes from 2.10 to 2.11
+- added instructions for Hebrew glyphs (Sans Book, by Eugeniy Meshcheryakov)
+- changed U+01A6 (Latin Yr) after bug #8212, in Sans, Serif and Sans Mono fonts (by Denis Jacquerye).
+- removed instruction for U+2600-U+26A1 (by Médéric Boquien)
+- added U+202F and set width of U+00A0 (nobreakingspace) to the same as U+0020, space (by Denis Jacquerye).
+- added and improved instructions for various Cyrillic letters (by Eugeniy Meshcheryakov)
+- Changed U+416, U+42F, U+427 (non-Bold), U+436, U+447 (non-Bold), U+44F, U+437 (Bold), corrected U+40F, U+414, U+424, U+426, U+429, U+434, U+438 (Bold), U+446, U+449, U+44D (non-Bold), U+45F in Sans Mono (by Andrey V. Panov)
+- made small corrections to Cyrillic, most appreciable to U+409, U+413, U+41B, U+427 and U+433, U+434, U+43B, U+447, U+459 (upright fonts) to Serif (by Andrey V. Panov)
+- adjusted bearings of U+410, U+416, U+41A, U+42F, U+436, U+43A, U+443, U+44F in Serif (by Andrey V. Panov)
+- enlarged width of U+44A, U+44B, U+44C, U+463 in Serif; (by Andrey V. Panov)
+- added ligature "iacute" as "afii10103" (U+456) "acutecomb" in Serif (by Andrey V. Panov)
+- made italic shape to U+446, U+448, U+449 in Serif (by Andrey V. Panov)
+- added "afii10831" (U+F6C7), "afii10832" (U+F6C8) in Serif (by Andrey V. Panov)
+- new minimum version of fontforge is 20061014 (by Ben Laenen)
+
 Changes from 2.9 to 2.10:
 - added U+0242, U+024A-U+024B, U+024E-U+024F, U+037C-U+037D, U+0E3F, 
   U+1D2C-U+1D2E, U+1D30-U+1D42, U+1D5D-U+1D6A, U+1D78, U+1DB8, 
