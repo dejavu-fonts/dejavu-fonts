@@ -68,7 +68,8 @@ sub process_sfd_file($) {
     } elsif (/^EndChars\s*$/) {
       $in_chars = 0;
       # adding of 1 to max_dec_enc is strange, but works
-      print OUT "BeginChars: ", $max_dec_enc + 1, " ", scalar (keys %glyphs), "\n";
+      # second parameter is set to 0 to avoid merging conflicts (fontforge ignores anyway)
+      print OUT "BeginChars: ", $max_dec_enc + 1, " 0\n";
       foreach $glyph (sort { $glyphs{$a}{'dec_enc'} <=> $glyphs{$b}{'dec_enc'} } keys %glyphs) {
         print OUT "StartChar: ", $glyphs{$glyph}{'name'}, "\n";
         my $dec_enc = $glyphs{$glyph}{'dec_enc'};
