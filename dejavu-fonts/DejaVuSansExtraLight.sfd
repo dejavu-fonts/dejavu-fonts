@@ -13,6 +13,9 @@ Descent: 492
 Order2: 1
 NeedsXUIDChange: 1
 FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
 PfmFamily: 17
 TTFWeight: 200
 TTFWidth: 5
@@ -22794,7 +22797,7 @@ Fore
  438 1556 438 1556 586 1556 c 2,39,-1
  714 1556 l 1,0,-1
 EndSplineSet
-Ligature: 0 2 'dlig' f f
+Ligature: 0 2 'liga' f f
 LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB01
@@ -22830,7 +22833,7 @@ Fore
  958 1430 l 1,27,-1
  958 1556 l 1,24,-1
 EndSplineSet
-Ligature: 0 2 'dlig' f i
+Ligature: 0 2 'liga' f i
 LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB02
@@ -22861,7 +22864,7 @@ Fore
  958 0 l 1,23,-1
  958 1478 l 1,0,-1
 EndSplineSet
-Ligature: 0 2 'dlig' f l
+Ligature: 0 2 'liga' f l
 LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: uniFB03
@@ -22911,8 +22914,8 @@ Fore
  1646 1430 l 1,45,-1
  1646 1556 l 1,42,-1
 EndSplineSet
-Ligature: 0 2 'dlig' ff i
-Ligature: 0 2 'dlig' f f i
+Ligature: 0 2 'liga' uniFB00 i
+Ligature: 0 2 'liga' f f i
 LCarets: 0 65535 '    ' 2 0 0 
 EndChar
 StartChar: uniFB04
@@ -22957,8 +22960,8 @@ Fore
  438 1556 438 1556 586 1556 c 2,41,-1
  714 1556 l 1,0,-1
 EndSplineSet
-Ligature: 0 2 'dlig' ff l
-Ligature: 0 2 'dlig' f f l
+Ligature: 0 2 'liga' uniFB00 l
+Ligature: 0 2 'liga' f f l
 LCarets: 0 65535 '    ' 2 0 0 
 EndChar
 StartChar: uniFB29
