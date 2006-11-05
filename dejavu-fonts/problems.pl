@@ -116,8 +116,11 @@ sub process_sfd_file($$) {
     } elsif (/^Ref:/) {
       $is_empty = 0;
       problem (0, 'not normalized: old-style "Ref"', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
-    } elsif (/^Refer:/) {
+    } elsif (/^Refer:\s*\d+\s*\d+\s*\S\s*\d+\s*\d+\s*\d+\s*\d+\s*-?\d+(?:\.\d*)?(?:e-?\d+)?\s*-?\d+(?:\.\d*)?(?:e-?\d+)?\s*(\d+)/) {
       $is_empty = 0;
+      if (($1 & 0x2) != 0x2) {
+        problem (0, 'reference is not rounded to grid', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ' flags=', $1);
+      }
     } elsif (/^DisplaySize:/) {
       problem (0, 'not normalized: DisplaySize');
     } elsif (/^WinInfo:/) {
