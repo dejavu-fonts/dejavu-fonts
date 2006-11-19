@@ -48,5 +48,5 @@ echo "Making LGC distribution of DejaVu fonts $version"
 name=dejavu-lgc-ttf-$version
 mkdir packaged/$name
 cp lgc/generated/*.ttf README LICENSE AUTHORS NEWS BUGS lgc/unicover.txt lgc/langcover.txt packaged/$name
-(cd packaged; tar czvf $name.tar.gz $name)
+(cd packaged; tar cjvf $name.tar.bz2 $name)
 (cd packaged; zip -rv $name.zip $name)
