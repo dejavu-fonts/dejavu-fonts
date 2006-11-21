@@ -58996,36 +58996,6 @@ Fore
  964 240 l 2,509,510
 EndSplineSet
 EndChar
-StartChar: angleleft
-Encoding: 9001 9001 9001
-Width: 936
-Flags: W
-TeX: 0 0 0 0
-Fore
-214.966 642 m 1,0,-1
- 677.274 1554 l 1,1,-1
- 949.274 1554 l 1,2,-1
- 486.424 642 l 1,3,-1
- 594.726 -270 l 1,4,-1
- 322.726 -270 l 1,5,-1
- 214.966 642 l 1,0,-1
-EndSplineSet
-EndChar
-StartChar: angleright
-Encoding: 9002 9002 9002
-Width: 936
-Flags: W
-TeX: 0 0 0 0
-Fore
-721.034 642 m 1,0,-1
- 258.726 -270 l 1,1,-1
- -13.2744 -270 l 1,2,-1
- 449.576 642 l 1,3,-1
- 341.274 1554 l 1,4,-1
- 613.274 1554 l 1,5,-1
- 721.034 642 l 1,0,-1
-EndSplineSet
-EndChar
 StartChar: uni237D
 Encoding: 9085 9085 9085
 Width: 1767
@@ -81255,30 +81225,46 @@ Encoding: 10216 10216 10216
 Width: 936
 Flags: W
 TeX: 117 0 0 0
-Refer: 9001 9001 N 1 0 0 1 0 0 2
+Fore
+214.966 642 m 1,0,-1
+ 677.274 1554 l 1,1,-1
+ 949.274 1554 l 1,2,-1
+ 486.424 642 l 1,3,-1
+ 594.726 -270 l 1,4,-1
+ 322.726 -270 l 1,5,-1
+ 214.966 642 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni27E9
 Encoding: 10217 10217 10217
 Width: 936
 Flags: W
 TeX: 117 0 0 0
-Refer: 9002 9002 N 1 0 0 1 0 0 2
+Fore
+721.034 642 m 1,0,-1
+ 258.726 -270 l 1,1,-1
+ -13.2744 -270 l 1,2,-1
+ 449.576 642 l 1,3,-1
+ 341.274 1554 l 1,4,-1
+ 613.274 1554 l 1,5,-1
+ 721.034 642 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni27EA
 Encoding: 10218 10218 10218
 Width: 1476
 Flags: W
 TeX: 117 0 0 0
-Refer: 9001 9001 N 1 0 0 1 0 0 2
-Refer: 9001 9001 N 1 0 0 1 540 0 2
+Refer: 10216 10216 N 1 0 0 1 540 0 2
+Refer: 10216 10216 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni27EB
 Encoding: 10219 10219 10219
 Width: 1476
 Flags: W
 TeX: 117 0 0 0
-Refer: 9002 9002 N 1 0 0 1 0 0 2
-Refer: 9002 9002 N 1 0 0 1 540 0 2
+Refer: 10217 10217 N 1 0 0 1 540 0 2
+Refer: 10217 10217 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni27F0
 Encoding: 10224 10224 10224
