@@ -44,6 +44,7 @@ while (i < $argc)
   endif
   new_familyname = $familyname + " Condensed"
   SetFontNames(new_fontname, new_familyname, new_fullname)
+  SetOS2Value("Width",4)
   SetTTFName(1033, 3, new_fullname)
   Save($argv[i] + ".narrow")
   i++
