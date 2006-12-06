@@ -8314,6 +8314,20 @@ TeX: 0 0 0 0
 Refer: 711 711 N 1 0 0 1 0 0 2
 Refer: 103 103 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uni01E8
+Encoding: 488 488 488
+Width: 1233
+TeX: 0 0 0 0
+Refer: 65543 -1 N 1 0 0 1 57 373 2
+Refer: 75 75 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni01E9
+Encoding: 489 489 489
+Width: 1233
+TeX: 0 0 0 0
+Refer: 65543 -1 N 1 0 0 1 57 373 2
+Refer: 107 107 N 1 0 0 1 0 0 2
+EndChar
 StartChar: uni01EA
 Encoding: 490 490 490
 Width: 1233
@@ -8341,6 +8355,20 @@ Width: 1233
 Flags: W
 Refer: 491 491 N 1 0 0 1 0 0 2
 Refer: 175 175 N 1 0 0 1 0 -1 2
+EndChar
+StartChar: uni01EE
+Encoding: 494 494 494
+Width: 1233
+TeX: 0 0 0 0
+Refer: 65543 -1 N 1 0 0 1 57 373 2
+Refer: 439 439 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni01EF
+Encoding: 495 495 495
+Width: 1233
+TeX: 0 0 0 0
+Refer: 711 711 N 1 0 0 1 0 0 2
+Refer: 658 658 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni01F4
 Encoding: 500 500 500
@@ -8405,6 +8433,35 @@ TeX: 0 0 0 0
 Refer: 110 110 N 1 0 0 1 0 0 2
 Refer: 96 96 N 1 0 0 1 0 0 2
 EndChar
+StartChar: AEacute
+Encoding: 508 508 508
+Width: 1233
+TeX: 0 0 0 0
+Refer: 65539 -1 N 1 0 0 1 298 373 2
+Refer: 198 198 N 1 0 0 1 0 0 2
+EndChar
+StartChar: aeacute
+Encoding: 509 509 509
+Width: 1233
+TeX: 0 0 0 0
+Refer: 180 180 N 1 0 0 1 0 0 2
+Refer: 230 230 N 1 0 0 1 0 0 2
+EndChar
+StartChar: Oslashacute
+Encoding: 510 510 510
+Width: 1233
+TeX: 0 0 0 0
+Refer: 65539 -1 N 1 0 0 1 43 373 2
+Refer: 216 216 N 1 0 0 1 0 0 2
+EndChar
+StartChar: oslashacute
+Encoding: 511 511 511
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 248 248 N 1 0 0 1 0 0 2
+Refer: 180 180 N 1 0 0 1 0 0 2
+EndChar
 StartChar: Scommaaccent
 Encoding: 536 536 536
 Width: 1233
@@ -8432,6 +8489,22 @@ Width: 1233
 Flags: W
 Refer: 806 806 N 1 0 0 1 154 0 2
 Refer: 116 116 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni021E
+Encoding: 542 542 542
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 65543 -1 N 1 0 0 1 75 373 2
+Refer: 72 72 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni021F
+Encoding: 543 543 543
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 65543 -1 N 1 0 0 1 0 373 2
+Refer: 104 104 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0221
 Encoding: 545 545 545
@@ -12510,6 +12583,12 @@ Fore
  618.245 1556 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: afii64937
+Encoding: 701 701 701
+Width: 1233
+TeX: 0 0 0 0
+Refer: 788 788 N 1 0 0 1 0 0 2
+EndChar
 StartChar: uni02BE
 Encoding: 702 702 702
 Width: 1233
@@ -12654,6 +12733,12 @@ Fore
  602.44 1554 l 1,3,-1
  738.44 1554 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: uni02C9
+Encoding: 713 713 713
+Width: 1233
+TeX: 0 0 0 0
+Refer: 175 175 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni02CC
 Encoding: 716 716 716
@@ -13324,14 +13409,14 @@ Width: 1233
 Flags: W
 TeX: 117 0 0 0
 Fore
-496.042 1475 m 138,-1,13
- 545.414 1729 l 1,6,-1
- 786.414 1729 l 1,5,-1
- 737.042 1475 l 1,4,-1
- 625.542 1475 l 128,-1,3
- 598.911 1338 598.911 1338 711.494 1341 c 0,1,2
- 687.586 1218 l 1,0,0
- 446.086 1218 446.086 1218 496.042 1475 c 138,-1,13
+496.042 1475 m 10,0,-1
+ 545.414 1729 l 1,1,-1
+ 786.414 1729 l 1,2,-1
+ 737.042 1475 l 1,3,-1
+ 625.542 1475 l 17,4,5
+ 598.874 1341 598.874 1341 711.494 1341 c 9,6,-1
+ 687.586 1218 l 1,7,8
+ 446.086 1218 446.086 1218 496.042 1475 c 10,0,-1
 EndSplineSet
 EndChar
 StartChar: uni0315
@@ -22371,6 +22456,13 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 121 121 N 1 0 0 1 0 0 2
 Refer: 729 729 N 1 0 0 1 6.5 -79 2
+EndChar
+StartChar: uni1E9B
+Encoding: 7835 7835 7835
+Width: 1233
+TeX: 0 0 0 0
+Refer: 65547 -1 N 1 0 0 1 57 373 2
+Refer: 383 383 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1EB8
 Encoding: 7864 7864 7864
