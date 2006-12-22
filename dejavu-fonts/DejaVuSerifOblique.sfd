@@ -42,13 +42,13 @@ ScriptLang: 4
  1 cyrl 1 SRB  
  1 latn 1 dflt 
 ChainSub: class 0 0 'ccmp' 4 4 4 2
-  Class: 3 i j
+  Class: 11 i j iogonek
   Class: 211 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0343
   Class: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z f h l Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
-  BClass: 3 i j
+  BClass: 11 i j iogonek
   BClass: 211 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0343
   BClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z f h l Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
-  FClass: 3 i j
+  FClass: 11 i j iogonek
   FClass: 211 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0343
   FClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z f h l Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
  1 0 1
@@ -113,7 +113,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-makr" mkmk 0 0 2 1 
-BeginChars: 65549 0
+BeginChars: 65550 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -5371,8 +5371,9 @@ StartChar: iogonek
 Encoding: 303 303 303
 Width: 655
 Flags: W
-Refer: 105 105 N 1 0 0 1 38.1963 0 2
-Refer: 731 731 N 1 0 0 1 -267.464 0.000391006 2
+Refer: 105 105 N 1 0 0 1 38 0 2
+Refer: 731 731 N 1 0 0 1 -267 0 2
+Substitution: 0 65534 'DTLS' iogonek.dotless
 EndChar
 StartChar: Idotaccent
 Encoding: 304 304 304
@@ -5387,15 +5388,15 @@ Width: 655
 Flags: W
 AnchorPoint: "above" 436 1092 basechar 0
 Fore
-351.29 106 m 1,0,-1
- 525.29 106 l 1,1,-1
- 504.69 0 l 1,2,-1
- 146.69 0 l 1,3,-1
- 332.52 956 l 1,4,-1
- 156.51 956 l 1,5,-1
- 177.31 1063 l 1,6,-1
- 537.31 1063 l 1,7,-1
- 351.29 106 l 1,0,-1
+351 106 m 1,0,-1
+ 525 106 l 1,1,-1
+ 505 0 l 1,2,-1
+ 147 0 l 1,3,-1
+ 333 956 l 1,4,-1
+ 157 956 l 1,5,-1
+ 177 1063 l 1,6,-1
+ 537 1063 l 1,7,-1
+ 351 106 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: IJ
@@ -39978,6 +39979,15 @@ Fore
  -597.342 1526 l 1,7,-1
  -400.342 1526 l 1,4,-1
 EndSplineSet
+EndChar
+StartChar: iogonek.dotless
+Encoding: 65549 -1 65549
+Width: 655
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "above" 431 1092 basechar 0
+Refer: 305 305 N 1 0 0 1 -5 0 2
+Refer: 731 731 N 1 0 0 1 -267 0 2
 EndChar
 EndChars
 EndSplineFont
