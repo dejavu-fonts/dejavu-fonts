@@ -5759,13 +5759,13 @@ EndChar
 StartChar: Ohungarumlaut
 Encoding: 336 336 336
 Width: 1233
-Refer: 65548 -1 N 1 0 0 1 0 373 2
+Refer: 65548 -1 N 1 0 0 1 0 0 2
 Refer: 79 79 N 1 0 0 1 0 0 2
 EndChar
 StartChar: ohungarumlaut
 Encoding: 337 337 337
 Width: 1233
-Refer: 733 733 N 1 0 0 1 0 0 2
+Refer: 779 779 N 1 0 0 1 0 0 2
 Refer: 111 111 N 1 0 0 1 0 0 2
 EndChar
 StartChar: OE
@@ -6149,13 +6149,13 @@ EndChar
 StartChar: Uhungarumlaut
 Encoding: 368 368 368
 Width: 1233
-Refer: 65548 -1 N 1 0 0 1 0 373 2
+Refer: 65548 -1 N 1 0 0 1 0 0 2
 Refer: 85 85 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uhungarumlaut
 Encoding: 369 369 369
 Width: 1233
-Refer: 733 733 N 1 0 0 1 0 0 2
+Refer: 779 779 N 1 0 0 1 0 0 2
 Refer: 117 117 N 1 0 0 1 0 0 2
 EndChar
 StartChar: Uogonek
@@ -13136,22 +13136,7 @@ StartChar: hungarumlaut
 Encoding: 733 733 733
 Width: 1233
 Flags: W
-TtfInstrs: 90
-5S42%\c`#D#QP)3"9AZ2!<WT=eD/Qt&NLF93ACLFoK;Iq0E=bM#ujR%%THY7]`8?<^]4B8#QP,1
-5WB?73*?8TYR+92]`8<<5QCfb#QP/1^c2ob3*?4]
-EndTtf
-Fore
-535 1638 m 1,0,-1
- 705 1638 l 1,1,-1
- 481 1262 l 1,2,-1
- 344 1262 l 1,3,-1
- 535 1638 l 1,0,-1
-868 1638 m 1,4,-1
- 1047 1638 l 1,5,-1
- 799 1262 l 1,6,-1
- 664 1262 l 1,7,-1
- 868 1638 l 1,4,-1
-EndSplineSet
+Refer: 779 779 N 1 0 0 1 0 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' space uni030B
 EndChar
@@ -13504,7 +13489,21 @@ Encoding: 779 779 779
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 733 733 N 1 0 0 1 0 0 2
+TtfInstrs: 37
+5S42%\c`#D#QP)3"9AZ2!<WT=eD/Qt&NLF93ACLFoK;Iq0E;(Q
+EndTtf
+Fore
+535 1638 m 1,0,-1
+ 705 1638 l 1,1,-1
+ 481 1262 l 1,2,-1
+ 344 1262 l 1,3,-1
+ 535 1638 l 1,0,-1
+868 1638 m 1,4,-1
+ 1047 1638 l 1,5,-1
+ 799 1262 l 1,6,-1
+ 664 1262 l 1,7,-1
+ 868 1638 l 1,4,-1
+EndSplineSet
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
@@ -19253,7 +19252,7 @@ Encoding: 1266 1266 1266
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 65548 -1 N 1 0 0 1 0 373 2
+Refer: 65548 -1 N 1 0 0 1 0 0 2
 Refer: 1059 1059 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni04F3
@@ -19261,7 +19260,7 @@ Encoding: 1267 1267 1267
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 733 733 N 1 0 0 1 0 0 2
+Refer: 779 779 N 1 0 0 1 0 0 2
 Refer: 1091 1091 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni04F4
@@ -58813,7 +58812,7 @@ Fore
  514 1499 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: Hungarumlaut
+StartChar: uni030B.case
 Encoding: 65548 -1 65548
 Width: 1233
 Flags: W
@@ -58821,16 +58820,16 @@ TtfInstrs: 25
 5RIJo!s])4!sJo8&CeqRbV9)/e3(r10E;(Q
 EndTtf
 Fore
-860 1526 m 1,0,-1
- 1046 1526 l 1,1,-1
- 817 1262 l 1,2,-1
- 663 1262 l 1,3,-1
- 860 1526 l 1,0,-1
-541 1526 m 1,4,-1
- 727 1526 l 1,5,-1
- 498 1262 l 1,6,-1
- 344 1262 l 1,7,-1
- 541 1526 l 1,4,-1
+860 1899 m 1,0,-1
+ 1046 1899 l 1,1,-1
+ 817 1635 l 1,2,-1
+ 663 1635 l 1,3,-1
+ 860 1899 l 1,0,-1
+541 1899 m 1,4,-1
+ 727 1899 l 1,5,-1
+ 498 1635 l 1,6,-1
+ 344 1635 l 1,7,-1
+ 541 1899 l 1,4,-1
 EndSplineSet
 EndChar
 StartChar: uni030F.case
