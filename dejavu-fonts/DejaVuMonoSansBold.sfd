@@ -13105,6 +13105,7 @@ Fore
  732 1307 732 1307 699 1319 c 128,-1,30
  666 1331 666 1331 618 1364 c 2,0,-1
 EndSplineSet
+LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' space tildecomb
 EndChar
 StartChar: hungarumlaut
@@ -13883,7 +13884,21 @@ Width: 1233
 VWidth: 324
 Flags: W
 TeX: 117 0 0 0
-Refer: 168 168 N 1 0 0 1 0 -1801 2
+TtfInstrs: 25
+5RI\s"98].!!NK2&CfLbbV9)/e3(r10E;(Q
+EndTtf
+Fore
+696 -216 m 1,0,-1
+ 932 -216 l 1,1,-1
+ 932 -462 l 1,2,-1
+ 696 -462 l 1,3,-1
+ 696 -216 l 1,0,-1
+301 -216 m 1,4,-1
+ 537 -216 l 1,5,-1
+ 537 -462 l 1,6,-1
+ 301 -462 l 1,7,-1
+ 301 -216 l 1,4,-1
+EndSplineSet
 EndChar
 StartChar: uni0325
 Encoding: 805 805 805
@@ -14110,7 +14125,36 @@ Width: 1233
 VWidth: 324
 Flags: W
 TeX: 117 0 0 0
-Refer: 732 732 N 1 0 0 1 0 -1813 2
+TtfInstrs: 152
+5U7-X&-EUU#QXo-*!I2s'FbBU"Ve0\"gAFX&HNFC#T"?a$6Ki/bgaiK3B9)[0`Vd7r7('G3B7Za
+3B7Za(HE'?(HF/M5YVRc$3:J8$3L\F$k3UT$kEaX$kWm\$kj-c%i#Tj%i5`n%iGlr)ZUfX)Zgr\
+*"3er*"Er"*"a/'*"s;+*#0P2*u?"9*uQ.=)'1,1
+EndTtf
+Fore
+618 -430 m 2,0,-1
+ 563 -393 l 2,1,2
+ 560 -391 560 -391 551 -385 c 0,3,4
+ 508 -356 508 -356 481 -356 c 0,5,6
+ 445 -356 445 -356 426.5 -387 c 128,-1,7
+ 408 -418 408 -418 408 -477 c 2,8,-1
+ 408 -485 l 1,9,-1
+ 268 -485 l 1,10,11
+ 268 -349 268 -349 319.5 -275 c 128,-1,12
+ 371 -201 371 -201 465 -201 c 0,13,14
+ 501 -201 501 -201 537 -214.5 c 128,-1,15
+ 573 -228 573 -228 614 -258 c 2,16,-1
+ 676 -301 l 2,17,18
+ 697 -316 697 -316 715.5 -324 c 128,-1,19
+ 734 -332 734 -332 750 -332 c 0,20,21
+ 786 -332 786 -332 805.5 -300.5 c 128,-1,22
+ 825 -269 825 -269 825 -211 c 2,23,-1
+ 825 -203 l 1,24,-1
+ 965 -203 l 1,25,26
+ 965 -339 965 -339 913.5 -413 c 128,-1,27
+ 862 -487 862 -487 768 -487 c 0,28,29
+ 732 -487 732 -487 699 -475 c 128,-1,30
+ 666 -463 666 -463 618 -430 c 2,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0331
 Encoding: 817 817 817
@@ -23465,6 +23509,22 @@ TeX: 0 0 0 0
 Refer: 101 101 N 1 0 0 1 0 0 2
 Refer: 813 813 N 1 0 0 1 39 0 2
 EndChar
+StartChar: uni1E1A
+Encoding: 7706 7706 7706
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 69 69 N 1 0 0 1 0 0 2
+Refer: 816 816 N 1 0 0 1 31 0 2
+EndChar
+StartChar: uni1E1B
+Encoding: 7707 7707 7707
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 101 101 N 1 0 0 1 0 0 2
+Refer: 816 816 N 1 0 0 1 39 0 2
+EndChar
 StartChar: uni1E1C
 Encoding: 7708 7708 7708
 Width: 1233
@@ -23578,6 +23638,22 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 104 104 N 1 0 0 1 0 0 2
 Refer: 814 814 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1E2C
+Encoding: 7724 7724 7724
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 73 73 N 1 0 0 1 0 0 2
+Refer: 816 816 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1E2D
+Encoding: 7725 7725 7725
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 105 105 N 1 0 0 1 0 0 2
+Refer: 816 816 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1E30
 Encoding: 7728 7728 7728
@@ -23996,6 +24072,38 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 116 116 N 1 0 0 1 0 0 2
 Refer: 813 813 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1E72
+Encoding: 7794 7794 7794
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 85 85 N 1 0 0 1 0 0 2
+Refer: 804 804 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1E73
+Encoding: 7795 7795 7795
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 117 117 N 1 0 0 1 0 0 2
+Refer: 804 804 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1E74
+Encoding: 7796 7796 7796
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 85 85 N 1 0 0 1 0 0 2
+Refer: 816 816 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1E75
+Encoding: 7797 7797 7797
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 117 117 N 1 0 0 1 0 0 2
+Refer: 816 816 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1E76
 Encoding: 7798 7798 7798
