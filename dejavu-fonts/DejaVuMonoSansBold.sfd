@@ -3620,26 +3620,7 @@ StartChar: cedilla
 Encoding: 184 184 184
 Width: 1233
 Flags: W
-TtfInstrs: 33
-5S"/*$4X3D!!s2M!"`E<'G/d\eAMp:0`WlXrl#L10E;(Q
-EndTtf
-Fore
-707 0 m 1,0,1
- 764 -62 764 -62 791.5 -115 c 128,-1,2
- 819 -168 819 -168 819 -215 c 0,3,4
- 819 -310 819 -310 757.5 -355.5 c 128,-1,5
- 696 -401 696 -401 569 -401 c 0,6,7
- 521 -401 521 -401 470.5 -394.5 c 128,-1,8
- 420 -388 420 -388 367 -375 c 1,9,-1
- 367 -219 l 1,10,11
- 412 -236 412 -236 454 -245 c 128,-1,12
- 496 -254 496 -254 532 -254 c 0,13,14
- 590 -254 590 -254 622.5 -231 c 128,-1,15
- 655 -208 655 -208 655 -168 c 0,16,17
- 655 -142 655 -142 634 -101 c 128,-1,18
- 613 -60 613 -60 567 0 c 1,19,-1
- 707 0 l 1,0,1
-EndSplineSet
+Refer: 807 807 N 1 0 0 1 0 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 0 'liga' space uni0327
 EndChar
@@ -3940,8 +3921,8 @@ StartChar: Ccedilla
 Encoding: 199 199 199
 Width: 1233
 Flags: W
+Refer: 807 807 N 1 0 0 1 117 0 2
 Refer: 67 67 N 1 0 0 1 0 0 2
-Refer: 184 184 N 1 0 0 1 117 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' C uni0327
 EndChar
@@ -4456,8 +4437,8 @@ StartChar: ccedilla
 Encoding: 231 231 231
 Width: 1233
 Flags: W
+Refer: 807 807 N 1 0 0 1 72 0 2
 Refer: 99 99 N 1 0 0 1 0 0 2
-Refer: 184 184 N 1 0 0 1 72 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' c uni0327
 EndChar
@@ -5905,8 +5886,8 @@ StartChar: Scedilla
 Encoding: 350 350 350
 Width: 1233
 Flags: W
+Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 83 83 N 1 0 0 1 0 0 2
-Refer: 184 184 N 1 0 0 1 0 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' S uni0327
 EndChar
@@ -5914,8 +5895,8 @@ StartChar: scedilla
 Encoding: 351 351 351
 Width: 1233
 Flags: W
+Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 115 115 N 1 0 0 1 0 0 2
-Refer: 184 184 N 1 0 0 1 0 0 2
 LCarets: 0 65535 '    ' 1 0 
 Ligature: 0 1 'liga' s uni0327
 EndChar
@@ -5941,14 +5922,14 @@ StartChar: Tcommaaccent
 Encoding: 354 354 354
 Width: 1233
 Flags: W
-Refer: 184 184 N 1 0 0 1 5 0 2
+Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 84 84 N 1 0 0 1 0 0 2
 EndChar
 StartChar: tcommaaccent
 Encoding: 355 355 355
 Width: 1233
 Flags: W
-Refer: 184 184 N 1 0 0 1 181 0 2
+Refer: 807 807 N 1 0 0 1 181 0 2
 Refer: 116 116 N 1 0 0 1 0 0 2
 EndChar
 StartChar: Tcaron
@@ -8756,6 +8737,22 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 97 97 N 1 0 0 1 0 0 2
 Refer: 775 775 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni0228
+Encoding: 552 552 552
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 69 69 N 1 0 0 1 0 0 2
+Refer: 807 807 N 1 0 0 1 50 0 2
+EndChar
+StartChar: uni0229
+Encoding: 553 553 553
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 101 101 N 1 0 0 1 0 0 2
+Refer: 807 807 N 1 0 0 1 50 0 2
 EndChar
 StartChar: uni022A
 Encoding: 554 554 554
@@ -13909,7 +13906,26 @@ Encoding: 807 807 807
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 184 184 N 1 0 0 1 23.5 0 2
+TtfInstrs: 33
+5S"/*$4X3D!!s2M!"`E<'G/d\eAMp:0`WlXrl#L10E;(Q
+EndTtf
+Fore
+707 0 m 1,0,1
+ 764 -62 764 -62 791.5 -115 c 128,-1,2
+ 819 -168 819 -168 819 -215 c 0,3,4
+ 819 -310 819 -310 757.5 -355.5 c 128,-1,5
+ 696 -401 696 -401 569 -401 c 0,6,7
+ 521 -401 521 -401 470.5 -394.5 c 128,-1,8
+ 420 -388 420 -388 367 -375 c 1,9,-1
+ 367 -219 l 1,10,11
+ 412 -236 412 -236 454 -245 c 128,-1,12
+ 496 -254 496 -254 532 -254 c 0,13,14
+ 590 -254 590 -254 622.5 -231 c 128,-1,15
+ 655 -208 655 -208 655 -168 c 0,16,17
+ 655 -142 655 -142 634 -101 c 128,-1,18
+ 613 -60 613 -60 567 0 c 1,19,-1
+ 707 0 l 1,0,1
+EndSplineSet
 EndChar
 StartChar: uni0328
 Encoding: 808 808 808
@@ -18317,7 +18333,7 @@ Encoding: 1176 1176 1176
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 184 184 N 1 0 0 1 -54 0 2
+Refer: 807 807 N 1 0 0 1 -54 0 2
 Refer: 1047 1047 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0499
@@ -18325,7 +18341,7 @@ Encoding: 1177 1177 1177
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 184 184 N 1 0 0 1 -69.5 0 2
+Refer: 807 807 N 1 0 0 1 -70 0 2
 Refer: 1079 1079 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni049A
@@ -18505,7 +18521,7 @@ Encoding: 1194 1194 1194
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 184 184 N 1 0 0 1 117 0 2
+Refer: 807 807 N 1 0 0 1 117 0 2
 Refer: 1057 1057 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni04AB
@@ -18513,7 +18529,7 @@ Encoding: 1195 1195 1195
 Width: 1233
 Flags: W
 TeX: 117 0 0 0
-Refer: 184 184 N 1 0 0 1 72 0 2
+Refer: 807 807 N 1 0 0 1 72 0 2
 Refer: 1089 1089 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni04AC
@@ -23333,6 +23349,24 @@ TeX: 0 0 0 0
 Refer: 710 710 N 1 0 0 1 -63.5 -1789 2
 Refer: 100 100 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uni1E1C
+Encoding: 7708 7708 7708
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 807 807 N 1 0 0 1 50 0 2
+Refer: 69 69 N 1 0 0 1 0 0 2
+Refer: 65546 -1 N 1 0 0 1 31 0 2
+EndChar
+StartChar: uni1E1D
+Encoding: 7709 7709 7709
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 807 807 N 1 0 0 1 50 0 2
+Refer: 101 101 N 1 0 0 1 0 0 2
+Refer: 774 774 N 1 0 0 1 39 0 2
+EndChar
 StartChar: uni1E1E
 Encoding: 7710 7710 7710
 Width: 1233
@@ -23396,6 +23430,22 @@ Flags: W
 TeX: 117 0 0 0
 Refer: 104 104 N 1 0 0 1 0 0 2
 Refer: 803 803 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni1E28
+Encoding: 7720 7720 7720
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 72 72 N 1 0 0 1 0 0 2
+Refer: 807 807 N 1 0 0 1 -335 0 2
+EndChar
+StartChar: uni1E29
+Encoding: 7721 7721 7721
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Refer: 104 104 N 1 0 0 1 0 0 2
+Refer: 807 807 N 1 0 0 1 -300 0 2
 EndChar
 StartChar: uni1E2A
 Encoding: 7722 7722 7722
