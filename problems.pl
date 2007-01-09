@@ -116,10 +116,13 @@ sub process_sfd_file($$) {
     } elsif (/^Ref:/) {
       $is_empty = 0;
       problem (0, 'not normalized: old-style "Ref"', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
-    } elsif (/^Refer:\s*\d+\s*\d+\s*\S\s*\d+\s*\d+\s*\d+\s*\d+\s*-?\d+(?:\.\d*)?(?:e-?\d+)?\s*-?\d+(?:\.\d*)?(?:e-?\d+)?\s*(\d+)/) {
+    } elsif (/^Refer:\s*\d+\s*\d+\s*\S\s*(-?\d+(?:\.\d*)?(?:e-?\d+)?)\s*(-?\d+(?:\.\d*)?(?:e-?\d+)?)\s*(-?\d+(?:\.\d*)?(?:e-?\d+)?)\s*(-?\d+(?:\.\d*)?(?:e-?\d+)?)\s*-?\d+(?:\.\d*)?(?:e-?\d+)?\s*-?\d+(?:\.\d*)?(?:e-?\d+)?\s*(\d+)/) {
       $is_empty = 0;
-      if (($1 & 0x2) != 0x2) {
-        problem (0, 'reference is not rounded to grid', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ' flags=', $1);
+      if (($5 & 0x2) != 0x2) {
+        problem (0, 'reference is not rounded to grid', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''), ' flags=', $5);
+      }
+      if (!(($1 == 1) && ($2 == 0) && ($3 == 0) && ($4 == 1))) {
+        problem (0, 'transformed reference', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
       }
     } elsif (/^DisplaySize:/) {
       problem (0, 'not normalized: DisplaySize');
