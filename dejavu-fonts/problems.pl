@@ -69,6 +69,8 @@ sub process_sfd_file($$) {
   my %all_glyphs = ();
   my $prev_enc = -1;
   my $in_spline_set = 0;
+  my $has_splines;
+  my $has_refs;
   open (SFD, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   while (<SFD>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
@@ -82,6 +84,8 @@ sub process_sfd_file($$) {
       @ligature_refs = ();
       $is_empty = 1;
       $in_spline_set = 0;
+      $has_splines = 0;
+      $has_refs = 0;
     } elsif (/^Colour:\s*(\S+)\s*/) {
       $colorized = $1;
     } elsif (/^Flags:\s*(\S+)\s*/) {
@@ -109,6 +113,8 @@ sub process_sfd_file($$) {
     } elsif (/^Fore\s*$/) {
       $is_empty = 0;
       $in_spline_set = 1;
+      problem (2, 'mixed content', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '')) if ($has_refs);
+      $has_splines = 1;
     } elsif (/^EndSplineSet\s*$/) {
       $in_spline_set = 0;
     } elsif ($in_spline_set && !/.+,.+,.+$/) {
@@ -124,6 +130,8 @@ sub process_sfd_file($$) {
       if (!(($1 == 1) && ($2 == 0) && ($3 == 0) && ($4 == 1))) {
         problem (0, 'transformed reference', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
       }
+      problem (2, 'mixed content', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '')) if ($has_splines);
+      $has_refs = 1;
     } elsif (/^DisplaySize:/) {
       problem (0, 'not normalized: DisplaySize');
     } elsif (/^WinInfo:/) {
