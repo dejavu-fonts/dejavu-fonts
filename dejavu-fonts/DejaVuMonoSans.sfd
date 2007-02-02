@@ -43,6 +43,19 @@ ScriptLang: 6
  1 cyrl 1 SRB  
  1 lao  1 dflt 
  4 cyrl 2 SRB  dflt grek 1 dflt lao  1 dflt latn 1 dflt 
+ChainSub: class 0 5 'ccmp' 3 0 3 1
+  Class: 3 i j
+  Class: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
+  FClass: 3 i j
+  FClass: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 'DTLS'
+EndFPST
+GenTags: 1 sb'DTLS'
 TtfTable: prep 1819
 \H79^'sa'0"[O+/'`aO"!s',:J,f]Q'EJ+4!s'&8rW!$$&c`OE!s&u6rW!$$&-2\0!s&o4RK*Ej
 %KQJ.!s&k:lUM+E,lnGTI/j?M$ihRR!s&c01&qCW$36@l!s&].rW!$$#QP>7!s&W,rW!$$"ooqL
@@ -2353,6 +2366,7 @@ Fore
  543 1323 l 1,13,-1
  543 1556 l 1,10,-1
 EndSplineSet
+Substitution: 0 65534 'DTLS' dotlessi
 EndChar
 StartChar: j
 Encoding: 106 106 106
@@ -2382,6 +2396,7 @@ Fore
  600 1323 l 1,17,-1
  600 1556 l 1,14,-1
 EndSplineSet
+Substitution: 0 65534 'DTLS' dotlessj
 EndChar
 StartChar: k
 Encoding: 107 107 107
