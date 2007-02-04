@@ -2,6 +2,18 @@
 
 # $Id$
 
+# check for files needed to generate langcover.txt and unicover.txt for LGC
+# Unicode Data
+if [ ! -e "UnicodeData.txt" -o ! -e "Blocks.txt" ]; then
+ echo "can't read UnicodeData.txt or Blocks.txt\n";
+ exit 1; 
+fi
+# fontconfig fc-lang
+if [ ! -d "fc-lang" ]; then
+ echo "can't read fc-lang\n";
+ exit 1; 
+fi
+
 mkdir lgc
 echo "Creating LGC derivative"
 for src in *.sfd; do
