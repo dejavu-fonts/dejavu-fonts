@@ -36,11 +36,12 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-ScriptLang: 4
+ScriptLang: 5
  3 cyrl 1 dflt grek 1 dflt latn 1 dflt 
  1 DFLT 1 dflt 
  1 cyrl 1 SRB  
  1 latn 1 dflt 
+ 1 latn 1 DNK  
 ChainSub: class 0 0 'ccmp' 4 4 4 2
   Class: 71 i j iogonek uni0268 uni029D uni03F3 afii10103 afii10105 uni1E2D uni1ECB
   Class: 211 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0343
@@ -115,7 +116,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "above-mark" mkmk 0 0 2 1 
-BeginChars: 65555 0
+BeginChars: 65556 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -6095,6 +6096,7 @@ Fore
  612 0 l 1,34,-1
  90 0 l 1,0,-1
 EndSplineSet
+Substitution: 0 4 'locl' Eng.alt
 EndChar
 StartChar: eng
 Encoding: 331 331 331
@@ -9649,6 +9651,41 @@ Flags: W
 TeX: 117 0 0 0
 Refer: 65543 -1 N 1 0 0 1 842 373 2
 Refer: 104 104 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni0220
+Encoding: 544 544 544
+Width: 1786
+Flags: W
+TeX: 0 0 0 0
+Fore
+70 0 m 1,0,-1
+ 70 121 l 1,1,-1
+ 260 121 l 1,2,-1
+ 260 1372 l 1,3,-1
+ 109 1372 l 1,4,-1
+ 109 1493 l 1,5,-1
+ 647 1493 l 1,6,-1
+ 647 1339 l 1,7,8
+ 728 1436 728 1436 831 1479 c 0,9,10
+ 933 1521 933 1521 1093 1521 c 0,10,11
+ 1319 1521 1319 1521 1434.5 1380 c 128,-1,12
+ 1550 1239 1550 1239 1550 965 c 2,13,-1
+ 1550 -305 l 1,14,-1
+ 1741 -305 l 1,15,-1
+ 1741 -426 l 1,16,-1
+ 975 -426 l 1,17,-1
+ 975 -305 l 1,18,-1
+ 1165 -305 l 1,19,-1
+ 1165 927 l 2,20,21
+ 1165 1176 1165 1176 1115.5 1273 c 128,-1,22
+ 1066 1370 1066 1370 944 1370 c 0,23,24
+ 793 1370 793 1370 719 1243 c 0,25,26
+ 647 1121 647 1121 647 841 c 2,26,-1
+ 647 121 l 1,27,-1
+ 838 121 l 1,28,-1
+ 838 0 l 1,29,-1
+ 70 0 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0221
 Encoding: 545 545 545
@@ -40929,6 +40966,46 @@ TeX: 0 0 0 0
 AnchorPoint: "above" 389 1092 basechar 0
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 803 803 N 1 0 0 1 910.3 0 2
+EndChar
+StartChar: Eng.alt
+Encoding: 65555 -1 65555
+Width: 1786
+Flags: W
+TeX: 0 0 0 0
+Fore
+70 0 m 1,0,-1
+ 70 121 l 1,1,-1
+ 260 121 l 1,2,-1
+ 260 1372 l 1,3,-1
+ 109 1372 l 1,4,-1
+ 109 1493 l 1,5,-1
+ 647 1493 l 1,6,-1
+ 647 1339 l 1,7,8
+ 727 1436 727 1436 831 1479 c 0,9,10
+ 932 1521 932 1521 1093 1521 c 0,11,12
+ 1319 1521 1319 1521 1434.5 1380 c 128,-1,13
+ 1550 1239 1550 1239 1550 965 c 2,14,-1
+ 1550 41 l 2,15,16
+ 1550 -202 1550 -202 1427 -314 c 128,-1,17
+ 1304 -426 1304 -426 1037 -426 c 0,18,19
+ 954 -426 954 -426 870 -409 c 128,-1,20
+ 786 -392 786 -392 699 -358 c 1,21,-1
+ 699 -123 l 1,22,-1
+ 832 -123 l 1,23,24
+ 832 -217 832 -217 873.5 -261 c 128,-1,25
+ 915 -305 915 -305 991 -305 c 0,26,27
+ 1088 -305 1088 -305 1126.5 -230.5 c 128,-1,28
+ 1165 -156 1165 -156 1165 49 c 2,29,-1
+ 1165 927 l 2,30,31
+ 1165 1176 1165 1176 1115.5 1273 c 128,-1,32
+ 1066 1370 1066 1370 944 1370 c 0,33,34
+ 793 1370 793 1370 719 1243 c 0,35,36
+ 647 1121 647 1121 647 841 c 2,37,-1
+ 647 121 l 1,38,-1
+ 838 121 l 1,39,-1
+ 838 0 l 1,40,-1
+ 70 0 l 1,0,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
