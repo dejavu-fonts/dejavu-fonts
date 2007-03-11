@@ -1186,7 +1186,7 @@ Fore
 381.499 106 m 1,0,-1
  567.499 106 l 2,1,2
  858.499 106 858.499 106 1046.27 272 c 128,-1,3
- 1234.03 438 1234.03 438 1294.29 748 c 0,4,5
+ 1234.03 438 1234.03 438 1294.29 748 c 128,-1,5
  1354.55 1058 1354.55 1058 1231.43 1222 c 128,-1,6
  1108.31 1386 1108.31 1386 816.307 1386 c 2,7,-1
  630.307 1386 l 1,8,-1
@@ -1533,7 +1533,7 @@ TtfInstrs: 112
 !&)@[1A3iu1,9G%3A=*)=9fB?m0=1*m9(X=+;FnX>sJl'#6?Ln:DIg`J/+[k"^M+6
 EndTtf
 AnchorPoint: "below" 728.714 0 basechar 0
-AnchorPoint: "above" 1018.45 1475 basechar 0
+AnchorPoint: "above" 1007 1464 basechar 0
 Fore
 -42.2861 0 m 1,0,-1
  -21.6816 106 l 1,1,-1
@@ -1862,7 +1862,7 @@ TtfInstrs: 406
 B+&;[A.<)[BFehhC(Y+nFTQUdFp3!oFU<3uFUNC%F:EL+Hk:Z;Gna:b!*oR)
 EndTtf
 AnchorPoint: "below" 908.896 0 basechar 0
-AnchorPoint: "above" 1177 1472 basechar 0
+AnchorPoint: "above" 1177 1465 basechar 0
 Fore
 1415.9 0 m 1,0,-1
  1251.9 0 l 1,1,-1
@@ -1905,7 +1905,7 @@ $tKf_%r;en&Si(l(17qd(hFRr)J'jq*I%R1!I=fn"*t/u#C-T"$[<)*%=8S6%t"q<&:>'T'7UU@
 &pk:?'R:F9(3g^A)Kd!>>l\.1
 EndTtf
 AnchorPoint: "below" 583.896 0 basechar 0
-AnchorPoint: "above" 870.606 1475 basechar 0
+AnchorPoint: "above" 871 1465 basechar 0
 Fore
 657.104 639 m 1,0,-1
  188.499 106 l 1,1,-1
@@ -1952,7 +1952,7 @@ m0=1+m2%N\,-h^p!<HK3!#>T@!DBX'<*6g6'`^K!!<<i7(&u'/&N;[P!DBX)<(jG(<*N#"'3&1<
 >l\.1
 EndTtf
 AnchorPoint: "below" 527.896 0 basechar 0
-AnchorPoint: "above" 794 1472 basechar 0
+AnchorPoint: "above" 794 1465 basechar 0
 Fore
 241.896 0 m 1,0,-1
  262.499 106 l 1,1,-1
@@ -1988,23 +1988,23 @@ TtfInstrs: 109
 ;cj89"mlO+"moG:Z4@HH!F7r/$ipD8!X8]+#65#2#lk;4$NLS8%0-o7%glSB>lXj)
 EndTtf
 AnchorPoint: "below" 567.896 0 basechar 0
-AnchorPoint: "above" 858.5 1465 basechar 0
+AnchorPoint: "above" 858 1465 basechar 0
 Fore
--53.1045 0 m 1,0,-1
- -39.1094 72 l 1,1,-1
- 1143.2 1370 l 1,2,-1
- 371.196 1370 l 1,3,-1
- 327.85 1147 l 1,4,-1
- 204.85 1147 l 1,5,-1
- 272.104 1493 l 1,6,-1
- 1452.1 1493 l 1,7,-1
- 1438.11 1421 l 1,8,-1
- 255.804 123 l 1,9,-1
- 1099.8 123 l 1,10,-1
- 1140.43 332 l 1,11,-1
- 1262.43 332 l 1,12,-1
- 1197.9 0 l 1,13,-1
- -53.1045 0 l 1,0,-1
+-53 0 m 1,0,-1
+ -39 72 l 1,1,-1
+ 1143 1370 l 1,2,-1
+ 371 1370 l 1,3,-1
+ 328 1147 l 1,4,-1
+ 205 1147 l 1,5,-1
+ 272 1493 l 1,6,-1
+ 1452 1493 l 1,7,-1
+ 1438 1421 l 1,8,-1
+ 256 123 l 1,9,-1
+ 1100 123 l 1,10,-1
+ 1140 332 l 1,11,-1
+ 1262 332 l 1,12,-1
+ 1198 0 l 1,13,-1
+ -53 0 l 1,0,-1
 EndSplineSet
 KernsSLIFO: 46 -36 3 0 44 -36 3 0
 EndChar
@@ -5116,8 +5116,8 @@ EndChar
 StartChar: Ebreve
 Encoding: 276 276 276
 Width: 1495
-Refer: 65545 -1 N 1 0 0 1 1332.5 373 2
-Refer: 69 69 N 1 0 0 1 0 0 2
+Refer: 65545 -1 N 1 0 0 1 1301.66 373 2
+Refer: 69 69 N 1 0 0 1 0 0 3
 EndChar
 StartChar: ebreve
 Encoding: 277 277 277
@@ -8960,6 +8960,31 @@ Width: 1221
 Flags: W
 TeX: 0 0 0 0
 Fore
+897.29 106 m 1,0,-1
+ 1055.29 106 l 1,1,-1
+ 1034.69 0 l 1,2,-1
+ 710.69 0 l 1,3,-1
+ 742.952 166 l 1,4,5
+ 674.528 66.0039 674.528 66.0039 590.528 18.5 c 0,6,7
+ 506.148 -29 506.148 -29 395.447 -29 c 0,8,9
+ 219.055 -29 219.055 -29 130.199 90.3467 c 0,10,11
+ 74.4502 165.228 74.4502 165.228 68.3623 268.644 c 0,12,13
+ 64.7451 330.067 64.7451 330.067 78.6445 401.567 c 0,14,15
+ 147.427 755.414 147.427 755.414 392.819 937 c 0,16,17
+ 601.545 1091.45 601.545 1091.45 845.948 1092 c 0,18,19
+ 1023.08 1092.79 1023.08 1092.79 1083.31 1063 c 9,20,-1
+ 897.29 106 l 1,0,-1
+710.685 0 m 1,21,-1
+817.121 990 m 0,22,23
+ 625.121 990 625.121 990 475.965 840 c 0,24,25
+ 328.029 689.033 328.029 689.033 274.74 414.925 c 0,26,27
+ 259.061 334.277 259.061 334.277 263.29 273.147 c 0,28,29
+ 267.57 211.266 267.57 211.266 292.252 169.338 c 0,30,31
+ 341.308 86 341.308 86 469.098 86 c 0,32,33
+ 595.098 86 595.098 86 680.788 186.5 c 128,-1,34
+ 766.474 287.008 766.474 287.008 803.793 479 c 2,35,-1
+ 897.484 961 l 9,36,37
+ 898.121 990 898.121 990 817.121 990 c 0,22,23
 951.527 1899 m 1,0,-1
  1148.53 1899 l 1,1,-1
  928.477 1713.59 l 1,2,3
@@ -8982,7 +9007,6 @@ Fore
  808.454 1307 808.454 1307 861.007 1351 c 128,-1,25
  913.56 1395 913.56 1395 926 1459 c 0,14,15
 EndSplineSet
-Refer: 97 97 N 1 0 0 1 -1 0 3
 EndChar
 StartChar: AEacute
 Encoding: 508 508 508
@@ -9394,7 +9418,7 @@ Encoding: 550 550 550
 Width: 1479
 Flags: W
 TeX: 117 0 0 0
-Refer: 775 775 N 1 0 0 1 1397 373 2
+Refer: 65546 -1 N 1 0 0 1 1292.66 373 2
 Refer: 65 65 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni0227
@@ -9457,14 +9481,14 @@ StartChar: uni022E
 Encoding: 558 558 558
 Width: 1679
 Flags: W
-Refer: 79 79 N 1 0 0 1 0 0 2
-Refer: 65546 -1 N 1 0 0 1 1352 371 2
+Refer: 65546 -1 N 1 0 0 1 1393.86 373 2
+Refer: 79 79 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni022F
 Encoding: 559 559 559
 Width: 1233
 Flags: W
-Refer: 111 111 N 1 0 0 1 0 0 2
+Refer: 111 111 N 1 0 0 1 0 0 3
 Refer: 729 729 N 1 0 0 1 104 -1 2
 EndChar
 StartChar: uni0230
@@ -26123,8 +26147,8 @@ Encoding: 7682 7682 7682
 Width: 1505
 Flags: W
 TeX: 0 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1296.66 373 2
 Refer: 66 66 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1401 373 2
 EndChar
 StartChar: uni1E03
 Encoding: 7683 7683 7683
@@ -26132,23 +26156,23 @@ Width: 1311
 Flags: W
 TeX: 0 0 0 0
 Refer: 98 98 N 1 0 0 1 -1 0 3
-Refer: 775 775 N 1 0 0 1 997 444 2
+Refer: 775 775 N 1 0 0 1 972 316 2
 EndChar
 StartChar: uni1E04
 Encoding: 7684 7684 7684
 Width: 1505
 Flags: W
 TeX: 117 0 0 0
+Refer: 803 803 N 1 0 0 1 845.896 0 2
 Refer: 66 66 N 1 0 0 1 0 0 3
-Refer: 803 803 N 1 0 0 1 845 0 2
 EndChar
 StartChar: uni1E05
 Encoding: 7685 7685 7685
 Width: 1311
 Flags: W
 TeX: 117 0 0 0
-Refer: 98 98 N 1 0 0 1 -1 0 3
-Refer: 803 803 N 1 0 0 1 830 10 2
+Refer: 803 803 N 1 0 0 1 830.534 10 2
+Refer: 98 98 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E06
 Encoding: 7686 7686 7686
@@ -26187,8 +26211,8 @@ Encoding: 7690 7690 7690
 Width: 1642
 Flags: W
 TeX: 0 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1302.5 373 2
 Refer: 68 68 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1407 373 2
 EndChar
 StartChar: uni1E0B
 Encoding: 7691 7691 7691
@@ -26196,23 +26220,23 @@ Width: 1311
 Flags: W
 TeX: 0 0 0 0
 Refer: 100 100 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1652 444 2
+Refer: 775 775 N 1 0 0 1 1627.12 315.982 2
 EndChar
 StartChar: uni1E0C
 Encoding: 7692 7692 7692
 Width: 1642
 Flags: W
 TeX: 117 0 0 0
-Refer: 803 803 N 1 0 0 1 848 0 2
-Refer: 68 68 N 1 0 0 1 0 0 2
+Refer: 803 803 N 1 0 0 1 845.896 0 2
+Refer: 68 68 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E0D
 Encoding: 7693 7693 7693
 Width: 1311
 Flags: W
 TeX: 117 0 0 0
-Refer: 803 803 N 1 0 0 1 714 0 2
-Refer: 100 100 N 1 0 0 1 0 0 2
+Refer: 803 803 N 1 0 0 1 668.591 0 2
+Refer: 100 100 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E0E
 Encoding: 7694 7694 7694
@@ -26236,7 +26260,7 @@ Width: 1642
 Flags: W
 TeX: 117 0 0 0
 Refer: 68 68 N 1 0 0 1 0 0 3
-Refer: 807 807 N 1 0 0 1 1643 0 2
+Refer: 807 807 N 1 0 0 1 808 0 2
 EndChar
 StartChar: uni1E11
 Encoding: 7697 7697 7697
@@ -26330,13 +26354,27 @@ TeX: 117 0 0 0
 Refer: 101 101 N 1 0 0 1 -1 0 3
 Refer: 816 816 N 1 0 0 1 956 0 2
 EndChar
+StartChar: uni1E1C
+Encoding: 7708 7708 7708
+Width: 1495
+TeX: 0 0 0 0
+Refer: 65545 -1 N 1 0 0 1 1301.66 373 2
+Refer: 552 552 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1E1D
+Encoding: 7709 7709 7709
+Width: 1212
+TeX: 0 0 0 0
+Refer: 728 728 N 1 0 0 1 94 0 2
+Refer: 553 553 N 1 0 0 1 0 0 3
+EndChar
 StartChar: uni1E1E
 Encoding: 7710 7710 7710
 Width: 1421
 Flags: W
 TeX: 0 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1311.66 373 2
 Refer: 70 70 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1416 373 2
 EndChar
 StartChar: uni1E1F
 Encoding: 7711 7711 7711
@@ -26344,7 +26382,7 @@ Width: 758
 Flags: W
 TeX: 0 0 0 0
 Refer: 102 102 N 1 0 0 1 1 0 3
-Refer: 775 775 N 1 0 0 1 1268 444 2
+Refer: 775 775 N 1 0 0 1 1243.02 316.001 2
 EndChar
 StartChar: uni1E20
 Encoding: 7712 7712 7712
@@ -26367,8 +26405,8 @@ Encoding: 7714 7714 7714
 Width: 1786
 Flags: W
 TeX: 117 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1446.66 373 2
 Refer: 72 72 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1551 373 2
 EndChar
 StartChar: uni1E23
 Encoding: 7715 7715 7715
@@ -26376,15 +26414,15 @@ Width: 1319
 Flags: W
 TeX: 117 0 0 0
 Refer: 104 104 N 1 0 0 1 -1 0 3
-Refer: 775 775 N 1 0 0 1 994 445 2
+Refer: 775 775 N 1 0 0 1 968 316 2
 EndChar
 StartChar: uni1E24
 Encoding: 7716 7716 7716
 Width: 1786
 Flags: W
 TeX: 117 0 0 0
-Refer: 803 803 N 1 0 0 1 1048 0 2
-Refer: 72 72 N 1 0 0 1 0 0 2
+Refer: 803 803 N 1 0 0 1 995.896 0 2
+Refer: 72 72 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E25
 Encoding: 7717 7717 7717
@@ -26399,8 +26437,8 @@ Encoding: 7718 7718 7718
 Width: 1786
 Flags: W
 TeX: 117 0 0 0
+Refer: 65538 -1 N 1 0 0 1 1471.66 373 2
 Refer: 72 72 N 1 0 0 1 0 0 3
-Refer: 776 776 N 1 0 0 1 1551 373 2
 EndChar
 StartChar: uni1E27
 Encoding: 7719 7719 7719
@@ -26408,7 +26446,7 @@ Width: 1319
 Flags: W
 TeX: 117 0 0 0
 Refer: 104 104 N 1 0 0 1 -1 0 3
-Refer: 776 776 N 1 0 0 1 994 445 2
+Refer: 776 776 N 1 0 0 1 969 316 2
 EndChar
 StartChar: uni1E28
 Encoding: 7720 7720 7720
@@ -26592,8 +26630,8 @@ Encoding: 7744 7744 7744
 Width: 2097
 Flags: W
 TeX: 0 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1601.66 373 2
 Refer: 77 77 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1706 373 2
 EndChar
 StartChar: uni1E41
 Encoding: 7745 7745 7745
@@ -26624,16 +26662,16 @@ Encoding: 7748 7748 7748
 Width: 1792
 Flags: W
 TeX: 0 0 0 0
-Refer: 78 78 N 1 0 0 1 0 0 2
-Refer: 65546 -1 N 1 0 0 1 1427.82 362 2
+Refer: 65546 -1 N 1 0 0 1 1421 372 2
+Refer: 78 78 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E45
 Encoding: 7749 7749 7749
 Width: 1319
 Flags: W
 TeX: 0 0 0 0
-Refer: 110 110 N 1 0 0 1 0 0 2
-Refer: 729 729 N 1 0 0 1 118.784 -121 2
+Refer: 110 110 N 1 0 0 1 0 0 3
+Refer: 729 729 N 1 0 0 1 143 0 2
 EndChar
 StartChar: uni1E46
 Encoding: 7750 7750 7750
@@ -26740,8 +26778,8 @@ Encoding: 7766 7766 7766
 Width: 1378
 Flags: W
 TeX: 0 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1296.66 373 2
 Refer: 80 80 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1401 373 2
 EndChar
 StartChar: uni1E57
 Encoding: 7767 7767 7767
@@ -26756,8 +26794,8 @@ Encoding: 7768 7768 7768
 Width: 1542
 Flags: W
 TeX: 117 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1290.5 373 2
 Refer: 82 82 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1395 373 2
 EndChar
 StartChar: uni1E59
 Encoding: 7769 7769 7769
@@ -26820,8 +26858,8 @@ Encoding: 7776 7776 7776
 Width: 1403
 Flags: W
 TeX: 0 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1261.5 373 2
 Refer: 83 83 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1366 373 2
 EndChar
 StartChar: uni1E61
 Encoding: 7777 7777 7777
@@ -26836,66 +26874,64 @@ Encoding: 7778 7778 7778
 Width: 1403
 Flags: W
 TeX: 117 0 0 0
-Refer: 803 803 N 1 0 0 1 952 0 2
-Refer: 83 83 N 1 0 0 1 0 0 2
+Refer: 803 803 N 1 0 0 1 805.09 0 2
+Refer: 83 83 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E63
 Encoding: 7779 7779 7779
 Width: 1051
 Flags: W
 TeX: 117 0 0 0
-Refer: 803 803 N 1 0 0 1 676 0 2
-Refer: 115 115 N 1 0 0 1 0 0 2
+Refer: 803 803 N 1 0 0 1 670.687 0 2
+Refer: 115 115 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E68
 Encoding: 7784 7784 7784
 Width: 1403
 Flags: W
 TeX: 117 0 0 0
-Refer: 83 83 N 1 0 0 1 0 0 3
-Refer: 803 803 N 1 0 0 1 805 0 2
-Refer: 775 775 N 1 0 0 1 1366 373 2
+Refer: 65546 -1 N 1 0 0 1 1261.5 373 2
+Refer: 7778 7778 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E69
 Encoding: 7785 7785 7785
 Width: 1051
 Flags: W
 TeX: 117 0 0 0
-Refer: 115 115 N 1 0 0 1 0 0 3
-Refer: 803 803 N 1 0 0 1 670 0 2
-Refer: 775 775 N 1 0 0 1 1153 0 2
+Refer: 729 729 N 1 0 0 1 8 0 2
+Refer: 7779 7779 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E6A
 Encoding: 7786 7786 7786
 Width: 1366
 Flags: W
 TeX: 0 0 0 0
-Refer: 84 84 N 1 0 0 1 -1 0 3
-Refer: 775 775 N 1 0 0 1 1341 373 2
+Refer: 65546 -1 N 1 0 0 1 1236.5 373 2
+Refer: 84 84 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E6B
 Encoding: 7787 7787 7787
 Width: 823
 Flags: W
 TeX: 0 0 0 0
+Refer: 729 729 N 1 0 0 1 -177 316 2
 Refer: 116 116 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 998 444 2
 EndChar
 StartChar: uni1E6C
 Encoding: 7788 7788 7788
 Width: 1366
 Flags: W
 TeX: 117 0 0 0
-Refer: 803 803 N 1 0 0 1 808 0 2
-Refer: 84 84 N 1 0 0 1 0 0 2
+Refer: 803 803 N 1 0 0 1 779.896 0 2
+Refer: 84 84 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E6D
 Encoding: 7789 7789 7789
 Width: 823
 Flags: W
 TeX: 117 0 0 0
-Refer: 803 803 N 1 0 0 1 662 0 2
-Refer: 116 116 N 1 0 0 1 0 0 2
+Refer: 803 803 N 1 0 0 1 629.433 0 2
+Refer: 116 116 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E6E
 Encoding: 7790 7790 7790
@@ -27049,7 +27085,7 @@ StartChar: Wgrave
 Encoding: 7808 7808 7808
 Width: 2105
 Flags: W
-Refer: 65541 -1 N 1 0 0 1 1565.96 379.958 2
+Refer: 65541 -1 N 1 0 0 1 1616 373 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: wgrave
@@ -27063,7 +27099,7 @@ StartChar: Wacute
 Encoding: 7810 7810 7810
 Width: 2105
 Flags: W
-Refer: 65539 -1 N 1 0 0 1 1566 380 2
+Refer: 65539 -1 N 1 0 0 1 1616 373 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: wacute
@@ -27077,23 +27113,23 @@ StartChar: Wdieresis
 Encoding: 7812 7812 7812
 Width: 2105
 Flags: W
-Refer: 87 87 N 1 0 0 1 0 0 2
-Refer: 168 168 N 1 0 0 1 602.175 307 2
+Refer: 65538 -1 N 1 0 0 1 1616 373 2
+Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
 StartChar: wdieresis
 Encoding: 7813 7813 7813
 Width: 1753
 Flags: W
-Refer: 119 119 N 1 0 0 1 0 0 2
-Refer: 168 168 N 1 0 0 1 343.98 -121 2
+Refer: 119 119 N 1 0 0 1 0 0 3
+Refer: 168 168 N 1 0 0 1 367.512 0 2
 EndChar
 StartChar: uni1E86
 Encoding: 7814 7814 7814
 Width: 2105
 Flags: W
 TeX: 117 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1591 373 2
 Refer: 87 87 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1696 380 2
 EndChar
 StartChar: uni1E87
 Encoding: 7815 7815 7815
@@ -27108,8 +27144,8 @@ Encoding: 7816 7816 7816
 Width: 2105
 Flags: W
 TeX: 117 0 0 0
+Refer: 803 803 N 1 0 0 1 1156.9 0 2
 Refer: 87 87 N 1 0 0 1 0 0 3
-Refer: 803 803 N 1 0 0 1 1156 0 2
 EndChar
 StartChar: uni1E89
 Encoding: 7817 7817 7817
@@ -27124,8 +27160,8 @@ Encoding: 7818 7818 7818
 Width: 1458
 Flags: W
 TeX: 117 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1285 373 2
 Refer: 88 88 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1389 383 2
 EndChar
 StartChar: uni1E8B
 Encoding: 7819 7819 7819
@@ -27140,8 +27176,8 @@ Encoding: 7820 7820 7820
 Width: 1458
 Flags: W
 TeX: 117 0 0 0
+Refer: 65538 -1 N 1 0 0 1 1310 373 2
 Refer: 88 88 N 1 0 0 1 0 0 3
-Refer: 776 776 N 1 0 0 1 1389 383 2
 EndChar
 StartChar: uni1E8D
 Encoding: 7821 7821 7821
@@ -27156,8 +27192,8 @@ Encoding: 7822 7822 7822
 Width: 1352
 Flags: W
 TeX: 117 0 0 0
+Refer: 65546 -1 N 1 0 0 1 1208 373 2
 Refer: 89 89 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1313 380 2
 EndChar
 StartChar: uni1E8F
 Encoding: 7823 7823 7823
@@ -27229,7 +27265,7 @@ Width: 823
 Flags: W
 TeX: 117 0 0 0
 Refer: 116 116 N 1 0 0 1 0 0 3
-Refer: 776 776 N 1 0 0 1 998 444 2
+Refer: 776 776 N 1 0 0 1 973 316 2
 EndChar
 StartChar: uni1E98
 Encoding: 7832 7832 7832
@@ -27612,7 +27648,7 @@ Width: 1157
 Flags: W
 TeX: 117 0 0 0
 Refer: 121 121 N 1 0 0 1 1 0 3
-Refer: 803 803 N 1 0 0 1 677 -430 2
+Refer: 803 803 N 1 0 0 1 1242.65 0 2
 EndChar
 StartChar: uni1EF6
 Encoding: 7926 7926 7926
