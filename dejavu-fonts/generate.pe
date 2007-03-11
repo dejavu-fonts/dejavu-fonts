@@ -9,12 +9,12 @@
 
 # font generation flags:
 #      8 => do not include TT instructions (for experimental typefaces)
-#   0x10 => generate old fashioned kern tables with 0x80.
 #   0x20 => generate a 'PfEd' table and store glyph comments
 #   0x40 => generate a 'PfEd' table and store glyph colors
 #   0x80 => generate tables so the font will work on both Apple and MS platforms.
 #           - this one is important because it generates correct kerning tables
-def_gen_flags = 0x10 + 0x20 + 0x40 + 0x80
+#   0x800 => generate old fashioned kern tables.
+def_gen_flags = 0x20 + 0x40 + 0x80 + 0x800
 exp_gen_flags = def_gen_flags + 8
 
 if ($version < "20061014")
