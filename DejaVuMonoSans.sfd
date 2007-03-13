@@ -235,7 +235,7 @@ Grid
  0 -492 l 1,8,-1
  0 1901 l 1,5,-1
 EndSplineSet
-AnchorClass: "above" mark 0 5 1 0 "below" mark 0 5 1 0 "rtl-above" mark 1 5 2 0 "rtl-below" mark 1 5 3 0 
+AnchorClass: "above" mark 0 5 1 0 "below" mark 0 5 1 0 "rtl-above" mark 1 5 2 0 "rtl-below" mark 1 5 3 0 "rtl-above-mark" mkmk 1 5 4 1 "rtl-below-mark" mkmk 1 5 5 1 
 BeginChars: 65571 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -20281,7 +20281,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 560 -544 basechar 0
-AnchorPoint: "rtl-above" 440 844 basechar 0
+AnchorPoint: "rtl-above" 516 764 basechar 0
 Fore
 901 154 m 0,0,1
  911 212 911 212 911 284 c 0,2,3
@@ -20314,7 +20314,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 616 -436 basechar 0
-AnchorPoint: "rtl-above" 492 1008 basechar 0
+AnchorPoint: "rtl-above" 604.5 1008 basechar 0
 Fore
 396 60 m 1,0,1
  387 -108 387 -108 358 -202 c 0,2,3
@@ -20903,6 +20903,7 @@ Encoding: 1614 1614 1614
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 605 1130 mark 0
 AnchorPoint: "rtl-above" 605 1130 mark 0
 Fore
 324 1210 m 25,0,-1
@@ -20917,6 +20918,7 @@ Encoding: 1615 1615 1615
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 605 1130 mark 0
 AnchorPoint: "rtl-above" 605 1130 mark 0
 Fore
 658 1466 m 1,0,1
@@ -20953,6 +20955,7 @@ Encoding: 1616 1616 1616
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below-mark" 616 0 mark 0
 AnchorPoint: "rtl-below" 616 0 mark 0
 Fore
 324 -280 m 25,0,-1
@@ -20967,6 +20970,7 @@ Encoding: 1617 1617 1617
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 611 1826 basemark 0
 AnchorPoint: "rtl-above" 605 1130 mark 0
 Fore
 632 1412 m 9,0,1
@@ -20999,6 +21003,7 @@ Encoding: 1618 1618 1618
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 610 1130 mark 0
 AnchorPoint: "rtl-above" 610 1130 mark 0
 Fore
 768 1524 m 0,0,1
@@ -21048,6 +21053,7 @@ Encoding: 1620 1620 1620
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 611 1760 basemark 0
 AnchorPoint: "rtl-above" 605 1130 mark 0
 Refer: 1652 1652 N 1 0 0 1 0 -115 2
 EndChar
@@ -21056,6 +21062,7 @@ Encoding: 1621 1621 1621
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-below-mark" 624 -540 basemark 0
 AnchorPoint: "rtl-below" 616 0 mark 0
 Refer: 1652 1652 N 1 0 0 1 0 -1830 2
 EndChar
@@ -64035,7 +64042,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 575 -150 basechar 0
-AnchorPoint: "rtl-above" 500 1400 basechar 0
+AnchorPoint: "rtl-above" 545 1364 basechar 0
 Refer: 1705 1705 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uniFB8F
@@ -64086,7 +64093,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 300 -150 basechar 0
-AnchorPoint: "rtl-above" 250 1550 basechar 0
+AnchorPoint: "rtl-above" 511 1550 basechar 0
 Refer: 65243 65243 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uniFB91
@@ -64095,7 +64102,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 300 -150 basechar 0
-AnchorPoint: "rtl-above" 250 1550 basechar 0
+AnchorPoint: "rtl-above" 497.5 1550 basechar 0
 Refer: 65244 65244 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uniFB92
@@ -65038,7 +65045,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 444 -576 basechar 0
-AnchorPoint: "rtl-above" 524 956 basechar 0
+AnchorPoint: "rtl-above" 576 788 basechar 0
 Refer: 1585 1585 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uniFEAE
@@ -65047,7 +65054,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 396 -579 basechar 0
-AnchorPoint: "rtl-above" 388 984 basechar 0
+AnchorPoint: "rtl-above" 436 784 basechar 0
 Fore
 750 550 m 1,0,-1
  934 550 l 1,1,2
@@ -65093,7 +65100,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 408 -500 basechar 0
-AnchorPoint: "rtl-above" 276 1084 basechar 0
+AnchorPoint: "rtl-above" 564 1039 basechar 0
 Refer: 1587 1587 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uniFEB2
@@ -65102,7 +65109,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 344 -496 basechar 0
-AnchorPoint: "rtl-above" 228 1104 basechar 0
+AnchorPoint: "rtl-above" 462 951 basechar 0
 Fore
 820 -29 m 24,0,1
  755 -29 755 -29 730 -4 c 0,2,3
@@ -65154,7 +65161,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 300 -148 basechar 0
-AnchorPoint: "rtl-above" 304 1116 basechar 0
+AnchorPoint: "rtl-above" 565 990 basechar 0
 Fore
 486 181 m 24,0,1
  415 181 415 181 394 265 c 0,2,3
@@ -65195,7 +65202,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 272 -156 basechar 0
-AnchorPoint: "rtl-above" 256 1060 basechar 0
+AnchorPoint: "rtl-above" 499 965.5 basechar 0
 Fore
 721 594 m 17,0,1
  721 428 721 428 754 290 c 0,2,3
@@ -65925,7 +65932,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 216 -127 basechar 0
-AnchorPoint: "rtl-above" 228 1552 basechar 0
+AnchorPoint: "rtl-above" 503 1519 basechar 0
 Fore
 402 0 m 2,0,-1
  -20 0 l 1,1,-1
@@ -65956,7 +65963,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 162 -163 basechar 0
-AnchorPoint: "rtl-above" 132 1556 basechar 0
+AnchorPoint: "rtl-above" 522.5 1556 basechar 0
 Fore
 412 0 m 2,0,-1
  -20 0 l 1,1,-1

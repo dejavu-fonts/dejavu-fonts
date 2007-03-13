@@ -209,7 +209,7 @@ Grid
  0 -492 l 1,8,-1
  0 1901 l 1,5,-1
 EndSplineSet
-AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 1 0 "rtl-above" mark 1 5 2 0 "rtl-below" mark 1 5 3 0 
+AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 1 0 "rtl-above" mark 1 5 2 0 "rtl-below" mark 1 5 3 0 "rtl-above-mark" mkmk 1 5 4 1 "rtl-below-mark" mkmk 1 5 5 1 
 BeginChars: 65571 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -19976,7 +19976,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 588 -492 basechar 0
-AnchorPoint: "rtl-above" 450 991 basechar 0
+AnchorPoint: "rtl-above" 562.5 964 basechar 0
 Fore
 473 27 m 1,0,1
  470 -62 470 -62 442 -202 c 0,2,3
@@ -20174,7 +20174,9 @@ Fore
  352 193 352 193 352 0 c 0,39,40
  352 -57 352 -57 393 -110 c 0,0,1
 EndSplineSet
+Substitution: 9 5 'medi' uniFECC
 Substitution: 9 5 'init' uniFECB
+Substitution: 9 5 'fina' uniFECA
 EndChar
 StartChar: afii57434
 Encoding: 1594 1594 1594
@@ -20387,6 +20389,9 @@ Fore
  176 468 176 468 213 549 c 0,29,30
  297 734 297 734 490 734 c 0,15,16
 EndSplineSet
+Substitution: 9 5 'medi' uniFEEC
+Substitution: 9 5 'init' uniFEEB
+Substitution: 9 5 'fina' uniFEEA
 EndChar
 StartChar: afii57448
 Encoding: 1608 1608 1608
@@ -20552,7 +20557,8 @@ Encoding: 1614 1614 1614
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "rtl-above" 618 1056 mark 0
+AnchorPoint: "rtl-above-mark" 618 1105.5 mark 0
+AnchorPoint: "rtl-above" 618 1105.5 mark 0
 Fore
 304 1152 m 25,0,-1
  304 1322 l 17,1,-1
@@ -20566,6 +20572,7 @@ Encoding: 1615 1615 1615
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 605 1130 mark 0
 AnchorPoint: "rtl-above" 605 1130 mark 0
 Fore
 718 1580 m 1,0,1
@@ -20597,7 +20604,8 @@ Encoding: 1616 1616 1616
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "rtl-below" 618 126 mark 0
+AnchorPoint: "rtl-below-mark" 618 -6 mark 0
+AnchorPoint: "rtl-below" 618 -6 mark 0
 Fore
 304 -350 m 25,0,-1
  304 -180 l 17,1,-1
@@ -20611,7 +20619,8 @@ Encoding: 1617 1617 1617
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "rtl-above" 618 1056 mark 0
+AnchorPoint: "rtl-above-mark" 618 1850 basemark 0
+AnchorPoint: "rtl-above" 618 1116 mark 0
 Fore
 632 1374 m 1,0,1
  616 1324 616 1324 588 1288 c 0,2,3
@@ -20643,7 +20652,8 @@ Encoding: 1618 1618 1618
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "rtl-above" 618 1056 mark 0
+AnchorPoint: "rtl-above-mark" 618 1128 mark 0
+AnchorPoint: "rtl-above" 618 1128 mark 0
 Fore
 738 1524 m 0,0,1
  738 1574 738 1574 703 1609.5 c 128,-1,2
@@ -20692,7 +20702,8 @@ Encoding: 1620 1620 1620
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "rtl-above" 618 1056 mark 0
+AnchorPoint: "rtl-above-mark" 618 1750 basemark 0
+AnchorPoint: "rtl-above" 618 1098 mark 0
 Refer: 1652 1652 N 1 0 0 1 0 -115 2
 EndChar
 StartChar: uni0655
@@ -20700,8 +20711,9 @@ Encoding: 1621 1621 1621
 Width: 1233
 Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "rtl-below" 618 126 mark 0
-Refer: 1652 1652 N 1 0 0 1 0 -1830 2
+AnchorPoint: "rtl-below-mark" 618 -620 basemark 0
+AnchorPoint: "rtl-below" 618 0 mark 0
+Refer: 1652 1652 N 1 0 0 1 0 -1890 2
 EndChar
 StartChar: uni065A
 Encoding: 1626 1626 1626
@@ -62135,7 +62147,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 465 -529 basechar 0
-AnchorPoint: "rtl-above" 410 1079 basechar 0
+AnchorPoint: "rtl-above" 527 971 basechar 0
 Refer: 1587 1587 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uniFEB2
@@ -62144,7 +62156,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 417 -525 basechar 0
-AnchorPoint: "rtl-above" 350 1083 basechar 0
+AnchorPoint: "rtl-above" 458 952.5 basechar 0
 Fore
 1165 750 m 1,0,-1
  924 750 l 1,1,-1
@@ -62196,7 +62208,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 377 -149 basechar 0
-AnchorPoint: "rtl-above" 410 1079 basechar 0
+AnchorPoint: "rtl-above" 509 975.5 basechar 0
 Fore
 552 -18 m 24,0,1
  662 -21 662 -21 699 36 c 0,2,3
@@ -62237,7 +62249,7 @@ Width: 1233
 Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "rtl-below" 349 -149 basechar 0
-AnchorPoint: "rtl-above" 334 1071 basechar 0
+AnchorPoint: "rtl-above" 442 958.5 basechar 0
 Fore
 776 600 m 1,0,-1
  542 600 l 1,1,2
