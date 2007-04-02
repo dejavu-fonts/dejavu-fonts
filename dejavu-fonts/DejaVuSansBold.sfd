@@ -36,18 +36,19 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-ScriptLang: 11
- 3 cyrl 3 dflt MKD  SRB  grek 1 dflt latn 2 dflt DNK  
+ScriptLang: 12
+ 3 cyrl 3 MKD  SRB  dflt grek 1 dflt latn 2 DNK  dflt 
  1 DFLT 1 dflt 
- 1 latn 2 dflt DNK  
+ 1 latn 2 DNK  dflt 
  1 armn 1 dflt 
- 1 arab 1 dflt 
+ 1 arab 4 KUR  SND  URD  dflt 
  1 latn 1 DNK  
  1 grek 1 dflt 
  1 hebr 1 dflt 
- 2 arab 1 dflt hebr 1 dflt 
+ 2 arab 4 KUR  SND  URD  dflt hebr 1 dflt 
  1 cyrl 2 MKD  SRB  
  1 lao  1 dflt 
+ 1 arab 2 KUR  dflt 
 KernClass: 37 56 2 0
  14 hyphen uni2010
  59 A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve
@@ -238,7 +239,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "lao-above" mark 0 10 10 0 "lao-below" mark 0 10 11 0 "rtl-above" mark 1 8 4 0 "rtl-inside" mark 1 8 8 0 "rtl-below" mark 1 8 9 0 "above-mark" mkmk 0 0 2 1 "below-mark" mkmk 0 0 5 1 "lao-above-mark" mkmk 0 10 12 1 "lao-below-mark" mkmk 0 10 13 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
-BeginChars: 65633 0
+BeginChars: 65641 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -100393,6 +100394,118 @@ Fore
  429 240 l 9,13,-1
  1289 240 l 25,10,-1
 EndSplineSet
+EndChar
+StartChar: uni0651064B
+Encoding: 65633 -1 65633
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 2300 basemark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+Refer: 1617 1617 N 1 0 0 1 0 0 2
+Refer: 1611 1611 N 1 0 0 1 0 600 2
+Ligature: 1 4 'rlig' afii57457 afii57451
+Ligature: 1 4 'rlig' afii57451 afii57457
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uni0651064C
+Encoding: 65634 -1 65634
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 2500 basemark 0
+Refer: 1617 1617 N 1 0 0 1 0 0 2
+Refer: 1612 1612 N 1 0 0 1 0 600 2
+Ligature: 1 4 'rlig' afii57457 afii57452
+Ligature: 1 4 'rlig' afii57452 afii57457
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uni064B0651
+Encoding: 65635 -1 65635
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 2300 basemark 0
+Refer: 1611 1611 N 1 0 0 1 0 0 2
+Refer: 1617 1617 N 1 0 0 1 0 500 2
+Ligature: 1 11 'rlig' afii57457 afii57453
+Ligature: 1 11 'rlig' afii57453 afii57457
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uni0651064E
+Encoding: 65636 -1 65636
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 2100 basemark 0
+Refer: 1617 1617 N 1 0 0 1 0 0 2
+Refer: 1614 1614 N 1 0 0 1 0 600 2
+Ligature: 1 4 'rlig' afii57457 afii57454
+Ligature: 1 4 'rlig' afii57454 afii57457
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uni0651064F
+Encoding: 65637 -1 65637
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 2500 basemark 0
+Refer: 1617 1617 N 1 0 0 1 0 0 2
+Refer: 1615 1615 N 1 0 0 1 0 600 2
+Ligature: 1 4 'rlig' afii57457 afii57455
+Ligature: 1 4 'rlig' afii57455 afii57457
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uni064E0651
+Encoding: 65638 -1 65638
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 2100 basemark 0
+Refer: 1614 1614 N 1 0 0 1 0 0 2
+Refer: 1617 1617 N 1 0 0 1 0 300 2
+Ligature: 1 11 'rlig' afii57457 afii57456
+Ligature: 1 11 'rlig' afii57456 afii57457
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uni0654064E
+Encoding: 65639 -1 65639
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 2000 basemark 0
+Refer: 1620 1620 N 1 0 0 1 0 0 2
+Refer: 1614 1614 N 1 0 0 1 0 500 2
+Ligature: 1 4 'rlig' uni0654 afii57454
+Ligature: 1 4 'rlig' afii57454 uni0654
+LCarets: 0 65535 '    ' 1 0 
+EndChar
+StartChar: uni0654064F
+Encoding: 65640 -1 65640
+Width: 0
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 2400 basemark 0
+Refer: 1620 1620 N 1 0 0 1 0 0 2
+Refer: 1615 1615 N 1 0 0 1 0 500 2
+Ligature: 1 4 'rlig' uni0654 afii57455
+Ligature: 1 4 'rlig' afii57455 uni0654
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 EndChars
 EndSplineFont
