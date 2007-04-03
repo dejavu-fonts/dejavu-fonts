@@ -23,6 +23,7 @@
 #           - discarded (temporary)
 #   ModificationTime - discarded
 #   CreationTime - discarded
+#   VWidth - discarded (for now)
 # changes making it incompatible with FF older than (approx.) 20050728:
 #   Ref     - renamed to Refer
 #   KernsSLIF
@@ -47,7 +48,7 @@ sub process_sfd_file($) {
   my %pos_glyphs_map = ();
 
   while (<SFD>) {
-    next if (/^(WinInfo|DisplaySize|HStem|VStem|NameList|ModificationTime|CreationTime):/);
+    next if (/^(WinInfo|DisplaySize|HStem|VStem|NameList|ModificationTime|CreationTime|VWidth):/);
     s,^Ref:,Refer:,;
     s,^KernsSLIF:,KernsSLIFO:,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
