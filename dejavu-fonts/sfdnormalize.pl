@@ -63,7 +63,7 @@ sub process_sfd_file($) {
       $in_spline_set = 0;
     } elsif ($in_spline_set) {
       s/(\s+)(\S+?)(,\S+\s*)$/$1.($2 & ~4 & ~256).$3/e;
-      s/([\s^])-0(\s)/$1."0".$2/e
+      s/([\s^])-0(\s)/$1."0".$2/eg
     }
     if (/^BeginChars:/) {
       $in_chars = 1;
