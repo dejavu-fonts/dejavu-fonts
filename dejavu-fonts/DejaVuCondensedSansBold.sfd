@@ -162,7 +162,7 @@ ChainSub: class 0 0 'ccmp' 4 4 4 2
   BClsList: 3
   FClsList:
  1
-  SeqLookup: 0 'sd01'
+  SeqLookup: 0 'CCMB'
 EndFPST
 ChainSub: class 1 8 'ccmp' 3 0 3 1
   Class: 9 afii57682
@@ -176,7 +176,7 @@ ChainSub: class 1 8 'ccmp' 3 0 3 1
  1
   SeqLookup: 0 'hs01'
 EndFPST
-GenTags: 3 sb'DTLS' sb'sd01' sb'hs01'
+GenTags: 3 sb'DTLS' sb'CCMB' sb'hs01'
 TtfTable: prep 1959
 6%f;i!@@gG!!<6J!"f25!@.[h!'1)`!@.[A!!<6H!#>P:!?qOf!'1)`!?qOC!!<6F!'1)^!?_C=
 !!<6D!4r45!?M5O!!<6B!<)s#!?;(W!!<6@!$2+B!?(t;!!<6>!<)s#!>kh9!!<6<!<)s#!>Y\7
@@ -14816,7 +14816,7 @@ AnchorPoint: "above-mark" -460.8 1147 mark 0
 AnchorPoint: "above-mark" -460.8 1640 basemark 0
 AnchorPoint: "above" -460.8 1147 mark 0
 Refer: 96 96 N 1 0 0 1 -923.4 0 2
-Substitution: 0 65534 'sd01' Grave
+Substitution: 0 65534 'CCMB' Grave
 EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
@@ -14827,7 +14827,7 @@ AnchorPoint: "above-mark" -460.8 1147 mark 0
 AnchorPoint: "above-mark" -460.8 1640 basemark 0
 AnchorPoint: "above" -460.8 1147 mark 0
 Refer: 180 180 N 1 0 0 1 -928.8 0 2
-Substitution: 0 65534 'sd01' Acute
+Substitution: 0 65534 'CCMB' Acute
 EndChar
 StartChar: uni0302
 Encoding: 770 770 770
@@ -14838,7 +14838,7 @@ AnchorPoint: "above-mark" -462.6 1147 mark 0
 AnchorPoint: "above-mark" -462.6 1638 basemark 0
 AnchorPoint: "above" -462.6 1147 mark 0
 Refer: 710 710 N 1 0 0 1 -923.4 0 2
-Substitution: 0 65534 'sd01' Circumflex
+Substitution: 0 65534 'CCMB' Circumflex
 EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
@@ -14849,7 +14849,7 @@ AnchorPoint: "above-mark" -462.6 1147 mark 0
 AnchorPoint: "above-mark" -462.6 1556 basemark 0
 AnchorPoint: "above" -462.6 1147 mark 0
 Refer: 732 732 N 1 0 0 1 -928.8 0 2
-Substitution: 0 65534 'sd01' Tilde
+Substitution: 0 65534 'CCMB' Tilde
 EndChar
 StartChar: uni0304
 Encoding: 772 772 772
@@ -14880,7 +14880,7 @@ AnchorPoint: "above-mark" -462.6 1240 mark 0
 AnchorPoint: "above-mark" -462.6 1598 basemark 0
 AnchorPoint: "above" -462.6 1147 mark 0
 Refer: 728 728 N 1 0 0 1 -912.6 0 2
-Substitution: 0 65534 'sd01' Breve
+Substitution: 0 65534 'CCMB' Breve
 EndChar
 StartChar: uni0307
 Encoding: 775 775 775
@@ -14891,7 +14891,7 @@ AnchorPoint: "above-mark" -462.6 1270 mark 0
 AnchorPoint: "above-mark" -462.6 1556 basemark 0
 AnchorPoint: "above" -462.6 1147 mark 0
 Refer: 729 729 N 1 0 0 1 -918 0 2
-Substitution: 0 65534 'sd01' Dotaccent
+Substitution: 0 65534 'CCMB' Dotaccent
 EndChar
 StartChar: uni0308
 Encoding: 776 776 776
@@ -14902,7 +14902,7 @@ AnchorPoint: "above-mark" -462.6 1270 mark 0
 AnchorPoint: "above-mark" -462.6 1556 basemark 0
 AnchorPoint: "above" -462.6 1147 mark 0
 Refer: 168 168 N 1 0 0 1 -918 0 2
-Substitution: 0 65534 'sd01' Dieresis
+Substitution: 0 65534 'CCMB' Dieresis
 EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
@@ -14957,7 +14957,7 @@ AnchorPoint: "above-mark" -462.6 1147 mark 0
 AnchorPoint: "above-mark" -462.6 1638 basemark 0
 AnchorPoint: "above" -462.6 1147 mark 0
 Refer: 733 733 N 1 0 0 1 -918 0 2
-Substitution: 0 65534 'sd01' Hungarumlaut
+Substitution: 0 65534 'CCMB' Hungarumlaut
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
@@ -14968,7 +14968,7 @@ AnchorPoint: "above-mark" -462.6 1147 mark 0
 AnchorPoint: "above-mark" -462.6 1638 basemark 0
 AnchorPoint: "above" -462.6 1147 mark 0
 Refer: 711 711 N 1 0 0 1 -923.4 0 2
-Substitution: 0 65534 'sd01' Caron
+Substitution: 0 65534 'CCMB' Caron
 EndChar
 StartChar: uni030D
 Encoding: 781 781 781
@@ -15017,7 +15017,7 @@ Fore
  -892.8 1638 l 1,7,-1
  -684.9 1638 l 1,4,-1
 EndSplineSet
-Substitution: 0 65534 'sd01' Doublegrave
+Substitution: 0 65534 'CCMB' Doublegrave
 EndChar
 StartChar: uni0310
 Encoding: 784 784 784
@@ -15051,7 +15051,7 @@ Fore
  -311.4 1606 -311.4 1606 -233.1 1529.5 c 128,-1,13
  -154.8 1453 -154.8 1453 -149.4 1309 c 1,0,-1
 EndSplineSet
-Substitution: 0 65534 'sd01' uni0311.case
+Substitution: 0 65534 'CCMB' uni0311.case
 EndChar
 StartChar: uni0312
 Encoding: 786 786 786
