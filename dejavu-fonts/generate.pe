@@ -42,7 +42,20 @@ while ( i < $argc )
     # do not remove ligatures from Arabic
     Select("U+0600", "U+06FF", "U+FB50", "U+FDFF", "U+FE70", "U+FEFF")
     SelectInvert()
-    RemoveATT("Ligature", "*", "*")
+    if ($version < "20070501")
+      RemoveATT("Ligature", "*", "*")
+    else
+      foreach
+        subs = GetPosSub("*");
+	j = 0;
+	while (j < SizeOf(subs))
+	  if (subs[j][1] == "Ligature")
+	    RemovePosSub(subs[j][0])
+	  endif
+	  j++
+	endloop
+      endloop
+    endif
     SelectNone()
   endif
   Generate("generated/" + $fontname + ".ttf", "", gen_flags)
