@@ -1,4 +1,4 @@
-SplineFontDB: 1.0
+SplineFontDB: 2.0
 FontName: DejaVuSans-ExtraLight
 FullName: DejaVu Sans ExtraLight
 FamilyName: DejaVu Sans Light
@@ -46,13 +46,24 @@ OS2SupYOff: 16363
 OS2StrikeYSize: 11512
 OS2StrikeYPos: 9600
 OS2Vendor: 'PfEd'
-ScriptLang: 5
- 3 cyrl 1 dflt grek 1 dflt latn 1 dflt 
- 1 DFLT 1 dflt 
- 1 latn 1 dflt 
- 1 armn 1 dflt 
- 1 arab 1 dflt 
-KernClass: 47 57 2 0
+Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0"  {"'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1"  {"'liga' Standard Ligatures in Latin lookup 1"  } ['liga' ('latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures lookup 2"  {"'liga' Standard Ligatures lookup 2"  } ['liga' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures lookup 3"  {"'liga' Standard Ligatures lookup 3"  } ['liga' ('DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 4"  {"'dlig' Discretionary Ligatures lookup 4"  } ['dlig' ('DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 5"  {"'frac' Diagonal Fractions lookup 5"  } ['frac' ('DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 6"  {"Single Substitution lookup 6"  } []
+Lookup: 1 0 0 "Single Substitution lookup 7"  {"Single Substitution lookup 7"  } []
+Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
+Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 2"  {"'mkmk' Mark to Mark lookup 2"  } ['mkmk' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 3"  {"'mark' Mark Positioning in Arabic lookup 3"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 4"  {"'mark' Mark Positioning in Arabic lookup 4"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 261 0 0 "'mark' Mark Positioning lookup 5"  {"'mark' Mark Positioning lookup 5"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 7"  {"'mark' Mark Positioning lookup 7"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 8"  {"'kern' Horizontal Kerning in Latin lookup 8"  } ['kern' ('latn' <'dflt' > ) ]
+KernClass2: 47 57 "'kern' Horizontal Kerning in Latin lookup 8" 
  236 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni01DE uni01E0 Aringacute uni0200 uni0202 uni0226 uni1E00 uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6
  19 AE uni01E2 AEacute 
  33 B uni0181 uni1E02 uni1E04 uni1E06
@@ -156,7 +167,7 @@ KernClass: 47 57 2 0
  27 guillemotleft guilsinglleft
  10 germandbls
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 57 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} -120 {} -83 {} 0 {} -139 {} 0 {} -36 {} -36 {} -45 {} 47 {} -253 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -92 {} -83 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -63 {} -73 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -83 {} 0 {} -112 {} -36 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} -55 {} -45 {} -36 {} -36 {} 0 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} -149 {} 0 {} -112 {} 0 {} 0 {} 0 {} -188 {} 0 {} -329 {} -159 {} 0 {} -376 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} -45 {} -45 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -73 {} -63 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -112 {} -63 {} -73 {} -36 {} -36 {} 0 {} 0 {} -36 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} -159 {} -55 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} -215 {} 0 {} -63 {} -63 {} 0 {} -131 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -282 {} -102 {} -225 {} -188 {} 0 {} -272 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} 0 {} -36 {} 0 {} -538 {} -415 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -131 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -83 {} -36 {} 57 {} -188 {} -36 {} -445 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} -92 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} -36 {} -73 {} 0 {} 0 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -319 {} 0 {} -45 {} -329 {} 38 {} 38 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 57 {} -131 {} -36 {} -45 {} 0 {} 0 {} 0 {} 0 {} -83 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} -112 {} -83 {} 0 {} -131 {} 0 {} 0 {} -45 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} -112 {} 0 {} -73 {} -63 {} -83 {} 0 {} -131 {} -149 {} -36 {} -112 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -339 {} -348 {} 0 {} -348 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} -348 {} 0 {} 0 {} -301 {} -339 {} -311 {} 0 {} -339 {} 0 {} -319 {} 0 {} -243 {} -225 {} -188 {} -264 {} -45 {} 0 {} -112 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} 0 {} -139 {} 0 {} 0 {} 0 {} -55 {} 0 {} -264 {} -167 {} -120 {} -282 {} 0 {} 0 {} -112 {} -178 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} -120 {} 0 {} 0 {} -92 {} 0 {} -73 {} 0 {} 0 {} 0 {} -36 {} 0 {} -235 {} -120 {} -83 {} -264 {} 0 {} -36 {} -36 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -102 {} -45 {} -83 {} -159 {} 0 {} -112 {} 0 {} 0 {} -159 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -282 {} 0 {} 0 {} -272 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -272 {} 0 {} 0 {} 0 {} 0 {} -235 {} 0 {} 0 {} 0 {} 0 {} 0 {} -415 {} -272 {} -243 {} -264 {} 0 {} -112 {} -149 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} -73 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -348 {} 0 {} -159 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -149 {} -73 {} 0 {} -235 {} 0 {} 65 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -193 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} -112 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -348 {} 0 {} -159 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} -36 {} 0 {} 38 {} -131 {} -73 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -45 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -45 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} -188 {} -36 {} -131 {} -311 {} 86 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -139 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} -112 {} 0 {} -272 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} -112 {} 0 {} -215 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -292 {} -149 {} -36 {} -301 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -112 {} -92 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 75 {} 0 {} 114 {} 0 {} 0 {} 57 {} 0 {} 75 {} 0 {} 0 {} -188 {} 0 {} -120 {} -83 {} -102 {} -243 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 38 {} -73 {} -112 {} -73 {} -73 {} -73 {} -73 {} -73 {} 47 {} -73 {} -73 {} -112 {} -73 {} 0 {} -73 {} 0 {} -282 {} 0 {} -376 {} -253 {} -73 {} -376 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} 0 {} 0 {} -73 {} 0 {} 0 {} -235 {} -196 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -264 {} -387 {} -63 {} -73 {} -63 {} 0 {} -63 {} -73 {} -63 {} -63 {} -63 {} -63 {} -73 {} -63 {} -73 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} 0 {} -73 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} -73 {} 0 {} -73 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -188 {} 0 {} -178 {} -112 {} -112 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 151 {} -36 {} -36 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} -112 {} -36 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} -83 {} -112 {} -112 {} 0 {} 0 {} 0 {}
-ChainSub: class 0 0 'ccmp' 4 4 4 2
+ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0"  4 4 4 2
   Class: 63 i j iogonek uni0268 uni03F3 afii10103 afii10105 uni1E2D uni1ECB
   Class: 187 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033F
   Class: 1055 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
@@ -171,15 +182,14 @@ ChainSub: class 0 0 'ccmp' 4 4 4 2
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 'DTLS'
+  SeqLookup: 0 "Single Substitution lookup 7" 
  1 1 0
   ClsList: 2
   BClsList: 3
   FClsList:
  1
-  SeqLookup: 0 'CCMB'
+  SeqLookup: 0 "Single Substitution lookup 6" 
 EndFPST
-GenTags: 2 sb'DTLS' sb'CCMB'
 TtfTable: prep 1384
 \,q1Gs82ctq@j&-,m3ot"8A)`p'q2trWDfl"7mf@ndYclQ36V&"7M+5"n2EmmZmtBQ36LM"7,dc
 lM^nM3WnS4"6]Xcjt[&#jAQ6DQ363*5m?=J"68Ao"loF]i\(DmrWD*X"5bj9h@p(JQ35qA"5=Fj
@@ -231,7 +241,7 @@ UnicodeInterp: none
 AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass: "above" mark 0 0 1 0 "below" mark 0 0 3 0 "rtl-below" mark 1 4 4 0 "rtl-above" mark 1 4 5 0 "above-mark" mkmk 0 0 2 1 "rtl-above-mark" mkmk 1 4 6 1 "rtl-below-mark" mkmk 1 4 7 1 
+AnchorClass2: "above"  "'mark' Mark Positioning lookup 7" "below"  "'mark' Mark Positioning lookup 6" "Ligature below"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 3" "above-mark"  "'mkmk' Mark to Mark lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
 BeginChars: 65553 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -2085,7 +2095,7 @@ Fore
  230 1430 l 1,7,-1
  230 1556 l 1,4,-1
 EndSplineSet
-Substitution: 0 65534 'DTLS' dotlessi
+Substitution2: "Single Substitution lookup 7" dotlessi
 EndChar
 StartChar: j
 Encoding: 106 106 106
@@ -2111,7 +2121,7 @@ Fore
  239 1430 l 1,17,-1
  239 1556 l 1,14,-1
 EndSplineSet
-Substitution: 0 65534 'DTLS' dotlessj
+Substitution2: "Single Substitution lookup 7" dotlessj
 EndChar
 StartChar: k
 Encoding: 107 107 107
@@ -2887,8 +2897,8 @@ Fore
  326 1432 l 1,7,-1
  326 1552 l 1,4,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space uni0308
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni0308
 EndChar
 StartChar: copyright
 Encoding: 169 169 169
@@ -3118,8 +3128,8 @@ Fore
  213 1438 l 1,3,-1
  213 1526 l 1,0,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space uni0304
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni0304
 EndChar
 StartChar: degree
 Encoding: 176 176 176
@@ -3246,8 +3256,8 @@ Fore
  371 1262 l 1,3,-1
  651 1638 l 1,0,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space acutecomb
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space acutecomb
 EndChar
 StartChar: mu
 Encoding: 181 181 181
@@ -3335,8 +3345,8 @@ Fore
  541 -69 541 -69 493 0 c 1,24,-1
  578 0 l 1,0,1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space uni0327
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni0327
 EndChar
 StartChar: onesuperior
 Encoding: 185 185 185
@@ -3417,9 +3427,9 @@ Flags: W
 Refer: 8725 8725 N 1 0 0 1 821 0 2
 Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8308 8308 N 1 0 0 1 1158 -738 2
-LCarets: 0 65535 '    ' 2 0 0 
-Ligature: 0 1 'frac' one slash four
-Ligature: 0 1 'frac' one fraction four
+LCarets2: 2 0 0 
+Ligature2: "'frac' Diagonal Fractions lookup 5" one slash four
+Ligature2: "'frac' Diagonal Fractions lookup 5" one fraction four
 EndChar
 StartChar: onehalf
 Encoding: 189 189 189
@@ -3428,9 +3438,9 @@ Flags: W
 Refer: 178 178 N 1 0 0 1 1163 -668 2
 Refer: 8725 8725 N 1 0 0 1 821 0 2
 Refer: 185 185 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 2 0 0 
-Ligature: 0 1 'frac' one slash two
-Ligature: 0 1 'frac' one fraction two
+LCarets2: 2 0 0 
+Ligature2: "'frac' Diagonal Fractions lookup 5" one slash two
+Ligature2: "'frac' Diagonal Fractions lookup 5" one fraction two
 EndChar
 StartChar: threequarters
 Encoding: 190 190 190
@@ -3439,9 +3449,9 @@ Flags: W
 Refer: 8725 8725 N 1 0 0 1 821 0 2
 Refer: 179 179 N 1 0 0 1 0 0 2
 Refer: 8308 8308 N 1 0 0 1 1158 -738 2
-LCarets: 0 65535 '    ' 2 0 0 
-Ligature: 0 1 'frac' three slash four
-Ligature: 0 1 'frac' three fraction four
+LCarets2: 2 0 0 
+Ligature2: "'frac' Diagonal Fractions lookup 5" three slash four
+Ligature2: "'frac' Diagonal Fractions lookup 5" three fraction four
 EndChar
 StartChar: questiondown
 Encoding: 191 191 191
@@ -4041,7 +4051,7 @@ StartChar: ccedilla
 Encoding: 231 231 231
 Width: 1126
 Flags: W
-AnchorPoint: "below" 678 -430 baselig 0
+AnchorPoint: "Ligature below" 678 -430 baselig 0
 AnchorPoint: "above" 678 1147 basechar 0
 Refer: 99 99 N 1 0 0 1 0 0 3
 Refer: 184 184 N 1 0 0 1 143 0 2
@@ -4813,7 +4823,7 @@ Width: 569
 Flags: W
 Refer: 731 731 N 1 0 0 1 -182 0 2
 Refer: 105 105 N 1 0 0 1 0 0 3
-Substitution: 0 65534 'DTLS' iogonek.dotless
+Substitution2: "Single Substitution lookup 7" iogonek.dotless
 EndChar
 StartChar: Idotaccent
 Encoding: 304 304 304
@@ -4847,7 +4857,7 @@ TtfInstrs: 8
 EndTtf
 Refer: 74 74 N 1 0 0 1 604 0 2
 Refer: 73 73 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: ij
 Encoding: 307 307 307
@@ -4858,7 +4868,7 @@ TtfInstrs: 8
 EndTtf
 Refer: 106 106 N 1 0 0 1 568 0 2
 Refer: 105 105 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: Jcircumflex
 Encoding: 308 308 308
@@ -5078,8 +5088,8 @@ Width: 1666
 Flags: W
 Refer: 110 110 N 1 0 0 1 341 0 2
 Refer: 700 700 N 1 0 0 1 27 0 2
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 0 'liga' afii57929 n
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 2" afii57929 n
 EndChar
 StartChar: Eng
 Encoding: 330 330 330
@@ -7045,7 +7055,7 @@ Width: 2912
 Flags: W
 Refer: 381 381 N 1 0 0 1 1457 0 2
 Refer: 68 68 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01C5
 Encoding: 453 453 453
@@ -7053,7 +7063,7 @@ Width: 2660
 Flags: W
 Refer: 382 382 N 1 0 0 1 1493 0 2
 Refer: 68 68 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01C6
 Encoding: 454 454 454
@@ -7061,7 +7071,7 @@ Width: 2364
 Flags: W
 Refer: 382 382 N 1 0 0 1 1206 0 2
 Refer: 100 100 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01C7
 Encoding: 455 455 455
@@ -7069,7 +7079,7 @@ Width: 1711
 Flags: W
 Refer: 74 74 N 1 0 0 1 1169 0 2
 Refer: 76 76 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01C8
 Encoding: 456 456 456
@@ -7077,7 +7087,7 @@ Width: 1611
 Flags: W
 Refer: 106 106 N 1 0 0 1 1125 0 2
 Refer: 76 76 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01C9
 Encoding: 457 457 457
@@ -7085,7 +7095,7 @@ Width: 935
 Flags: W
 Refer: 106 106 N 1 0 0 1 374 0 2
 Refer: 108 108 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01CA
 Encoding: 458 458 458
@@ -7093,7 +7103,7 @@ Width: 1907
 Flags: W
 Refer: 74 74 N 1 0 0 1 1375 0 2
 Refer: 78 78 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01CB
 Encoding: 459 459 459
@@ -7101,7 +7111,7 @@ Width: 1892
 Flags: W
 Refer: 106 106 N 1 0 0 1 1342 0 2
 Refer: 78 78 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01CC
 Encoding: 460 460 460
@@ -7109,7 +7119,7 @@ Width: 1633
 Flags: W
 Refer: 106 106 N 1 0 0 1 1125 0 2
 Refer: 110 110 N 1 0 0 1 0 0 2
-LCarets: 0 65535 '    ' 1 0 
+LCarets2: 1 0 
 EndChar
 StartChar: uni01CD
 Encoding: 461 461 461
@@ -8417,7 +8427,7 @@ Fore
  342 1556 l 1,0,-1
 EndSplineSet
 Refer: 65550 -1 N 1 0 0 1 0 0 2
-Substitution: 0 65534 'DTLS' uni0268.dotless
+Substitution2: "Single Substitution lookup 7" uni0268.dotless
 EndChar
 StartChar: uni0269
 Encoding: 617 617 617
@@ -9133,7 +9143,7 @@ Fore
  367 1321 367 1321 288 1393 c 128,-1,13
  209 1465 209 1465 199 1608 c 1,0,-1
 EndSplineSet
-Ligature: 0 1 'liga' space uni0306
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni0306
 EndChar
 StartChar: dotaccent
 Encoding: 729 729 729
@@ -9146,8 +9156,8 @@ Fore
  466 1348 l 1,3,-1
  466 1479 l 1,0,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space uni0307
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni0307
 EndChar
 StartChar: ring
 Encoding: 730 730 730
@@ -9173,8 +9183,8 @@ Fore
  615 1770 615 1770 686 1698 c 0,25,14
  758 1627 758 1627 758 1524 c 128,-1,15
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space uni030A
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni030A
 EndChar
 StartChar: ogonek
 Encoding: 731 731 731
@@ -9197,8 +9207,8 @@ Fore
  355 -163 355 -163 380 -112 c 0,23,24
  406 -61 406 -61 458 0 c 1,0,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space uni0328
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni0328
 EndChar
 StartChar: tilde
 Encoding: 732 732 732
@@ -9227,7 +9237,7 @@ Fore
  609 1331 609 1331 577 1345 c 0,34,35
  540 1361 540 1361 508 1392 c 2,0,-1
 EndSplineSet
-Ligature: 0 1 'liga' space tildecomb
+Ligature2: "'liga' Standard Ligatures lookup 3" space tildecomb
 EndChar
 StartChar: hungarumlaut
 Encoding: 733 733 733
@@ -9245,8 +9255,8 @@ Fore
  266 1262 l 1,7,-1
  456 1638 l 1,4,-1
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'liga' space uni030B
+LCarets2: 1 0 
+Ligature2: "'liga' Standard Ligatures lookup 3" space uni030B
 EndChar
 StartChar: uni02F3
 Encoding: 755 755 755
@@ -9268,7 +9278,7 @@ TeX: 103 0 0 0
 AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 96 96 N 1 0 0 1 -1026 0 2
-Substitution: 0 65534 'CCMB' Grave
+Substitution2: "Single Substitution lookup 6" Grave
 EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
@@ -9278,7 +9288,7 @@ TeX: 97 0 0 0
 AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 180 180 N 1 0 0 1 -1026 0 2
-Substitution: 0 65534 'CCMB' Acute
+Substitution2: "Single Substitution lookup 6" Acute
 EndChar
 StartChar: uni0302
 Encoding: 770 770 770
@@ -9289,7 +9299,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 710 710 N 1 0 0 1 -1026 0 2
-Substitution: 0 65534 'CCMB' Circumflex
+Substitution2: "Single Substitution lookup 6" Circumflex
 EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
@@ -9300,7 +9310,7 @@ AnchorPoint: "above-mark" -512 1200 mark 0
 AnchorPoint: "above-mark" -512 1597 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 732 732 N 1 0 0 1 -1026 0 2
-Substitution: 0 65534 'CCMB' Tilde
+Substitution2: "Single Substitution lookup 6" Tilde
 EndChar
 StartChar: uni0304
 Encoding: 772 772 772
@@ -9331,7 +9341,7 @@ AnchorPoint: "above-mark" -512 1282 mark 0
 AnchorPoint: "above-mark" -512 1604 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 728 728 N 1 0 0 1 -1032 0 2
-Substitution: 0 65534 'CCMB' Breve
+Substitution2: "Single Substitution lookup 6" Breve
 EndChar
 StartChar: uni0307
 Encoding: 775 775 775
@@ -9342,7 +9352,7 @@ AnchorPoint: "above-mark" -512 1282 mark 0
 AnchorPoint: "above-mark" -512 1556 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 729 729 N 1 0 0 1 -1014 0 2
-Substitution: 0 65534 'CCMB' Dotaccent
+Substitution2: "Single Substitution lookup 6" Dotaccent
 EndChar
 StartChar: uni0308
 Encoding: 776 776 776
@@ -9353,7 +9363,7 @@ AnchorPoint: "above-mark" -512 1282 mark 0
 AnchorPoint: "above-mark" -512 1556 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 168 168 N 1 0 0 1 -1026 0 2
-Substitution: 0 65534 'CCMB' Dieresis
+Substitution2: "Single Substitution lookup 6" Dieresis
 EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
@@ -9398,7 +9408,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 733 733 N 1 0 0 1 -1020 0 2
-Substitution: 0 65534 'CCMB' Hungarumlaut
+Substitution2: "Single Substitution lookup 6" Hungarumlaut
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
@@ -9409,7 +9419,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 711 711 N 1 0 0 1 -1020 0 2
-Substitution: 0 65534 'CCMB' Caron
+Substitution2: "Single Substitution lookup 6" Caron
 EndChar
 StartChar: uni030D
 Encoding: 781 781 781
@@ -9458,7 +9468,7 @@ Fore
  -576 1638 l 1,7,-1
  -448 1638 l 1,4,-1
 EndSplineSet
-Substitution: 0 65534 'CCMB' Doubleacute
+Substitution2: "Single Substitution lookup 6" Doubleacute
 EndChar
 StartChar: uni0310
 Encoding: 784 784 784
@@ -9492,7 +9502,7 @@ Fore
  -375 1608 -375 1608 -296 1536 c 128,-1,13
  -217 1464 -217 1464 -207 1321 c 1,0,-1
 EndSplineSet
-Substitution: 0 65534 'CCMB' uni0311.case
+Substitution2: "Single Substitution lookup 6" uni0311.case
 EndChar
 StartChar: uni0312
 Encoding: 786 786 786
@@ -9563,6 +9573,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 96 96 N 1 0 0 1 -1026 -1809 2
 EndChar
 StartChar: uni0317
@@ -9571,6 +9582,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 180 180 N 1 0 0 1 -1026 -1809 2
 EndChar
 StartChar: uni031B
@@ -9602,6 +9614,7 @@ Width: 0
 Flags: W
 TeX: 100 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 729 729 N 1 0 0 1 -1024 -1725 2
 EndChar
 StartChar: uni0324
@@ -9610,6 +9623,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 168 168 N 1 0 0 1 -1026 -1725 2
 EndChar
 StartChar: uni0325
@@ -9618,6 +9632,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 730 730 N 1 0 0 1 -1026 -1971 2
 EndChar
 StartChar: uni0326
@@ -9625,6 +9640,7 @@ Encoding: 806 806 806
 Width: 0
 Flags: W
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Fore
 -533.5 -172 m 1,0,-1
  -428 -172 l 1,1,-1
@@ -9653,6 +9669,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 711 711 N 1 0 0 1 -1020 -1812 2
 EndChar
 StartChar: uni032D
@@ -9661,6 +9678,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 710 710 N 1 0 0 1 -1026 -1809 2
 EndChar
 StartChar: uni032E
@@ -9669,6 +9687,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 728 728 N 1 0 0 1 -1032 -1776 2
 EndChar
 StartChar: uni032F
@@ -9677,6 +9696,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Fore
 -207 -458 m 1,0,-1
  -286 -458 l 1,1,2
@@ -9697,6 +9717,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 732 732 N 1 0 0 1 -1026 -1764 2
 EndChar
 StartChar: uni0331
@@ -9705,6 +9726,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 717 717 N 1 0 0 1 -1020 0 2
 EndChar
 StartChar: uni0332
@@ -9713,6 +9735,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 95 95 N 1 0 0 1 -1024 0 2
 EndChar
 StartChar: uni0333
@@ -9721,6 +9744,7 @@ Width: 0
 Flags: W
 TeX: 117 0 0 0
 AnchorPoint: "below" -512 -1 mark 0
+AnchorPoint: "Ligature below" -512 -1 mark 0
 Refer: 8215 8215 N 1 0 0 1 -1024 0 2
 EndChar
 StartChar: uni0334
@@ -11106,7 +11130,7 @@ Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "above" 287 1583 basechar 0
 Refer: 106 106 N 1 0 0 1 0 0 3
-Substitution: 0 65534 'DTLS' dotlessj
+Substitution2: "Single Substitution lookup 7" dotlessj
 EndChar
 StartChar: uni03F4
 Encoding: 1012 1012 1012
@@ -12840,7 +12864,7 @@ Width: 569
 Flags: W
 AnchorPoint: "above" 287 1583 basechar 0
 Refer: 105 105 N 1 0 0 1 0 0 3
-Substitution: 0 65534 'DTLS' dotlessi
+Substitution2: "Single Substitution lookup 7" dotlessi
 EndChar
 StartChar: afii10104
 Encoding: 1111 1111 1111
@@ -12858,7 +12882,7 @@ Width: 569
 Flags: W
 AnchorPoint: "above" 287 1583 basechar 0
 Refer: 106 106 N 1 0 0 1 0 0 3
-Substitution: 0 65534 'DTLS' dotlessj
+Substitution2: "Single Substitution lookup 7" dotlessj
 EndChar
 StartChar: afii10106
 Encoding: 1113 1113 1113
@@ -15432,7 +15456,7 @@ Width: 569
 Flags: W
 Refer: 105 105 N 1 0 0 1 0 0 3
 Refer: 759 759 N 1 0 0 1 -227 0 2
-Substitution: 0 65534 'DTLS' uni1E2D.dotless
+Substitution2: "Single Substitution lookup 7" uni1E2D.dotless
 EndChar
 StartChar: uni1E2E
 Encoding: 7726 7726 7726
@@ -16591,7 +16615,7 @@ Flags: W
 TeX: 117 0 0 0
 Refer: 803 803 N 1 0 0 1 797 0 2
 Refer: 105 105 N 1 0 0 1 0 0 2
-Substitution: 0 65534 'DTLS' uni1ECB.dotless
+Substitution2: "Single Substitution lookup 7" uni1ECB.dotless
 EndChar
 StartChar: uni1ECC
 Encoding: 7884 7884 7884
@@ -19312,8 +19336,8 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 33 33 N 1 0 0 1 -162 0 2
 Refer: 33 33 N 1 0 0 1 335 0 2
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'dlig' exclam exclam
+LCarets2: 1 0 
+Ligature2: "'dlig' Discretionary Ligatures lookup 4" exclam exclam
 EndChar
 StartChar: uni203D
 Encoding: 8253 8253 8253
@@ -19486,8 +19510,8 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 63 63 N 1 0 0 1 -73.5 0 2
 Refer: 63 63 N 1 0 0 1 870.5 0 2
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'dlig' question question
+LCarets2: 1 0 
+Ligature2: "'dlig' Discretionary Ligatures lookup 4" question question
 EndChar
 StartChar: uni2048
 Encoding: 8264 8264 8264
@@ -19496,8 +19520,8 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 63 63 N 1 0 0 1 0 0 2
 Refer: 33 33 N 1 0 0 1 842 0 2
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'dlig' question exclam
+LCarets2: 1 0 
+Ligature2: "'dlig' Discretionary Ligatures lookup 4" question exclam
 EndChar
 StartChar: uni2049
 Encoding: 8265 8265 8265
@@ -19506,8 +19530,8 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 33 33 N 1 0 0 1 -162 0 2
 Refer: 63 63 N 1 0 0 1 410 0 2
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'dlig' exclam question
+LCarets2: 1 0 
+Ligature2: "'dlig' Discretionary Ligatures lookup 4" exclam question
 EndChar
 StartChar: uni204B
 Encoding: 8267 8267 8267
@@ -19912,7 +19936,7 @@ Width: 1949
 Flags: W
 Refer: 176 176 N 1 0 0 1 0 0 2
 Refer: 70 70 N 1 0 0 1 771 0 2
-Ligature: 0 1 'liga' degree F
+Ligature2: "'liga' Standard Ligatures lookup 3" degree F
 EndChar
 StartChar: afii61352
 Encoding: 8470 8470 8470
@@ -20135,9 +20159,9 @@ Flags: W
 Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 821 0 2
 Refer: 179 179 N 1 0 0 1 1163 -668 2
-LCarets: 0 65535 '    ' 2 0 0 
-Ligature: 0 1 'frac' one slash three
-Ligature: 0 1 'frac' one fraction three
+LCarets2: 2 0 0 
+Ligature2: "'frac' Diagonal Fractions lookup 5" one slash three
+Ligature2: "'frac' Diagonal Fractions lookup 5" one fraction three
 EndChar
 StartChar: twothirds
 Encoding: 8532 8532 8532
@@ -20146,9 +20170,9 @@ Flags: W
 Refer: 178 178 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 821 0 2
 Refer: 179 179 N 1 0 0 1 1163 -668 2
-LCarets: 0 65535 '    ' 2 0 0 
-Ligature: 0 1 'frac' two slash three
-Ligature: 0 1 'frac' two fraction three
+LCarets2: 2 0 0 
+Ligature2: "'frac' Diagonal Fractions lookup 5" two slash three
+Ligature2: "'frac' Diagonal Fractions lookup 5" two fraction three
 EndChar
 StartChar: uni215F
 Encoding: 8543 8543 8543
@@ -20156,9 +20180,9 @@ Width: 1163
 Flags: W
 Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 821 0 2
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 1 'frac' one slash
-Ligature: 0 1 'frac' one fraction
+LCarets2: 1 0 
+Ligature2: "'frac' Diagonal Fractions lookup 5" one slash
+Ligature2: "'frac' Diagonal Fractions lookup 5" one fraction
 EndChar
 StartChar: uni2160
 Encoding: 8544 8544 8544
@@ -23032,8 +23056,8 @@ Fore
  438 1556 438 1556 586 1556 c 2,39,-1
  714 1556 l 1,0,-1
 EndSplineSet
-Ligature: 0 2 'liga' f f
-LCarets: 0 65535 '    ' 1 0 
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" f f
+LCarets2: 1 0 
 EndChar
 StartChar: uniFB01
 Encoding: 64257 64257 64257
@@ -23068,8 +23092,8 @@ Fore
  958 1430 l 1,27,-1
  958 1556 l 1,24,-1
 EndSplineSet
-Ligature: 0 2 'liga' f i
-LCarets: 0 65535 '    ' 1 0 
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" f i
+LCarets2: 1 0 
 EndChar
 StartChar: uniFB02
 Encoding: 64258 64258 64258
@@ -23099,8 +23123,8 @@ Fore
  958 0 l 1,23,-1
  958 1478 l 1,0,-1
 EndSplineSet
-Ligature: 0 2 'liga' f l
-LCarets: 0 65535 '    ' 1 0 
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" f l
+LCarets2: 1 0 
 EndChar
 StartChar: uniFB03
 Encoding: 64259 64259 64259
@@ -23149,9 +23173,9 @@ Fore
  1646 1430 l 1,45,-1
  1646 1556 l 1,42,-1
 EndSplineSet
-Ligature: 0 2 'liga' uniFB00 i
-Ligature: 0 2 'liga' f f i
-LCarets: 0 65535 '    ' 2 0 0 
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" uniFB00 i
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" f f i
+LCarets2: 2 0 0 
 EndChar
 StartChar: uniFB04
 Encoding: 64260 64260 64260
@@ -23195,9 +23219,9 @@ Fore
  438 1556 438 1556 586 1556 c 2,41,-1
  714 1556 l 1,0,-1
 EndSplineSet
-Ligature: 0 2 'liga' uniFB00 l
-Ligature: 0 2 'liga' f f l
-LCarets: 0 65535 '    ' 2 0 0 
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" uniFB00 l
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" f f l
+LCarets2: 2 0 0 
 EndChar
 StartChar: uniFB29
 Encoding: 64297 64297 64297
