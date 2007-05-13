@@ -1,7 +1,17 @@
+Changes from 2.16 to 2.17
+
+- Sans fonts: fix position for certain combinations of Arabic fatha, kasra,
+  shadda, damma, kasratan, dammatan, fathatan and hamza (by Ben Laenen)
+- added 'ae.alt' to Serif Oblique fonts, with design matching shape of italic
+  'a' instead of slanted 'a', see bug #8213 (by Denis Jacquerye)
+- added super- and subscripts to Serif and Mono: U+1D2C-U+1D2E, U+1D30-U+1D3C,
+  U+1D3E-U+1D42, U+1D62-U+1D65, U+1D78, U+2071, U+207A-U+207E, U+208A-U+208E,
+  U+2090-U+2094 (by Gee Fung Sit)
+
 Changes from 2.15 to 2.16
 
--  fixed hinting instructions for digits in DejaVu Sans Oblique, Bold Oblique,
-   and Serif Book to not change glyph width (by Eugeniy  Meshcheryakov)
+- fixed hinting instructions for digits in DejaVu Sans Oblique, Bold Oblique,
+  and Serif Book to not change glyph width (by Eugeniy  Meshcheryakov)
 - added instructions for U+0404, U+0411, U+0413, U+0414, U+0417-U+041B, U+041F,
   U+0423, U+0424, U+0426-U+0429, U+042C, U+042E, U+042F, U+0490 in Serif Bold
   (by Eugeniy  Meshcheryakov)
