@@ -21,7 +21,8 @@ for src in *.sfd; do
   echo "$src -> $out"
   sed -e 's,FontName: DejaVu,FontName: DejaVuLGC,'\
       -e 's,FullName: DejaVu,FullName: DejaVu LGC,'\
-      -e 's,FamilyName: DejaVu,FamilyName: DejaVu LGC,' < $src > $out
+      -e 's,FamilyName: DejaVu,FamilyName: DejaVu LGC,'\
+      -e 's,"DejaVu \(\(Sans\|Serif\)*\( Condensed\| Mono\)*\( Bold\)*\( Oblique\)*\)","DejaVu LGC \1",g' < $src > $out
 done
 cd lgc
 echo "Stripping unwanted glyphs"
@@ -39,6 +40,7 @@ while ( i < \$argc )
   SelectMore(0ufe30, 0uffef)
 #  SelectMore(0u10000, 0ueffff)
   Clear()
+
   Save(\$argv[i])
   i++
 endloop
