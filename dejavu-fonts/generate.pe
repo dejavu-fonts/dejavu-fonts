@@ -16,7 +16,7 @@
 def_gen_flags = 0x20 + 0x40 + 0x800
 exp_gen_flags = def_gen_flags + 8
 
-if ($version < "20061014")
+if ($version < "20070501")
   Error("Your version of FontForge is too old - 20061014 or newer is required");
 endif
 # FoundryName is not used in TTF generation
@@ -42,20 +42,7 @@ while ( i < $argc )
     # do not remove ligatures from Arabic
     Select("U+0600", "U+06FF", "U+FB50", "U+FDFF", "U+FE70", "U+FEFF")
     SelectInvert()
-    if ($version < "20070501")
-      RemoveATT("Ligature", "*", "*")
-    else
-      foreach
-        subs = GetPosSub("*");
-	j = 0;
-	while (j < SizeOf(subs))
-	  if (subs[j][1] == "Ligature")
-	    RemovePosSub(subs[j][0])
-	  endif
-	  j++
-	endloop
-      endloop
-    endif
+    RemoveLookup("'liga' Standard Ligatures in Latin lookup 8")
     SelectNone()
   endif
   Generate("generated/" + $fontname + ".ttf", "", gen_flags)
