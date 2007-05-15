@@ -48,7 +48,8 @@ sub process_sfd_file($) {
   my %pos_glyphs_map = ();
 
   while (<SFD>) {
-    next if (/^(WinInfo|DisplaySize|HStem|VStem|NameList|ModificationTime|CreationTime|VWidth):/);
+    next if (/^(WinInfo|DisplaySize|HStem|VStem|ModificationTime|CreationTime|VWidth):/);
+    s,^(NameList:).*$,$1 AGL without afii,;
     s,^Ref:,Refer:,;
     s,^KernsSLIF:,KernsSLIFO:,;
     s,^(Flags:.*?)O(.*)$,$1$2,;
