@@ -41,8 +41,6 @@ Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic - Serbian"  {"'locl' Localized
 Lookup: 1 0 0 "'locl' Localized Forms in Latin - Dinka"  {"'locl' Localized Forms in Latin - Dinka"  } ['locl' ('latn' <'DNK ' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures"  {"'liga' Standard Ligatures"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DNK ' 'GAG ' 'KAZ ' 'KRK ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures - Without dotless i"  {"'liga' Standard Ligatures - Without dotless i"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures lookup 3"  {"'liga' Standard Ligatures lookup 3"  } ['liga' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures lookup 4"  {"'liga' Standard Ligatures lookup 4"  } ['liga' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures"  {"'dlig' Discretionary Ligatures"  } ['dlig' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DNK ' 'GAG ' 'KAZ ' 'KRK ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 7"  {"'dlig' Discretionary Ligatures lookup 7"  } ['dlig' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions"  {"'frac' Diagonal Fractions"  } ['frac' ('DFLT' <'dflt' > ) ]
@@ -3417,7 +3415,6 @@ Fore
  771 1409 771 1409 782 1468 c 0,13,14
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni0308
 EndChar
 StartChar: copyright
 Encoding: 169 169 169
@@ -3672,7 +3669,6 @@ Fore
  355 1548 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni0304
 EndChar
 StartChar: degree
 Encoding: 176 176 176
@@ -3815,7 +3811,6 @@ Fore
  797 1638 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space acutecomb
 EndChar
 StartChar: mu
 Encoding: 181 181 181
@@ -3908,7 +3903,6 @@ Fore
  632.974 0 l 1,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni0327
 EndChar
 StartChar: onesuperior
 Encoding: 185 185 185
@@ -4634,7 +4628,6 @@ Width: 1303
 Flags: W
 Refer: 101 101 N 1 0 0 1 0 0 2
 Refer: 96 96 N 1 0 0 1 139 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" e gravecomb
 EndChar
 StartChar: eacute
 Encoding: 233 233 233
@@ -4642,7 +4635,6 @@ Width: 1303
 Flags: W
 Refer: 101 101 N 1 0 0 1 0 0 2
 Refer: 180 180 N 1 0 0 1 139 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" e acutecomb
 EndChar
 StartChar: ecircumflex
 Encoding: 234 234 234
@@ -4657,7 +4649,6 @@ Width: 1303
 Flags: W
 Refer: 101 101 N 1 0 0 1 0 0 2
 Refer: 168 168 N 1 0 0 1 139 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" e uni0308
 EndChar
 StartChar: igrave
 Encoding: 236 236 236
@@ -4665,7 +4656,6 @@ Width: 778
 Flags: W
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 96 96 N 1 0 0 1 -123 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" i gravecomb
 EndChar
 StartChar: iacute
 Encoding: 237 237 237
@@ -4674,8 +4664,6 @@ Flags: W
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 180 180 N 1 0 0 1 -123 0 2
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 3" i acutecomb
-Ligature2: "'liga' Standard Ligatures lookup 3" uni0456 acutecomb
 EndChar
 StartChar: icircumflex
 Encoding: 238 238 238
@@ -4683,7 +4671,6 @@ Width: 778
 Flags: W
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 710 710 N 1 0 0 1 -123 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" i uni0302
 EndChar
 StartChar: idieresis
 Encoding: 239 239 239
@@ -4691,7 +4678,6 @@ Width: 778
 Flags: W
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 168 168 N 1 0 0 1 -123 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" i uni0308
 EndChar
 StartChar: eth
 Encoding: 240 240 240
@@ -4741,7 +4727,6 @@ Width: 1489
 Flags: W
 Refer: 110 110 N 1 0 0 1 0 0 2
 Refer: 732 732 N 1 0 0 1 215 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" n tildecomb
 EndChar
 StartChar: ograve
 Encoding: 242 242 242
@@ -4749,7 +4734,6 @@ Width: 1366
 Flags: W
 Refer: 111 111 N 1 0 0 1 0 0 2
 Refer: 96 96 N 1 0 0 1 172 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" o gravecomb
 EndChar
 StartChar: oacute
 Encoding: 243 243 243
@@ -4757,7 +4741,6 @@ Width: 1366
 Flags: W
 Refer: 111 111 N 1 0 0 1 0 0 2
 Refer: 180 180 N 1 0 0 1 172 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" o acutecomb
 EndChar
 StartChar: ocircumflex
 Encoding: 244 244 244
@@ -4772,7 +4755,6 @@ Width: 1366
 Flags: W
 Refer: 111 111 N 1 0 0 1 0 0 2
 Refer: 732 732 N 1 0 0 1 172 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" o tildecomb
 EndChar
 StartChar: odieresis
 Encoding: 246 246 246
@@ -4780,7 +4762,6 @@ Width: 1366
 Flags: W
 Refer: 111 111 N 1 0 0 1 0 0 2
 Refer: 168 168 N 1 0 0 1 172 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" o uni0308
 EndChar
 StartChar: divide
 Encoding: 247 247 247
@@ -4871,7 +4852,6 @@ Width: 1489
 Flags: W
 Refer: 117 117 N 1 0 0 1 0 0 2
 Refer: 180 180 N 1 0 0 1 195 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" u acutecomb
 EndChar
 StartChar: ucircumflex
 Encoding: 251 251 251
@@ -4990,7 +4970,6 @@ Width: 1247
 Flags: W
 Refer: 99 99 N 1 0 0 1 0 0 2
 Refer: 180 180 N 1 0 0 1 152 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" c acutecomb
 EndChar
 StartChar: Ccircumflex
 Encoding: 264 264 264
@@ -5619,7 +5598,6 @@ Flags: W
 Refer: 110 110 N 1 0 0 1 487 0 2
 Refer: 700 700 N 1 0 0 1 70 0 2
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 3" uni02BC n
 EndChar
 StartChar: Eng
 Encoding: 330 330 330
@@ -5923,7 +5901,6 @@ Width: 1153
 Flags: W
 Refer: 115 115 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 66 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" s uni030C
 EndChar
 StartChar: Tcommaaccent
 Encoding: 354 354 354
@@ -6179,7 +6156,6 @@ Width: 1163
 Flags: W
 Refer: 122 122 N 1 0 0 1 0 0 2
 Refer: 711 711 N 1 0 0 1 70 0 2
-Ligature2: "'liga' Standard Ligatures lookup 3" z uni030C
 EndChar
 StartChar: longs
 Encoding: 383 383 383
@@ -14496,7 +14472,6 @@ Fore
  321 1440 321 1440 348 1589 c 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni0306
 EndChar
 StartChar: dotaccent
 Encoding: 729 729 729
@@ -14514,7 +14489,6 @@ Fore
  510 1409 510 1409 521 1468 c 0,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni0307
 EndChar
 StartChar: ring
 Encoding: 730 730 730
@@ -14541,7 +14515,6 @@ Fore
  551 1588 551 1588 541 1534 c 0,12,13
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni030A
 EndChar
 StartChar: ogonek
 Encoding: 731 731 731
@@ -14564,7 +14537,6 @@ Fore
  322.346 -173 322.346 -173 363.939 -118.5 c 128,-1,19
  405.533 -64 405.533 -64 482.974 0 c 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni0328
 EndChar
 StartChar: tilde
 Encoding: 732 732 732
@@ -14596,7 +14568,6 @@ Fore
  274 1309 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space tildecomb
 EndChar
 StartChar: hungarumlaut
 Encoding: 733 733 733
@@ -14618,7 +14589,6 @@ Fore
  561 1638 l 1,4,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" space uni030B
 EndChar
 StartChar: uni02DE
 Encoding: 734 734 734
@@ -33430,7 +33400,6 @@ TeX: 117 0 0 0
 Refer: 8747 8747 N 1 0 0 1 800 0 2
 Refer: 8747 8747 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" integral integral
 EndChar
 StartChar: uni222D
 Encoding: 8749 8749 8749
@@ -33441,7 +33410,6 @@ Refer: 8747 8747 N 1 0 0 1 1600 0 2
 Refer: 8747 8747 N 1 0 0 1 800 0 2
 Refer: 8747 8747 N 1 0 0 1 0 0 2
 LCarets2: 2 0 0 
-Ligature2: "'liga' Standard Ligatures lookup 4" integral integral integral
 EndChar
 StartChar: uni2242
 Encoding: 8770 8770 8770
@@ -33583,7 +33551,6 @@ Fore
  217 756 l 1,19,-1
  217 983 l 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 4" equal uni0338
 EndChar
 StartChar: equivalence
 Encoding: 8801 8801 8801
