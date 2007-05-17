@@ -42,7 +42,6 @@ Lookup: 1 0 0 "'locl' Localized Forms in Latin - Dinka"  {"'locl' Localized Form
 Lookup: 4 0 1 "'liga' Standard Ligatures"  {"'liga' Standard Ligatures"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DNK ' 'GAG ' 'KAZ ' 'KRK ' 'TAT ' 'TUR ' 'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures - Without dotless i"  {"'liga' Standard Ligatures - Without dotless i"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures"  {"'dlig' Discretionary Ligatures"  } ['dlig' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DNK ' 'GAG ' 'KAZ ' 'KRK ' 'TAT ' 'TRK ' 'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 7"  {"'dlig' Discretionary Ligatures lookup 7"  } ['dlig' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions"  {"'frac' Diagonal Fractions"  } ['frac' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution - Case Form"  {"Single Substitution - Case Form"  } []
 Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
@@ -31337,7 +31336,6 @@ Fore
  285 -29 285 -29 247 9.5 c 128,-1,35
  209 48 209 48 209 104 c 0,24,25
 EndSplineSet
-Ligature2: "'dlig' Discretionary Ligatures lookup 7" period period
 LCarets2: 1 0 
 EndChar
 StartChar: ellipsis
@@ -31376,7 +31374,6 @@ Fore
  285 -29 285 -29 247 9.5 c 128,-1,35
  209 48 209 48 209 104 c 0,24,25
 EndSplineSet
-Ligature2: "'dlig' Discretionary Ligatures lookup 7" period period period
 LCarets2: 2 0 0 
 EndChar
 StartChar: uni202A
@@ -31617,7 +31614,6 @@ TeX: 0 0 0 0
 Refer: 33 33 N 1 0 0 1 -140 0 2
 Refer: 33 33 N 1 0 0 1 396 0 2
 LCarets2: 1 0 
-Ligature2: "'dlig' Discretionary Ligatures lookup 7" exclam exclam
 EndChar
 StartChar: uni203D
 Encoding: 8253 8253 8253
@@ -31672,7 +31668,6 @@ TeX: 0 0 0 0
 Refer: 63 63 N 1 0 0 1 -69.5 0 2
 Refer: 63 63 N 1 0 0 1 929.5 0 2
 LCarets2: 1 0 
-Ligature2: "'dlig' Discretionary Ligatures lookup 7" question question
 EndChar
 StartChar: uni2048
 Encoding: 8264 8264 8264
@@ -31682,7 +31677,6 @@ TeX: 0 0 0 0
 Refer: 63 63 N 1 0 0 1 0 0 2
 Refer: 33 33 N 1 0 0 1 859 0 2
 LCarets2: 1 0 
-Ligature2: "'dlig' Discretionary Ligatures lookup 7" question exclam
 EndChar
 StartChar: uni2049
 Encoding: 8265 8265 8265
@@ -31692,7 +31686,6 @@ TeX: 0 0 0 0
 Refer: 33 33 N 1 0 0 1 -140 0 2
 Refer: 63 63 N 1 0 0 1 405 0 2
 LCarets2: 1 0 
-Ligature2: "'dlig' Discretionary Ligatures lookup 7" question exclam
 EndChar
 StartChar: uni205F
 Encoding: 8287 8287 8287
