@@ -62,15 +62,13 @@ Lookup: 1 0 0 "Single Substitution lookup 22"  {"Single Substitution lookup 22" 
 Lookup: 1 0 0 "Single Substitution lookup 23"  {"Single Substitution lookup 23"  } []
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 0"  {"'mkmk' Mark to Mark in Lao lookup 0"  } ['mkmk' ('lao ' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 1"  {"'mkmk' Mark to Mark in Lao lookup 1"  } ['mkmk' ('lao ' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 2"  {"'mkmk' Mark to Mark lookup 2"  } ['mkmk' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 3"  {"'mkmk' Mark to Mark lookup 3"  } ['mkmk' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Basic"  {"'mkmk' below-mark"  "'mkmk' above-mark"  } ['mkmk' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 4"  {"'mark' Mark Positioning lookup 4"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 5"  {"'mark' Mark Positioning lookup 5"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 7"  {"'mark' Mark Positioning in Lao lookup 7"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 8"  {"'mark' Mark Positioning in Lao lookup 8"  } ['mark' ('lao ' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 9"  {"'mark' Mark Positioning lookup 9"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 10"  {"'mark' Mark Positioning lookup 10"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'DNK ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 11"  {"'kern' Horizontal Kerning in Latin lookup 11"  } ['kern' ('latn' <'DNK ' 'dflt' > ) ]
 KernClass2: 38 50 "'kern' Horizontal Kerning in Latin lookup 11" 
  14 hyphen uni2010
@@ -245,7 +243,7 @@ UnicodeInterp: none
 NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
-AnchorClass2: "above"  "'mark' Mark Positioning lookup 10" "below"  "'mark' Mark Positioning lookup 9" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' Mark to Mark lookup 3" "below-mark"  "'mkmk' Mark to Mark lookup 2" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
+AnchorClass2: "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
 BeginChars: 1114166 0
 StartChar: .notdef
 Encoding: 0 -1 0

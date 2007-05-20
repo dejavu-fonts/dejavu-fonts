@@ -56,12 +56,11 @@ Lookup: 1 0 0 "Single Substitution lookup 6"  {"Single Substitution lookup 6"  }
 Lookup: 1 0 0 "Single Substitution lookup 7"  {"Single Substitution lookup 7"  } []
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 2"  {"'mkmk' Mark to Mark lookup 2"  } ['mkmk' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Basic"  {"'mkmk' above-mark"  } ['mkmk' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 3"  {"'mark' Mark Positioning in Arabic lookup 3"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 4"  {"'mark' Mark Positioning in Arabic lookup 4"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 261 0 0 "'mark' Mark Positioning lookup 5"  {"'mark' Mark Positioning lookup 5"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 7"  {"'mark' Mark Positioning lookup 7"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 8"  {"'kern' Horizontal Kerning in Latin lookup 8"  } ['kern' ('latn' <'dflt' > ) ]
 KernClass2: 47 57 "'kern' Horizontal Kerning in Latin lookup 8" 
  236 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni01DE uni01E0 Aringacute uni0200 uni0202 uni0226 uni1E00 uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6
@@ -244,7 +243,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "above"  "'mark' Mark Positioning lookup 7" "below"  "'mark' Mark Positioning lookup 6" "Ligature below"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 3" "above-mark"  "'mkmk' Mark to Mark lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
+AnchorClass2: "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 3" "above-mark"  "'mkmk' above-mark" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
 BeginChars: 1114129 0
 StartChar: .notdef
 Encoding: 0 -1 0
