@@ -5,5 +5,8 @@
 set -e 
 
 test -d generated || mkdir generated
-./generate.pe *.sfd
+for srcfile in *.sfd
+do 
+    ./generate.pe $srcfile
+done
 ./ttpostproc.pl generated/*.ttf
