@@ -22,7 +22,7 @@ for src in *.sfd; do
   sed -e 's,FontName: DejaVu,FontName: DejaVuLGC,'\
       -e 's,FullName: DejaVu,FullName: DejaVu LGC,'\
       -e 's,FamilyName: DejaVu,FamilyName: DejaVu LGC,'\
-      -e 's,"DejaVu \(\(Sans\|Serif\)*\( Condensed\| Mono\)*\( Bold\)*\( Oblique\)*\)","DejaVu LGC \1",g' < $src > $out
+      -e 's,"DejaVu \(\(Sans\|Serif\)*\( Condensed\| Mono\)*\( Bold\)*\( Oblique\|Italic\)*\)","DejaVu LGC \1",g' < $src > $out
 done
 cd lgc
 echo "Stripping unwanted glyphs"
