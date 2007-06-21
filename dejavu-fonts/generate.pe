@@ -46,5 +46,6 @@ while ( i < $argc )
     SelectNone()
   endif
   Generate("generated/" + $fontname + ".ttf", "", gen_flags)
+  Close()
   i++
 endloop
