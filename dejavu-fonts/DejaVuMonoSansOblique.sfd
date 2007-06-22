@@ -37,8 +37,9 @@ HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0"  {"'locl' Localized Forms in Cyrillic lookup 0"  } ['locl' ('cyrl' <'SRB ' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 8"  {"'liga' Standard Ligatures in Latin lookup 8"  } ['liga' ('latn' <'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 3"  {"'dlig' Discretionary Ligatures in Latin lookup 3"  } ['dlig' ('latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0"  {"'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 8"  {"'liga' Standard Ligatures in Latin lookup 8"  } ['liga' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 3"  {"'dlig' Discretionary Ligatures in Latin lookup 3"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 4"  {"'frac' Diagonal Fractions lookup 4"  } ['frac' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 TtfTable: prep 1262
@@ -210,7 +211,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
-BeginChars: 1114133 0
+BeginChars: 1114134 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -5735,24 +5736,31 @@ Encoding: 330 330 330
 Width: 1233
 Flags: W
 Fore
-295 1493 m 1,0,-1
- 480 1493 l 1,1,-1
- 825 364 l 1,2,-1
- 1045 1493 l 1,3,-1
- 1230 1493 l 1,4,-1
- 935 -20 l 2,5,6
- 898 -215 898 -215 788 -320 c 128,-1,7
- 677.5 -426 677.5 -426 512.5 -426 c 2,8,-1
- 307.5 -426 l 1,9,-1
- 337.5 -270 l 1,10,-1
- 522.5 -270 l 2,11,12
- 612.5 -270 612.5 -270 669.5 -208 c 128,-1,13
- 731 -136 731 -136 754 0 c 1,6,-1
- 409 1129 l 1,7,-1
- 189 0 l 1,8,-1
- 4 0 l 1,9,-1
- 295 1493 l 1,0,-1
+974.592 -20 m 18,30,-1
+ 936.688 -215 936.688 -215 827.278 -320 c 0,2,3
+ 716.674 -426 716.674 -426 551.674 -426 c 2,4,-1
+ 346.674 -426 l 1,5,-1
+ 376.997 -270 l 1,6,-1
+ 543.997 -270 l 2,7,8
+ 633.997 -270 633.997 -270 691.049 -208 c 0,9,10
+ 747.1 -146 747.1 -146 775.479 0 c 10,11,-1
+ 971.674 1009.33 l 18,12,13
+ 1006.6 1189.02 1006.6 1189.02 965.024 1273.51 c 128,-1,14
+ 923.448 1358 923.448 1358 799.448 1358 c 0,15,16
+ 658.448 1358 658.448 1358 561.284 1249.12 c 128,-1,17
+ 464.118 1140.23 464.118 1140.23 424.563 936.74 c 2,18,-1
+ 242.479 0 l 1,19,-1
+ 40.4795 0 l 1,20,-1
+ 330.689 1493 l 1,21,-1
+ 532.689 1493 l 1,22,-1
+ 494.29 1295.45 l 1,23,24
+ 569.749 1405.85 569.749 1405.85 673.037 1463.92 c 128,-1,25
+ 776.326 1522 776.326 1522 902.326 1522 c 0,26,27
+ 1089.33 1522 1089.33 1522 1156.45 1391.47 c 128,-1,28
+ 1223.58 1260.95 1223.58 1260.95 1172.62 998.75 c 10,29,-1
+ 974.592 -20 l 18,30,-1
 EndSplineSet
+Substitution2: "'locl' Localized Forms in Latin lookup 0-1" Eng.alt
 EndChar
 StartChar: eng
 Encoding: 331 331 331
@@ -48710,6 +48718,31 @@ Fore
  913 1350 l 1,6,-1
  711 1350 l 1,7,-1
  711 1552 l 1,4,-1
+EndSplineSet
+EndChar
+StartChar: Eng.alt
+Encoding: 1114133 -1 1114133
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+Fore
+295 1493 m 1,0,-1
+ 480 1493 l 1,1,-1
+ 825 364 l 1,2,-1
+ 1045 1493 l 1,3,-1
+ 1230 1493 l 1,4,-1
+ 935 -20 l 2,5,6
+ 898 -215 898 -215 788 -320 c 128,-1,7
+ 677.5 -426 677.5 -426 512.5 -426 c 2,8,-1
+ 307.5 -426 l 1,9,-1
+ 337.5 -270 l 1,10,-1
+ 522.5 -270 l 2,11,12
+ 612.5 -270 612.5 -270 669.5 -208 c 128,-1,13
+ 731 -136 731 -136 754 0 c 1,6,-1
+ 409 1129 l 1,7,-1
+ 189 0 l 1,8,-1
+ 4 0 l 1,9,-1
+ 295 1493 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars

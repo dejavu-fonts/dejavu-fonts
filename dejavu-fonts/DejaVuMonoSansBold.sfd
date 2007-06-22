@@ -36,6 +36,7 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0"  {"'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0"  {"'locl' Localized Forms in Cyrillic lookup 0"  } ['locl' ('cyrl' <'SRB ' > ) ]
 Lookup: 1 9 0 "'isol' Isolated Forms in Arabic lookup 1"  {"'isol' Isolated Forms in Arabic lookup 1"  } ['isol' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 2"  {"'fina' Terminal Forms in Arabic lookup 2"  } ['fina' ('arab' <'dflt' > ) ]
@@ -43,8 +44,8 @@ Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 3"  {"'medi' Medial Forms in
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 4"  {"'init' Initial Forms in Arabic lookup 4"  } ['init' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 5"  {"'rlig' Required Ligatures in Arabic lookup 5"  } ['rlig' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 6"  {"'liga' Standard Ligatures in Arabic lookup 6"  } ['liga' ('arab' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 8"  {"'liga' Standard Ligatures in Latin lookup 8"  } ['liga' ('latn' <'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 9"  {"'dlig' Discretionary Ligatures in Latin lookup 9"  } ['dlig' ('latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 8"  {"'liga' Standard Ligatures in Latin lookup 8"  } ['liga' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 9"  {"'dlig' Discretionary Ligatures in Latin lookup 9"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 10"  {"'frac' Diagonal Fractions lookup 10"  } ['frac' ('DFLT' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
@@ -52,9 +53,9 @@ Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 2"  {"'mark' Mark Posi
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 3"  {"'mark' Mark Positioning in Arabic lookup 3"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 4"  {"'mark' Mark Positioning in Arabic lookup 4"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 5"  {"'mark' Mark Positioning in Arabic lookup 5"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 7"  {"'mark' Mark Positioning lookup 7"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 257 0 0 "'mark' Mark Positioning lookup 8"  {"'mark' Mark Positioning lookup 8"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 7"  {"'mark' Mark Positioning lookup 7"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 257 0 0 "'mark' Mark Positioning lookup 8"  {"'mark' Mark Positioning lookup 8"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 TtfTable: prep 1272
 \,q1GFM@_V]=S0V]*#V?"1S+/[^AU/[^uXL7g$+R"1+9qZ8)NeA-9'%"0\j@"g;\DXqLo='*G<7
@@ -224,7 +225,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' Mark Positioning lookup 7" "below"  "'mark' Mark Positioning lookup 6" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114147 0
+BeginChars: 1114148 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -5736,29 +5737,37 @@ StartChar: Eng
 Encoding: 330 330 330
 Width: 1233
 Flags: W
-TtfInstrs: 64
-5T^O<!W`?5&.^&u!WrF5&drXc&ciOG-49qu&1.At'+k*.r5@q63ACLeeEdb-1-%?K92ept&-U)[
-&-U*X
+TtfInstrs: 50
+5TCUS$igDF%r`J*(1\-bE!@$^$kE=[',M/p*?Gdaln\M*`%_6FeEdb-o^!/+3A:F5
 EndTtf
+AnchorPoint: "above" 616 1493 basechar 0
+AnchorPoint: "below" 616 0 basechar 0
 Fore
-108 1493 m 1,0,-1
- 379 1493 l 1,1,-1
- 852 458 l 1,2,-1
- 852 1493 l 1,3,-1
- 1124 1493 l 1,4,-1
- 1124 60 l 1,5,6
- 1124 -206.5 1124 -206.5 1032 -316 c 0,7,8
- 940 -424 940 -424 732 -424 c 2,9,-1
- 611 -424 l 1,10,-1
- 611 -199 l 1,11,-1
- 650 -199 l 2,12,13
- 750 -199 750 -199 791 -144 c 128,-1,14
- 832 -89 832 -89 832 43.5 c 1,15,-1
- 379 1035 l 1,16,-1
- 379 0 l 1,17,-1
- 108 0 l 1,18,-1
- 108 1493 l 1,0,-1
+1125 942 m 10,0,-1
+ 1125 58 l 18,1,2
+ 1125 -208 1125 -208 1033 -318 c 0,3,4
+ 941 -426 941 -426 733 -426 c 2,5,-1
+ 612 -426 l 1,6,-1
+ 612 -199 l 1,7,-1
+ 649 -199 l 2,8,9
+ 749 -199 749 -199 790 -144 c 128,-1,10
+ 831 -89 831 -89 831 44 c 10,11,-1
+ 831 1015 l 18,12,13
+ 831 1144 831 1144 784 1199.5 c 128,-1,14
+ 737 1255 737 1255 631 1255 c 0,15,16
+ 522 1255 522 1255 463 1180 c 0,17,18
+ 401 1102 401 1102 401 972 c 2,19,-1
+ 401 0 l 1,20,-1
+ 106 0 l 1,21,-1
+ 106 1493 l 1,22,-1
+ 401 1493 l 1,23,-1
+ 401 1253 l 1,24,25
+ 438 1381 438 1381 527.5 1451.5 c 128,-1,26
+ 617 1522 617 1522 743 1522 c 0,27,28
+ 932 1522 932 1522 1028.5 1376.5 c 128,-1,29
+ 1125 1231 1125 1231 1125 942 c 10,0,-1
 EndSplineSet
+Substitution2: "'locl' Localized Forms in Latin lookup 0-1" Eng.alt
 EndChar
 StartChar: eng
 Encoding: 331 331 331
@@ -8767,6 +8776,33 @@ Flags: W
 TeX: 0 0 0 0
 Refer: 1114119 -1 N 1 0 0 1 0 373 2
 Refer: 104 104 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni0220
+Encoding: 544 544 544
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+AnchorPoint: "above" 616 1493 basechar 0
+AnchorPoint: "below" 616 0 basechar 0
+Fore
+1125 942 m 2,0,-1
+ 1125 -426 l 1,1,-1
+ 831 -426 l 1,2,-1
+ 831 1015 l 2,3,4
+ 831 1144 831 1144 784 1199.5 c 128,-1,5
+ 737 1255 737 1255 631 1255 c 0,6,7
+ 522 1255 522 1255 463 1180 c 0,8,9
+ 401 1102 401 1102 401 972 c 2,10,-1
+ 401 0 l 1,11,-1
+ 106 0 l 1,12,-1
+ 106 1493 l 1,13,-1
+ 401 1493 l 1,14,-1
+ 401 1253 l 1,15,16
+ 438 1381 438 1381 527.5 1451.5 c 128,-1,17
+ 617 1522 617 1522 743 1522 c 0,18,19
+ 932 1522 932 1522 1028.5 1376.5 c 128,-1,20
+ 1125 1231 1125 1231 1125 942 c 2,0,-1
+EndSplineSet
 EndChar
 StartChar: uni0221
 Encoding: 545 545 545
@@ -65878,6 +65914,35 @@ Fore
  127 439 127 439 219 439 c 128,-1,22
  311 439 311 439 375 376 c 0,23,24
  438 312 438 312 438 220 c 128,-1,13
+EndSplineSet
+EndChar
+StartChar: Eng.alt
+Encoding: 1114147 -1 1114147
+Width: 1233
+Flags: W
+TeX: 0 0 0 0
+TtfInstrs: 64
+5T^O<!W`?5&.^&u!WrF5&drXc&ciOG-49qu&1.At'+k*.r5@q63ACLeeEdb-1-%?K92ept&-U)[
+&-U*X
+EndTtf
+Fore
+108 1493 m 1,0,-1
+ 379 1493 l 1,1,-1
+ 852 458 l 1,2,-1
+ 852 1493 l 1,3,-1
+ 1124 1493 l 1,4,-1
+ 1124 60 l 1,5,6
+ 1124 -206.5 1124 -206.5 1032 -316 c 0,7,8
+ 940 -424 940 -424 732 -424 c 2,9,-1
+ 611 -424 l 1,10,-1
+ 611 -199 l 1,11,-1
+ 650 -199 l 2,12,13
+ 750 -199 750 -199 791 -144 c 128,-1,14
+ 832 -89 832 -89 832 43.5 c 1,15,-1
+ 379 1035 l 1,16,-1
+ 379 0 l 1,17,-1
+ 108 0 l 1,18,-1
+ 108 1493 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
