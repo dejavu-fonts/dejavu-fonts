@@ -161,10 +161,10 @@ sub print_status_file(\%) {
   my ($parsed_ref) = @_;
   
   print @{$$parsed_ref{'_'}};
-  foreach $hex_enc (sort keys %{$parsed_ref}) {
+  foreach $hex_enc (sort {hex($a) <=> hex($b)} keys %{$parsed_ref}) {
     next if ($hex_enc eq '_');
     my ($versions) = format_versions (%{$$parsed_ref{$hex_enc}{'versions'}});
-    printf ('U+%04s %-'.$name_width.'s %s'."\n", $hex_enc, $$parsed_ref{$hex_enc}{'name'}, $versions);
+    printf ('U+%04x %-'.$name_width.'s %s'."\n", hex($hex_enc), $$parsed_ref{$hex_enc}{'name'}, $versions);
   }
 }
 
