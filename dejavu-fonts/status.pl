@@ -161,9 +161,8 @@ sub print_status_file(\%) {
   my ($parsed_ref) = @_;
   
   print @{$$parsed_ref{'_'}};
-  # do numeric sort but ignore '_'
-  foreach $hex_enc (sort {($a eq '_' || $b eq '_') ? 0 : hex($a) <=> hex($b)} keys %{$parsed_ref}) {
-    next if ($hex_enc eq '_');
+  delete $$parsed_ref{'_'};
+  foreach $hex_enc (sort {hex($a) <=> hex($b)} keys %{$parsed_ref}) {
     my ($versions) = format_versions (%{$$parsed_ref{$hex_enc}{'versions'}});
     printf ('U+%s %-'.$name_width.'s %s'."\n", $hex_enc, $$parsed_ref{$hex_enc}{'name'}, $versions);
   }
