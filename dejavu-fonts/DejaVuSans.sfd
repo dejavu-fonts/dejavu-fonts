@@ -36,8 +36,8 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 6 1 0 "'ccmp' Glyph Composition/Decomposition lookup 0"  {"'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 1"  {"'ccmp' Glyph Composition/Decomposition lookup 1"  } ['ccmp' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 6 1 0 "'ccmp' in RTL"  {"'ccmp' in RTL"  } ['ccmp' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' in Basic"  {"'ccmp' in Basic"  } ['ccmp' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  {"'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 3"  {"'locl' Localized Forms in Cyrillic lookup 3"  } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 4"  {"'locl' Localized Forms in Latin lookup 4"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
@@ -76,7 +76,7 @@ Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark 
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 2"  {"'mkmk' Mark to Mark in Lao lookup 2"  } ['mkmk' ('lao ' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 3"  {"'mkmk' Mark to Mark in Lao lookup 3"  } ['mkmk' ('lao ' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark in Basic"  {"'mkmk' below-mark"  "'mkmk' above-mark"  } ['mkmk' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 262 4 0 "'mkmk' Mark to Mark in Basic"  {"'mkmk' below-mark"  "'mkmk' above-mark"  } ['mkmk' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 7"  {"'mark' Mark Positioning lookup 7"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 8"  {"'mark' Mark Positioning lookup 8"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
@@ -85,8 +85,13 @@ Lookup: 260 1 0 "'mark' Mark Positioning lookup 10"  {"'mark' Mark Positioning l
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 11"  {"'mark' Mark Positioning in Lao lookup 11"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 12"  {"'mark' Mark Positioning in Lao lookup 12"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 261 0 0 "'mark' Mark to Ligature in Basic"  {"'mark' Ligature below"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > 'tfng' <'dflt' > ) ]
+Lookup: 260 4 0 "'mark' Mark to Base in Basic"  {"'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > 'tfng' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 16"  {"'kern' Horizontal Kerning in Latin lookup 16"  } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+MarkAttachClasses: 5
+"above" 307 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0352 uni0357
+"below" 300 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
+"cedilla" 7 uni0327
+"ogonek" 7 uni0328
 KernClass2: 53 80 "'kern' Horizontal Kerning in Latin lookup 16" 
  6 hyphen
  1 A
@@ -220,20 +225,35 @@ KernClass2: 53 80 "'kern' Horizontal Kerning in Latin lookup 16"
  13 quotedblright
  12 quotedblbase
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -73 {} 0 {} 0 {} 0 {} 75 {} 114 {} 57 {} 75 {} 0 {} -188 {} 0 {} -120 {} -83 {} -102 {} -243 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} -36 {} -36 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} -36 {} -36 {} -159 {} 0 {} -159 {} -139 {} -83 {} -112 {} -264 {} -253 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 0 {} -63 {} -73 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -73 {} 0 {} -112 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -112 {} -112 {} -83 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} -45 {} -55 {} -188 {} 0 {} 0 {} -329 {} -159 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} -112 {} 0 {} 0 {} -149 {} 0 {} 0 {} -73 {} -149 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} -188 {} -112 {} 0 {} -73 {} -112 {} -188 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} -149 {} -73 {} 0 {} -36 {} -36 {} -112 {} 0 {} 0 {} 0 {} -188 {} 0 {} -73 {} -36 {} -73 {} 0 {} -188 {} 0 {} 0 {} -45 {} 0 {} -376 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -45 {} -55 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -63 {} -73 {} 0 {} -73 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -63 {} -112 {} 0 {} -215 {} 0 {} 0 {} -36 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} -159 {} -55 {} 0 {} -73 {} 0 {} -73 {} 0 {} -36 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} -149 {} -131 {} 0 {} 0 {} -112 {} -36 {} -102 {} 0 {} -102 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} -63 {} 0 {} 0 {} -36 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} -282 {} -102 {} -225 {} -188 {} 0 {} -272 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -415 {} -538 {} 0 {} 0 {} 57 {} -83 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -131 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -188 {} 0 {} -45 {} -319 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -92 {} 0 {} 0 {} -73 {} 0 {} 0 {} -45 {} 0 {} -36 {} -73 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -92 {} -73 {} 0 {} -73 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 38 {} -329 {} 0 {} 57 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -131 {} 0 {} -83 {} -73 {} -63 {} -83 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} -112 {} -83 {} 0 {} -131 {} 0 {} -45 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} -112 {} -112 {} -36 {} 0 {} -102 {} -45 {} -92 {} 0 {} -92 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} -131 {} -36 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} -243 {} -225 {} -159 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -339 {} -348 {} 0 {} -348 {} 0 {} 0 {} -63 {} 0 {} 0 {} -348 {} -301 {} -339 {} 0 {} -311 {} 0 {} -339 {} 0 {} -319 {} -188 {} -112 {} 0 {} -120 {} -239 {} -288 {} 0 {} -268 {} -281 {} 0 {} 0 {} -348 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} -264 {} -167 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} -159 {} 0 {} 0 {} -45 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} -139 {} 0 {} 0 {} 0 {} -55 {} -178 {} -112 {} 0 {} 0 {} -159 {} -159 {} 0 {} -159 {} -139 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -282 {} 0 {} -83 {} -235 {} -120 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -120 {} 0 {} 0 {} -45 {} 0 {} 0 {} -120 {} -92 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -36 {} -112 {} -36 {} 0 {} 0 {} -131 {} -120 {} 0 {} -120 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -264 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} -149 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} -83 {} -45 {} 0 {} -243 {} -415 {} -272 {} -159 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -282 {} 0 {} 0 {} -272 {} 0 {} 0 {} -73 {} 0 {} 0 {} -272 {} 0 {} 0 {} 0 {} -235 {} 0 {} 0 {} 0 {} 0 {} -225 {} -149 {} 0 {} -112 {} -282 {} -272 {} 0 {} -272 {} -235 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -36 {} -264 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -149 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -73 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 65 {} 0 {} -235 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} -73 {} 0 {} -73 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} -112 {} -92 {} 0 {} 38 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} -73 {} -131 {} 0 {} -131 {} -188 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -45 {} 0 {} -36 {} 0 {} 0 {} -36 {} -45 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -45 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 72 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 86 {} -311 {} 0 {} -55 {} -159 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -272 {} 0 {} 0 {} -188 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -215 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} -63 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -292 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} -112 {} 0 {} -112 {} -36 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 151 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} -188 {} 0 {} -178 {} -112 {} -112 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -264 {} -253 {} 47 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -112 {} -264 {} -253 {} 47 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -264 {} -253 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -83 {} -92 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} -149 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -188 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -112 {} -83 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} -112 {} -73 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -112 {} -264 {} -254 {} 47 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -112 {} -264 {} -254 {} 47 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -55 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -193 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} -188 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -45 {} 0 {} -36 {} 0 {} 0 {} -36 {} -45 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -45 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 86 {} -311 {} 0 {} -188 {} -243 {} -225 {} -159 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -339 {} -348 {} 0 {} -348 {} 0 {} 0 {} -63 {} 0 {} 0 {} -348 {} -301 {} -339 {} 0 {} -311 {} 0 {} -339 {} 0 {} -319 {} -188 {} -112 {} 0 {} -120 {} -339 {} -348 {} 0 {} -348 {} -311 {} 0 {} 0 {} -348 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -264 {} 0 {} 0 {} 0 {} 0 {} -45 {} -73 {} 0 {} 0 {} 0 {} 75 {} 114 {} 57 {} 75 {} 0 {} -188 {} 0 {} -120 {} -83 {} -102 {} -243 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} -63 {} -73 {} -63 {} -63 {} -73 {} -63 {} -73 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -112 {} -149 {} -112 {} 0 {} 0 {} 0 {} -73 {} -73 {} 0 {} -73 {} 0 {} 0 {} -387 {} -73 {} 0 {} 0 {} -73 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} -73 {} -112 {} -73 {} -73 {} -73 {} 47 {} -112 {} -112 {} 0 {} -282 {} 0 {} -376 {} -253 {} -73 {} -376 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -73 {} -73 {} -73 {} 0 {} 0 {} 0 {} -235 {} -196 {} 0 {} -112 {} 0 {} 0 {} 38 {} -112 {} 0 {} 0 {} -73 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 1"  4 4 4 2
+ChainSub2: class "'ccmp' in Basic"  5 5 5 6
   Class: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   Class: 363 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0352 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
   Class: 1055 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
+  Class: 316 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
   BClass: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   BClass: 363 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0352 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
   BClass: 1055 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
+  BClass: 316 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
   FClass: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   FClass: 363 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0352 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
   FClass: 1055 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D0 uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
+  FClass: 316 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
  1 0 1
   ClsList: 1
   BClsList:
   FClsList: 2
+ 1
+  SeqLookup: 0 "Single Substitution - Dotless Form" 
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 4 2
+ 1
+  SeqLookup: 0 "Single Substitution - Dotless Form" 
+ 1 0 3
+  ClsList: 1
+  BClsList:
+  FClsList: 4 4 2
  1
   SeqLookup: 0 "Single Substitution - Dotless Form" 
  1 1 0
@@ -242,8 +262,20 @@ ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 1"  4 4 4 2
   FClsList:
  1
   SeqLookup: 0 "Single Substitution - Case Form" 
+ 1 2 0
+  ClsList: 2
+  BClsList: 4 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution - Case Form" 
+ 1 3 0
+  ClsList: 2
+  BClsList: 4 4 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution - Case Form" 
 EndFPST
-ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0"  3 0 3 1
+ChainSub2: class "'ccmp' in RTL"  3 0 3 1
   Class: 7 uni05E2
   Class: 95 uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7
   FClass: 7 uni05E2
@@ -307,7 +339,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 TeXData: 1 0 0 333312 166656 111104 573440 -1048576 111104 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Ligature below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
+AnchorClass2: "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Ligature below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
 BeginChars: 1114316 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -1321,6 +1353,7 @@ TtfInstrs: 194
 !<HIk64X)-!Y5MH#S-o;!-S?]!/pma#6>)3"p5/7(',9S<WQ;(:^gt;BEEDZFom$nEWgRkGR0'*
 L]W)8Qi`ZXQ38"0!*oR)
 EndTtf
+AnchorPoint: "cedilla" 1279 0 basechar 0
 AnchorPoint: "below" 700 0 basechar 0
 AnchorPoint: "above" 700 1520 basechar 0
 Fore
@@ -1387,6 +1420,7 @@ Flags: W
 TtfInstrs: 54
 5T1**%^$/(&HSR*Xot"+OV*Nj#8msN0GG':&H(lMlnJJOjRhg2lk&UYmP)!Y)]p"#!F5[*
 EndTtf
+AnchorPoint: "cedilla" 844 0 basechar 0
 AnchorPoint: "below" 844 0 basechar 0
 AnchorPoint: "above" 844 1520 basechar 0
 Fore
@@ -1446,6 +1480,7 @@ Flags: W
 TtfInstrs: 46
 5SXKg"9OhgJI%MDXU544#mUPP!!E]Ar9Q2g`5FA10C8&tlk&S=Z6'MV!F5[*
 EndTtf
+AnchorPoint: "cedilla" 670 0 basechar 0
 AnchorPoint: "below" 670 0 basechar 0
 AnchorPoint: "above" 670 1520 basechar 0
 Fore
@@ -1554,6 +1589,7 @@ Flags: W
 TtfInstrs: 46
 [fET5!?;(B";(K(YRjc9\GuU05WDp50`Wln0EFEJ0Ej]F:^(51Ns2-Z#$h3/
 EndTtf
+AnchorPoint: "cedilla" 303 0 basechar 0
 AnchorPoint: "below" 303 0 basechar 0
 AnchorPoint: "above" 303 1520 basechar 0
 Fore
@@ -1699,6 +1735,7 @@ Flags: W
 TtfInstrs: 35
 5SF?e&ce1*OV3Ti#oO70!uVgb(_HW3r9Q-<&ENKM&FM4P
 EndTtf
+AnchorPoint: "cedilla" 807 0 basechar 0
 AnchorPoint: "below" 807 0 basechar 0
 AnchorPoint: "above" 807 1520 basechar 0
 Fore
@@ -1836,6 +1873,7 @@ TtfInstrs: 126
 +t+#X`9dEgj:N"b3B9)S!"e5`jQmHGp?iL3&JmG]92ept&.\(>(HD^3%daiE3E[Q3%k.M[?+(h(
 0.B[G"'km,
 EndTtf
+AnchorPoint: "cedilla" 674 0 basechar 0
 AnchorPoint: "below" 659 0 basechar 0
 AnchorPoint: "above" 659 1520 basechar 0
 Fore
@@ -1900,6 +1938,7 @@ TtfInstrs: 64
 5SaV,&ISRBPn&`Z!.bag*""Y+)ur8;&H#2*&6)cB!!*&73*GVGlnJJOj>-Ao&NMj33A:KB*ts\K
 T+_<4
 EndTtf
+AnchorPoint: "cedilla" 750 0 basechar 0
 AnchorPoint: "below" 750 0 basechar 0
 AnchorPoint: "above" 750 1520 basechar 0
 Fore
@@ -2161,6 +2200,7 @@ lk%2)&FL,j&NLIa0L0M0*AANg+#"fk+YY*)-U8\;*^Cf4+@%)8,#B:V*`*qT+Aa4X,#BY+-\WRr
 *ethm+GV+o,*41F-h&K)0HMni0H`%m5TW045Ti<8:``FT:`rRX?li\t?m&i#E#rs?E$0*CJ0'4_
 J09@c(gR/J
 EndTtf
+AnchorPoint: "cedilla" 977 0 basechar 0
 AnchorPoint: "below" 586 0 basechar 0
 AnchorPoint: "above" 586 1147 basechar 0 35
 Fore
@@ -2241,6 +2281,7 @@ TtfInstrs: 63
 5T9]X!JgjgL(/qG\IetT(Ut'9)@$la!([em)A)i-1@-^q&ENKM&H;=i&G>HF5RS)A&0$-=O;ji3
 "T_m/
 EndTtf
+AnchorPoint: "cedilla" 678 0 basechar 0
 AnchorPoint: "below" 676 0 basechar 0
 AnchorPoint: "above" 676 1147 basechar 0 23
 Fore
@@ -2308,6 +2349,7 @@ TtfInstrs: 112
 5U6=E!==JdL]nNm!<p"B!P92Z'"A@/*#fUo#SdUF9*,_:72um:m.BY_&J@)Y!"e5`m,S`G&FL,%
 mL^'l0L.'O*H3$l*RGhr*<eY-563tM58?C%"Y9m3#VQK8$?#o_!H/$X'lP#t?#]mN
 EndTtf
+AnchorPoint: "cedilla" 662 0 basechar 0
 AnchorPoint: "below" 662 0 basechar 0
 AnchorPoint: "above" 662 1147 basechar 0 18
 Fore
@@ -2447,6 +2489,7 @@ Flags: W
 TtfInstrs: 43
 5Rn"4"L.s>!X/T1"9:ms&H"ZW1,/b^jS\?u5RS,05RC6n?jUcY"T_m/
 EndTtf
+AnchorPoint: "cedilla" 287 0 basechar 0
 AnchorPoint: "below" 287 0 basechar 0
 AnchorPoint: "above" 287 1583 basechar 0
 Fore
@@ -2617,6 +2660,7 @@ TtfInstrs: 74
 5SF@4&cfHN\.X`;#ndbG!tl>;(_HW3o^":4&ENKM&FM5;,<m&m!.+p"#Cd#/$%E;3$[W;3%=\k;
 %t>.?&UP.`)=SLU!F5[*
 EndTtf
+AnchorPoint: "cedilla" 627 0 basechar 0
 AnchorPoint: "below" 627 0 basechar 0
 AnchorPoint: "above" 627 1147 basechar 0 12
 Fore
@@ -2749,6 +2793,7 @@ TtfInstrs: 231
 *"*_p/dX'9/.4!;3sdtU3t"+Y$QoEl!@.^p$7H93'/(%Q'e0tI*[i*Z+=SHZ-\_t_$\f(E%2&X@
 !!*-&"ptPB!t58@!tGDD!tYPP!u_7\!uqFa#q%AT5:KqgIjomsO=?hOn0o2[!*sRE
 EndTtf
+AnchorPoint: "cedilla" 558 0 basechar 0
 AnchorPoint: "below" 549 0 basechar 0
 AnchorPoint: "above" 551 1147 basechar 0
 Fore
@@ -2821,6 +2866,7 @@ Flags: W
 TtfInstrs: 59
 5TBk4!!<]3#)<[#N!]Tu'Y"P\#m_4Q:'(\$7MQL4m.<=)1,/b^jQ&)g`9\'K(HF1VD\^&&!WcR,
 EndTtf
+AnchorPoint: "cedilla" 628 0 basechar 0
 AnchorPoint: "below" 678 0 basechar 0
 AnchorPoint: "above" 637 1147 basechar 0 20
 Fore
@@ -5505,6 +5551,8 @@ Flags: W
 TtfInstrs: 44
 5RR_)!5AR<!=/Zp"VCUu3ACLem,Tic&Hi4n"@NA(#!`Ah#%.XS"pb68
 EndTtf
+AnchorPoint: "below" 287 0 basechar 0
+AnchorPoint: "cedilla" 287 0 basechar 0
 AnchorPoint: "above" 285 1147 basechar 0 4
 Fore
 193 1120 m 1,0,-1
@@ -15548,7 +15596,7 @@ Fore
  -702 1397 -702 1397 -715 1321 c 1,7,-1
  -833 1321 l 1,8,9
  -823 1464 -823 1464 -744 1536 c 128,-1,10
- -665 1608 -665 1608 -520 1608 c 0,11,12
+ -665 1608 -665 1608 -520 1608 c 128,-1,12
  -375 1608 -375 1608 -296 1536 c 128,-1,13
  -217 1464 -217 1464 -207 1321 c 1,0,-1
 EndSplineSet
@@ -15950,6 +15998,7 @@ Encoding: 807 807 807
 Width: 0
 Flags: W
 TeX: 117 0 0 0
+AnchorPoint: "cedilla" -489 0 mark 0
 AnchorPoint: "below-mark" -512 -396 basemark 0
 Refer: 184 184 N 1 0 0 1 -1024 0 2
 EndChar
