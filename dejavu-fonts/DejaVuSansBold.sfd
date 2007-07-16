@@ -70,8 +70,8 @@ Lookup: 1 0 0 "'aalt' Access All Alternates in Latin lookup 27"  {"'aalt' Access
 Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup 28"  {"'salt' Stylistic Alternatives in Latin lookup 28"  } ['salt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 29"  {"'aalt' Access All Alternates in Latin lookup 29"  } ['aalt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 1 0 "Single Substitution lookup 30"  {"Single Substitution lookup 30"  } []
-Lookup: 1 0 0 "Single Substitution lookup 31"  {"Single Substitution lookup 31"  } []
-Lookup: 1 0 0 "Single Substitution lookup 32"  {"Single Substitution lookup 32"  } []
+Lookup: 1 0 0 "Single Substitution - Case Form"  {"Single Substitution - Case Form"  } []
+Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 2"  {"'mkmk' Mark to Mark in Lao lookup 2"  } ['mkmk' ('lao ' <'dflt' > ) ]
@@ -195,13 +195,13 @@ ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 1"  4 4 4 2
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 "Single Substitution lookup 32" 
+  SeqLookup: 0 "Single Substitution - Dotless Form" 
  1 1 0
   ClsList: 2
   BClsList: 3
   FClsList:
  1
-  SeqLookup: 0 "Single Substitution lookup 31" 
+  SeqLookup: 0 "Single Substitution - Case Form" 
 EndFPST
 ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0"  3 0 3 1
   Class: 7 uni05E2
@@ -2422,7 +2422,7 @@ Fore
  172 1264 l 1,7,-1
  172 1556 l 1,4,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 32" dotlessi
+Substitution2: "Single Substitution - Dotless Form" dotlessi
 EndChar
 StartChar: j
 Encoding: 106 106 106
@@ -2452,7 +2452,7 @@ Fore
  172 1264 l 1,15,-1
  172 1556 l 1,12,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 32" dotlessj
+Substitution2: "Single Substitution - Dotless Form" dotlessj
 EndChar
 StartChar: k
 Encoding: 107 107 107
@@ -5426,7 +5426,7 @@ Width: 702
 Flags: W
 Refer: 731 731 N 1 0 0 1 -64 0 2
 Refer: 105 105 N 1 0 0 1 0 0 3
-Substitution2: "Single Substitution lookup 32" iogonek.dotless
+Substitution2: "Single Substitution - Dotless Form" iogonek.dotless
 EndChar
 StartChar: Idotaccent
 Encoding: 304 304 304
@@ -10275,7 +10275,7 @@ Fore
  172 1264 l 1,23,-1
  172 1556 l 1,20,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 32" uni025F
+Substitution2: "Single Substitution - Dotless Form" uni025F
 EndChar
 StartChar: uni024A
 Encoding: 586 586 586
@@ -11421,7 +11421,7 @@ Fore
  386 632 l 1,15,-1
  386 1120 l 1,4,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 32" uni0268.dotless
+Substitution2: "Single Substitution - Dotless Form" uni0268.dotless
 EndChar
 StartChar: uni0269
 Encoding: 617 617 617
@@ -13024,7 +13024,7 @@ Fore
  96 -206 96 -206 134 -160 c 0,30,31
  158 -132 158 -132 167 -67 c 1,21,22
 EndSplineSet
-Substitution2: "Single Substitution lookup 32" uni029D.dotless
+Substitution2: "Single Substitution - Dotless Form" uni029D.dotless
 EndChar
 StartChar: uni029E
 Encoding: 670 670 670
@@ -14907,7 +14907,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 96 96 N 1 0 0 1 -1026 0 2
-Substitution2: "Single Substitution lookup 31" Grave
+Substitution2: "Single Substitution - Case Form" Grave
 EndChar
 StartChar: acutecomb
 Encoding: 769 769 769
@@ -14918,7 +14918,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1640 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 180 180 N 1 0 0 1 -1032 0 2
-Substitution2: "Single Substitution lookup 31" Acute
+Substitution2: "Single Substitution - Case Form" Acute
 EndChar
 StartChar: uni0302
 Encoding: 770 770 770
@@ -14929,7 +14929,7 @@ AnchorPoint: "above-mark" -514 1147 mark 0
 AnchorPoint: "above-mark" -514 1638 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 710 710 N 1 0 0 1 -1026 0 2
-Substitution2: "Single Substitution lookup 31" Circumflex
+Substitution2: "Single Substitution - Case Form" Circumflex
 EndChar
 StartChar: tildecomb
 Encoding: 771 771 771
@@ -14940,7 +14940,7 @@ AnchorPoint: "above-mark" -514 1147 mark 0
 AnchorPoint: "above-mark" -514 1556 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 732 732 N 1 0 0 1 -1032 0 2
-Substitution2: "Single Substitution lookup 31" Tilde
+Substitution2: "Single Substitution - Case Form" Tilde
 EndChar
 StartChar: uni0304
 Encoding: 772 772 772
@@ -14971,7 +14971,7 @@ AnchorPoint: "above-mark" -514 1240 mark 0
 AnchorPoint: "above-mark" -514 1598 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 728 728 N 1 0 0 1 -1014 0 2
-Substitution2: "Single Substitution lookup 31" Breve
+Substitution2: "Single Substitution - Case Form" Breve
 EndChar
 StartChar: uni0307
 Encoding: 775 775 775
@@ -14982,7 +14982,7 @@ AnchorPoint: "above-mark" -514 1270 mark 0
 AnchorPoint: "above-mark" -514 1556 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 729 729 N 1 0 0 1 -1020 0 2
-Substitution2: "Single Substitution lookup 31" Dotaccent
+Substitution2: "Single Substitution - Case Form" Dotaccent
 EndChar
 StartChar: uni0308
 Encoding: 776 776 776
@@ -14993,7 +14993,7 @@ AnchorPoint: "above-mark" -514 1270 mark 0
 AnchorPoint: "above-mark" -514 1556 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 168 168 N 1 0 0 1 -1020 0 2
-Substitution2: "Single Substitution lookup 31" Dieresis
+Substitution2: "Single Substitution - Case Form" Dieresis
 EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
@@ -15048,7 +15048,7 @@ AnchorPoint: "above-mark" -514 1147 mark 0
 AnchorPoint: "above-mark" -514 1638 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 733 733 N 1 0 0 1 -1020 0 2
-Substitution2: "Single Substitution lookup 31" Hungarumlaut
+Substitution2: "Single Substitution - Case Form" Hungarumlaut
 EndChar
 StartChar: uni030C
 Encoding: 780 780 780
@@ -15059,7 +15059,7 @@ AnchorPoint: "above-mark" -514 1147 mark 0
 AnchorPoint: "above-mark" -514 1638 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 711 711 N 1 0 0 1 -1026 0 2
-Substitution2: "Single Substitution lookup 31" Caron
+Substitution2: "Single Substitution - Case Form" Caron
 EndChar
 StartChar: uni030D
 Encoding: 781 781 781
@@ -15108,7 +15108,7 @@ Fore
  -992 1638 l 1,7,-1
  -761 1638 l 1,4,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 31" Doublegrave
+Substitution2: "Single Substitution - Case Form" Doublegrave
 EndChar
 StartChar: uni0310
 Encoding: 784 784 784
@@ -15142,7 +15142,7 @@ Fore
  -346 1606 -346 1606 -259 1529.5 c 128,-1,13
  -172 1453 -172 1453 -166 1309 c 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 31" uni0311.case
+Substitution2: "Single Substitution - Case Form" uni0311.case
 EndChar
 StartChar: uni0312
 Encoding: 786 786 786
@@ -18750,7 +18750,7 @@ Flags: W
 TeX: 0 0 0 0
 AnchorPoint: "above" 351 1583 basechar 0
 Refer: 106 106 N 1 0 0 1 0 0 3
-Substitution2: "Single Substitution lookup 32" dotlessj
+Substitution2: "Single Substitution - Dotless Form" dotlessj
 EndChar
 StartChar: uni03F4
 Encoding: 1012 1012 1012
@@ -20662,7 +20662,7 @@ Flags: W
 AnchorPoint: "above" 350 1583 basechar 0
 AnchorPoint: "below" 350 0 basechar 0
 Refer: 105 105 N 1 0 0 1 0 0 3
-Substitution2: "Single Substitution lookup 32" dotlessi
+Substitution2: "Single Substitution - Dotless Form" dotlessi
 EndChar
 StartChar: uni0457
 Encoding: 1111 1111 1111
@@ -20677,7 +20677,7 @@ Encoding: 1112 1112 1112
 Width: 702
 Flags: W
 Refer: 106 106 N 1 0 0 1 0 0 3
-Substitution2: "Single Substitution lookup 32" dotlessj
+Substitution2: "Single Substitution - Dotless Form" dotlessj
 EndChar
 StartChar: uni0459
 Encoding: 1113 1113 1113
@@ -48631,7 +48631,7 @@ Width: 702
 Flags: W
 Refer: 759 759 N 1 0 0 1 -162 1 2
 Refer: 105 105 N 1 0 0 1 0 0 3
-Substitution2: "Single Substitution lookup 32" uni1E2D.dotless
+Substitution2: "Single Substitution - Dotless Form" uni1E2D.dotless
 EndChar
 StartChar: uni1E2E
 Encoding: 7726 7726 7726
@@ -49752,7 +49752,7 @@ Flags: W
 TeX: 117 0 0 0
 Refer: 803 803 N 1 0 0 1 863 0 2
 Refer: 105 105 N 1 0 0 1 0 0 2
-Substitution2: "Single Substitution lookup 32" uni1ECB.dotless
+Substitution2: "Single Substitution - Dotless Form" uni1ECB.dotless
 EndChar
 StartChar: uni1ECC
 Encoding: 7884 7884 7884
@@ -57636,7 +57636,7 @@ Fore
  362 1556 l 1,8,-1
 EndSplineSet
 Refer: 1114202 -1 N 1 0 0 1 0 0 2
-Substitution2: "Single Substitution lookup 32" uni2148.dotless
+Substitution2: "Single Substitution - Dotless Form" uni2148.dotless
 EndChar
 StartChar: uni2149
 Encoding: 8521 8521 8521
@@ -57651,7 +57651,7 @@ Fore
  365 1556 l 1,21,-1
 EndSplineSet
 Refer: 1114203 -1 N 1 0 0 1 0 0 2
-Substitution2: "Single Substitution lookup 32" uni2149.dotless
+Substitution2: "Single Substitution - Dotless Form" uni2149.dotless
 EndChar
 StartChar: uni214B
 Encoding: 8523 8523 8523
