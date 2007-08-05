@@ -1,3 +1,18 @@
+Changes from 2.18 to 2.19
+
+- fixed misplaced symbols (U+2325,2326) in Sans Oblique (by John Karp) 
+- added Mark to Base anchors: 'cedilla' for combining cedilla and
+  'above-legacy' for stacking above precomposed glyphs (just a,e,i,o,u with
+  macron for now) in Sans (by Denis Jacquerye).
+- added contextual substitution for Case and Dotless forms in all Sans variants
+  (by Denis Jacquerye).
+- renamed 'ccmp' lookups for RTL and Basic (LGC, etc.) (by Denis Jacquerye)
+- added anchor 'cedilla' for vowels in Sans. (by Denis Jacquerye)
+- extended contextual dotless and case substitutions to handle both below and
+  above diacritics (by Denis Jacquerye)
+- renamed Dotless and Case Form GSUB lookups in Sans with meaningful names (by
+  Denis Jacquerye)
+
 Changes from 2.17 to 2.18
 
 - Re-encoded the source files for Full Unicode (by Ben Laenen)
