@@ -44,7 +44,6 @@ Lookup: 4 0 1 "'liga' Standard Ligatures lookup 4"  {"'liga' Standard Ligatures 
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 5"  {"'dlig' Discretionary Ligatures lookup 5"  } ['dlig' ('cyrl' <'dflt' 'MKD ' 'SRB ' > 'grek' <'dflt' > 'latn' <'dflt' 'DNK ' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 6"  {"'dlig' Discretionary Ligatures in Latin lookup 6"  } ['dlig' ('latn' <'dflt' 'DNK ' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 7"  {"'dlig' Discretionary Ligatures lookup 7"  } ['dlig' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 8"  {"'frac' Diagonal Fractions lookup 8"  } ['frac' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 9"  {"Single Substitution lookup 9"  } []
 Lookup: 1 0 0 "Single Substitution lookup 10"  {"Single Substitution lookup 10"  } []
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 0"  {"'mkmk' Mark to Mark lookup 0"  } ['mkmk' ('cyrl' <'dflt' 'MKD ' 'SRB ' > 'grek' <'dflt' > 'latn' <'dflt' 'DNK ' > ) ]
@@ -4367,8 +4366,6 @@ Refer: 8308 8308 N 1 0 0 1 1115.1 -668 2
 Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 807.3 0 2
 LCarets2: 2 0 0 
-Ligature2: "'frac' Diagonal Fractions lookup 8" one slash four
-Ligature2: "'frac' Diagonal Fractions lookup 8" one fraction four
 EndChar
 StartChar: onehalf
 Encoding: 189 189 189
@@ -4378,8 +4375,6 @@ Refer: 185 185 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 807.3 0 2
 Refer: 178 178 N 1 0 0 1 1115.1 -668 2
 LCarets2: 2 0 0 
-Ligature2: "'frac' Diagonal Fractions lookup 8" one slash two
-Ligature2: "'frac' Diagonal Fractions lookup 8" one fraction two
 EndChar
 StartChar: threequarters
 Encoding: 190 190 190
@@ -4389,8 +4384,6 @@ Refer: 8308 8308 N 1 0 0 1 1115.1 -668 2
 Refer: 179 179 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 807.3 0 2
 LCarets2: 2 0 0 
-Ligature2: "'frac' Diagonal Fractions lookup 8" three slash four
-Ligature2: "'frac' Diagonal Fractions lookup 8" three fraction four
 EndChar
 StartChar: questiondown
 Encoding: 191 191 191
@@ -37096,8 +37089,6 @@ Flags: W
 Refer: 179 179 N 1 0 0 1 1115.1 -668 2
 Refer: 185 185 N 1 0 0 1 -20.7 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" one slash three
-Ligature2: "'frac' Diagonal Fractions lookup 8" one fraction three
 EndChar
 StartChar: twothirds
 Encoding: 8532 8532 8532
@@ -37106,8 +37097,6 @@ Flags: W
 Refer: 178 178 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
 Refer: 179 179 N 1 0 0 1 1115.1 -668 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" two slash three
-Ligature2: "'frac' Diagonal Fractions lookup 8" two fraction three
 EndChar
 StartChar: uni2155
 Encoding: 8533 8533 8533
@@ -37116,8 +37105,6 @@ Flags: W
 Refer: 8309 8309 N 1 0 0 1 1115.1 -668 2
 Refer: 185 185 N 1 0 0 1 -20.7 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" one slash five
-Ligature2: "'frac' Diagonal Fractions lookup 8" one fraction five
 EndChar
 StartChar: uni2156
 Encoding: 8534 8534 8534
@@ -37126,8 +37113,6 @@ Flags: W
 Refer: 8309 8309 N 1 0 0 1 1115.1 -668 2
 Refer: 178 178 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" two slash five
-Ligature2: "'frac' Diagonal Fractions lookup 8" two fraction five
 EndChar
 StartChar: uni2157
 Encoding: 8535 8535 8535
@@ -37136,8 +37121,6 @@ Flags: W
 Refer: 179 179 N 1 0 0 1 0 0 2
 Refer: 8309 8309 N 1 0 0 1 1115.1 -668 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" three slash five
-Ligature2: "'frac' Diagonal Fractions lookup 8" three fraction five
 EndChar
 StartChar: uni2158
 Encoding: 8536 8536 8536
@@ -37146,8 +37129,6 @@ Flags: W
 Refer: 8308 8308 N 1 0 0 1 0 0 2
 Refer: 8309 8309 N 1 0 0 1 1115.1 -668 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" four slash five
-Ligature2: "'frac' Diagonal Fractions lookup 8" four fraction five
 EndChar
 StartChar: uni2159
 Encoding: 8537 8537 8537
@@ -37156,8 +37137,6 @@ Flags: W
 Refer: 8310 8310 N 1 0 0 1 1115.1 -668 2
 Refer: 185 185 N 1 0 0 1 -20.7 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" one slash six
-Ligature2: "'frac' Diagonal Fractions lookup 8" one fraction six
 EndChar
 StartChar: uni215A
 Encoding: 8538 8538 8538
@@ -37166,8 +37145,6 @@ Flags: W
 Refer: 8309 8309 N 1 0 0 1 0 0 2
 Refer: 8310 8310 N 1 0 0 1 1115.1 -668 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" five slash six
-Ligature2: "'frac' Diagonal Fractions lookup 8" five fraction six
 EndChar
 StartChar: oneeighth
 Encoding: 8539 8539 8539
@@ -37176,8 +37153,6 @@ Flags: W
 Refer: 8312 8312 N 1 0 0 1 1115.1 -668 2
 Refer: 185 185 N 1 0 0 1 -20.7 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" one slash eight
-Ligature2: "'frac' Diagonal Fractions lookup 8" one fraction eight
 EndChar
 StartChar: threeeighths
 Encoding: 8540 8540 8540
@@ -37186,8 +37161,6 @@ Flags: W
 Refer: 8312 8312 N 1 0 0 1 1115.1 -668 2
 Refer: 179 179 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" three slash eight
-Ligature2: "'frac' Diagonal Fractions lookup 8" three fraction eight
 EndChar
 StartChar: fiveeighths
 Encoding: 8541 8541 8541
@@ -37196,8 +37169,6 @@ Flags: W
 Refer: 8312 8312 N 1 0 0 1 1115.1 -668 2
 Refer: 8309 8309 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" five slash eight
-Ligature2: "'frac' Diagonal Fractions lookup 8" five fraction eight
 EndChar
 StartChar: seveneighths
 Encoding: 8542 8542 8542
@@ -37206,8 +37177,6 @@ Flags: W
 Refer: 8312 8312 N 1 0 0 1 1115.1 -668 2
 Refer: 8311 8311 N 1 0 0 1 0 0 2
 Refer: 8725 8725 N 1 0 0 1 826.2 0 2
-Ligature2: "'frac' Diagonal Fractions lookup 8" seven slash eight
-Ligature2: "'frac' Diagonal Fractions lookup 8" seven fraction eight
 EndChar
 StartChar: uni215F
 Encoding: 8543 8543 8543
