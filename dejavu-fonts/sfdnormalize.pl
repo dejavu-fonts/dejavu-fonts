@@ -24,6 +24,8 @@
 #   ModificationTime - discarded
 #   CreationTime - discarded
 #   VWidth - discarded (for now)
+#   TeXData - discarded
+#   TeX - discarded
 # changes making it incompatible with FF older than (approx.) 20050728:
 #   Ref     - renamed to Refer
 #   KernsSLIF
@@ -48,7 +50,7 @@ sub process_sfd_file($) {
   my %pos_glyphs_map = ();
 
   while (<SFD>) {
-    next if (/^(WinInfo|DisplaySize|HStem|VStem|ModificationTime|CreationTime|VWidth):/);
+    next if (/^(WinInfo|DisplaySize|HStem|VStem|ModificationTime|CreationTime|VWidth|TeX|TeXData):/);
     s,^(NameList:).*$,$1 AGL without afii,;
     s,^Ref:,Refer:,;
     s,^KernsSLIF:,KernsSLIFO:,;
