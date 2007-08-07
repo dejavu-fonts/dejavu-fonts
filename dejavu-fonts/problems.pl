@@ -71,10 +71,15 @@ sub process_sfd_file($$) {
   my $in_spline_set = 0;
   my $has_splines;
   my $has_refs;
+  my %all_names = ();
   open (SFD, $sfd_file) || die "Unable to open $sfd_file : $!\n";
   while (<SFD>) {
     if (/^StartChar:\s*(\S+)\s*$/) {
       $curchar = $1;
+      if (exists($all_names{$curchar})) {
+	problem (0, 'duplicate glyph name', $1);
+      }
+      $all_names{$curchar} = 1;
       $hex_enc = '';
       $dec_enc = 0;
       $curwidth = -1;
