@@ -1,3 +1,27 @@
+Changes from 2.19 to 2.20
+
+- removed TeX and TeXData tags from all sfd files (by Eugeniy  Meshcheryakov)
+- removed all 'frac' lookups (by Eugeniy  Meshcheryakov)
+- fixed duplicate glyph names (by Eugeniy  Meshcheryakov)
+- removed standard ligatures with U+00B7 in Mono (by Eugeniy  Meshcheryakov)
+- use reference to U+002D in U+00AD in Sans Oblique, and adjust instructions
+  (by Eugeniy  Meshcheryakov)
+- updated Cyrillic in Sans Extra Light (by Andrey V. Panov)
+- added instructions to N'Ko U+07C1-U+07C6, U+07CA, U+07CE-U+07CF, U+07D1,
+  U+07D3-U+07D4, U+07D8, U+07DB and U+07EB in Sans (by Wesley Transue)
+- added instructions to Lao U+0E8A, U+0E95, U+0E97, U+EA5, U+0EB4 and U+0EB5
+  (by Wesley Transue)
+- adjusted instructions for Hebrew glyphs (by Denis Jacquerye)
+- added instructions for U+0265 in Sans Bold (by Denis Jacquerye)
+- fix U+1D68 in Sans: it had the shape of delta, where it should be a rho (by
+  Ben Laenen)
+- remove U+1D5C glyph in Sans Oblique (it was empty) (by Ben Laenen)
+- fix instructions of U+01AD in Sans Bold  (by Ben Laenen)
+- fix instructions of U+042D in Serif (by Ben Laenen)
+- remove buggy instructions of U+2328 in Serif (by Ben Laenen)
+- corrected width of U+2C75-U+2C76 in Sans Bold and Serif Bold (by Gee Fung Sit)
+- added U+2C75-U+2C77 to Mono (by Gee Fung Sit)
+
 Changes from 2.18 to 2.19
 
 - fixed misplaced symbols (U+2325,2326) in Sans Oblique (by John Karp) 
