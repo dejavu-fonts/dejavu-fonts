@@ -46,11 +46,9 @@ Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 6"  {"'medi' Medial Forms in
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 7"  {"'init' Initial Forms in Arabic lookup 7"  } ['init' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 8"  {"'rlig' Required Ligatures in Arabic lookup 8"  } ['rlig' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 9"  {"'liga' Standard Ligatures in Arabic lookup 9"  } ['liga' ('arab' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 10"  {"'liga' Standard Ligatures in Latin lookup 10"  } ['liga' ('latn' <'dflt' 'DNK ' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin"  {"'liga' Standard Ligatures in Latin"  } ['liga' ('latn' <'DNK ' 'dflt' > ) ]
 Lookup: 4 1 1 "'liga' Standard Ligatures in Arabic lookup 11"  {"'liga' Standard Ligatures in Arabic lookup 11"  } ['liga' ('arab' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Armenian lookup 12"  {"'liga' Standard Ligatures in Armenian lookup 12"  } ['liga' ('armn' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures lookup 13"  {"'liga' Standard Ligatures lookup 13"  } ['liga' ('cyrl' <'dflt' 'MKD ' 'SRB ' > 'grek' <'dflt' > 'latn' <'dflt' 'DNK ' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures lookup 14"  {"'liga' Standard Ligatures lookup 14"  } ['liga' ('DFLT' <'dflt' > ) ]
 Lookup: 4 1 0 "'hlig' Historic Ligatures in Hebrew lookup 15"  {"'hlig' Historic Ligatures in Hebrew lookup 15"  } ['hlig' ('hebr' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Armenian lookup 16"  {"'dlig' Discretionary Ligatures in Armenian lookup 16"  } ['dlig' ('armn' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 17"  {"'dlig' Discretionary Ligatures in Latin lookup 17"  } ['dlig' ('latn' <'dflt' 'DNK ' > ) ]
@@ -3362,7 +3360,6 @@ Fore
  532.8 1339 l 1,7,-1
  532.8 1585 l 1,4,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni0308
 EndChar
 StartChar: copyright
 Encoding: 169 169 169
@@ -3619,7 +3616,6 @@ Fore
  177.3 1556 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni0304
 EndChar
 StartChar: degree
 Encoding: 176 176 176
@@ -3768,7 +3764,6 @@ Fore
  582.3 1638 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" space acutecomb
 EndChar
 StartChar: mu
 Encoding: 181 181 181
@@ -3870,7 +3865,6 @@ Fore
  541.8 0 l 1,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni0327
 EndChar
 StartChar: onesuperior
 Encoding: 185 185 185
@@ -5691,7 +5685,6 @@ Flags: W
 Refer: 110 110 N 1 0 0 1 474.3 0 2
 Refer: 700 700 N 1 0 0 1 -21.6 0 2
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 13" uni02BC n
 EndChar
 StartChar: Eng
 Encoding: 330 330 330
@@ -14173,7 +14166,6 @@ Fore
  320.4 1309 320.4 1309 242.1 1385.5 c 128,-1,13
  163.8 1462 163.8 1462 158.4 1606 c 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni0306
 EndChar
 StartChar: dotaccent
 Encoding: 729 729 729
@@ -14189,7 +14181,6 @@ Fore
  337.5 1339 l 1,3,-1
  337.5 1585 l 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni0307
 EndChar
 StartChar: ring
 Encoding: 730 730 730
@@ -14220,7 +14211,6 @@ Fore
  204.3 1416 204.3 1416 204.3 1534 c 0,12,13
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni030A
 EndChar
 StartChar: ogonek
 Encoding: 731 731 731
@@ -14247,7 +14237,6 @@ Fore
  356.4 -61 356.4 -61 407.7 0 c 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni0328
 EndChar
 StartChar: tilde
 Encoding: 732 732 732
@@ -14284,7 +14273,6 @@ Fore
  565.2 1307 565.2 1307 535.05 1319 c 128,-1,30
  504.9 1331 504.9 1331 462.6 1364 c 2,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" space tildecomb
 EndChar
 StartChar: hungarumlaut
 Encoding: 733 733 733
@@ -14306,7 +14294,6 @@ Fore
  675 1638 l 1,4,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" space uni030B
 EndChar
 StartChar: uni02DE
 Encoding: 734 734 734
@@ -29999,9 +29986,6 @@ Fore
  154.8 0 l 1,3,-1
  154.8 1493 l 1,0,-1
 EndSplineSet
-Substitution2: "'init' Initial forms in N'Ko" uni07CA.init
-Substitution2: "'medi' Medial forms in N'Ko" uni07CA.medi
-Substitution2: "'fina' Terminal forms in N'Ko" uni07CA.fina
 EndChar
 StartChar: uni07CB
 Encoding: 1995 1995 1995
@@ -30029,9 +30013,6 @@ Fore
  328.5 -29 328.5 -29 203.85 109.5 c 128,-1,8
  79.2002 248 79.2002 248 79.2002 462 c 128,-1,9
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07CB.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07CB.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07CB.init
 EndChar
 StartChar: uni07CC
 Encoding: 1996 1996 1996
@@ -30051,9 +30032,6 @@ Fore
  664.2 1493 l 25,8,-1
  974.7 1493 l 25,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07CC.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07CC.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07CC.init
 EndChar
 StartChar: uni07CD
 Encoding: 1997 1997 1997
@@ -30071,9 +30049,6 @@ Fore
  423.9 924 l 1,6,-1
  27.9004 0 l 1,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07CD.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07CD.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07CD.init
 EndChar
 StartChar: uni07CE
 Encoding: 1998 1998 1998
@@ -30092,9 +30067,6 @@ Fore
  1118.7 924 l 1,7,-1
  1118.7 0 l 9,0,-1
 EndSplineSet
-Substitution2: "'init' Initial forms in N'Ko" uni07CE.init
-Substitution2: "'medi' Medial forms in N'Ko" uni07CE.medi
-Substitution2: "'fina' Terminal forms in N'Ko" uni07CE.fina
 EndChar
 StartChar: uni07CF
 Encoding: 1999 1999 1999
@@ -30113,9 +30085,6 @@ Fore
  154.8 924 l 25,7,-1
  1118.7 924 l 17,0,-1
 EndSplineSet
-Substitution2: "'init' Initial forms in N'Ko" uni07CF.init
-Substitution2: "'medi' Medial forms in N'Ko" uni07CF.medi
-Substitution2: "'fina' Terminal forms in N'Ko" uni07CF.fina
 EndChar
 StartChar: uni07D0
 Encoding: 2000 2000 2000
@@ -30158,9 +30127,6 @@ Fore
  708.3 256 l 25,33,-1
  1009.8 256 l 25,12,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D0.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D0.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D0.init
 EndChar
 StartChar: uni07D1
 Encoding: 2001 2001 2001
@@ -30182,9 +30148,6 @@ Fore
  1118.7 256 l 9,9,-1
  1118.7 0 l 25,6,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D1.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D1.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D1.init
 EndChar
 StartChar: uni07D2
 Encoding: 2002 2002 2002
@@ -30220,9 +30183,6 @@ Fore
  465.3 924 465.3 924 569.7 924 c 2,30,-1
  650.7 924 l 1,20,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D2.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D2.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D2.init
 EndChar
 StartChar: uni07D3
 Encoding: 2003 2003 2003
@@ -30243,9 +30203,6 @@ Fore
  154.8 0 l 1,9,-1
  154.8 1493 l 9,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D3.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D3.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D3.init
 EndChar
 StartChar: uni07D4
 Encoding: 2004 2004 2004
@@ -30266,9 +30223,6 @@ Fore
  154.8 1493 l 25,9,-1
  861.3 1493 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D4.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D4.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D4.init
 EndChar
 StartChar: uni07D5
 Encoding: 2005 2005 2005
@@ -30296,9 +30250,6 @@ Fore
  477.9 924 l 25,18,-1
  709.2 924 l 18,8,9
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D5.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D5.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D5.init
 EndChar
 StartChar: uni07D6
 Encoding: 2006 2006 2006
@@ -30321,9 +30272,6 @@ Fore
  154.8 1493 l 1,16,-1
  1112.4 1493 l 1,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D6.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D6.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D6.init
 EndChar
 StartChar: uni07D7
 Encoding: 2007 2007 2007
@@ -30341,9 +30289,6 @@ Fore
  340.2 1493 l 9,6,-1
  663.3 1493 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D7.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D7.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D7.init
 EndChar
 StartChar: uni07D8
 Encoding: 2008 2008 2008
@@ -30381,9 +30326,6 @@ Fore
  781.2 256 l 25,34,-1
  781.2 501 l 18,24,25
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D8.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D8.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D8.init
 EndChar
 StartChar: uni07D9
 Encoding: 2009 2009 2009
@@ -30406,9 +30348,6 @@ Fore
  628.2 1493 l 25,11,-1
  628.2 1092 l 25,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07D9.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07D9.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07D9.init
 EndChar
 StartChar: uni07DA
 Encoding: 2010 2010 2010
@@ -30439,9 +30378,6 @@ Fore
  895.5 0 l 1,19,-1
  895.5 836 l 9,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07DA.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07DA.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07DA.init
 EndChar
 StartChar: uni07DB
 Encoding: 2011 2011 2011
@@ -30461,9 +30397,6 @@ Fore
  1118.7 0 l 9,7,-1
  154.8 0 l 25,4,-1
 EndSplineSet
-Substitution2: "'init' Initial forms in N'Ko" uni07DB.init
-Substitution2: "'medi' Medial forms in N'Ko" uni07DB.medi
-Substitution2: "'fina' Terminal forms in N'Ko" uni07DB.fina
 EndChar
 StartChar: uni07DC
 Encoding: 2012 2012 2012
@@ -30482,9 +30415,6 @@ Fore
  27.9004 1493 l 9,6,-1
  1174.5 1493 l 17,3,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07DC.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07DC.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07DC.init
 EndChar
 StartChar: uni07DD
 Encoding: 2013 2013 2013
@@ -30519,9 +30449,6 @@ Fore
  1003.5 0 l 9,25,-1
  154.8 0 l 25,13,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07DD.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07DD.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07DD.init
 EndChar
 StartChar: uni07DE
 Encoding: 2014 2014 2014
@@ -30544,9 +30471,6 @@ Fore
  678.6 1493 l 1,11,-1
  1000.8 1493 l 1,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07DE.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07DE.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07DE.init
 EndChar
 StartChar: uni07DF
 Encoding: 2015 2015 2015
@@ -30578,9 +30502,6 @@ Fore
  1275.75 825 l 25,22,-1
  1275.75 569 l 25,8,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07DF.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07DF.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07DF.init
 EndChar
 StartChar: uni07E0
 Encoding: 2016 2016 2016
@@ -30599,9 +30520,6 @@ Fore
  27.9004 1493 l 25,7,-1
  905.4 1493 l 25,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E0.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E0.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E0.init
 EndChar
 StartChar: uni07E1
 Encoding: 2017 2017 2017
@@ -30620,9 +30538,6 @@ Fore
  777.6 1493 l 1,6,-1
  1174.5 0 l 9,3,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E1.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E1.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E1.init
 EndChar
 StartChar: uni07E2
 Encoding: 2018 2018 2018
@@ -30666,9 +30581,6 @@ Fore
  445.5 866 445.5 866 430.2 828.5 c 128,-1,28
  414.9 791 414.9 791 414.9 746 c 128,-1,29
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E2.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E2.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E2.init
 EndChar
 StartChar: uni07E3
 Encoding: 2019 2019 2019
@@ -30687,9 +30599,6 @@ Fore
  477 971 l 1,7,-1
  154.8 971 l 9,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E3.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E3.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E3.init
 EndChar
 StartChar: uni07E4
 Encoding: 2020 2020 2020
@@ -30710,9 +30619,6 @@ Fore
  1000.8 924 l 9,9,-1
  1000.8 0 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E4.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E4.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E4.init
 EndChar
 StartChar: uni07E5
 Encoding: 2021 2021 2021
@@ -30736,9 +30642,6 @@ Fore
  477 256 l 17,11,-1
  678.6 256 l 25,8,-1
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E5.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E5.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E5.init
 EndChar
 StartChar: uni07E6
 Encoding: 2022 2022 2022
@@ -30780,9 +30683,6 @@ Fore
  690.3 1493 l 1,37,-1
  690.3 1120 l 17,12,13
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E6.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E6.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E6.init
 EndChar
 StartChar: uni07E7
 Encoding: 2023 2023 2023
@@ -30828,9 +30728,6 @@ Fore
  445.5 866 445.5 866 430.2 828.5 c 128,-1,30
  414.9 791 414.9 791 414.9 746 c 128,-1,31
 EndSplineSet
-Substitution2: "'fina' Terminal forms in N'Ko" uni07E7.fina
-Substitution2: "'medi' Medial forms in N'Ko" uni07E7.medi
-Substitution2: "'init' Initial forms in N'Ko" uni07E7.init
 EndChar
 StartChar: uni07E8
 Encoding: 2024 2024 2024
@@ -47319,7 +47216,6 @@ Flags: W
 Refer: 702 702 N 1 0 0 1 926.1 0 2
 Refer: 97 97 N 1 0 0 1 0 0 3
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 13" a uni02BE
 EndChar
 StartChar: uni1E9B
 Encoding: 7835 7835 7835
@@ -50064,7 +49960,6 @@ Fore
  759.6 0 l 1,11,-1
  759.6 387 l 1,8,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" period period period
 EndChar
 StartChar: uni2027
 Encoding: 8231 8231 8231
@@ -50275,7 +50170,6 @@ Width: 823
 Flags: W
 Refer: 8242 8242 N 1 0 0 1 0 0 2
 Refer: 8242 8242 N 1 0 0 1 337.5 0 2
-Ligature2: "'liga' Standard Ligatures lookup 14" minute minute
 EndChar
 StartChar: uni2034
 Encoding: 8244 8244 8244
@@ -50285,7 +50179,6 @@ Refer: 8242 8242 N 1 0 0 1 337.5 0 2
 Refer: 8242 8242 N 1 0 0 1 0 0 2
 Refer: 8242 8242 N 1 0 0 1 675 0 2
 LCarets2: 2 0 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" minute minute minute
 EndChar
 StartChar: uni2035
 Encoding: 8245 8245 8245
@@ -50305,7 +50198,6 @@ Width: 823
 Flags: W
 Refer: 8245 8245 N 1 0 0 1 0 0 2
 Refer: 8245 8245 N 1 0 0 1 342 0 2
-Ligature2: "'liga' Standard Ligatures lookup 14" uni2035 uni2035
 EndChar
 StartChar: uni2037
 Encoding: 8247 8247 8247
@@ -50314,7 +50206,6 @@ Flags: W
 Refer: 8245 8245 N 1 0 0 1 0 0 2
 Refer: 8245 8245 N 1 0 0 1 342 0 2
 Refer: 8245 8245 N 1 0 0 1 675 0 2
-Ligature2: "'liga' Standard Ligatures lookup 14" uni2035 uni2035 uni2035
 EndChar
 StartChar: uni2038
 Encoding: 8248 8248 8248
@@ -52860,7 +52751,6 @@ Width: 2002
 Flags: W
 Refer: 176 176 N 1 0 0 1 0 0 2
 Refer: 70 70 N 1 0 0 1 743.4 1 2
-Ligature2: "'liga' Standard Ligatures lookup 14" degree F
 EndChar
 StartChar: uni210B
 Encoding: 8459 8459 8459
@@ -61250,7 +61140,6 @@ Fore
  195.3 987 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 14" equal uni0338
 EndChar
 StartChar: equivalence
 Encoding: 8801 8801 8801
@@ -66892,7 +66781,6 @@ Fore
  452.7 313 l 1,38,-1
  452.7 513 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" one uni20DD
 EndChar
 StartChar: uni2461
 Encoding: 9313 9313 9313
@@ -66949,7 +66837,6 @@ Fore
  1064.7 747 1064.7 747 942.3 639 c 2,52,-1
  791.1 505 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" two uni20DD
 EndChar
 StartChar: uni2462
 Encoding: 9314 9314 9314
@@ -67019,7 +66906,6 @@ Fore
  1147.5 913 1147.5 913 1102.05 857 c 128,-1,68
  1056.6 801 1056.6 801 1043.1 798 c 1,28,29
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" three uni20DD
 EndChar
 StartChar: uni2463
 Encoding: 9315 9315 9315
@@ -67072,7 +66958,6 @@ Fore
  365.4 694 l 1,41,-1
  729.9 1244 l 1,31,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" four uni20DD
 EndChar
 StartChar: uni2464
 Encoding: 9316 9316 9316
@@ -67133,7 +67018,6 @@ Fore
  569.7 688 569.7 688 475.2 648 c 1,57,-1
  475.2 1204 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" five uni20DD
 EndChar
 StartChar: uni2465
 Encoding: 9317 9317 9317
@@ -67199,7 +67083,6 @@ Fore
  904.5 1242 904.5 1242 963.9 1232 c 128,-1,64
  1023.3 1222 1023.3 1222 1096.2 1197 c 1,40,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" six uni20DD
 EndChar
 StartChar: uni2466
 Encoding: 9318 9318 9318
@@ -67243,7 +67126,6 @@ Fore
  427.5 944 l 1,34,-1
  427.5 1154 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" seven uni20DD
 EndChar
 StartChar: uni2467
 Encoding: 9319 9319 9319
@@ -67320,7 +67202,6 @@ Fore
  756.9 1058 756.9 1058 733.95 1035.5 c 128,-1,75
  711 1013 711 1013 711 967 c 0,64,65
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" eight uni20DD
 EndChar
 StartChar: uni2468
 Encoding: 9320 9320 9320
@@ -67386,7 +67267,6 @@ Fore
  693 847 693 847 717.75 814.5 c 128,-1,64
  742.5 782 742.5 782 791.1 782 c 0,53,54
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" nine uni20DD
 EndChar
 StartChar: uni2469
 Encoding: 9321 9321 9321
@@ -67455,7 +67335,6 @@ Fore
  1151.1 1185 1151.1 1185 1215.45 1069.5 c 128,-1,62
  1279.8 954 1279.8 954 1279.8 748 c 0,51,52
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 14" one zero uni20DD
 EndChar
 StartChar: upblock
 Encoding: 9600 9600 9600
@@ -97307,7 +97186,7 @@ Fore
  378.917 1556 378.917 1556 571.5 1556 c 2,39,-1
  818.1 1556 l 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10" f f
+Ligature2: "'liga' Standard Ligatures in Latin" f f
 LCarets2: 1 0 
 EndChar
 StartChar: fi
@@ -97346,7 +97225,7 @@ Fore
  380.7 1556 380.7 1556 573.3 1556 c 2,25,-1
  819.9 1556 l 1,4,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10" f i
+Ligature2: "'liga' Standard Ligatures in Latin" f i
 LCarets2: 1 0 
 EndChar
 StartChar: fl
@@ -97380,7 +97259,7 @@ Fore
  195.3 1381 195.3 1381 287.1 1468.5 c 128,-1,21
  378.9 1556 378.9 1556 571.5 1556 c 2,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10" f l
+Ligature2: "'liga' Standard Ligatures in Latin" f l
 LCarets2: 1 0 
 EndChar
 StartChar: uniFB03
@@ -97434,8 +97313,8 @@ Fore
  1575.9 1264 l 1,46,-1
  1575.9 1556 l 1,43,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10" uniFB00 i
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10" f f i
+Ligature2: "'liga' Standard Ligatures in Latin" uniFB00 i
+Ligature2: "'liga' Standard Ligatures in Latin" f f i
 LCarets2: 2 0 0 
 EndChar
 StartChar: uniFB04
@@ -97483,8 +97362,8 @@ Fore
  378.917 1556 378.917 1556 571.5 1556 c 2,41,-1
  818.1 1556 l 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10" uniFB00 l
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10" f f l
+Ligature2: "'liga' Standard Ligatures in Latin" uniFB00 l
+Ligature2: "'liga' Standard Ligatures in Latin" f f l
 LCarets2: 2 0 0 
 EndChar
 StartChar: uniFB05
@@ -105241,8 +105120,6 @@ AnchorPoint: "Ligature rtl-above" 460.8 1200 mark 0
 AnchorPoint: "rtl-above-mark" 460.8 1200 mark 0
 Refer: 1617 1617 N 1 0 0 1 0 0 2
 Refer: 1611 1611 N 1 0 0 1 0 600 2
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni0651 uni064B
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni064B uni0651
 LCarets2: 1 0 
 EndChar
 StartChar: uni0651064C
@@ -105255,8 +105132,6 @@ AnchorPoint: "Ligature rtl-above" 460.8 1200 mark 0
 AnchorPoint: "rtl-above-mark" 460.8 2500 basemark 0
 Refer: 1617 1617 N 1 0 0 1 0 0 2
 Refer: 1612 1612 N 1 0 0 1 0 600 2
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni0651 uni064C
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni064C uni0651
 LCarets2: 1 0 
 EndChar
 StartChar: uni064B0651
@@ -105283,8 +105158,6 @@ AnchorPoint: "Ligature rtl-above" 460.8 1200 mark 0
 AnchorPoint: "rtl-above-mark" 460.8 2100 basemark 0
 Refer: 1617 1617 N 1 0 0 1 0 0 2
 Refer: 1614 1614 N 1 0 0 1 0 600 2
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni0651 uni064E
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni064E uni0651
 LCarets2: 1 0 
 EndChar
 StartChar: uni0651064F
@@ -105297,8 +105170,6 @@ AnchorPoint: "Ligature rtl-above" 460.8 1200 mark 0
 AnchorPoint: "rtl-above-mark" 460.8 2500 basemark 0
 Refer: 1617 1617 N 1 0 0 1 0 0 2
 Refer: 1615 1615 N 1 0 0 1 0 600 2
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni0651 uni064F
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni064F uni0651
 LCarets2: 1 0 
 EndChar
 StartChar: uni064E0651
@@ -105325,8 +105196,6 @@ AnchorPoint: "Ligature rtl-above" 460.8 1200 mark 0
 AnchorPoint: "rtl-above-mark" 460.8 2000 basemark 0
 Refer: 1620 1620 N 1 0 0 1 0 0 2
 Refer: 1614 1614 N 1 0 0 1 0 500 2
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni0654 uni064E
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni064E uni0654
 LCarets2: 1 0 
 EndChar
 StartChar: uni0654064F
@@ -105339,8 +105208,6 @@ AnchorPoint: "Ligature rtl-above" 460.8 1200 mark 0
 AnchorPoint: "rtl-above-mark" 460.8 2400 basemark 0
 Refer: 1620 1620 N 1 0 0 1 0 0 2
 Refer: 1615 1615 N 1 0 0 1 0 500 2
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni0654 uni064F
-Ligature2: "'rlig' Required Ligatures in Arabic lookup 9" uni064F uni0654
 LCarets2: 1 0 
 EndChar
 StartChar: uni07CA.fina

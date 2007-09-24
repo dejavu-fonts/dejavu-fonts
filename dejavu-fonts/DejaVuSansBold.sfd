@@ -51,11 +51,9 @@ Lookup: 4 1 1 "'rlig' Required Ligatures in Arabic lookup 8"  {"'rlig' Required 
 Lookup: 4 1 1 "'rlig' Required Ligatures in Arabic lookup 9"  {"'rlig' Required Ligatures in Arabic lookup 9"  } ['rlig' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 10"  {"'rlig' Required Ligatures in Arabic lookup 10"  } ['rlig' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 11"  {"'liga' Standard Ligatures in Arabic lookup 11"  } ['liga' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 12"  {"'liga' Standard Ligatures in Latin lookup 12"  } ['liga' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin"  {"'liga' Standard Ligatures in Latin"  } ['liga' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 4 1 1 "'liga' Standard Ligatures in Arabic lookup 13"  {"'liga' Standard Ligatures in Arabic lookup 13"  } ['liga' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Armenian lookup 14"  {"'liga' Standard Ligatures in Armenian lookup 14"  } ['liga' ('armn' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures lookup 15"  {"'liga' Standard Ligatures lookup 15"  } ['liga' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures lookup 16"  {"'liga' Standard Ligatures lookup 16"  } ['liga' ('DFLT' <'dflt' > ) ]
 Lookup: 4 1 0 "'hlig' Historic Ligatures in Hebrew lookup 17"  {"'hlig' Historic Ligatures in Hebrew lookup 17"  } ['hlig' ('hebr' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Armenian lookup 18"  {"'dlig' Discretionary Ligatures in Armenian lookup 18"  } ['dlig' ('armn' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 19"  {"'dlig' Discretionary Ligatures in Latin lookup 19"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
@@ -3394,7 +3392,6 @@ Fore
  592 1339 l 1,7,-1
  592 1585 l 1,4,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni0308
 EndChar
 StartChar: copyright
 Encoding: 169 169 169
@@ -3651,7 +3648,6 @@ Fore
  197 1556 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni0304
 EndChar
 StartChar: degree
 Encoding: 176 176 176
@@ -3800,7 +3796,6 @@ Fore
  647 1638 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" space acutecomb
 EndChar
 StartChar: mu
 Encoding: 181 181 181
@@ -3902,7 +3897,6 @@ Fore
  602 0 l 1,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni0327
 EndChar
 StartChar: onesuperior
 Encoding: 185 185 185
@@ -5730,7 +5724,6 @@ Flags: W
 Refer: 110 110 N 1 0 0 1 527 0 2
 Refer: 700 700 N 1 0 0 1 -24 0 2
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 15" uni02BC n
 EndChar
 StartChar: Eng
 Encoding: 330 330 330
@@ -14274,7 +14267,6 @@ Fore
  356 1309 356 1309 269 1385.5 c 128,-1,13
  182 1462 182 1462 176 1606 c 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni0306
 EndChar
 StartChar: dotaccent
 Encoding: 729 729 729
@@ -14290,7 +14282,6 @@ Fore
  375 1339 l 1,3,-1
  375 1585 l 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni0307
 EndChar
 StartChar: ring
 Encoding: 730 730 730
@@ -14321,7 +14312,6 @@ Fore
  227 1416 227 1416 227 1534 c 0,12,13
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni030A
 EndChar
 StartChar: ogonek
 Encoding: 731 731 731
@@ -14348,7 +14338,6 @@ Fore
  396 -61 396 -61 453 0 c 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni0328
 EndChar
 StartChar: tilde
 Encoding: 732 732 732
@@ -14385,7 +14374,6 @@ Fore
  628 1307 628 1307 594.5 1319 c 128,-1,30
  561 1331 561 1331 514 1364 c 2,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" space tildecomb
 EndChar
 StartChar: hungarumlaut
 Encoding: 733 733 733
@@ -14407,7 +14395,6 @@ Fore
  750 1638 l 1,4,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" space uni030B
 EndChar
 StartChar: uni02DE
 Encoding: 734 734 734
@@ -47455,7 +47442,6 @@ Flags: W
 Refer: 702 702 N 1 0 0 1 1029 0 2
 Refer: 97 97 N 1 0 0 1 0 0 3
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 15" a uni02BE
 EndChar
 StartChar: uni1E9B
 Encoding: 7835 7835 7835
@@ -50200,7 +50186,6 @@ Fore
  844 0 l 1,11,-1
  844 387 l 1,8,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" period period period
 EndChar
 StartChar: uni2027
 Encoding: 8231 8231 8231
@@ -50411,7 +50396,6 @@ Width: 915
 Flags: W
 Refer: 8242 8242 N 1 0 0 1 0 0 2
 Refer: 8242 8242 N 1 0 0 1 375 0 2
-Ligature2: "'liga' Standard Ligatures lookup 16" minute minute
 EndChar
 StartChar: uni2034
 Encoding: 8244 8244 8244
@@ -50421,7 +50405,6 @@ Refer: 8242 8242 N 1 0 0 1 375 0 2
 Refer: 8242 8242 N 1 0 0 1 0 0 2
 Refer: 8242 8242 N 1 0 0 1 750 0 2
 LCarets2: 2 0 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" minute minute minute
 EndChar
 StartChar: uni2035
 Encoding: 8245 8245 8245
@@ -50441,7 +50424,6 @@ Width: 915
 Flags: W
 Refer: 8245 8245 N 1 0 0 1 0 0 2
 Refer: 8245 8245 N 1 0 0 1 380 0 2
-Ligature2: "'liga' Standard Ligatures lookup 16" uni2035 uni2035
 EndChar
 StartChar: uni2037
 Encoding: 8247 8247 8247
@@ -50450,7 +50432,6 @@ Flags: W
 Refer: 8245 8245 N 1 0 0 1 0 0 2
 Refer: 8245 8245 N 1 0 0 1 380 0 2
 Refer: 8245 8245 N 1 0 0 1 750 0 2
-Ligature2: "'liga' Standard Ligatures lookup 16" uni2035 uni2035 uni2035
 EndChar
 StartChar: uni2038
 Encoding: 8248 8248 8248
@@ -52998,7 +52979,6 @@ Width: 2225
 Flags: W
 Refer: 176 176 N 1 0 0 1 0 0 2
 Refer: 70 70 N 1 0 0 1 826 1 2
-Ligature2: "'liga' Standard Ligatures lookup 16" degree F
 EndChar
 StartChar: uni210B
 Encoding: 8459 8459 8459
@@ -61443,7 +61423,6 @@ Fore
  217 987 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 16" equal uni0338
 EndChar
 StartChar: equivalence
 Encoding: 8801 8801 8801
@@ -67071,7 +67050,6 @@ Fore
  503 313 l 1,38,-1
  503 513 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" one uni20DD
 EndChar
 StartChar: uni2461
 Encoding: 9313 9313 9313
@@ -67128,7 +67106,6 @@ Fore
  1183 747 1183 747 1047 639 c 2,52,-1
  879 505 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" two uni20DD
 EndChar
 StartChar: uni2462
 Encoding: 9314 9314 9314
@@ -67198,7 +67175,6 @@ Fore
  1275 913 1275 913 1224.5 857 c 128,-1,68
  1174 801 1174 801 1159 798 c 1,28,29
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" three uni20DD
 EndChar
 StartChar: uni2463
 Encoding: 9315 9315 9315
@@ -67251,7 +67227,6 @@ Fore
  406 694 l 1,41,-1
  811 1244 l 1,31,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" four uni20DD
 EndChar
 StartChar: uni2464
 Encoding: 9316 9316 9316
@@ -67312,7 +67287,6 @@ Fore
  633 688 633 688 528 648 c 1,57,-1
  528 1204 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" five uni20DD
 EndChar
 StartChar: uni2465
 Encoding: 9317 9317 9317
@@ -67378,7 +67352,6 @@ Fore
  1005 1242 1005 1242 1071 1232 c 128,-1,64
  1137 1222 1137 1222 1218 1197 c 1,40,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" six uni20DD
 EndChar
 StartChar: uni2466
 Encoding: 9318 9318 9318
@@ -67422,7 +67395,6 @@ Fore
  475 944 l 1,34,-1
  475 1154 l 1,28,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" seven uni20DD
 EndChar
 StartChar: uni2467
 Encoding: 9319 9319 9319
@@ -67499,7 +67471,6 @@ Fore
  841 1058 841 1058 815.5 1035.5 c 128,-1,75
  790 1013 790 1013 790 967 c 0,64,65
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" eight uni20DD
 EndChar
 StartChar: uni2468
 Encoding: 9320 9320 9320
@@ -67565,7 +67536,6 @@ Fore
  770 847 770 847 797.5 814.5 c 128,-1,64
  825 782 825 782 879 782 c 0,53,54
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" nine uni20DD
 EndChar
 StartChar: uni2469
 Encoding: 9321 9321 9321
@@ -67634,7 +67604,6 @@ Fore
  1279 1185 1279 1185 1350.5 1069.5 c 128,-1,62
  1422 954 1422 954 1422 748 c 0,51,52
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 16" one zero uni20DD
 EndChar
 StartChar: upblock
 Encoding: 9600 9600 9600
@@ -96857,7 +96826,7 @@ Fore
  421.019 1556 421.019 1556 635 1556 c 2,39,-1
  909 1556 l 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 12" f f
+Ligature2: "'liga' Standard Ligatures in Latin" f f
 LCarets2: 1 0 
 EndChar
 StartChar: fi
@@ -96896,7 +96865,7 @@ Fore
  423 1556 423 1556 637 1556 c 2,25,-1
  911 1556 l 1,4,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 12" f i
+Ligature2: "'liga' Standard Ligatures in Latin" f i
 LCarets2: 1 0 
 EndChar
 StartChar: fl
@@ -96930,7 +96899,7 @@ Fore
  217 1381 217 1381 319 1468.5 c 128,-1,21
  421 1556 421 1556 635 1556 c 2,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 12" f l
+Ligature2: "'liga' Standard Ligatures in Latin" f l
 LCarets2: 1 0 
 EndChar
 StartChar: uniFB03
@@ -96984,8 +96953,8 @@ Fore
  1751 1264 l 1,46,-1
  1751 1556 l 1,43,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 12" uniFB00 i
-Ligature2: "'liga' Standard Ligatures in Latin lookup 12" f f i
+Ligature2: "'liga' Standard Ligatures in Latin" uniFB00 i
+Ligature2: "'liga' Standard Ligatures in Latin" f f i
 LCarets2: 2 0 0 
 EndChar
 StartChar: uniFB04
@@ -97033,8 +97002,8 @@ Fore
  421.019 1556 421.019 1556 635 1556 c 2,41,-1
  909 1556 l 1,0,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 12" uniFB00 l
-Ligature2: "'liga' Standard Ligatures in Latin lookup 12" f f l
+Ligature2: "'liga' Standard Ligatures in Latin" uniFB00 l
+Ligature2: "'liga' Standard Ligatures in Latin" f f l
 LCarets2: 2 0 0 
 EndChar
 StartChar: uniFB05
