@@ -37,14 +37,6 @@ while ( i < $argc )
   if (Strcasestr ($fontname, "ExtraLight") > -1)
     gen_flags = exp_gen_flags
   endif
-  # no non-combining ligatures in Mono (we remove all because there are no valid combining ligatures right now)
-  if (Strcasestr ($fontname, "Mono") > -1)
-    # do not remove ligatures from Arabic
-    Select("U+0600", "U+06FF", "U+FB50", "U+FDFF", "U+FE70", "U+FEFF")
-    SelectInvert()
-    RemoveLookup("'liga' Standard Ligatures in Latin lookup 8")
-    SelectNone()
-  endif
   Generate("generated/" + $fontname + ".ttf", "", gen_flags)
   Close()
   i++

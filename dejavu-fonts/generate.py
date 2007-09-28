@@ -39,13 +39,6 @@ while i < len(sys.argv):
   if font.fontname.rfind("ExtraLight") > -1:
     gen_flags = exp_gen_flags;
 
-  # no non-combining ligatures in Mono (we remove all because there are no valid combining ligatures right now)
-  if font.fontname.rfind("Mono") > -1:
-    # do not remove ligatures from Arabic
-    font.selection.select("U+0600", "U+06FF", "U+FB50", "U+FDFF", "U+FE70", "U+FEFF");
-    font.selection.invert();
-    font.removeLookup("'liga' Standard Ligatures in Latin lookup 8");
-  
   fontname = "generated/" + font.fontname + ".ttf";
   font.generate(fontname,"",gen_flags);
   font.close();
