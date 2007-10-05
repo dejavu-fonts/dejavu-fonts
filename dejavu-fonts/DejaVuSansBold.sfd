@@ -81,7 +81,7 @@ Lookup: 261 1 0 "'mark' Mark Positioning lookup 9"  {"'mark' Mark Positioning lo
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 10"  {"'mark' Mark Positioning lookup 10"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 11"  {"'mark' Mark Positioning in Lao lookup 11"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 12"  {"'mark' Mark Positioning in Lao lookup 12"  } ['mark' ('lao ' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' half"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 15"  {"'kern' Horizontal Kerning in Latin lookup 15"  } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 KernClass2: 37 56 "'kern' Horizontal Kerning in Latin lookup 15" 
  14 hyphen uni2010
@@ -299,7 +299,7 @@ UnicodeInterp: none
 NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
-AnchorClass2: "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
+AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
 BeginChars: 1114316 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -1300,6 +1300,7 @@ TtfInstrs: 254
 <WuP/BEMrOAd)fO?jq,WHNAEqFTm*tF:!d,L'<;;M$]RQQ3ENZRL-D.\I$FZ`<!pZb6PlibmE&'
 ecF>'fa$%5g'KE<!*oR)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 790 0 basechar 0
 AnchorPoint: "above" 790 1520 basechar 0
 Fore
@@ -1326,6 +1327,7 @@ TtfInstrs: 80
 5U@$C\IZCY\JgG6\JPMN#6PS[$kEX])[$BJ(*3l"'bCTc)$;#nr9Q2gm*tA6(HE'?3=ula3ACLe
 m.BZ:lo?ab#ll.\+tk-:+p7pP
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 800 1520 basechar 0
 AnchorPoint: "below" 800 0 basechar 0
 Fore
@@ -1366,6 +1368,7 @@ Flags: W
 TtfInstrs: 59
 5T1%B#lk_C%1jBmXof6<$(M*b)A=\2!!Xql&H'I%lnJJOjRhdMrkoAe&J@)9&ihYQ0,n7;!WcR,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 909 0 basechar 0
 AnchorPoint: "above" 909 1520 basechar 0
 Fore
@@ -1397,6 +1400,7 @@ Flags: W
 TtfInstrs: 46
 5SX:7$&nu$('jsW$315]&2!qu#m2"Ur9X@J&NMj33ACLem.BWuZ;;D>!F5[*
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 777 0 basechar 0
 AnchorPoint: "above" 777 1520 basechar 0
 Fore
@@ -1429,6 +1433,7 @@ Flags: W
 TtfInstrs: 48
 5SO@:#/1/S!0%9"$3:;:#6P_A!t5b=ln[)/`%_6Fm.BZ:lnGjZ%8[LQ%0HW:
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 690 0 basechar 0
 AnchorPoint: "above" 690 1520 basechar 0
 Fore
@@ -1454,6 +1459,7 @@ Flags: W
 TtfInstrs: 43
 5S4.7#/1/S!0%6f!=&]B!!<Q>r9Q2g`%_6Fo^)5:0X_N#:^_4M!s)[-
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 690 1520 basechar 0
 AnchorPoint: "below" 380 0 basechar 0
 Fore
@@ -1478,6 +1484,7 @@ TtfInstrs: 75
 5U@9d((:`\!#>YG&/r)!(9R`NXpLU#QlI.d))2OU!&#!;"tL`+r9X(:r5:;i&B*Z%lk&RrmL[>L
 &igO:3=ula0X>%-!<HI+
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 930 0 basechar 0
 AnchorPoint: "above" 930 1520 basechar 0
 Fore
@@ -1514,6 +1521,7 @@ TtfInstrs: 62
 5SF47#egEAN=#jp!u;%H!>YY;$kW@'1=YYG0`WjhoK;d40L-?`!tPMF"V1eJ#7h):%:BWa%A+(:
 !F5[*
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 855 0 basechar 0
 AnchorPoint: "above" 855 1520 basechar 0
 Fore
@@ -1539,6 +1547,7 @@ Flags: W
 TtfInstrs: 44
 [fF5G!>YY;";(K(YRa]+YRjc<=LeD3!'iMHlnJJnlnAIK&-Y<&:^$r,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 378 6 basechar 0
 AnchorPoint: "above" 378 1520 basechar 0
 Fore
@@ -1559,6 +1568,7 @@ TtfInstrs: 65
 5SFM,!!g:C_>oQ("UG;5('Xa@$kW>0YRa]+YRjc<=LeD3!'iMH`9\*s3ACLFjS\?V3B8bo[L`m5
 %8[K9>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 378 -430 basechar 0
 AnchorPoint: "above" 378 1520 basechar 0
 Fore
@@ -1586,6 +1596,7 @@ TtfInstrs: 129
 DZaVUB*M`JBEqoRIfjp#Ig9p$K`m,7WWs=f!\sg=#XSSc#ZLk."]u%;#[d^G"`4Na!dFlq#_*,;
 "cWeg#SUJE>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 881 0 basechar 0
 AnchorPoint: "above" 881 1520 basechar 0
 Fore
@@ -1610,6 +1621,7 @@ Flags: W
 TtfInstrs: 23
 5RRY/!0%*^('=O="q^^NlnJJnjQnQ#
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 718 0 basechar 0
 AnchorPoint: "above" 380 1520 basechar 0
 Fore
@@ -1632,6 +1644,7 @@ TtfInstrs: 206
 !_<Ag!_`hm$<I:3#?_CI!cJ<^$C([S#`o@l!jDp6$5s$J"9SW6(',9T&.U/j,m-1/2$6VT5QaL^
 <X;h7:_%.>B*2]NC'e8XKa<PBQO"F6!*oR)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 1018 0 basechar 0
 AnchorPoint: "above" 1018 1520 basechar 0
 Fore
@@ -1660,6 +1673,7 @@ TtfInstrs: 124
 ,-h^a!<?Cj1^XEe$Q0..!Cm/_#$(b-##G\?!GD[F$b?AI"qDLP)@&G-1C$JQ:BEcd<<?>/AccZO
 $XEd=
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 879 0 basechar 0
 AnchorPoint: "above" 879 1520 basechar 0
 Fore
@@ -1683,6 +1697,7 @@ Flags: W
 TtfInstrs: 50
 5SF@)&cf'CS._2+#qZZH""b6<(_HW3r9Q-<&ENKM&FM5;$NM%\'+c$7)*\uB!F5[*
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 870 0 basechar 0
 AnchorPoint: "above" 870 1520 basechar 0
 Fore
@@ -1713,6 +1728,7 @@ Flags: W
 TtfInstrs: 49
 5Sad2#7I[7N<p7-#6>)A/HcFe('"FN&H(lMeEdc-3B9)S!&+!2eEelp!#5M8>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 802 1520 basechar 0
 AnchorPoint: "below" 380 0 basechar 0
 Fore
@@ -1744,6 +1760,7 @@ TtfInstrs: 98
 5T1(IXoK$9#Fkd]%NGrc!=]\[/IFEM/HdRD&H(nmlk)6<&NMQG&B*Z%lk&SF0L./p$ih:c$kOF,
 !&#?n$r[UI$t'Ng%!N/"%1NON=US@A=VOsTC("_bGROj`!F5[*
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 870 1520 basechar 0
 AnchorPoint: "below" 870 0 basechar 0
 Fore
@@ -1780,6 +1797,7 @@ TtfInstrs: 135
 3>X[f(HF2M00JmneEf1.3B8cd;cj89"mlO+"mlm<3E[Q3(`WPW>sKJN(`O>2)B0V6*&\Ni(.As,
 (02/N(/Q&`'kJ.g*Y2NV
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 711 0 basechar 0
 AnchorPoint: "above" 711 1520 basechar 0
 Fore
@@ -1819,6 +1837,7 @@ TtfInstrs: 167
 jRhdMroF^Q&JmG>&igO:3A<]tE%(fJ*B>0$+#tH9*_IMH+BStV*F'Xl+'p'n+_i!8*H*!;+(ud8
 +Dr?E$Zlf!%=B7F+FG>u$^V9k*h"1@+IXIN$`4?0%B:GK*i^<^+K?S5>le42
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 703 0 basechar 0
 AnchorPoint: "above" 703 1520 basechar 0
 Fore
@@ -1860,6 +1879,7 @@ Flags: W
 TtfInstrs: 51
 5Rmu"^]9>s!B:/s!&t,f&Ca@W$<0[&%THY7\Gud55WDp5r9Q-<0D+Td0EJIE#m"<3
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 698 0 basechar 0
 AnchorPoint: "above" 698 1520 basechar 0
 Fore
@@ -1881,6 +1901,7 @@ Flags: W
 TtfInstrs: 51
 5Sk"?#Qb,/"i(V8#loqt#Smb-!>YY;&eP!-r9Q-<&EGV=lk($o0Xa4[E"eiW!s)[-
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 830 0 basechar 0
 AnchorPoint: "above" 830 1520 basechar 0
 Fore
@@ -1910,6 +1931,7 @@ TtfInstrs: 131
 92ept&-_G+&.%Y.&.%Y.&-_H(+osq[!!3]5+9JbK":"r5!uCtT!uM.W"Wn!m#Y+kb!D!;`"@WJd
 #$1h-"-3^">l\.1
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 793 1520 basechar 0
 AnchorPoint: "below" 793 0 basechar 0
 Fore
@@ -1936,6 +1958,7 @@ TtfInstrs: 365
 #>th2#uq@=$uZ,a!H/$W")%gN#A"0S$#9lc$Y^#f%!Met#^?Z!$[<)9#DEG?%(?;L"1A?B"gJ?I
 $qjk+>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 1126 0 basechar 0
 AnchorPoint: "above" 1126 1520 basechar 0
 Fore
@@ -1966,6 +1989,7 @@ TtfInstrs: 240
 "0`(D#m(;6"pbMB)Zg]V'F5Wb.f_($,m5It,mZ".3W_/A2$c5M:^pt9C'JSc\H9/A[0X>N)I3>K
 
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "above" 788 1520 basechar 0
 AnchorPoint: "below" 788 0 basechar 0
 Fore
@@ -1993,6 +2017,7 @@ TtfInstrs: 149
 !!`Kh3*GVGlk2<5!&*[o3A=*)=9fB@m0=1.m0=1.m0=1+m9(V65V)m:&-<sU,m>S#0EOK@:]b#+
 YQ>.=!!NK?!?)%d!@e1/!BL<:$;V"I$4C,>>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 741 0 basechar 0
 AnchorPoint: "above" 741 1520 basechar 0
 Fore
@@ -2016,6 +2041,7 @@ TtfInstrs: 98
 5T0_F#7(P?*<H<E,m_9dN<?s"#Qk&-"98W5&Ce'/"qLn>?,YO:&NMj+!&*^2lnD(2=9fB@m0=1+
 m9(V65T^.3$O@IL)@.Vk.0qg63=%hW7KZ0e:CC2*?OLc[%p]/8
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 742 -12 basechar 0
 AnchorPoint: "above" 742 1520 basechar 0
 Fore
@@ -2143,6 +2169,7 @@ TtfInstrs: 157
 o_e@J&E`ESmPtn?&J@)X5YNgY4Wlm25:9/J9d*db>p4).DBXHOIN`YXN$+'&SKOIHXWX_h]cb!3
 'f$ga+%%)7+&a4W+(H@"+,(bd+-Rb-+/0gL+0lrl*tV]Y>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 698 0 basechar 0
 AnchorPoint: "above" 698 1147 basechar 0
 Fore
@@ -2187,6 +2214,7 @@ Flags: W
 TtfInstrs: 56
 5T9p$%+#LbTbWq*ar@)mckupP&jR9B#n7da*>&/81,ALg0`Wlfm,[g*&E`C7Zqh`N*Wc@J
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 698 0 basechar 0
 AnchorPoint: "above" 356 1520 basechar 0
 Fore
@@ -2222,6 +2250,7 @@ Flags: W
 TtfInstrs: 55
 5T0XH!Rq5^bRN&/Tb.F$(Wm>W)@&S<!#.L5&H'I%lnJJOjRhdMrq,Uip$ON@?Q4J6!WcR,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 733 0 basechar 0
 AnchorPoint: "above" 733 1147 basechar 0
 Fore
@@ -2253,6 +2282,7 @@ Flags: W
 TtfInstrs: 56
 5T:N5!722fT`rdKQk%7>UB;25!"Aup)F=fn*>&/8o^"=g0`WlnjRhO"&EN75Zqh`N*Wc@J
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 729 0 basechar 0
 AnchorPoint: "above" 1114 1520 basechar 0
 Fore
@@ -2289,6 +2319,7 @@ TtfInstrs: 67
 5Tp+BfDu<&#h0$M$j"rsT+]9TQlI%[!XKMM!(6kt%m(aBr9X(B`"<VB0`VdGo^(WMrq,UimPuu.
 0-*7t!WcR,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 729 0 basechar 0
 AnchorPoint: "above" 729 1147 basechar 0
 Fore
@@ -2324,6 +2355,7 @@ TtfInstrs: 81
 5TC==!=T7-"p(=rUCIL7$3CkG!!`f6%1P`:$PX0-9<\k)9<\n*>?JE9$NNFO=Zl'K4N,/N3B8eo
 0B=ndlk&S?&ihs+!C-g=#Cm']>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 394 0 basechar 0
 AnchorPoint: "above" 394 1520 basechar 0
 Fore
@@ -2356,6 +2388,7 @@ TtfInstrs: 75
 5UIH]!rs([(=X4o&fmYScj@i(ZQl.Vg&TJ%-4Bk`%R:aO63]M#&H(n5o^"=g0`WlfjQtt"jQmHW
 p$ND)3B8e#:F]a%!WcR,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 698 -430 basechar 0
 AnchorPoint: "above" 698 1147 basechar 0
 Fore
@@ -2399,6 +2432,7 @@ Flags: W
 TtfInstrs: 53
 5Ssq5!!*G]'$qB9&>K^9!Y#-"&If0[&/YuVln\5"0`Wjhm.BB*&NMj30XP4*J/JCh>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 698 0 basechar 0
 AnchorPoint: "above" 356 1520 basechar 0
 Fore
@@ -2431,6 +2465,7 @@ Flags: W
 TtfInstrs: 41
 5Rn"S!4)g'!X/T6"98u=&H"ZW1,/b^m.BWu5RC6n?jUcYJ-c>Z>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "cedilla" 350 0 basechar 0
 AnchorPoint: "below" 350 0 basechar 0
 AnchorPoint: "above" 350 1583 basechar 0
@@ -2456,6 +2491,7 @@ TtfInstrs: 61
 5T'q2!!f,"%c%,k"kjB[&-W=D%06nH!"]\Qr&j=$`&Th4!"eMXo^!.W&NMj*5RC7!?kI>iJ.Vnb
 >lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 351 -430 basechar 0
 AnchorPoint: "above" 351 1583 basechar 0
 Fore
@@ -2487,6 +2523,7 @@ TtfInstrs: 140
 #@@^S"(qde"*Ofj#($T2",-l5"cEVX"-j%U#+Gk.!u_pV('Q`)6ioj^8dJH!>mP'E?ijmCG62^b
 Fp37!LB<88M[5IIQN`ia'jUiG
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 698 0 basechar 0
 AnchorPoint: "above" 356 1520 basechar 0
 Fore
@@ -2511,6 +2548,7 @@ Flags: W
 TtfInstrs: 30
 [fE0)!=]#?";(Lt0`Wln0L,q@"^hLQ"b6aZ!F5[*
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 356 0 basechar 0
 AnchorPoint: "above" 356 1520 basechar 0
 Fore
@@ -2531,6 +2569,7 @@ TtfInstrs: 105
 5UdWe&d\[G!$DIN(_>@Dcm&Y8*jZh"#65GN$j[:H8/)LG808c[*=sP/r(F7)<*6[2*<8>a=o:D[
 m/631&J@)Y!&$GsjRbRqlnT/5&NLF>3A:J!%j*/Q-Vu10-\*S+-a+m&>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 1071 0 basechar 0
 AnchorPoint: "above" 1071 1147 basechar 0
 Fore
@@ -2573,6 +2612,7 @@ Flags: W
 TtfInstrs: 53
 5Ssq5!!*G]'$qB9&@2iI!Y#-"&If0[&/YuVln\5"0`WjhjRhO"&NMj30XP4*J/JCh>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 681 0 basechar 0
 AnchorPoint: "above" 681 1147 basechar 0
 Fore
@@ -2605,6 +2645,7 @@ Flags: W
 TtfInstrs: 45
 5SF?q&ceU6aqC'Y#so.r"%!_a(_HW3r9Q-<&ENKM&FM6\2\SCn7hYt*>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 705 0 basechar 0
 AnchorPoint: "above" 705 1147 basechar 0
 Fore
@@ -2635,6 +2676,7 @@ Flags: W
 TtfInstrs: 59
 5TLZ7!722fT`rdKapsd>h?1)))F=fs'EeCF!Y?@`r9Q0oo^":4&EMp5o]5?MjR+_/:EEmb!WcR,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 729 -430 basechar 0
 AnchorPoint: "above" 729 1147 basechar 0
 Fore
@@ -2670,6 +2712,7 @@ Flags: W
 TtfInstrs: 59
 5TL'&%+#LbTbu,kar.N)h@Gto(^p][)F+Bk&j%*Fr9X(B1,:Qa&EMp5o]5?Mk3aq1:EEmb!WcR,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 729 -430 basechar 0
 AnchorPoint: "above" 729 1147 basechar 0
 Fore
@@ -2705,6 +2748,7 @@ Flags: W
 TtfInstrs: 55
 5SaqA#mLV7"2G;/%a#*a#7:YE!!j,K&H#2*'3&)E!!rV?3*F2d1,/b^jRhO2`">!A&ihWG
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 350 0 basechar 0
 AnchorPoint: "above" 597 1147 basechar 0
 Fore
@@ -2735,6 +2779,7 @@ TtfInstrs: 220
 >sM^&#mgqF$O[@N%1*OK,8pt/%2o]n%kIu=#qcQ;$SDi?%4ND[#Wi>S$9JVV$p"hj#tbOs$VCgu
 %<i5)%CuhV$+^JT$b?bX%4)Jg%L3IL%LEUP%1>*(5:Kqg$!dO:
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 602 0 basechar 0
 AnchorPoint: "above" 602 1147 basechar 0
 Fore
@@ -2777,6 +2822,7 @@ TtfInstrs: 109
 5T1+9#S.$2&HT3DT`>E*$OHk@"98lB&e7kT&H#2*%oc3+&6)k,YRsi=9<]%.>?JE9%KJaR=ZjY#
 4N,/N3B8eo0?!5L4R=g83B8bo5Su]c58+(u!WW<5&.]@L!`/tq'jq)N!sr65>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 394 0 basechar 0
 AnchorPoint: "above" 394 1520 basechar 0
 Fore
@@ -2808,6 +2854,7 @@ Flags: W
 TtfInstrs: 59
 5T:49!!*M_'[RY`&-9*M"p+c<%h0+@!Y#,@)A)i5o^"=F&ihZH0B=n\jQmI=3B8e#?lOV8!WcR,
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "cedilla" 724 0 basechar 0
 AnchorPoint: "below" 724 0 basechar 0
 AnchorPoint: "above" 724 1147 basechar 0
@@ -2845,6 +2892,7 @@ TtfInstrs: 211
 ciVPqhu_g<hu`BLn,aI2!!301!t#/G!##AQ!u_:h!$hRq""=@2!&O^:"$$K<#Y"e`!D*Ab"CML[
 #)<58",@&9#*o7T!LX%X"I0.Z#,hX4!P&:X>l\.1
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 668 0 basechar 0
 AnchorPoint: "above" 668 1147 basechar 0
 Fore
@@ -2871,6 +2919,7 @@ TtfInstrs: 386
 E!14cE!C7dE!UOmE!qF%L^&M<M$\nEM[YXVPR*`eO:J,hW<9"#W<K+(W<oF0WXQ<:\H]JJ\I?IY
 _un-baTg8sf`Th/g'-RDkm?J[l3pm&!*oR)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 946 0 basechar 0
 AnchorPoint: "above" 946 1147 basechar 0
 Fore
@@ -2903,6 +2952,7 @@ huhm>mg8FhpAj[bpBLX(1'7Rd":PP<$53I\"<7[\$6K^&!\4C(#UBa6!]pNH#W)lB%7C7j"A9"g
 $?$B.!.Y-3"Gm>D#_38K!0mVS"ITI_#aPgq#-\0D"MY5H$GZ_h"O@@h$J,:)!oF.5#2]^5$KhEI
 !q-9U#4DiU$Ma\q#!-#i>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 659 0 basechar 0
 AnchorPoint: "above" 659 1147 basechar 0
 Fore
@@ -2933,6 +2983,7 @@ m0=1.m0=1+m0=1+m2%bf#jkb=!C3F\!WW95!Y>DU!^Hf`!bDFT!epc,!gEbJ!h]V%!jDa1!jDaA
 70Q*aB*)WKL'!)5L'EGCL^oaQQ3EQYR15PoVuit$WW]:2W=QB;]E>YHYR.N@^C.R]\IQ[^b72W)
 aUcr(jT7GJ!*oR)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 661 -430 basechar 0
 AnchorPoint: "above" 661 1147 basechar 0
 Fore
@@ -2962,6 +3013,7 @@ TtfInstrs: 137
 m9(V65X\`V<X3=?Ad<S_FpE[*P6V?n!tPYK!>#;D!tYSH"V;%g""=L/$TSJW$VC\3$]YLa#dFKF
 #f$Pg#g`\2#ic$R#T6nJ>lXj)
 EndTtf
+AnchorPoint: "half" 0 1520 basechar 0
 AnchorPoint: "below" 596 0 basechar 0
 AnchorPoint: "above" 596 1147 basechar 0
 Fore
@@ -16001,27 +16053,27 @@ Encoding: 864 864 864
 Width: 0
 Flags: W
 Fore
--4 1360 m 2,0,-1
- -148 1395 l 2,1,2
- -241 1421 -241 1421 -255 1424 c 0,3,4
- -299 1434 -299 1434 -335 1434 c 0,5,6
- -421 1434 -421 1434 -474 1398 c 0,7,8
- -546 1350 -546 1350 -549 1309 c 1,9,-1
- -741 1309 l 1,10,11
- -737 1444 -737 1444 -624 1518 c 0,12,13
- -512 1591 -512 1591 -317 1591 c 0,14,15
- -206 1591 -206 1591 -143 1577 c 0,16,17
- -116 1571 -116 1571 4 1540 c 2,18,-1
- 148 1505 l 2,19,20
- 241 1479 241 1479 255 1476 c 0,21,22
- 299 1466 299 1466 335 1466 c 0,23,24
- 415 1466 415 1466 474 1502 c 0,25,26
- 547 1546 547 1546 549 1591 c 1,27,-1
- 741 1591 l 1,28,29
- 737 1456 737 1456 624 1382 c 0,30,31
- 512 1309 512 1309 317 1309 c 0,32,33
- 206 1309 206 1309 143 1323 c 0,34,35
- 116 1329 116 1329 -4 1360 c 2,0,-1
+-4 1600 m 2,0,-1
+ -148 1635 l 2,1,2
+ -241 1661 -241 1661 -255 1664 c 0,3,4
+ -299 1674 -299 1674 -335 1674 c 0,5,6
+ -421 1674 -421 1674 -474 1638 c 0,7,8
+ -546 1590 -546 1590 -549 1549 c 1,9,-1
+ -741 1549 l 1,10,11
+ -737 1684 -737 1684 -624 1758 c 0,12,13
+ -512 1831 -512 1831 -317 1831 c 0,14,15
+ -206 1831 -206 1831 -143 1817 c 0,16,17
+ -116 1811 -116 1811 4 1780 c 2,18,-1
+ 148 1745 l 2,19,20
+ 241 1719 241 1719 255 1716 c 0,21,22
+ 299 1706 299 1706 335 1706 c 0,23,24
+ 415 1706 415 1706 474 1742 c 0,25,26
+ 547 1786 547 1786 549 1831 c 1,27,-1
+ 741 1831 l 1,28,29
+ 737 1696 737 1696 624 1622 c 0,30,31
+ 512 1549 512 1549 317 1549 c 0,32,33
+ 206 1549 206 1549 143 1563 c 0,34,35
+ 116 1569 116 1569 -4 1600 c 2,0,-1
 EndSplineSet
 EndChar
 StartChar: uni0361
@@ -16035,7 +16087,7 @@ Fore
  858.433 1684 858.433 1684 858.433 1506 c 1,6,-1
  715.433 1506 l 1,7,8
  702.433 1577 702.433 1577 501.933 1613.5 c 128,-1,9
- 301.433 1650 301.433 1650 0.932617 1650 c 24,10,11
+ 301.433 1650 301.433 1650 0.932617 1650 c 152,-1,11
  -299.567 1650 -299.567 1650 -500.567 1613.5 c 128,-1,12
  -701.567 1577 -701.567 1577 -714.567 1506 c 1,13,-1
  -857.567 1506 l 1,14,15
@@ -98838,6 +98890,76 @@ StartChar: uniFE0F
 Encoding: 65039 65039 65039
 Width: 0
 Flags: W
+EndChar
+StartChar: uniFE20
+Encoding: 65056 65056 65056
+Width: 0
+Flags: W
+Fore
+0 1650 m 17,0,0
+ -301 1650 -301 1650 -501.5 1613.5 c 128,-1,12
+ -702 1577 -702 1577 -715 1506 c 1,13,-1
+ -858 1506 l 1,14,15
+ -858 1694.13 -858 1694.13 -504 1757 c 0,0,1
+ -245 1803 -245 1803 0 1803 c 1,2,3
+ 0 1650 l 17,0,0
+EndSplineSet
+EndChar
+StartChar: uniFE21
+Encoding: 65057 65057 65057
+Width: 0
+Flags: W
+AnchorPoint: "half" 0 1520 mark 0
+Fore
+0 1650 m 9,0,-1
+ 0 1803 l 1,1,2
+ 245 1803 245 1803 504 1757 c 0,3,4
+ 858 1694.13 858 1694.13 858 1506 c 1,5,-1
+ 715 1506 l 1,6,7
+ 702 1577 702 1577 501.5 1613.5 c 128,-1,8
+ 301 1650 301 1650 0 1650 c 9,0,-1
+EndSplineSet
+EndChar
+StartChar: uniFE22
+Encoding: 65058 65058 65058
+Width: 0
+Flags: W
+Fore
+-0 1599 m 25,0,0
+ -4 1600 l 2,0,-1
+ -148 1635 l 2,1,2
+ -241 1661 -241 1661 -255 1664 c 0,3,4
+ -299 1674 -299 1674 -335 1674 c 0,5,6
+ -421 1674 -421 1674 -474 1638 c 0,7,8
+ -546 1590 -546 1590 -549 1549 c 1,9,-1
+ -741 1549 l 1,10,11
+ -737 1684 -737 1684 -624 1758 c 0,12,13
+ -512 1831 -512 1831 -317 1831 c 0,14,15
+ -206 1831 -206 1831 -143 1817 c 0,16,17
+ -116 1811 -116 1811 0 1781 c 9,0,0
+ 0 1599 l 25,0,0
+EndSplineSet
+EndChar
+StartChar: uniFE23
+Encoding: 65059 65059 65059
+Width: 0
+Flags: W
+AnchorPoint: "half" 0 1520 mark 0
+Fore
+0 1781 m 25,0,-1
+ 4 1780 l 2,1,-1
+ 148 1745 l 2,2,3
+ 241 1719 241 1719 255 1716 c 0,4,5
+ 299 1706 299 1706 335 1706 c 0,6,7
+ 415 1706 415 1706 474 1742 c 0,8,9
+ 547 1786 547 1786 549 1831 c 1,10,-1
+ 741 1831 l 1,11,12
+ 737 1696 737 1696 624 1622 c 0,13,14
+ 512 1549 512 1549 317 1549 c 0,15,16
+ 206 1549 206 1549 143 1563 c 0,17,18
+ 116 1569 116 1569 0 1599 c 9,19,-1
+ 0 1781 l 25,0,-1
+EndSplineSet
 EndChar
 StartChar: uniFE70
 Encoding: 65136 65136 65136
