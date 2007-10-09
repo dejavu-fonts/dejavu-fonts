@@ -44100,8 +44100,11 @@ Colour: ffff00
 EndChar
 StartChar: uni16C1
 Encoding: 5825 5825 5825
-Width: 2048
-Colour: ffff00
+Width: 604
+Flags: W
+AnchorPoint: "above" 303 1520 basechar 0
+AnchorPoint: "below" 303 0 basechar 0
+Refer: 73 73 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni16C2
 Encoding: 5826 5826 5826
@@ -44310,8 +44313,15 @@ Colour: ffff00
 EndChar
 StartChar: uni16EB
 Encoding: 5867 5867 5867
-Width: 2048
-Colour: ffff00
+Width: 656
+Flags: W
+Fore
+201 849 m 1,0,-1
+ 455 849 l 1,1,-1
+ 455 644 l 1,2,-1
+ 201 644 l 1,3,-1
+ 201 849 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni16EC
 Encoding: 5868 5868 5868
@@ -44330,8 +44340,9 @@ Colour: ffff00
 EndChar
 StartChar: uni16EF
 Encoding: 5871 5871 5871
-Width: 2048
-Colour: ffff00
+Width: 1614
+Flags: W
+Refer: 11619 11619 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni16F0
 Encoding: 5872 5872 5872
