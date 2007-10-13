@@ -303,7 +303,7 @@ AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedil
 BeginChars: 1114316 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni: 0
+AltUni2: 000000.ffffffff.0
 Width: 1229
 Flags: W
 TtfInstrs: 31
@@ -16022,6 +16022,7 @@ StartChar: uni035D
 Encoding: 861 861 861
 Width: 0
 Flags: W
+AnchorPoint: "above-mark" 0 1898 basemark 0
 Refer: 8255 8255 N 1 0 0 1 -823 2128 2
 EndChar
 StartChar: uni035E
@@ -16052,6 +16053,7 @@ StartChar: uni0360
 Encoding: 864 864 864
 Width: 0
 Flags: W
+AnchorPoint: "above-mark" 0 1898 basemark 0
 Fore
 -4 1600 m 2,0,-1
  -148 1635 l 2,1,2
@@ -16080,19 +16082,8 @@ StartChar: uni0361
 Encoding: 865 865 865
 Width: 0
 Flags: W
-Fore
--503.567 1757 m 0,0,1
- -245.041 1803.45 -245.041 1803.45 0.671646 1803.45 c 0,2,3
- 279.199 1803.45 279.199 1803.45 504.433 1757 c 0,4,5
- 858.433 1684 858.433 1684 858.433 1506 c 1,6,-1
- 715.433 1506 l 1,7,8
- 702.433 1577 702.433 1577 501.933 1613.5 c 128,-1,9
- 301.433 1650 301.433 1650 0.932617 1650 c 152,-1,11
- -299.567 1650 -299.567 1650 -500.567 1613.5 c 128,-1,12
- -701.567 1577 -701.567 1577 -714.567 1506 c 1,13,-1
- -857.567 1506 l 1,14,15
- -857.567 1692 -857.567 1692 -503.567 1757 c 0,0,1
-EndSplineSet
+AnchorPoint: "above-mark" 0 1898 basemark 0
+Refer: 8256 8256 N 1 0 0 1 -848 0 2
 EndChar
 StartChar: uni0362
 Encoding: 866 866 866
@@ -98925,7 +98916,7 @@ Encoding: 65058 65058 65058
 Width: 0
 Flags: W
 Fore
--0 1599 m 25,0,0
+0 1599 m 25,0,0
  -4 1600 l 2,0,-1
  -148 1635 l 2,1,2
  -241 1661 -241 1661 -255 1664 c 0,3,4
