@@ -1,6 +1,5 @@
 #! /bin/sh
 
-# script file for FontForge for PDF samples creation using fntsample
 # Author Євгеній Мещеряков <eugen@debian.org>
 # This file is in public domain
 
