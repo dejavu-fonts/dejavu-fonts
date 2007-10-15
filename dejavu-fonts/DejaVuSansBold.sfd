@@ -300,7 +300,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114316 0
+BeginChars: 1114317 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -6234,11 +6234,8 @@ StartChar: Uring
 Encoding: 366 366 366
 Width: 1663
 Flags: W
-TtfInstrs: 9
-5Qu*>E#o'd0`V1R
-EndTtf
 Refer: 85 85 N 1 0 0 1 0 0 3
-Refer: 730 730 N 1 0 0 1 324 343 2
+Refer: 730 730 N 1 0 0 1 324 83 2
 EndChar
 StartChar: uring
 Encoding: 367 367 367
@@ -14892,6 +14889,7 @@ AnchorPoint: "above-mark" -514 1147 mark 0
 AnchorPoint: "above-mark" -514 1820 basemark 0
 AnchorPoint: "above" -514 1147 mark 0
 Refer: 730 730 N 1 0 0 1 -1026 0 2
+Substitution2: "Single Substitution - Case Form" Ringabove
 EndChar
 StartChar: uni030B
 Encoding: 779 779 779
@@ -107503,6 +107501,15 @@ StartChar: uni07EA.init
 Encoding: 1114315 -1 1114315
 Width: 2048
 Colour: ff0000
+EndChar
+StartChar: Ringabove
+Encoding: 1114316 -1 1114316
+Width: 0
+Flags: W
+AnchorPoint: "above-mark" -514 1147 mark 0
+AnchorPoint: "above-mark" -514 1560 basemark 0
+AnchorPoint: "above" -514 1147 mark 0
+Refer: 730 730 N 1 0 0 1 -1026 -260 2
 EndChar
 EndChars
 EndSplineFont

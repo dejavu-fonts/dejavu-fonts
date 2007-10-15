@@ -267,7 +267,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 3" "above-mark"  "'mkmk' above-mark" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114129 0
+BeginChars: 1114130 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -5565,7 +5565,7 @@ TtfInstrs: 9
 5QsCo5S=-(0`V1R
 EndTtf
 Refer: 85 85 N 1 0 0 1 0 0 3
-Refer: 730 730 N 1 0 0 1 240 325 2
+Refer: 730 730 N 1 0 0 1 240 115 2
 EndChar
 StartChar: uring
 Encoding: 367 367 367
@@ -9644,6 +9644,7 @@ AnchorPoint: "above-mark" -512 1147 mark 0
 AnchorPoint: "above-mark" -512 1796 basemark 0
 AnchorPoint: "above" -512 1147 mark 0
 Refer: 730 730 N 1 0 0 1 -1026 0 2
+Substitution2: "Single Substitution - Case Form" Ringabove
 EndChar
 StartChar: uni030B
 Encoding: 779 779 779
@@ -23054,6 +23055,15 @@ Flags: W
 AnchorPoint: "above" 278 1148 basechar 0
 Refer: 305 305 N 1 0 0 1 0 0 2
 Refer: 803 803 N 1 0 0 1 797 0 2
+EndChar
+StartChar: Ringabove
+Encoding: 1114129 -1 1114129
+Width: 0
+Flags: W
+AnchorPoint: "above-mark" -512 1147 mark 0
+AnchorPoint: "above-mark" -512 1576 basemark 0
+AnchorPoint: "above" -512 1147 mark 0
+Refer: 730 730 N 1 0 0 1 -1026 -220 2
 EndChar
 EndChars
 EndSplineFont
