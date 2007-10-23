@@ -30,6 +30,9 @@ fontforge -script ../lgc.pe *.sfd
 echo "Generating TTF"
 mkdir generated
 ../generate.pe *.sfd
+for ttf in *.sfd.ttf ; do 
+   mv $ttf generated/$(echo $ttf|sed s+"\.sfd\.ttf+.ttf+g")
+done
 ../ttpostproc.pl generated/*.ttf
 ../unicover.pl ../UnicodeData.txt ../Blocks.txt DejaVuLGCSans.sfd Sans DejaVuLGCSerif.sfd Serif DejaVuLGCMonoSans.sfd 'Sans Mono' > unicover.txt
 ../langcover.pl ../fc-lang DejaVuLGCSans.sfd Sans DejaVuLGCSerif.sfd Serif DejaVuLGCMonoSans.sfd 'Sans Mono' > langcover.txt

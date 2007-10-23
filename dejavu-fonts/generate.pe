@@ -37,7 +37,7 @@ while ( i < $argc )
   if (Strcasestr ($fontname, "ExtraLight") > -1)
     gen_flags = exp_gen_flags
   endif
-  Generate("generated/" + $fontname + ".ttf", "", gen_flags)
+  Generate( $curfont + ".ttf", "", gen_flags)
   Close()
   i++
 endloop
