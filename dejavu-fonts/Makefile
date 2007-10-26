@@ -5,13 +5,19 @@ VERSION = 2.21
 # Snapshot version
 SNAPSHOT =
 # Initial source directory, assumed read-only
-SRCDIR  = ./
+SRCDIR  = .
 # Directory where temporary files live
-TMPDIR  = tmp/
+TMPDIR  = tmp
 # Directory where final files are created
-BUILDDIR  = build/
+BUILDDIR  = build
 # Directory where final archives are created
-DISTDIR = dist/
+DISTDIR = dist
+
+# Release layout
+BINDIR = .
+FONTCONFDIR = fontconfig
+DOCDIR = .
+TTFDIR = ttf
 
 ifeq "$(SNAPSHOT)" ""
 ARCHIVEVER = $(VERSION)
@@ -24,35 +30,46 @@ FULLARCHIVE = dejavu-fonts-ttf-$(ARCHIVEVER)
 SANSARCHIVE = dejavu-sans-ttf-$(ARCHIVEVER)
 LGCARCHIVE  = dejavu-lgc-fonts-ttf-$(ARCHIVEVER)
 
+ARCHIVEEXT = .zip .tar.bz2
+SUMEXT     = .zip.md5 .tar.bz2.md5 .tar.bz2.sha512
 
-OLDSTATUS   = ./status.txt
+OLDSTATUS   = $(DOCDIR)/status.txt
 BLOCKS      = ./Blocks.txt
 UNICODEDATA = ./UnicodeData.txt
 FC-LANG     = ./fc-lang
 
-GENERATE    = ./generate.pe
-TTPOSTPROC  = ./ttpostproc.pl
-LGC         = ./lgc.pe
-UNICOVER    = ./unicover.pl
-LANGCOVER   = ./langcover.pl
-STATUS	    = ./status.pl
-PROBLEMS    = ./problems.pl
+GENERATE    = $(BINDIR)/generate.pe
+TTPOSTPROC  = $(BINDIR)/ttpostproc.pl
+LGC         = $(BINDIR)/lgc.pe
+UNICOVER    = $(BINDIR)/unicover.pl
+LANGCOVER   = $(BINDIR)/langcover.pl
+STATUS	    = $(BINDIR)/status.pl
+PROBLEMS    = $(BINDIR)/problems.pl
 
-SRC     := $(wildcard $(SRCDIR)*.sfd)
-FULLSFD := $(patsubst $(SRCDIR)%.sfd,       $(TMPDIR)%.sfd,          $(SRC))
-LGCSFD  := $(patsubst $(SRCDIR)DejaVu%.sfd, $(TMPDIR)DejaVuLGC%.sfd, $(SRC))
-FULLTTF := $(patsubst $(TMPDIR)%.sfd, $(BUILDDIR)%.ttf, $(FULLSFD))
-LGCTTF  := $(patsubst $(TMPDIR)%.sfd, $(BUILDDIR)%.ttf, $(LGCSFD))
+SRC      := $(wildcard $(SRCDIR)/*.sfd)
+FULLSFD  := $(patsubst $(SRCDIR)/%.sfd,       $(TMPDIR)/%.sfd,          $(SRC))
+LGCSFD   := $(patsubst $(SRCDIR)/DejaVu%.sfd, $(TMPDIR)/DejaVuLGC%.sfd, $(SRC))
+FULLTTF  := $(patsubst $(TMPDIR)/%.sfd, $(BUILDDIR)/%.ttf, $(FULLSFD))
+LGCTTF   := $(patsubst $(TMPDIR)/%.sfd, $(BUILDDIR)/%.ttf, $(LGCSFD))
+
+FONTCONF     := $(wildcard $(FONTCONFDIR)/*.conf)
+FONTCONFLGC  := $(wildcard $(FONTCONFDIR)/*lgc*.conf)
+FONTCONFFULL := $(filter-out $(FONTCONFLGC), $(FONTCONF))
+
+STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README)
+GENDOCFULL = unicover.txt langcover.txt status.txt
+GENDOCSANS = unicover-sans.txt langcover-sans.txt
+GENDOCLGC  = unicover-lgc.txt langcover-lgc.txt
 
 all : full sans lgc
 
-$(TMPDIR)%.sfd: $(SRCDIR)%.sfd
+$(TMPDIR)/%.sfd: $(SRCDIR)/%.sfd
 	@echo "[1] $< => $@"
 	install -d $(dir $@)
 	sed "s@\(Version:\? \)\(0\.[0-9]\+\.[0-9]\+\|[1-9][0-9]*\.[0-9]\+\)@\1$(VERSION)@" $< > $@
 	touch -r $< $@
 
-$(TMPDIR)DejaVuLGC%.sfd: $(TMPDIR)DejaVu%.sfd
+$(TMPDIR)/DejaVuLGC%.sfd: $(TMPDIR)/DejaVu%.sfd
 	@echo "[2] $< => $@"
 	sed -e 's,FontName: DejaVu,FontName: DejaVuLGC,'\
 	    -e 's,FullName: DejaVu,FullName: DejaVu LGC,'\
@@ -62,7 +79,7 @@ $(TMPDIR)DejaVuLGC%.sfd: $(TMPDIR)DejaVu%.sfd
 	$(LGC) $@
 	touch -r $< $@
 
-$(BUILDDIR)%.ttf: $(TMPDIR)%.sfd
+$(BUILDDIR)/%.ttf: $(TMPDIR)/%.sfd
 	@echo "[3] $< => $@"
 	install -d $(dir $@)
 	$(GENERATE) $<
@@ -71,122 +88,115 @@ $(BUILDDIR)%.ttf: $(TMPDIR)%.sfd
 	$(RM) $@~
 	touch -r $< $@
 
-$(BUILDDIR)status.txt: $(FULLSFD)
+$(BUILDDIR)/status.txt: $(FULLSFD)
 	@echo "[4] => $@"
 	install -d $(dir $@)
 	$(STATUS) $(VERSION) $(OLDSTATUS) $(FULLSFD) > $@
 
-$(BUILDDIR)unicover.txt: $(TMPDIR)DejaVuSans.sfd $(TMPDIR)DejaVuSerif.sfd $(TMPDIR)DejaVuMonoSans.sfd
+$(BUILDDIR)/unicover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuMonoSans)
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
-	            $(TMPDIR)DejaVuSans.sfd "Sans" \
-	            $(TMPDIR)DejaVuSerif.sfd "Serif" \
-	            $(TMPDIR)DejaVuMonoSans.sfd "Sans Mono" > $@
+	            $(TMPDIR)/DejaVuSans.sfd "Sans" \
+	            $(TMPDIR)/DejaVuSerif.sfd "Serif" \
+	            $(TMPDIR)/DejaVuMonoSans.sfd "Sans Mono" > $@
 
-$(BUILDDIR)unicover-sans.txt: $(TMPDIR)DejaVuSans.sfd
+$(BUILDDIR)/unicover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
-	            $(TMPDIR)DejaVuSans.sfd "Sans" > $@
+	            $(TMPDIR)/DejaVuSans.sfd "Sans" > $@
 
-$(BUILDDIR)unicover-lgc.txt: $(TMPDIR)DejaVuLGCSans.sfd $(TMPDIR)DejaVuLGCSerif.sfd $(TMPDIR)DejaVuLGCMonoSans.sfd
+$(BUILDDIR)/unicover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCMonoSans)
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
-	            $(TMPDIR)DejaVuLGCSans.sfd "Sans" \
-	            $(TMPDIR)DejaVuLGCSerif.sfd "Serif" \
-	            $(TMPDIR)DejaVuLGCMonoSans.sfd "Sans Mono" > $@
+	            $(TMPDIR)/DejaVuLGCSans.sfd "Sans" \
+	            $(TMPDIR)/DejaVuLGCSerif.sfd "Serif" \
+	            $(TMPDIR)/DejaVuLGCMonoSans.sfd "Sans Mono" > $@
 
-$(BUILDDIR)langcover.txt: $(TMPDIR)DejaVuSans.sfd $(TMPDIR)DejaVuSerif.sfd $(TMPDIR)DejaVuMonoSans.sfd
+$(BUILDDIR)/langcover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuMonoSans)
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
 	touch $@
 else
 	$(LANGCOVER) $(FC-LANG) \
-	             $(TMPDIR)DejaVuSans.sfd "Sans" \
-	             $(TMPDIR)DejaVuSerif.sfd "Serif" \
-	             $(TMPDIR)DejaVuMonoSans.sfd "Sans Mono" > $@
+	             $(TMPDIR)/DejaVuSans.sfd "Sans" \
+	             $(TMPDIR)/DejaVuSerif.sfd "Serif" \
+	             $(TMPDIR)/DejaVuMonoSans.sfd "Sans Mono" > $@
 endif
 
-$(BUILDDIR)langcover-sans.txt: $(TMPDIR)DejaVuSans.sfd
+$(BUILDDIR)/langcover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
 	touch $@
 else
 	$(LANGCOVER) $(FC-LANG) \
-	             $(TMPDIR)DejaVuSans.sfd "Sans" > $@
+	             $(TMPDIR)/DejaVuSans.sfd "Sans" > $@
 endif
 
-$(BUILDDIR)langcover-lgc.txt: $(TMPDIR)DejaVuLGCSans.sfd $(TMPDIR)DejaVuLGCSerif.sfd $(TMPDIR)DejaVuLGCMonoSans.sfd
+$(BUILDDIR)/langcover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCMonoSans)
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
 	touch $@
 else
 	$(LANGCOVER) $(FC-LANG) \
-	             $(TMPDIR)DejaVuLGCSans.sfd "Sans" \
-	             $(TMPDIR)DejaVuLGCSerif.sfd "Serif" \
-	             $(TMPDIR)DejaVuLGCMonoSans.sfd "Sans Mono" > $@
+	             $(TMPDIR)/DejaVuLGCSans.sfd "Sans" \
+	             $(TMPDIR)/DejaVuLGCSerif.sfd "Serif" \
+	             $(TMPDIR)/DejaVuLGCMonoSans.sfd "Sans Mono" > $@
 endif
 
-$(BUILDDIR)Makefile: Makefile
+$(BUILDDIR)/Makefile: Makefile
 	@echo "[7] => $@"
 	install -d $(dir $@)
 	sed -e "s+^VERSION\([[:space:]]*\)=\(.*\)+VERSION = $(VERSION)+g"\
 	    -e "s+^SNAPSHOT\([[:space:]]*\)=\(.*\)+SNAPSHOT = $(SNAPSHOT)+g" < $< > $@
 	touch -r $< $@
 
-$(TMPDIR)$(SRCARCHIVE): $(BUILDDIR)unicover.txt $(BUILDDIR)langcover.txt $(BUILDDIR)Makefile
+$(TMPDIR)/$(SRCARCHIVE): $(addprefix $(BUILDDIR)/, $(GENDOCFULL) Makefile) $(FULLSFD)
 	@echo "[8] => $@"
-	install -d -m 0755 $@
+	install -d -m 0755 $@/{$(BINDIR),$(SRCDIR),$(FONTCONFDIR),$(DOCDIR)}
+	install -p -m 0644 $(BUILDDIR)/Makefile $@
 	install -p -m 0755 $(GENERATE) $(TTPOSTPROC) $(LGC) \
 	                   $(UNICOVER) $(LANGCOVER) $(STATUS) $(PROBLEMS) \
-	                   $@
-	install -p -m 0644 $(FULLSFD) \
-	                   $(BUILDDIR)Makefile \
-	                   $(BUILDDIR)unicover.txt \
-                           $(BUILDDIR)langcover.txt \
-	                   $(BUILDDIR)status.txt \
-	                   AUTHORS BUGS LICENSE NEWS README \
-	                   $@
+	                   $@/$(BINDIR)
+	install -p -m 0644 $(FULLSFD) $@/$(SRCDIR)
+	install -p -m 0644 $(FONTCONF) $@/$(FONTCONFDIR)
+	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCFULL)) \
+	                   $(STATICDOC) $@/$(DOCDIR)
 
-$(TMPDIR)$(FULLARCHIVE): full
+$(TMPDIR)/$(FULLARCHIVE): full
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{doc,ttf}
-	install -p -m 0644 $(FULLTTF) $@/ttf
-	install -p -m 0644 $(BUILDDIR)unicover.txt \
-                           $(BUILDDIR)langcover.txt \
-	                   $(BUILDDIR)status.txt \
-	                   AUTHORS BUGS LICENSE NEWS README \
-	                   $@/doc
+	install -d -m 0755 $@/{$(TTFDIR),$(FONTCONFDIR),$(DOCDIR)}
+	install -p -m 0644 $(FULLTTF) $@/$(TTFDIR)
+	install -p -m 0644 $(FONTCONFFULL) $@/$(FONTCONFDIR)
+	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCFULL)) \
+	                   $(STATICDOC) $@/$(DOCDIR)
 
-$(TMPDIR)$(SANSARCHIVE): sans
+$(TMPDIR)/$(SANSARCHIVE): sans
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{doc,ttf}
-	install -p -m 0644 $(BUILDDIR)DejaVuSans.ttf $@/ttf
-	install -p -m 0644 $(BUILDDIR)unicover-sans.txt \
-                           $(BUILDDIR)langcover-sans.txt \
-	                   AUTHORS BUGS LICENSE NEWS README \
-	                   $@/doc
+	install -d -m 0755 $@/{$(TTFDIR),$(DOCDIR)}
+	install -p -m 0644 $(BUILDDIR)/DejaVuSans.ttf $@/$(TTFDIR)
+	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCSANS)) \
+	                   $(STATICDOC) $@/$(DOCDIR)
 
-$(TMPDIR)$(LGCARCHIVE): lgc
+$(TMPDIR)/$(LGCARCHIVE): lgc
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{doc,ttf}
-	install -p -m 0644 $(LGCTTF) $@/ttf
-	install -p -m 0644 $(BUILDDIR)unicover-lgc.txt \
-                           $(BUILDDIR)langcover-lgc.txt \
-	                   AUTHORS BUGS LICENSE NEWS README \
-	                   $@/doc
+	install -d -m 0755 $@/{$(TTFDIR),$(FONTCONFDIR),$(DOCDIR)}
+	install -p -m 0644 $(LGCTTF) $@/$(TTFDIR)
+	install -p -m 0644 $(FONTCONFLGC) $@/$(FONTCONFDIR)
+	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCLGC)) \
+	                   $(STATICDOC) $@/$(DOCDIR)
 
-$(DISTDIR)%.zip: $(TMPDIR)%
+$(DISTDIR)/%.zip: $(TMPDIR)/%
 	@echo "[9] => $@"
 	install -d $(dir $@)
 	(cd $(TMPDIR); zip -rv $(abspath $@) $(notdir $<))
 
-$(DISTDIR)%.tar.bz2: $(TMPDIR)%
+$(DISTDIR)/%.tar.bz2: $(TMPDIR)/%
 	@echo "[9] => $@"
 	install -d $(dir $@)
 	(cd $(TMPDIR); tar cjvf $(abspath $@) $(notdir $<))
@@ -199,53 +209,36 @@ $(DISTDIR)%.tar.bz2: $(TMPDIR)%
 	@echo "[10] => $@"
 	(cd $(dir $<); sha512sum -b $(notdir $<) > $(abspath $@))
 
-full : $(FULLTTF) $(BUILDDIR)unicover.txt $(BUILDDIR)langcover.txt $(BUILDDIR)status.txt
+full : $(FULLTTF) $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
 
-sans : $(BUILDDIR)DejaVuSans.ttf $(BUILDDIR)unicover-sans.txt $(BUILDDIR)langcover-sans.txt
+sans : $(addprefix $(BUILDDIR)/, DejaVuSans.ttf $(GENDOCSANS))
 
-lgc : $(LGCTTF) $(BUILDDIR)unicover-lgc.txt $(BUILDDIR)langcover-lgc.txt
+lgc : $(LGCTTF) $(addprefix $(BUILDDIR)/, $(GENDOCLGC))
 
 ttf : full-ttf sans-ttf lgc-ttf
 
 full-ttf : $(FULLTTF)
 
-sans-ttf: $(BUILDDIR)DejaVuSans.ttf
+sans-ttf: $(BUILDDIR)/DejaVuSans.ttf
 
 lgc-ttf : $(LGCTTF)
 
 dist : src-dist full-dist sans-dist lgc-dist
 
-src-dist : $(DISTDIR)$(SRCARCHIVE).zip \
-           $(DISTDIR)$(SRCARCHIVE).zip.md5 \
-           $(DISTDIR)$(SRCARCHIVE).zip.sha512 \
-           $(DISTDIR)$(SRCARCHIVE).tar.bz2 \
-           $(DISTDIR)$(SRCARCHIVE).tar.bz2.md5 \
-           $(DISTDIR)$(SRCARCHIVE).tar.bz2.sha512
+src-dist :  $(addprefix $(DISTDIR)/$(SRCARCHIVE),  $(ARCHIVEEXT) $(SUMEXT))
 
-full-dist : $(DISTDIR)$(FULLARCHIVE).zip \
-            $(DISTDIR)$(FULLARCHIVE).zip.md5 \
-            $(DISTDIR)$(FULLARCHIVE).zip.sha512 \
-            $(DISTDIR)$(FULLARCHIVE).tar.bz2 \
-            $(DISTDIR)$(FULLARCHIVE).tar.bz2.md5 \
-            $(DISTDIR)$(FULLARCHIVE).tar.bz2.sha512
+full-dist : $(addprefix $(DISTDIR)/$(FULLARCHIVE), $(ARCHIVEEXT) $(SUMEXT))
 
-sans-dist: $(DISTDIR)$(SANSARCHIVE).zip \
-           $(DISTDIR)$(SANSARCHIVE).zip.md5 \
-           $(DISTDIR)$(SANSARCHIVE).zip.sha512
+sans-dist:  $(addprefix $(DISTDIR)/$(SANSARCHIVE), $(ARCHIVEEXT) $(SUMEXT))
 
-lgc-dist : $(DISTDIR)$(LGCARCHIVE).zip \
-           $(DISTDIR)$(LGCARCHIVE).zip.md5 \
-           $(DISTDIR)$(LGCARCHIVE).zip.sha512 \
-           $(DISTDIR)$(LGCARCHIVE).tar.bz2 \
-           $(DISTDIR)$(LGCARCHIVE).tar.bz2.md5 \
-           $(DISTDIR)$(LGCARCHIVE).tar.bz2.sha512
+lgc-dist :  $(addprefix $(DISTDIR)/$(LGCARCHIVE),  $(ARCHIVEEXT) $(SUMEXT))
 
 check : full-check
 
 full-check : $(FULLSFD)
 	$(PROBLEMS) $<
 
-sans-check : $(TMPDIR)DejaVuSans.sfd
+sans-check : $(TMPDIR)/DejaVuSans.sfd
 	$(PROBLEMS) $<
 
 lgc-check : $(LGCSFD)
