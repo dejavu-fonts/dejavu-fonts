@@ -38,7 +38,7 @@ SUMEXT     = .zip.md5 .tar.bz2.md5 .tar.bz2.sha512
 OLDSTATUS   = $(DOCDIR)/status.txt
 BLOCKS      = $(RESOURCEDIR)/Blocks.txt
 UNICODEDATA = $(RESOURCEDIR)/UnicodeData.txt
-FC-LANG     = ./fc-lang
+FC-LANG     = $(RESOURCEDIR)/fc-lang
 
 GENERATE    = $(SCRIPTSDIR)/generate.pe
 TTPOSTPROC  = $(SCRIPTSDIR)/ttpostproc.pl
