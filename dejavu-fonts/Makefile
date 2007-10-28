@@ -1,4 +1,4 @@
-.PHONY: all check munge full sans lgc ttf full-ttf sans-ttf lgc-ttf dist src-dist full-dist sans-dist lgc-dist norm check-harder pre-patch clean
+.PHONY: all check munge full sans lgc ttf full-ttf sans-ttf lgc-ttf status dist src-dist full-dist sans-dist lgc-dist norm check-harder pre-patch clean
 
 # Release version
 VERSION = 2.21
@@ -244,6 +244,8 @@ full-ttf : $(FULLTTF)
 sans-ttf: $(BUILDDIR)/DejaVuSans.ttf
 
 lgc-ttf : $(LGCTTF)
+
+status : $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
 
 dist : src-dist full-dist sans-dist lgc-dist
 
