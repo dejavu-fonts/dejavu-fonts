@@ -19,6 +19,7 @@ FONTCONFDIR = fontconfig
 DOCDIR = .
 SCRIPTSDIR = scripts
 TTFDIR = ttf
+RESOURCEDIR = resources
 
 ifeq "$(SNAPSHOT)" ""
 ARCHIVEVER = $(VERSION)
@@ -35,8 +36,8 @@ ARCHIVEEXT = .zip .tar.bz2
 SUMEXT     = .zip.md5 .tar.bz2.md5 .tar.bz2.sha512
 
 OLDSTATUS   = $(DOCDIR)/status.txt
-BLOCKS      = ./Blocks.txt
-UNICODEDATA = ./UnicodeData.txt
+BLOCKS      = $(RESOURCEDIR)/Blocks.txt
+UNICODEDATA = $(RESOURCEDIR)/UnicodeData.txt
 FC-LANG     = ./fc-lang
 
 GENERATE    = $(SCRIPTSDIR)/generate.pe
