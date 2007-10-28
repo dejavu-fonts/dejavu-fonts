@@ -244,7 +244,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above"  "'mark' Mark Positioning lookup 10" "below"  "'mark' Mark Positioning lookup 9" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' Mark to Mark lookup 3" "below-mark"  "'mkmk' Mark to Mark lookup 2" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
-BeginChars: 1114166 0
+BeginChars: 1114167 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni: 0
@@ -94567,6 +94567,77 @@ Encoding: 65039 65039 65039
 Width: 0
 Flags: W
 EndChar
+StartChar: uniFE20
+Encoding: 65056 65056 65056
+Width: 0
+Flags: W
+Fore
+288.9 1650 m 17,0,0
+ 18 1650 18 1650 -168.75 1613.5 c 128,-1,12
+ -355.5 1577 -355.5 1577 -379.8 1506 c 1,13,-1
+ -508.5 1506 l 1,14,15
+ -476.1 1694 -476.1 1694 -145.8 1757 c 0,0,1
+ 94.5 1803 94.5 1803 315 1803 c 1,2,3
+ 288.9 1650 l 17,0,0
+EndSplineSet
+EndChar
+StartChar: uniFE21
+Encoding: 65057 65057 65057
+Width: 0
+Flags: W
+AnchorPoint: "half" 265.5 1520 mark 0
+Fore
+288.9 1650 m 9,0,-1
+ 315 1803 l 1,1,2
+ 535.5 1803 535.5 1803 761.4 1757 c 0,3,4
+ 1039 1700.02 1039 1700.02 1039 1540.76 c 0,5,6
+ 1039 1523.95 1039 1523.95 1035.9 1506 c 1,7,-1
+ 907.2 1506 l 1,8,9
+ 908.1 1577 908.1 1577 733.95 1613.5 c 128,-1,10
+ 559.8 1650 559.8 1650 288.9 1650 c 9,0,-1
+EndSplineSet
+EndChar
+StartChar: uniFE22
+Encoding: 65058 65058 65058
+Width: 0
+Flags: W
+Fore
+279.9 1599 m 25,0,0
+ 276.3 1600 l 2,0,-1
+ 153 1635 l 2,1,2
+ 73.7998 1661 73.7998 1661 61.2002 1664 c 0,3,4
+ 23.4004 1674 23.4004 1674 -9 1674 c 0,5,6
+ -86.4004 1674 -86.4004 1674 -140.4 1638 c 0,7,8
+ -213.3 1590 -213.3 1590 -223.2 1549 c 1,9,-1
+ -396 1549 l 1,10,11
+ -369 1684 -369 1684 -253.8 1758 c 0,12,13
+ -140.4 1831 -140.4 1831 35.0996 1831 c 0,14,15
+ 135 1831 135 1831 189 1817 c 0,16,17
+ 212.4 1811 212.4 1811 311.4 1781 c 9,0,0
+ 279.9 1599 l 25,0,0
+EndSplineSet
+EndChar
+StartChar: uniFE23
+Encoding: 65059 65059 65059
+Width: 0
+Flags: W
+AnchorPoint: "half" 265.5 1520 mark 0
+Fore
+311.4 1781 m 25,0,-1
+ 315 1780 l 2,1,-1
+ 438.3 1745 l 2,2,3
+ 517.5 1719 517.5 1719 530.1 1716 c 0,4,5
+ 567.9 1706 567.9 1706 600.3 1706 c 0,6,7
+ 672.3 1706 672.3 1706 731.7 1742 c 0,8,9
+ 804.6 1786 804.6 1786 814.5 1831 c 1,10,-1
+ 987.3 1831 l 1,11,12
+ 960.3 1696 960.3 1696 845.1 1622 c 0,13,14
+ 731.7 1549 731.7 1549 556.2 1549 c 0,15,16
+ 456.3 1549 456.3 1549 402.3 1563 c 0,17,18
+ 378.9 1569 378.9 1569 279.9 1599 c 9,19,-1
+ 311.4 1781 l 25,0,-1
+EndSplineSet
+EndChar
 StartChar: uniFFFD
 Encoding: 65533 65533 65533
 Width: 2052
@@ -97728,6 +97799,15 @@ Fore
  1522.8 -28.252 1522.8 -28.252 1125 -27 c 8,25,26
  831.214 -26.0752 831.214 -26.0752 801 261 c 1,0,1
 EndSplineSet
+EndChar
+StartChar: Ringabove
+Encoding: 1114166 -1 1114166
+Width: 0
+Flags: W
+AnchorPoint: "above" -187.818 1147 mark 0
+AnchorPoint: "above-mark" -115.566 1560 basemark 0
+AnchorPoint: "above-mark" -187.818 1147 mark 0
+Refer: 730 730 N 1 0 0 1 -779.4 -230 2
 EndChar
 EndChars
 EndSplineFont
