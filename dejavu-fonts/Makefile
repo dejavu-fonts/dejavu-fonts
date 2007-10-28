@@ -1,4 +1,4 @@
-.PHONY: all full sans lgc ttf full-ttf sans-ttf lgc-ttf dist src-dist full-dist sans-dist lgc-dist check full-check sans-check lgc-check clean
+.PHONY: all check munge full sans lgc ttf full-ttf sans-ttf lgc-ttf dist src-dist full-dist sans-dist lgc-dist norm check-harder pre-patch clean
 
 # Release version
 VERSION = 2.21
@@ -45,9 +45,12 @@ UNICOVER    = $(BINDIR)/unicover.pl
 LANGCOVER   = $(BINDIR)/langcover.pl
 STATUS	    = $(BINDIR)/status.pl
 PROBLEMS    = $(BINDIR)/problems.pl
+NORMALIZE   = $(BINDIR)/sfdnormalize.pl
 
 SRC      := $(wildcard $(SRCDIR)/*.sfd)
-FULLSFD  := $(patsubst $(SRCDIR)/%.sfd,       $(TMPDIR)/%.sfd,          $(SRC))
+SFDFILES := $(patsubst $(SRCDIR)/%, %, $(SRC))
+FULLSFD  := $(patsubst $(SRCDIR)/%.sfd, $(TMPDIR)/%.sfd, $(SRC))
+NORMSFD  := $(patsubst %, %.norm, $(FULLSFD))
 LGCSFD   := $(patsubst $(SRCDIR)/DejaVu%.sfd, $(TMPDIR)/DejaVuLGC%.sfd, $(SRC))
 FULLTTF  := $(patsubst $(TMPDIR)/%.sfd, $(BUILDDIR)/%.ttf, $(FULLSFD))
 LGCTTF   := $(patsubst $(TMPDIR)/%.sfd, $(BUILDDIR)/%.ttf, $(LGCSFD))
@@ -160,7 +163,7 @@ $(TMPDIR)/$(SRCARCHIVE): $(addprefix $(BUILDDIR)/, $(GENDOCFULL) Makefile) $(FUL
 	@echo "[8] => $@"
 	install -d -m 0755 $@/{$(BINDIR),$(SRCDIR),$(FONTCONFDIR),$(DOCDIR)}
 	install -p -m 0644 $(BUILDDIR)/Makefile $@
-	install -p -m 0755 $(GENERATE) $(TTPOSTPROC) $(LGC) \
+	install -p -m 0755 $(GENERATE) $(TTPOSTPROC) $(LGC) $(NORMALIZE) \
 	                   $(UNICOVER) $(LANGCOVER) $(STATUS) $(PROBLEMS) \
 	                   $@/$(BINDIR)
 	install -p -m 0644 $(FULLSFD) $@/$(SRCDIR)
@@ -209,6 +212,24 @@ $(DISTDIR)/%.tar.bz2: $(TMPDIR)/%
 	@echo "[10] => $@"
 	(cd $(dir $<); sha512sum -b $(notdir $<) > $(abspath $@))
 
+%.sfd.norm: %.sfd
+	@echo "[11] $< => $@"
+	$(NORMALIZE) $<
+	touch -r $< $@
+
+check : $(NORMSFD)
+	for sfd in $^ ; do \
+	echo "[12] Checking $$sfd" ;\
+	$(PROBLEMS)  $$sfd ;\
+	done
+
+munge: $(NORMSFD)
+	for sfd in $(SFDFILES) ; do \
+	echo "[13] $(TMPDIR)/$$sfd.norm => $(SRCDIR)/$$sfd" ;\
+	cp $(TMPDIR)/$$sfd.norm $(SRCDIR)/$$sfd ;\
+	touch -r $(TMPDIR)/$$sfd.norm $(SRCDIR)/$$sfd ;\
+	done
+
 full : $(FULLTTF) $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
 
 sans : $(addprefix $(BUILDDIR)/, DejaVuSans.ttf $(GENDOCSANS))
@@ -229,20 +250,15 @@ src-dist :  $(addprefix $(DISTDIR)/$(SRCARCHIVE),  $(ARCHIVEEXT) $(SUMEXT))
 
 full-dist : $(addprefix $(DISTDIR)/$(FULLARCHIVE), $(ARCHIVEEXT) $(SUMEXT))
 
-sans-dist:  $(addprefix $(DISTDIR)/$(SANSARCHIVE), $(ARCHIVEEXT) $(SUMEXT))
+sans-dist : $(addprefix $(DISTDIR)/$(SANSARCHIVE), $(ARCHIVEEXT) $(SUMEXT))
 
 lgc-dist :  $(addprefix $(DISTDIR)/$(LGCARCHIVE),  $(ARCHIVEEXT) $(SUMEXT))
 
-check : full-check
+norm : $(NORMSFD)
 
-full-check : $(FULLSFD)
-	$(PROBLEMS) $<
+check-harder : clean check
 
-sans-check : $(TMPDIR)/DejaVuSans.sfd
-	$(PROBLEMS) $<
-
-lgc-check : $(LGCSFD)
-	$(PROBLEMS) $<
+pre-patch : clean munge
 
 clean :
 	$(RM) -r $(TMPDIR) $(BUILDDIR) $(DISTDIR)
