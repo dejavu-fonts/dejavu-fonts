@@ -5,7 +5,7 @@ VERSION = 2.21
 # Snapshot version
 SNAPSHOT =
 # Initial source directory, assumed read-only
-SRCDIR  = .
+SRCDIR  = src
 # Directory where temporary files live
 TMPDIR  = tmp
 # Directory where final files are created
