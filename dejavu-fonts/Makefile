@@ -17,6 +17,7 @@ DISTDIR = dist
 BINDIR = .
 FONTCONFDIR = fontconfig
 DOCDIR = .
+SCRIPTSDIR = scripts
 TTFDIR = ttf
 
 ifeq "$(SNAPSHOT)" ""
@@ -38,14 +39,14 @@ BLOCKS      = ./Blocks.txt
 UNICODEDATA = ./UnicodeData.txt
 FC-LANG     = ./fc-lang
 
-GENERATE    = $(BINDIR)/generate.pe
-TTPOSTPROC  = $(BINDIR)/ttpostproc.pl
-LGC         = $(BINDIR)/lgc.pe
-UNICOVER    = $(BINDIR)/unicover.pl
-LANGCOVER   = $(BINDIR)/langcover.pl
-STATUS	    = $(BINDIR)/status.pl
-PROBLEMS    = $(BINDIR)/problems.pl
-NORMALIZE   = $(BINDIR)/sfdnormalize.pl
+GENERATE    = $(SCRIPTSDIR)/generate.pe
+TTPOSTPROC  = $(SCRIPTSDIR)/ttpostproc.pl
+LGC         = $(SCRIPTSDIR)/lgc.pe
+UNICOVER    = $(SCRIPTSDIR)/unicover.pl
+LANGCOVER   = $(SCRIPTSDIR)/langcover.pl
+STATUS	    = $(SCRIPTSDIR)/status.pl
+PROBLEMS    = $(SCRIPTSDIR)/problems.pl
+NORMALIZE   = $(SCRIPTSDIR)/sfdnormalize.pl
 
 SRC      := $(wildcard $(SRCDIR)/*.sfd)
 SFDFILES := $(patsubst $(SRCDIR)/%, %, $(SRC))
