@@ -1,0 +1,66 @@
+#! /usr/bin/fontforge -script
+#
+# $Id$
+#
+# "glyphs_to_remove" argument can be a single code point
+# or a range of codepoints separated by ":"
+#
+# code points can be specified both as integers and as unicode
+# you can also mix the two formats (i.e "48:u54")
+#
+# example: 
+#
+#      "strip_glyphs in.sfd out.sfd 12 u20 100:150 u200:u230 u300:65000"
+
+if ($argc < 4)
+   Print( "Usage: strip_glyphs in out glyphs_to_remove..." )
+   Quit()
+endif
+
+
+Open($1); shift
+Reencode("unicode")
+out = $1; shift
+
+#
+# Loop through the arguments and select the glyphs
+# which need to be cleared
+#
+while ($argc > 1)
+  len = Strlen($1)
+  colon_idx = Strstr($1, ":")
+
+  #  
+  # argument is a single glyph
+  #
+  if (colon_idx == -1)
+    if(Strstr($1, "u") == -1)
+       SelectMore(Strtol($1)) ## Integer
+    else
+       SelectMore($1) ## Unicode code point (i.e "u0027")
+    endif
+
+  #  
+  # argument is a range low:high
+  #
+  else      
+     low = Strsub($1, 0, colon_idx)
+     if(Strstr($1, "u") == -1)
+        low = Strtol(low) ## Integer
+     endif
+
+     high = Strsub($1, colon_idx+1, len)
+     if(Strstr($1, "u") == -1)
+        high = Strtol(high) ## Integer
+     endif
+   
+     SelectMore(low, high);
+  endif
+
+  shift
+endloop
+
+Clear()
+
+Save(out)
+Quit()
