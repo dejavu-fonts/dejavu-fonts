@@ -98,13 +98,13 @@ $(BUILDDIR)/status.txt: $(FULLSFD)
 	install -d $(dir $@)
 	$(STATUS) $(VERSION) $(OLDSTATUS) $(FULLSFD) > $@
 
-$(BUILDDIR)/unicover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuMonoSans)
+$(BUILDDIR)/unicover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuSansMono)
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
 	            $(TMPDIR)/DejaVuSans.sfd "Sans" \
 	            $(TMPDIR)/DejaVuSerif.sfd "Serif" \
-	            $(TMPDIR)/DejaVuMonoSans.sfd "Sans Mono" > $@
+	            $(TMPDIR)/DejaVuSansMono.sfd "Sans Mono" > $@
 
 $(BUILDDIR)/unicover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
 	@echo "[5] => $@"
@@ -112,15 +112,15 @@ $(BUILDDIR)/unicover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
 	            $(TMPDIR)/DejaVuSans.sfd "Sans" > $@
 
-$(BUILDDIR)/unicover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCMonoSans)
+$(BUILDDIR)/unicover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCSansMono)
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
 	            $(TMPDIR)/DejaVuLGCSans.sfd "Sans" \
 	            $(TMPDIR)/DejaVuLGCSerif.sfd "Serif" \
-	            $(TMPDIR)/DejaVuLGCMonoSans.sfd "Sans Mono" > $@
+	            $(TMPDIR)/DejaVuLGCSansMono.sfd "Sans Mono" > $@
 
-$(BUILDDIR)/langcover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuMonoSans)
+$(BUILDDIR)/langcover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuSansMono)
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
@@ -129,7 +129,7 @@ else
 	$(LANGCOVER) $(FC-LANG) \
 	             $(TMPDIR)/DejaVuSans.sfd "Sans" \
 	             $(TMPDIR)/DejaVuSerif.sfd "Serif" \
-	             $(TMPDIR)/DejaVuMonoSans.sfd "Sans Mono" > $@
+	             $(TMPDIR)/DejaVuSansMono.sfd "Sans Mono" > $@
 endif
 
 $(BUILDDIR)/langcover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
@@ -142,7 +142,7 @@ else
 	             $(TMPDIR)/DejaVuSans.sfd "Sans" > $@
 endif
 
-$(BUILDDIR)/langcover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCMonoSans)
+$(BUILDDIR)/langcover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCSansMono)
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
@@ -151,7 +151,7 @@ else
 	$(LANGCOVER) $(FC-LANG) \
 	             $(TMPDIR)/DejaVuLGCSans.sfd "Sans" \
 	             $(TMPDIR)/DejaVuLGCSerif.sfd "Serif" \
-	             $(TMPDIR)/DejaVuLGCMonoSans.sfd "Sans Mono" > $@
+	             $(TMPDIR)/DejaVuLGCSansMono.sfd "Sans Mono" > $@
 endif
 
 $(BUILDDIR)/Makefile: Makefile
