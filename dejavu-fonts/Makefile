@@ -261,7 +261,7 @@ norm : $(NORMSFD)
 
 check-harder : clean check
 
-pre-patch : clean munge clean
+pre-patch : munge clean
 
 clean :
 	$(RM) -r $(TMPDIR) $(BUILDDIR) $(DISTDIR)
