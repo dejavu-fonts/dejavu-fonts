@@ -14,7 +14,6 @@ BUILDDIR  = build
 DISTDIR = dist
 
 # Release layout
-BINDIR = .
 FONTCONFDIR = fontconfig
 DOCDIR = .
 SCRIPTSDIR = scripts
@@ -163,11 +162,11 @@ $(BUILDDIR)/Makefile: Makefile
 
 $(TMPDIR)/$(SRCARCHIVE): $(addprefix $(BUILDDIR)/, $(GENDOCFULL) Makefile) $(FULLSFD)
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{$(BINDIR),$(SRCDIR),$(FONTCONFDIR),$(DOCDIR)}
+	install -d -m 0755 $@/{$(SCRIPTSDIR),$(SRCDIR),$(FONTCONFDIR),$(DOCDIR)}
 	install -p -m 0644 $(BUILDDIR)/Makefile $@
 	install -p -m 0755 $(GENERATE) $(TTPOSTPROC) $(LGC) $(NORMALIZE) \
 	                   $(UNICOVER) $(LANGCOVER) $(STATUS) $(PROBLEMS) \
-	                   $@/$(BINDIR)
+	                   $@/$(SCRIPTSDIR)
 	install -p -m 0644 $(FULLSFD) $@/$(SRCDIR)
 	install -p -m 0644 $(FONTCONF) $@/$(FONTCONFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCFULL)) \
