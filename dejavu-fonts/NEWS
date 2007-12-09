@@ -1,3 +1,36 @@
+Changes from 2.21 to 2.22
+
+- directory structure has changed, we now use the Makefile
+- modified Armenian U+0565 in Sans (by Սահակ Պետրոսյան)
+- added double struck letters and numbers U+2102, U+210D, U+2115,
+  U+2119-U+211A, U+211D, U+2124, U+213C-U+2140, U+2145-U+2149, U+1D538-U+1D539,
+  U+1D53B-U+1D53E, U+1D540-U+1D544, U+1D546, U+1D54A-U+1D550, U+1D552-U+1D56B,
+  U+1D7D8-U+1D7E1 to Serif (by Stephen Hartke)
+- added letterlike symbols U+2103, U+2109, U+2127, U+214B, U+2141-U+2144 to
+  Serif (by Ben Laenen)
+- fixed outline direction of U+2143 in Sans Bold/Bold Oblique (by Ben Laenen)
+- added arrow set in Serif: arrows: U+2194-U+21FF; dingbats: U+27A1;
+  supplemental arrows A: U+27F0-U+27FF; supplemental arrows B: U+2900-U+2975,
+  U+297A; miscellaneous symbols and arrows: U+2B00-U+2B11 (by Ben Laenen)
+- added U+0180, U+01DE, U+01E0-01E1, U+022A, U+022C, U+0230, U+1E08-U+1E09,
+  U+1E10-U+1E11, U+1EB0-U+1EB1 to Mono (by Denis Jacquerye)
+- adjusted U+01D5, U+01D7, U+01D9, U+1DB in Mono (by Denis Jacquerye)
+- added Ogham in Sans (by Wesley Transue)
+- added Yijing Hexagram Symbols in Sans (by Wesley Transue)
+- hinting instructions added to Cyrillic U+0460, U+04A6-U+04A7, U+04AC-U+04AD,
+  U+04C7-U+04C8, U+04F6-U+04F7, U+04FA-U+04FB, U+050C-U+050D in Sans Book (by
+  Wesley Transue)
+- adjusted Cyrillic letters U+042A, U+044A, U+044C, U+0459-U+045B, U+0462,
+  U+048C-U+048D in Serif (by Andrey V. Panov)
+- hinting instructions added to Lao U+0EB7 in Sans (by Wesley Transue)
+- added Roman numerals and Claudian letter U+2160-U+2184 in Serif (by Ben
+  Laenen)
+- added U+FFF9-U+FFFD to Sans, Serif and Mono (by Lars Næsbye Christensen)
+- added mathematical symbols to Serif: U+2200, U+2203-U+2204, U+2213-U+2214,
+  U+2217-U+2218, U+2223-U+2226, U+2250-U+2255, U+2295-U+22AF, U+22C5 (by Ben
+  Laenen)
+- modified bullet symbol U+2219 in Serif (by Ben Laenen)
+
 Changes from 2.20 to 2.21
 
 - added U+FE20-U+FE23 (half diacritics) to Sans (by Denis Jacquerye)
