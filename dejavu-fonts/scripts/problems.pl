@@ -118,7 +118,7 @@ sub process_sfd_file($$) {
     } elsif (/^Fore\s*$/) {
       $is_empty = 0;
       $in_spline_set = 1;
-      problem (2, 'mixed content', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '')) if ($has_refs);
+      problem (0, 'mixed content', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '')) if ($has_refs);
       $has_splines = 1;
     } elsif (/^EndSplineSet\s*$/) {
       $in_spline_set = 0;
@@ -135,7 +135,7 @@ sub process_sfd_file($$) {
       if (!(($1 == 1) && ($2 == 0) && ($3 == 0) && ($4 == 1))) {
         problem (0, 'transformed reference', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : ''));
       }
-      problem (2, 'mixed content', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '')) if ($has_splines);
+      problem (0, 'mixed content', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '')) if ($has_splines);
       $has_refs = 1;
     } elsif (/^DisplaySize:/) {
       problem (0, 'not normalized: DisplaySize');
