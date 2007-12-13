@@ -57,6 +57,7 @@ Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' cedilla"  "'mark' above
 Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic"  {"'mark' Zero-Width Marks lookup"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 257 8 0 "'rtbd' Mark width in Lao"  {"'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
+DEI: 0
 ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0"  4 1 4 3
   Class: 3 i j
   Class: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
@@ -266,7 +267,7 @@ AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning 
 BeginChars: 1114148 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni: 0
+AltUni2: 000000.ffffffff.0
 Width: 1233
 Flags: W
 TtfInstrs: 31
@@ -23127,13 +23128,23 @@ Width: 1233
 Flags: W
 AnchorPoint: "lao-above" 1233 1143 mark 0
 Fore
-752.5 1692 m 1,0,-1
- 752.5 1472 l 1,1,-1
- 514.5 1472 l 1,2,-1
- 514.5 1692 l 1,3,-1
- 752.5 1692 l 1,0,-1
+273.5 1573 m 0,0,1
+ 273.5 1386 273.5 1386 566.5 1386 c 1,2,-1
+ 566.5 1260 l 1,3,4
+ 83.5 1260 83.5 1260 83.5 1579 c 0,5,6
+ 83.5 1897 83.5 1897 633.5 1897 c 0,7,8
+ 1149.5 1897 1149.5 1897 1149.5 1579 c 0,9,10
+ 1149.5 1260 1149.5 1260 700.5 1260 c 1,11,-1
+ 700.5 1386 l 1,12,13
+ 957.5 1386 957.5 1386 959.5 1573 c 0,14,15
+ 959.5 1770 959.5 1770 633.5 1770 c 0,16,17
+ 273.5 1770 273.5 1770 273.5 1573 c 0,0,1
+752.5 1692 m 1,18,-1
+ 752.5 1472 l 1,19,-1
+ 514.5 1472 l 1,20,-1
+ 514.5 1692 l 1,21,-1
+ 752.5 1692 l 1,18,-1
 EndSplineSet
-Refer: 3764 3764 N 1 0 0 1 0 0 2
 Position2: "'rtbd' Mark width in Lao-2" dx=0 dy=0 dh=-1233 dv=0
 EndChar
 StartChar: uni0EB7
@@ -23142,13 +23153,27 @@ Width: 1233
 Flags: W
 AnchorPoint: "lao-above" 1233 1143 mark 0
 Fore
-750 1686 m 1,0,-1
- 750 1466 l 1,1,-1
- 512 1466 l 1,2,-1
- 512 1686 l 1,3,-1
- 750 1686 l 1,0,-1
+273 1573 m 0,0,1
+ 273 1386 273 1386 566 1386 c 1,2,-1
+ 566 1260 l 1,3,4
+ 83 1260 83 1260 83 1579 c 0,5,6
+ 83 1897 83 1897 633 1897 c 0,7,8
+ 1149 1897 1149 1897 1149 1579 c 0,9,10
+ 1149 1460 1149 1460 1087 1386 c 1,11,-1
+ 1299 1386 l 1,12,-1
+ 1299 1254 l 1,13,-1
+ 700 1254 l 1,14,-1
+ 700 1260 l 1,15,-1
+ 700 1386 l 1,16,17
+ 957 1386 957 1386 959 1573 c 0,18,19
+ 959 1770 959 1770 633 1770 c 0,20,21
+ 273 1770 273 1770 273 1573 c 0,0,1
+750 1686 m 1,22,-1
+ 750 1466 l 1,23,-1
+ 512 1466 l 1,24,-1
+ 512 1686 l 1,25,-1
+ 750 1686 l 1,22,-1
 EndSplineSet
-Refer: 3765 3765 N 1 0 0 1 0 0 2
 Position2: "'rtbd' Mark width in Lao-2" dx=0 dy=0 dh=-1233 dv=0
 EndChar
 StartChar: uni0EB8

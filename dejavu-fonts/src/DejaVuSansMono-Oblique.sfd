@@ -40,6 +40,7 @@ Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0"  {"'locl' Localized 
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0"  {"'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 3"  {"'dlig' Discretionary Ligatures in Latin lookup 3"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
+DEI: 0
 TtfTable: prep 1262
 \,q1GOk]j;gAV3-&d-ec"5!MSesZ]krWCZW7g7Cj"4JOudP:pPQ35M5"4-rKc40s$rWCCD"3^ZG
 b5ML`rWC/g"3(6A`;TkV1'>D*"2TBf^qYg3_#=GO^]_Ed=TuR!"2B?h^:bis^0(QP5QnbI"2)6!
@@ -212,7 +213,7 @@ AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark'
 BeginChars: 1114134 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni: 0
+AltUni2: 000000.ffffffff.0
 Width: 1233
 Flags: W
 TtfInstrs: 26
@@ -13300,9 +13301,6 @@ StartChar: uni030E
 Encoding: 782 782 782
 Width: 1233
 Flags: W
-Fore
-842.848 1262 m 1,2,-1
-EndSplineSet
 Refer: 781 781 N 1 0 0 1 -204 0 2
 Refer: 781 781 N 1 0 0 1 204 0 2
 EndChar
@@ -20057,13 +20055,23 @@ Width: 1233
 Flags: W
 AnchorPoint: "lao-above" 1148.35 1143 mark 0
 Fore
-775 1692 m 1,0,-1
- 732 1472 l 1,1,-1
- 494 1472 l 1,2,-1
- 537 1692 l 1,3,-1
- 775 1692 l 1,0,-1
+272 1573 m 0,0,1
+ 236 1386 236 1386 529 1386 c 1,2,-1
+ 505 1260 l 1,3,4
+ 22 1260 22 1260 84 1579 c 0,5,6
+ 145 1897 145 1897 695 1897 c 0,7,8
+ 1211 1897 1211 1897 1150 1579 c 0,9,10
+ 1088 1260 1088 1260 639 1260 c 1,11,-1
+ 663 1386 l 1,12,13
+ 920 1386 920 1386 958 1573 c 0,14,15
+ 997 1770 997 1770 671 1770 c 0,16,17
+ 311 1770 311 1770 272 1573 c 0,0,1
+775 1692 m 1,18,-1
+ 732 1472 l 1,19,-1
+ 494 1472 l 1,20,-1
+ 537 1692 l 1,21,-1
+ 775 1692 l 1,18,-1
 EndSplineSet
-Refer: 3764 3764 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0EB7
 Encoding: 3767 3767 3767
@@ -20071,13 +20079,27 @@ Width: 1233
 Flags: W
 AnchorPoint: "lao-above" 1148.93 1143 mark 0
 Fore
-771 1686 m 1,0,-1
- 729 1466 l 1,1,-1
- 491 1466 l 1,2,-1
- 533 1686 l 1,3,-1
- 771 1686 l 1,0,-1
+273 1573 m 0,0,1
+ 236 1386 236 1386 529 1386 c 1,2,-1
+ 505 1260 l 1,3,4
+ 22 1260 22 1260 84 1579 c 0,5,6
+ 145 1897 145 1897 695 1897 c 0,7,8
+ 1211 1897 1211 1897 1150 1579 c 0,9,10
+ 1127 1460 1127 1460 1050 1386 c 1,11,-1
+ 1262 1386 l 1,12,-1
+ 1237 1254 l 1,13,-1
+ 638 1254 l 1,14,-1
+ 639 1260 l 1,15,-1
+ 663 1386 l 1,16,17
+ 920 1386 920 1386 959 1573 c 0,18,19
+ 997 1770 997 1770 671 1770 c 0,20,21
+ 311 1770 311 1770 273 1573 c 0,0,1
+771 1686 m 1,22,-1
+ 729 1466 l 1,23,-1
+ 491 1466 l 1,24,-1
+ 533 1686 l 1,25,-1
+ 771 1686 l 1,22,-1
 EndSplineSet
-Refer: 3765 3765 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0EB8
 Encoding: 3768 3768 3768
