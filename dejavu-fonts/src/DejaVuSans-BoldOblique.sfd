@@ -68,6 +68,7 @@ Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 7"  {"'mark' Mark Positio
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 8"  {"'mark' Mark Positioning in Lao lookup 8"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' half"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 11"  {"'kern' Horizontal Kerning in Latin lookup 11"  } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+DEI: 0
 KernClass2: 38 50 "'kern' Horizontal Kerning in Latin lookup 11" 
  14 hyphen uni2010
  67 A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aogonek
@@ -269,10 +270,10 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
-BeginChars: 1114175 0
+BeginChars: 1114178 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni: 0
+AltUni2: 000000.ffffffff.0
 Width: 1229
 Flags: W
 TtfInstrs: 26
@@ -20747,18 +20748,7 @@ StartChar: uni0476
 Encoding: 1142 1142 1142
 Width: 1741
 Flags: W
-Fore
-1177 1900 m 1,0,-1
- 1261 1635 l 1,3,-1
- 1098 1635 l 1,2,-1
- 976 1900 l 1,1,-1
- 1177 1900 l 1,0,-1
-820 1900 m 1,4,-1
- 919 1635 l 1,7,-1
- 745 1635 l 1,6,-1
- 606 1900 l 1,5,-1
- 820 1900 l 1,4,-1
-EndSplineSet
+Refer: 1114123 -1 N 1 0 0 1 1397 378 2
 Refer: 1140 1140 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni0477
@@ -21083,42 +21073,14 @@ StartChar: uni047E
 Encoding: 1150 1150 1150
 Width: 2238
 Flags: W
-Fore
-1859 1863 m 9,1,-1
- 1693 1623 l 25,0,0
- 1633 1623 l 25,0,0
- 1596 1743 l 25,0,0
- 1386 1743 l 25,0,0
- 1303 1623 l 25,0,0
- 1243 1623 l 25,0,0
- 1206 1743 l 25,0,0
- 996 1743 l 25,0,0
- 913 1623 l 25,0,0
- 853 1623 l 25,0,0
- 779 1863 l 17,0,-1
- 1859 1863 l 9,1,-1
-EndSplineSet
+Refer: 1114175 -1 N 1 0 0 1 0 0 2
 Refer: 1120 1120 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni047F
 Encoding: 1151 1151 1151
 Width: 1780
 Flags: W
-Fore
-1593 1527 m 9,1,-1
- 1427 1287 l 25,0,0
- 1367 1287 l 25,0,0
- 1330 1407 l 25,0,0
- 1120 1407 l 25,0,0
- 1037 1287 l 25,0,0
- 977 1287 l 25,0,0
- 940 1407 l 25,0,0
- 730 1407 l 25,0,0
- 647 1287 l 25,0,0
- 587 1287 l 25,0,0
- 513 1527 l 17,0,-1
- 1593 1527 l 9,1,-1
-EndSplineSet
+Refer: 1114175 -1 N 1 0 0 1 -266 -336 2
 Refer: 1121 1121 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni0480
@@ -21475,48 +21437,14 @@ StartChar: uni048A
 Encoding: 1162 1162 1162
 Width: 1921
 Flags: W
-Fore
-1438 291 m 1,0,0
- 1822 291 l 17,1,-1
- 1765 0 l 1,0,0
- 1196 -426 l 9,2,-1
- 939 -426 l 17,3,-1
- 1381 0 l 17,4,-1
- 1016 0 l 1,8,-1
- 1215 1024 l 1,7,-1
- 473 0 l 1,6,-1
- 43 0 l 1,5,-1
- 333 1493 l 1,4,-1
- 698 1493 l 1,3,-1
- 499 469 l 1,2,-1
- 1241 1493 l 1,1,-1
- 1671 1493 l 1,0,-1
- 1438 291 l 1,0,0
-EndSplineSet
+Refer: 1114176 -1 N 1 0 0 1 0 0 2
 Refer: 1114120 -1 N 1 0 0 1 1411 373 2
 EndChar
 StartChar: uni048B
 Encoding: 1163 1163 1163
 Width: 1650
 Flags: W
-Fore
-1172 221 m 1,0,0
- 1531 221 l 1,3,-1
- 1488 0 l 1,0,0
- 957 -426 l 1,4,-1
- 717 -426 l 9,5,-1
- 1129 0 l 17,6,-1
- 769 0 l 1,2,-1
- 884 593 l 1,3,-1
- 430 0 l 1,4,-1
- 58 0 l 1,5,-1
- 276 1120 l 1,6,-1
- 634 1120 l 1,7,-1
- 518 524 l 1,8,-1
- 975 1120 l 1,9,-1
- 1347 1120 l 1,0,-1
- 1172 221 l 1,0,0
-EndSplineSet
+Refer: 1114177 -1 N 1 0 0 1 0 0 2
 Refer: 728 728 N 1 0 0 1 196 -40 2
 EndChar
 StartChar: uni048C
@@ -98289,6 +98217,72 @@ Flags: W
 Refer: 9867 9867 N 1 0 0 1 0 646.5 3
 Refer: 9867 9867 N 1 0 0 1 0 968.75 2
 Refer: 9867 9867 N 1 0 0 1 0 1293 2
+EndChar
+StartChar: uni047E.diac
+Encoding: 1114175 -1 1114175
+Width: 2238
+Flags: W
+Fore
+1859 1863 m 9,1,-1
+ 1693 1623 l 25,0,0
+ 1633 1623 l 25,0,0
+ 1596 1743 l 25,0,0
+ 1386 1743 l 25,0,0
+ 1303 1623 l 25,0,0
+ 1243 1623 l 25,0,0
+ 1206 1743 l 25,0,0
+ 996 1743 l 25,0,0
+ 913 1623 l 25,0,0
+ 853 1623 l 25,0,0
+ 779 1863 l 17,0,-1
+ 1859 1863 l 9,1,-1
+EndSplineSet
+EndChar
+StartChar: uni048A.breveless
+Encoding: 1114176 -1 1114176
+Width: 1921
+Flags: W
+Fore
+1438 291 m 1,0,0
+ 1822 291 l 17,1,-1
+ 1765 0 l 1,0,0
+ 1196 -426 l 9,2,-1
+ 939 -426 l 17,3,-1
+ 1381 0 l 17,4,-1
+ 1016 0 l 1,8,-1
+ 1215 1024 l 1,7,-1
+ 473 0 l 1,6,-1
+ 43 0 l 1,5,-1
+ 333 1493 l 1,4,-1
+ 698 1493 l 1,3,-1
+ 499 469 l 1,2,-1
+ 1241 1493 l 1,1,-1
+ 1671 1493 l 1,0,-1
+ 1438 291 l 1,0,0
+EndSplineSet
+EndChar
+StartChar: uni048B.breveless
+Encoding: 1114177 -1 1114177
+Width: 1650
+Flags: W
+Fore
+1172 221 m 1,0,0
+ 1531 221 l 1,3,-1
+ 1488 0 l 1,0,0
+ 957 -426 l 1,4,-1
+ 717 -426 l 9,5,-1
+ 1129 0 l 17,6,-1
+ 769 0 l 1,2,-1
+ 884 593 l 1,3,-1
+ 430 0 l 1,4,-1
+ 58 0 l 1,5,-1
+ 276 1120 l 1,6,-1
+ 634 1120 l 1,7,-1
+ 518 524 l 1,8,-1
+ 975 1120 l 1,9,-1
+ 1347 1120 l 1,0,-1
+ 1172 221 l 1,0,0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
