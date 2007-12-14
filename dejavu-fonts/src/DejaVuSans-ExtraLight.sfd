@@ -59,6 +59,7 @@ Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 4"  {"'mark' Mark Posi
 Lookup: 261 0 0 "'mark' Mark Positioning lookup 5"  {"'mark' Mark Positioning lookup 5"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 8"  {"'kern' Horizontal Kerning in Latin lookup 8"  } ['kern' ('latn' <'dflt' > ) ]
+DEI: 0
 KernClass2: 47 57 "'kern' Horizontal Kerning in Latin lookup 8" 
  236 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni01DE uni01E0 Aringacute uni0200 uni0202 uni0226 uni1E00 uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6
  19 AE uni01E2 AEacute 
@@ -101,7 +102,7 @@ KernClass2: 47 57 "'kern' Horizontal Kerning in Latin lookup 8"
  78 y ydieresis ycircumflex uni0233 uni1E8F uni1E99 ygrave uni1EF5 uni1EF7 uni1EF9
  3 eth
  57 hyphen uni2010 uni2011 figuredash endash emdash uni2015
- 
+
  27 quotedblbase quotesinglbase
  22 quotedblleft quoteleft
  29 guillemotright guilsinglright
@@ -157,7 +158,7 @@ KernClass2: 47 57 "'kern' Horizontal Kerning in Latin lookup 8"
  6 period
  5 colon
  57 hyphen uni2010 uni2011 figuredash endash emdash uni2015
- 
+
  27 quotedblbase quotesinglbase
  13 quotedblright
  22 quotedblleft quoteleft
@@ -270,7 +271,7 @@ AnchorClass2: "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" 
 BeginChars: 1114130 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni: 0
+AltUni2: 000000.ffffffff.0
 Width: 1229
 Flags: W
 Fore
@@ -19562,42 +19563,58 @@ Encoding: 8471 8471 8471
 Width: 2048
 Flags: W
 Fore
-1547 1265 m 0,0,1
- 1765 1046 1765 1046 1765 740 c 0,2,3
- 1765 436 1765 436 1546 218 c 128,-1,4
- 1327 0 1327 0 1024 0 c 0,5,6
- 719 0 719 0 504 218 c 128,-1,7
- 289 436 289 436 283 740 c 0,8,9
- 283 1044 283 1044 501 1263 c 128,-1,10
- 719 1482 719 1482 1024 1482 c 0,11,12
- 1330 1482 1330 1482 1547 1265 c 0,0,1
-1024 1381 m 0,14,15
- 762 1381 762 1381 573 1191.5 c 128,-1,16
- 384 1002 384 1002 384 739 c 0,17,18
- 389 478 389 478 575.5 289.5 c 128,-1,19
- 762 101 762 101 1024 101 c 0,20,21
- 1287 101 1287 101 1475.5 289.5 c 128,-1,22
- 1664 478 1664 478 1664 739 c 0,23,24
- 1664 1004 1664 1004 1477 1191 c 0,25,13
- 1289 1381 1289 1381 1024 1381 c 0,14,15
-920 1072 m 1,26,-1
- 920 735 l 1,27,-1
- 1098 735 l 2,28,29
- 1197 735 1197 735 1250.5 779 c 128,-1,30
- 1304 823 1304 823 1304 904 c 0,31,32
- 1304 984 1304 984 1250.5 1028 c 128,-1,33
- 1197 1072 1197 1072 1098 1072 c 2,34,-1
- 920 1072 l 1,26,-1
-779 1172 m 1,35,-1
- 1098 1172 l 2,36,37
- 1274 1172 1274 1172 1364 1103.5 c 128,-1,38
- 1454 1035 1454 1035 1454 904 c 0,39,40
- 1454 771 1454 771 1364 703.5 c 128,-1,41
- 1274 636 1274 636 1098 636 c 2,42,-1
- 920 636 l 1,43,-1
- 920 276 l 1,44,-1
- 779 276 l 1,45,-1
- 779 1172 l 1,35,-1
+1024 1434 m 0,0,1
+ 883 1434 883 1434 761 1384 c 0,2,3
+ 639 1333 639 1333 537 1231 c 0,4,5
+ 436 1130 436 1130 384 1007 c 0,6,7
+ 332 882 332 882 332 742 c 0,8,9
+ 332 603 332 603 384 480 c 0,10,11
+ 436 358 436 358 537 256 c 0,12,13
+ 639 155 639 155 761 104 c 0,14,15
+ 883 52 883 52 1024 52 c 0,16,17
+ 1167 52 1167 52 1290 104 c 0,18,19
+ 1412 155 1412 155 1514 256 c 0,20,21
+ 1614 356 1614 356 1664 479 c 0,22,23
+ 1714 601 1714 601 1714 742 c 0,24,25
+ 1714 886 1714 886 1664 1009 c 0,26,27
+ 1613 1131 1613 1131 1514 1231 c 0,28,29
+ 1412 1333 1412 1333 1290 1384 c 0,30,31
+ 1167 1434 1167 1434 1024 1434 c 0,0,1
+1024 1485 m 128,-1,33
+ 1176 1485 1176 1485 1308 1430 c 0,34,35
+ 1439 1375 1439 1375 1548 1266 c 128,-1,36
+ 1657 1157 1657 1157 1711 1026 c 128,-1,37
+ 1765 895 1765 895 1765 741 c 0,38,39
+ 1765 589 1765 589 1711 458 c 0,40,41
+ 1657 328 1657 328 1548 219 c 128,-1,42
+ 1439 110 1439 110 1308 55 c 0,43,44
+ 1176 0 1176 0 1024 0 c 128,-1,45
+ 872 0 872 0 740 55 c 0,46,47
+ 609 110 609 110 500 219 c 128,-1,48
+ 391 328 391 328 337 458 c 0,49,50
+ 283 589 283 589 283 741 c 0,51,52
+ 283 895 283 895 337 1026 c 128,-1,53
+ 391 1157 391 1157 500 1266 c 128,-1,54
+ 609 1375 609 1375 740 1430 c 0,55,32
+ 872 1485 872 1485 1024 1485 c 128,-1,33
+1063 1108 m 2,56,-1
+ 920 1108 l 1,57,-1
+ 920 773 l 1,58,-1
+ 1063 773 l 2,59,60
+ 1194 773 1194 773 1250 811 c 0,61,62
+ 1304 848 1304 848 1304 939 c 0,63,64
+ 1304 1031 1304 1031 1250 1070 c 0,65,66
+ 1196 1108 1196 1108 1063 1108 c 2,56,-1
+1377 940 m 24,39,40
+ 1377 819 1377 819 1306.5 757.5 c 128,-1,41
+ 1236 696 1236 696 1098 696 c 2,42,-1
+ 920 696 l 1,43,-1
+ 920 338.028 l 1,44,-1
+ 828 338.028 l 1,45,-1
+ 828 1190 l 1,35,-1
+ 1098 1190 l 2,36,37
+ 1236 1190 1236 1190 1306.5 1126 c 128,-1,38
+ 1377 1062 1377 1062 1377 940 c 24,39,40
 EndSplineSet
 EndChar
 StartChar: uni2126
