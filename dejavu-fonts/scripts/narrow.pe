@@ -40,15 +40,16 @@ while (i < $argc)
     j = Strstr(new_fullname, "Oblique")
   endif
   if (j > -1)
-    new_fullname = Strsub(new_fullname, 0, j) + "Condensed " + Strsub(new_fullname, j)
-    newprefsubfamily = newprefsubfamily + " " + $weight
+    new_subfamily = Strsub(new_fullname, j)
+    new_fullname = Strsub(new_fullname, 0, j) + "Condensed " + new_subfamily
+    newprefsubfamily = newprefsubfamily + " " + new_subfamily
   else
     new_fullname = new_fullname + " Condensed"
   endif
   new_familyname = $familyname + " Condensed"
   SetFontNames(new_fontname, new_familyname, new_fullname)
   SetOS2Value("Width",4)
-  SetTTFName(1033, 2, $weight) # ttf_subfamily
+  SetTTFName(1033, 2, new_subfamily) # ttf_subfamily
   SetTTFName(1033, 3, new_fullname) # ttf_uniqueid
   SetTTFName(1033, 16, old_familyname) # ttf_preffamilyname
   SetTTFName(1033, 17, newprefsubfamily) # ttf_prefmodifiers
