@@ -35,6 +35,7 @@ while (i < $argc)
   endif
   new_fullname = $fullname
   newprefsubfamily = "Condensed"
+  new_subfamily = $weight
   j = Strstr(new_fullname, "Bold")
   if (j == -1)
     j = Strstr(new_fullname, "Oblique")
