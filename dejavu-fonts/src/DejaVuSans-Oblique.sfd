@@ -244,7 +244,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Mark Positioning lookup 9" "lao-below"  "'mark' Mark Positioning in Lao lookup 8" "lao-above"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-inside"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
-BeginChars: 1114178 0
+BeginChars: 1114179 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -24169,6 +24169,26 @@ Fore
  852 -181 852 -181 884 -20 c 2,24,-1
  1077 973 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: uni051A
+Encoding: 1306 1306 1306
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uni051B
+Encoding: 1307 1307 1307
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uni051C
+Encoding: 1308 1308 1308
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uni051D
+Encoding: 1309 1309 1309
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: uni0531
 Encoding: 1329 1329 1329
@@ -48605,6 +48625,11 @@ StartChar: uni2063
 Encoding: 8291 8291 8291
 Width: 0
 Flags: W
+EndChar
+StartChar: uni2064
+Encoding: 8292 8292 8292
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: uni206A
 Encoding: 8298 8298 8298
@@ -95424,6 +95449,16 @@ Fore
  693 1128 693 1128 941 1128 c 8,11,12
 EndSplineSet
 EndChar
+StartChar: uni2E18
+Encoding: 11800 11800 11800
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uni2E2E
+Encoding: 11822 11822 11822
+Width: 2048
+Colour: ffff00
+EndChar
 StartChar: uni4DC0
 Encoding: 19904 19904 19904
 Width: 1836
@@ -95871,6 +95906,51 @@ Width: 1836
 Flags: W
 Refer: 1114172 -1 N 1 0 0 1 0 -969.75 2
 Refer: 1114169 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniA644
+Encoding: 42564 42564 42564
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA645
+Encoding: 42565 42565 42565
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA646
+Encoding: 42566 42566 42566
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA647
+Encoding: 42567 42567 42567
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA654
+Encoding: 42580 42580 42580
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA655
+Encoding: 42581 42581 42581
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA7FB
+Encoding: 43003 43003 43003
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA7FC
+Encoding: 43004 43004 43004
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: uniA7FD
+Encoding: 43005 43005 43005
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: uniE000
 Encoding: 57344 57344 57344
@@ -97961,6 +98041,31 @@ Fore
  196 848 l 1,37,-1
  1414 1868 l 1,34,-1
 EndSplineSet
+EndChar
+StartChar: u10193
+Encoding: 65939 65939 65939
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: u10194
+Encoding: 65940 65940 65940
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: u10196
+Encoding: 65942 65942 65942
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: u10197
+Encoding: 65943 65943 65943
+Width: 2048
+Colour: ffff00
+EndChar
+StartChar: u10199
+Encoding: 65945 65945 65945
+Width: 2048
+Colour: ffff00
 EndChar
 StartChar: u1D300
 Encoding: 119552 119552 119552
@@ -101153,6 +101258,45 @@ Fore
  1019 1120 l 1,9,-1
  1256 1120 l 1,0,-1
  1068 153 l 1,0,0
+EndSplineSet
+EndChar
+StartChar: uni2E18.u51
+Encoding: 1114178 -1 1114178
+Width: 1088
+Flags: W
+Fore
+589 1092 m 1,0,-1
+ 780 1092 l 1,1,-1
+ 597 151 l 1,2,3
+ 630 159 630 159 665 172 c 0,4,5
+ 761 207 761 207 871 274 c 1,6,-1
+ 835 86 l 1,7,8
+ 730 29 730 29 628 1 c 128,-1,9
+ 526 -27 526 -27 423 -27 c 0,10,11
+ 239 -27 239 -27 146 70 c 0,12,13
+ 76 143 76 143 76 250 c 0,14,15
+ 76 286 76 286 84 326 c 0,16,17
+ 99 402 99 402 148.5 470.5 c 128,-1,18
+ 198 539 198 539 304 625 c 2,19,-1
+ 409 711 l 2,20,21
+ 465 758 465 758 489.5 784.5 c 128,-1,22
+ 514 811 514 811 527 836 c 0,23,24
+ 537 857 537 857 546 887 c 128,-1,25
+ 555 917 555 917 565 969 c 2,26,-1
+ 589 1092 l 1,0,-1
+815 1239 m 1,27,-1
+ 612 1239 l 1,28,-1
+ 661 1493 l 1,29,-1
+ 864 1493 l 1,30,-1
+ 815 1239 l 1,27,-1
+406 147 m 1,31,-1
+ 489 577 l 1,32,-1
+ 435 532 l 2,33,34
+ 368 479 368 479 333.5 432 c 128,-1,35
+ 299 385 299 385 289 336 c 0,36,37
+ 285 315 285 315 285 296 c 0,38,39
+ 285 234 285 234 327 192 c 0,40,41
+ 358 161 358 161 406 147 c 1,31,-1
 EndSplineSet
 EndChar
 EndChars
