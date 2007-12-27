@@ -57,7 +57,6 @@ Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' cedilla"  "'mark' above
 Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic"  {"'mark' Zero-Width Marks lookup"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 257 8 0 "'rtbd' Mark width in Lao"  {"'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
-DEI: 0
 ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0"  4 1 4 3
   Class: 3 i j
   Class: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
@@ -267,7 +266,7 @@ AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning 
 BeginChars: 1114148 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0
+AltUni: 0
 Width: 1233
 Flags: W
 TtfInstrs: 31
@@ -41639,8 +41638,11 @@ StartChar: uni237D
 Encoding: 9085 9085 9085
 Width: 1233
 Flags: W
+TtfInstrs: 33
+[g!$D#R(D5"#&Hr0APnK!4Ms:"pk@>#6Z\Bln[A_0E;(Q
+EndTtf
 Fore
-225 -466 m 1,12,-1
+225 -466 m 1,0,-1
  225 8 l 1,1,-1
  26 8 l 1,2,-1
  26 181 l 1,3,-1
@@ -41652,7 +41654,7 @@ Fore
  1207 8 l 1,9,-1
  1008 8 l 1,10,-1
  1008 -466 l 1,11,-1
- 225 -466 l 1,12,-1
+ 225 -466 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni2380
@@ -42521,15 +42523,18 @@ StartChar: uni2423
 Encoding: 9251 9251 9251
 Width: 1233
 Flags: W
+TtfInstrs: 28
+[fcm>#m1A4#S>eX&DZV,!42a7"9no\4P]9W
+EndTtf
 Fore
 150 -466 m 1,0,-1
- 150 181 l 1,7,-1
- 318 181 l 1,6,-1
- 318 -294 l 1,5,-1
+ 150 181 l 1,1,-1
+ 318 181 l 1,2,-1
+ 318 -294 l 1,3,-1
  914 -294 l 1,4,-1
- 914 181 l 1,3,-1
- 1082 181 l 1,2,-1
- 1082 -466 l 1,1,-1
+ 914 181 l 1,5,-1
+ 1082 181 l 1,6,-1
+ 1082 -466 l 1,7,-1
  150 -466 l 1,0,-1
 EndSplineSet
 EndChar
