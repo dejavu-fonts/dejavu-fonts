@@ -1,3 +1,21 @@
+Changes from 2.22 to 2.23
+
+- fixed bug which made Condensed fonts appear instead of normal width ones
+- added U+20DB, U+20DC, and U+20E1 to Sans (by Roozbeh Pournader)
+- added hinting instructions to U+01A7, U+01AA-U+01AC, U+01AE-U+01AF,
+  U+01BC-U+01BD, U+01BF, U+01F7, U+0277, U+027F, U+0285-U+0286, U+0297, U+02AF,
+  U+02B4-U+02B5, U+02BD, U+030D, U+0311, U+0329, U+04A0-U+04A1 in Sans Book (by
+  Wesley Transue)
+- modified hinting instructions of U+04A2 in Sans Book (by Wesley Transue)
+- added hinting instructions to U+237D, U+2423 in Mono Book and Mono Bold (by
+  Wesley Transue)
+- added mathematical alphanumeric symbols to all styles (by Max Berger)
+- added Unicode 5.1 U+2E18 as U+2E18.u51 (not yet usable) to Sans (by Roozbeh
+  Pournader) 
+- dereferenced all glyphs with mixed references and outlines (by Denis
+  Jacquerye)
+- removed non-zero width from U+0344 in Sans (by Denis Jacquerye)
+
 Changes from 2.21 to 2.22
 
 - directory structure has changed, we now use the Makefile
