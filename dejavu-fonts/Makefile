@@ -47,6 +47,7 @@ LANGCOVER   = $(SCRIPTSDIR)/langcover.pl
 STATUS	    = $(SCRIPTSDIR)/status.pl
 PROBLEMS    = $(SCRIPTSDIR)/problems.pl
 NORMALIZE   = $(SCRIPTSDIR)/sfdnormalize.pl
+NARROW      = $(SCRIPTSDIR)/narrow.pe
 
 SRC      := $(wildcard $(SRCDIR)/*.sfd)
 SFDFILES := $(patsubst $(SRCDIR)/%, %, $(SRC))
@@ -264,3 +265,29 @@ pre-patch : munge clean
 
 clean :
 	$(RM) -r $(TMPDIR) $(BUILDDIR) $(DISTDIR)
+
+condensed: $(NORMSFD)
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans-Bold.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans-Oblique.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans-BoldOblique.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif-Bold.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif-Italic.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif-BoldItalic.sfd.norm
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans-Bold.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans-Oblique.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans-BoldOblique.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif-Bold.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif-Italic.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif-BoldItalic.sfd.norm.narrow
+	cp $(TMPDIR)/DejaVuSans.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed.sfd.norm
+	cp $(TMPDIR)/DejaVuSans-Bold.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed-Bold.sfd.norm
+	cp $(TMPDIR)/DejaVuSans-Oblique.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed-Oblique.sfd.norm
+	cp $(TMPDIR)/DejaVuSans-BoldOblique.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed-BoldOblique.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif-Bold.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed-Bold.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif-Italic.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed-Italic.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif-BoldItalic.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed-BoldItalic.sfd.norm
