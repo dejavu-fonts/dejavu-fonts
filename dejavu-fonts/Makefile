@@ -227,7 +227,7 @@ check : $(NORMSFD)
 munge: $(NORMSFD)
 	for sfd in $(SFDFILES) ; do \
 	echo "[13] $(TMPDIR)/$$sfd.norm => $(SRCDIR)/$$sfd" ;\
-	cp -p $(TMPDIR)/$$sfd.norm $(SRCDIR)/$$sfd ;\
+	cp $(TMPDIR)/$$sfd.norm $(SRCDIR)/$$sfd ;\
 	done
 
 full : $(FULLTTF) $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
