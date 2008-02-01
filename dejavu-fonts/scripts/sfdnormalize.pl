@@ -51,6 +51,7 @@ sub process_sfd_file($) {
 
   while (<SFD>) {
     next if (/^(WinInfo|DisplaySize|HStem|VStem|ModificationTime|CreationTime|VWidth|TeX|TeXData):/);
+    next if (/^$/);
     s,^(NameList:).*$,$1 AGL without afii,;
     s,^Ref:,Refer:,;
     s,^KernsSLIF:,KernsSLIFO:,;
