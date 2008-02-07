@@ -56203,6 +56203,30 @@ MIRP[rnd,grey]
 SHP[rp2]
 MDRP[rp0,rnd,grey]
 MIRP[min,rnd,grey]
+PUSHB_1
+ 0
+PUSHB_1
+ 2
+SWAP
+MD[grid]
+PUSHB_1
+ 13
+PUSHB_1
+ 15
+SWAP
+MD[grid]
+GT
+IF
+PUSHB_2
+ 2
+ 13
+PUSHW_1
+ -64
+PUSHB_1
+ 2
+SLOOP
+SHPIX
+EIF
 IUP[y]
 EndTTInstrs
 AnchorPoint: "above" 587 1147 basechar 0
@@ -56812,6 +56836,141 @@ StartChar: uni0451
 Encoding: 1105 1105 1105
 Width: 1260
 Flags: W
+TtInstrs:
+PUSHB_2
+ 146
+ 151
+WS
+PUSHB_1
+ 147
+PUSHB_1
+ 152
+WS
+PUSHB_2
+ 128
+ 4
+WS
+PUSHB_2
+ 129
+ 0
+WS
+RUTG
+PUSHB_1
+ 15
+PUSHB_1
+ 1
+SWAP
+MD[grid]
+PUSHB_1
+ 35
+PUSHB_1
+ 30
+SWAP
+MD[grid]
+SUB
+PUSHB_1
+ 128
+DIV
+ROUND[Grey]
+PUSHB_1
+ 35
+GC[cur]
+SUB
+PUSHB_1
+ 15
+GC[cur]
+ADD
+PUSHB_1
+ 146
+RS
+PUSHB_1
+ 1
+ADD
+SWAP
+WS
+PUSHB_1
+ 146
+RS
+PUSHB_1
+ 1
+ADD
+RS
+PUSHB_1
+ 0
+NEQ
+IF
+PUSHB_1
+ 30
+PUSHB_1
+ 146
+RS
+PUSHB_1
+ 1
+ADD
+RS
+SHPIX
+PUSHB_1
+ 30
+SRP1
+PUSHB_1
+ 2
+SHC[rp1]
+EIF
+PUSHB_2
+ 128
+ 0
+WS
+PUSHB_2
+ 129
+ 0
+WS
+RTG
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 35
+PUSHB_1
+ 30
+PUSHB_1
+ 1
+SWAP
+MD[grid]
+ROUND[Grey]
+MSIRP[rp0]
+PUSHB_1
+ 35
+SRP1
+PUSHB_1
+ 3
+SHC[rp1]
+SVTCA[y-axis]
+PUSHB_1
+ 18
+PUSHB_1
+ 35
+SWAP
+MD[grid]
+PUSHB_1
+ 64
+LT
+IF
+PUSHB_1
+ 35
+PUSHB_1
+ 64
+SHPIX
+PUSHB_1
+ 35
+SRP1
+PUSHB_1
+ 3
+SHC[rp1]
+PUSHB_1
+ 2
+SHC[rp1]
+EIF
+EndTTInstrs
 Refer: 1077 1077 N 1 0 0 1 0 0 3
 Refer: 168 168 N 1 0 0 1 150 0 2
 EndChar
