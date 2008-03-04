@@ -70607,6 +70607,36 @@ StartChar: uni05C0
 Encoding: 1472 1472 1472
 Width: 604
 Flags: W
+TtInstrs:
+PUSHB_5
+ 5
+ 2
+ 8
+ 0
+ 4
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+PUSHB_3
+ 1
+ 2
+ 4
+SRP0
+MDRP[min,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+PUSHB_5
+ 64
+ 5
+ 80
+ 5
+ 2
+SVTCA[x-axis]
+DELTAP1
+EndTTInstrs
 Fore
 209 1320 m 1,0,-1
  395 1320 l 1,1,-1
@@ -70679,17 +70709,54 @@ StartChar: uni05C3
 Encoding: 1475 1475 1475
 Width: 604
 Flags: W
+TtInstrs:
+PUSHB_7
+ 9
+ 2
+ 6
+ 8
+ 0
+ 4
+ 8
+SRP0
+MDRP[rp0,rnd,grey]
+SHP[rp2]
+MIRP[min,rnd,grey]
+SHP[rp2]
+MDRP[min,rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+PUSHB_5
+ 3
+ 1
+ 188
+ 5
+ 7
+MDAP[rnd]
+MDRP[min,rnd,grey]
+MIRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+PUSHB_5
+ 64
+ 9
+ 80
+ 9
+ 2
+SVTCA[x-axis]
+DELTAP1
+EndTTInstrs
 Fore
 209 1120 m 1,0,-1
  395 1120 l 1,1,-1
  395 918 l 1,2,-1
  209 918 l 1,3,-1
  209 1120 l 1,0,-1
-209 202 m 1,0,-1
- 395 202 l 1,1,-1
- 395 0 l 1,2,-1
- 209 0 l 1,3,-1
- 209 202 l 1,0,-1
+209 202 m 1,4,-1
+ 395 202 l 1,5,-1
+ 395 0 l 1,6,-1
+ 209 0 l 1,7,-1
+ 209 202 l 1,4,-1
 EndSplineSet
 EndChar
 StartChar: uni05C6
@@ -72818,6 +72885,28 @@ StartChar: uni05F3
 Encoding: 1523 1523 1523
 Width: 851
 Flags: W
+TtInstrs:
+NPUSHB
+ 9
+ 2
+ 180
+ 0
+ 188
+ 4
+ 3
+ 68
+ 1
+ 4
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MIRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
 Fore
 466 1120 m 1,0,-1
  665 1120 l 1,1,-1
@@ -72830,17 +72919,48 @@ StartChar: uni05F4
 Encoding: 1524 1524 1524
 Width: 1320
 Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 3
+ 7
+ 180
+ 1
+ 5
+ 188
+ 8
+ 3
+ 68
+ 1
+ 7
+ 68
+ 5
+ 8
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+MDRP[rp0,min,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MIRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+IUP[y]
+EndTTInstrs
 Fore
 935 1120 m 1,0,-1
  1134 1120 l 1,1,-1
  808 740 l 1,2,-1
  655 740 l 1,3,-1
  935 1120 l 1,0,-1
-466 1120 m 1,0,-1
- 665 1120 l 1,1,-1
- 339 740 l 1,2,-1
- 186 740 l 1,3,-1
- 466 1120 l 1,0,-1
+466 1120 m 1,4,-1
+ 665 1120 l 1,5,-1
+ 339 740 l 1,6,-1
+ 186 740 l 1,7,-1
+ 466 1120 l 1,4,-1
 EndSplineSet
 EndChar
 StartChar: uni060C
@@ -112731,22 +112851,158 @@ StartChar: uni21A6
 Encoding: 8614 8614 8614
 Width: 1716
 Flags: W
+TtInstrs:
+PUSHB_8
+ 12
+ 9
+ 10
+ 6
+ 2
+ 156
+ 4
+ 14
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+SHP[rp2]
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+SHP[rp2]
+NPUSHB
+ 9
+ 79
+ 9
+ 79
+ 12
+ 95
+ 9
+ 95
+ 12
+ 4
+DELTAP1
+IUP[x]
+NPUSHB
+ 10
+ 9
+ 5
+ 11
+ 10
+ 6
+ 156
+ 12
+ 3
+ 1
+ 14
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[min,rnd,grey]
+MIRP[rp0,min,rnd,grey]
+IP
+IP
+MDRP[min,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+NPUSHB
+ 12
+ 8
+ 9
+ 9
+ 10
+ 8
+ 7
+ 8
+ 7
+ 156
+ 10
+ 9
+ 10
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+SFVTL[parallel]
+SPVTL[parallel]
+SRP0
+ALIGNRP
+NPUSHB
+ 12
+ 13
+ 12
+ 12
+ 11
+ 13
+ 0
+ 13
+ 0
+ 156
+ 11
+ 12
+ 11
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+SFVTL[parallel]
+SPVTL[parallel]
+SRP0
+ALIGNRP
+PUSHB_1
+ 16
+MPPEM
+GTEQ
+IF
+SVTCA[y-axis]
+PUSHB_4
+ 13
+ 12
+ 8
+ 9
+SRP0
+ALIGNRP
+SRP0
+ALIGNRP
+PUSHB_5
+ 8
+ 156
+ 9
+ 9
+ 10
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[min,rnd,grey]
+PUSHB_5
+ 13
+ 156
+ 12
+ 12
+ 11
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[min,rnd,grey]
+EIF
+EndTTInstrs
 Fore
-287 557 m 9,0,-1
- 287 212 l 17,1,-1
- 117 212 l 1,2,-1
- 117 1072 l 25,3,-1
- 287 1072 l 17,4,-1
- 287 727 l 1,5,-1
- 1336 727 l 25,6,-1
- 1103 960 l 1,7,-1
- 1223 1080 l 1,8,-1
- 1616 687 l 9,9,-1
- 1616 597 l 17,10,-1
- 1223 204 l 1,11,-1
- 1103 324 l 1,12,-1
- 1336 557 l 25,13,-1
- 287 557 l 9,0,-1
+1336 557 m 25,0,-1
+ 287 557 l 9,1,-1
+ 287 212 l 17,2,-1
+ 117 212 l 1,3,-1
+ 117 1072 l 25,4,-1
+ 287 1072 l 17,5,-1
+ 287 727 l 1,6,-1
+ 1336 727 l 25,7,-1
+ 1103 960 l 1,8,-1
+ 1223 1080 l 1,9,-1
+ 1616 687 l 9,10,-1
+ 1616 597 l 17,11,-1
+ 1223 204 l 1,12,-1
+ 1103 324 l 1,13,-1
+ 1336 557 l 25,0,-1
 EndSplineSet
 EndChar
 StartChar: uni21A7
@@ -113421,6 +113677,83 @@ StartChar: uni21BC
 Encoding: 8636 8636 8636
 Width: 1716
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 6
+ 0
+ 7
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[min,rnd,grey]
+PUSHB_5
+ 64
+ 5
+ 80
+ 5
+ 2
+DELTAP1
+IUP[x]
+PUSHB_6
+ 2
+ 1
+ 5
+ 156
+ 6
+ 7
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rp0,min,rnd,grey]
+IP
+MDRP[min,rnd,grey]
+IUP[y]
+NPUSHB
+ 12
+ 3
+ 2
+ 2
+ 1
+ 3
+ 4
+ 3
+ 4
+ 156
+ 1
+ 2
+ 1
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+SFVTL[parallel]
+SPVTL[parallel]
+SRP0
+ALIGNRP
+PUSHB_1
+ 16
+MPPEM
+GTEQ
+IF
+SVTCA[y-axis]
+PUSHB_7
+ 3
+ 156
+ 2
+ 2
+ 1
+ 3
+ 2
+SRP0
+ALIGNRP
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[min,rnd,grey]
+EIF
+EndTTInstrs
 Fore
 100 557 m 25,0,-1
  100 687 l 17,1,-1
@@ -113436,6 +113769,83 @@ StartChar: uni21BD
 Encoding: 8637 8637 8637
 Width: 1716
 Flags: W
+TtInstrs:
+PUSHB_4
+ 5
+ 2
+ 0
+ 7
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[min,rnd,grey]
+PUSHB_5
+ 64
+ 5
+ 80
+ 5
+ 2
+DELTAP1
+IUP[x]
+PUSHB_6
+ 5
+ 6
+ 1
+ 156
+ 2
+ 7
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IP
+MDRP[min,rnd,grey]
+IUP[y]
+NPUSHB
+ 12
+ 4
+ 5
+ 5
+ 6
+ 4
+ 3
+ 4
+ 3
+ 156
+ 6
+ 5
+ 6
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+SFVTL[parallel]
+SPVTL[parallel]
+SRP0
+ALIGNRP
+PUSHB_1
+ 16
+MPPEM
+GTEQ
+IF
+SVTCA[y-axis]
+PUSHB_7
+ 4
+ 156
+ 5
+ 5
+ 6
+ 4
+ 5
+SRP0
+ALIGNRP
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[min,rnd,grey]
+EIF
+EndTTInstrs
 Fore
 100 727 m 25,0,-1
  1599 727 l 1,1,-1
@@ -113481,6 +113891,83 @@ StartChar: uni21C0
 Encoding: 8640 8640 8640
 Width: 1716
 Flags: W
+TtInstrs:
+PUSHB_4
+ 5
+ 6
+ 2
+ 7
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+PUSHB_5
+ 79
+ 5
+ 95
+ 5
+ 2
+DELTAP1
+IUP[x]
+PUSHB_6
+ 5
+ 6
+ 2
+ 156
+ 1
+ 7
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rp0,min,rnd,grey]
+IP
+MDRP[min,rnd,grey]
+IUP[y]
+NPUSHB
+ 12
+ 4
+ 5
+ 5
+ 6
+ 4
+ 3
+ 4
+ 3
+ 156
+ 6
+ 5
+ 6
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+SFVTL[parallel]
+SPVTL[parallel]
+SRP0
+ALIGNRP
+PUSHB_1
+ 16
+MPPEM
+GTEQ
+IF
+SVTCA[y-axis]
+PUSHB_7
+ 4
+ 156
+ 5
+ 5
+ 6
+ 4
+ 5
+SRP0
+ALIGNRP
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[min,rnd,grey]
+EIF
+EndTTInstrs
 Fore
 1616 557 m 25,0,-1
  117 557 l 1,1,-1
@@ -113496,6 +113983,83 @@ StartChar: uni21C1
 Encoding: 8641 8641 8641
 Width: 1716
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 0
+ 6
+ 7
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+PUSHB_5
+ 79
+ 5
+ 95
+ 5
+ 2
+DELTAP1
+IUP[x]
+PUSHB_6
+ 2
+ 1
+ 6
+ 156
+ 5
+ 7
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IP
+MDRP[min,rnd,grey]
+IUP[y]
+NPUSHB
+ 12
+ 3
+ 2
+ 2
+ 1
+ 3
+ 4
+ 3
+ 4
+ 156
+ 1
+ 2
+ 1
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+SFVTL[orthog]
+SPVTL[orthog]
+SRP0
+ALIGNRP
+PUSHB_1
+ 16
+MPPEM
+GTEQ
+IF
+SVTCA[y-axis]
+PUSHB_7
+ 3
+ 156
+ 2
+ 2
+ 1
+ 3
+ 2
+SRP0
+ALIGNRP
+SPVTL[orthog]
+SFVTCA[x-axis]
+SRP0
+MIRP[min,rnd,grey]
+EIF
+EndTTInstrs
 Fore
 1616 727 m 25,0,-1
  1616 597 l 17,1,-1
