@@ -1,3 +1,28 @@
+Changes from 2.23 to 2.24
+-  instructions for U+05C0 ׀, U+05C3 ׃, U+05F3 ׳, and U+05F4 ״ in DejaVu 
+   Sans. (by Wesley Transue)
+- instructions for U+2116 in Sans (by Andrey V. Panov)
+- Unicode 5.1 update: moved U+F208 to U+2C6D, U+F25F to U+2C71, added 
+  U+2C6E-U+2C6F, U+2C72-U+2C73, updated outline of U+2C71 in Sans. (by 
+  Denis Jacquerye)
+- updated and instructed U+0401 in Sans (by Andrey V. Panov)
+- fixed the bug in Sans faces where U+02EC ˬ faced the wrong direction. 
+  Also, added a few more glyph instructions. (by Wesley Transue)
+- removed OS2Sub and OS2Strike that weren't intentional in Sans 
+  ExtraLight. (by Denis Jacquerye)
+- updated instructions for U+401, U+44F in Serif Book. (by Andrey V. 
+  Panov)
+- instructions for U+02C4 ˄, U+02C5 ˅, U+03D8 Ϙ, U+03D9 ϙ, U+0494 Ҕ, and 
+  U+0495 ҕ in Sans Book. (by Wesley Transue)
+- instructions for U+01A6 Ʀ, U+0238 ȸ, U+0239 ȹ, U+02EC ˬ, and U+05C6 ׆ 
+  in Sans Book. (by Wesley Transue)
+- DejaVuSans.sfd DejaVuSerif.sfd: updated instructions for U+447 and 
+  U+451 using code generated with xgridfit (by Andrey V. Panov)
+- instructions for a few glyphs in the Latin Extended-B Block, Greek 
+  Block, Cyrillic Block, and N'Ko block. (by Wesley Transue)
+- updated sfdnormalize.pl, and SFD files to new SFD format with empty 
+  lines. (by Denis Jacquerye) 
+
 Changes from 2.22 to 2.23
 
 - fixed bug which made Condensed fonts appear instead of normal width ones
