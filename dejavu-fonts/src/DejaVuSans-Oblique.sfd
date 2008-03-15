@@ -3247,6 +3247,16 @@ SHZ[rp1]
 SLOOP
 SHPIX
 EIF
+NPUSHB
+ 7
+ 0
+ 37
+ 16
+ 37
+ 32
+ 37
+ 3
+DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
 AnchorPoint: "above" 802 1520 basechar 0
@@ -3483,11 +3493,13 @@ PUSHB_1
  10
 EQ
 IF
-PUSHW_8
+NPUSHW
+ 9
  26
- 25
- 2
  64
+ 25
+ 64
+ 2
  1
  25
  25
@@ -3717,6 +3729,19 @@ NPUSHB
  2
 DELTAP1
 SVTCA[y-axis]
+DELTAP1
+SVTCA[x-axis]
+NPUSHB
+ 9
+ 127
+ 45
+ 95
+ 45
+ 79
+ 45
+ 16
+ 45
+ 4
 DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
@@ -3958,6 +3983,23 @@ NPUSHB
 DELTAP1
 SVTCA[y-axis]
 DELTAP1
+SVTCA[x-axis]
+NPUSHB
+ 13
+ 63
+ 15
+ 79
+ 15
+ 95
+ 15
+ 111
+ 15
+ 127
+ 15
+ 143
+ 15
+ 6
+DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
 AnchorPoint: "above" 802 1520 basechar 0
@@ -4119,6 +4161,15 @@ SHZ[rp1]
 SLOOP
 SHPIX
 EIF
+PUSHB_7
+ 63
+ 34
+ 95
+ 34
+ 127
+ 34
+ 3
+DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
 AnchorPoint: "above" 802 1520 basechar 0
@@ -4341,6 +4392,12 @@ NPUSHB
 DELTAP1
 SVTCA[y-axis]
 DELTAP1
+SVTCA[x-axis]
+PUSHB_3
+ 16
+ 44
+ 1
+DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
 AnchorPoint: "above" 802 1520 basechar 0
@@ -4506,6 +4563,18 @@ NPUSHB
  5
  8
 DELTAP1
+NPUSHB
+ 9
+ 16
+ 8
+ 63
+ 8
+ 95
+ 8
+ 127
+ 8
+ 4
+DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
 AnchorPoint: "above" 802 1520 basechar 0
@@ -4621,6 +4690,15 @@ SHZ[rp1]
 SLOOP
 SHPIX
 EIF
+PUSHB_7
+ 95
+ 49
+ 79
+ 49
+ 63
+ 49
+ 3
+DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
 AnchorPoint: "above" 802 1520 basechar 0
@@ -4792,7 +4870,7 @@ SLOOP
 SHPIX
 EIF
 NPUSHB
- 23
+ 37
  70
  0
  70
@@ -4815,7 +4893,21 @@ NPUSHB
  2
  149
  30
- 11
+ 16
+ 44
+ 79
+ 44
+ 95
+ 44
+ 111
+ 44
+ 127
+ 44
+ 143
+ 44
+ 159
+ 44
+ 18
 DELTAP1
 EndTTInstrs
 AnchorPoint: "below" 506 0 basechar 0
