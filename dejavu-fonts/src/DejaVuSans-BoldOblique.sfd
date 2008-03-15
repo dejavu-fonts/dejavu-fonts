@@ -1998,7 +1998,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
-BeginChars: 1114179 0
+BeginChars: 1114178 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -67794,8 +67794,8 @@ Flags: W
 EndChar
 StartChar: uni2064
 Encoding: 8292 8292 8292
-Width: 2048
-Colour: ffff00
+Width: 0
+Flags: W
 EndChar
 StartChar: uni206A
 Encoding: 8298 8298 8298
@@ -120013,8 +120013,35 @@ EndSplineSet
 EndChar
 StartChar: uni2E18
 Encoding: 11800 11800 11800
-Width: 2048
-Colour: ffff00
+Width: 1201
+Flags: W
+Fore
+553 989 m 1,0,-1
+ 914 989 l 1,1,-1
+ 904 940 l 1,2,-1
+ 773 266 l 1,3,-1
+ 785 269 l 2,4,5
+ 886 303 886 303 1000 369 c 1,6,-1
+ 939 55 l 1,7,8
+ 810 13 810 13 706 -7 c 128,-1,10
+ 602 -27 602 -27 509 -27 c 0,11,12
+ 265 -27 265 -27 157 73 c 0,13,14
+ 76 147 76 147 76 272 c 0,0,0
+ 76 314 76 314 85 363 c 0,15,16
+ 104 461 104 461 158 538.5 c 128,-1,18
+ 212 616 212 616 324 705 c 2,19,-1
+ 399 762 l 2,20,21
+ 479 824 479 824 507 861.5 c 128,-1,23
+ 535 899 535 899 544 944 c 2,24,-1
+ 553 989 l 1,0,-1
+1012 1493 m 1,25,-1
+ 943 1137 l 1,26,-1
+ 583 1137 l 1,27,-1
+ 582 1137 l 1,28,-1
+ 651 1493 l 1,29,-1
+ 652 1493 l 1,30,-1
+ 1012 1493 l 1,25,-1
+EndSplineSet
 EndChar
 StartChar: uni2E2E
 Encoding: 11822 11822 11822
@@ -127850,38 +127877,6 @@ Fore
  975 1120 l 1,9,-1
  1347 1120 l 1,0,-1
  1172 221 l 1,0,0
-EndSplineSet
-EndChar
-StartChar: uni2E18.u51
-Encoding: 1114178 -1 1114178
-Width: 1201
-Flags: W
-Fore
-553 989 m 1,0,-1
- 914 989 l 1,1,-1
- 904 940 l 1,2,-1
- 773 266 l 1,3,-1
- 785 269 l 2,4,5
- 886 303 886 303 1000 369 c 1,6,-1
- 939 55 l 1,7,8
- 810 13 810 13 706 -7 c 128,-1,10
- 602 -27 602 -27 509 -27 c 0,11,12
- 265 -27 265 -27 157 73 c 0,13,14
- 76 147 76 147 76 272 c 0,0,0
- 76 314 76 314 85 363 c 0,15,16
- 104 461 104 461 158 538.5 c 128,-1,18
- 212 616 212 616 324 705 c 2,19,-1
- 399 762 l 2,20,21
- 479 824 479 824 507 861.5 c 128,-1,23
- 535 899 535 899 544 944 c 2,24,-1
- 553 989 l 1,0,-1
-1012 1493 m 1,25,-1
- 943 1137 l 1,26,-1
- 583 1137 l 1,27,-1
- 582 1137 l 1,28,-1
- 651 1493 l 1,29,-1
- 652 1493 l 1,30,-1
- 1012 1493 l 1,25,-1
 EndSplineSet
 EndChar
 EndChars

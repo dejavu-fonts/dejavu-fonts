@@ -2543,7 +2543,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114329 0
+BeginChars: 1114328 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -79014,8 +79014,8 @@ Flags: W
 EndChar
 StartChar: uni2064
 Encoding: 8292 8292 8292
-Width: 2048
-Colour: ffff00
+Width: 0
+Flags: W
 EndChar
 StartChar: uni206A
 Encoding: 8298 8298 8298
@@ -132806,8 +132806,34 @@ EndSplineSet
 EndChar
 StartChar: uni2E18
 Encoding: 11800 11800 11800
-Width: 2048
-Colour: ffff00
+Width: 1188
+Flags: W
+Fore
+487 987 m 1,0,-1
+ 848 987 l 1,1,-1
+ 848 938 l 1,2,-1
+ 848 263.68 l 1,3,-1
+ 859 267.5 l 2,4,5
+ 953 301 953 301 1055 367 c 1,6,-1
+ 1055 53 l 1,7,8
+ 934 11 934 11 834 -9 c 128,-1,10
+ 734 -29 734 -29 641 -29 c 0,11,12
+ 397 -29 397 -29 269 70.5 c 128,-1,14
+ 141 170 141 170 141 361 c 0,15,16
+ 141 459 141 459 180 536.5 c 128,-1,18
+ 219 614 219 614 313 703 c 2,19,-1
+ 377 760 l 2,20,21
+ 445 822 445 822 466 859.5 c 128,-1,23
+ 487 897 487 897 487 942 c 2,24,-1
+ 487 987 l 1,0,-1
+848 1491 m 1,25,-1
+ 848 1135 l 1,26,-1
+ 488 1135 l 1,27,-1
+ 487 1135 l 1,28,-1
+ 487 1491 l 1,29,-1
+ 488 1491 l 1,30,-1
+ 848 1491 l 1,25,-1
+EndSplineSet
 EndChar
 StartChar: uni2E2E
 Encoding: 11822 11822 11822
@@ -146008,37 +146034,6 @@ Fore
  1154 -426 l 1,4,-1
  914 -426 l 9,5,-1
  1243 0 l 17,1,-1
-EndSplineSet
-EndChar
-StartChar: uni2E18.u51
-Encoding: 1114328 -1 1114328
-Width: 1188
-Flags: W
-Fore
-487 987 m 1,0,-1
- 848 987 l 1,1,-1
- 848 938 l 1,2,-1
- 848 263.68 l 1,3,-1
- 859 267.5 l 2,4,5
- 953 301 953 301 1055 367 c 1,6,-1
- 1055 53 l 1,7,8
- 934 11 934 11 834 -9 c 128,-1,10
- 734 -29 734 -29 641 -29 c 0,11,12
- 397 -29 397 -29 269 70.5 c 128,-1,14
- 141 170 141 170 141 361 c 0,15,16
- 141 459 141 459 180 536.5 c 128,-1,18
- 219 614 219 614 313 703 c 2,19,-1
- 377 760 l 2,20,21
- 445 822 445 822 466 859.5 c 128,-1,23
- 487 897 487 897 487 942 c 2,24,-1
- 487 987 l 1,0,-1
-848 1491 m 1,25,-1
- 848 1135 l 1,26,-1
- 488 1135 l 1,27,-1
- 487 1135 l 1,28,-1
- 487 1491 l 1,29,-1
- 488 1491 l 1,30,-1
- 848 1491 l 1,25,-1
 EndSplineSet
 EndChar
 EndChars
