@@ -55101,34 +55101,7 @@ StartChar: uni2219
 Encoding: 8729 8729 8729
 Width: 1233
 Flags: W
-TtInstrs:
-PUSHW_2
- 2
- 257
-PUSHB_6
- 0
- 4
- 1
- 29
- 0
- 4
-SRP0
-MDRP[rp0,rnd,grey]
-MIRP[min,rnd,grey]
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-MIRP[min,rnd,grey]
-IUP[y]
-EndTTInstrs
-Fore
-489 864 m 1,0,-1
- 741 864 l 1,1,-1
- 741 559 l 1,2,-1
- 489 559 l 1,3,-1
- 489 864 l 1,0,-1
-EndSplineSet
+Refer: 8226 8226 N 1 0 0 1 0 -55 2
 EndChar
 StartChar: radical
 Encoding: 8730 8730 8730
@@ -55596,7 +55569,7 @@ Encoding: 8760 8760 8760
 Width: 1233
 Flags: W
 Refer: 8722 8722 N 1 0 0 1 0 0 2
-Refer: 8729 8729 N 1 0 0 1 1.5 292 2
+Refer: 8901 8901 N 1 0 0 1 1.5 292 2
 EndChar
 StartChar: uni2239
 Encoding: 8761 8761 8761
@@ -55625,18 +55598,18 @@ Encoding: 8762 8762 8762
 Width: 1233
 Flags: W
 Refer: 8722 8722 N 1 0 0 1 0 0 2
-Refer: 8729 8729 N 1 0 0 1 404 292 2
-Refer: 8729 8729 N 1 0 0 1 408 -425 2
-Refer: 8729 8729 N 1 0 0 1 -401 292 2
-Refer: 8729 8729 N 1 0 0 1 -402 -425 2
+Refer: 8901 8901 N 1 0 0 1 404 292 2
+Refer: 8901 8901 N 1 0 0 1 408 -425 2
+Refer: 8901 8901 N 1 0 0 1 -401 292 2
+Refer: 8901 8901 N 1 0 0 1 -402 -425 2
 EndChar
 StartChar: uni223B
 Encoding: 8763 8763 8763
 Width: 1233
 Flags: W
 Refer: 8764 8764 N 1 0 0 1 0 0 2
-Refer: 8729 8729 N 1 0 0 1 2 292 2
-Refer: 8729 8729 N 1 0 0 1 1 -425 2
+Refer: 8901 8901 N 1 0 0 1 2 292 2
+Refer: 8901 8901 N 1 0 0 1 1 -425 2
 EndChar
 StartChar: similar
 Encoding: 8764 8764 8764
@@ -56369,32 +56342,32 @@ Encoding: 8784 8784 8784
 Width: 1233
 Flags: W
 Refer: 61 61 N 1 0 0 1 0 0 2
-Refer: 8729 8729 N 1 0 0 1 1.5 441 2
+Refer: 8901 8901 N 1 0 0 1 1.5 441 2
 EndChar
 StartChar: uni2251
 Encoding: 8785 8785 8785
 Width: 1233
 Flags: W
 Refer: 61 61 N 1 0 0 1 0 0 2
-Refer: 8729 8729 N 1 0 0 1 2 441 2
-Refer: 8729 8729 N 1 0 0 1 2 441 2
-Refer: 8729 8729 N 1 0 0 1 1 -582 2
+Refer: 8901 8901 N 1 0 0 1 2 441 2
+Refer: 8901 8901 N 1 0 0 1 2 441 2
+Refer: 8901 8901 N 1 0 0 1 1 -582 2
 EndChar
 StartChar: uni2252
 Encoding: 8786 8786 8786
 Width: 1233
 Flags: W
-Refer: 8729 8729 N 1 0 0 1 404 -579 2
+Refer: 8901 8901 N 1 0 0 1 404 -579 2
 Refer: 61 61 N 1 0 0 1 0 0 2
-Refer: 8729 8729 N 1 0 0 1 -401 441 2
+Refer: 8901 8901 N 1 0 0 1 -401 441 2
 EndChar
 StartChar: uni2253
 Encoding: 8787 8787 8787
 Width: 1233
 Flags: W
-Refer: 8729 8729 N 1 0 0 1 404.5 441 2
+Refer: 8901 8901 N 1 0 0 1 404.5 441 2
 Refer: 61 61 N 1 0 0 1 -0.5 0 2
-Refer: 8729 8729 N 1 0 0 1 -401.5 -579 2
+Refer: 8901 8901 N 1 0 0 1 -401.5 -579 2
 EndChar
 StartChar: uni2254
 Encoding: 8788 8788 8788
@@ -59110,7 +59083,34 @@ StartChar: dotmath
 Encoding: 8901 8901 8901
 Width: 1233
 Flags: W
-Refer: 183 183 N 1 0 0 1 0 0 2
+TtInstrs:
+PUSHW_2
+ 2
+ 257
+PUSHB_6
+ 0
+ 4
+ 1
+ 29
+ 0
+ 4
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
+Fore
+489 864 m 1,0,-1
+ 741 864 l 1,1,-1
+ 741 559 l 1,2,-1
+ 489 559 l 1,3,-1
+ 489 864 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni22C6
 Encoding: 8902 8902 8902
