@@ -16,8 +16,8 @@
 def_gen_flags = 0x20 + 0x40 + 0x800
 exp_gen_flags = def_gen_flags + 8
 
-if ($version < "20070501")
-  Error("Your version of FontForge is too old - 20070501 or newer is required");
+if ($version < "20080330")
+  Error("Your version of FontForge is too old - 20080330 or newer is required");
 endif
 # FoundryName is not used in TTF generation
 SetPref("FoundryName", "DejaVu")

@@ -7,7 +7,7 @@
 #   chmod +x generate.pe
 #   ./generate.pe *.sfd
 import fontforge, sys;
-required_version = "20070501"
+required_version = "20080330"
 
 # font generation flags:
 #   omit-instructions => do not include TT instructions (for experimental typefaces)
