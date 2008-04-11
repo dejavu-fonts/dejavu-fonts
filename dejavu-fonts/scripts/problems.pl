@@ -115,7 +115,7 @@ sub process_sfd_file($$) {
     } elsif (/^Ligature:\s*\S*\s*\S*\s*\S*\s*(.*?)\s*$/) {
       @ligature_refs = split(/\s+/, $1);
       $has_ligature = 1;
-    } elsif (/^Fore\s*$/) {
+    } elsif (/^SplineSet\s*$/) {
       $is_empty = 0;
       $in_spline_set = 1;
       problem (0, 'mixed content', $curchar, ' ', $dec_enc, ($hex_enc ? ' U+'.$hex_enc : '')) if ($has_refs);
