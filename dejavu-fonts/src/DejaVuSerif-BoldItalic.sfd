@@ -1935,7 +1935,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above"  "'mark' Mark Positioning" "below"  "'mark' Mark Positioning" "above-mark"  "'mkmk' Mark to Mark" 
-BeginChars: 1114139 0
+BeginChars: 1114140 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -27437,6 +27437,7 @@ LayerCount: 2
 Fore
 Refer: 180 180 N 1 0 0 1 109 0 2
 Refer: 1075 1075 N 1 0 0 1 0 0 2
+Substitution2: "'locl' Localized Forms in Cyrillic - Serbian" uni0453.MKD
 EndChar
 StartChar: uni0454
 Encoding: 1108 1108 1108
@@ -73945,6 +73946,16 @@ SplineSet
  118 0 118 0 59 58.5 c 128,-1,0
  0 117 0 117 0 199.5 c 128,-1,1
 EndSplineSet
+EndChar
+StartChar: uni0453.MKD
+Encoding: 1114139 -1 1114139
+Width: 1035
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1075 1075 N 1 0 0 1 0 0 2
+Refer: 175 175 N 1 0 0 1 140 -50 2
+Refer: 180 180 N 1 0 0 1 192 256 2
 EndChar
 EndChars
 EndSplineFont
