@@ -1,5 +1,31 @@
+Changes from 2.24 to 2.25
+- moved/added U+2E18 (by Gee Fung Sit)
+- added empty glyph for U+2064 in Sans and Serif (by Gee Fung Sit)
+- added U+22CE-U+22CF to Sans (by Gee Fung Sit)
+- Sans Oblique and Bold Oblique, Serif: reverted digits hinting instructions back to before revision 1590, which fixed mistaken debian bug #471024. This fixes Debian bug #411308. The original bug was in freetype not in the fonts (by Denis Jacquerye)
+- added U+A726-U+A729, U+A730-U+A733, U+A738-U+A73F, U+A746-U+A74B, U+A74E-U+A74F, U+A780-U+A781, U+A7FB-U+A7FF to Sans (by Gee Fung Sit)
+- added Macedonian italic glyph shape for U+0453 in Serif (by Ben Laenen)
+- changed descenders in U+0446, U+0449, U+0497, U+04A3, U+04AD (by Andrey V. Panov)
+- updated main SFD files to SplineFontDB 3.0 (Denis Jacquerye and Gee Fung Sit)
+- moved U+0561 2 up since it wasn't aligned with the baseline well (by Ben Laenen)
+- added U+2E2E to Sans (by Gee Fung Sit)
+- replaced U+2699 with simpler version in Sans (by Gee Fung Sit)
+- added a lot of hinting instructions to Latin Extended B, Greek and Coptic glyphs Sans Book (by Wesley Transue)
+- differentiated U+2219 from U+22C5 and adjusted affected references in Sans and Mono (by Gee Fung Sit)
+- made Hebrew narrower in Sans Bold and Sans Bold Oblique (by Denis Jacquerye)
+- added Kurdish and Chuvash letters from Unicode 5.1 Cyrillic Extended block (by Wesley Transue)
+- added U+1E9F, U+A644-U+A647, U+A64C-U+A64D, U+A650-U+A651, U+A654-U+A655, U+A712U+A716 to Sans (by Gee Fung Sit)
+- added several glyphs to Sans ExtraLight (by Gee Fung Sit)
+- added hinting instructions to U+046A-U+046B, U+0508-U+0509, U+050B, U+0512-U+0513 in Sans Book (by Wesley Transue)
+- corrected width of U+027E in Sans Book (by Gee Fung Sit)
+- added U+2C79, U+2C7B-U+2C7D to Sans (by Gee Fung Sit)
+- added a bunch of glyphs+small corrections to Sans Light (by Gee Fung Sit)
+- added U+0496, U+0497, U+04B0, U+04B1 (by Andrey V. Panov)
+- updated U+0493, U+049B, U+04B3, U+04B7, U+04F7 (by Andrey V. Panov)
+- further improvements in extended Cyrillic (by Andrey V. Panov) 
+
 Changes from 2.23 to 2.24
--  instructions for U+05C0 ׀, U+05C3 ׃, U+05F3 ׳, and U+05F4 ״ in DejaVu 
+- instructions for U+05C0 ׀, U+05C3 ׃, U+05F3 ׳, and U+05F4 ״ in DejaVu 
    Sans. (by Wesley Transue)
 - instructions for U+2116 in Sans (by Andrey V. Panov)
 - Unicode 5.1 update: moved U+F208 to U+2C6D, U+F25F to U+2C71, added 
