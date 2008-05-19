@@ -163,7 +163,10 @@ $(BUILDDIR)/Makefile: Makefile
 
 $(TMPDIR)/$(SRCARCHIVE): $(addprefix $(BUILDDIR)/, $(GENDOCFULL) Makefile) $(FULLSFD)
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{$(SCRIPTSDIR),$(SRCDIR),$(FONTCONFDIR),$(DOCDIR)}
+	install -d -m 0755 $@/$(SCRIPTSDIR)
+	install -d -m 0755 $@/$(SRCDIR)
+	install -d -m 0755 $@/$(FONTCONFDIR)
+	install -d -m 0755 $@/$(DOCDIR)
 	install -p -m 0644 $(BUILDDIR)/Makefile $@
 	install -p -m 0755 $(GENERATE) $(TTPOSTPROC) $(LGC) $(NORMALIZE) \
 	                   $(UNICOVER) $(LANGCOVER) $(STATUS) $(PROBLEMS) \
@@ -175,7 +178,9 @@ $(TMPDIR)/$(SRCARCHIVE): $(addprefix $(BUILDDIR)/, $(GENDOCFULL) Makefile) $(FUL
 
 $(TMPDIR)/$(FULLARCHIVE): full
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{$(TTFDIR),$(FONTCONFDIR),$(DOCDIR)}
+	install -d -m 0755 $@/$(TTFDIR)
+	install -d -m 0755 $@/$(FONTCONFDIR)
+	install -d -m 0755 $@/$(DOCDIR)
 	install -p -m 0644 $(FULLTTF) $@/$(TTFDIR)
 	install -p -m 0644 $(FONTCONFFULL) $@/$(FONTCONFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCFULL)) \
@@ -183,14 +188,17 @@ $(TMPDIR)/$(FULLARCHIVE): full
 
 $(TMPDIR)/$(SANSARCHIVE): sans
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{$(TTFDIR),$(DOCDIR)}
+	install -d -m 0755 $@/$(TTFDIR)
+	install -d -m 0755 $@/$(DOCDIR)
 	install -p -m 0644 $(BUILDDIR)/DejaVuSans.ttf $@/$(TTFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCSANS)) \
 	                   $(STATICDOC) $@/$(DOCDIR)
 
 $(TMPDIR)/$(LGCARCHIVE): lgc
 	@echo "[8] => $@"
-	install -d -m 0755 $@/{$(TTFDIR),$(FONTCONFDIR),$(DOCDIR)}
+	install -d -m 0755 $@/$(TTFDIR)
+	install -d -m 0755 $@/$(FONTCONFDIR)
+	install -d -m 0755 $@/$(DOCDIR)
 	install -p -m 0644 $(LGCTTF) $@/$(TTFDIR)
 	install -p -m 0644 $(FONTCONFLGC) $@/$(FONTCONFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCLGC)) \
