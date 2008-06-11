@@ -54,7 +54,6 @@ Lookup: 1 1 0 "'aalt' Access All Alternates in Hebrew lookup 14"  {"'aalt' Acces
 Lookup: 1 1 0 "'salt' Stylistic Alternatives in Hebrew lookup 15"  {"'salt' Stylistic Alternatives in Hebrew lookup 15"  } ['salt' ('hebr' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates in Greek lookup 16"  {"'aalt' Access All Alternates in Greek lookup 16"  } ['aalt' ('grek' <'dflt' > ) ]
 Lookup: 1 0 0 "'salt' Stylistic Alternatives in Greek lookup 17"  {"'salt' Stylistic Alternatives in Greek lookup 17"  } ['salt' ('grek' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' Access All Alternates in Latin lookup 18"  {"'aalt' Access All Alternates in Latin lookup 18"  } ['aalt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup 19"  {"'salt' Stylistic Alternatives in Latin lookup 19"  } ['salt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 20"  {"'aalt' Access All Alternates in Latin lookup 20"  } ['aalt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 1 0 "Single Substitution lookup 21"  {"Single Substitution lookup 21"  } []
@@ -1585,7 +1584,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Mark Positioning lookup 9" "lao-below"  "'mark' Mark Positioning in Lao lookup 8" "lao-above"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-inside"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
-BeginChars: 1114178 0
+BeginChars: 1114179 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -10929,8 +10928,8 @@ SplineSet
  857 342 857 342 893 522 c 2,43,-1
  901 563 l 1,33,-1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 20" uni0251
 Substitution2: "'salt' Stylistic Alternatives in Latin lookup 19" uni0251
-Substitution2: "'aalt' Access All Alternates in Latin lookup 18" uni0251
 EndChar
 StartChar: b
 Encoding: 98 98 98
@@ -16297,6 +16296,7 @@ SplineSet
  1235 1120 l 1,15,-1
  508 -104 l 2,0,1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 20" y.alt
 EndChar
 StartChar: z
 Encoding: 122 122 122
@@ -25774,9 +25774,9 @@ SplineSet
  644.085 1386 644.085 1386 762.609 1453 c 128,-1,13
  881.132 1520 881.132 1520 1034.13 1520 c 0,14,15
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 20" Eng.alt
 Substitution2: "'salt' Stylistic Alternatives in Latin lookup 19" Eng.alt
 Substitution2: "'locl' Localized Forms in Latin lookup 4" Eng.alt
-Substitution2: "'aalt' Access All Alternates in Latin lookup 18" Eng.alt
 EndChar
 StartChar: eng
 Encoding: 331 331 331
@@ -145496,6 +145496,47 @@ SplineSet
  1019 1120 l 1,9,-1
  1256 1120 l 1,0,-1
  1068 153 l 1,0,0
+EndSplineSet
+EndChar
+StartChar: y.alt
+Encoding: 1114178 -1 1114178
+Width: 1298
+Flags: W
+AnchorPoint: "below" 495 -430 basechar 0
+AnchorPoint: "above" 724 1147 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+842 176 m 1,0,1
+ 764 78 764 78 656.5 24.5 c 128,-1,2
+ 549 -29 549 -29 428 -29 c 0,3,4
+ 281 -29 281 -29 199 51.5 c 128,-1,5
+ 117 132 117 132 117 276 c 0,6,7
+ 117 306 117 306 122 351 c 128,-1,8
+ 127 396 127 396 137 444 c 1,9,-1
+ 268 1120 l 1,10,-1
+ 453 1120 l 1,11,-1
+ 322 451 l 1,12,13
+ 312 402 312 402 307.5 367 c 128,-1,14
+ 303 332 303 332 303 309 c 0,15,16
+ 303 224 303 224 355 177.5 c 128,-1,17
+ 407 131 407 131 502 131 c 0,18,19
+ 650 131 650 131 758 231 c 128,-1,20
+ 866 331 866 331 899 500 c 1,21,-1
+ 1022 1120 l 1,22,-1
+ 1206 1120 l 1,23,-1
+ 1015.67 138.999 l 1,24,25
+ 960.667 -146.001 960.667 -146.001 805.167 -286.001 c 128,-1,26
+ 649.667 -426.001 649.667 -426.001 386.667 -426.001 c 0,27,28
+ 289.667 -426.001 289.667 -426.001 206.667 -411.501 c 128,-1,29
+ 123.667 -397.001 123.667 -397.001 51.667 -367.001 c 1,30,-1
+ 85.667 -188.001 l 1,31,32
+ 153.667 -232.001 153.667 -232.001 229.667 -253.001 c 128,-1,33
+ 305.667 -274.001 305.667 -274.001 391.667 -274.001 c 0,34,35
+ 566.667 -274.001 566.667 -274.001 679.167 -178.501 c 128,-1,36
+ 791.667 -83.001 791.667 -83.001 827.667 95.999 c 1,37,-1
+ 842 176 l 1,0,1
 EndSplineSet
 EndChar
 EndChars

@@ -65,7 +65,6 @@ Lookup: 1 1 0 "'aalt' Access All Alternates in Hebrew lookup 23"  {"'aalt' Acces
 Lookup: 1 1 0 "'salt' Stylistic Alternatives in Hebrew lookup 24"  {"'salt' Stylistic Alternatives in Hebrew lookup 24"  } ['salt' ('hebr' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates in Greek lookup 25"  {"'aalt' Access All Alternates in Greek lookup 25"  } ['aalt' ('grek' <'dflt' > ) ]
 Lookup: 1 0 0 "'salt' Stylistic Alternatives in Greek lookup 26"  {"'salt' Stylistic Alternatives in Greek lookup 26"  } ['salt' ('grek' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' Access All Alternates in Latin lookup 27"  {"'aalt' Access All Alternates in Latin lookup 27"  } ['aalt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup 28"  {"'salt' Stylistic Alternatives in Latin lookup 28"  } ['salt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 29"  {"'aalt' Access All Alternates in Latin lookup 29"  } ['aalt' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 1 0 "Single Substitution lookup 30"  {"Single Substitution lookup 30"  } []
@@ -2124,7 +2123,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Ligature below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114328 0
+BeginChars: 1114329 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -10041,8 +10040,8 @@ SplineSet
  829 1147 829 1147 949 1021 c 128,-1,37
  1069 895 1069 895 1069 639 c 2,11,-1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 29" uni0251
 Substitution2: "'salt' Stylistic Alternatives in Latin lookup 28" uni0251
-Substitution2: "'aalt' Access All Alternates in Latin lookup 27" uni0251
 EndChar
 StartChar: b
 Encoding: 98 98 98
@@ -13837,6 +13836,7 @@ SplineSet
  1151 1120 l 1,15,-1
  659 -104 l 1,0,1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 29" y.alt
 EndChar
 StartChar: z
 Encoding: 122 122 122
@@ -22827,9 +22827,9 @@ SplineSet
  1104 -179.775 1104 -179.775 1104 -20 c 2,28,-1
  1104 895 l 2,0,1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 29" Eng.alt
 Substitution2: "'salt' Stylistic Alternatives in Latin lookup 28" Eng.alt
 Substitution2: "'locl' Localized Forms in Latin lookup 4" Eng.alt
-Substitution2: "'aalt' Access All Alternates in Latin lookup 27" Eng.alt
 EndChar
 StartChar: eng
 Encoding: 331 331 331
@@ -201645,6 +201645,44 @@ SplineSet
  1046 -426 l 1,13,-1
  923 -426 l 1,14,-1
  1152 0 l 17,0,-1
+EndSplineSet
+EndChar
+StartChar: y.alt
+Encoding: 1114328 -1 1114328
+Width: 1298
+Flags: W
+AnchorPoint: "above" 637 1147 basechar 0 0
+AnchorPoint: "below" 637 -430 basechar 0
+AnchorPoint: "cedilla" 637 -430 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+637 1147 m 25,0,-1
+174 442 m 2,1,-1
+ 174 1120 l 1,2,-1
+ 358 1120 l 1,3,-1
+ 358 449 l 2,4,5
+ 358 290 358 290 420 210.5 c 128,-1,6
+ 482 131 482 131 606 131 c 0,7,8
+ 755 131 755 131 841.5 226 c 128,-1,9
+ 928 321 928 321 928 485 c 2,10,-1
+ 928 1120 l 1,11,-1
+ 1112 1120 l 1,12,-1
+ 1114 139 l 2,13,14
+ 1114.58 -146.367 1114.58 -146.367 987 -286.5 c 0,15,16
+ 860 -426 860 -426 598 -426 c 0,17,18
+ 501 -426 501 -426 415 -411.5 c 128,-1,19
+ 329 -397 329 -397 248 -367 c 1,20,-1
+ 248 -188 l 1,21,22
+ 329 -232 329 -232 408 -253 c 128,-1,23
+ 487 -274 487 -274 569 -274 c 0,24,25
+ 695.12 -274 695.12 -274 839 -179.5 c 0,26,27
+ 928 -121.045 928 -121.045 928 106 c 10,28,-1
+ 928 172 l 17,29,30
+ 861 70 861 70 772.5 20.5 c 128,-1,31
+ 684 -29 684 -29 567 -29 c 0,32,33
+ 374 -29 374 -29 274 91 c 128,-1,34
+ 174 211 174 211 174 442 c 2,1,-1
 EndSplineSet
 EndChar
 EndChars

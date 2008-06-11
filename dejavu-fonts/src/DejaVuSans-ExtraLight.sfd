@@ -38,6 +38,7 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
+Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 0"  {"'aalt' Access All Alternates in Latin lookup 0-1"  } ['aalt' ('latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' in Basic"  {"'ccmp' in Basic"  } ['ccmp' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin"  {"'liga' Standard Ligatures in Latin"  } ['liga' ('latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 4"  {"'dlig' Discretionary Ligatures lookup 4"  } ['dlig' ('DFLT' <'dflt' > ) ]
@@ -2044,7 +2045,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 3" "above-mark"  "'mkmk' above-mark" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114130 0
+BeginChars: 1114131 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -3794,6 +3795,7 @@ SplineSet
  784 1147 784 1147 912 1027 c 0,43,44
  1023 924 1023 924 1023 639 c 2,12,-1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0-1" uni0251
 EndChar
 StartChar: b
 Encoding: 98 98 98
@@ -4495,6 +4497,7 @@ SplineSet
  1102 1120 l 1,17,-1
  610 -104 l 2,0,1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 0-1" y.alt
 EndChar
 StartChar: z
 Encoding: 122 122 122
@@ -32825,6 +32828,42 @@ AnchorPoint: "above" -512 1147 mark 0
 LayerCount: 2
 Fore
 Refer: 730 730 N 1 0 0 1 -1026 -220 2
+EndChar
+StartChar: y.alt
+Encoding: 1114130 -1 1114130
+Width: 1298
+Flags: W
+AnchorPoint: "below" 678 -430 basechar 0
+AnchorPoint: "above" 637 1147 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+986 210 m 1,0,1
+ 937 108 937 108 857 54 c 0,2,3
+ 739 -27 739 -27 596 -27 c 0,4,5
+ 430 -27 430 -27 331 86 c 0,6,7
+ 232 198 232 198 232 444 c 2,8,-1
+ 232 1120 l 1,9,-1
+ 324 1120 l 1,10,-1
+ 324 450 l 2,11,12
+ 324 232 324 232 394 143 c 128,-1,13
+ 464 54 464 54 600 54 c 0,14,15
+ 759 54 759 54 872 150 c 0,16,17
+ 986 247 986 247 986 487 c 2,18,-1
+ 986 1120 l 1,19,-1
+ 1078 1120 l 1,20,-1
+ 1078 139 l 2,21,22
+ 1078 -210 1078 -210 945 -318 c 128,-1,23
+ 812 -426 812 -426 608 -426 c 0,24,25
+ 511 -426 511 -426 425 -412 c 0,26,27
+ 339 -397 339 -397 258 -367 c 1,28,-1
+ 258 -262 l 1,29,30
+ 339 -306 339 -306 418 -327 c 128,-1,31
+ 497 -348 497 -348 579 -348 c 0,32,33
+ 741.65 -348 741.65 -348 866 -277 c 0,34,35
+ 986 -208.483 986 -208.483 986 106 c 2,36,-1
+ 986 210 l 1,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
