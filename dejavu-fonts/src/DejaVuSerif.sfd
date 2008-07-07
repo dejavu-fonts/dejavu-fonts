@@ -63379,6 +63379,15 @@ SplineSet
  0 610 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: uni2016
+Encoding: 8214 8214 8214
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+Refer: 124 124 N 1 0 0 1 330 0 2
+Refer: 124 124 N 1 0 0 1 0 0 2
+EndChar
 StartChar: underscoredbl
 Encoding: 8215 8215 8215
 Width: 1024
@@ -64494,6 +64503,88 @@ SplineSet
  299 1520 299 1520 457 1520 c 128,-1,85
 EndSplineSet
 EndChar
+StartChar: minute
+Encoding: 8242 8242 8242
+Width: 465
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 1120 m 25,0,-1
+ 213 1493 l 25,1,-1
+ 416 1493 l 25,2,-1
+ 127 1120 l 25,3,-1
+ 40 1120 l 25,0,-1
+EndSplineSet
+EndChar
+StartChar: second
+Encoding: 8243 8243 8243
+Width: 765
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8242 8242 N 1 0 0 1 300 0 2
+Refer: 8242 8242 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni2034
+Encoding: 8244 8244 8244
+Width: 1065
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8242 8242 N 1 0 0 1 600 0 2
+Refer: 8242 8242 N 1 0 0 1 0 0 2
+Refer: 8242 8242 N 1 0 0 1 300 0 2
+EndChar
+StartChar: uni2035
+Encoding: 8245 8245 8245
+Width: 465
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+416 1120 m 25,0,-1
+ 329 1120 l 25,3,-1
+ 40 1493 l 25,2,-1
+ 243 1493 l 25,1,-1
+ 416 1120 l 25,0,-1
+EndSplineSet
+EndChar
+StartChar: uni2036
+Encoding: 8246 8246 8246
+Width: 765
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8245 8245 N 1 0 0 1 300 0 2
+Refer: 8245 8245 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni2037
+Encoding: 8247 8247 8247
+Width: 1065
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8245 8245 N 1 0 0 1 300 0 2
+Refer: 8245 8245 N 1 0 0 1 600 0 2
+Refer: 8245 8245 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni2038
+Encoding: 8248 8248 8248
+Width: 694
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+683 -483 m 1,0,-1
+ 535 -483 l 1,1,-1
+ 348 -234 l 1,2,-1
+ 160 -483 l 1,3,-1
+ 11 -483 l 1,4,-1
+ 349 -61 l 1,5,-1
+ 683 -483 l 1,0,-1
+EndSplineSet
+EndChar
 StartChar: guilsinglleft
 Encoding: 8249 8249 8249
 Width: 819
@@ -64659,6 +64750,60 @@ LayerCount: 2
 Fore
 Refer: 95 95 N 1 0 0 1 0 1950 2
 EndChar
+StartChar: uni2042
+Encoding: 8258 8258 8258
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 42 42 N 1 0 0 1 512 147 2
+Refer: 42 42 N 1 0 0 1 1024 -645 2
+Refer: 42 42 N 1 0 0 1 0 -645 2
+EndChar
+StartChar: uni2045
+Encoding: 8261 8261 8261
+Width: 799
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+176 -270 m 1,0,-1
+ 176 1556 l 1,1,-1
+ 641 1556 l 1,2,-1
+ 641 1450 l 1,3,-1
+ 367 1450 l 1,4,-1
+ 367 680 l 1,5,-1
+ 600 680 l 1,6,-1
+ 600 606 l 1,7,-1
+ 367 606 l 1,8,-1
+ 367 -164 l 1,9,-1
+ 641 -164 l 1,10,-1
+ 641 -270 l 1,11,-1
+ 176 -270 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni2046
+Encoding: 8262 8262 8262
+Width: 799
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+199 606 m 1,0,-1
+ 199 680 l 1,1,-1
+ 432 680 l 1,2,-1
+ 432 1450 l 1,3,-1
+ 158 1450 l 1,4,-1
+ 158 1556 l 1,5,-1
+ 623 1556 l 1,6,-1
+ 623 -270 l 1,7,-1
+ 158 -270 l 1,8,-1
+ 158 -164 l 1,9,-1
+ 432 -164 l 1,10,-1
+ 432 606 l 1,11,-1
+ 199 606 l 1,0,-1
+EndSplineSet
+EndChar
 StartChar: uni2047
 Encoding: 8263 8263 8263
 Width: 1998
@@ -64689,6 +64834,125 @@ Refer: 33 33 N 1 0 0 1 -140 0 2
 Refer: 63 63 N 1 0 0 1 405 0 2
 LCarets2: 1 0 
 EndChar
+StartChar: uni204B
+Encoding: 8267 8267 8267
+Width: 1303
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+670 1493 m 2,0,-1
+ 885 1493 885 1493 1015 1377 c 128,-1,15
+ 1145 1261 1145 1261 1145 1071 c 0,13,14
+ 1145 887 1145 887 1027.5 776.5 c 128,-1,12
+ 910 666 910 666 695 649 c 1,10,11
+ 695 -197 l 1,9,-1
+ 588 -197 l 1,8,-1
+ 588 1386 l 1,7,-1
+ 357 1386 l 1,6,-1
+ 357 -197 l 1,5,-1
+ 250 -197 l 1,4,-1
+ 250 1386 l 1,3,-1
+ 132 1386 l 1,2,-1
+ 132 1493 l 1,1,-1
+ 670 1493 l 2,0,-1
+EndSplineSet
+EndChar
+StartChar: uni204C
+Encoding: 8268 8268 8268
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+633 1042 m 1,0,-1
+ 808 1042 l 1,1,-1
+ 808 451 l 1,2,-1
+ 633 450 l 1,3,-1
+ 633 1042 l 1,0,-1
+515 450 m 1,4,-1
+ 513 450 l 2,5,6
+ 388 450 388 450 302 536 c 128,-1,7
+ 216 622 216 622 216 747 c 0,8,9
+ 216 871 216 871 302.5 956.5 c 128,-1,10
+ 389 1042 389 1042 515 1042 c 1,11,-1
+ 515 450 l 1,4,-1
+EndSplineSet
+EndChar
+StartChar: uni204D
+Encoding: 8269 8269 8269
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+391 450 m 1,0,-1
+ 216 451 l 1,1,-1
+ 216 1042 l 1,2,-1
+ 391 1042 l 1,3,-1
+ 391 450 l 1,0,-1
+509 1042 m 1,4,5
+ 635 1042 635 1042 721.5 956.5 c 128,-1,6
+ 808 871 808 871 808 747 c 0,7,8
+ 808 622 808 622 722 536 c 128,-1,9
+ 636 450 636 450 511 450 c 2,10,-1
+ 509 450 l 1,11,-1
+ 509 1042 l 1,4,5
+EndSplineSet
+EndChar
+StartChar: uni204E
+Encoding: 8270 8270 8270
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+Refer: 42 42 N 1 0 0 1 0 -645 3
+EndChar
+StartChar: uni204F
+Encoding: 8271 8271 8271
+Width: 690
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+616 -199 m 1,0,1
+ 536 -279 l 1,8,-1
+ 390 -189 390 -189 317.5 -66.5 c 128,-1,7
+ 245 56 245 56 237 227 c 1,5,6
+ 434 227 l 1,4,-1
+ 434 190 l 2,3,-1
+ 434 57 434 57 478 -36.5 c 128,-1,2
+ 522 -130 522 -130 616 -199 c 1,0,1
+473 756 m 0,9,10
+ 473 700 473 700 434.5 661.5 c 128,-1,20
+ 396 623 396 623 340 623 c 0,18,19
+ 284 623 284 623 245.5 661.5 c 128,-1,17
+ 207 700 207 700 207 756 c 0,15,16
+ 207 811 207 811 245.5 850 c 128,-1,14
+ 284 889 284 889 340 889 c 0,12,13
+ 396 889 396 889 434.5 850.5 c 128,-1,11
+ 473 812 473 812 473 756 c 0,9,10
+EndSplineSet
+EndChar
+StartChar: uni2051
+Encoding: 8273 8273 8273
+Width: 1024
+Flags: W
+LayerCount: 2
+Fore
+Refer: 42 42 N 1 0 0 1 0 383 2
+Refer: 42 42 N 1 0 0 1 0 -600 3
+EndChar
+StartChar: uni2052
+Encoding: 8274 8274 8274
+Width: 921
+Flags: W
+LayerCount: 2
+Fore
+Refer: 46 46 N 1 0 0 1 -39 1096 2
+Refer: 46 46 N 1 0 0 1 398 0 2
+Refer: 47 47 N 1 0 0 1 145 0 2
+EndChar
 StartChar: uni2053
 Encoding: 8275 8275 8275
 Width: 2048
@@ -64716,6 +64980,17 @@ SplineSet
  1590 657 1590 657 1703 694 c 128,-1,27
  1816 731 1816 731 1948 807 c 1,0,-1
 EndSplineSet
+EndChar
+StartChar: uni2057
+Encoding: 8279 8279 8279
+Width: 1358
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8242 8242 N 1 0 0 1 600 0 2
+Refer: 8242 8242 N 1 0 0 1 900 0 2
+Refer: 8242 8242 N 1 0 0 1 0 0 2
+Refer: 8242 8242 N 1 0 0 1 300 0 2
 EndChar
 StartChar: uni205F
 Encoding: 8287 8287 8287
