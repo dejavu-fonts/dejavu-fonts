@@ -32745,64 +32745,6 @@ StartChar: uni0423
 Encoding: 1059 1059 1059
 Width: 1233
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 37
- 5
- 112
- 14
- 11
- 100
- 4
- 15
- 5
- 11
- 16
-SRP0
-MDRP[rp0,rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-IUP[x]
-SVTCA[y-axis]
-MDAP[rnd]
-MIRP[rnd,grey]
-SHP[rp2]
-MIRP[min,rnd,grey]
-IUP[y]
-MPPEM
-GTEQ
-IF
-NPUSHB
- 14
- 13
- 0
- 11
- 10
- 14
- 25
- 25
- 0
- 13
- 10
- 12
- 11
- 11
- 10
-SFVTCA[x-axis]
-SPVTL[orthog]
-SRP0
-MDRP[min,black]
-SRP0
-MDRP[min,black]
-SPVTL[orthog]
-SRP0
-MDRP[min,black]
-SFVTL[parallel]
-SRP0
-MDRP[min,black]
-EIF
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
