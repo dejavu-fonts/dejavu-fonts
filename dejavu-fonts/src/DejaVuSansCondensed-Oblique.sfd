@@ -74,13 +74,13 @@ Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 12"  {"'kern' Horizon
 DEI: 0
 KernClass2: 30 38 "'kern' Horizontal Kerning in Latin lookup 12" 
  14 hyphen uni2010
- 55 A Agrave Aacute Atilde Adiaeresis Amacron Abreve Aogonek
+ 55 A Agrave Aacute Atilde Adieresis Amacron Abreve Aogonek
  1 B
  58 C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron Circumflex
  1 F
  1 K
  22 L Lacute Lcaron Lslash
- 44 O Ograve Oacute Ocircumflex Otilde Odiaeresis
+ 44 O Ograve Oacute Ocircumflex Otilde Odieresis
  1 P
  5 Q Eth
  17 S Scedilla Scaron
@@ -88,13 +88,13 @@ KernClass2: 30 38 "'kern' Horizontal Kerning in Latin lookup 12"
  1 V
  1 W
  1 X
- 18 Y Yacute Ydiaeresis
+ 18 Y Yacute Ydieresis
  8 Z Zcaron
  1 f
  15 r racute rcaron
  1 v
  1 w
- 18 y yacute ydiaeresis
+ 18 y yacute ydieresis
  11 Acircumflex
  2 AE
  6 Oslash
@@ -105,27 +105,27 @@ KernClass2: 30 38 "'kern' Horizontal Kerning in Latin lookup 12"
  12 comma period
  6 hyphen
  15 colon semicolon
- 44 A Agrave Aacute Acircumflex Atilde Adiaeresis
+ 44 A Agrave Aacute Acircumflex Atilde Adieresis
  24 C Ccedilla Cacute Ccaron
- 44 O Ograve Oacute Ocircumflex Otilde Odiaeresis
+ 44 O Ograve Oacute Ocircumflex Otilde Odieresis
  9 Q f fi fl
  17 S Scedilla Scaron
  8 T Tcaron
- 43 U Ugrave Uacute Ucircumflex Udiaeresis Uring
+ 43 U Ugrave Uacute Ucircumflex Udieresis Uring
  1 V
  1 W
  1 X
- 18 Y Yacute Ydiaeresis
- 50 a agrave aacute acircumflex atilde adiaeresis aring
+ 18 Y Yacute Ydieresis
+ 50 a agrave aacute acircumflex atilde adieresis aring
  24 c ccedilla cacute ccaron
- 89 e o egrave eacute ecircumflex ediaeresis ograve oacute ocircumflex otilde odiaeresis ecaron
+ 89 e o egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis ecaron
  1 i
  15 r racute rcaron
  17 s scedilla scaron
- 43 u ugrave uacute ucircumflex udiaeresis uring
+ 43 u ugrave uacute ucircumflex udieresis uring
  1 v
  1 w
- 18 y yacute ydiaeresis
+ 18 y yacute ydieresis
  2 AE
  6 Oslash
  2 ae
@@ -135,7 +135,7 @@ KernClass2: 30 38 "'kern' Horizontal Kerning in Latin lookup 12"
  31 Sacute Scircumflex Scommaaccent
  20 Tcommaaccent uni021A
  43 utilde umacron ubreve uhungarumlaut uogonek
- 35 Wcircumflex Wgrave Wacute Wdiaeresis
+ 35 Wcircumflex Wgrave Wacute Wdieresis
  26 Ycircumflex uni0232 Ygrave
  22 quoteleft quotedblleft
  24 quoteright quotedblright
@@ -143,15 +143,15 @@ KernClass2: 30 38 "'kern' Horizontal Kerning in Latin lookup 12"
 ChainSub2: class "'ccmp' in Basic"  5 5 5 6
   Class: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   Class: 355 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
-  Class: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adiaeresis Aring AE Ccedilla Egrave Eacute Ecircumflex Ediaeresis Igrave Iacute Icircumflex Idiaeresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odiaeresis Oslash Ugrave Uacute Ucircumflex Udiaeresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydiaeresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
+  Class: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
   Class: 316 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
   BClass: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   BClass: 355 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
-  BClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adiaeresis Aring AE Ccedilla Egrave Eacute Ecircumflex Ediaeresis Igrave Iacute Icircumflex Idiaeresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odiaeresis Oslash Ugrave Uacute Ucircumflex Udiaeresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydiaeresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
+  BClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
   BClass: 316 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
   FClass: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   FClass: 355 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
-  FClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adiaeresis Aring AE Ccedilla Egrave Eacute Ecircumflex Ediaeresis Igrave Iacute Icircumflex Idiaeresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odiaeresis Oslash Ugrave Uacute Ucircumflex Udiaeresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydiaeresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
+  FClass: 1047 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z b d f h k l t Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls Amacron Abreve Aogonek Cacute Ccircumflex Cdotaccent Ccaron Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex hcircumflex Hbar hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Jcircumflex Kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Lslash lslash Nacute Ncommaaccent Ncaron Eng Omacron Obreve Ohungarumlaut OE Racute Rcommaaccent Rcaron Sacute Scircumflex Scedilla Scaron Tcommaaccent Tcaron Tbar Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Ycircumflex Ydieresis Zacute Zdotaccent Zcaron longs uni0186 uni0190 florin uni0194 uni01CD uni01CF uni01D1 uni01D3 uni01E2 uni01EA uni01EC Scommaaccent uni021A uni022E uni0232
   FClass: 316 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
  1 0 1
   ClsList: 1
@@ -18257,7 +18257,7 @@ SplineSet
  824.4 1491 824.4 1491 893.7 1462 c 1,14,-1
 EndSplineSet
 EndChar
-StartChar: diaeresis
+StartChar: dieresis
 Encoding: 168 168 168
 Width: 921
 Flags: W
@@ -20770,7 +20770,7 @@ Fore
 Refer: 65 65 N 1 0 0 1 0 0 3
 Refer: 1114116 -1 N 1 0 0 1 1116.9 373 2
 EndChar
-StartChar: Adiaeresis
+StartChar: Adieresis
 Encoding: 196 196 196
 Width: 1260
 Flags: W
@@ -21293,7 +21293,7 @@ Fore
 Refer: 69 69 N 1 0 0 1 0 0 3
 Refer: 1114118 -1 N 1 0 0 1 1065.6 373 2
 EndChar
-StartChar: Ediaeresis
+StartChar: Edieresis
 Encoding: 203 203 203
 Width: 1164
 Flags: W
@@ -21329,7 +21329,7 @@ Fore
 Refer: 73 73 N 1 0 0 1 0 0 3
 Refer: 1114118 -1 N 1 0 0 1 744.3 373 2
 EndChar
-StartChar: Idiaeresis
+StartChar: Idieresis
 Encoding: 207 207 207
 Width: 543
 Flags: W
@@ -21531,7 +21531,7 @@ Fore
 Refer: 79 79 N 1 0 0 1 0 0 3
 Refer: 1114116 -1 N 1 0 0 1 1227.6 373 2
 EndChar
-StartChar: Odiaeresis
+StartChar: Odieresis
 Encoding: 214 214 214
 Width: 1450
 Flags: W
@@ -22033,7 +22033,7 @@ Fore
 Refer: 85 85 N 1 0 0 1 0 0 3
 Refer: 1114118 -1 N 1 0 0 1 1146.6 373 2
 EndChar
-StartChar: Udiaeresis
+StartChar: Udieresis
 Encoding: 220 220 220
 Width: 1349
 Flags: W
@@ -22534,7 +22534,7 @@ Fore
 Refer: 97 97 N 1 0 0 1 0 0 3
 Refer: 732 732 N 1 0 0 1 90 0 2
 EndChar
-StartChar: adiaeresis
+StartChar: adieresis
 Encoding: 228 228 228
 Width: 1129
 Flags: W
@@ -22931,7 +22931,7 @@ Fore
 Refer: 101 101 N 1 0 0 1 0 0 3
 Refer: 710 710 N 1 0 0 1 99.9 0 2
 EndChar
-StartChar: ediaeresis
+StartChar: edieresis
 Encoding: 235 235 235
 Width: 1134
 Flags: W
@@ -22967,7 +22967,7 @@ Fore
 Refer: 305 305 N 1 0 0 1 0 0 3
 Refer: 710 710 N 1 0 0 1 -232.2 0 2
 EndChar
-StartChar: idiaeresis
+StartChar: idieresis
 Encoding: 239 239 239
 Width: 569
 Flags: W
@@ -23257,7 +23257,7 @@ Fore
 Refer: 111 111 N 1 0 0 1 0 0 3
 Refer: 732 732 N 1 0 0 1 103.5 0 2
 EndChar
-StartChar: odiaeresis
+StartChar: odieresis
 Encoding: 246 246 246
 Width: 1127
 Flags: W
@@ -23639,7 +23639,7 @@ Fore
 Refer: 117 117 N 1 0 0 1 0 0 3
 Refer: 710 710 N 1 0 0 1 95.4 0 2
 EndChar
-StartChar: udiaeresis
+StartChar: udieresis
 Encoding: 252 252 252
 Width: 1168
 Flags: W
@@ -23887,7 +23887,7 @@ SplineSet
  401.4 950 l 1,18,19
 EndSplineSet
 EndChar
-StartChar: ydiaeresis
+StartChar: ydieresis
 Encoding: 255 255 255
 Width: 1090
 Flags: W
@@ -26843,7 +26843,7 @@ Fore
 Refer: 710 710 N 1 0 0 1 55.8 0 2
 Refer: 121 121 N 1 0 0 1 0 0 3
 EndChar
-StartChar: Ydiaeresis
+StartChar: Ydieresis
 Encoding: 376 376 376
 Width: 1125
 Flags: W
@@ -37287,7 +37287,7 @@ AnchorPoint: "above" -271.8 1147 mark 0
 LayerCount: 2
 Fore
 Refer: 168 168 N 1 0 0 1 -828 0 2
-Substitution2: "Single Substitution - Case Form" Diaeresis
+Substitution2: "Single Substitution - Case Form" Dieresis
 EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 777
@@ -38907,7 +38907,7 @@ SplineSet
  783 1638 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: diaeresistonos
+StartChar: dieresistonos
 Encoding: 901 901 901
 Width: 921
 Flags: W
@@ -38989,7 +38989,7 @@ Fore
 Refer: 937 937 N 1 0 0 1 194.4 0 2
 Refer: 900 900 N 1 0 0 1 -367.2 0 2
 EndChar
-StartChar: iotadiaeresistonos
+StartChar: iotadieresistonos
 Encoding: 912 912 912
 Width: 693
 Flags: W
@@ -39353,7 +39353,7 @@ SplineSet
  1237.5 178 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: Iotadiaeresis
+StartChar: Iotadieresis
 Encoding: 938 938 938
 Width: 543
 Flags: W
@@ -39362,7 +39362,7 @@ Fore
 Refer: 921 921 N 1 0 0 1 0 0 3
 Refer: 1114114 -1 N 1 0 0 1 758.7 373 2
 EndChar
-StartChar: Upsilondiaeresis
+StartChar: Upsilondieresis
 Encoding: 939 939 939
 Width: 1125
 Flags: W
@@ -39409,7 +39409,7 @@ Fore
 Refer: 900 900 N 1 0 0 1 -167.4 0 2
 Refer: 953 953 N 1 0 0 1 0 0 3
 EndChar
-StartChar: upsilondiaeresistonos
+StartChar: upsilondieresistonos
 Encoding: 944 944 944
 Width: 1185
 Flags: W
@@ -40188,7 +40188,7 @@ SplineSet
  631.8 -29 631.8 -29 394.2 -29 c 24,0,1
 EndSplineSet
 EndChar
-StartChar: iotadiaeresis
+StartChar: iotadieresis
 Encoding: 970 970 970
 Width: 623
 Flags: W
@@ -40197,7 +40197,7 @@ Fore
 Refer: 168 168 N 1 0 0 1 -189 0 2
 Refer: 953 953 N 1 0 0 1 13.5 0 3
 EndChar
-StartChar: upsilondiaeresis
+StartChar: upsilondieresis
 Encoding: 971 971 971
 Width: 1066
 Flags: W
@@ -71057,7 +71057,7 @@ Fore
 Refer: 180 180 N 1 0 0 1 324.9 7 2
 Refer: 119 119 N 1 0 0 1 0 0 3
 EndChar
-StartChar: Wdiaeresis
+StartChar: Wdieresis
 Encoding: 7812 7812 7812
 Width: 1822
 Flags: W
@@ -71066,7 +71066,7 @@ Fore
 Refer: 168 168 N 1 0 0 1 458.1 318 2
 Refer: 87 87 N 1 0 0 1 0 0 3
 EndChar
-StartChar: wdiaeresis
+StartChar: wdieresis
 Encoding: 7813 7813 7813
 Width: 1507
 Flags: W
@@ -143189,7 +143189,7 @@ SplineSet
  -341.1 1638 l 1,0,-1
 EndSplineSet
 EndChar
-StartChar: Diaeresis
+StartChar: Dieresis
 Encoding: 1114114 -1 1114114
 Width: 0
 Flags: W
