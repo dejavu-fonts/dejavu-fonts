@@ -38,8 +38,9 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'locl' for Romanian"  {"'locl' for Romanian-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0"  {"'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
-Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0"  {"'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0"  {"'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 1"  {"'locl' Localized Forms in Cyrillic lookup 1"  } ['locl' ('cyrl' <'SRB ' > ) ]
 Lookup: 1 9 0 "'isol' Isolated Forms in Arabic lookup 2"  {"'isol' Isolated Forms in Arabic lookup 2"  } ['isol' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 3"  {"'fina' Terminal Forms in Arabic lookup 3"  } ['fina' ('arab' <'dflt' > ) ]
@@ -47,7 +48,7 @@ Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 4"  {"'medi' Medial Forms in
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 5"  {"'init' Initial Forms in Arabic lookup 5"  } ['init' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 6"  {"'rlig' Required Ligatures in Arabic lookup 6"  } ['rlig' ('arab' <'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 7"  {"'liga' Standard Ligatures in Arabic lookup 7"  } ['liga' ('arab' <'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10"  {"'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10"  {"'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
@@ -55,8 +56,8 @@ Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 2"  {"'mark' Mark Posi
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 3"  {"'mark' Mark Positioning in Arabic lookup 3"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 4"  {"'mark' Mark Positioning in Arabic lookup 4"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 5"  {"'mark' Mark Positioning in Arabic lookup 5"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' cedilla"  "'mark' above, below"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic"  {"'mark' Zero-Width Marks lookup"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' cedilla"  "'mark' above, below"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic"  {"'mark' Zero-Width Marks lookup"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 257 8 0 "'rtbd' Mark width in Lao"  {"'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
 DEI: 0
@@ -19927,6 +19928,7 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 83 83 N 1 0 0 1 0 0 2
+Substitution2: "'locl' for Romanian-1" Scommaaccent
 LCarets2: 1 0 
 EndChar
 StartChar: scedilla
@@ -19938,6 +19940,7 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 115 115 N 1 0 0 1 0 0 2
+Substitution2: "'locl' for Romanian-1" scommaaccent
 LCarets2: 1 0 
 EndChar
 StartChar: Scaron
@@ -19973,6 +19976,7 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 84 84 N 1 0 0 1 0 0 2
+Substitution2: "'locl' for Romanian-1" uni021A
 EndChar
 StartChar: tcommaaccent
 Encoding: 355 355 355
@@ -19983,6 +19987,7 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 121 0 2
 Refer: 116 116 N 1 0 0 1 0 0 2
+Substitution2: "'locl' for Romanian-1" uni021B
 EndChar
 StartChar: Tcaron
 Encoding: 356 356 356
