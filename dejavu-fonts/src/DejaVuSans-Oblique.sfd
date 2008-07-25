@@ -45,7 +45,6 @@ Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  {"'cc
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 3"  {"'locl' Localized Forms in Cyrillic lookup 3"  } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 4"  {"'locl' Localized Forms in Latin lookup 4"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin"  {"'liga' Standard Ligatures in Latin"  } ['liga' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Armenian lookup 6"  {"'liga' Standard Ligatures in Armenian lookup 6"  } ['liga' ('armn' <'dflt' > ) ]
 Lookup: 4 1 0 "'hlig' Historic Ligatures in Hebrew lookup 8"  {"'hlig' Historic Ligatures in Hebrew lookup 8"  } ['hlig' ('hebr' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Armenian lookup 9"  {"'dlig' Discretionary Ligatures in Armenian lookup 9"  } ['dlig' ('armn' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10"  {"'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
@@ -50417,8 +50416,8 @@ SplineSet
  254 -29 254 -29 178 91 c 128,-1,21
  101 211 101 211 146 442 c 2,0,-1
 EndSplineSet
+Ligature2: "'dlig' Discretionary Ligatures in Armenian lookup 9" uni0565 uni0582
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures in Armenian lookup 6" uni0565 uni0582
 EndChar
 StartChar: uni0589
 Encoding: 1417 1417 1417
