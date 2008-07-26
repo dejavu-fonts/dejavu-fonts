@@ -1,4 +1,44 @@
+Changes from 2.25 to 2.26
+
+- added glyphs for Cyrillic-B to Sans (by Wesley Transue) 
+- added U+0370-U+0371 to Sans (by Wesley Transue) 
+- added U+019C, U+01A2-U+01A3, U+01A6, U+01E4-U+01E5, U+024C-U+024D, U+0285,
+  U+0290, U+02A0, U+0370-U+0371, U+03F1, U+03FC to Sans ExtraLight (by Wesley
+  Transue) 
+- added U+20A0-U+20A5, U+20A7-U+20B3, U+2105, U+210D, U+210F, U+2115, U+2117,
+  U+2119-U+211A, U+211D, U+2124, U+212E, U+2200-U+2204 to Mono (by Heikki
+  Lindroos) 
+- added U+01BA and U+01BF to Mono (by Heikki Lindroos) 
+- merged OpenType "aalt" feature in Latin in Sans (by Denis Jacquerye) 
+- added alternative shape for y in Sans (by Denis Jacquerye) 
+- added saltillo (U+A78B-U+A78C) to all faces (by James Cloos) 
+- changed U+047C-U+047D to references instead of outlines in Sans (by Wesley
+  Transue) 
+- added Latin letter tresillo U+A72A-U+A72B to Sans (by Wesley Transue) 
+- added U+A734-U+A737 to Sans (by Wesley Transue) 
+- added U+2053 to Serif and fixed it bug:9425 in Sans (by Gee Fung Sit) 
+- removed problematic hints for U+0423 bug:10025 (by Gee Fung Sit) 
+- added U+27C5-U+27C6 bug:10255 to all faces (by Gee Fung Sit) 
+- fixed width of U+2016 in Sans Oblique (by Gee Fung Sit) 
+- added U+2016, U+2032-U+2038, U+2042, U+2045-U+2046, U+204B-U+204F,
+  U+2051-U+2052, U+2057 to Serif (by Gee Fung Sit) 
+- made U+2140 bigger to match other n-ary operators (by Gee Fung Sit) 
+- added U+0606-U+0607, U+0609-U+060A to Sans (by Gee Fung Sit) 
+- added U+221B-U+221C to Mono (by Gee Fung Sit) 
+- small adjustments to U+221B-U+221C in Sans and Serif (by Gee Fung Sit) 
+- update U+04B4-U+04B5 in Serif (by Andrey V. Panov) 
+- increased max-storage value from maxp table to 153 (by Andrey V. Panov) 
+- added U+0472-U+0473, U+0510-U+0511, U+051A-U+051D, U+0606-U+0607,
+  U+0609-U+060A, U+1E26-U+1E27, U+1E54-U+1E55, U+1E7C-U+1E7D, U+1E8C-U+1E8D,
+  U+1E90-U+1E91, U+1E97-U+1E99, U+1E9F, U+1EAC-U+1EAD, U+1EB6-U+1EB7,
+  U+1EC6-U+1EC7, U+1ED8-U+1EDD, U+1EE0-U+1EE3, U+1EE8-U+1EEB, U+1EEE-U+1EF1 to
+  Mono (by Gee Fung Sit) 
+- added locl rules for S/T cedilla for Romanian and Moldavian so they get
+  rendered as S/T with comma accent (see Redhat bug #455981) (by Ben Laenen) 
+- removed ligature rule from Armenian U+0587 bug:16113 (by Gee Fung Sit)
+
 Changes from 2.24 to 2.25
+
 - moved/added U+2E18 (by Gee Fung Sit)
 - added empty glyph for U+2064 in Sans and Serif (by Gee Fung Sit)
 - added U+22CE-U+22CF to Sans (by Gee Fung Sit)
@@ -25,6 +65,7 @@ Changes from 2.24 to 2.25
 - further improvements in extended Cyrillic (by Andrey V. Panov) 
 
 Changes from 2.23 to 2.24
+
 - instructions for U+05C0 ׀, U+05C3 ׃, U+05F3 ׳, and U+05F4 ״ in DejaVu 
    Sans. (by Wesley Transue)
 - instructions for U+2116 in Sans (by Andrey V. Panov)
