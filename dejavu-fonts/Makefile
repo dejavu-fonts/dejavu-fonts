@@ -62,6 +62,7 @@ FONTCONFLGC  := $(wildcard $(FONTCONFDIR)/*lgc*.conf)
 FONTCONFFULL := $(filter-out $(FONTCONFLGC), $(FONTCONF))
 
 STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README)
+STATICSRCDOC := $(addprefix $(DOCDIR)/, BUILDING)
 GENDOCFULL = unicover.txt langcover.txt status.txt
 GENDOCSANS = unicover-sans.txt langcover-sans.txt
 GENDOCLGC  = unicover-lgc.txt langcover-lgc.txt
@@ -174,7 +175,7 @@ $(TMPDIR)/$(SRCARCHIVE): $(addprefix $(BUILDDIR)/, $(GENDOCFULL) Makefile) $(FUL
 	install -p -m 0644 $(FULLSFD) $@/$(SRCDIR)
 	install -p -m 0644 $(FONTCONF) $@/$(FONTCONFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCFULL)) \
-	                   $(STATICDOC) $@/$(DOCDIR)
+	                   $(STATICDOC) $(STATICSRCDOC) $@/$(DOCDIR)
 
 $(TMPDIR)/$(FULLARCHIVE): full
 	@echo "[8] => $@"
