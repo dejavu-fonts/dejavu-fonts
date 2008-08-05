@@ -12372,6 +12372,8 @@ StartChar: longs
 Encoding: 383 383 383
 Width: 881
 Flags: W
+AnchorPoint: "above" 750.347 1465 basechar 0
+AnchorPoint: "below" 21.9951 -430 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -41722,12 +41724,20 @@ Refer: 702 702 N 1 0 0 1 1326 0 2
 EndChar
 StartChar: uni1E9B
 Encoding: 7835 7835 7835
-Width: 1153
+Width: 881
 Flags: W
 LayerCount: 2
 Fore
-Refer: 115 115 N 1 0 0 1 0 0 3
-Refer: 775 775 N 1 0 0 1 1159 0 2
+Refer: 775 775 N 1 0 0 1 1211 309 2
+Refer: 383 383 N 1 0 0 1 0 0 3
+EndChar
+StartChar: uni1E9F
+Encoding: 7839 7839 7839
+Width: 1366
+Flags: W
+LayerCount: 2
+Fore
+Refer: 948 948 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni1EA0
 Encoding: 7840 7840 7840
