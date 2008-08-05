@@ -37273,7 +37273,7 @@ Width: 1024
 Flags: W
 LayerCount: 2
 Fore
-Refer: 730 730 N 1 0 0 1 0 -2014 2
+Refer: 730 730 N 1 0 0 1 0 -1741 2
 EndChar
 StartChar: uni02F7
 Encoding: 759 759 759
@@ -37935,12 +37935,31 @@ StartChar: uni0325
 Encoding: 805 805 805
 Width: 0
 Flags: W
-AnchorPoint: "below-mark" -512 -746 basemark 0
 AnchorPoint: "below-mark" -512 0 mark 0
-AnchorPoint: "below" -512 0 mark 0
+AnchorPoint: "below-mark" -512 -550 basemark 0
+AnchorPoint: "below" -512 -1 mark 0
 LayerCount: 2
 Fore
-Refer: 755 755 N 1 0 0 1 -1026 0 2
+SplineSet
+-426 -255 m 0,0,1
+ -426 -219 -426 -219 -451.5 -193.5 c 128,-1,2
+ -477 -168 -477 -168 -514 -168 c 0,3,4
+ -552 -168 -552 -168 -577 -193 c 128,-1,5
+ -602 -218 -602 -218 -602 -255 c 0,6,7
+ -602 -293 -602 -293 -577 -318 c 128,-1,8
+ -552 -343 -552 -343 -514 -343 c 0,9,10
+ -477 -343 -477 -343 -451.5 -317.5 c 128,-1,11
+ -426 -292 -426 -292 -426 -255 c 0,0,1
+-279 -256 m 0,12,13
+ -279 -355 -279 -355 -347 -423.5 c 128,-1,14
+ -415 -492 -415 -492 -514 -492 c 0,15,16
+ -613 -492 -613 -492 -681 -423.5 c 128,-1,17
+ -749 -355 -749 -355 -749 -256 c 0,18,19
+ -749 -158 -749 -158 -681 -90 c 128,-1,20
+ -613 -22 -613 -22 -514 -22 c 0,21,22
+ -415 -22 -415 -22 -347 -90 c 128,-1,23
+ -279 -158 -279 -158 -279 -256 c 0,12,13
+EndSplineSet
 EndChar
 StartChar: uni0326
 Encoding: 806 806 806
@@ -79043,8 +79062,8 @@ Width: 1585
 Flags: W
 LayerCount: 2
 Fore
+Refer: 805 805 N 1 0 0 1 1302 1 2
 Refer: 65 65 N 1 0 0 1 0 0 3
-Refer: 755 755 N 1 0 0 1 269 0 2
 EndChar
 StartChar: uni1E01
 Encoding: 7681 7681 7681
@@ -79052,8 +79071,8 @@ Width: 1382
 Flags: W
 LayerCount: 2
 Fore
+Refer: 805 805 N 1 0 0 1 1210 1 2
 Refer: 97 97 N 1 0 0 1 0 0 3
-Refer: 755 755 N 1 0 0 1 181 0 2
 EndChar
 StartChar: uni1E02
 Encoding: 7682 7682 7682
