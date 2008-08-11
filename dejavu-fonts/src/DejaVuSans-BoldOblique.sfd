@@ -18623,7 +18623,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 -23 0 2
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 8308 8308 N 1 0 0 1 1146 -668 2
 LCarets2: 2 0 0 
 EndChar
@@ -18635,7 +18635,7 @@ LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 -23 0 2
 Refer: 178 178 N 1 0 0 1 1239 -668 2
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 LCarets2: 2 0 0 
 EndChar
 StartChar: threequarters
@@ -18645,7 +18645,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 179 179 N 1 0 0 1 14 0 2
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 8308 8308 N 1 0 0 1 1146 -668 2
 LCarets2: 2 0 0 
 EndChar
@@ -73315,14 +73315,33 @@ StartChar: fraction
 Encoding: 8260 8260 8260
 Width: 342
 Flags: W
+TtInstrs:
+PUSHB_7
+ 0
+ 2
+ 100
+ 4
+ 3
+ 1
+ 4
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MIRP[rnd,grey]
+MDRP[rnd,grey]
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
--104 -29 m 1,0,-1
- -349 -29 l 1,1,-1
- 886 1520 l 1,2,-1
- 1131 1520 l 1,3,-1
- -104 -29 l 1,0,-1
+-324 -29 m 1,0,-1
+ -569 -29 l 1,1,-1
+ 666 1520 l 1,2,-1
+ 911 1520 l 1,3,-1
+ -324 -29 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni2045
@@ -78999,7 +79018,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 185 185 N 1 0 0 1 -23 0 2
 Refer: 179 179 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79010,7 +79029,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 179 179 N 1 0 0 1 1239 -668 2
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 178 178 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni2155
@@ -79019,7 +79038,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 185 185 N 1 0 0 1 -23 0 2
 Refer: 8309 8309 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79029,7 +79048,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 178 178 N 1 0 0 1 0 0 2
 Refer: 8309 8309 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79039,7 +79058,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 8309 8309 N 1 0 0 1 1239 -668 2
 Refer: 179 179 N 1 0 0 1 0 0 2
 EndChar
@@ -79049,7 +79068,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 8309 8309 N 1 0 0 1 1239 -668 2
 Refer: 8308 8308 N 1 0 0 1 0 0 2
 EndChar
@@ -79059,7 +79078,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 185 185 N 1 0 0 1 -23 0 2
 Refer: 8310 8310 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79069,7 +79088,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 8310 8310 N 1 0 0 1 1239 -668 2
 Refer: 8309 8309 N 1 0 0 1 0 0 2
 EndChar
@@ -79079,7 +79098,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 185 185 N 1 0 0 1 -23 0 2
 Refer: 8312 8312 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79089,7 +79108,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 179 179 N 1 0 0 1 0 0 2
 Refer: 8312 8312 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79099,7 +79118,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 8309 8309 N 1 0 0 1 0 0 2
 Refer: 8312 8312 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79109,7 +79128,7 @@ Width: 2120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 8311 8311 N 1 0 0 1 0 0 2
 Refer: 8312 8312 N 1 0 0 1 1239 -668 2
 EndChar
@@ -79119,7 +79138,7 @@ Width: 1260
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 918 0 2
+Refer: 8260 8260 N 1 0 0 1 918 0 2
 Refer: 185 185 N 1 0 0 1 -23 0 2
 EndChar
 StartChar: uni2160
@@ -84624,36 +84643,11 @@ EndSplineSet
 EndChar
 StartChar: uni2215
 Encoding: 8725 8725 8725
-Width: 342
+Width: 748
 Flags: W
-TtInstrs:
-PUSHB_7
- 0
- 2
- 100
- 4
- 3
- 1
- 4
-SRP0
-MDRP[rp0,rnd,grey]
-MDRP[min,rnd,grey]
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MIRP[rnd,grey]
-MDRP[rnd,grey]
-IUP[y]
-EndTTInstrs
 LayerCount: 2
 Fore
-SplineSet
--324 -29 m 1,0,-1
- -569 -29 l 1,1,-1
- 666 1520 l 1,2,-1
- 911 1520 l 1,3,-1
- -324 -29 l 1,0,-1
-EndSplineSet
+Refer: 47 47 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni2216
 Encoding: 8726 8726 8726
@@ -132369,7 +132363,13 @@ Width: 627
 Flags: W
 LayerCount: 2
 Fore
-Refer: 39 39 N 1 0 0 1 0 0 2
+SplineSet
+486 1493 m 1,0,-1
+ 378 938 l 1,1,-1
+ 141 938 l 1,2,-1
+ 249 1493 l 1,3,-1
+ 486 1493 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uniA7FB
 Encoding: 43003 43003 43003

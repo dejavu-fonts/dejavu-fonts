@@ -20487,7 +20487,7 @@ LayerCount: 2
 Fore
 Refer: 8308 8308 N 1 0 0 1 1163 -668 2
 Refer: 185 185 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 LCarets2: 2 0 0 
 EndChar
 StartChar: onehalf
@@ -20497,7 +20497,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 178 178 N 1 0 0 1 1163 -668 2
 LCarets2: 2 0 0 
 EndChar
@@ -20509,7 +20509,7 @@ LayerCount: 2
 Fore
 Refer: 8308 8308 N 1 0 0 1 1163 -668 2
 Refer: 179 179 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 LCarets2: 2 0 0 
 EndChar
 StartChar: questiondown
@@ -76696,9 +76696,112 @@ StartChar: fraction
 Encoding: 8260 8260 8260
 Width: 342
 Flags: W
+TtInstrs:
+NPUSHB
+ 19
+ 2
+ 3
+ 0
+ 3
+ 1
+ 0
+ 0
+ 3
+ 58
+ 2
+ 81
+ 0
+ 86
+ 4
+ 1
+ 0
+ 0
+ 3
+ 4
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[rnd,grey]
+SRP0
+MDRP[grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MIRP[rnd,grey]
+MIRP[rnd,grey]
+IUP[y]
+MPPEM
+GTEQ
+IF
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MDRP[min,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MDRP[min,black]
+EIF
+CLEAR
+PUSHB_3
+ 7
+ 2
+ 1
+SVTCA[x-axis]
+DELTAP1
+NPUSHB
+ 41
+ 9
+ 0
+ 6
+ 2
+ 21
+ 2
+ 37
+ 2
+ 56
+ 0
+ 54
+ 2
+ 69
+ 2
+ 89
+ 0
+ 86
+ 2
+ 105
+ 0
+ 101
+ 2
+ 120
+ 0
+ 117
+ 1
+ 117
+ 2
+ 136
+ 0
+ 133
+ 1
+ 132
+ 2
+ 153
+ 0
+ 155
+ 1
+ 152
+ 2
+ 20
+DELTAP1
+EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 8725 8725 N 1 0 0 1 200 0 3
+SplineSet
+698 1520 m 1,0,-1
+ 877 1520 l 1,1,-1
+ -356 -29 l 1,2,-1
+ -537 -29 l 1,3,-1
+ 698 1520 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni2045
 Encoding: 8261 8261 8261
@@ -82471,7 +82574,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 179 179 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: twothirds
@@ -82481,7 +82584,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 178 178 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 179 179 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: uni2155
@@ -82491,7 +82594,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8309 8309 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: uni2156
@@ -82501,7 +82604,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 178 178 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8309 8309 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: uni2157
@@ -82511,7 +82614,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 179 179 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8309 8309 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: uni2158
@@ -82521,7 +82624,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 8308 8308 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8309 8309 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: uni2159
@@ -82531,7 +82634,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8310 8310 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: uni215A
@@ -82541,7 +82644,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 8309 8309 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8310 8310 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: oneeighth
@@ -82551,7 +82654,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8312 8312 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: threeeighths
@@ -82561,7 +82664,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 179 179 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8312 8312 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: fiveeighths
@@ -82571,7 +82674,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 8309 8309 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8312 8312 N 1 0 0 1 1163 -668 2
 EndChar
 StartChar: seveneighths
@@ -82581,7 +82684,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 8311 8311 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 Refer: 8312 8312 N 1 0 0 1 1163 -668 2
 LCarets2: 2 0 0 
 EndChar
@@ -82592,7 +82695,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 185 185 N 1 0 0 1 0 0 2
-Refer: 8725 8725 N 1 0 0 1 821 0 2
+Refer: 8260 8260 N 1 0 0 1 821 0 2
 EndChar
 StartChar: uni2160
 Encoding: 8544 8544 8544
@@ -87998,114 +88101,11 @@ EndSplineSet
 EndChar
 StartChar: uni2215
 Encoding: 8725 8725 8725
-Width: 342
+Width: 690
 Flags: W
-TtInstrs:
-NPUSHB
- 19
- 2
- 3
- 0
- 3
- 1
- 0
- 0
- 3
- 58
- 2
- 81
- 0
- 86
- 4
- 1
- 0
- 0
- 3
- 4
-SRP0
-MDRP[rp0,rnd,grey]
-MDRP[rnd,grey]
-SRP0
-MDRP[grey]
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MIRP[rnd,grey]
-MIRP[rnd,grey]
-IUP[y]
-MPPEM
-GTEQ
-IF
-SPVTL[orthog]
-SRP0
-SFVTCA[x-axis]
-MDRP[min,black]
-SPVTL[orthog]
-SRP0
-SFVTCA[x-axis]
-MDRP[min,black]
-EIF
-CLEAR
-PUSHB_3
- 7
- 2
- 1
-SVTCA[x-axis]
-DELTAP1
-NPUSHB
- 41
- 9
- 0
- 6
- 2
- 21
- 2
- 37
- 2
- 56
- 0
- 54
- 2
- 69
- 2
- 89
- 0
- 86
- 2
- 105
- 0
- 101
- 2
- 120
- 0
- 117
- 1
- 117
- 2
- 136
- 0
- 133
- 1
- 132
- 2
- 153
- 0
- 155
- 1
- 152
- 2
- 20
-DELTAP1
-EndTTInstrs
 LayerCount: 2
 Fore
-SplineSet
-698 1520 m 1,0,-1
- 877 1520 l 1,1,-1
- -356 -29 l 1,2,-1
- -537 -29 l 1,3,-1
- 698 1520 l 1,0,-1
-EndSplineSet
+Refer: 47 47 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni2216
 Encoding: 8726 8726 8726
@@ -138347,11 +138347,11 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-367 1493 m 1,0,-1
- 367 938 l 1,1,-1
- 197 938 l 1,2,-1
- 197 1493 l 1,3,-1
- 367 1493 l 1,0,-1
+421 1493 m 1,0,-1
+ 313 938 l 1,1,-1
+ 143 938 l 1,2,-1
+ 251 1493 l 1,3,-1
+ 421 1493 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uniA7FB
