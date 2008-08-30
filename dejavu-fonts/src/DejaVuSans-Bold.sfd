@@ -44,6 +44,7 @@ Lookup: 1 0 0 "'medi' Medial forms in N'Ko"  {"'medi' Medial forms in N'Ko"  } [
 Lookup: 1 0 0 "'init' Initial forms in N'Ko"  {"'init' Initial forms in N'Ko"  } ['init' ('nko ' <'dflt' > ) ]
 Lookup: 6 1 0 "'ccmp' in RTL"  {"'ccmp' in RTL"  } ['ccmp' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' in Basic"  {"'ccmp' in Basic"  } ['ccmp' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Tone Bars"  {"'ccmp' Tone Bars-5"  "'ccmp' Tone Bars-4"  "'ccmp' Tone Bars-3"  "'ccmp' Tone Bars-2"  "'ccmp' Tone Bars-1"  "'ccmp' Tone Bars-Stem-5"  "'ccmp' Tone Bars-Stem-4"  "'ccmp' Tone Bars-Stem-3"  "'ccmp' Tone Bars-Stem-2"  "'ccmp' Tone Bars-Stem-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'kana' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'ogam' <'dflt' > 'runr' <'dflt' > 'tfng' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  {"'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 3"  {"'locl' Localized Forms in Cyrillic lookup 3"  } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 4"  {"'locl' Localized Forms in Latin lookup 4"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
@@ -70,6 +71,12 @@ Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 29"  {"'aalt' Access
 Lookup: 1 1 0 "Single Substitution lookup 30"  {"Single Substitution lookup 30"  } []
 Lookup: 1 0 0 "Single Substitution - Case Form"  {"Single Substitution - Case Form"  } []
 Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-5"  {"Single Substitution - Stemless Form-5" ("5" ) } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-4"  {"Single Substitution - Stemless Form-4" ("4" ) } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-3"  {"Single Substitution - Stemless Form-3" ("3" ) } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-2"  {"Single Substitution - Stemless Form-2" ("2" ) } []
+Lookup: 1 0 0 "Single Substitution - Stemless Form-1"  {"Single Substitution - Stemless Form-1" ("1" ) } []
+Lookup: 1 0 0 "Single Substitution - Stem"  {"Single Substitution - Stem"  } []
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 2"  {"'mkmk' Mark to Mark in Lao lookup 2"  } ['mkmk' ('lao ' <'dflt' > ) ]
@@ -84,7 +91,15 @@ Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 11"  {"'mark' Mark Positi
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 12"  {"'mark' Mark Positioning in Lao lookup 12"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' half"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 15"  {"'kern' Horizontal Kerning in Latin lookup 15"  } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Tone Letters"  {"'kern' Tone Letters-1"  } ['kern' ('DFLT' <'dflt' > 'arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'ogam' <'dflt' > 'runr' <'dflt' > 'tfng' <'dflt' > 'thai' <'dflt' > ) ]
 DEI: 0
+KernClass2: 5 2 "'kern' Tone Letters-1" 
+ 79 uni02E6.5 uni02E5.4 uni02E7.4 uni02E6.3 uni02E8.3 uni02E7.2 uni02E9.2 uni02E8.1
+ 59 uni02E7.5 uni02E8.4 uni02E5.3 uni02E9.3 uni02E6.2 uni02E7.1
+ 39 uni02E8.5 uni02E9.4 uni02E5.2 uni02E6.1
+ 19 uni02E9.5 uni02E5.1
+ 4 stem
+ 0 {} 0 {} 0 {} -54 {} 0 {} -104 {} 0 {} -125 {} 0 {} -136 {}
 KernClass2: 37 56 "'kern' Horizontal Kerning in Latin lookup 15" 
  14 hyphen uni2010
  59 A Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve
@@ -178,6 +193,156 @@ KernClass2: 37 56 "'kern' Horizontal Kerning in Latin lookup 15"
  13 quotedblright
  12 quotedblbase
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} -149 {} -92 {} -167 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} -63 {} -139 {} -92 {} 0 {} -196 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} -159 {} -63 {} 0 {} -92 {} -196 {} -73 {} -92 {} 0 {} -188 {} 114 {} -188 {} 114 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -83 {} -112 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -112 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 75 {} 0 {} 75 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -329 {} -63 {} -301 {} -112 {} -235 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} 0 {} -83 {} 0 {} 0 {} -83 {} -131 {} 0 {} -102 {} 0 {} 0 {} -112 {} 0 {} 0 {} -120 {} -120 {} -83 {} -83 {} -83 {} -102 {} -235 {} -120 {} -83 {} 0 {} -83 {} -131 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} -112 {} 0 {} -112 {} 38 {} -339 {} 0 {} -339 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -178 {} 0 {} 0 {} 0 {} -92 {} 0 {} -92 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} 0 {} -131 {} 0 {} -55 {} 0 {} 0 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} -102 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -339 {} -73 {} -282 {} -159 {} 0 {} -319 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -139 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -339 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -471 {} 0 {} -491 {} 0 {} 0 {} -45 {} 38 {} -45 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} -73 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -376 {} -36 {} -376 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} -55 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 57 {} -415 {} 38 {} -415 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -292 {} -301 {} -311 {} -112 {} -159 {} 0 {} 0 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} -272 {} -272 {} 0 {} 0 {} -272 {} -225 {} -272 {} -225 {} 0 {} -225 {} -243 {} 0 {} 0 {} -164 {} -196 {} -212 {} -192 {} -159 {} -195 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} 0 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} -149 {} -264 {} -92 {} -139 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} -112 {} -36 {} 0 {} -112 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} -112 {} -112 {} -112 {} -112 {} -112 {} -73 {} 0 {} 0 {} 0 {} -36 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -225 {} 0 {} -188 {} 0 {} -167 {} -92 {} -167 {} -63 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -73 {} 0 {} 0 {} -73 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} -73 {} -73 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -167 {} 0 {} 0 {} 0 {} -73 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 0 {} -339 {} -301 {} -339 {} -178 {} -196 {} -73 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} 0 {} -188 {} 0 {} 0 {} -188 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} -36 {} -188 {} -188 {} -188 {} -188 {} -188 {} -149 {} 0 {} 0 {} 0 {} -92 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -376 {} 0 {} -301 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -36 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 141 {} 0 {} 86 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} -55 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} -292 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 86 {} 0 {} 38 {} 0 {} 0 {} -167 {} 0 {} -167 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 38 {} -45 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -73 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 38 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} -63 {} -139 {} -92 {} 0 {} -196 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} -159 {} -63 {} 0 {} -92 {} -196 {} -73 {} 0 {} 0 {} -188 {} 114 {} -188 {} 114 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -246 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} -339 {} -73 {} -282 {} -159 {} 0 {} -319 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -139 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -339 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -339 {} 0 {} -376 {} 0 {} 0 {} -292 {} -301 {} -311 {} -112 {} -159 {} 0 {} 0 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} -272 {} -272 {} 0 {} 0 {} -272 {} -225 {} -272 {} -225 {} 0 {} -225 {} -243 {} 0 {} 0 {} -264 {} -196 {} -272 {} -272 {} -159 {} -225 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} 0 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} -235 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -415 {} 0 {} -282 {} -215 {} 0 {} -358 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -415 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: class "'ccmp' Tone Bars-Stem-1"  3 3 0 1
+  Class: 7 uni02E9
+  Class: 39 uni02E5.1 uni02E6.1 uni02E7.1 uni02E8.1
+  BClass: 7 uni02E9
+  BClass: 39 uni02E5.1 uni02E6.1 uni02E7.1 uni02E8.1
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution - Stem" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-Stem-2"  3 3 0 1
+  Class: 7 uni02E8
+  Class: 39 uni02E5.2 uni02E6.2 uni02E7.2 uni02E9.2
+  BClass: 7 uni02E8
+  BClass: 39 uni02E5.2 uni02E6.2 uni02E7.2 uni02E9.2
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution - Stem" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-Stem-3"  3 3 0 1
+  Class: 7 uni02E7
+  Class: 39 uni02E5.3 uni02E6.3 uni02E8.3 uni02E9.3
+  BClass: 7 uni02E7
+  BClass: 39 uni02E5.3 uni02E6.3 uni02E8.3 uni02E9.3
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution - Stem" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-Stem-4"  3 3 0 1
+  Class: 7 uni02E6
+  Class: 39 uni02E5.4 uni02E7.4 uni02E8.4 uni02E9.4
+  BClass: 7 uni02E6
+  BClass: 39 uni02E5.4 uni02E7.4 uni02E8.4 uni02E9.4
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution - Stem" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-Stem-5"  3 3 0 1
+  Class: 7 uni02E5
+  Class: 39 uni02E6.5 uni02E7.5 uni02E8.5 uni02E9.5
+  BClass: 7 uni02E5
+  BClass: 39 uni02E6.5 uni02E7.5 uni02E8.5 uni02E9.5
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution - Stem" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-1"  3 0 3 2
+  Class: 7 uni02E9
+  Class: 31 uni02E5 uni02E6 uni02E7 uni02E8
+  FClass: 7 uni02E9
+  FClass: 31 uni02E5 uni02E6 uni02E7 uni02E8
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-1" 
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-1" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-2"  3 0 3 2
+  Class: 7 uni02E8
+  Class: 31 uni02E5 uni02E6 uni02E7 uni02E9
+  FClass: 7 uni02E8
+  FClass: 31 uni02E5 uni02E6 uni02E7 uni02E9
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-2" 
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-2" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-3"  3 0 3 2
+  Class: 7 uni02E7
+  Class: 31 uni02E5 uni02E6 uni02E8 uni02E9
+  FClass: 7 uni02E7
+  FClass: 31 uni02E5 uni02E6 uni02E8 uni02E9
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-3" 
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-3" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-4"  3 0 3 2
+  Class: 7 uni02E6
+  Class: 31 uni02E5 uni02E7 uni02E8 uni02E9
+  FClass: 7 uni02E6
+  FClass: 31 uni02E5 uni02E7 uni02E8 uni02E9
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-4" 
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-4" 
+EndFPST
+ChainSub2: class "'ccmp' Tone Bars-5"  3 0 3 2
+  Class: 7 uni02E5
+  Class: 31 uni02E6 uni02E7 uni02E8 uni02E9
+  FClass: 7 uni02E5
+  FClass: 31 uni02E6 uni02E7 uni02E8 uni02E9
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-5" 
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Substitution - Stemless Form-5" 
+EndFPST
 ChainSub2: class "'ccmp' in Basic"  5 5 5 6
   Class: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
   Class: 363 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0352 uni0357 uni0483 uni0484 uni0485 uni0486 uni20D0 uni20D1 uni20D6 uni20D7
@@ -2544,7 +2709,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114329 0
+BeginChars: 1114355 0
 StartChar: .notdef
 Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
@@ -37028,6 +37193,12 @@ SplineSet
  827 0 l 1,5,-1
  639 0 l 1,0,-1
 EndSplineSet
+Substitution2: "Single Substitution - Stem" stem
+Substitution2: "Single Substitution - Stemless Form-1" uni02E5.1
+Substitution2: "Single Substitution - Stemless Form-2" uni02E5.2
+Substitution2: "Single Substitution - Stemless Form-3" uni02E5.3
+Substitution2: "Single Substitution - Stemless Form-4" uni02E5.4
+Substitution2: "Single Substitution - Stemless Form-5" uni02E5.5
 EndChar
 StartChar: uni02E6
 Encoding: 742 742 742
@@ -37087,6 +37258,12 @@ SplineSet
  827 0 l 1,7,-1
  639 0 l 1,0,-1
 EndSplineSet
+Substitution2: "Single Substitution - Stem" stem
+Substitution2: "Single Substitution - Stemless Form-1" uni02E6.1
+Substitution2: "Single Substitution - Stemless Form-2" uni02E6.2
+Substitution2: "Single Substitution - Stemless Form-3" uni02E6.3
+Substitution2: "Single Substitution - Stemless Form-4" uni02E6.4
+Substitution2: "Single Substitution - Stemless Form-5" uni02E6.5
 EndChar
 StartChar: uni02E7
 Encoding: 743 743 743
@@ -37132,6 +37309,12 @@ SplineSet
  827 0 l 1,7,-1
  639 0 l 1,0,-1
 EndSplineSet
+Substitution2: "Single Substitution - Stem" stem
+Substitution2: "Single Substitution - Stemless Form-1" uni02E7.1
+Substitution2: "Single Substitution - Stemless Form-2" uni02E7.2
+Substitution2: "Single Substitution - Stemless Form-3" uni02E7.3
+Substitution2: "Single Substitution - Stemless Form-4" uni02E7.4
+Substitution2: "Single Substitution - Stemless Form-5" uni02E7.5
 EndChar
 StartChar: uni02E8
 Encoding: 744 744 744
@@ -37191,6 +37374,12 @@ SplineSet
  827 0 l 1,7,-1
  639 0 l 1,0,-1
 EndSplineSet
+Substitution2: "Single Substitution - Stem" stem
+Substitution2: "Single Substitution - Stemless Form-1" uni02E8.1
+Substitution2: "Single Substitution - Stemless Form-2" uni02E8.2
+Substitution2: "Single Substitution - Stemless Form-3" uni02E8.3
+Substitution2: "Single Substitution - Stemless Form-4" uni02E8.4
+Substitution2: "Single Substitution - Stemless Form-5" uni02E8.5
 EndChar
 StartChar: uni02E9
 Encoding: 745 745 745
@@ -37230,6 +37419,12 @@ SplineSet
  197 188 l 1,5,-1
  639 188 l 1,0,-1
 EndSplineSet
+Substitution2: "Single Substitution - Stem" stem
+Substitution2: "Single Substitution - Stemless Form-1" uni02E9.1
+Substitution2: "Single Substitution - Stemless Form-2" uni02E9.2
+Substitution2: "Single Substitution - Stemless Form-3" uni02E9.3
+Substitution2: "Single Substitution - Stemless Form-4" uni02E9.4
+Substitution2: "Single Substitution - Stemless Form-5" uni02E9.5
 EndChar
 StartChar: uni02EC
 Encoding: 748 748 748
@@ -160363,6 +160558,288 @@ SplineSet
  762 -205 762 -205 845 -128 c 128,-1,36
  928 -51 928 -51 928 113 c 10,37,-1
  928 162 l 17,0,1
+EndSplineSet
+EndChar
+StartChar: uni02E5.5
+Encoding: 1114329 -1 1114329
+Width: 442
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+187 1232 m 1,0,-1
+ 187 1420 l 1,1,-1
+ 649 1420 l 1,2,-1
+ 649 1232 l 1,3,-1
+ 187 1232 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E6.5
+Encoding: 1114330 -1 1114330
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+693 1420 m 1,0,-1
+ 693 1232 l 1,1,-1
+ 197 924 l 1,2,-1
+ 98 1084 l 1,3,-1
+ 639 1420 l 1,4,-1
+ 693 1420 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E7.5
+Encoding: 1114331 -1 1114331
+Width: 546
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+197 616 m 1,0,-1
+ 54 739 l 1,1,-1
+ 639 1420 l 1,2,-1
+ 743 1420 l 1,3,-1
+ 743 1232 l 1,4,-1
+ 726 1232 l 1,5,-1
+ 197 616 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E8.5
+Encoding: 1114332 -1 1114332
+Width: 567
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+197 308 m 1,0,-1
+ 35 404 l 1,1,-1
+ 639 1420 l 1,2,-1
+ 764 1420 l 1,3,-1
+ 764 1232 l 1,4,-1
+ 746 1232 l 1,5,-1
+ 197 308 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E9.5
+Encoding: 1114333 -1 1114333
+Width: 578
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+197 0 m 1,0,-1
+ 26 78 l 1,1,-1
+ 639 1420 l 1,2,-1
+ 775 1420 l 1,3,-1
+ 775 1232 l 1,4,-1
+ 760 1232 l 1,5,-1
+ 197 0 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E5.4
+Encoding: 1114334 -1 1114334
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+693 924 m 1,0,-1
+ 639 924 l 1,1,-1
+ 98 1260 l 1,2,-1
+ 197 1420 l 1,3,-1
+ 693 1112 l 1,4,-1
+ 693 924 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E6.4
+Encoding: 1114335 -1 1114335
+Width: 442
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114329 -1 N 1 0 0 1 0 -308 2
+EndChar
+StartChar: uni02E7.4
+Encoding: 1114336 -1 1114336
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114330 -1 N 1 0 0 1 0 -308 2
+EndChar
+StartChar: uni02E8.4
+Encoding: 1114337 -1 1114337
+Width: 546
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114331 -1 N 1 0 0 1 0 -308 2
+EndChar
+StartChar: uni02E9.4
+Encoding: 1114338 -1 1114338
+Width: 567
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114332 -1 N 1 0 0 1 0 -308 2
+EndChar
+StartChar: uni02E5.3
+Encoding: 1114339 -1 1114339
+Width: 546
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+197 1420 m 1,0,-1
+ 726 804 l 1,1,-1
+ 743 804 l 1,2,-1
+ 743 616 l 1,3,-1
+ 639 616 l 1,4,-1
+ 54 1297 l 1,5,-1
+ 197 1420 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E6.3
+Encoding: 1114340 -1 1114340
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114334 -1 N 1 0 0 1 0 -308 2
+EndChar
+StartChar: uni02E7.3
+Encoding: 1114341 -1 1114341
+Width: 442
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114329 -1 N 1 0 0 1 0 -616 2
+EndChar
+StartChar: uni02E8.3
+Encoding: 1114342 -1 1114342
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114330 -1 N 1 0 0 1 0 -616 2
+EndChar
+StartChar: uni02E9.3
+Encoding: 1114343 -1 1114343
+Width: 546
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114331 -1 N 1 0 0 1 0 -616 2
+EndChar
+StartChar: uni02E5.2
+Encoding: 1114344 -1 1114344
+Width: 567
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+197 1420 m 1,0,-1
+ 746 496 l 1,1,-1
+ 764 496 l 1,2,-1
+ 764 308 l 1,3,-1
+ 639 308 l 1,4,-1
+ 35 1324 l 1,5,-1
+ 197 1420 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E6.2
+Encoding: 1114345 -1 1114345
+Width: 546
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114339 -1 N 1 0 0 1 0 -310 2
+EndChar
+StartChar: uni02E7.2
+Encoding: 1114346 -1 1114346
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114334 -1 N 1 0 0 1 0 -616 2
+EndChar
+StartChar: uni02E8.2
+Encoding: 1114347 -1 1114347
+Width: 442
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114329 -1 N 1 0 0 1 0 -924 2
+EndChar
+StartChar: uni02E9.2
+Encoding: 1114348 -1 1114348
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114330 -1 N 1 0 0 1 0 -924 2
+EndChar
+StartChar: uni02E5.1
+Encoding: 1114349 -1 1114349
+Width: 578
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+197 1420 m 1,0,-1
+ 760 188 l 1,1,-1
+ 775 188 l 1,2,-1
+ 775 0 l 1,3,-1
+ 639 0 l 1,4,-1
+ 26 1342 l 1,5,-1
+ 197 1420 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni02E6.1
+Encoding: 1114350 -1 1114350
+Width: 567
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114344 -1 N 1 0 0 1 0 -308 2
+EndChar
+StartChar: uni02E7.1
+Encoding: 1114351 -1 1114351
+Width: 546
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114339 -1 N 1 0 0 1 0 -616 2
+EndChar
+StartChar: uni02E8.1
+Encoding: 1114352 -1 1114352
+Width: 496
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114334 -1 N 1 0 0 1 0 -924 2
+EndChar
+StartChar: uni02E9.1
+Encoding: 1114353 -1 1114353
+Width: 442
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114329 -1 N 1 0 0 1 0 -1232 2
+EndChar
+StartChar: stem
+Encoding: 1114354 -1 1114354
+Width: 578
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+197 0 m 1,0,-1
+ 197 1420 l 1,1,-1
+ 385 1420 l 1,2,-1
+ 385 0 l 1,3,-1
+ 197 0 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
