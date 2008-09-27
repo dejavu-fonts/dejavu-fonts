@@ -1,3 +1,54 @@
+Changes from 2.26 to 2.27
+
+* added some of Michael Everson's new Cyrillic glyphs to Sans (by Wesley
+  Transue)
+* removed blank glyph at U+05EF from Sans Bold Oblique (by Gee Fung Sit)
+* small adjustments to existing tone bars in Sans and Mono (by Gee Fung Sit)
+* added U+0372-U+0373, U+0376-U+0377, U+03CF, U+A668-U+A66E, U+A708-U+A711,
+  U+A71B-U+A71F to Sans (by Gee Fung Sit)
+* copied U+02E5-U+02E9 over from Sans to fix inconsistencies in Serif (by Gee
+  Fung Sit)
+* added U+021C-U+021D, U+0370-U+0371, U+037B-U+037D, U+0470-U+0471,
+  U+0510-U+0515, U+051A-U+051D, U+1E9F, U+2C64, U+2C6E-U+2C6F, U+2C79,
+  U+2C7C-U+2C7D, U+A644-U+A647, U+A650-U+A651, U+A654-U+A657, U+A708-U+A716,
+  U+A71B-U+A71F to Serif (by Gee Fung Sit)
+* added U+A708-U+A716, U+A71B-U+A71F to Mono (by Gee Fung Sit)
+* added anchors to U+017F (ſ) and fixed U+1E9B (ẛ) in Serif (by Gee Fung Sit)
+* made U+0325 smaller in Sans Bold and Serif to match Sans Book (by Gee Fung
+  Sit)
+* fixes to U+02F3 (moved up), U+228F-U+2294 (more square-like) and
+  U+22CE-U+22CF (stroke width) in Sans (by Gee Fung Sit)
+* replaced U+2202 ∂ (Sans and Mono) and U+221D ∝, U+221E ∞ (Sans) with glyphs
+  from Arev (with small changes) (by Gee Fung Sit)
+* added U+22B0-U+22B1, U+22C7, U+22D0-U+22D5 from Arev to Sans to complete the
+  block (by Gee Fung Sit)
+* added U+0514-U+0515 to Sans ExtraLight (by Gee Fung Sit)
+* skewed U+A78C in all Oblique/Italic fonts (by Gee Fung Sit)
+* moved U+2215 to U+2044 in Sans and Serif and replaced U+2215 with reference
+  to U+002F in all fonts (by Gee Fung Sit)
+* added U+2C6E to Mono (by Denis Jacquerye)
+* added U+A782 and U+A783 in Sans (by Wesley Transue)
+* added U+0244, U+024C-024D, U+2C64 in Sans Mono (by Denis Jacquerye)
+* modified U+01AE in Sans Mono (by Denis Jacquerye)
+* added U+2C7A to all fonts (by Gee Fung Sit)
+* italicized/small changes to U+2C76 in Serif (Bold) Italic (by Gee Fung Sit)
+* improved outlines of U+2C68, U+2C6A, U+2C6C in Serif (Bold) Italic (by Gee
+  Fung Sit)
+* rounded U+2C77 at the bottom in Serif (by Gee Fung Sit)
+* added joining behavior for tone letters (U+02E5-U+02E9) in Sans (bug #15669)
+  (by Gee Fung Sit)
+* fixed outline of y.alt in Sans Regular (by Denis Jacquerye) 
+* changed references of U+1D5A8, U+1D5C5, U+1D5DC, U+1D5F9, U+1D610, U+1D62D,
+  U+1D644 and U+1D661 to stylistic alternates to have a better distinction (by
+  Gee Fung Sit)
+* hinted I.alt in Sans Regular (by Gee Fung Sit)
+* added U+0487, completing Cyrillic block (by Gee Fung Sit)
+* extended the bar of U+0463 to the right and moved the anchor (by Gee Fung
+  Sit)
+* added anchors to glyphs in Cyrillic block (by Gee Fung Sit)
+* added (preliminary) hints to tone letter forms (U+02E5.5, U+02E9.1, stem) in
+  Sans Book (by Gee Fung Sit)
+
 Changes from 2.25 to 2.26
 
 - added glyphs for Cyrillic-B to Sans (by Wesley Transue) 
