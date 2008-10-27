@@ -49551,6 +49551,71 @@ SplineSet
  0 1023 0 1023 0 1145 c 0,40,41
 EndSplineSet
 EndChar
+StartChar: minute
+Encoding: 8242 8242 8242
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+646 1120 m 25,0,-1
+ 891 1493 l 25,1,-1
+ 1094 1493 l 25,2,-1
+ 733 1120 l 25,3,-1
+ 646 1120 l 25,0,-1
+EndSplineSet
+EndChar
+StartChar: second
+Encoding: 8243 8243 8243
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8242 8242 N 1 0 0 1 -150 0 2
+Refer: 8242 8242 N 1 0 0 1 150 0 2
+EndChar
+StartChar: uni2034
+Encoding: 8244 8244 8244
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8242 8242 N 1 0 0 1 0 0 2
+Refer: 8242 8242 N 1 0 0 1 -300 0 2
+Refer: 8242 8242 N 1 0 0 1 300 0 2
+EndChar
+StartChar: uni2035
+Encoding: 8245 8245 8245
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1022 1120 m 25,0,-1
+ 935 1120 l 25,1,-1
+ 718 1493 l 25,2,-1
+ 921 1493 l 25,3,-1
+ 1022 1120 l 25,0,-1
+EndSplineSet
+EndChar
+StartChar: uni2036
+Encoding: 8246 8246 8246
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8245 8245 N 1 0 0 1 -150 0 2
+Refer: 8245 8245 N 1 0 0 1 150 0 2
+EndChar
+StartChar: uni2037
+Encoding: 8247 8247 8247
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8245 8245 N 1 0 0 1 -300 0 2
+Refer: 8245 8245 N 1 0 0 1 300 0 2
+Refer: 8245 8245 N 1 0 0 1 0 0 2
 StartChar: guilsinglleft
 Encoding: 8249 8249 8249
 Width: 1233
