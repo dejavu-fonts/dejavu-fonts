@@ -1,3 +1,20 @@
+Changes from 2.28 to 2.29
+* modified U+10FB in Sans to be a mirror image of U+2056, since U+10FB is not
+  Georgian-specific (by Roozbeh Pournader)
+* added U+2B1F, U+2B24, U+2B53, U+2B54 in Sans (by Roozbeh Pournader)
+* fixed TUR opentype language tag to TRK in Serif (bug 19825) (by Ben Laenen)
+* early implementation of Abkhaz letter U+0524-U+0525 in Sans
+  (by Michael Everson and abysta)
+* flipped U+1D538 in Sans (by Gee Fung Sit)
+* added U+26B3-U+26B8, U+1D7D8-U+1D7E1 in Sans (by Gee Fung Sit)
+* corrected U+1D7A9 in Sans Bold Oblique (by Gee Fung Sit)
+* Fixed U+0649 to be dual-joining in Sans Mono (by Roozbeh Pournader)
+* Remove unnecessary 'isol' feature from Sans Mono (by Roozbeh Pournader)
+* Remove 'cmap' mappings for U+066E, U+066F, U+067C, U+067D, U+0681, U+0682,
+  U+0685, U+0692, U+06A1, U+06B5, U+06BA, U+06C6, U+06CE, and U+06D5
+  in Sans Mono (bug 20323) (by Roozbeh Pournader)
+* add half brackets (U+2E22 - U+2E25, by Steve Tinney) 
+
 Changes from 2.27 to 2.28
 
 * added U+A789, U+A78A in Sans and Sans Mono (by Denis Jacquerye)
