@@ -11,8 +11,8 @@ UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
 LayerCount: 2
-Layer: 0 1 "Back" 
-Layer: 1 1 "Fore" 
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
 NeedsXUIDChange: 1
 FSType: 0
 OS2Version: 0
@@ -52,7 +52,7 @@ Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotl
 Lookup: 262 0 0 "'mkmk' Mark to Mark"  {"'mkmk' Mark to Mark"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'GAG ' 'ISM ' 'KAZ ' 'KRK ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning"  {"'mark' Mark Positioning"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'GAG ' 'ISM ' 'KAZ ' 'KRK ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning"  {"'kern' Horizontal Kerning"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'GAG ' 'ISM ' 'KAZ ' 'KRK ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'dflt' > ) ]
-DEI: 0
+DEI: 91125
 KernClass2: 40 39 "'kern' Horizontal Kerning" 
  14 hyphen uni2010
  44 A Agrave Aacute Acircumflex Atilde Adieresis
@@ -12805,7 +12805,7 @@ SplineSet
  636.013 750 636.013 750 542.092 671 c 0,32,33
  444.571 592 444.571 592 416.58 432 c 0,34,35
  388.765 273 388.765 273 458.27 197 c 0,36,37
- 462.969 193 l 0,38,39
+ 460.619 195 460.619 195 462.969 193 c 0,38,39
  534.073 121 534.073 121 715.873 121 c 2,40,-1
  845.474 121 l 1,27,-1
 EndSplineSet
@@ -15053,7 +15053,7 @@ Refer: 439 439 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni01EF
 Encoding: 495 495 495
-Width: 1163
+Width: 1046
 Flags: W
 LayerCount: 2
 Fore
@@ -25650,7 +25650,7 @@ Refer: 1048 1048 N 1 0 0 1 0 0 2
 EndChar
 StartChar: uni040E
 Encoding: 1038 1038 1038
-Width: 1662
+Width: 1495
 Flags: W
 LayerCount: 2
 Fore
@@ -41021,6 +41021,7 @@ EndChar
 StartChar: uni1E1C
 Encoding: 7708 7708 7708
 Width: 1404
+Flags: W
 LayerCount: 2
 Fore
 Refer: 1114121 -1 N 1 0 0 1 1259.55 373 2
@@ -41029,6 +41030,7 @@ EndChar
 StartChar: uni1E1D
 Encoding: 7709 7709 7709
 Width: 1172
+Flags: W
 LayerCount: 2
 Fore
 Refer: 728 728 N 1 0 0 1 125.1 0 2
@@ -74656,8 +74658,8 @@ SplineSet
  900.423 1556 l 1,1,-1
  879.43 1436 l 1,2,-1
  687.729 1436 l 1,3,-1
- 549.271 643 l 1,4,-1
- 230.6777 643 l 1,5,-1
+ 548.87 643 l 1,4,-1
+ 229.979 643 l 1,5,-1
  390.122 1556 l 1,0,-1
 EndSplineSet
 EndChar
@@ -74703,8 +74705,8 @@ SplineSet
  269.229 1436 l 1,1,-1
  290.222 1556 l 1,2,-1
  801.422 1556 l 1,3,-1
- 641.978 643 l 1,4,-1
- 322.471 643 l 1,5,-1
+ 641.278 643 l 1,4,-1
+ 322.07 643 l 1,5,-1
  460.93 1436 l 1,0,-1
 EndSplineSet
 EndChar
@@ -74750,8 +74752,8 @@ SplineSet
  601.971 -150 l 1,1,-1
  580.978 -270 l 1,2,-1
  70.6777 -270 l 1,3,-1
- 230.6777 643 l 1,4,-1
- 549.271 643 l 1,5,-1
+ 229.979 643 l 1,4,-1
+ 548.87 643 l 1,5,-1
  410.271 -150 l 1,0,-1
 EndSplineSet
 EndChar
@@ -74797,8 +74799,8 @@ SplineSet
  -29.2217 -270 l 1,1,-1
  -8.22949 -150 l 1,2,-1
  183.471 -150 l 1,3,-1
- 322.471 643 l 1,4,-1
- 641.978 643 l 1,5,-1
+ 322.07 643 l 1,4,-1
+ 641.278 643 l 1,5,-1
  481.978 -270 l 1,0,-1
 EndSplineSet
 EndChar
