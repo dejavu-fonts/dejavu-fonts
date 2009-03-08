@@ -82,7 +82,12 @@ sub parse_orth_file($;$) {
       my $include = $1;
       my $include_file;
       ($include_file = $orth_file) =~ s,/[^/]+$,/$include,;
-      parse_orth_file($include_file, $lang);
+      if ($include_file eq $orth_file) {
+        print "$orth_file creates an include loop";	
+      }
+      else {
+        parse_orth_file($include_file, $lang);
+      }
       next;
     }
     my ($start) = ($_ =~ /^\s*(\S+)/);
