@@ -11,8 +11,8 @@ UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
 LayerCount: 2
-Layer: 0 1 "Back" 
-Layer: 1 1 "Fore" 
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
 NeedsXUIDChange: 1
 FSType: 0
 OS2Version: 0
@@ -38,6 +38,7 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
+OS2CodePages: 600001ff.dfff0000
 Lookup: 1 0 0 "'locl' for Romanian"  {"'locl' for Romanian-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 6 1 0 "'ccmp' in RTL"  {"'ccmp' in RTL"  } ['ccmp' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' in Basic"  {"'ccmp' in Basic"  } ['ccmp' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
@@ -98,7 +99,7 @@ MarkAttachClasses: 5
 "below" 300 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
 "cedilla" 7 uni0327
 "ogonek" 7 uni0328
-DEI: 0
+DEI: 91125
 KernClass2: 5 2 "'kern' Tone Letters-1" 
  79 uni02E6.5 uni02E5.4 uni02E7.4 uni02E6.3 uni02E8.3 uni02E7.2 uni02E9.2 uni02E8.1
  59 uni02E7.5 uni02E8.4 uni02E5.3 uni02E9.3 uni02E6.2 uni02E7.1
