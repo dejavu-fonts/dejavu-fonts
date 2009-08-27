@@ -1,4 +1,26 @@
+Changes from 2.29 to 2.30
+
+* added U+0462-U+0463 to Mono (by Denis Jacquerye) 
+* corrected U+1E53 in Serif (by Gee Fung Sit) 
+* added U+1E4C-U+1E4D to Mono and Serif (by Gee Fung Sit) 
+* added U+1E78-U+1E79 to Mono (by Gee Fung Sit) 
+* fixed missing diacritics in Latin Extended Additional in Sans ExtraLight
+  (moved stacked diacritics out of PUA in the process) (by Gee Fung Sit) 
+* fixed anchors on U+1E78 in Serif (by Gee Fung Sit) 
+* added U+1DC4-U+1DC9 to Serif (by Denis Jacquerye) 
+* renamed above-mark to above-mark in Serif-Italic (by Denis Jacquerye) 
+* added U+1DC4-U+1DC9 to context class for dotless substitution (by Denis
+  Jacquerye) 
+* changed Doubleacute to Doublegrave in Sans ExtraLight (by Gee Fung Sit) 
+* removed redundant reference in U+01FB in Sans Oblique (by Gee Fung Sit) 
+* added U+A726-U+A727 to Mono (Denis Jacquerye) 
+* changed U+04BE and U+04BF according to recommedations of Sasha Ankwab in Sans
+  (by Andrey V. Panov) 
+* remove "Symbol Charset" from set of codepages in Sans (by Eugeniy
+  Meshcheryakov)
+
 Changes from 2.28 to 2.29
+
 * modified U+10FB in Sans to be a mirror image of U+2056, since U+10FB is not
   Georgian-specific (by Roozbeh Pournader)
 * added U+2B1F, U+2B24, U+2B53, U+2B54 in Sans (by Roozbeh Pournader)
