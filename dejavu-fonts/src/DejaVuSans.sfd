@@ -2292,7 +2292,7 @@ AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedil
 BeginChars: 1114355 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 000000.ffffffff.0
 Width: 1229
 Flags: W
 TtInstrs:
@@ -24283,6 +24283,22 @@ StartChar: zdotaccent
 Encoding: 380 380 380
 Width: 1075
 Flags: W
+TtInstrs:
+SVTCA[x-axis]
+NPUSHB
+ 9
+ 79
+ 10
+ 95
+ 10
+ 175
+ 10
+ 223
+ 10
+ 4
+DELTAP1
+IUP[x]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 122 122 N 1 0 0 1 0 0 3
