@@ -2292,7 +2292,7 @@ AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedil
 BeginChars: 1114355 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 000000.ffffffff.0 000000.ffffffff.0
 Width: 1229
 Flags: W
 TtInstrs:
@@ -49639,15 +49639,6 @@ StartChar: uni032D
 Encoding: 813 813 813
 Width: 0
 Flags: W
-TtInstrs:
-PUSHB_2
- 2
- 10
-SVTCA[y-axis]
-SRP0
-ALIGNRP
-IUP[y]
-EndTTInstrs
 AnchorPoint: "below-mark" -512 0 mark 0
 AnchorPoint: "below-mark" -512 -491 basemark 0
 AnchorPoint: "below" -512 -1 mark 0
