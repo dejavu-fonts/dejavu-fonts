@@ -2709,10 +2709,10 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 12" "lao-below"  "'mark' Mark Positioning in Lao lookup 11" "rtl-above"  "'mark' Mark Positioning lookup 10" "Ligature rtl-above"  "'mark' Mark Positioning lookup 9" "rtl-inside"  "'mark' Mark Positioning lookup 8" "rtl-below"  "'mark' Mark Positioning lookup 7" "Ligature rtl-below"  "'mark' Mark Positioning lookup 6" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 3" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114355 0
+BeginChars: 1114440 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 000000.ffffffff.0
 Width: 1229
 Flags: W
 TtInstrs:
@@ -59201,6 +59201,46 @@ LayerCount: 2
 Fore
 Refer: 1652 1652 N 1 0 0 1 213 -1814 2
 EndChar
+StartChar: uni0657
+Encoding: 1623 1623 1623
+Width: 0
+Flags: W
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "Ligature rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 1850 basemark 0
+LayerCount: 2
+Fore
+SplineSet
+506 1597 m 1,0,1
+ 527.287 1592.74 527.287 1592.74 539.15 1584.5 c 8,2,3
+ 623 1528.5 623 1528.5 623 1435 c 0,4,5
+ 623 1335.34 623 1335.34 557 1293 c 0,6,7
+ 502.235 1257.87 502.235 1257.87 447 1259 c 0,8,9
+ 371.995 1260.54 371.995 1260.54 318 1311 c 24,10,11
+ 259 1367.08 259 1367.08 259 1447 c 0,12,13
+ 259 1492 259 1492 277 1522 c 1,14,-1
+ 246.734 1523.86 l 0,15,-1
+ 220 1526 l 9,16,-1
+ 220 1656 l 17,17,18
+ 254.801 1655.87 254.801 1655.87 287 1654 c 0,19,20
+ 328.663 1652.25 328.663 1652.25 351.766 1649 c 1,21,22
+ 396.591 1700.83 396.591 1700.83 454 1741 c 0,23,24
+ 629.899 1864.13 629.899 1864.13 804 1855 c 9,25,-1
+ 804 1715 l 17,26,27
+ 663.976 1715 663.976 1715 553.15 1636.5 c 0,28,29
+ 541.188 1628.03 541.188 1628.03 506 1597 c 1,0,1
+421 1498 m 1,30,31
+ 415.333 1491.33 415.333 1491.33 411 1482 c 0,32,33
+ 401 1458.67 401 1458.67 401 1446 c 0,34,35
+ 401 1434.82 401 1434.82 411 1417 c 24,36,37
+ 418.857 1403 418.857 1403 443 1403 c 0,38,39
+ 454.363 1403 454.363 1403 465 1412 c 24,40,41
+ 483 1425 483 1425 483 1444 c 0,42,43
+ 483 1468.48 483 1468.48 450 1490 c 16,44,45
+ 439.507 1496.84 439.507 1496.84 421 1498 c 1,30,31
+EndSplineSet
+EndChar
 StartChar: uni065A
 Encoding: 1626 1626 1626
 Width: 1024
@@ -59605,6 +59645,24 @@ Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni066F.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uni066F.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni066F.fina
 EndChar
+StartChar: uni0670
+Encoding: 1648 1648 1648
+Width: 0
+Flags: W
+AnchorPoint: "rtl-above-mark" 512 1200 mark 0
+AnchorPoint: "rtl-above" 512 1200 mark 0
+AnchorPoint: "Ligature rtl-above" 512 1200 mark 0
+AnchorPoint: "rtl-above-mark" 512 1850 basemark 0
+LayerCount: 2
+Fore
+SplineSet
+442 1228 m 17,0,-1
+ 442 1812 l 9,1,-1
+ 582 1812 l 25,2,-1
+ 582 1228 l 25,3,-1
+ 442 1228 l 17,0,-1
+EndSplineSet
+EndChar
 StartChar: uni0674
 Encoding: 1652 1652 1652
 Width: 598
@@ -59842,6 +59900,115 @@ Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFB81
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFB80
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB7F
 EndChar
+StartChar: uni0688
+Encoding: 1672 1672 1672
+Width: 912
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1557 1557 N 1 0 0 1 -2 -250 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB89
+EndChar
+StartChar: uni0689
+Encoding: 1673 1673 1673
+Width: 912
+Flags: W
+AnchorPoint: "rtl-above" 500 1000 basechar 0
+AnchorPoint: "rtl-below" 560 -418 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114141 -1 N 1 0 0 1 341 -368 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0689.fina
+EndChar
+StartChar: uni068A
+Encoding: 1674 1674 1674
+Width: 912
+Flags: W
+AnchorPoint: "rtl-above" 500 1000 basechar 0
+AnchorPoint: "rtl-below" 560 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 485 -350 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni068A.fina
+EndChar
+StartChar: uni068B
+Encoding: 1675 1675 1675
+Width: 912
+Flags: W
+AnchorPoint: "rtl-above" 510 1600 basechar 0
+AnchorPoint: "rtl-below" 560 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 1557 1557 N 1 0 0 1 -2 -250 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 485 -350 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni068B.fina
+EndChar
+StartChar: uni068C
+Encoding: 1676 1676 1676
+Width: 912
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114125 -1 N 1 0 0 1 310 1050 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB85
+EndChar
+StartChar: uni068D
+Encoding: 1677 1677 1677
+Width: 912
+Flags: W
+AnchorPoint: "rtl-above" 500 1000 basechar 0
+AnchorPoint: "rtl-below" 559 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114125 -1 N 1 0 0 1 359 -300 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB83
+EndChar
+StartChar: uni068E
+Encoding: 1678 1678 1678
+Width: 912
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1500 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114126 -1 N 1 0 0 1 310 1050 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB87
+EndChar
+StartChar: uni068F
+Encoding: 1679 1679 1679
+Width: 912
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1450 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114127 -1 N 1 0 0 1 310 1250 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni068F.fina
+EndChar
+StartChar: uni0690
+Encoding: 1680 1680 1680
+Width: 912
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1500 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114129 -1 N 1 0 0 1 310 1300 2
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0690.fina
+EndChar
 StartChar: uni0691
 Encoding: 1681 1681 1681
 Width: 1179
@@ -59866,6 +60033,30 @@ Refer: 1626 1626 N 1 0 0 1 288 -450 2
 Refer: 1585 1585 N 1 0 0 1 0 0 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0692.fina
 EndChar
+StartChar: uni0693
+Encoding: 1683 1683 1683
+Width: 1179
+Flags: W
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114141 -1 N 1 0 0 1 765 -500 2
+Refer: 1585 1585 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0693.fina
+EndChar
+StartChar: uni0694
+Encoding: 1684 1684 1684
+Width: 1179
+Flags: W
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 920 -440 2
+Refer: 1585 1585 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0694.fina
+EndChar
 StartChar: uni0695
 Encoding: 1685 1685 1685
 Width: 1395
@@ -59878,6 +60069,31 @@ Refer: 1626 1626 N 1 0 0 1 722 -1762 2
 Refer: 1585 1585 N 1 0 0 1 0 0 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0695.fina
 EndChar
+StartChar: uni0696
+Encoding: 1686 1686 1686
+Width: 1179
+Flags: W
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 280 40 2
+Refer: 1585 1585 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 920 -440 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0696.fina
+EndChar
+StartChar: uni0697
+Encoding: 1687 1687 1687
+Width: 1179
+Flags: W
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+AnchorPoint: "rtl-above" 800 1000 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114125 -1 N 1 0 0 1 600 800 2
+Refer: 1585 1585 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0697.fina
+EndChar
 StartChar: uni0698
 Encoding: 1688 1688 1688
 Width: 1179
@@ -59889,6 +60105,118 @@ Fore
 Refer: 1114126 -1 N 1 0 0 1 600 800 2
 Refer: 1585 1585 N 1 0 0 1 0 0 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB8B
+EndChar
+StartChar: uni0699
+Encoding: 1689 1689 1689
+Width: 1179
+Flags: W
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+AnchorPoint: "rtl-above" 800 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114129 -1 N 1 0 0 1 600 1050 2
+Refer: 1585 1585 N 1 0 0 1 0 0 2
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni0699.fina
+EndChar
+StartChar: uni069A
+Encoding: 1690 1690 1690
+Width: 2826
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1587 1587 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1500 800 2
+Refer: 1114124 -1 N 1 0 0 1 1650 -350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni069A.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni069A.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni069A.fina
+EndChar
+StartChar: uni069B
+Encoding: 1691 1691 1691
+Width: 2826
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1587 1587 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 1525 -250 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni069B.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni069B.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni069B.fina
+EndChar
+StartChar: uni069C
+Encoding: 1692 1692 1692
+Width: 2826
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1587 1587 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1375 800 2
+Refer: 1114127 -1 N 1 0 0 1 1525 -250 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni069C.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni069C.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni069C.fina
+EndChar
+StartChar: uni069D
+Encoding: 1693 1693 1693
+Width: 2755
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1589 1589 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 1525 -350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni069D.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni069D.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni069D.fina
+EndChar
+StartChar: uni069E
+Encoding: 1694 1694 1694
+Width: 2755
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1589 1589 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1275 800 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni069E.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni069E.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni069E.fina
+EndChar
+StartChar: uni069F
+Encoding: 1695 1695 1695
+Width: 2127
+Flags: W
+AnchorPoint: "rtl-above" 659 1650 basechar 0
+AnchorPoint: "rtl-below" 659 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 1591 1591 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1025 850 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni069F.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni069F.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni069F.fina
+EndChar
+StartChar: uni06A0
+Encoding: 1696 1696 1696
+Width: 1399
+Flags: W
+AnchorPoint: "rtl-below" 812 -600 basechar 0
+AnchorPoint: "rtl-above" 625 1650 basechar 0
+LayerCount: 2
+Fore
+Refer: 1593 1593 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 425 1200 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06A0.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06A0.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06A0.fina
 EndChar
 StartChar: uni06A1
 Encoding: 1697 1697 1697
@@ -59935,6 +60263,35 @@ Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06A1.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06A1.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06A1.fina
 EndChar
+StartChar: uni06A2
+Encoding: 1698 1698 1698
+Width: 2379
+Flags: W
+AnchorPoint: "rtl-above" 800 1100 basechar 0
+AnchorPoint: "rtl-below" 1075 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 1697 1697 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1000 -350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06A2.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06A2.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06A2.fina
+EndChar
+StartChar: uni06A3
+Encoding: 1699 1699 1699
+Width: 2379
+Flags: W
+AnchorPoint: "rtl-above" 800 1100 basechar 0
+AnchorPoint: "rtl-below" 1075 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 1697 1697 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1650 1150 2
+Refer: 1114124 -1 N 1 0 0 1 1000 -350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06A3.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06A3.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06A3.fina
+EndChar
 StartChar: uni06A4
 Encoding: 1700 1700 1700
 Width: 2379
@@ -59949,6 +60306,20 @@ Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFB6D
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFB6C
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB6B
 EndChar
+StartChar: uni06A5
+Encoding: 1701 1701 1701
+Width: 2379
+Flags: W
+AnchorPoint: "rtl-above" 800 1100 basechar 0
+AnchorPoint: "rtl-below" 1075 -650 basechar 0
+LayerCount: 2
+Fore
+Refer: 1697 1697 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 875 -350 2
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06A5.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06A5.init
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06A5.fina
+EndChar
 StartChar: uni06A6
 Encoding: 1702 1702 1702
 Width: 2379
@@ -59962,6 +60333,34 @@ Refer: 1697 1697 N 1 0 0 1 0 0 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFB71
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFB70
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB6F
+EndChar
+StartChar: uni06A7
+Encoding: 1703 1703 1703
+Width: 1831
+Flags: W
+AnchorPoint: "rtl-above" 500 1100 basechar 0
+AnchorPoint: "rtl-below" 800 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1647 1647 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1100 1150 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06A7.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06A7.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06A7.fina
+EndChar
+StartChar: uni06A8
+Encoding: 1704 1704 1704
+Width: 1831
+Flags: W
+AnchorPoint: "rtl-above" 500 1100 basechar 0
+AnchorPoint: "rtl-below" 800 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1647 1647 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 975 1150 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06A8.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06A8.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06A8.fina
 EndChar
 StartChar: uni06A9
 Encoding: 1705 1705 1705
@@ -60004,6 +60403,106 @@ Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFB91
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFB90
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB8F
 EndChar
+StartChar: uni06AA
+Encoding: 1706 1706 1706
+Width: 2604
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+130 314 m 0,0,1
+ 130 453 130 453 193 544 c 25,2,-1
+ 551 544 l 25,3,4
+ 500 450 500 450 500 360 c 0,5,6
+ 500 261 500 261 689 203 c 0,7,8
+ 770 178 770 178 936 178 c 2,9,-1
+ 1536 178 l 2,10,11
+ 1834 178 1834 178 1884 213 c 24,12,13
+ 2001 295 2001 295 2013 295 c 0,14,15
+ 2015 295 2015 295 2024 341 c 128,-1,16
+ 2033 387 2033 387 2033 404 c 0,17,18
+ 2033 481 2033 481 1951 495 c 10,19,-1
+ 810 696 l 18,20,21
+ 504 750 504 750 504 1017 c 0,22,23
+ 504 1052 504 1052 514 1085 c 8,24,25
+ 553 1204 553 1204 649 1246 c 10,26,-1
+ 1360 1556 l 17,27,-1
+ 1984 1556 l 1,28,-1
+ 1076 1144 l 2,29,30
+ 963 1093 963 1093 934 1031 c 16,31,32
+ 926 1014 926 1014 938.5 972 c 128,-1,33
+ 951 930 951 930 1056 912 c 10,34,-1
+ 2158 726 l 18,35,36
+ 2446 677 2446 677 2446 315 c 0,37,38
+ 2446 125 2446 125 2345 75 c 0,39,40
+ 2156 -18 2156 -18 1970.5 -48.5 c 152,-1,41
+ 1785 -79 1785 -79 1511 -79 c 2,42,-1
+ 911 -79 l 2,43,44
+ 607 -79 607 -79 460 -51 c 8,45,46
+ 130 12 130 12 130 314 c 0,0,1
+EndSplineSet
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06AA.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06AA.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06AA.fina
+EndChar
+StartChar: uni06AB
+Encoding: 1707 1707 1707
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+LayerCount: 2
+Fore
+Refer: 1705 1705 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 1600 875 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06AB.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06AB.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06AB.fina
+EndChar
+StartChar: uni06AC
+Encoding: 1708 1708 1708
+Width: 1877
+Flags: W
+AnchorPoint: "rtl-below" 900 -200 basechar 0
+AnchorPoint: "rtl-above" 900 1550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1603 1603 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 825 1350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06AC.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06AC.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06AC.fina
+EndChar
+StartChar: uni06AD
+Encoding: 1709 1709 1709
+Width: 1877
+Flags: W
+AnchorPoint: "rtl-below" 900 -200 basechar 0
+AnchorPoint: "rtl-above" 900 1800 basechar 0
+LayerCount: 2
+Fore
+Refer: 1603 1603 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 700 1350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFBD5
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFBD6
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFBD4
+EndChar
+StartChar: uni06AE
+Encoding: 1710 1710 1710
+Width: 1877
+Flags: W
+AnchorPoint: "rtl-above" 800 1500 basechar 0
+AnchorPoint: "rtl-below" 925 -650 basechar 0
+LayerCount: 2
+Fore
+Refer: 1603 1603 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 725 -350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06AE.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06AE.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06AE.fina
+EndChar
 StartChar: uni06AF
 Encoding: 1711 1711 1711
 Width: 2097
@@ -60018,6 +60517,76 @@ Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFB95
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFB94
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB93
 EndChar
+StartChar: uni06B0
+Encoding: 1712 1712 1712
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 1711 1711 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 1600 875 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B0.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B0.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B0.fina
+EndChar
+StartChar: uni06B1
+Encoding: 1713 1713 1713
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 1711 1711 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 1025 1700 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFB9C
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFB9D
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB9B
+EndChar
+StartChar: uni06B2
+Encoding: 1714 1714 1714
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 925 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 1711 1711 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 725 -350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B2.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B2.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B2.fina
+EndChar
+StartChar: uni06B3
+Encoding: 1715 1715 1715
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 925 -700 basechar 0
+LayerCount: 2
+Fore
+Refer: 1711 1711 N 1 0 0 1 0 0 2
+Refer: 1114128 -1 N 1 0 0 1 850 -350 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFB98
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFB99
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB97
+EndChar
+StartChar: uni06B4
+Encoding: 1716 1716 1716
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 1711 1711 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1025 1700 2
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B4.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B4.init
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B4.fina
+EndChar
 StartChar: uni06B5
 Encoding: 1717 1717 1717
 Width: 1777
@@ -60031,6 +60600,60 @@ Refer: 1604 1604 N 1 0 0 1 0 0 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B5.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B5.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B5.fina
+EndChar
+StartChar: uni06B6
+Encoding: 1718 1718 1718
+Width: 1777
+Flags: W
+AnchorPoint: "rtl-above" 1412 2100 basechar 0
+LayerCount: 2
+Fore
+Refer: 1604 1604 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1330 1800 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B6.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B6.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B6.fina
+EndChar
+StartChar: uni06B7
+Encoding: 1719 1719 1719
+Width: 1777
+Flags: W
+AnchorPoint: "rtl-above" 1412 2150 basechar 0
+LayerCount: 2
+Fore
+Refer: 1604 1604 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1200 1700 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B7.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B7.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B7.fina
+EndChar
+StartChar: uni06B8
+Encoding: 1720 1720 1720
+Width: 1777
+Flags: W
+AnchorPoint: "rtl-below" 875 -850 basechar 0
+LayerCount: 2
+Fore
+Refer: 1604 1604 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 675 -550 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B8.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B8.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B8.fina
+EndChar
+StartChar: uni06B9
+Encoding: 1721 1721 1721
+Width: 1748
+Flags: W
+AnchorPoint: "rtl-above" 775 1000 basechar 0
+AnchorPoint: "rtl-below" 900 -700 basechar 0
+LayerCount: 2
+Fore
+Refer: 1722 1722 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 700 800 2
+Refer: 1114124 -1 N 1 0 0 1 825 -650 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06B9.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06B9.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06B9.fina
 EndChar
 StartChar: uni06BA
 Encoding: 1722 1722 1722
@@ -60062,6 +60685,98 @@ EndSplineSet
 Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06BA.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06BA.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFB9F
+EndChar
+StartChar: uni06BB
+Encoding: 1723 1723 1723
+Width: 1748
+Flags: W
+AnchorPoint: "rtl-below" 850 -450 basechar 0
+AnchorPoint: "rtl-above" 825 1375 basechar 0
+LayerCount: 2
+Fore
+Refer: 1722 1722 N 1 0 0 1 0 0 2
+Refer: 1557 1557 N 1 0 0 1 325 -475 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFBA2
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFBA3
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFBA1
+EndChar
+StartChar: uni06BC
+Encoding: 1724 1724 1724
+Width: 1748
+Flags: W
+AnchorPoint: "rtl-above" 775 1000 basechar 0
+AnchorPoint: "rtl-below" 900 -750 basechar 0
+LayerCount: 2
+Fore
+Refer: 1722 1722 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 700 800 2
+Refer: 1114141 -1 N 1 0 0 1 675 -675 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06BC.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06BC.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06BC.fina
+EndChar
+StartChar: uni06BD
+Encoding: 1725 1725 1725
+Width: 1748
+Flags: W
+AnchorPoint: "rtl-below" 850 -450 basechar 0
+AnchorPoint: "rtl-above" 825 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 1722 1722 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 625 800 2
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uni06BD.init
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uni06BD.medi
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uni06BD.fina
+EndChar
+StartChar: uni06BE
+Encoding: 1726 1726 1726
+Width: 1920
+Flags: W
+AnchorPoint: "rtl-above" 1150 1100 basechar 0
+AnchorPoint: "rtl-below" 1150 -150 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+1049 330 m 9,0,1
+ 1148 390 1148 390 1148 432 c 0,2,3
+ 1148 537 1148 537 1078 537 c 0,4,5
+ 1029 537 1029 537 1008.5 500 c 144,-1,6
+ 988 463 988 463 988 421.5 c 128,-1,7
+ 988 380 988 380 1049 330 c 9,0,1
+977 36 m 1,8,9
+ 723 -47 723 -47 672 -54 c 128,-1,10
+ 621 -61 621 -61 542 -61 c 128,-1,11
+ 463 -61 463 -61 337 -23 c 0,12,13
+ 144 35 144 35 144 260 c 0,14,15
+ 144 335 144 335 160 388 c 1,16,-1
+ 518 388 l 1,17,18
+ 504 354 504 354 504 327 c 0,19,20
+ 504 244 504 244 555 218 c 0,21,22
+ 592 199 592 199 615 199 c 0,23,24
+ 687 199 687 199 765 234 c 1,25,26
+ 712 286 712 286 678 355 c 128,-1,27
+ 644 424 644 424 644 492 c 0,28,29
+ 644 606 644 606 764 702 c 0,30,31
+ 812 740 812 740 890 758 c 1,32,33
+ 803 781 803 781 745 781 c 9,34,-1
+ 745 1037 l 17,35,36
+ 1182 980 1182 980 1463 770 c 0,37,38
+ 1797 521 1797 521 1797 293 c 0,39,40
+ 1797 132 1797 132 1703 46 c 8,41,42
+ 1579 -67 1579 -67 1351 -67 c 128,-1,43
+ 1123 -67 1123 -67 977 36 c 1,8,9
+1431 421 m 0,44,45
+ 1387 296 1387 296 1273 192 c 1,46,47
+ 1302 187 1302 187 1323 187 c 0,48,49
+ 1446 187 1446 187 1465 254 c 16,50,51
+ 1472 279 1472 279 1472 314 c 128,-1,52
+ 1472 349 1472 349 1452 385 c 128,-1,53
+ 1432 421 1432 421 1431 421 c 0,44,45
+EndSplineSet
+Substitution2: "'init' Initial Forms in Arabic lookup 7" uniFBAC
+Substitution2: "'medi' Medial Forms in Arabic lookup 6" uniFBAD
+Substitution2: "'fina' Terminal Forms in Arabic lookup 5" uniFBAB
 EndChar
 StartChar: uni06BF
 Encoding: 1727 1727 1727
@@ -149457,6 +150172,94 @@ Fore
 Refer: 1114129 -1 N 1 0 0 1 500 -250 2
 Refer: 65188 65188 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uniFB82
+Encoding: 64386 64386 64386
+Width: 1051
+Flags: W
+AnchorPoint: "rtl-above" 500 1000 basechar 0
+AnchorPoint: "rtl-below" 559 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 359 -300 2
+EndChar
+StartChar: uniFB83
+Encoding: 64387 64387 64387
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-above" 500 1000 basechar 0
+AnchorPoint: "rtl-below" 559 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 359 -300 2
+EndChar
+StartChar: uniFB84
+Encoding: 64388 64388 64388
+Width: 1051
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 310 1050 2
+EndChar
+StartChar: uniFB85
+Encoding: 64389 64389 64389
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 310 1050 2
+EndChar
+StartChar: uniFB86
+Encoding: 64390 64390 64390
+Width: 1051
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1500 basechar 0
+LayerCount: 2
+Fore
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 310 1050 2
+EndChar
+StartChar: uniFB87
+Encoding: 64391 64391 64391
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1500 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 310 1050 2
+EndChar
+StartChar: uniFB88
+Encoding: 64392 64392 64392
+Width: 1051
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1583 1583 N 1 0 0 1 0 0 2
+Refer: 1557 1557 N 1 0 0 1 -2 -250 2
+EndChar
+StartChar: uniFB89
+Encoding: 64393 64393 64393
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1557 1557 N 1 0 0 1 -2 -250 2
+EndChar
 StartChar: uniFB8A
 Encoding: 64394 64394 64394
 Width: 1179
@@ -149617,6 +150420,94 @@ Fore
 Refer: 1114160 -1 N 1 0 0 1 129 0 2
 Refer: 65244 65244 N 1 0 0 1 0 0 2
 EndChar
+StartChar: uniFB96
+Encoding: 64406 64406 64406
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 925 -700 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114128 -1 N 1 0 0 1 850 -350 2
+Refer: 1711 1711 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFB97
+Encoding: 64407 64407 64407
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 925 -700 basechar 0
+LayerCount: 2
+Fore
+Refer: 64403 64403 N 1 0 0 1 0 0 2
+Refer: 1114128 -1 N 1 0 0 1 850 -350 2
+EndChar
+StartChar: uniFB98
+Encoding: 64408 64408 64408
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1750 basechar 0
+AnchorPoint: "rtl-below" 525 -650 basechar 0
+LayerCount: 2
+Fore
+Refer: 64404 64404 N 1 0 0 1 0 0 2
+Refer: 1114128 -1 N 1 0 0 1 450 -300 2
+EndChar
+StartChar: uniFB99
+Encoding: 64409 64409 64409
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1750 basechar 0
+AnchorPoint: "rtl-below" 525 -650 basechar 0
+LayerCount: 2
+Fore
+Refer: 64405 64405 N 1 0 0 1 0 0 2
+Refer: 1114128 -1 N 1 0 0 1 450 -300 2
+EndChar
+StartChar: uniFB9A
+Encoding: 64410 64410 64410
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114125 -1 N 1 0 0 1 1025 1700 2
+Refer: 1711 1711 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFB9B
+Encoding: 64411 64411 64411
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+LayerCount: 2
+Fore
+Refer: 64403 64403 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 1025 1700 2
+EndChar
+StartChar: uniFB9C
+Encoding: 64412 64412 64412
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+AnchorPoint: "rtl-above" 275 1900 basechar 0
+LayerCount: 2
+Fore
+Refer: 64404 64404 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 75 1700 2
+EndChar
+StartChar: uniFB9D
+Encoding: 64413 64413 64413
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+AnchorPoint: "rtl-above" 275 1900 basechar 0
+LayerCount: 2
+Fore
+Refer: 64405 64405 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 75 1700 2
+EndChar
 StartChar: uniFB9E
 Encoding: 64414 64414 64414
 Width: 1748
@@ -149660,6 +150551,171 @@ SplineSet
  1492 587.561 l 17,0,0
  1521.16 543.058 1521.16 543.058 1529.32 524.561 c 24,0,0
 EndSplineSet
+EndChar
+StartChar: uniFBA0
+Encoding: 64416 64416 64416
+Width: 1748
+Flags: W
+AnchorPoint: "rtl-below" 850 -450 basechar 0
+AnchorPoint: "rtl-above" 825 1375 basechar 0
+LayerCount: 2
+Fore
+Refer: 1557 1557 N 1 0 0 1 325 -475 2
+Refer: 1722 1722 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFBA1
+Encoding: 64417 64417 64417
+Width: 1843
+Flags: W
+AnchorPoint: "rtl-below" 850 -600 basechar 0
+AnchorPoint: "rtl-above" 825 1125 basechar 0
+LayerCount: 2
+Fore
+Refer: 64415 64415 N 1 0 0 1 0 0 2
+Refer: 1557 1557 N 1 0 0 1 325 -725 2
+EndChar
+StartChar: uniFBA2
+Encoding: 64418 64418 64418
+Width: 769
+Flags: W
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+AnchorPoint: "rtl-above" 418 1450 basechar 0
+LayerCount: 2
+Fore
+Refer: 1557 1557 N 1 0 0 1 -94 -400 2
+Refer: 1114131 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFBA3
+Encoding: 64419 64419 64419
+Width: 836
+Flags: W
+AnchorPoint: "rtl-above" 418 1450 basechar 0
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+LayerCount: 2
+Fore
+Refer: 1557 1557 N 1 0 0 1 -94 -400 2
+Refer: 1114132 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFBAA
+Encoding: 64426 64426 64426
+Width: 1920
+Flags: W
+AnchorPoint: "rtl-above" 1150 1100 basechar 0
+AnchorPoint: "rtl-below" 1150 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 1726 1726 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFBAB
+Encoding: 64427 64427 64427
+Width: 1802
+Flags: W
+AnchorPoint: "rtl-below" 1150 -600 basechar 0
+AnchorPoint: "rtl-above" 1150 900 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+1142 756 m 0,0,1
+ 1609 756 1609 756 1609 500 c 0,2,3
+ 1609 391 1609 391 1482 256 c 1,4,-1
+ 1822 256 l 1,5,-1
+ 1822 0 l 1,6,-1
+ 1446 0 l 1,7,8
+ 1609 -128 1609 -128 1609 -241 c 0,9,10
+ 1609 -500 1609 -500 1142 -500 c 0,11,12
+ 927 -500 927 -500 792.5 -360.5 c 128,-1,13
+ 658 -221 658 -221 635 -60 c 1,14,15
+ 530 -60 l 2,16,17
+ 468 -60 468 -60 337 -23 c 0,18,19
+ 144 32 144 32 144 260 c 0,20,21
+ 144 335 144 335 160 388 c 1,22,-1
+ 518 388 l 1,23,24
+ 504 354 504 354 504 327 c 0,25,26
+ 504 244 504 244 555 218 c 0,27,28
+ 592 199 592 199 607 199 c 2,29,-1
+ 629 199 l 1,30,-1
+ 629 256 l 2,31,32
+ 629 452 629 452 780 604 c 128,-1,33
+ 931 756 931 756 1142 756 c 0,0,1
+987 -10 m 1,34,35
+ 987 -123 987 -123 1037.5 -184.5 c 128,-1,36
+ 1088 -246 1088 -246 1173 -246 c 128,-1,37
+ 1258 -246 1258 -246 1258 -196 c 128,-1,38
+ 1258 -146 1258 -146 1173.5 -76.5 c 128,-1,39
+ 1089 -7 1089 -7 1024 0 c 1,40,-1
+ 987 -10 l 1,34,35
+987 240 m 1,41,42
+ 1087 266 1087 266 1172.5 330.5 c 128,-1,43
+ 1258 395 1258 395 1258 453 c 0,44,45
+ 1258 502 1258 502 1171 502 c 128,-1,46
+ 1084 502 1084 502 1035.5 438 c 128,-1,47
+ 987 374 987 374 987 256 c 2,48,-1
+ 987 240 l 1,41,42
+EndSplineSet
+EndChar
+StartChar: uniFBAC
+Encoding: 64428 64428 64428
+Width: 1420
+Flags: W
+AnchorPoint: "rtl-below" 650 -150 basechar 0
+AnchorPoint: "rtl-above" 650 1100 basechar 0
+LayerCount: 2
+Fore
+Refer: 65259 65259 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFBAD
+Encoding: 64429 64429 64429
+Width: 1352
+Flags: W
+AnchorPoint: "rtl-above" 700 900 basechar 0
+AnchorPoint: "rtl-below" 700 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65260 65260 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFBD3
+Encoding: 64467 64467 64467
+Width: 1688
+Flags: W
+AnchorPoint: "rtl-above" 825 1800 basechar 0
+AnchorPoint: "rtl-below" 800 -200 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114126 -1 N 1 0 0 1 625 1350 2
+Refer: 1603 1603 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniFBD4
+Encoding: 64468 64468 64468
+Width: 1726
+Flags: W
+AnchorPoint: "rtl-above" 825 1800 basechar 0
+AnchorPoint: "rtl-below" 800 -200 basechar 0
+LayerCount: 2
+Fore
+Refer: 65242 65242 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 625 1350 2
+EndChar
+StartChar: uniFBD5
+Encoding: 64469 64469 64469
+Width: 975
+Flags: W
+AnchorPoint: "rtl-above" 275 1950 basechar 0
+AnchorPoint: "rtl-below" 300 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65243 65243 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 75 1500 2
+EndChar
+StartChar: uniFBD6
+Encoding: 64470 64470 64470
+Width: 1131
+Flags: W
+AnchorPoint: "rtl-above" 275 1950 basechar 0
+AnchorPoint: "rtl-below" 300 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65244 65244 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 75 1500 2
 EndChar
 StartChar: uniFBD9
 Encoding: 64473 64473 64473
@@ -157351,16 +158407,16 @@ SplineSet
  275 250 l 1,2,-1
  125 250 l 1,3,-1
  125 400 l 1,0,-1
-250 150 m 1,0,-1
- 400 150 l 1,1,-1
- 400 0 l 1,2,-1
- 250 0 l 1,3,-1
- 250 150 l 1,0,-1
-0 150 m 1,0,-1
- 150 150 l 1,1,-1
- 150 0 l 1,2,-1
- 0 0 l 1,3,-1
- 0 150 l 1,0,-1
+250 150 m 1,4,-1
+ 400 150 l 1,5,-1
+ 400 0 l 1,6,-1
+ 250 0 l 1,7,-1
+ 250 150 l 1,4,-1
+0 150 m 1,8,-1
+ 150 150 l 1,9,-1
+ 150 0 l 1,10,-1
+ 0 0 l 1,11,-1
+ 0 150 l 1,8,-1
 EndSplineSet
 EndChar
 StartChar: arabic_3dots_a
@@ -162035,6 +163091,1041 @@ SplineSet
  385 0 l 1,3,-1
  197 0 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: uni0689.fina
+Encoding: 1114355 -1 1114355
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-above" 500 1000 basechar 0
+AnchorPoint: "rtl-below" 560 -418 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 341 -368 2
+EndChar
+StartChar: uni068A.fina
+Encoding: 1114356 -1 1114356
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-above" 500 1000 basechar 0
+AnchorPoint: "rtl-below" 560 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 485 -350 2
+EndChar
+StartChar: uni068B.fina
+Encoding: 1114357 -1 1114357
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-above" 510 1600 basechar 0
+AnchorPoint: "rtl-below" 560 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 485 -350 2
+Refer: 1557 1557 N 1 0 0 1 -2 -250 2
+EndChar
+StartChar: uni068F.fina
+Encoding: 1114358 -1 1114358
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1450 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 310 1250 2
+EndChar
+StartChar: uni0690.fina
+Encoding: 1114359 -1 1114359
+Width: 1183
+Flags: W
+AnchorPoint: "rtl-below" 550 -150 basechar 0
+AnchorPoint: "rtl-above" 510 1500 basechar 0
+LayerCount: 2
+Fore
+Refer: 65194 65194 N 1 0 0 1 0 0 2
+Refer: 1114129 -1 N 1 0 0 1 310 1300 2
+EndChar
+StartChar: uni0693.fina
+Encoding: 1114360 -1 1114360
+Width: 1274
+Flags: W
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114141 -1 N 1 0 0 1 765 -500 2
+Refer: 65198 65198 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni0694.fina
+Encoding: 1114361 -1 1114361
+Width: 1274
+Flags: W
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 920 -440 2
+Refer: 65198 65198 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni0696.fina
+Encoding: 1114362 -1 1114362
+Width: 1274
+Flags: W
+AnchorPoint: "rtl-above" 800 750 basechar 0
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 920 -440 2
+Refer: 1114124 -1 N 1 0 0 1 280 40 2
+Refer: 65198 65198 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni0697.fina
+Encoding: 1114363 -1 1114363
+Width: 1274
+Flags: W
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+AnchorPoint: "rtl-above" 800 1000 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114125 -1 N 1 0 0 1 600 800 2
+Refer: 65198 65198 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni0699.fina
+Encoding: 1114364 -1 1114364
+Width: 1274
+Flags: W
+AnchorPoint: "rtl-below" 600 -550 basechar 0
+AnchorPoint: "rtl-above" 800 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114129 -1 N 1 0 0 1 600 1050 2
+Refer: 65198 65198 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni069A.fina
+Encoding: 1114365 -1 1114365
+Width: 2895
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65202 65202 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1500 800 2
+Refer: 1114124 -1 N 1 0 0 1 1650 -350 2
+EndChar
+StartChar: uni069A.init
+Encoding: 1114366 -1 1114366
+Width: 2014
+Flags: W
+AnchorPoint: "rtl-above" 975 1050 basechar 0
+AnchorPoint: "rtl-below" 1125 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 65203 65203 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 900 850 2
+Refer: 1114124 -1 N 1 0 0 1 1050 -350 2
+EndChar
+StartChar: uni069A.medi
+Encoding: 1114367 -1 1114367
+Width: 2084
+Flags: W
+AnchorPoint: "rtl-below" 1125 -400 basechar 0
+AnchorPoint: "rtl-above" 975 1050 basechar 0
+LayerCount: 2
+Fore
+Refer: 65204 65204 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 900 850 2
+Refer: 1114124 -1 N 1 0 0 1 1050 -350 2
+EndChar
+StartChar: uni069B.fina
+Encoding: 1114368 -1 1114368
+Width: 2895
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65202 65202 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 1525 -250 2
+EndChar
+StartChar: uni069B.init
+Encoding: 1114369 -1 1114369
+Width: 2014
+Flags: W
+AnchorPoint: "rtl-above" 750 900 basechar 0
+AnchorPoint: "rtl-below" 1125 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 65203 65203 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 925 -250 2
+EndChar
+StartChar: uni069B.medi
+Encoding: 1114370 -1 1114370
+Width: 2084
+Flags: W
+AnchorPoint: "rtl-above" 750 900 basechar 0
+AnchorPoint: "rtl-below" 1125 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 65204 65204 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 925 -250 2
+EndChar
+StartChar: uni069C.fina
+Encoding: 1114371 -1 1114371
+Width: 2895
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65202 65202 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1375 800 2
+Refer: 1114127 -1 N 1 0 0 1 1525 -250 2
+EndChar
+StartChar: uni069C.init
+Encoding: 1114372 -1 1114372
+Width: 2014
+Flags: W
+AnchorPoint: "rtl-above" 975 1250 basechar 0
+AnchorPoint: "rtl-below" 1125 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 65203 65203 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 775 800 2
+Refer: 1114127 -1 N 1 0 0 1 925 -250 2
+EndChar
+StartChar: uni069C.medi
+Encoding: 1114373 -1 1114373
+Width: 2084
+Flags: W
+AnchorPoint: "rtl-below" 1125 -550 basechar 0
+AnchorPoint: "rtl-above" 975 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 65204 65204 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 775 800 2
+Refer: 1114127 -1 N 1 0 0 1 925 -250 2
+EndChar
+StartChar: uni069D.fina
+Encoding: 1114374 -1 1114374
+Width: 2794
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65210 65210 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 1525 -350 2
+EndChar
+StartChar: uni069D.init
+Encoding: 1114375 -1 1114375
+Width: 1979
+Flags: W
+AnchorPoint: "rtl-above" 700 800 basechar 0
+AnchorPoint: "rtl-below" 925 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 65211 65211 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 725 -350 2
+EndChar
+StartChar: uni069D.medi
+Encoding: 1114376 -1 1114376
+Width: 2018
+Flags: W
+AnchorPoint: "rtl-above" 700 800 basechar 0
+AnchorPoint: "rtl-below" 925 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 65212 65212 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 725 -350 2
+EndChar
+StartChar: uni069E.fina
+Encoding: 1114377 -1 1114377
+Width: 2794
+Flags: W
+AnchorPoint: "rtl-above" 650 800 basechar 0
+AnchorPoint: "rtl-below" 650 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65210 65210 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1275 800 2
+EndChar
+StartChar: uni069E.init
+Encoding: 1114378 -1 1114378
+Width: 1979
+Flags: W
+AnchorPoint: "rtl-below" 700 -150 basechar 0
+AnchorPoint: "rtl-above" 725 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 65211 65211 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 525 800 2
+EndChar
+StartChar: uni069E.medi
+Encoding: 1114379 -1 1114379
+Width: 2018
+Flags: W
+AnchorPoint: "rtl-below" 700 -150 basechar 0
+AnchorPoint: "rtl-above" 725 1250 basechar 0
+LayerCount: 2
+Fore
+Refer: 65212 65212 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 525 800 2
+EndChar
+StartChar: uni069F.fina
+Encoding: 1114380 -1 1114380
+Width: 2193
+Flags: W
+AnchorPoint: "rtl-above" 659 1650 basechar 0
+AnchorPoint: "rtl-below" 659 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65218 65218 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1025 850 2
+EndChar
+StartChar: uni069F.init
+Encoding: 1114381 -1 1114381
+Width: 1929
+Flags: W
+AnchorPoint: "rtl-above" 461 1650 basechar 0
+AnchorPoint: "rtl-below" 461 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65219 65219 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 761 850 2
+EndChar
+StartChar: uni069F.medi
+Encoding: 1114382 -1 1114382
+Width: 1995
+Flags: W
+AnchorPoint: "rtl-above" 461 1650 basechar 0
+AnchorPoint: "rtl-below" 461 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65220 65220 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 761 850 2
+EndChar
+StartChar: uni06A0.fina
+Encoding: 1114383 -1 1114383
+Width: 1399
+Flags: W
+AnchorPoint: "rtl-below" 750 -600 basechar 0
+AnchorPoint: "rtl-above" 625 1400 basechar 0
+LayerCount: 2
+Fore
+Refer: 65226 65226 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 425 950 2
+EndChar
+StartChar: uni06A0.init
+Encoding: 1114384 -1 1114384
+Width: 1399
+Flags: W
+AnchorPoint: "rtl-below" 650 -100 basechar 0
+AnchorPoint: "rtl-above" 625 1650 basechar 0
+LayerCount: 2
+Fore
+Refer: 65227 65227 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 425 1200 2
+EndChar
+StartChar: uni06A0.medi
+Encoding: 1114385 -1 1114385
+Width: 1156
+Flags: W
+AnchorPoint: "rtl-below" 578 -100 basechar 0
+AnchorPoint: "rtl-above" 569 1400 basechar 0
+LayerCount: 2
+Fore
+Refer: 65228 65228 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 375 950 2
+EndChar
+StartChar: uni06A2.fina
+Encoding: 1114386 -1 1114386
+Width: 2439
+Flags: W
+AnchorPoint: "rtl-above" 800 1100 basechar 0
+AnchorPoint: "rtl-below" 1075 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114133 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1000 -350 2
+EndChar
+StartChar: uni06A2.init
+Encoding: 1114387 -1 1114387
+Width: 1341
+Flags: W
+AnchorPoint: "rtl-above" 675 1100 basechar 0
+AnchorPoint: "rtl-below" 699 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114134 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 624 -300 2
+EndChar
+StartChar: uni06A2.medi
+Encoding: 1114388 -1 1114388
+Width: 1474
+Flags: W
+AnchorPoint: "rtl-above" 737 1100 basechar 0
+AnchorPoint: "rtl-below" 699 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 624 -300 2
+Refer: 1114135 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06A3.fina
+Encoding: 1114389 -1 1114389
+Width: 2439
+Flags: W
+AnchorPoint: "rtl-below" 1075 -400 basechar 0
+AnchorPoint: "rtl-above" 800 1100 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114133 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1650 1150 2
+Refer: 1114124 -1 N 1 0 0 1 1000 -350 2
+EndChar
+StartChar: uni06A3.init
+Encoding: 1114390 -1 1114390
+Width: 1341
+Flags: W
+AnchorPoint: "rtl-below" 699 -350 basechar 0
+AnchorPoint: "rtl-above" 700 1350 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114134 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 625 1150 2
+Refer: 1114124 -1 N 1 0 0 1 624 -300 2
+EndChar
+StartChar: uni06A3.medi
+Encoding: 1114391 -1 1114391
+Width: 1474
+Flags: W
+AnchorPoint: "rtl-above" 700 1350 basechar 0
+AnchorPoint: "rtl-below" 699 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114135 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 625 1150 2
+Refer: 1114124 -1 N 1 0 0 1 624 -300 2
+EndChar
+StartChar: uni06A5.fina
+Encoding: 1114392 -1 1114392
+Width: 2439
+Flags: W
+AnchorPoint: "rtl-above" 800 1100 basechar 0
+AnchorPoint: "rtl-below" 1075 -650 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114133 -1 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 875 -350 2
+EndChar
+StartChar: uni06A5.init
+Encoding: 1114393 -1 1114393
+Width: 1341
+Flags: W
+AnchorPoint: "rtl-above" 675 1100 basechar 0
+AnchorPoint: "rtl-below" 700 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114134 -1 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 500 -300 2
+EndChar
+StartChar: uni06A5.medi
+Encoding: 1114394 -1 1114394
+Width: 1474
+Flags: W
+AnchorPoint: "rtl-above" 737 1100 basechar 0
+AnchorPoint: "rtl-below" 700 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114127 -1 N 1 0 0 1 500 -300 2
+Refer: 1114135 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06A7.fina
+Encoding: 1114395 -1 1114395
+Width: 1846
+Flags: W
+AnchorPoint: "rtl-above" 550 850 basechar 0
+AnchorPoint: "rtl-below" 750 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114136 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1150 875 2
+EndChar
+StartChar: uni06A7.init
+Encoding: 1114396 -1 1114396
+Width: 1341
+Flags: W
+AnchorPoint: "rtl-above" 675 1390 basechar 0
+AnchorPoint: "rtl-below" 650 -100 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 600 1135 2
+Refer: 1114134 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06A7.medi
+Encoding: 1114397 -1 1114397
+Width: 1474
+Flags: W
+AnchorPoint: "rtl-below" 737 -100 basechar 0
+AnchorPoint: "rtl-above" 737 1390 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 662 1135 2
+Refer: 1114135 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06A8.fina
+Encoding: 1114398 -1 1114398
+Width: 1846
+Flags: W
+AnchorPoint: "rtl-above" 550 850 basechar 0
+AnchorPoint: "rtl-below" 750 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114136 -1 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1025 875 2
+EndChar
+StartChar: uni06A8.init
+Encoding: 1114399 -1 1114399
+Width: 1341
+Flags: W
+AnchorPoint: "rtl-above" 675 1710 basechar 0
+AnchorPoint: "rtl-below" 650 -100 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114126 -1 N 1 0 0 1 475 1210 2
+Refer: 1114134 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06A8.medi
+Encoding: 1114400 -1 1114400
+Width: 1474
+Flags: W
+AnchorPoint: "rtl-below" 737 -100 basechar 0
+AnchorPoint: "rtl-above" 737 1710 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114126 -1 N 1 0 0 1 537 1210 2
+Refer: 1114135 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06AA.fina
+Encoding: 1114401 -1 1114401
+Width: 2603
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+130 314 m 0,0,1
+ 130 453 130 453 193 544 c 1,2,-1
+ 551 544 l 1,3,4
+ 500 450 500 450 500 360 c 0,5,6
+ 500 261 500 261 689 203 c 0,7,8
+ 770 178 770 178 936 178 c 2,9,-1
+ 1536 178 l 2,10,11
+ 1834 178 1834 178 1884 213 c 0,12,13
+ 2001 295 2001 295 2013 295 c 0,14,15
+ 2015 295 2015 295 2024 341 c 128,-1,16
+ 2033 387 2033 387 2033 404 c 0,17,18
+ 2033 481 2033 481 1951 495 c 2,19,-1
+ 810 696 l 2,20,21
+ 504 750 504 750 504 1017 c 0,22,23
+ 504 1052 504 1052 514 1085 c 0,24,25
+ 553 1204 553 1204 649 1246 c 2,26,-1
+ 1360 1556 l 1,27,-1
+ 1984 1556 l 1,28,-1
+ 1076 1144 l 2,29,30
+ 963 1093 963 1093 934 1031 c 0,31,32
+ 926 1014 926 1014 938.5 972 c 128,-1,33
+ 951 930 951 930 1056 912 c 2,34,-1
+ 2158 726 l 2,35,36
+ 2403 684 2403 684 2440 416 c 1,37,38
+ 2458 342 2458 342 2488.5 299 c 128,-1,39
+ 2519 256 2519 256 2599 256 c 2,40,-1
+ 2623 256 l 1,41,-1
+ 2623 0 l 1,42,-1
+ 2340 0 l 2,43,44
+ 2288 0 2288 0 2240 28 c 1,45,46
+ 2104 -26 2104 -26 1947 -52.5 c 128,-1,47
+ 1790 -79 1790 -79 1511 -79 c 2,48,-1
+ 911 -79 l 2,49,50
+ 607 -79 607 -79 460 -51 c 0,51,52
+ 130 12 130 12 130 314 c 0,0,1
+EndSplineSet
+EndChar
+StartChar: uni06AA.init
+Encoding: 1114402 -1 1114402
+Width: 2199
+Flags: W
+AnchorPoint: "rtl-above" 145 1400 basechar 0
+AnchorPoint: "rtl-below" 495 -150 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+-20 0 m 25,0,-1
+ -20 256 l 25,1,-1
+ 1477 256 l 26,2,3
+ 1591 256 1591 256 1608 295 c 1,4,5
+ 1626 320 1626 320 1626 338.5 c 128,-1,6
+ 1626 357 1626 357 1624 367 c 0,7,8
+ 1600 485 1600 485 1546 495 c 10,9,-1
+ 405 696 l 18,10,11
+ 99 750 99 750 99 1017 c 0,12,13
+ 99 1052 99 1052 109 1085 c 8,14,15
+ 148 1204 148 1204 244 1246 c 10,16,-1
+ 955 1556 l 17,17,-1
+ 1579 1556 l 1,18,-1
+ 671 1144 l 2,19,20
+ 558 1093 558 1093 529 1031 c 16,21,22
+ 521 1014 521 1014 533.5 972 c 128,-1,23
+ 546 930 546 930 651 912 c 10,24,-1
+ 1753 726 l 18,25,26
+ 2041 677 2041 677 2041 315 c 0,27,28
+ 2041 147 2041 147 1937.5 73.5 c 128,-1,29
+ 1834 0 1834 0 1599 0 c 26,30,-1
+ -20 0 l 25,0,-1
+EndSplineSet
+EndChar
+StartChar: uni06AA.medi
+Encoding: 1114403 -1 1114403
+Width: 2198
+Flags: W
+AnchorPoint: "rtl-above" 145 1400 basechar 0
+AnchorPoint: "rtl-below" 495 -150 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+-20 0 m 1,0,-1
+ -20 256 l 1,1,-1
+ 1477 256 l 2,2,3
+ 1596 256 1596 256 1608 295 c 24,4,5
+ 1624 347 1624 347 1624 367 c 0,6,7
+ 1624 480 1624 480 1546 495 c 1,8,-1
+ 405 696 l 2,9,10
+ 99 750 99 750 99 1017 c 0,11,12
+ 99 1052 99 1052 109 1085 c 0,13,14
+ 148 1204 148 1204 244 1246 c 2,15,-1
+ 955 1556 l 1,16,-1
+ 1579 1556 l 1,17,-1
+ 671 1144 l 2,18,19
+ 558 1093 558 1093 529 1031 c 0,20,21
+ 521 1014 521 1014 533.5 972 c 128,-1,22
+ 546 930 546 930 651 912 c 2,23,-1
+ 1753 726 l 2,24,25
+ 1998 684 1998 684 2035 416 c 1,26,27
+ 2053 342 2053 342 2083.5 299 c 128,-1,28
+ 2114 256 2114 256 2194 256 c 2,29,-1
+ 2218 256 l 1,30,-1
+ 2218 0 l 1,31,-1
+ 1935 0 l 2,32,33
+ 1884 0 1884 0 1836 27 c 1,34,35
+ 1741 0 1741 0 1599 0 c 2,36,-1
+ -20 0 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni06AB.fina
+Encoding: 1114404 -1 1114404
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+LayerCount: 2
+Fore
+Refer: 64399 64399 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 1600 875 2
+EndChar
+StartChar: uni06AB.init
+Encoding: 1114405 -1 1114405
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1550 basechar 0
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65243 65243 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 700 875 2
+EndChar
+StartChar: uni06AB.medi
+Encoding: 1114406 -1 1114406
+Width: 1131
+Flags: W
+AnchorPoint: "rtl-above" 350 1550 basechar 0
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65244 65244 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 700 875 2
+EndChar
+StartChar: uni06AC.fina
+Encoding: 1114407 -1 1114407
+Width: 1907
+Flags: W
+AnchorPoint: "rtl-below" 900 -200 basechar 0
+AnchorPoint: "rtl-above" 900 1550 basechar 0
+LayerCount: 2
+Fore
+Refer: 65242 65242 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 825 1350 2
+EndChar
+StartChar: uni06AC.init
+Encoding: 1114408 -1 1114408
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+AnchorPoint: "rtl-above" 400 1700 basechar 0
+LayerCount: 2
+Fore
+Refer: 65243 65243 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 325 1500 2
+EndChar
+StartChar: uni06AC.medi
+Encoding: 1114409 -1 1114409
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+AnchorPoint: "rtl-above" 400 1700 basechar 0
+LayerCount: 2
+Fore
+Refer: 65244 65244 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 325 1500 2
+EndChar
+StartChar: uni06AE.fina
+Encoding: 1114410 -1 1114410
+Width: 1907
+Flags: W
+AnchorPoint: "rtl-above" 800 1500 basechar 0
+AnchorPoint: "rtl-below" 925 -650 basechar 0
+LayerCount: 2
+Fore
+Refer: 65242 65242 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 725 -350 2
+EndChar
+StartChar: uni06AE.init
+Encoding: 1114411 -1 1114411
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1550 basechar 0
+AnchorPoint: "rtl-below" 525 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65243 65243 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 325 -300 2
+EndChar
+StartChar: uni06AE.medi
+Encoding: 1114412 -1 1114412
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1550 basechar 0
+AnchorPoint: "rtl-below" 525 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 65244 65244 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 325 -300 2
+EndChar
+StartChar: uni06B0.fina
+Encoding: 1114413 -1 1114413
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+LayerCount: 2
+Fore
+Refer: 64403 64403 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 1600 875 2
+EndChar
+StartChar: uni06B0.init
+Encoding: 1114414 -1 1114414
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1750 basechar 0
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+LayerCount: 2
+Fore
+Refer: 64404 64404 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 700 875 2
+EndChar
+StartChar: uni06B0.medi
+Encoding: 1114415 -1 1114415
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+AnchorPoint: "rtl-above" 350 1750 basechar 0
+LayerCount: 2
+Fore
+Refer: 64405 64405 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 700 875 2
+EndChar
+StartChar: uni06B2.fina
+Encoding: 1114416 -1 1114416
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+AnchorPoint: "rtl-below" 925 -400 basechar 0
+LayerCount: 2
+Fore
+Refer: 64403 64403 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 725 -350 2
+EndChar
+StartChar: uni06B2.init
+Encoding: 1114417 -1 1114417
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1750 basechar 0
+AnchorPoint: "rtl-below" 525 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 64404 64404 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 325 -300 2
+EndChar
+StartChar: uni06B2.medi
+Encoding: 1114418 -1 1114418
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-above" 350 1750 basechar 0
+AnchorPoint: "rtl-below" 525 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 64405 64405 N 1 0 0 1 0 0 2
+Refer: 1114125 -1 N 1 0 0 1 325 -300 2
+EndChar
+StartChar: uni06B4.fina
+Encoding: 1114419 -1 1114419
+Width: 2097
+Flags: W
+AnchorPoint: "rtl-below" 900 -150 basechar 0
+AnchorPoint: "rtl-above" 550 1400 basechar 0
+LayerCount: 2
+Fore
+Refer: 64403 64403 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1025 1700 2
+EndChar
+StartChar: uni06B4.init
+Encoding: 1114420 -1 1114420
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+AnchorPoint: "rtl-above" 275 2150 basechar 0
+LayerCount: 2
+Fore
+Refer: 64404 64404 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 75 1700 2
+EndChar
+StartChar: uni06B4.medi
+Encoding: 1114421 -1 1114421
+Width: 1191
+Flags: W
+AnchorPoint: "rtl-below" 400 -150 basechar 0
+AnchorPoint: "rtl-above" 275 2150 basechar 0
+LayerCount: 2
+Fore
+Refer: 64405 64405 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 75 1700 2
+EndChar
+StartChar: uni06B6.fina
+Encoding: 1114422 -1 1114422
+Width: 1828
+Flags: W
+AnchorPoint: "rtl-below" 800 -450 basechar 0
+AnchorPoint: "rtl-above" 1412 2100 basechar 0
+LayerCount: 2
+Fore
+Refer: 65246 65246 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 1330 1800 2
+EndChar
+StartChar: uni06B6.init
+Encoding: 1114423 -1 1114423
+Width: 769
+Flags: W
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+AnchorPoint: "rtl-above" 414 2100 basechar 0
+LayerCount: 2
+Fore
+Refer: 65247 65247 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 332 1800 2
+EndChar
+StartChar: uni06B6.medi
+Encoding: 1114424 -1 1114424
+Width: 836
+Flags: W
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+AnchorPoint: "rtl-above" 414 2100 basechar 0
+LayerCount: 2
+Fore
+Refer: 65248 65248 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 332 1800 2
+EndChar
+StartChar: uni06B7.fina
+Encoding: 1114425 -1 1114425
+Width: 1828
+Flags: W
+AnchorPoint: "rtl-below" 800 -450 basechar 0
+AnchorPoint: "rtl-above" 1412 2150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65246 65246 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 1200 1700 2
+EndChar
+StartChar: uni06B7.init
+Encoding: 1114426 -1 1114426
+Width: 769
+Flags: W
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+AnchorPoint: "rtl-above" 414 2150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65247 65247 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 202 1700 2
+EndChar
+StartChar: uni06B7.medi
+Encoding: 1114427 -1 1114427
+Width: 836
+Flags: W
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+AnchorPoint: "rtl-above" 414 2150 basechar 0
+LayerCount: 2
+Fore
+Refer: 65248 65248 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 202 1700 2
+EndChar
+StartChar: uni06B8.fina
+Encoding: 1114428 -1 1114428
+Width: 1828
+Flags: W
+AnchorPoint: "rtl-above" 750 1300 basechar 0
+AnchorPoint: "rtl-below" 875 -850 basechar 0
+LayerCount: 2
+Fore
+Refer: 65246 65246 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 675 -550 2
+EndChar
+StartChar: uni06B8.init
+Encoding: 1114429 -1 1114429
+Width: 769
+Flags: W
+AnchorPoint: "rtl-above" 418 1650 basechar 0
+AnchorPoint: "rtl-below" 374 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 65247 65247 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 174 -250 2
+EndChar
+StartChar: uni06B8.medi
+Encoding: 1114430 -1 1114430
+Width: 836
+Flags: W
+AnchorPoint: "rtl-above" 418 1650 basechar 0
+AnchorPoint: "rtl-below" 404 -550 basechar 0
+LayerCount: 2
+Fore
+Refer: 65248 65248 N 1 0 0 1 0 0 2
+Refer: 1114127 -1 N 1 0 0 1 204 -250 2
+EndChar
+StartChar: uni06B9.fina
+Encoding: 1114431 -1 1114431
+Width: 1843
+Flags: W
+AnchorPoint: "rtl-above" 750 890 basechar 0
+AnchorPoint: "rtl-below" 900 -875 basechar 0
+LayerCount: 2
+Fore
+Refer: 64415 64415 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 825 -825 2
+Refer: 1114124 -1 N 1 0 0 1 675 635 2
+EndChar
+StartChar: uni06B9.init
+Encoding: 1114432 -1 1114432
+Width: 769
+Flags: W
+AnchorPoint: "rtl-above" 418 1090 basechar 0
+AnchorPoint: "rtl-below" 418 -420 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 343 -355 2
+Refer: 1114131 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 343 835 2
+EndChar
+StartChar: uni06B9.medi
+Encoding: 1114433 -1 1114433
+Width: 836
+Flags: W
+AnchorPoint: "rtl-above" 418 1090 basechar 0
+AnchorPoint: "rtl-below" 418 -420 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 343 -355 2
+Refer: 1114132 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 343 835 2
+EndChar
+StartChar: uni06BC.fina
+Encoding: 1114434 -1 1114434
+Width: 1843
+Flags: W
+AnchorPoint: "rtl-above" 750 890 basechar 0
+AnchorPoint: "rtl-below" 900 -925 basechar 0
+LayerCount: 2
+Fore
+Refer: 64415 64415 N 1 0 0 1 0 0 2
+Refer: 1114141 -1 N 1 0 0 1 675 -850 2
+Refer: 1114124 -1 N 1 0 0 1 675 635 2
+EndChar
+StartChar: uni06BC.init
+Encoding: 1114435 -1 1114435
+Width: 769
+Flags: W
+AnchorPoint: "rtl-above" 418 1090 basechar 0
+AnchorPoint: "rtl-below" 418 -350 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114141 -1 N 1 0 0 1 199 -300 2
+Refer: 1114131 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 343 835 2
+EndChar
+StartChar: uni06BC.medi
+Encoding: 1114436 -1 1114436
+Width: 836
+Flags: W
+AnchorPoint: "rtl-above" 418 1090 basechar 0
+AnchorPoint: "rtl-below" 418 -300 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114141 -1 N 1 0 0 1 199 -250 2
+Refer: 1114132 -1 N 1 0 0 1 0 0 2
+Refer: 1114124 -1 N 1 0 0 1 343 835 2
+EndChar
+StartChar: uni06BD.fina
+Encoding: 1114437 -1 1114437
+Width: 1843
+Flags: W
+AnchorPoint: "rtl-above" 775 1075 basechar 0
+AnchorPoint: "rtl-below" 750 -600 basechar 0
+LayerCount: 2
+Fore
+Refer: 64415 64415 N 1 0 0 1 0 0 2
+Refer: 1114126 -1 N 1 0 0 1 575 635 2
+EndChar
+StartChar: uni06BD.init
+Encoding: 1114438 -1 1114438
+Width: 769
+Flags: W
+AnchorPoint: "rtl-above" 418 1350 basechar 0
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114126 -1 N 1 0 0 1 218 850 2
+Refer: 1114131 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni06BD.medi
+Encoding: 1114439 -1 1114439
+Width: 836
+Flags: W
+AnchorPoint: "rtl-above" 418 1350 basechar 0
+AnchorPoint: "rtl-below" 418 -100 basechar 0
+LayerCount: 2
+Fore
+Refer: 1114126 -1 N 1 0 0 1 218 850 2
+Refer: 1114132 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
