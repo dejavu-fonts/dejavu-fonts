@@ -11,8 +11,8 @@ UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
 LayerCount: 2
-Layer: 0 1 "Back" 
-Layer: 1 1 "Fore" 
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
 NeedsXUIDChange: 1
 FSType: 0
 OS2Version: 0
@@ -59,7 +59,7 @@ Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' cedilla"  "'mark' above
 Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic"  {"'mark' Zero-Width Marks lookup"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 257 8 0 "'rtbd' Mark width in Lao"  {"'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
-DEI: 0
+DEI: 91125
 ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0"  4 1 4 3
   Class: 3 i j
   Class: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
@@ -2427,7 +2427,7 @@ AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning 
 BeginChars: 1114162 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 000000.ffffffff.0
 Width: 1233
 Flags: W
 TtInstrs:
@@ -61681,6 +61681,46 @@ SplineSet
  200.5 -204.972 200.5 -204.972 200.5 -127 c 2,13,-1
 EndSplineSet
 LCarets2: 2 0 0 
+EndChar
+StartChar: therefore
+Encoding: 8756 8756 8756
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8901 8901 N 1 0 0 1 -1 292 2
+Refer: 8901 8901 N 1 0 0 1 -302 -425 2
+Refer: 8901 8901 N 1 0 0 1 308 -425 2
+EndChar
+StartChar: uni2235
+Encoding: 8757 8757 8757
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8901 8901 N 1 0 0 1 3 -425 2
+Refer: 8901 8901 N 1 0 0 1 -301 292 2
+Refer: 8901 8901 N 1 0 0 1 304 292 2
+EndChar
+StartChar: uni2236
+Encoding: 8758 8758 8758
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8901 8901 N 1 0 0 1 3 -425 2
+Refer: 8901 8901 N 1 0 0 1 -1 292 2
+EndChar
+StartChar: uni2237
+Encoding: 8759 8759 8759
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8901 8901 N 1 0 0 1 -302 -425 2
+Refer: 8901 8901 N 1 0 0 1 -301 292 2
+Refer: 8901 8901 N 1 0 0 1 308 -425 2
+Refer: 8901 8901 N 1 0 0 1 304 292 2
 EndChar
 StartChar: uni2238
 Encoding: 8760 8760 8760
