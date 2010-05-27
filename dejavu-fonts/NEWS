@@ -1,3 +1,21 @@
+Changes from 2.30 to 2.31
+
+* fixed bug where Serif Condensed Italic wouldn't get proper subfamily tags (by
+  Ben Laenen)
+* added math operators U+2234-U+2237 to Mono (by Ben Laenen)
+* removed buggy instructions of U+032D (by Eugeniy Meshcheryakov)
+* added U+2C70, U+2C7E, U+2C7F to Sans and Sans Mono (by Denis Jacquerye)
+* added U+2C7D to Sans Mono (by Denis Jacquerye)
+* added U+2C6D, U+2C70-2C73, U+2C7E-2C7F to Serif (by Denis Jacquerye)
+* added extremas to alpha U+03B1 in Serif-Italic (by Denis Jacquerye)
+* added U+4A4, U+4A5 to Mono (by Andrey V. Panov)
+* added Arabic letters U+0657, U+0670, U+0688-U+0690, U+0693-U+0694,
+  U+0696-U+0697, U+0699-U+06A0, U+06A2-U+06A3, U+06A5, U+06A7-U+06A8,
+  U+06AA-U+06AE, U+06B0-U+06B4, U+06B6-U+06B9, U+06BB-U+06BE and their
+  contextual forms to Sans (by MihailJP)
+* added U+A78D LATIN CAPITAL LETTER TURNED H for coming Unicode 6.0 (by Denis
+  Jacquerye) 
+
 Changes from 2.29 to 2.30
 
 * added U+0462-U+0463 to Mono (by Denis Jacquerye) 
