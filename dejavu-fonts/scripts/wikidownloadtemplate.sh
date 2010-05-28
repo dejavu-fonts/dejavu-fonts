@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # call this script from the main directory like scripts/wikidownloadtemplate.sh
 
