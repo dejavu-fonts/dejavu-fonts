@@ -2427,7 +2427,7 @@ AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning 
 BeginChars: 1114162 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 000000.ffffffff.0 000000.ffffffff.0
 Width: 1233
 Flags: W
 TtInstrs:
@@ -36472,7 +36472,7 @@ NPUSHB
  0
  30
  19
- 28
+ 32
  5
  30
  25
@@ -36483,14 +36483,22 @@ NPUSHB
  28
  31
 SRP0
-MDRP[rp0,rnd,grey]
+MDRP[rp0,min,rnd,grey]
 MIRP[min,rnd,grey]
 SHP[rp2]
 MDRP[rp0,rnd,grey]
 SHP[rp2]
 MIRP[min,rnd,grey]
 SRP0
+MPPEM
+PUSHB_1
+ 14
+LTEQ
+IF
 MDRP[rp0,rnd,grey]
+ELSE
+MDRP[rp0,min,rnd,grey]
+EIF
 MIRP[min,rnd,grey]
 IUP[x]
 SVTCA[y-axis]
