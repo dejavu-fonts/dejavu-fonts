@@ -39,6 +39,7 @@ HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
 OS2CodePages: 600001ff.dfff0000
+Lookup: 6 9 0 "Required Feature in N'Ko"  {"Required Feature in N'Ko"  } [' RQD' ('DFLT' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' for Romanian"  {"'locl' for Romanian-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 6 1 0 "'ccmp' in RTL"  {"'ccmp' in RTL"  } ['ccmp' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' in Basic"  {"'ccmp' in Basic"  } ['ccmp' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
@@ -46,11 +47,11 @@ Lookup: 6 0 0 "'ccmp' Tone Bars"  {"'ccmp' Tone Bars-5"  "'ccmp' Tone Bars-4"  "
 Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  {"'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 3"  {"'locl' Localized Forms in Cyrillic lookup 3"  } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 4"  {"'locl' Localized Forms in Latin lookup 4"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
-Lookup: 1 9 0 "'fina' Terminal Forms in N'Ko lookup 5"  {"'fina' Terminal Forms in N'Ko lookup 5"  } ['fina' ('nko ' <'dflt' > ) ]
+Lookup: 1 9 0 "'fina' Terminal Forms in N'Ko"  {"'fina' Terminal Forms in N'Ko"  } ['fina' ('nko ' <'dflt' > ) ]
 Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 5"  {"'fina' Terminal Forms in Arabic lookup 5"  } ['fina' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
-Lookup: 1 9 0 "'medi' Medial Forms in N'Ko lookup 7"  {"'medi' Medial Forms in N'Ko lookup 7"  } ['medi' ('nko ' <'dflt' > ) ]
+Lookup: 1 9 0 "'medi' Medial Forms in N'Ko"  {"'medi' Medial Forms in N'Ko"  } ['medi' ('nko ' <'dflt' > ) ]
 Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 6"  {"'medi' Medial Forms in Arabic lookup 6"  } ['medi' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
-Lookup: 1 9 0 "'init' Initial Forms in N'Ko lookup 9"  {"'init' Initial Forms in N'Ko lookup 9"  } ['init' ('nko ' <'dflt' > ) ]
+Lookup: 1 9 0 "'init' Initial Forms in N'Ko"  {"'init' Initial Forms in N'Ko"  } ['init' ('nko ' <'dflt' > ) ]
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 7"  {"'init' Initial Forms in Arabic lookup 7"  } ['init' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 4 1 1 "'rlig' Required Ligatures in Arabic lookup 8"  {"'rlig' Required Ligatures in Arabic lookup 8"  } ['rlig' ('arab' <'KUR ' 'dflt' > ) ]
 Lookup: 4 1 1 "'rlig' Required Ligatures in Arabic lookup 9"  {"'rlig' Required Ligatures in Arabic lookup 9"  } ['rlig' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
@@ -240,6 +241,29 @@ KernClass2: 53 80 "'kern' Horizontal Kerning in Latin lookup 16"
  13 quotedblright
  12 quotedblbase
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -73 {} 0 {} 0 {} 0 {} 75 {} 114 {} 57 {} 75 {} 0 {} -188 {} 0 {} -120 {} -83 {} -102 {} -243 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} -36 {} -36 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} -36 {} -36 {} -159 {} 0 {} -159 {} -139 {} -83 {} -112 {} -264 {} -253 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 0 {} -63 {} -73 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -73 {} 0 {} -112 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -112 {} -112 {} -83 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} -45 {} -55 {} -188 {} 0 {} 0 {} -329 {} -159 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} -112 {} 0 {} 0 {} -149 {} 0 {} 0 {} -73 {} -149 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} -188 {} -112 {} 0 {} -73 {} -112 {} -188 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} -149 {} -73 {} 0 {} -36 {} -36 {} -112 {} 0 {} 0 {} 0 {} -188 {} 0 {} -73 {} -36 {} -73 {} 0 {} -188 {} 0 {} 0 {} -45 {} 0 {} -376 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -45 {} -55 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -63 {} -73 {} 0 {} -73 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -63 {} -112 {} 0 {} -215 {} 0 {} 0 {} -36 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} -159 {} -55 {} 0 {} -73 {} 0 {} -73 {} 0 {} -36 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} -102 {} 0 {} 0 {} 0 {} -149 {} -131 {} 0 {} 0 {} -112 {} -36 {} -102 {} 0 {} -102 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} -63 {} 0 {} 0 {} -36 {} 0 {} 0 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} -282 {} -102 {} -225 {} -188 {} 0 {} -272 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -415 {} -538 {} 0 {} 0 {} 57 {} -83 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -131 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -188 {} 0 {} -45 {} -319 {} 0 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -92 {} 0 {} 0 {} -73 {} 0 {} 0 {} -45 {} 0 {} -36 {} -73 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -92 {} -73 {} 0 {} -73 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 38 {} -329 {} 0 {} 57 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -131 {} 0 {} -83 {} -73 {} -63 {} -83 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} -112 {} -83 {} 0 {} -131 {} 0 {} -45 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} -112 {} -112 {} -36 {} 0 {} -102 {} -45 {} -92 {} 0 {} -92 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} -131 {} -36 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -188 {} -243 {} -225 {} -159 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -339 {} -348 {} 0 {} -348 {} 0 {} 0 {} -63 {} 0 {} 0 {} -348 {} -301 {} -339 {} 0 {} -311 {} 0 {} -339 {} 0 {} -319 {} -188 {} -112 {} 0 {} -120 {} -239 {} -288 {} 0 {} -268 {} -281 {} 0 {} 0 {} -348 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -264 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} -264 {} -167 {} -131 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} 0 {} 0 {} -159 {} 0 {} 0 {} -45 {} 0 {} 0 {} -159 {} 0 {} 0 {} 0 {} -139 {} 0 {} 0 {} 0 {} -55 {} -178 {} -112 {} 0 {} 0 {} -159 {} -159 {} 0 {} -159 {} -139 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -282 {} 0 {} -83 {} -235 {} -120 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -120 {} 0 {} 0 {} -45 {} 0 {} 0 {} -120 {} -92 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -36 {} -112 {} -36 {} 0 {} 0 {} -131 {} -120 {} 0 {} -120 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -264 {} 0 {} -102 {} 0 {} 0 {} 0 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} -149 {} 0 {} -92 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -159 {} -83 {} -45 {} 0 {} -243 {} -415 {} -272 {} -159 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -282 {} 0 {} 0 {} -272 {} 0 {} 0 {} -73 {} 0 {} 0 {} -272 {} 0 {} 0 {} 0 {} -235 {} 0 {} 0 {} 0 {} 0 {} -225 {} -149 {} 0 {} -112 {} -282 {} -272 {} 0 {} -272 {} -235 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -36 {} -264 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -149 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -73 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 65 {} 0 {} -235 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} -73 {} 0 {} -73 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} -112 {} -92 {} 0 {} 38 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -149 {} -73 {} -131 {} 0 {} -131 {} -188 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -45 {} 0 {} -36 {} 0 {} 0 {} -36 {} -45 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -45 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 72 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 86 {} -311 {} 0 {} -55 {} -159 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -272 {} 0 {} 0 {} -188 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -215 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} 0 {} -63 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -292 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -301 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} -112 {} 0 {} -112 {} -36 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 151 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} -188 {} 0 {} -178 {} -112 {} -112 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -264 {} -253 {} 47 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -112 {} -264 {} -253 {} 47 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} -36 {} -36 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -264 {} -253 {} 47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -83 {} -92 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} -149 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -188 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -112 {} -112 {} -83 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -92 {} -112 {} -73 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} -139 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} -36 {} -36 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} -139 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -112 {} -264 {} -254 {} 47 {} 0 {} -45 {} -36 {} -36 {} 57 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} 0 {} -159 {} 0 {} -131 {} -112 {} 0 {} -159 {} 0 {} 0 {} -36 {} -36 {} -36 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -36 {} 0 {} -120 {} -83 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} -36 {} 0 {} 57 {} 0 {} 0 {} -36 {} 0 {} -36 {} -36 {} -36 {} -36 {} 0 {} 0 {} 0 {} -36 {} 0 {} -159 {} 0 {} 0 {} -112 {} -83 {} -159 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -112 {} -264 {} -254 {} 47 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} -112 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -55 {} -188 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -193 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -131 {} -188 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -36 {} -45 {} 0 {} -36 {} 0 {} 0 {} -36 {} -45 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -45 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 86 {} -311 {} 0 {} -188 {} -243 {} -225 {} -159 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -339 {} -348 {} 0 {} -348 {} 0 {} 0 {} -63 {} 0 {} 0 {} -348 {} -301 {} -339 {} 0 {} -311 {} 0 {} -339 {} 0 {} -319 {} -188 {} -112 {} 0 {} -120 {} -339 {} -348 {} 0 {} -348 {} -311 {} 0 {} 0 {} -348 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} -264 {} 0 {} 0 {} 0 {} 0 {} -45 {} -73 {} 0 {} 0 {} 0 {} 75 {} 114 {} 57 {} 75 {} 0 {} -188 {} 0 {} -120 {} -83 {} -102 {} -243 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} -55 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -264 {} -63 {} -73 {} -63 {} -63 {} -73 {} -63 {} -73 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} -112 {} -149 {} -112 {} 0 {} 0 {} 0 {} -73 {} -73 {} 0 {} -73 {} 0 {} 0 {} -387 {} -73 {} 0 {} 0 {} -73 {} -149 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 38 {} -73 {} -112 {} -73 {} -73 {} -73 {} 47 {} -112 {} -112 {} 0 {} -282 {} 0 {} -376 {} -253 {} -73 {} -376 {} 0 {} 0 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} -73 {} -73 {} -73 {} 0 {} 0 {} 0 {} -235 {} -196 {} 0 {} -112 {} 0 {} 0 {} 38 {} -112 {} 0 {} 0 {} -73 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: class "Required Feature in N'Ko"  2 2 2 3
+  Class: 1409 uni07CA uni07CB uni07CC uni07CD uni07CE uni07CF uni07D0 uni07D1 uni07D2 uni07D3 uni07D4 uni07D5 uni07D6 uni07D7 uni07D8 uni07D9 uni07DA uni07DB uni07DC uni07DD uni07DE uni07DF uni07E0 uni07E1 uni07E2 uni07E3 uni07E4 uni07E5 uni07E6 uni07E7 uni07CA.fina uni07CA.medi uni07CA.init uni07CB.fina uni07CB.medi uni07CB.init uni07CC.fina uni07CC.medi uni07CC.init uni07CD.fina uni07CD.medi uni07CD.init uni07CE.fina uni07CE.medi uni07CE.init uni07CF.fina uni07CF.medi uni07CF.init uni07D0.fina uni07D0.medi uni07D0.init uni07D1.fina uni07D1.medi uni07D1.init uni07D2.fina uni07D2.medi uni07D2.init uni07D3.fina uni07D3.medi uni07D3.init uni07D4.fina uni07D4.medi uni07D4.init uni07D5.fina uni07D5.medi uni07D5.init uni07D6.fina uni07D6.medi uni07D6.init uni07D7.fina uni07D7.medi uni07D7.init uni07D8.fina uni07D8.medi uni07D8.init uni07D9.fina uni07D9.medi uni07D9.init uni07DA.fina uni07DA.medi uni07DA.init uni07DB.fina uni07DB.medi uni07DB.init uni07DC.fina uni07DC.medi uni07DC.init uni07DD.fina uni07DD.medi uni07DD.init uni07DE.fina uni07DE.medi uni07DE.init uni07DF.fina uni07DF.medi uni07DF.init uni07E0.fina uni07E0.medi uni07E0.init uni07E1.fina uni07E1.medi uni07E1.init uni07E2.fina uni07E2.medi uni07E2.init uni07E3.fina uni07E3.medi uni07E3.init uni07E4.fina uni07E4.medi uni07E4.init uni07E5.fina uni07E5.medi uni07E5.init uni07E6.fina uni07E6.medi uni07E6.init uni07E7.fina uni07E7.medi uni07E7.init
+  BClass: 1409 uni07CA uni07CB uni07CC uni07CD uni07CE uni07CF uni07D0 uni07D1 uni07D2 uni07D3 uni07D4 uni07D5 uni07D6 uni07D7 uni07D8 uni07D9 uni07DA uni07DB uni07DC uni07DD uni07DE uni07DF uni07E0 uni07E1 uni07E2 uni07E3 uni07E4 uni07E5 uni07E6 uni07E7 uni07CA.fina uni07CA.medi uni07CA.init uni07CB.fina uni07CB.medi uni07CB.init uni07CC.fina uni07CC.medi uni07CC.init uni07CD.fina uni07CD.medi uni07CD.init uni07CE.fina uni07CE.medi uni07CE.init uni07CF.fina uni07CF.medi uni07CF.init uni07D0.fina uni07D0.medi uni07D0.init uni07D1.fina uni07D1.medi uni07D1.init uni07D2.fina uni07D2.medi uni07D2.init uni07D3.fina uni07D3.medi uni07D3.init uni07D4.fina uni07D4.medi uni07D4.init uni07D5.fina uni07D5.medi uni07D5.init uni07D6.fina uni07D6.medi uni07D6.init uni07D7.fina uni07D7.medi uni07D7.init uni07D8.fina uni07D8.medi uni07D8.init uni07D9.fina uni07D9.medi uni07D9.init uni07DA.fina uni07DA.medi uni07DA.init uni07DB.fina uni07DB.medi uni07DB.init uni07DC.fina uni07DC.medi uni07DC.init uni07DD.fina uni07DD.medi uni07DD.init uni07DE.fina uni07DE.medi uni07DE.init uni07DF.fina uni07DF.medi uni07DF.init uni07E0.fina uni07E0.medi uni07E0.init uni07E1.fina uni07E1.medi uni07E1.init uni07E2.fina uni07E2.medi uni07E2.init uni07E3.fina uni07E3.medi uni07E3.init uni07E4.fina uni07E4.medi uni07E4.init uni07E5.fina uni07E5.medi uni07E5.init uni07E6.fina uni07E6.medi uni07E6.init uni07E7.fina uni07E7.medi uni07E7.init
+  FClass: 1409 uni07CA uni07CB uni07CC uni07CD uni07CE uni07CF uni07D0 uni07D1 uni07D2 uni07D3 uni07D4 uni07D5 uni07D6 uni07D7 uni07D8 uni07D9 uni07DA uni07DB uni07DC uni07DD uni07DE uni07DF uni07E0 uni07E1 uni07E2 uni07E3 uni07E4 uni07E5 uni07E6 uni07E7 uni07CA.fina uni07CA.medi uni07CA.init uni07CB.fina uni07CB.medi uni07CB.init uni07CC.fina uni07CC.medi uni07CC.init uni07CD.fina uni07CD.medi uni07CD.init uni07CE.fina uni07CE.medi uni07CE.init uni07CF.fina uni07CF.medi uni07CF.init uni07D0.fina uni07D0.medi uni07D0.init uni07D1.fina uni07D1.medi uni07D1.init uni07D2.fina uni07D2.medi uni07D2.init uni07D3.fina uni07D3.medi uni07D3.init uni07D4.fina uni07D4.medi uni07D4.init uni07D5.fina uni07D5.medi uni07D5.init uni07D6.fina uni07D6.medi uni07D6.init uni07D7.fina uni07D7.medi uni07D7.init uni07D8.fina uni07D8.medi uni07D8.init uni07D9.fina uni07D9.medi uni07D9.init uni07DA.fina uni07DA.medi uni07DA.init uni07DB.fina uni07DB.medi uni07DB.init uni07DC.fina uni07DC.medi uni07DC.init uni07DD.fina uni07DD.medi uni07DD.init uni07DE.fina uni07DE.medi uni07DE.init uni07DF.fina uni07DF.medi uni07DF.init uni07E0.fina uni07E0.medi uni07E0.init uni07E1.fina uni07E1.medi uni07E1.init uni07E2.fina uni07E2.medi uni07E2.init uni07E3.fina uni07E3.medi uni07E3.init uni07E4.fina uni07E4.medi uni07E4.init uni07E5.fina uni07E5.medi uni07E5.init uni07E6.fina uni07E6.medi uni07E6.init uni07E7.fina uni07E7.medi uni07E7.init
+ 1 1 1
+  ClsList: 1
+  BClsList: 1
+  FClsList: 1
+ 1
+  SeqLookup: 0 "'medi' Medial Forms in N'Ko" 
+ 1 1 0
+  ClsList: 1
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "'fina' Terminal Forms in N'Ko" 
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "'init' Initial Forms in N'Ko" 
+EndFPST
 ChainSub2: class "'ccmp' Tone Bars-Stem-1"  3 3 0 1
   Class: 7 uni02E9
   Class: 39 uni02E5.1 uni02E6.1 uni02E7.1 uni02E8.1
@@ -83788,9 +83812,9 @@ SplineSet
  193 0 l 1,3,-1
  193 1493 l 1,0,-1
 EndSplineSet
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07CA.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07CA.init
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07CA.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07CA.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07CA.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07CA.fina
 EndChar
 StartChar: uni07CB
 Encoding: 1995 1995 1995
@@ -83869,9 +83893,9 @@ SplineSet
  390 -29 390 -29 251.5 109.5 c 128,-1,8
  113 248 113 248 113 443 c 128,-1,9
 EndSplineSet
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07CB.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07CB.init
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07CB.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07CB.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07CB.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07CB.fina
 EndChar
 StartChar: uni07CC
 Encoding: 1996 1996 1996
@@ -83938,9 +83962,9 @@ SplineSet
  255 1497 l 17,8,-1
  434 1078 l 25,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07CC.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07CC.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07CC.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07CC.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07CC.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07CC.init
 EndChar
 StartChar: uni07CD
 Encoding: 1997 1997 1997
@@ -83960,9 +83984,9 @@ SplineSet
  256 0 l 1,6,-1
  61 0 l 1,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07CD.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07CD.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07CD.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07CD.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07CD.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07CD.init
 EndChar
 StartChar: uni07CE
 Encoding: 1998 1998 1998
@@ -84017,9 +84041,9 @@ SplineSet
  1153 881 l 1,7,-1
  1153 0 l 9,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07CE.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07CE.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07CE.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07CE.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07CE.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07CE.init
 EndChar
 StartChar: uni07CF
 Encoding: 1999 1999 1999
@@ -84074,9 +84098,9 @@ SplineSet
  186 881 l 17,7,-1
  1153 881 l 1,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07CF.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07CF.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07CF.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07CF.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07CF.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07CF.init
 EndChar
 StartChar: uni07D0
 Encoding: 2000 2000 2000
@@ -84185,9 +84209,9 @@ SplineSet
  360 1293 360 1293 314.5 1245 c 128,-1,22
  269 1197 269 1197 269 1141 c 128,-1,23
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D0.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D0.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D0.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D0.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D0.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D0.init
 EndChar
 StartChar: uni07D1
 Encoding: 2001 2001 2001
@@ -84251,9 +84275,9 @@ SplineSet
  1153 147 l 9,12,-1
  1153 0 l 25,9,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D1.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D1.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D1.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D1.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D1.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D1.init
 EndChar
 StartChar: uni07D2
 Encoding: 2002 2002 2002
@@ -84343,9 +84367,9 @@ SplineSet
  383 881 383 881 477 881 c 2,27,-1
  725 881 l 1,18,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D2.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D2.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D2.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D2.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D2.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D2.init
 EndChar
 StartChar: uni07D3
 Encoding: 2003 2003 2003
@@ -84409,9 +84433,9 @@ SplineSet
  836 735 l 25,9,-1
  377 735 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D3.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D3.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D3.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D3.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D3.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D3.init
 EndChar
 StartChar: uni07D4
 Encoding: 2004 2004 2004
@@ -84475,9 +84499,9 @@ SplineSet
  61 735 l 25,9,-1
  520 735 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D4.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D4.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D4.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D4.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D4.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D4.init
 EndChar
 StartChar: uni07D5
 Encoding: 2005 2005 2005
@@ -84546,9 +84570,9 @@ SplineSet
  371 881 l 25,23,-1
  712 881 l 18,11,12
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D5.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D5.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D5.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D5.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D5.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D5.init
 EndChar
 StartChar: uni07D6
 Encoding: 2006 2006 2006
@@ -84635,9 +84659,9 @@ SplineSet
  1060 1346 l 1,16,-1
  445 1345 l 25,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D6.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D6.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D6.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D6.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D6.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D6.init
 EndChar
 StartChar: uni07D7
 Encoding: 2007 2007 2007
@@ -84711,9 +84735,9 @@ SplineSet
  340 0 l 1,6,-1
  340 1247 l 1,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D7.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D7.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D7.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D7.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D7.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D7.init
 EndChar
 StartChar: uni07D8
 Encoding: 2008 2008 2008
@@ -84800,9 +84824,9 @@ SplineSet
  889 140 l 25,33,-1
  889 501 l 18,25,26
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D8.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D8.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D8.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D8.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D8.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D8.init
 EndChar
 StartChar: uni07D9
 Encoding: 2009 2009 2009
@@ -84867,9 +84891,9 @@ SplineSet
  392 0 l 1,11,-1
  392 896 l 1,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07D9.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07D9.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07D9.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07D9.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07D9.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07D9.init
 EndChar
 StartChar: uni07DA
 Encoding: 2010 2010 2010
@@ -84961,9 +84985,9 @@ SplineSet
  577 0 l 9,19,-1
  392 0 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07DA.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07DA.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07DA.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07DA.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07DA.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07DA.init
 EndChar
 StartChar: uni07DB
 Encoding: 2011 2011 2011
@@ -85020,9 +85044,9 @@ SplineSet
  968 734 l 9,7,-1
  371 734 l 1,4,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07DB.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07DB.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07DB.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07DB.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07DB.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07DB.init
 EndChar
 StartChar: uni07DC
 Encoding: 2012 2012 2012
@@ -85106,9 +85130,9 @@ SplineSet
  61 1493 l 9,6,-1
  1219 1493 l 17,3,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07DC.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07DC.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07DC.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07DC.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07DC.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07DC.init
 EndChar
 StartChar: uni07DD
 Encoding: 2013 2013 2013
@@ -85199,9 +85223,9 @@ SplineSet
  693 881 l 25,29,-1
  693 1493 l 25,15,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07DD.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07DD.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07DD.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07DD.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07DD.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07DD.init
 EndChar
 StartChar: uni07DE
 Encoding: 2014 2014 2014
@@ -85268,9 +85292,9 @@ SplineSet
  893 1493 l 9,11,-1
  893 0 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07DE.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07DE.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07DE.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07DE.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07DE.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07DE.init
 EndChar
 StartChar: uni07DF
 Encoding: 2015 2015 2015
@@ -85352,9 +85376,9 @@ SplineSet
  1290 612 l 25,27,-1
  958 612 l 25,11,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07DF.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07DF.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07DF.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07DF.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07DF.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07DF.init
 EndChar
 StartChar: uni07E0
 Encoding: 2016 2016 2016
@@ -85408,9 +85432,9 @@ SplineSet
  61 1493 l 9,7,-1
  907 1493 l 17,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E0.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E0.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E0.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E0.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E0.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E0.init
 EndChar
 StartChar: uni07E1
 Encoding: 2017 2017 2017
@@ -85494,9 +85518,9 @@ SplineSet
  755 1493 l 1,6,-1
  1219 0 l 9,3,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E1.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E1.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E1.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E1.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E1.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E1.init
 EndChar
 StartChar: uni07E2
 Encoding: 2018 2018 2018
@@ -85542,9 +85566,9 @@ SplineSet
  360 898 360 898 314.5 850 c 128,-1,27
  269 802 269 802 269 746 c 128,-1,28
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E2.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E2.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E2.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E2.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E2.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E2.init
 EndChar
 StartChar: uni07E3
 Encoding: 2019 2019 2019
@@ -85599,9 +85623,9 @@ SplineSet
  193 1493 l 9,7,-1
  893 1493 l 25,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E3.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E3.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E3.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E3.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E3.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E3.init
 EndChar
 StartChar: uni07E4
 Encoding: 2020 2020 2020
@@ -85661,9 +85685,9 @@ SplineSet
  378 994 l 9,9,-1
  893 994 l 25,0,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E4.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E4.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E4.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E4.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E4.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E4.init
 EndChar
 StartChar: uni07E5
 Encoding: 2021 2021 2021
@@ -85734,9 +85758,9 @@ SplineSet
  193 0 l 1,11,-1
  193 881 l 9,4,-1
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E5.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E5.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E5.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E5.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E5.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E5.init
 EndChar
 StartChar: uni07E6
 Encoding: 2022 2022 2022
@@ -85843,9 +85867,9 @@ SplineSet
  700 1493 l 9,36,-1
  700 1104 l 17,12,13
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E6.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E6.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E6.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E6.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E6.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E6.init
 EndChar
 StartChar: uni07E7
 Encoding: 2023 2023 2023
@@ -85893,9 +85917,9 @@ SplineSet
  360 898 360 898 314.5 850 c 128,-1,29
  269 802 269 802 269 746 c 128,-1,30
 EndSplineSet
-Substitution2: "'fina' Terminal Forms in N'Ko lookup 5" uni07E7.fina
-Substitution2: "'medi' Medial Forms in N'Ko lookup 7" uni07E7.medi
-Substitution2: "'init' Initial Forms in N'Ko lookup 9" uni07E7.init
+Substitution2: "'fina' Terminal Forms in N'Ko" uni07E7.fina
+Substitution2: "'medi' Medial Forms in N'Ko" uni07E7.medi
+Substitution2: "'init' Initial Forms in N'Ko" uni07E7.init
 EndChar
 StartChar: uni07E8
 Encoding: 2024 2024 2024
