@@ -1936,7 +1936,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above"  "'mark' Mark Positioning" "below"  "'mark' Mark Positioning" "above-mark"  "'mkmk' Mark to Mark" 
-BeginChars: 1114162 0
+BeginChars: 1114164 0
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -11747,6 +11747,7 @@ SplineSet
  808 -123 l 1,41,42
  805 -150 805 -150 805 -173 c 0,0,1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates" Eng.alt Eng.alt2
 Substitution2: "'locl' Localized Forms in Latin - Sami" Eng.alt
 EndChar
 StartChar: eng
@@ -14313,6 +14314,7 @@ SplineSet
  1215.29 1356 l 1,30,-1
  751.098 839.25 l 1,0,1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates" uni01B7.alt
 EndChar
 StartChar: uni01B8
 Encoding: 440 440 440
@@ -85611,6 +85613,72 @@ SplineSet
  923 -269 923 -269 934 -210 c 0,55,56
  950 -128 950 -128 591 -128 c 0,57,58
  424 -128 424 -128 324 -91 c 1,47,48
+EndSplineSet
+EndChar
+StartChar: Eng.alt2
+Encoding: 1114162 -1 1114162
+Width: 1872
+Flags: W
+AnchorPoint: "above" 1103 1465 basechar 0
+AnchorPoint: "below" 819 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+615 39 m 1,0,-1
+ 661 274 l 1,1,-1
+ 791 274 l 1,2,3
+ 779 180 779 180 809 136 c 128,-1,4
+ 839 92 839 92 915 92 c 0,5,6
+ 1012 92 1012 92 1065 166 c 128,-1,7
+ 1118 240 1118 240 1158 446 c 2,8,-1
+ 1264 991 l 1,9,-1
+ 311 0 l 1,10,-1
+ 139 0 l 1,11,-1
+ 405 1372 l 1,12,-1
+ 214 1372 l 1,13,-1
+ 238 1493 l 1,14,-1
+ 1006 1493 l 1,15,-1
+ 982 1372 l 1,16,-1
+ 790 1372 l 1,17,-1
+ 629 540 l 1,18,-1
+ 1541 1493 l 1,19,-1
+ 1938 1493 l 1,20,-1
+ 1938 1492 l 1,21,-1
+ 1939 1493 l 1,22,-1
+ 1915 1372 l 1,23,-1
+ 1914 1372 l 1,24,-1
+ 1723 1372 l 1,25,-1
+ 1542 438 l 2,26,27
+ 1495 195 1495 195 1351 83 c 128,-1,28
+ 1207 -29 1207 -29 940 -29 c 0,29,30
+ 857 -29 857 -29 776 -12 c 128,-1,31
+ 695 5 695 5 615 39 c 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni01B7.alt
+Encoding: 1114163 -1 1114163
+Width: 1548
+Flags: W
+AnchorPoint: "below" 605 0 basechar 0
+AnchorPoint: "above" 890 1465 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+1320 0 m 17,0,-1
+ -7 0 l 1,1,-1
+ 75 422 l 1,2,-1
+ 198 422 l 1,3,-1
+ 170 278 l 9,4,-1
+ 931 278 l 17,5,-1
+ 501 886 l 1,6,-1
+ 990 1356 l 9,7,-1
+ 379 1356 l 17,8,-1
+ 342 1161 l 1,9,-1
+ 219 1161 l 1,10,-1
+ 283 1493 l 1,11,-1
+ 1610 1493 l 1,12,-1
+ 801 748 l 9,13,-1
+ 1320 0 l 17,0,-1
 EndSplineSet
 EndChar
 EndChars
