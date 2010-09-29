@@ -2427,7 +2427,6 @@ AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning 
 BeginChars: 1114162 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0 000000.ffffffff.0 000000.ffffffff.0 000000.ffffffff.0
 Width: 1233
 Flags: W
 TtInstrs:
@@ -54502,6 +54501,28 @@ Fore
 Refer: 33 33 N 1 0 0 1 -308 0 2
 Refer: 1114126 -1 N 1 0 0 1 283.5 0 2
 LCarets2: 1 0 
+EndChar
+StartChar: uni204B
+Encoding: 8267 8267 8267
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+651 1493 m 2,0,1
+ 866 1493 866 1493 996.5 1377 c 128,-1,2
+ 1127 1261 1127 1261 1127 1071 c 0,3,4
+ 1127 887 1127 887 1009 776.5 c 128,-1,5
+ 891 666 891 666 676 649 c 1,6,-1
+ 676 -197 l 1,7,-1
+ 535 -197 l 1,8,-1
+ 535 1370 l 1,9,-1
+ 344 1370 l 1,10,-1
+ 344 -197 l 1,11,-1
+ 203 -197 l 1,12,-1
+ 203 1493 l 1,13,-1
+ 651 1493 l 2,0,1
+EndSplineSet
 EndChar
 StartChar: uni205F
 Encoding: 8287 8287 8287
