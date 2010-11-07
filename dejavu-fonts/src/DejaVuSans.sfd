@@ -21250,10 +21250,13 @@ StartChar: Dcaron
 Encoding: 270 270 270
 Width: 1577
 Flags: W
+AnchorPoint: "above-legacy" 748 1901 basechar 0
+AnchorPoint: "below" 748 0 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
-Refer: 68 68 N 1 0 0 1 0 0 2
-Refer: 1114119 -1 N 1 0 0 1 1260 393 2
+Refer: 1114119 -1 N 1 0 0 1 1260 373 2
+Refer: 68 68 N 1 0 0 1 0 0 3
 EndChar
 StartChar: dcaron
 Encoding: 271 271 271
@@ -21272,6 +21275,9 @@ NPUSHB
 DELTAP1
 IUP[x]
 EndTTInstrs
+AnchorPoint: "above" 1022 1520 basechar 0
+AnchorPoint: "below" 614 0 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
 Refer: 100 100 N 1 0 0 1 0 0 3
@@ -110042,60 +110048,81 @@ StartChar: uni1E0A
 Encoding: 7690 7690 7690
 Width: 1577
 Flags: W
+AnchorPoint: "above-legacy" 748 1872 basechar 0
+AnchorPoint: "below" 748 0 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
-Refer: 1114122 -1 N 1 0 0 1 1277 372 2
+Refer: 1114122 -1 N 1 0 0 1 1260 373 2
 Refer: 68 68 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E0B
 Encoding: 7691 7691 7691
 Width: 1300
 Flags: W
+AnchorPoint: "above-legacy" 1022 1929 basechar 0
+AnchorPoint: "below" 614 0 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
-Refer: 775 775 N 1 0 0 1 1534 318 2
+Refer: 775 775 N 1 0 0 1 1534 373 2
 Refer: 100 100 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E0C
 Encoding: 7692 7692 7692
 Width: 1577
 Flags: W
+AnchorPoint: "above" 748 1520 basechar 0
+AnchorPoint: "below" 748 -375 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
-Refer: 803 803 N 1 0 0 1 1198.5 0 2
+Refer: 803 803 N 1 0 0 1 1260 1 2
 Refer: 68 68 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E0D
 Encoding: 7693 7693 7693
 Width: 1300
 Flags: W
+AnchorPoint: "above" 1022 1520 basechar 0
+AnchorPoint: "below" 614 -375 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
-Refer: 803 803 N 1 0 0 1 1146 0 2
+Refer: 803 803 N 1 0 0 1 1126 1 2
 Refer: 100 100 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E0E
 Encoding: 7694 7694 7694
 Width: 1577
 Flags: W
+AnchorPoint: "above" 748 1520 basechar 0
+AnchorPoint: "below" 748 -321 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
+Refer: 817 817 N 1 0 0 1 1260 1 2
 Refer: 68 68 N 1 0 0 1 0 0 3
-Refer: 717 717 N 1 0 0 1 232 0 2
 EndChar
 StartChar: uni1E0F
 Encoding: 7695 7695 7695
 Width: 1300
 Flags: W
+AnchorPoint: "above" 1022 1520 basechar 0
+AnchorPoint: "below" 614 -321 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
+Refer: 817 817 N 1 0 0 1 1126 1 2
 Refer: 100 100 N 1 0 0 1 0 0 3
-Refer: 717 717 N 1 0 0 1 79 0 2
 EndChar
 StartChar: uni1E10
 Encoding: 7696 7696 7696
 Width: 1577
 Flags: W
+AnchorPoint: "above" 748 1520 basechar 0
+AnchorPoint: "below" 748 -396 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
 Refer: 68 68 N 1 0 0 1 0 0 3
@@ -110105,6 +110132,9 @@ StartChar: uni1E11
 Encoding: 7697 7697 7697
 Width: 1300
 Flags: W
+AnchorPoint: "above" 1022 1520 basechar 0
+AnchorPoint: "below" 614 -396 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
 Refer: 100 100 N 1 0 0 1 0 0 3
@@ -110114,18 +110144,24 @@ StartChar: uni1E12
 Encoding: 7698 7698 7698
 Width: 1577
 Flags: W
+AnchorPoint: "above" 748 1520 basechar 0
+AnchorPoint: "below" 748 -491 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
-Refer: 710 710 N 1 0 0 1 166 -1754 2
+Refer: 813 813 N 1 0 0 1 1260 1 2
 Refer: 68 68 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E13
 Encoding: 7699 7699 7699
 Width: 1300
 Flags: W
+AnchorPoint: "above" 1022 1520 basechar 0
+AnchorPoint: "below" 614 -491 basechar 0
+AnchorPoint: "half" 0 1520 basechar 0
 LayerCount: 2
 Fore
-Refer: 710 710 N 1 0 0 1 94 -1754 2
+Refer: 813 813 N 1 0 0 1 1126 1 2
 Refer: 100 100 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uni1E14
@@ -214363,7 +214399,7 @@ SHPIX
 EIF
 EndTTInstrs
 AnchorPoint: "above" -512 1147 mark 0
-AnchorPoint: "above-mark" -512 1528 basemark 0
+AnchorPoint: "above-mark" -512 1499 basemark 0
 AnchorPoint: "above-mark" -512 1147 mark 0
 LayerCount: 2
 Fore
