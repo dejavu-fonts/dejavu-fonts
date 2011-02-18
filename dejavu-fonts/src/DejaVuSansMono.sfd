@@ -38,7 +38,6 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'locl' for Romanian"  {"'locl' for Romanian-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0"  {"'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0"  {"'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('cyrl' <'SRB ' 'dflt' > 'dflt' <> 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 1"  {"'locl' Localized Forms in Cyrillic lookup 1"  } ['locl' ('cyrl' <'SRB ' > ) ]
@@ -2427,7 +2426,7 @@ AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning 
 BeginChars: 1114162 0
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 000000.ffffffff.0 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 000000.ffffffff.0 000000.ffffffff.0
 Width: 1233
 Flags: W
 TtInstrs:
@@ -19927,7 +19926,6 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 83 83 N 1 0 0 1 0 0 2
-Substitution2: "'locl' for Romanian-1" Scommaaccent
 LCarets2: 1 0 
 EndChar
 StartChar: scedilla
@@ -19939,7 +19937,6 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 115 115 N 1 0 0 1 0 0 2
-Substitution2: "'locl' for Romanian-1" scommaaccent
 LCarets2: 1 0 
 EndChar
 StartChar: Scaron
@@ -19975,7 +19972,6 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 0 0 2
 Refer: 84 84 N 1 0 0 1 0 0 2
-Substitution2: "'locl' for Romanian-1" uni021A
 EndChar
 StartChar: tcommaaccent
 Encoding: 355 355 355
@@ -19986,7 +19982,6 @@ LayerCount: 2
 Fore
 Refer: 807 807 N 1 0 0 1 121 0 2
 Refer: 116 116 N 1 0 0 1 0 0 2
-Substitution2: "'locl' for Romanian-1" uni021B
 EndChar
 StartChar: Tcaron
 Encoding: 356 356 356
