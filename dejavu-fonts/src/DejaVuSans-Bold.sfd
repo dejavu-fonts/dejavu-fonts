@@ -58518,7 +58518,7 @@ EndSplineSet
 EndChar
 StartChar: uni05D9
 Encoding: 1497 1497 1497
-Width: 507
+Width: 603
 Flags: W
 TtInstrs:
 PUSHB_5
@@ -58556,16 +58556,16 @@ MDAP[rnd]
 MDRP[rnd,grey]
 IUP[y]
 EndTTInstrs
-AnchorPoint: "rtl-inside" 0 724 basechar 0
-AnchorPoint: "rtl-below" 246 0 basechar 0
+AnchorPoint: "rtl-inside" 48 724 basechar 0
+AnchorPoint: "rtl-below" 294 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-419 1120 m 1,0,-1
- 419 471 l 1,1,-1
- 88 336 l 1,2,-1
- 88 1120 l 1,3,-1
- 419 1120 l 1,0,-1
+467 1120 m 1,0,-1
+ 467 471 l 1,1,-1
+ 136 336 l 1,2,-1
+ 136 1120 l 1,3,-1
+ 467 1120 l 1,0,-1
 EndSplineSet
 EndChar
 StartChar: uni05DA
@@ -58636,6 +58636,47 @@ StartChar: uni05DB
 Encoding: 1499 1499 1499
 Width: 1160
 Flags: W
+TtInstrs:
+PUSHB_7
+ 23
+ 7
+ 13
+ 17
+ 14
+ 21
+ 22
+SRP0
+MDRP[rp0,min,rnd,grey]
+MDRP[rp0,rnd,grey]
+MDRP[rp0,min,rnd,grey]
+MIRP[rp0,min,rnd,grey]
+MDRP[rp0,min,rnd,grey]
+IUP[x]
+MPPEM
+PUSHB_1
+ 10
+LTEQ
+IF
+PUSHW_2
+ 23
+ -64
+SHPIX
+EIF
+SVTCA[y-axis]
+PUSHB_7
+ 21
+ 216
+ 0
+ 179
+ 14
+ 216
+ 13
+MDAP[rnd]
+MIRP[min,rnd,grey]
+MIRP[rp0,min,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
 AnchorPoint: "rtl-above" 520 1118 basechar 0
 AnchorPoint: "rtl-inside" 320 560 basechar 0
 AnchorPoint: "rtl-below" 492 0 basechar 0
@@ -58733,8 +58774,8 @@ PUSHB_7
 MDAP[rnd]
 MIRP[rp0,min,rnd,grey]
 MDRP[min,rnd,grey]
-MIRP[rp0,min,rnd,grey]
-MDRP[rnd,grey]
+MIRP[min,rnd,grey]
+MDRP[min,rnd,grey]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "rtl-inside" 320 560 basechar 0
@@ -59725,7 +59766,7 @@ EndSplineSet
 EndChar
 StartChar: uni05E9
 Encoding: 1513 1513 1513
-Width: 1533
+Width: 1553
 Flags: W
 TtInstrs:
 PUSHB_8
@@ -59758,7 +59799,7 @@ MIRP[rp0,min,rnd,grey]
 MDRP[rp0,min,rnd,grey]
 MPPEM
 PUSHB_1
- 15
+ 11
 LT
 IF
 PUSHW_4
@@ -59807,16 +59848,22 @@ MIRP[rp0,min,rnd,grey]
 MDRP[rnd,grey]
 MDRP[rnd,grey]
 MDRP[rp0,min,rnd,grey]
-PUSHB_7
+PUSHB_8
  48
+ 4
+ 47
  4
  36
  15
  32
  4
- 3
+PUSHB_1
+ 4
 DELTAP1
 MIRP[min,rnd,grey]
+PUSHB_1
+ 15
+UTP
 IUP[y]
 EndTTInstrs
 AnchorPoint: "rtl-inside" 669 382 basechar 0
@@ -152746,13 +152793,13 @@ Ligature2: "'dlig' Discretionary Ligatures in Armenian lookup 18" uni0574 uni056
 EndChar
 StartChar: uniFB1D
 Encoding: 64285 64285 64285
-Width: 507
+Width: 603
 Flags: W
 AnchorPoint: "rtl-inside" 17 800 basechar 0
 LayerCount: 2
 Fore
 Refer: 1497 1497 N 1 0 0 1 0 0 3
-Refer: 1460 1460 N 1 0 0 1 -438 492 2
+Refer: 1460 1460 N 1 0 0 1 -390 416 2
 EndChar
 StartChar: uniFB1E
 Encoding: 64286 64286 64286
@@ -152766,12 +152813,12 @@ SplineSet
 373 1597 m 1,0,-1
  516 1597 l 1,1,2
  527 1527 527 1527 576.5 1490 c 128,-1,3
- 626 1453 626 1453 709 1453 c 0,4,5
+ 626 1453 626 1453 709 1453 c 128,-1,5
  792 1453 792 1453 841.5 1490 c 128,-1,6
  891 1527 891 1527 902 1597 c 1,7,-1
  1045 1597 l 1,8,9
  1039 1453 1039 1453 952 1376.5 c 128,-1,10
- 865 1300 865 1300 709 1300 c 0,11,12
+ 865 1300 865 1300 709 1300 c 128,-1,12
  553 1300 553 1300 466 1376.5 c 128,-1,13
  379 1453 379 1453 373 1597 c 1,0,-1
 EndSplineSet
@@ -152783,7 +152830,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1522 1522 N 1 0 0 1 0 0 3
-Refer: 1463 1463 N 1 0 0 1 0 492 2
+Refer: 1463 1463 N 1 0 0 1 -156 416 2
 EndChar
 StartChar: uniFB20
 Encoding: 64288 64288 64288
@@ -153058,7 +153105,7 @@ EndSplineSet
 EndChar
 StartChar: uniFB2A
 Encoding: 64298 64298 64298
-Width: 1533
+Width: 1553
 Flags: W
 LayerCount: 2
 Fore
@@ -153067,7 +153114,7 @@ Refer: 1513 1513 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniFB2B
 Encoding: 64299 64299 64299
-Width: 1533
+Width: 1553
 Flags: W
 LayerCount: 2
 Fore
@@ -153076,7 +153123,7 @@ Refer: 1513 1513 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniFB2C
 Encoding: 64300 64300 64300
-Width: 1533
+Width: 1553
 Flags: W
 LayerCount: 2
 Fore
@@ -153086,7 +153133,7 @@ Refer: 1513 1513 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniFB2D
 Encoding: 64301 64301 64301
-Width: 1533
+Width: 1553
 Flags: W
 LayerCount: 2
 Fore
@@ -153186,7 +153233,7 @@ Refer: 1496 1496 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniFB39
 Encoding: 64313 64313 64313
-Width: 796
+Width: 891
 Flags: W
 LayerCount: 2
 Fore
@@ -153294,7 +153341,7 @@ Refer: 1512 1512 N 1 0 0 1 0 0 3
 EndChar
 StartChar: uniFB49
 Encoding: 64329 64329 64329
-Width: 1533
+Width: 1553
 Flags: W
 LayerCount: 2
 Fore
