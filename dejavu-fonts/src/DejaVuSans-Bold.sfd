@@ -37633,32 +37633,34 @@ Width: 0
 Flags: W
 TtInstrs:
 NPUSHB
- 12
+ 8
+ 0
+ 168
+ 3
+ 4
+ 3
  2
- 221
- 0
- 163
+ 2
  4
- 202
- 5
- 4
- 1
- 13
- 0
- 5
 SRP0
 MDRP[rp0,rnd,grey]
 MIRP[min,rnd,grey]
-IP
 IUP[x]
 SVTCA[y-axis]
 SRP0
-MIRP[rnd,grey]
-MIRP[min,rnd,grey]
+MDRP[rp0,rnd,grey]
+PUSHB_1
+ 12
+MPPEM
+EQ
+IF
+PUSHW_2
+ 3
+ 64
+SHPIX
+EIF
 MIRP[min,rnd,grey]
 IUP[y]
-SVTCA[y-axis]
-SVTCA[x-axis]
 EndTTInstrs
 AnchorPoint: "above-mark" -514 1270 mark 0
 AnchorPoint: "above-mark" -514 1556 basemark 0
