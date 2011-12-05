@@ -166,6 +166,8 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-1"  3 3 0 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution - Stem" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-Stem-2"  3 3 0 1
   Class: 7 uni02E8
@@ -178,6 +180,8 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-2"  3 3 0 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution - Stem" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-Stem-3"  3 3 0 1
   Class: 7 uni02E7
@@ -190,6 +194,8 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-3"  3 3 0 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution - Stem" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-Stem-4"  3 3 0 1
   Class: 7 uni02E6
@@ -202,6 +208,8 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-4"  3 3 0 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution - Stem" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-Stem-5"  3 3 1 1
   Class: 7 uni02E5
@@ -214,6 +222,9 @@ ChainSub2: class "'ccmp' Tone Bars-Stem-5"  3 3 1 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution - Stem" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  "1"  "2"  
+  FClassNames: "0"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-1"  3 0 3 2
   Class: 7 uni02E9
@@ -232,6 +243,8 @@ ChainSub2: class "'ccmp' Tone Bars-1"  3 0 3 2
   FClsList: 1
  1
   SeqLookup: 0 "Single Substitution - Stemless Form-1" 
+  ClassNames: "0"  "1"  "2"  
+  FClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-2"  3 0 3 2
   Class: 7 uni02E8
@@ -250,6 +263,8 @@ ChainSub2: class "'ccmp' Tone Bars-2"  3 0 3 2
   FClsList: 1
  1
   SeqLookup: 0 "Single Substitution - Stemless Form-2" 
+  ClassNames: "0"  "1"  "2"  
+  FClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-3"  3 0 3 2
   Class: 7 uni02E7
@@ -268,6 +283,8 @@ ChainSub2: class "'ccmp' Tone Bars-3"  3 0 3 2
   FClsList: 1
  1
   SeqLookup: 0 "Single Substitution - Stemless Form-3" 
+  ClassNames: "0"  "1"  "2"  
+  FClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-4"  3 1 3 2
   Class: 7 uni02E6
@@ -286,6 +303,9 @@ ChainSub2: class "'ccmp' Tone Bars-4"  3 1 3 2
   FClsList: 1
  1
   SeqLookup: 0 "Single Substitution - Stemless Form-4" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  
+  FClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' Tone Bars-5"  3 1 3 2
   Class: 7 uni02E5
@@ -304,6 +324,9 @@ ChainSub2: class "'ccmp' Tone Bars-5"  3 1 3 2
   FClsList: 1
  1
   SeqLookup: 0 "Single Substitution - Stemless Form-5" 
+  ClassNames: "0"  "1"  "2"  
+  BClassNames: "0"  
+  FClassNames: "0"  "1"  "2"  
 EndFPST
 ChainSub2: class "'ccmp' in Basic"  5 5 5 6
   Class: 91 i j iogonek uni0249 uni0268 uni029D uni03F3 uni0456 uni0458 uni1E2D uni1ECB uni2148 uni2149
@@ -354,6 +377,9 @@ ChainSub2: class "'ccmp' in Basic"  5 5 5 6
   FClsList:
  1
   SeqLookup: 0 "Single Substitution - Case Form" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  
+  BClassNames: "0"  "1"  "2"  "3"  "4"  
+  FClassNames: "0"  "1"  "2"  "3"  "4"  
 EndFPST
 ChainSub2: class "'ccmp' in RTL"  3 0 3 1
   Class: 7 uni05E2
@@ -366,6 +392,8 @@ ChainSub2: class "'ccmp' in RTL"  3 0 3 1
   FClsList: 2
  1
   SeqLookup: 0 "Single Substitution lookup 21" 
+  ClassNames: "0"  "1"  "2"  
+  FClassNames: "0"  "1"  "2"  
 EndFPST
 TtTable: prep
 PUSHW_1
@@ -6098,6 +6126,7 @@ DELTAP1
 SVTCA[y-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "cedilla" 1154 2 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 554.896 0 basechar 0
 AnchorPoint: "above" 861 1520 basechar 0
@@ -11052,6 +11081,7 @@ NPUSHB
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "cedilla" 883 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 500 0 basechar 0
 AnchorPoint: "above" 718 1147 basechar 0
@@ -24102,6 +24132,10 @@ StartChar: Aogonek
 Encoding: 260 260 260
 Width: 1401
 Flags: W
+AnchorPoint: "above" 861 1520 basechar 0
+AnchorPoint: "below" 388 -312 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "cedilla" 973 -382 basechar 0
 LayerCount: 2
 Fore
 Refer: 731 731 N 1 0 0 1 695 0 2
@@ -24111,6 +24145,10 @@ StartChar: aogonek
 Encoding: 261 261 261
 Width: 1255
 Flags: W
+AnchorPoint: "above" 718 1147 basechar 0
+AnchorPoint: "below" 366 -312 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "cedilla" 735 -384 basechar 0
 LayerCount: 2
 Fore
 Refer: 731 731 N 1 0 0 1 438 0 2
