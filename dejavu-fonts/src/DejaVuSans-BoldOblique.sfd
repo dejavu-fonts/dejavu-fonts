@@ -74,9 +74,10 @@ Lookup: 260 1 0 "'mark' Mark Positioning lookup 5"  {"'mark' Mark Positioning lo
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 6"  {"'mark' Mark Positioning lookup 6"  } ['mark' ('arab' <'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 7"  {"'mark' Mark Positioning in Lao lookup 7"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 8"  {"'mark' Mark Positioning in Lao lookup 8"  } ['mark' ('lao ' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' half"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' half"  "'mark' ogonek"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 11"  {"'kern' Horizontal Kerning in Latin lookup 11"  } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Tone Letters"  {"'kern' Tone Letters-1"  } ['kern' ('DFLT' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'runr' <'dflt' > 'thai' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 5 2 "'kern' Tone Letters-1" 
  79 uni02E6.5 uni02E5.4 uni02E7.4 uni02E6.3 uni02E8.3 uni02E7.2 uni02E9.2 uni02E8.1
@@ -2198,7 +2199,9 @@ UnicodeInterp: none
 NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
-AnchorClass2: "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
+BeginPrivate: 0
+EndPrivate
+AnchorClass2: "ogonek"  "'mark' ogonek" "half"  "'mark' half" "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "lao-above"  "'mark' Mark Positioning in Lao lookup 8" "lao-below"  "'mark' Mark Positioning in Lao lookup 7" "rtl-above"  "'mark' Mark Positioning lookup 6" "rtl-below"  "'mark' Mark Positioning lookup 5" "rtl-inside"  "'mark' Mark Positioning lookup 4" "above-mark"  "'mkmk' above-mark" "below-mark"  "'mkmk' below-mark" "lao-above-mark"  "'mkmk' Mark to Mark in Lao lookup 1" "lao-below-mark"  "'mkmk' Mark to Mark in Lao lookup 0" 
 BeginChars: 1114179 0
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -5949,6 +5952,7 @@ DELTAP1
 SVTCA[y-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 1128 0 basechar 0
 AnchorPoint: "cedilla" 1232 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 644.896 0 basechar 0
@@ -6414,6 +6418,7 @@ MIRP[min,rnd,black]
 EIF
 CLEAR
 EndTTInstrs
+AnchorPoint: "ogonek" 903 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 545 0 basechar 0
 AnchorPoint: "above" 896 1520 basechar 0
@@ -6886,6 +6891,7 @@ PUSHB_3
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 357 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 234 0 basechar 0
 AnchorPoint: "above" 539 1520 basechar 0
@@ -7898,6 +7904,7 @@ SRP0
 MIRP[min,rnd,white]
 IUP[y]
 EndTTInstrs
+AnchorPoint: "ogonek" 725 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 1021 1520 basechar 0
 AnchorPoint: "below" 725 0 basechar 0
@@ -8894,6 +8901,7 @@ MIRP[min,rnd,black]
 EIF
 CLEAR
 EndTTInstrs
+AnchorPoint: "ogonek" 688 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 688 0 basechar 0
 AnchorPoint: "above" 978 1520 basechar 0
@@ -9685,6 +9693,7 @@ DELTAP1
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 728 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 893 1527 basechar 0
 AnchorPoint: "below" 596 0 basechar 0
@@ -10383,6 +10392,7 @@ DELTAP1
 SVTCA[y-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 822 0 basechar 0
 AnchorPoint: "cedilla" 929 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 589 0 basechar 0
@@ -10950,6 +10960,7 @@ MIRP[min,rnd,white]
 IP
 IUP[y]
 EndTTInstrs
+AnchorPoint: "ogonek" 822 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 620 0 basechar 0
 AnchorPoint: "above" 831 1147 basechar 0
@@ -11660,6 +11671,7 @@ PUSHB_3
  1
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 351 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "cedilla" 239 0 basechar 0
 AnchorPoint: "above" 546 1583 basechar 0
@@ -12670,6 +12682,7 @@ PUSHB_3
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 596 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 596 0 basechar 0
 AnchorPoint: "above" 797 1147 basechar 0
@@ -13852,6 +13865,7 @@ PUSHB_3
  1
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 1103 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 618 0 basechar 0
 AnchorPoint: "above" 821 1147 basechar 0
@@ -14736,6 +14750,7 @@ DELTAP1
 SVTCA[y-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "ogonek" 146 -442 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 512 -430 basechar 0
 AnchorPoint: "above" 801 1147 basechar 0
@@ -22791,7 +22806,7 @@ Width: 702
 Flags: W
 LayerCount: 2
 Fore
-Refer: 731 731 N 1 0 0 1 -26.9998 0.000455856 2
+Refer: 731 731 N 1 0 0 1 -27 0 2
 Refer: 105 105 N 1 0 0 1 0 0 3
 Substitution2: "Single Substitution - Dotless Form" iogonek.dotless
 EndChar
@@ -22858,8 +22873,10 @@ MIRP[min,rnd,black]
 EIF
 CLEAR
 EndTTInstrs
-AnchorPoint: "cedilla" 239 0 basechar 0
 AnchorPoint: "below" 239 0 basechar 0
+AnchorPoint: "cedilla" 239 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "ogonek" 351 0 basechar 0
 AnchorPoint: "above" 463 1147 basechar 0
 LayerCount: 2
 Fore
@@ -24363,7 +24380,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 85 85 N 1 0 0 1 0 0 3
-Refer: 731 731 N 1 0 0 1 230.345 -15.6333 2
+Refer: 731 731 N 1 0 0 1 310 0 2
 EndChar
 StartChar: uogonek
 Encoding: 371 371 371
@@ -24372,7 +24389,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 117 117 N 1 0 0 1 0 0 3
-Refer: 731 731 N 1 0 0 1 725.345 0.366699 2
+Refer: 731 731 N 1 0 0 1 725 0 2
 EndChar
 StartChar: Wcircumflex
 Encoding: 372 372 372
@@ -26989,7 +27006,7 @@ AnchorPoint: "above" 1057 1520 basechar 0
 LayerCount: 2
 Fore
 Refer: 79 79 N 1 0 0 1 0 0 3
-Refer: 731 731 N 1 0 0 1 347 -16 2
+Refer: 731 731 N 1 0 0 1 347 0 2
 EndChar
 StartChar: uni01EB
 Encoding: 491 491 491
@@ -26998,7 +27015,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 111 111 N 1 0 0 1 0 0 3
-Refer: 731 731 N 1 0 0 1 181.5 -15.6333 2
+Refer: 731 731 N 1 0 0 1 218 0 2
 EndChar
 StartChar: uni01EC
 Encoding: 492 492 492
@@ -35148,6 +35165,7 @@ StartChar: uni0328
 Encoding: 808 808 808
 Width: 0
 Flags: W
+AnchorPoint: "ogonek" -646 0 mark 0
 LayerCount: 2
 Fore
 Refer: 731 731 N 1 0 0 1 -1024 0 2
