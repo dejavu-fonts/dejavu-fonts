@@ -6300,6 +6300,7 @@ MIRP[min,rnd,black]
 EIF
 CLEAR
 EndTTInstrs
+AnchorPoint: "cedilla" 378 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 632 0 basechar 0
 AnchorPoint: "above" 980 1520 basechar 0
@@ -6418,6 +6419,7 @@ MIRP[min,rnd,black]
 EIF
 CLEAR
 EndTTInstrs
+AnchorPoint: "cedilla" 903 0 basechar 0
 AnchorPoint: "ogonek" 903 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 545 0 basechar 0
@@ -6810,6 +6812,7 @@ MIRP[min,rnd,black]
 EIF
 CLEAR
 EndTTInstrs
+AnchorPoint: "cedilla" 235 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 1005 1520 basechar 0
 AnchorPoint: "below" 710 0 basechar 0
@@ -7681,6 +7684,7 @@ DELTAP1
 SVTCA[y-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "cedilla" 225 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 1168 1520 basechar 0
 AnchorPoint: "below" 873 0 basechar 0
@@ -7834,6 +7838,7 @@ PUSHB_3
  1
 DELTAP1
 EndTTInstrs
+AnchorPoint: "cedilla" 225 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 734 0 basechar 0
 AnchorPoint: "above" 1076 1520 basechar 0
@@ -7904,6 +7909,7 @@ SRP0
 MIRP[min,rnd,white]
 IUP[y]
 EndTTInstrs
+AnchorPoint: "cedilla" 725 0 basechar 0
 AnchorPoint: "ogonek" 725 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 1021 1520 basechar 0
@@ -10849,6 +10855,7 @@ IP
 EIF
 CLEAR
 EndTTInstrs
+AnchorPoint: "cedilla" 581 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 1297 1520 basechar 0
 AnchorPoint: "below" 581 0 basechar 0
@@ -10960,6 +10967,7 @@ MIRP[min,rnd,white]
 IP
 IUP[y]
 EndTTInstrs
+AnchorPoint: "cedilla" 620 0 basechar 0
 AnchorPoint: "ogonek" 822 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 620 0 basechar 0
@@ -11548,6 +11556,7 @@ PUSHB_3
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "cedilla" 242 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 546 0 basechar 0
 AnchorPoint: "above" 550 1520 basechar 0
@@ -12411,6 +12420,7 @@ NPUSHB
  17
 DELTAP1
 EndTTInstrs
+AnchorPoint: "cedilla" 242 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 1182 1147 basechar 0
 AnchorPoint: "below" 960 0 basechar 0
@@ -12606,6 +12616,7 @@ PUSHB_3
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "cedilla" 242 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 570 0 basechar 0
 AnchorPoint: "above" 809 1147 basechar 0
@@ -12682,6 +12693,7 @@ PUSHB_3
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
+AnchorPoint: "above-legacy" 596 0 basechar 0
 AnchorPoint: "ogonek" 596 0 basechar 0
 AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 596 0 basechar 0
@@ -20165,7 +20177,11 @@ NPUSHB
 SVTCA[x-axis]
 DELTAP1
 EndTTInstrs
-AnchorPoint: "above" 1057 1520 basechar 0
+AnchorPoint: "cedilla" 725 0 basechar 0
+AnchorPoint: "below" 725 0 basechar 0
+AnchorPoint: "above" 1021 1520 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "ogonek" 725 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -21511,8 +21527,11 @@ SRP1
 IP
 IUP[y]
 EndTTInstrs
-AnchorPoint: "above" 819 1147 basechar 0
+AnchorPoint: "above-legacy" 596 0 basechar 0
+AnchorPoint: "above" 797 1147 basechar 0
 AnchorPoint: "below" 596 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "ogonek" 596 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -24775,6 +24794,9 @@ NPUSHB
  5
 DELTAP1
 EndTTInstrs
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "cedilla" 425 0 basechar 0
+AnchorPoint: "below" 425 0 basechar 0
 AnchorPoint: "above" 737 1520 basechar 0
 LayerCount: 2
 Fore
@@ -25045,6 +25067,8 @@ StartChar: uni018F
 Encoding: 399 399 399
 Width: 1741
 Flags: W
+AnchorPoint: "cedilla" 725 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 1021 1520 basechar 0
 AnchorPoint: "below" 725 0 basechar 0
 LayerCount: 2
@@ -25082,6 +25106,9 @@ StartChar: uni0190
 Encoding: 400 400 400
 Width: 1425
 Flags: W
+AnchorPoint: "cedilla" 642 0 basechar 0
+AnchorPoint: "below" 642 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "above" 937 1520 basechar 0
 LayerCount: 2
 Fore
@@ -25327,7 +25354,11 @@ StartChar: uni0197
 Encoding: 407 407 407
 Width: 797
 Flags: W
-AnchorPoint: "above" 528 1520 basechar 0
+AnchorPoint: "cedilla" 248 0 basechar 0
+AnchorPoint: "below" 248 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "ogonek" 371 0 basechar 0
+AnchorPoint: "above" 531 1520 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25535,8 +25566,11 @@ StartChar: uni019F
 Encoding: 415 415 415
 Width: 1741
 Flags: W
+AnchorPoint: "cedilla" 725 0 basechar 0
 AnchorPoint: "below" 725 0 basechar 0
 AnchorPoint: "above" 1021 1520 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "ogonek" 725 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -29322,6 +29356,8 @@ MIRP[rp0,rnd,grey]
 MIRP[min,rnd,white]
 IUP[y]
 EndTTInstrs
+AnchorPoint: "cedilla" 332 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 332 0 basechar 0
 AnchorPoint: "above" 633 1147 basechar 0
 LayerCount: 2
@@ -29509,6 +29545,8 @@ StartChar: uni0259
 Encoding: 601 601 601
 Width: 1389
 Flags: W
+AnchorPoint: "cedilla" 584 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 584 0 basechar 0
 AnchorPoint: "above" 821 1147 basechar 0
 LayerCount: 2
@@ -29587,7 +29625,9 @@ StartChar: uni025B
 Encoding: 603 603 603
 Width: 1140
 Flags: W
-AnchorPoint: "below" 584 0 basechar 0
+AnchorPoint: "cedilla" 486 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "below" 486 0 basechar 0
 AnchorPoint: "above" 709 1147 basechar 0
 LayerCount: 2
 Fore
@@ -30051,6 +30091,8 @@ StartChar: uni0268
 Encoding: 616 616 616
 Width: 1117
 Flags: W
+AnchorPoint: "ogonek" 526 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "cedilla" 414 0 basechar 0
 AnchorPoint: "above" 721 1583 basechar 0
 AnchorPoint: "below" 414 0 basechar 0
@@ -30477,8 +30519,11 @@ StartChar: uni0275
 Encoding: 629 629 629
 Width: 1407
 Flags: W
-AnchorPoint: "above" 819 1147 basechar 0
+AnchorPoint: "cedilla" 596 0 basechar 0
+AnchorPoint: "above" 797 1147 basechar 0
 AnchorPoint: "below" 596 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
+AnchorPoint: "ogonek" 596 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -163714,6 +163759,8 @@ StartChar: uni0268.dotless
 Encoding: 1114126 -1 1114126
 Width: 1117
 Flags: W
+AnchorPoint: "ogonek" 526 0 basechar 0
+AnchorPoint: "half" 295 1520 basechar 0
 AnchorPoint: "below" 414 0 basechar 0
 AnchorPoint: "cedilla" 414 0 basechar 0
 AnchorPoint: "above" 640.5 1147 basechar 0
