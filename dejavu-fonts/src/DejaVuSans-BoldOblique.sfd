@@ -35282,13 +35282,39 @@ Encoding: 812 812 812
 Width: 0
 Flags: W
 TtInstrs:
-PUSHB_2
- 0
- 10
 SVTCA[y-axis]
-SRP0
-ALIGNRP
-IUP[y]
+MPPEM
+PUSHB_1
+ 9
+EQ
+MPPEM
+PUSHB_1
+ 11
+EQ
+MPPEM
+PUSHB_1
+ 12
+EQ
+MPPEM
+PUSHB_1
+ 14
+EQ
+OR
+OR
+OR
+IF
+PUSHW_6
+ 7
+ 64
+ 1
+ 7
+ 7
+ -64
+SHPIX
+SRP1
+SHZ[rp1]
+SHPIX
+EIF
 EndTTInstrs
 AnchorPoint: "below-mark" -549 -492 basemark 0
 AnchorPoint: "below-mark" -453 0 mark 0
@@ -35302,13 +35328,39 @@ Encoding: 813 813 813
 Width: 0
 Flags: W
 TtInstrs:
-PUSHB_2
- 2
- 10
 SVTCA[y-axis]
-SRP0
-ALIGNRP
-IUP[y]
+MPPEM
+PUSHB_1
+ 9
+EQ
+MPPEM
+PUSHB_1
+ 11
+EQ
+MPPEM
+PUSHB_1
+ 12
+EQ
+MPPEM
+PUSHB_1
+ 14
+EQ
+OR
+OR
+OR
+IF
+PUSHW_6
+ 7
+ 64
+ 1
+ 7
+ 7
+ -64
+SHPIX
+SRP1
+SHZ[rp1]
+SHPIX
+EIF
 EndTTInstrs
 AnchorPoint: "below-mark" -549 -492 basemark 0
 AnchorPoint: "below-mark" -453 0 mark 0
