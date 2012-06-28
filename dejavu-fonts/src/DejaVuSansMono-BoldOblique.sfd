@@ -13,7 +13,6 @@ Descent: 492
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
@@ -69746,11 +69745,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
--20 -512 m 25,0,0
- -20 532 l 25,0,0
- 616 532 l 25,0,0
- 616 -512 l 25,0,0
- -20 -512 l 25,0,0
+-20 -512 m 25,0,-1
+ -20 532 l 25,1,-1
+ 617 532 l 25,2,-1
+ 617 -512 l 25,3,-1
+ -20 -512 l 25,0,-1
 EndSplineSet
 EndChar
 StartChar: uni2597
@@ -69759,7 +69758,13 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9622 9622 N 1 0 0 1 637 0 2
+SplineSet
+617 -512 m 25,0,-1
+ 617 532 l 25,1,-1
+ 1254 532 l 25,2,-1
+ 1254 -512 l 25,3,-1
+ 617 -512 l 25,0,-1
+EndSplineSet
 EndChar
 StartChar: uni2598
 Encoding: 9624 9624 9624
@@ -69767,7 +69772,13 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9622 9622 N 1 0 0 1 0 1044 2
+SplineSet
+-20 532 m 25,0,-1
+ -20 1576 l 25,1,-1
+ 617 1576 l 25,2,-1
+ 617 532 l 25,3,-1
+ -20 532 l 25,0,-1
+EndSplineSet
 EndChar
 StartChar: uni2599
 Encoding: 9625 9625 9625
@@ -69775,9 +69786,15 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9622 9622 N 1 0 0 1 0 0 2
-Refer: 9623 9623 N 1 0 0 1 0 0 2
-Refer: 9624 9624 N 1 0 0 1 0 0 2
+SplineSet
+-20 -512 m 1,0,-1
+ -20 1576 l 1,1,-1
+ 617 1576 l 1,2,-1
+ 617 532 l 1,3,-1
+ 1254 532 l 1,4,-1
+ 1254 -512 l 1,5,-1
+ -20 -512 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni259A
 Encoding: 9626 9626 9626
@@ -69785,8 +69802,18 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9623 9623 N 1 0 0 1 0 0 2
-Refer: 9624 9624 N 1 0 0 1 0 0 2
+SplineSet
+-20 532 m 1,0,-1
+ -20 1576 l 1,1,-1
+ 617 1576 l 1,2,-1
+ 617 532 l 1,3,-1
+ -20 532 l 1,0,-1
+617 532 m 1,4,-1
+ 1254 532 l 1,5,-1
+ 1254 -512 l 1,6,-1
+ 617 -512 l 1,7,-1
+ 617 532 l 1,4,-1
+EndSplineSet
 EndChar
 StartChar: uni259B
 Encoding: 9627 9627 9627
@@ -69794,9 +69821,15 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9622 9622 N 1 0 0 1 0 0 2
-Refer: 9624 9624 N 1 0 0 1 0 0 2
-Refer: 9629 9629 N 1 0 0 1 0 0 2
+SplineSet
+-20 1576 m 1,0,-1
+ 1254 1576 l 1,1,-1
+ 1254 532 l 1,2,-1
+ 617 532 l 1,3,-1
+ 617 -512 l 1,4,-1
+ -20 -512 l 1,5,-1
+ -20 1576 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni259C
 Encoding: 9628 9628 9628
@@ -69804,9 +69837,15 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9623 9623 N 1 0 0 1 0 0 2
-Refer: 9624 9624 N 1 0 0 1 0 0 2
-Refer: 9629 9629 N 1 0 0 1 0 0 2
+SplineSet
+1254 1576 m 1,0,-1
+ 1254 -512 l 1,1,-1
+ 617 -512 l 1,2,-1
+ 617 532 l 1,3,-1
+ -20 532 l 1,4,-1
+ -20 1576 l 1,5,-1
+ 1254 1576 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uni259D
 Encoding: 9629 9629 9629
@@ -69814,7 +69853,13 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9622 9622 N 1 0 0 1 637 1044 2
+SplineSet
+617 532 m 25,0,-1
+ 617 1576 l 25,1,-1
+ 1254 1576 l 25,2,-1
+ 1254 532 l 25,3,-1
+ 617 532 l 25,0,-1
+EndSplineSet
 EndChar
 StartChar: uni259E
 Encoding: 9630 9630 9630
@@ -69822,8 +69867,18 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9622 9622 N 1 0 0 1 0 0 2
-Refer: 9629 9629 N 1 0 0 1 0 0 2
+SplineSet
+-20 532 m 1,0,-1
+ 617 532 l 1,1,-1
+ 617 -512 l 1,2,-1
+ -20 -512 l 1,3,-1
+ -20 532 l 1,0,-1
+617 532 m 1,4,-1
+ 617 1576 l 1,5,-1
+ 1254 1576 l 1,6,-1
+ 1254 532 l 1,7,-1
+ 617 532 l 1,4,-1
+EndSplineSet
 EndChar
 StartChar: uni259F
 Encoding: 9631 9631 9631
@@ -69831,9 +69886,15 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9622 9622 N 1 0 0 1 0 0 2
-Refer: 9623 9623 N 1 0 0 1 0 0 2
-Refer: 9629 9629 N 1 0 0 1 0 0 2
+SplineSet
+1254 -512 m 1,0,-1
+ -20 -512 l 1,1,-1
+ -20 532 l 1,2,-1
+ 617 532 l 1,3,-1
+ 617 1576 l 1,4,-1
+ 1254 1576 l 1,5,-1
+ 1254 -512 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: filledbox
 Encoding: 9632 9632 9632
