@@ -76,7 +76,7 @@ Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 7"  {"'mark' Mark Positio
 Lookup: 260 0 0 "'mark' Mark Positioning in Lao lookup 8"  {"'mark' Mark Positioning in Lao lookup 8"  } ['mark' ('lao ' <'dflt' > ) ]
 Lookup: 261 0 0 "'mark' Mark Positioning lookup 9"  {"'mark' Mark Positioning lookup 9"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' ogonek"  "'mark' half"  "'mark' above-legacy"  "'mark' cedilla"  "'mark' below"  "'mark' above"  } ['mark' ('cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 12"  {"'kern' Horizontal Kerning in Latin lookup 12"  } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 12"  {"'kern' Horizontal Kerning in Latin lookup 12" [307,0,0] } ['kern' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Tone Letters"  {"'kern' Tone Letters-1"  } ['kern' ('DFLT' <'dflt' > 'arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cans' <'dflt' > 'cher' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'hebr' <'dflt' > 'kana' <'dflt' > 'lao ' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'nko ' <'dflt' > 'ogam' <'dflt' > 'runr' <'dflt' > 'tfng' <'dflt' > 'thai' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -93,7 +93,7 @@ KernClass2: 30 38 "'kern' Horizontal Kerning in Latin lookup 12"
  1 B
  47 C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron
  1 F
- 1 K
+ 9 K uniA740
  22 L Lacute Lcaron Lslash
  44 O Ograve Oacute Ocircumflex Otilde Odieresis
  1 P
@@ -141771,6 +141771,64 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 893 893 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uniA740
+Encoding: 42816 42816 42816
+Width: 1343
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+346 1493 m 1,0,-1
+ 549 1493 l 1,1,-1
+ 513.019077901 1309 l 1,2,-1
+ 703 1309 l 1,3,-1
+ 675 1165 l 1,4,-1
+ 484.86009539 1165 l 1,5,-1
+ 426 864 l 1,6,-1
+ 1210 1493 l 1,7,-1
+ 1479 1493 l 1,8,-1
+ 592 780 l 1,9,-1
+ 1241 0 l 1,10,-1
+ 995 0 l 1,11,-1
+ 399 727 l 1,12,-1
+ 258 0 l 1,13,-1
+ 55 0 l 1,14,-1
+ 282.069658406 1165 l 1,15,-1
+ 91 1165 l 1,16,-1
+ 119 1309 l 1,17,-1
+ 310.136637642 1309 l 1,18,-1
+ 346 1493 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uniA741
+Encoding: 42817 42817 42817
+Width: 1186
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+375 1556 m 1,0,-1
+ 559 1556 l 1,1,-1
+ 525.624035281 1384 l 1,2,-1
+ 691 1384 l 1,3,-1
+ 659 1220 l 1,4,-1
+ 493.800441014 1220 l 1,5,-1
+ 383 649 l 1,6,-1
+ 1014 1120 l 1,7,-1
+ 1253 1120 l 1,8,-1
+ 549 584 l 1,9,-1
+ 1063 0 l 1,10,-1
+ 840 0 l 1,11,-1
+ 362 547 l 1,12,-1
+ 256 0 l 1,13,-1
+ 72 0 l 1,14,-1
+ 309.570694087 1220 l 1,15,-1
+ 131 1220 l 1,16,-1
+ 163 1384 l 1,17,-1
+ 341.506426735 1384 l 1,18,-1
+ 375 1556 l 1,0,-1
+EndSplineSet
 EndChar
 StartChar: uniA746
 Encoding: 42822 42822 42822
