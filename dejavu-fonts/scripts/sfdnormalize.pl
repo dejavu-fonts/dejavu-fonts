@@ -27,6 +27,7 @@
 #   TeXData - discarded
 #   TeX - discarded
 #   Validated - discarded
+#   UndoRedoHistory - discarded
 # changes making it incompatible with FF older than (approx.) 20050728:
 #   Ref     - renamed to Refer
 #   KernsSLIF
@@ -49,6 +50,7 @@ sub process_sfd_file($) {
   my $in_spline_set = 0;
   my $max_dec_enc = 0;
   my %pos_glyphs_map = ();
+  my $in_undo_redo = 0;
 
   while (<SFD>) {
     next if (/^(WinInfo|DisplaySize|HStem|VStem|ModificationTime|CreationTime|VWidth|TeX|TeXData|Validated|AltUni2):/);
@@ -70,6 +72,13 @@ sub process_sfd_file($) {
       s/(\s+)(\S+?)(,\S+\s*)$/$1.($2 & ~4 & ~256).$3/e;
       s/([\s^])-0(\s)/$1."0".$2/eg
     }
+    #remove UndoRedoHistory block
+    if (/^UndoRedoHistory/) {
+      $in_undo_redo = 1; next
+    } elsif (/^EndUndoRedoHistory/) {
+      $in_undo_redo = 0; next
+    }
+    next if ($in_undo_redo);
     if (/^BeginChars:/) {
       $in_chars = 1;
     } elsif (/^EndChars\s*$/) {
