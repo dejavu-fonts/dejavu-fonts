@@ -44,6 +44,7 @@ Lookup: 4 0 1 "'liga' Standard Ligatures in Latin"  {"'liga' Standard Ligatures 
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 4"  {"'dlig' Discretionary Ligatures lookup 4"  } ['dlig' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution - Case Form"  {"Single Substitution - Case Form"  } []
 Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
+Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Basic"  {"'mkmk' above-mark"  } ['mkmk' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -2048,7 +2049,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above-legacy"  "'mark' above-legacy" "cedilla"  "'mark' cedilla" "above"  "'mark' above" "below"  "'mark' below" "Ligature below"  "'mark' Mark Positioning lookup 5" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 3" "above-mark"  "'mkmk' above-mark" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114153 0
+BeginChars: 1114156 0
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -4658,19 +4659,20 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-459 1365 m 1,0,-1
- 362 1365 l 1,1,-1
- 362 1493 l 1,2,-1
- 459 1493 l 1,3,-1
- 459 1365 l 1,0,-1
-459 0 m 1,4,-1
- 362 0 l 1,5,-1
- 362 655 l 1,6,-1
- 382 1012 l 1,7,-1
- 438 1012 l 1,8,-1
- 459 655 l 1,9,-1
- 459 0 l 1,4,-1
+459 992 m 1,0,-1
+ 362 992 l 1,1,-1
+ 362 1120 l 1,2,-1
+ 459 1120 l 1,3,-1
+ 459 992 l 1,0,-1
+459 -373 m 1,4,-1
+ 362 -373 l 1,5,-1
+ 362 282 l 1,6,-1
+ 382 639 l 1,7,-1
+ 438 639 l 1,8,-1
+ 459 282 l 1,9,-1
+ 459 -373 l 1,4,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" exclamdown.case
 EndChar
 StartChar: cent
 Encoding: 162 162 162
@@ -5512,37 +5514,38 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-511 1090 m 1,0,-1
- 612 1090 l 1,1,-1
- 612 936 l 2,2,3
- 612 848 612 848 578 770 c 0,4,5
- 553 710 553 710 460 619 c 2,6,-1
- 370 530 l 2,7,8
- 310 470 310 470 288 430 c 0,9,10
- 262 383 262 383 262 334 c 0,11,12
- 262 208 262 208 328 130 c 128,-1,13
- 394 52 394 52 507 52 c 0,14,15
- 632 52 632 52 697 81 c 0,16,17
- 802 127 802 127 878 214 c 1,18,-1
- 899 105 l 1,19,20
- 799 21 799 21 721 -2 c 0,21,22
- 631 -29 631 -29 517 -29 c 0,23,24
- 378 -29 378 -29 266 68 c 0,25,26
- 155 165 155 165 155 324 c 0,27,28
- 155 400 155 400 191 468 c 0,29,30
- 225 533 225 533 317 623 c 2,31,-1
- 405 709 l 2,32,33
- 449 752 449 752 472 782 c 0,34,35
- 491 809 491 809 499 834 c 0,36,37
- 505 855 505 855 508 885 c 128,-1,38
- 511 915 511 915 511 967 c 2,39,-1
- 511 1090 l 1,0,-1
-613 1365 m 1,40,-1
- 511 1365 l 1,41,-1
- 511 1491 l 1,42,-1
- 613 1491 l 1,43,-1
- 613 1365 l 1,40,-1
+511 717 m 1,0,-1
+ 612 717 l 1,1,-1
+ 612 563 l 2,2,3
+ 612 475 612 475 578 397 c 0,4,5
+ 553 337 553 337 460 246 c 2,6,-1
+ 370 157 l 2,7,8
+ 310 97 310 97 288 57 c 0,9,10
+ 262 10 262 10 262 -39 c 0,11,12
+ 262 -165 262 -165 328 -243 c 128,-1,13
+ 394 -321 394 -321 507 -321 c 0,14,15
+ 632 -321 632 -321 697 -292 c 0,16,17
+ 802 -246 802 -246 878 -159 c 1,18,-1
+ 899 -268 l 1,19,20
+ 799 -352 799 -352 721 -375 c 0,21,22
+ 631 -402 631 -402 517 -402 c 0,23,24
+ 378 -402 378 -402 266 -305 c 0,25,26
+ 155 -208 155 -208 155 -49 c 0,27,28
+ 155 27 155 27 191 95 c 0,29,30
+ 225 160 225 160 317 250 c 2,31,-1
+ 405 336 l 2,32,33
+ 449 379 449 379 472 409 c 0,34,35
+ 491 436 491 436 499 461 c 0,36,37
+ 505 482 505 482 508 512 c 128,-1,38
+ 511 542 511 542 511 594 c 2,39,-1
+ 511 717 l 1,0,-1
+613 992 m 1,40,-1
+ 511 992 l 1,41,-1
+ 511 1118 l 1,42,-1
+ 613 1118 l 1,43,-1
+ 613 992 l 1,40,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" questiondown.case
 EndChar
 StartChar: Agrave
 Encoding: 192 192 192
@@ -36178,43 +36181,44 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-511 1090 m 1,0,-1
- 612 1090 l 1,1,-1
- 612 936 l 2,2,3
- 612 888.11 612 888.11 601.931 843.181 c 2,4,-1
- 613 655 l 1,5,-1
- 613 58.71 l 1,6,7
- 662.987 65.96 662.987 65.96 697 81 c 0,8,9
- 802.601 127.689 802.601 127.689 878 214 c 1,10,-1
- 899 105 l 1,11,12
- 799.369 21.3105 799.369 21.3105 721 -2 c 0,13,14
- 630.223 -29 630.223 -29 517 -29 c 0,15,16
- 378 -29 378 -29 266 68 c 0,17,18
- 155 165 155 165 155 324 c 0,19,20
- 155 400 155 400 191 469 c 0,21,22
- 225 533 225 533 317 623 c 2,23,-1
- 405 709 l 2,24,25
- 449 752 449 752 472 783 c 0,26,27
- 491 809 491 809 499 834 c 0,28,29
- 505 855 505 855 508 885 c 0,30,31
- 508 915 508 915 511 967 c 2,32,-1
- 511 1090 l 1,0,-1
-613 1365 m 1,33,-1
- 511 1365 l 1,34,-1
- 511 1491 l 1,35,-1
- 613 1491 l 1,36,-1
- 613 1365 l 1,33,-1
-517.396 679.94 m 1,37,38
- 493.171 651.802 493.171 651.802 460 619 c 2,39,-1
- 370 530 l 2,40,41
- 310.142 470.14 310.142 470.14 288 430 c 0,42,43
- 262 382.86 262 382.86 262 334 c 0,44,45
- 262 208 262 208 328 130 c 128,-1,46
- 394 52 394 52 507 52 c 0,47,48
- 511.54 52 511.54 52 516 52.04 c 1,49,-1
- 516 655 l 1,50,-1
- 517.396 679.94 l 1,37,38
+511 717 m 1,0,-1
+ 612 717 l 1,1,-1
+ 612 563 l 2,2,3
+ 612 515 612 515 602 470 c 2,4,-1
+ 613 282 l 1,5,-1
+ 613 -314 l 1,6,7
+ 663 -307 663 -307 697 -292 c 0,8,9
+ 803 -245 803 -245 878 -159 c 1,10,-1
+ 899 -268 l 1,11,12
+ 799 -352 799 -352 721 -375 c 0,13,14
+ 630 -402 630 -402 517 -402 c 0,15,16
+ 378 -402 378 -402 266 -305 c 0,17,18
+ 155 -208 155 -208 155 -49 c 0,19,20
+ 155 27 155 27 191 96 c 0,21,22
+ 225 160 225 160 317 250 c 2,23,-1
+ 405 336 l 2,24,25
+ 449 379 449 379 472 410 c 0,26,27
+ 491 436 491 436 499 461 c 0,28,29
+ 505 482 505 482 508 512 c 0,30,31
+ 508 542 508 542 511 594 c 2,32,-1
+ 511 717 l 1,0,-1
+613 992 m 1,33,-1
+ 511 992 l 1,34,-1
+ 511 1118 l 1,35,-1
+ 613 1118 l 1,36,-1
+ 613 992 l 1,33,-1
+517 307 m 1,37,38
+ 493 279 493 279 460 246 c 2,39,-1
+ 370 157 l 2,40,41
+ 310 97 310 97 288 57 c 0,42,43
+ 262 10 262 10 262 -39 c 0,44,45
+ 262 -165 262 -165 328 -243 c 128,-1,46
+ 394 -321 394 -321 507 -321 c 0,47,48
+ 512 -321 512 -321 516 -321 c 1,49,-1
+ 516 282 l 1,50,-1
+ 517 307 l 1,37,38
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" uni2E18.case
 EndChar
 StartChar: uni2E22
 Encoding: 11810 11810 11810
@@ -40733,6 +40737,30 @@ SplineSet
  293 -29 293 -29 198 -7 c 128,-1,15
  103 15 103 15 0 61 c 1,0,-1
 EndSplineSet
+EndChar
+StartChar: exclamdown.case
+Encoding: 1114153 -1 1114153
+Width: 821
+Flags: W
+LayerCount: 2
+Fore
+Refer: 161 161 N 1 0 0 1 0 373 3
+EndChar
+StartChar: questiondown.case
+Encoding: 1114154 -1 1114154
+Width: 1098
+Flags: W
+LayerCount: 2
+Fore
+Refer: 191 191 N 1 0 0 1 0 373 3
+EndChar
+StartChar: uni2E18.case
+Encoding: 1114155 -1 1114155
+Width: 1098
+Flags: W
+LayerCount: 2
+Fore
+Refer: 11800 11800 N 1 0 0 1 0 373 3
 EndChar
 EndChars
 EndSplineFont
