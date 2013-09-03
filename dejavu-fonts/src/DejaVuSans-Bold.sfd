@@ -76,9 +76,6 @@ Lookup: 1 0 0 "Single Substitution - Stemless Form-3"  {"Single Substitution - S
 Lookup: 1 0 0 "Single Substitution - Stemless Form-2"  {"Single Substitution - Stemless Form-2" ("2" ) } []
 Lookup: 1 0 0 "Single Substitution - Stemless Form-1"  {"Single Substitution - Stemless Form-1" ("1" ) } []
 Lookup: 1 0 0 "Single Substitution - Stem"  {"Single Substitution - Stem"  } []
-Lookup: 1 1 0 "DejaVuSans-Bold-Single Substitution lookup 30"  {"DejaVuSans-Bold-Single Substitution lookup 30"  } []
-Lookup: 4 1 0 "DejaVuSans-Bold-'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  {"DejaVuSans-Bold-'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  } ['ccmp' ('hebr' <'dflt' > ) ]
-Lookup: 4 1 0 "DejaVuSans-Bold-'hlig' Historic Ligatures in Hebrew lookup 17"  {"DejaVuSans-Bold-'hlig' Historic Ligatures in Hebrew lookup 17"  } ['hlig' ('hebr' <'dflt' > ) ]
 Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
@@ -59439,7 +59436,7 @@ SplineSet
  763 341 763 341 802.5 459 c 128,-1,18
  842 577 842 577 842 809 c 2,0,-1
 EndSplineSet
-Substitution2: "DejaVuSans-Bold-Single Substitution lookup 30" uniFB20
+Substitution2: "Single Substitution lookup 30" uniFB20
 EndChar
 StartChar: uni05E3
 Encoding: 1507 1507 1507
@@ -157073,6 +157070,7 @@ LayerCount: 2
 Fore
 Refer: 1497 1497 N 1 0 0 1 0 0 3
 Refer: 1460 1460 N 1 0 0 1 -390 416 2
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" uni05D9 uni05B4
 EndChar
 StartChar: uniFB1E
 Encoding: 64286 64286 64286
@@ -157104,6 +157102,7 @@ LayerCount: 2
 Fore
 Refer: 1522 1522 N 1 0 0 1 0 0 3
 Refer: 1463 1463 N 1 0 0 1 -156 416 2
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" uni05F2 uni05B7
 EndChar
 StartChar: uniFB20
 Encoding: 64288 64288 64288
@@ -157695,6 +157694,7 @@ SplineSet
  88 1493 l 1,23,-1
  446 1493 l 1,0,-1
 EndSplineSet
+Ligature2: "'hlig' Historic Ligatures in Hebrew lookup 17" uni05D0 uni05DC
 EndChar
 StartChar: uniFB52
 Encoding: 64338 64338 64338

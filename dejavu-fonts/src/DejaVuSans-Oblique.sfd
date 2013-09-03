@@ -64,8 +64,6 @@ Lookup: 1 0 0 "Single Substitution - Stemless Form-3"  {"Single Substitution - S
 Lookup: 1 0 0 "Single Substitution - Stemless Form-2"  {"Single Substitution - Stemless Form-2" ("2" ) } []
 Lookup: 1 0 0 "Single Substitution - Stemless Form-1"  {"Single Substitution - Stemless Form-1"  } []
 Lookup: 1 0 0 "Single Substitution - Stem"  {"Single Substitution - Stem"  } []
-Lookup: 1 1 0 "DejaVuSans-DejaVuSans-Single Substitution lookup 30"  {"DejaVuSans-DejaVuSans-Single Substitution lookup 30"  } []
-Lookup: 4 1 0 "DejaVuSans-DejaVuSans-'hlig' Historic Ligatures in Hebrew lookup 17"  {"DejaVuSans-DejaVuSans-'hlig' Historic Ligatures in Hebrew lookup 17"  } ['hlig' ('hebr' <'dflt' > ) ]
 Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 0"  {"'mkmk' Mark to Mark in Lao lookup 0"  } ['mkmk' ('lao ' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 1"  {"'mkmk' Mark to Mark in Lao lookup 1"  } ['mkmk' ('lao ' <'dflt' > ) ]
@@ -52982,7 +52980,7 @@ SplineSet
  902.616 353 902.616 353 963.274 485 c 128,-1,19
  1023.93 617 1023.93 617 1066.5 836 c 2,0,-1
 EndSplineSet
-Substitution2: "DejaVuSans-DejaVuSans-Single Substitution lookup 30" uniFB20
+Substitution2: "Single Substitution lookup 21" uniFB20
 EndChar
 StartChar: uni05E3
 Encoding: 1507 1507 1507
@@ -148118,6 +148116,7 @@ LayerCount: 2
 Fore
 Refer: 1460 1460 N 1 0 0 1 -392.389 416 2
 Refer: 1497 1497 N 1 0 0 1 0 0 3
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" uni05D9 uni05B4
 EndChar
 StartChar: uniFB1E
 Encoding: 64286 64286 64286
@@ -148150,6 +148149,7 @@ LayerCount: 2
 Fore
 Refer: 1463 1463 N 1 0 0 1 -177.138 416 2
 Refer: 1522 1522 N 1 0 0 1 0 0 3
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" uni05F2 uni05B7
 EndChar
 StartChar: uniFB20
 Encoding: 64288 64288 64288
@@ -148801,7 +148801,7 @@ SplineSet
  1044.5 445 1044.5 445 1020.46 434.5 c 128,-1,44
  996.417 424 996.417 424 961.891 411 c 1,0,-1
 EndSplineSet
-Ligature2: "DejaVuSans-DejaVuSans-'hlig' Historic Ligatures in Hebrew lookup 17" uni05D0 uni05DC
+Ligature2: "'hlig' Historic Ligatures in Hebrew lookup 8" uni05D0 uni05DC
 LCarets2: 1 0 
 EndChar
 StartChar: uniFE00

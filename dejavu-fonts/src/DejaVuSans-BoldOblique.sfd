@@ -64,7 +64,6 @@ Lookup: 1 0 0 "Single Substitution - Stemless Form-3"  {"Single Substitution - S
 Lookup: 1 0 0 "Single Substitution - Stemless Form-2"  {"Single Substitution - Stemless Form-2" ("2" ) } []
 Lookup: 1 0 0 "Single Substitution - Stemless Form-1"  {"Single Substitution - Stemless Form-1" ("1" ) } []
 Lookup: 1 0 0 "Single Substitution - Stem"  {"Single Substitution - Stem"  } []
-Lookup: 1 1 0 "DejaVuSans-Bold-DejaVuSans-Bold-Single Substitution lookup 30"  {"DejaVuSans-Bold-DejaVuSans-Bold-Single Substitution lookup 30"  } []
 Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 0"  {"'mkmk' Mark to Mark in Lao lookup 0"  } ['mkmk' ('lao ' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Lao lookup 1"  {"'mkmk' Mark to Mark in Lao lookup 1"  } ['mkmk' ('lao ' <'dflt' > ) ]
@@ -50090,7 +50089,7 @@ SplineSet
  829.283 341 829.283 341 891.721 459 c 128,-1,18
  954.157 577 954.157 577 999.254 809 c 2,0,-1
 EndSplineSet
-Substitution2: "DejaVuSans-Bold-DejaVuSans-Bold-Single Substitution lookup 30" uniFB20
+Substitution2: "Single Substitution lookup 21" uniFB20
 EndChar
 StartChar: uni05E3
 Encoding: 1507 1507 1507
@@ -142043,6 +142042,7 @@ LayerCount: 2
 Fore
 Refer: 1460 1460 N 1 0 0 1 -377.365 428 2
 Refer: 1497 1497 N 1 0 0 1 0 0 3
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" uni05D9 uni05B4
 EndChar
 StartChar: uniFB1E
 Encoding: 64286 64286 64286
@@ -142075,6 +142075,7 @@ LayerCount: 2
 Fore
 Refer: 1463 1463 N 1 0 0 1 95.635 424 2
 Refer: 1522 1522 N 1 0 0 1 0 0 3
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" uni05F2 uni05B7
 EndChar
 StartChar: uniFB20
 Encoding: 64288 64288 64288
@@ -142696,6 +142697,7 @@ SplineSet
  378.21 1493 l 1,23,-1
  736.21 1493 l 1,0,-1
 EndSplineSet
+Ligature2: "'hlig' Historic Ligatures in Hebrew lookup 8" uni05D0 uni05DC
 EndChar
 StartChar: uniFE00
 Encoding: 65024 65024 65024
