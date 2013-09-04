@@ -40,6 +40,7 @@ OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'locl' Localized Forms lookup 0"  {"'locl' Localized Forms lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0"  {"'locl' Localized Forms in Cyrillic lookup 0"  } ['locl' ('cyrl' <'SRB ' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 3"  {"'dlig' Discretionary Ligatures in Latin lookup 3"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 DEI: 91125
 TtTable: prep
@@ -1394,7 +1395,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
-BeginChars: 1114135 0
+BeginChars: 1114138 0
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1233
@@ -14524,7 +14525,7 @@ Width: 1233
 Flags: W
 TtInstrs:
 NPUSHB
- 46
+ 48
  0
  3
  1
@@ -14552,9 +14553,11 @@ NPUSHB
  52
  7
  0
- 2
- 57
  4
+ 57
+ 2
+ 101
+ 10
  8
  0
  3
@@ -14587,8 +14590,9 @@ IP
 IP
 IUP[x]
 SVTCA[y-axis]
-MDAP[rnd]
+SRP0
 MIRP[rp0,rnd,grey]
+MIRP[rnd,grey]
 MDRP[rp0,min,rnd,grey]
 MDRP[rnd,grey]
 IUP[y]
@@ -14620,19 +14624,20 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-840 1210 m 1,0,-1
- 573 1210 l 1,1,-1
- 629 1493 l 1,2,-1
- 895 1493 l 1,3,-1
- 840 1210 l 1,0,-1
-604 0 m 1,4,-1
- 338 0 l 1,5,-1
- 465 655 l 1,6,-1
- 567 1012 l 1,7,-1
- 766 1012 l 1,8,-1
- 731 655 l 1,9,-1
- 604 0 l 1,4,-1
+840 837 m 1,0,-1
+ 573 837 l 1,1,-1
+ 629 1120 l 1,2,-1
+ 895 1120 l 1,3,-1
+ 840 837 l 1,0,-1
+604 -373 m 1,4,-1
+ 338 -373 l 1,5,-1
+ 465 282 l 1,6,-1
+ 567 639 l 1,7,-1
+ 766 639 l 1,8,-1
+ 731 282 l 1,9,-1
+ 604 -373 l 1,4,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" exclamdown.case
 EndChar
 StartChar: cent
 Encoding: 162 162 162
@@ -17423,9 +17428,9 @@ NPUSHB
  60
  16
  19
- 69
+ 102
  32
- 57
+ 101
  34
  32
  31
@@ -17512,35 +17517,36 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-594 1092 m 1,0,-1
- 860 1092 l 1,1,-1
- 831 938 l 1,2,3
- 814 843 814 843 769.5 772 c 128,-1,4
- 725 701 725 701 631 621 c 1,5,-1
- 526 528 l 1,6,-1
- 511 515 l 2,7,8
- 371 393 371 393 371 328 c 0,9,10
- 371 271 371 271 408 240 c 128,-1,11
- 445 209 445 209 514 209 c 0,12,13
- 603 209 603 209 705.5 245.5 c 128,-1,14
- 808 282 808 282 924 354 c 1,15,-1
- 872 86 l 1,16,17
- 771 31 771 31 664 2 c 128,-1,18
- 557 -27 557 -27 453 -27 c 0,19,20
- 288 -27 288 -27 189 55.5 c 128,-1,21
- 90 138 90 138 90 272 c 0,22,23
- 90 367 90 367 139 450 c 128,-1,24
- 188 533 188 533 305 631 c 1,25,-1
- 410 717 l 1,26,-1
- 418 724 l 2,27,28
- 544 829 544 829 571 969 c 1,29,-1
- 594 1092 l 1,0,-1
-885 1210 m 1,30,-1
- 618 1210 l 1,31,-1
- 672 1493 l 1,32,-1
- 940 1493 l 1,33,-1
- 885 1210 l 1,30,-1
+594 719 m 1,0,-1
+ 860 719 l 1,1,-1
+ 831 565 l 1,2,3
+ 814 470 814 470 769.5 399 c 128,-1,4
+ 725 328 725 328 631 248 c 1,5,-1
+ 526 155 l 1,6,-1
+ 511 142 l 2,7,8
+ 371 20 371 20 371 -45 c 0,9,10
+ 371 -102 371 -102 408 -133 c 128,-1,11
+ 445 -164 445 -164 514 -164 c 0,12,13
+ 603 -164 603 -164 705.5 -127.5 c 128,-1,14
+ 808 -91 808 -91 924 -19 c 1,15,-1
+ 872 -287 l 1,16,17
+ 771 -342 771 -342 664 -371 c 128,-1,18
+ 557 -400 557 -400 453 -400 c 0,19,20
+ 288 -400 288 -400 189 -317.5 c 128,-1,21
+ 90 -235 90 -235 90 -101 c 0,22,23
+ 90 -6 90 -6 139 77 c 128,-1,24
+ 188 160 188 160 305 258 c 1,25,-1
+ 410 344 l 1,26,-1
+ 418 351 l 2,27,28
+ 544 456 544 456 571 596 c 1,29,-1
+ 594 719 l 1,0,-1
+885 837 m 1,30,-1
+ 618 837 l 1,31,-1
+ 672 1120 l 1,32,-1
+ 940 1120 l 1,33,-1
+ 885 837 l 1,30,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" questiondown.case
 EndChar
 StartChar: Agrave
 Encoding: 192 192 192
@@ -76223,36 +76229,37 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-594 1092 m 1,0,-1
- 861 1092 l 1,1,-1
- 695 241 l 1,2,-1
- 717 249 l 0,3,4
- 815 284 815 284 924 354 c 1,5,-1
- 872 86 l 1,6,7
- 763 30 763 30 657 1 c 0,8,9
- 551 -27 551 -27 450 -27 c 0,10,11
- 248 -27 248 -27 152 67 c 0,12,13
- 55 161 55 161 87 326 c 0,14,15
- 102 402 102 402 148 467 c 0,16,17
- 195 533 195 533 307 625 c 2,18,-1
- 412 711 l 2,19,20
- 493 778 493 778 520 819 c 0,21,22
- 547 861 547 861 559 922 c 0,23,24
- 560 931 560 931 564 943 c 0,25,26
- 566 955 566 955 570 969 c 2,27,-1
- 594 1092 l 1,0,-1
-427 232 m 1,28,-1
- 478 496 l 1,29,30
- 436 459 436 459 414 431 c 0,31,32
- 385 391 385 391 376 348 c 0,33,34
- 363 281 363 281 403 247 c 0,35,36
- 413 238 413 238 427 232 c 1,28,-1
-939 1493 m 1,37,-1
- 884 1210 l 1,38,-1
- 617 1210 l 1,39,-1
- 672 1493 l 1,40,-1
- 939 1493 l 1,37,-1
+594 719 m 1,0,-1
+ 861 719 l 1,1,-1
+ 695 -132 l 1,2,-1
+ 717 -124 l 0,3,4
+ 815 -89 815 -89 924 -19 c 1,5,-1
+ 872 -287 l 1,6,7
+ 763 -343 763 -343 657 -372 c 0,8,9
+ 551 -400 551 -400 450 -400 c 0,10,11
+ 248 -400 248 -400 152 -306 c 0,12,13
+ 55 -212 55 -212 87 -47 c 0,14,15
+ 102 29 102 29 148 94 c 0,16,17
+ 195 160 195 160 307 252 c 2,18,-1
+ 412 338 l 2,19,20
+ 493 405 493 405 520 446 c 0,21,22
+ 547 488 547 488 559 549 c 0,23,24
+ 560 558 560 558 564 570 c 0,25,26
+ 566 582 566 582 570 596 c 2,27,-1
+ 594 719 l 1,0,-1
+427 -141 m 1,28,-1
+ 478 123 l 1,29,30
+ 436 86 436 86 414 58 c 0,31,32
+ 385 18 385 18 376 -25 c 0,33,34
+ 363 -92 363 -92 403 -126 c 0,35,36
+ 413 -135 413 -135 427 -141 c 1,28,-1
+939 1120 m 1,37,-1
+ 884 837 l 1,38,-1
+ 617 837 l 1,39,-1
+ 672 1120 l 1,40,-1
+ 939 1120 l 1,37,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" uni2E18.case
 EndChar
 StartChar: uni2E1F
 Encoding: 11807 11807 11807
@@ -78570,6 +78577,305 @@ SplineSet
  4 0 l 1,18,-1
  294 1493 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: exclamdown.case
+Encoding: 1114135 -1 1114135
+Width: 1233
+Flags: W
+TtInstrs:
+NPUSHB
+ 46
+ 0
+ 3
+ 1
+ 2
+ 1
+ 3
+ 3
+ 2
+ 2
+ 1
+ 4
+ 3
+ 5
+ 6
+ 5
+ 7
+ 8
+ 2
+ 6
+ 9
+ 3
+ 6
+ 6
+ 5
+ 52
+ 7
+ 0
+ 2
+ 57
+ 4
+ 8
+ 0
+ 3
+ 2
+ 7
+ 6
+ 4
+ 1
+ 3
+ 1
+ 1
+ 2
+ 0
+ 6
+ 5
+ 10
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+MDRP[grey]
+SRP2
+IP
+SRP1
+IP
+SRP1
+SRP2
+IP
+IP
+IUP[x]
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[rp0,rnd,grey]
+MDRP[rp0,min,rnd,grey]
+MDRP[rnd,grey]
+IUP[y]
+MPPEM
+GTEQ
+IF
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SRP1
+SLOOP
+IP
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+EIF
+CLEAR
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+840 1210 m 1,0,-1
+ 573 1210 l 1,1,-1
+ 629 1493 l 1,2,-1
+ 895 1493 l 1,3,-1
+ 840 1210 l 1,0,-1
+604 0 m 1,4,-1
+ 338 0 l 1,5,-1
+ 465 655 l 1,6,-1
+ 567 1012 l 1,7,-1
+ 766 1012 l 1,8,-1
+ 731 655 l 1,9,-1
+ 604 0 l 1,4,-1
+EndSplineSet
+EndChar
+StartChar: questiondown.case
+Encoding: 1114136 -1 1114136
+Width: 1233
+Flags: W
+TtInstrs:
+NPUSHB
+ 76
+ 0
+ 3
+ 1
+ 2
+ 1
+ 24
+ 25
+ 26
+ 27
+ 28
+ 5
+ 23
+ 29
+ 3
+ 2
+ 2
+ 1
+ 32
+ 3
+ 33
+ 30
+ 33
+ 31
+ 3
+ 30
+ 30
+ 33
+ 52
+ 7
+ 12
+ 6
+ 29
+ 27
+ 5
+ 2
+ 4
+ 6
+ 25
+ 0
+ 15
+ 60
+ 16
+ 0
+ 30
+ 32
+ 12
+ 60
+ 16
+ 19
+ 69
+ 32
+ 57
+ 34
+ 32
+ 31
+ 29
+ 27
+ 0
+ 7
+ 5
+ 2
+ 1
+ 9
+ 30
+ 25
+ 22
+ 16
+ 9
+ 30
+ 1
+ 33
+ 15
+ 9
+ 15
+ 22
+ 34
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+MDRP[rp0,rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+SRP1
+IP
+SRP2
+IP
+SRP2
+SLOOP
+IP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MIRP[rnd,grey]
+MIRP[rp0,rnd,grey]
+MDRP[rnd,grey]
+MIRP[min,rnd,grey]
+SRP0
+MDRP[rp0,min,rnd,white]
+MDRP[min,rnd,black]
+SRP0
+MIRP[min,rnd,white]
+SRP1
+IP
+IP
+SLOOP
+IP
+SRP1
+SRP2
+IP
+IUP[y]
+MPPEM
+GTEQ
+IF
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SRP1
+SLOOP
+IP
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+EIF
+CLEAR
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+594 1092 m 1,0,-1
+ 860 1092 l 1,1,-1
+ 831 938 l 1,2,3
+ 814 843 814 843 769.5 772 c 128,-1,4
+ 725 701 725 701 631 621 c 1,5,-1
+ 526 528 l 1,6,-1
+ 511 515 l 2,7,8
+ 371 393 371 393 371 328 c 0,9,10
+ 371 271 371 271 408 240 c 128,-1,11
+ 445 209 445 209 514 209 c 0,12,13
+ 603 209 603 209 705.5 245.5 c 128,-1,14
+ 808 282 808 282 924 354 c 1,15,-1
+ 872 86 l 1,16,17
+ 771 31 771 31 664 2 c 128,-1,18
+ 557 -27 557 -27 453 -27 c 0,19,20
+ 288 -27 288 -27 189 55.5 c 128,-1,21
+ 90 138 90 138 90 272 c 0,22,23
+ 90 367 90 367 139 450 c 128,-1,24
+ 188 533 188 533 305 631 c 1,25,-1
+ 410 717 l 1,26,-1
+ 418 724 l 2,27,28
+ 544 829 544 829 571 969 c 1,29,-1
+ 594 1092 l 1,0,-1
+885 1210 m 1,30,-1
+ 618 1210 l 1,31,-1
+ 672 1493 l 1,32,-1
+ 940 1493 l 1,33,-1
+ 885 1210 l 1,30,-1
+EndSplineSet
+EndChar
+StartChar: uni2E18.case
+Encoding: 1114137 -1 1114137
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 11800 11800 N 1 0 0 1 0 373 3
 EndChar
 EndChars
 EndSplineFont

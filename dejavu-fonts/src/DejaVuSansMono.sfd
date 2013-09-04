@@ -47,6 +47,7 @@ Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 6"  {"'rlig' Required 
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 7"  {"'liga' Standard Ligatures in Arabic lookup 7"  } ['liga' ('arab' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10"  {"'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
+Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 2"  {"'mark' Mark Positioning in Arabic lookup 2"  } ['mark' ('arab' <'dflt' > ) ]
@@ -2425,7 +2426,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' above, below" "below"  "'mark' above, below" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114162 0
+BeginChars: 1114165 0
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1233
@@ -12060,13 +12061,15 @@ Width: 1233
 Flags: W
 TtInstrs:
 NPUSHB
- 14
+ 16
  6
  0
  134
- 1
- 136
  4
+ 136
+ 1
+ 194
+ 10
  7
  6
  8
@@ -12084,8 +12087,9 @@ IP
 IP
 IUP[x]
 SVTCA[y-axis]
-MDAP[rnd]
+SRP0
 MIRP[rp0,rnd,grey]
+MIRP[rnd,grey]
 MIRP[rp0,min,rnd,grey]
 MDRP[min,rnd,grey]
 IUP[y]
@@ -12093,19 +12097,20 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-516 1239 m 1,0,-1
- 516 1493 l 1,1,-1
- 719 1493 l 1,2,-1
- 719 1239 l 1,3,-1
- 516 1239 l 1,0,-1
-516 0 m 1,4,-1
- 516 655 l 1,5,-1
- 537 1012 l 1,6,-1
- 698 1012 l 1,7,-1
- 719 655 l 1,8,-1
- 719 0 l 1,9,-1
- 516 0 l 1,4,-1
+516 866 m 1,0,-1
+ 516 1120 l 1,1,-1
+ 719 1120 l 1,2,-1
+ 719 866 l 1,3,-1
+ 516 866 l 1,0,-1
+516 -373 m 1,4,-1
+ 516 282 l 1,5,-1
+ 537 639 l 1,6,-1
+ 698 639 l 1,7,-1
+ 719 282 l 1,8,-1
+ 719 -373 l 1,9,-1
+ 516 -373 l 1,4,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" exclamdown.case
 EndChar
 StartChar: cent
 Encoding: 162 162 162
@@ -14536,9 +14541,9 @@ NPUSHB
  12
  151
  19
- 153
+ 195
  36
- 136
+ 194
  38
  6
  35
@@ -14626,37 +14631,38 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-549 1092 m 1,0,-1
- 739 1092 l 1,1,-1
- 739 938 l 2,2,3
- 739 840 739 840 708.5 771.5 c 128,-1,4
- 678 703 678 703 594 621 c 2,5,-1
- 504 532 l 1,6,7
- 442 473 442 473 418.5 429 c 128,-1,8
- 395 385 395 385 395 336 c 0,9,10
- 395 247 395 247 460.5 192 c 128,-1,11
- 526 137 526 137 635 137 c 0,12,13
- 713 137 713 137 802 171.5 c 128,-1,14
- 891 206 891 206 989 274 c 1,15,-1
- 989 86 l 1,16,17
- 895 29 895 29 799.5 1 c 128,-1,18
- 704 -27 704 -27 600 -27 c 0,19,20
- 414 -27 414 -27 303.5 69 c 128,-1,21
- 193 165 193 165 193 326 c 0,22,23
- 193 402 193 402 226.5 467.5 c 128,-1,24
- 260 533 260 533 354 625 c 2,25,-1
- 442 711 l 2,26,27
- 509 775 509 775 528 817 c 128,-1,28
- 547 859 547 859 547 922 c 0,29,30
- 547 923 547 923 547 927 c 0,31,32
- 549 950 549 950 549 969 c 2,33,-1
- 549 1092 l 1,0,-1
-745 1239 m 1,34,-1
- 543 1239 l 1,35,-1
- 543 1493 l 1,36,-1
- 745 1493 l 1,37,-1
- 745 1239 l 1,34,-1
+549 719 m 1,0,-1
+ 739 719 l 1,1,-1
+ 739 565 l 2,2,3
+ 739 467 739 467 708.5 398.5 c 128,-1,4
+ 678 330 678 330 594 248 c 2,5,-1
+ 504 159 l 1,6,7
+ 442 100 442 100 418.5 56 c 128,-1,8
+ 395 12 395 12 395 -37 c 0,9,10
+ 395 -126 395 -126 460.5 -181 c 128,-1,11
+ 526 -236 526 -236 635 -236 c 0,12,13
+ 713 -236 713 -236 802 -201.5 c 128,-1,14
+ 891 -167 891 -167 989 -99 c 1,15,-1
+ 989 -287 l 1,16,17
+ 895 -344 895 -344 799.5 -372 c 128,-1,18
+ 704 -400 704 -400 600 -400 c 0,19,20
+ 414 -400 414 -400 303.5 -304 c 128,-1,21
+ 193 -208 193 -208 193 -47 c 0,22,23
+ 193 29 193 29 226.5 94.5 c 128,-1,24
+ 260 160 260 160 354 252 c 2,25,-1
+ 442 338 l 2,26,27
+ 509 402 509 402 528 444 c 128,-1,28
+ 547 486 547 486 547 549 c 0,29,30
+ 547 550 547 550 547 554 c 0,31,32
+ 549 577 549 577 549 596 c 2,33,-1
+ 549 719 l 1,0,-1
+745 866 m 1,34,-1
+ 543 866 l 1,35,-1
+ 543 1120 l 1,36,-1
+ 745 1120 l 1,37,-1
+ 745 866 l 1,34,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" questiondown.case
 EndChar
 StartChar: Agrave
 Encoding: 192 192 192
@@ -96535,35 +96541,36 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-549 1092 m 1,0,-1
- 739 1092 l 1,1,-1
- 739 151 l 1,2,3
- 770 159 770 159 802 171 c 0,4,5
- 891 206 891 206 989 274 c 1,6,-1
- 989 86 l 1,7,8
- 895 29 895 29 799 1 c 0,9,10
- 704 -27 704 -27 600 -27 c 0,11,12
- 414 -27 414 -27 303 69 c 0,13,14
- 193 165 193 165 193 326 c 0,15,16
- 193 402 193 402 227 467 c 0,17,18
- 260 533 260 533 354 625 c 2,19,-1
- 442 711 l 2,20,21
- 511 777 511 777 530 819 c 128,-1,23
- 549 861 549 861 549 922 c 2,24,-1
- 549 1092 l 1,0,-1
-746 1493 m 1,25,-1
- 746 1239 l 1,26,-1
- 543 1239 l 1,27,-1
- 543 1493 l 1,28,-1
- 746 1493 l 1,25,-1
-549 147 m 1,29,-1
- 549 577 l 1,30,-1
- 504 532 l 2,31,32
- 442 473 442 473 419 429 c 0,33,34
- 395 385 395 385 395 336 c 0,35,36
- 395 247 395 247 461 192 c 0,37,38
- 498 161 498 161 549 147 c 1,29,-1
+549 719 m 1,0,-1
+ 739 719 l 1,1,-1
+ 739 -222 l 1,2,3
+ 770 -214 770 -214 802 -202 c 0,4,5
+ 891 -167 891 -167 989 -99 c 1,6,-1
+ 989 -287 l 1,7,8
+ 895 -344 895 -344 799 -372 c 0,9,10
+ 704 -400 704 -400 600 -400 c 0,11,12
+ 414 -400 414 -400 303 -304 c 0,13,14
+ 193 -208 193 -208 193 -47 c 0,15,16
+ 193 29 193 29 227 94 c 0,17,18
+ 260 160 260 160 354 252 c 2,19,-1
+ 442 338 l 2,20,21
+ 511 404 511 404 530 446 c 128,-1,22
+ 549 488 549 488 549 549 c 2,23,-1
+ 549 719 l 1,0,-1
+746 1120 m 1,24,-1
+ 746 866 l 1,25,-1
+ 543 866 l 1,26,-1
+ 543 1120 l 1,27,-1
+ 746 1120 l 1,24,-1
+549 -226 m 1,28,-1
+ 549 204 l 1,29,-1
+ 504 159 l 2,30,31
+ 442 100 442 100 419 56 c 0,32,33
+ 395 12 395 12 395 -37 c 0,34,35
+ 395 -126 395 -126 461 -181 c 0,36,37
+ 498 -212 498 -212 549 -226 c 1,28,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms" uni2E18.case
 EndChar
 StartChar: uni2E1F
 Encoding: 11807 11807 11807
@@ -103451,6 +103458,238 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1607 1607 N 1 0 0 1 0 0 2
+EndChar
+StartChar: exclamdown.case
+Encoding: 1114162 -1 1114162
+Width: 1233
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 6
+ 0
+ 134
+ 1
+ 136
+ 4
+ 7
+ 6
+ 8
+ 2
+ 3
+ 4
+ 0
+ 10
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+IP
+IP
+IUP[x]
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[rp0,rnd,grey]
+MIRP[rp0,min,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+516 1239 m 1,0,-1
+ 516 1493 l 1,1,-1
+ 719 1493 l 1,2,-1
+ 719 1239 l 1,3,-1
+ 516 1239 l 1,0,-1
+516 0 m 1,4,-1
+ 516 655 l 1,5,-1
+ 537 1012 l 1,6,-1
+ 698 1012 l 1,7,-1
+ 719 655 l 1,8,-1
+ 719 0 l 1,9,-1
+ 516 0 l 1,4,-1
+EndSplineSet
+EndChar
+StartChar: questiondown.case
+Encoding: 1114163 -1 1114163
+Width: 1233
+Flags: W
+TtInstrs:
+NPUSHB
+ 71
+ 11
+ 10
+ 9
+ 8
+ 7
+ 5
+ 12
+ 6
+ 37
+ 25
+ 26
+ 25
+ 3
+ 4
+ 2
+ 2
+ 5
+ 37
+ 26
+ 26
+ 25
+ 66
+ 33
+ 26
+ 5
+ 2
+ 4
+ 6
+ 25
+ 0
+ 16
+ 139
+ 15
+ 141
+ 12
+ 0
+ 34
+ 134
+ 36
+ 12
+ 151
+ 19
+ 153
+ 36
+ 136
+ 38
+ 6
+ 35
+ 25
+ 22
+ 9
+ 31
+ 5
+ 0
+ 3
+ 29
+ 1
+ 26
+ 35
+ 9
+ 41
+ 22
+ 15
+ 29
+ 3
+ 1
+ 15
+ 34
+ 30
+ 35
+ 38
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rp0,min,rnd,grey]
+MDRP[rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+SRP0
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,white]
+SRP1
+IP
+SRP1
+SRP2
+SLOOP
+IP
+SRP1
+SRP2
+IP
+SRP2
+IP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MIRP[rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+SRP0
+MIRP[rp0,min,rnd,white]
+MDRP[min,rnd,black]
+SRP0
+MIRP[rp0,rnd,grey]
+MIRP[min,rnd,white]
+SRP2
+IP
+IP
+SLOOP
+IP
+IUP[y]
+MPPEM
+GTEQ
+IF
+SPVTL[orthog]
+SRP0
+SFVTCA[y-axis]
+MIRP[min,rnd,black]
+SRP1
+SLOOP
+IP
+SPVTL[orthog]
+SRP0
+SFVTCA[y-axis]
+MIRP[min,rnd,black]
+SRP1
+SLOOP
+IP
+EIF
+CLEAR
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+549 1092 m 1,0,-1
+ 739 1092 l 1,1,-1
+ 739 938 l 2,2,3
+ 739 840 739 840 708.5 771.5 c 128,-1,4
+ 678 703 678 703 594 621 c 2,5,-1
+ 504 532 l 1,6,7
+ 442 473 442 473 418.5 429 c 128,-1,8
+ 395 385 395 385 395 336 c 0,9,10
+ 395 247 395 247 460.5 192 c 128,-1,11
+ 526 137 526 137 635 137 c 0,12,13
+ 713 137 713 137 802 171.5 c 128,-1,14
+ 891 206 891 206 989 274 c 1,15,-1
+ 989 86 l 1,16,17
+ 895 29 895 29 799.5 1 c 128,-1,18
+ 704 -27 704 -27 600 -27 c 0,19,20
+ 414 -27 414 -27 303.5 69 c 128,-1,21
+ 193 165 193 165 193 326 c 0,22,23
+ 193 402 193 402 226.5 467.5 c 128,-1,24
+ 260 533 260 533 354 625 c 2,25,-1
+ 442 711 l 2,26,27
+ 509 775 509 775 528 817 c 128,-1,28
+ 547 859 547 859 547 922 c 0,29,30
+ 547 923 547 923 547 927 c 0,31,32
+ 549 950 549 950 549 969 c 2,33,-1
+ 549 1092 l 1,0,-1
+745 1239 m 1,34,-1
+ 543 1239 l 1,35,-1
+ 543 1493 l 1,36,-1
+ 745 1493 l 1,37,-1
+ 745 1239 l 1,34,-1
+EndSplineSet
+EndChar
+StartChar: uni2E18.case
+Encoding: 1114164 -1 1114164
+Width: 1233
+Flags: W
+LayerCount: 2
+Fore
+Refer: 11800 11800 N 1 0 0 1 0 373 3
 EndChar
 EndChars
 EndSplineFont
