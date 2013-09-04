@@ -15497,7 +15497,7 @@ Width: 934
 Flags: W
 TtInstrs:
 NPUSHB
- 48
+ 49
  4
  5
  5
@@ -15527,10 +15527,11 @@ NPUSHB
  85
  0
  84
+ 4
+ 83
  2
  122
  10
- 4
  8
  0
  4
@@ -15559,9 +15560,9 @@ SLOOP
 IP
 IUP[x]
 SVTCA[y-axis]
-MDAP[rnd]
 SRP0
 MIRP[rp0,rnd,grey]
+MIRP[rnd,grey]
 MIRP[rp0,min,rnd,grey]
 MIRP[min,rnd,grey]
 IUP[y]
