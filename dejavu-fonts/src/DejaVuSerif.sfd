@@ -1914,6 +1914,63 @@ ShortTable: maxp 16
   1
 EndShort
 LangName: 1033 "" "" "" "DejaVu Serif" "" "Version 2.34" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License" "" "DejaVu Serif" "Book" 
+MATH:ScriptPercentScaleDown: 80
+MATH:ScriptScriptPercentScaleDown: 60
+MATH:DelimitedSubFormulaMinHeight: 3072
+MATH:DisplayOperatorMinHeight: 0
+MATH:MathLeading: 0 
+MATH:AxisHeight: 642 
+MATH:AccentBaseHeight: 1063 
+MATH:FlattenedAccentBaseHeight: 1493 
+MATH:SubscriptShiftDown: 0 
+MATH:SubscriptTopMax: 1063 
+MATH:SubscriptBaselineDropMin: 0 
+MATH:SuperscriptShiftUp: 0 
+MATH:SuperscriptShiftUpCramped: 0 
+MATH:SuperscriptBottomMin: 1063 
+MATH:SuperscriptBaselineDropMax: 0 
+MATH:SubSuperscriptGapMin: 360 
+MATH:SuperscriptBottomMaxWithSubscript: 1063 
+MATH:SpaceAfterScript: 85 
+MATH:UpperLimitGapMin: 0 
+MATH:UpperLimitBaselineRiseMin: 0 
+MATH:LowerLimitGapMin: 0 
+MATH:LowerLimitBaselineDropMin: 0 
+MATH:StackTopShiftUp: 0 
+MATH:StackTopDisplayStyleShiftUp: 0 
+MATH:StackBottomShiftDown: 0 
+MATH:StackBottomDisplayStyleShiftDown: 0 
+MATH:StackGapMin: 270 
+MATH:StackDisplayStyleGapMin: 630 
+MATH:StretchStackTopShiftUp: 0 
+MATH:StretchStackBottomShiftDown: 0 
+MATH:StretchStackGapAboveMin: 0 
+MATH:StretchStackGapBelowMin: 0 
+MATH:FractionNumeratorShiftUp: 0 
+MATH:FractionNumeratorDisplayStyleShiftUp: 0 
+MATH:FractionDenominatorShiftDown: 0 
+MATH:FractionDenominatorDisplayStyleShiftDown: 0 
+MATH:FractionNumeratorGapMin: 90 
+MATH:FractionNumeratorDisplayStyleGapMin: 270 
+MATH:FractionRuleThickness: 90 
+MATH:FractionDenominatorGapMin: 90 
+MATH:FractionDenominatorDisplayStyleGapMin: 270 
+MATH:SkewedFractionHorizontalGap: 0 
+MATH:SkewedFractionVerticalGap: 0 
+MATH:OverbarVerticalGap: 270 
+MATH:OverbarRuleThickness: 90 
+MATH:OverbarExtraAscender: 90 
+MATH:UnderbarVerticalGap: 270 
+MATH:UnderbarRuleThickness: 90 
+MATH:UnderbarExtraDescender: 90 
+MATH:RadicalVerticalGap: 90 
+MATH:RadicalDisplayStyleVerticalGap: 355 
+MATH:RadicalRuleThickness: 90 
+MATH:RadicalExtraAscender: 90 
+MATH:RadicalKernBeforeDegree: 568 
+MATH:RadicalKernAfterDegree: -1137 
+MATH:RadicalDegreeBottomRaisePercent: 60
+MATH:MinConnectorOverlap: 40
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL without afii
@@ -2877,6 +2934,7 @@ StartChar: parenleft
 Encoding: 40 40 40
 Width: 799
 Flags: W
+GlyphCompositionVertical: 3  uni239D%0,0,40,2421 uni239C%1,40,40,2445 uni239B%0,40,0,2454
 TtInstrs:
 NPUSHB
  13
@@ -2927,6 +2985,7 @@ StartChar: parenright
 Encoding: 41 41 41
 Width: 799
 Flags: W
+GlyphCompositionVertical: 3  uni23A0%0,0,40,2421 uni239F%1,40,40,2445 uni239E%0,40,0,2454
 TtInstrs:
 NPUSHB
  12
@@ -4829,6 +4888,7 @@ StartChar: equal
 Encoding: 61 61 61
 Width: 1716
 Flags: W
+GlyphCompositionHorizontal: 2  equal%0,0,40,1282 equal%1,40,0,1282
 TtInstrs:
 NPUSHB
  14
@@ -9951,6 +10011,7 @@ StartChar: bracketleft
 Encoding: 91 91 91
 Width: 799
 Flags: W
+GlyphCompositionVertical: 3  uni23A3%0,0,40,2421 uni23A2%1,40,40,2445 uni23A1%0,40,0,2417
 TtInstrs:
 NPUSHB
  18
@@ -10065,6 +10126,7 @@ StartChar: bracketright
 Encoding: 93 93 93
 Width: 799
 Flags: W
+GlyphCompositionVertical: 3  uni23A6%0,0,40,2406 uni23A5%1,40,40,2430 uni23A4%0,40,0,2417
 TtInstrs:
 NPUSHB
  15
@@ -10159,6 +10221,7 @@ StartChar: underscore
 Encoding: 95 95 95
 Width: 1024
 Flags: W
+GlyphCompositionHorizontal: 2  underscore%0,0,40,1024 underscore%1,40,0,1024
 TtInstrs:
 PUSHB_6
  0
@@ -15094,6 +15157,7 @@ StartChar: braceleft
 Encoding: 123 123 123
 Width: 1303
 Flags: W
+GlyphCompositionVertical: 5  uni23A9%0,0,40,2418 uni23AA%1,40,40,2456 uni23A8%0,40,40,2442 uni23AA%1,40,40,2456 uni23A7%0,40,0,2435
 TtInstrs:
 NPUSHB
  48
@@ -15229,6 +15293,7 @@ StartChar: bar
 Encoding: 124 124 124
 Width: 690
 Flags: W
+GlyphCompositionVertical: 2  bar%0,0,40,2048 bar%1,40,0,2048
 TtInstrs:
 PUSHB_7
  1
@@ -15262,6 +15327,7 @@ StartChar: braceright
 Encoding: 125 125 125
 Width: 1303
 Flags: W
+GlyphCompositionVertical: 5  uni23AD%0,0,40,2418 uni23AA%1,40,40,2456 uni23AC%0,40,40,2442 uni23AA%1,40,40,2456 uni23AB%0,40,0,2435
 TtInstrs:
 NPUSHB
  47
@@ -17364,6 +17430,7 @@ StartChar: macron
 Encoding: 175 175 175
 Width: 1024
 Flags: W
+GlyphCompositionHorizontal: 2  macron%0,0,40,598 macron%1,40,0,598
 TtInstrs:
 PUSHB_6
  2
@@ -71289,6 +71356,7 @@ StartChar: uni2016
 Encoding: 8214 8214 8214
 Width: 1024
 Flags: W
+GlyphCompositionVertical: 2  uni2016%0,0,40,2048 uni2016%1,40,0,2048
 LayerCount: 2
 Fore
 Refer: 124 124 N 1 0 0 1 330 0 2
@@ -72652,6 +72720,7 @@ StartChar: uni203E
 Encoding: 8254 8254 8254
 Width: 1024
 Flags: W
+GlyphCompositionHorizontal: 2  macron%0,0,40,598 macron%1,40,0,598
 LayerCount: 2
 Fore
 Refer: 95 95 N 1 0 0 1 0 1950 2
@@ -76520,6 +76589,7 @@ StartChar: arrowleft
 Encoding: 8592 8592 8592
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: arrowleft uni27F5 
 TtInstrs:
 NPUSHB
  10
@@ -76714,6 +76784,7 @@ StartChar: arrowright
 Encoding: 8594 8594 8594
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: arrowright uni27F6 
 TtInstrs:
 NPUSHB
  10
@@ -76910,6 +76981,7 @@ StartChar: arrowboth
 Encoding: 8596 8596 8596
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: arrowboth uni27F7 
 LayerCount: 2
 Fore
 SplineSet
@@ -77330,6 +77402,7 @@ StartChar: uni21A4
 Encoding: 8612 8612 8612
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: uni21A4 uni27FB 
 LayerCount: 2
 Fore
 SplineSet
@@ -77378,6 +77451,7 @@ StartChar: uni21A6
 Encoding: 8614 8614 8614
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: uni21A6 uni27FC 
 LayerCount: 2
 Fore
 SplineSet
@@ -78349,6 +78423,7 @@ StartChar: arrowdblleft
 Encoding: 8656 8656 8656
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: arrowdblleft uni27F8 
 LayerCount: 2
 Fore
 SplineSet
@@ -78399,6 +78474,7 @@ StartChar: arrowdblright
 Encoding: 8658 8658 8658
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: arrowdblright uni27F9 
 LayerCount: 2
 Fore
 SplineSet
@@ -78449,6 +78525,7 @@ StartChar: arrowdblboth
 Encoding: 8660 8660 8660
 Width: 1716
 Flags: W
+GlyphVariantsHorizontal: arrowdblboth uni27FA 
 LayerCount: 2
 Fore
 SplineSet
@@ -81160,6 +81237,7 @@ StartChar: integral
 Encoding: 8747 8747 8747
 Width: 1067
 Flags: W
+GlyphCompositionVertical: 3  integralbt%0,0,40,2415 uni23AE%0,40,40,2441 integraltp%0,40,0,2412
 TtInstrs:
 NPUSHB
  18
@@ -83459,6 +83537,7 @@ StartChar: uni2308
 Encoding: 8968 8968 8968
 Width: 799
 Flags: W
+GlyphCompositionVertical: 2  uni23A2%1,0,40,2445 uni23A1%0,40,0,2417
 LayerCount: 2
 Fore
 SplineSet
@@ -83475,6 +83554,7 @@ StartChar: uni2309
 Encoding: 8969 8969 8969
 Width: 799
 Flags: W
+GlyphCompositionVertical: 2  uni23A5%1,0,40,2430 uni23A4%0,40,0,2417
 LayerCount: 2
 Fore
 SplineSet
@@ -83491,6 +83571,7 @@ StartChar: uni230A
 Encoding: 8970 8970 8970
 Width: 799
 Flags: W
+GlyphCompositionVertical: 2  uni23A3%0,0,40,2421 uni23A2%1,40,0,2445
 LayerCount: 2
 Fore
 SplineSet
@@ -83507,6 +83588,7 @@ StartChar: uni230B
 Encoding: 8971 8971 8971
 Width: 799
 Flags: W
+GlyphCompositionVertical: 2  uni23A6%0,0,40,2406 uni23A5%1,40,0,2430
 LayerCount: 2
 Fore
 SplineSet
