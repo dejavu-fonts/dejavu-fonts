@@ -37,6 +37,7 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
+Lookup: 3 0 0 "'ssty' Script Style"  {"'ssty' Script Style-1"  } ['ssty' ('math' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Contextual Chaining Substitution"  {"'ccmp' Contextual Chaining Substitution"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'GAG ' 'ISM ' 'KAZ ' 'KRK ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic - Serbian"  {"'locl' Localized Forms in Cyrillic - Serbian"  } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin - Sami"  {"'locl' Localized Forms in Latin - Sami"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
@@ -1977,7 +1978,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above"  "'mark' Mark Positioning" "below"  "'mark' Mark Positioning" "above-mark"  "'mkmk' Mark to Mark" 
-BeginChars: 1114184 0
+BeginChars: 1114191 0
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -72490,6 +72491,7 @@ SplineSet
  127 1120 l 25,3,-1
  40 1120 l 25,0,-1
 EndSplineSet
+AlternateSubs2: "'ssty' Script Style-1" minute.ssty1 minute.ssty1
 EndChar
 StartChar: second
 Encoding: 8243 8243 8243
@@ -72499,6 +72501,7 @@ LayerCount: 2
 Fore
 Refer: 8242 8242 N 1 0 0 1 300 0 2
 Refer: 8242 8242 N 1 0 0 1 0 0 2
+AlternateSubs2: "'ssty' Script Style-1" second.ssty1 second.ssty1
 EndChar
 StartChar: uni2034
 Encoding: 8244 8244 8244
@@ -72509,6 +72512,7 @@ Fore
 Refer: 8242 8242 N 1 0 0 1 600 0 2
 Refer: 8242 8242 N 1 0 0 1 0 0 2
 Refer: 8242 8242 N 1 0 0 1 300 0 2
+AlternateSubs2: "'ssty' Script Style-1" uni2034.ssty1 uni2034.ssty1
 EndChar
 StartChar: uni2035
 Encoding: 8245 8245 8245
@@ -72523,6 +72527,7 @@ SplineSet
  243 1493 l 25,1,-1
  416 1120 l 25,0,-1
 EndSplineSet
+AlternateSubs2: "'ssty' Script Style-1" uni2035.ssty1 uni2035.ssty1
 EndChar
 StartChar: uni2036
 Encoding: 8246 8246 8246
@@ -72532,6 +72537,7 @@ LayerCount: 2
 Fore
 Refer: 8245 8245 N 1 0 0 1 300 0 2
 Refer: 8245 8245 N 1 0 0 1 0 0 2
+AlternateSubs2: "'ssty' Script Style-1" uni2036.ssty1 uni2036.ssty1
 EndChar
 StartChar: uni2037
 Encoding: 8247 8247 8247
@@ -72542,6 +72548,7 @@ Fore
 Refer: 8245 8245 N 1 0 0 1 300 0 2
 Refer: 8245 8245 N 1 0 0 1 600 0 2
 Refer: 8245 8245 N 1 0 0 1 0 0 2
+AlternateSubs2: "'ssty' Script Style-1" uni2037.ssty1 uni2037.ssty1
 EndChar
 StartChar: uni2038
 Encoding: 8248 8248 8248
@@ -120174,6 +120181,83 @@ SplineSet
  1305 1505 l 1,5,-1
  1140 1505 l 1,0,-1
 EndSplineSet
+EndChar
+StartChar: minute.ssty1
+Encoding: 1114184 -1 1114184
+Width: 470
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 0.375 m 25,0,-1
+ 216.25 466.625 l 25,1,-1
+ 470 466.625 l 25,2,-1
+ 108.75 0.375 l 25,3,-1
+ 0 0.375 l 25,0,-1
+EndSplineSet
+EndChar
+StartChar: second.ssty1
+Encoding: 1114185 -1 1114185
+Width: 770
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114184 -1 N 1 0 0 1 300 0 2
+Refer: 1114184 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni2034.ssty1
+Encoding: 1114186 -1 1114186
+Width: 1070
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114184 -1 N 1 0 0 1 600 0 2
+Refer: 1114184 -1 N 1 0 0 1 300 0 2
+Refer: 1114184 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni2035.ssty1
+Encoding: 1114187 -1 1114187
+Width: 470
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+470 0.375 m 25,0,-1
+ 253.75 466.625 l 25,1,-1
+ 0 466.625 l 25,2,-1
+ 361.25 0.375 l 25,3,-1
+ 470 0.375 l 25,0,-1
+EndSplineSet
+EndChar
+StartChar: uni2036.ssty1
+Encoding: 1114188 -1 1114188
+Width: 770
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114187 -1 N 1 0 0 1 300 0 2
+Refer: 1114187 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni2037.ssty1
+Encoding: 1114189 -1 1114189
+Width: 1070
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114187 -1 N 1 0 0 1 600 0 2
+Refer: 1114187 -1 N 1 0 0 1 300 0 2
+Refer: 1114187 -1 N 1 0 0 1 0 0 2
+EndChar
+StartChar: uni2057.ssty
+Encoding: 1114190 -1 1114190
+Width: 1370
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114184 -1 N 1 0 0 1 600 0 2
+Refer: 1114184 -1 N 1 0 0 1 300 0 2
+Refer: 1114184 -1 N 1 0 0 1 900 0 2
+Refer: 1114184 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
