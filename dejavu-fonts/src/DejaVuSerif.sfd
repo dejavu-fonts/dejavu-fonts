@@ -1917,7 +1917,7 @@ LangName: 1033 "" "" "" "DejaVu Serif" "" "Version 2.34" "" "" "DejaVu fonts tea
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
 MATH:DelimitedSubFormulaMinHeight: 3072
-MATH:DisplayOperatorMinHeight: 0
+MATH:DisplayOperatorMinHeight: 2013
 MATH:MathLeading: 0 
 MATH:AxisHeight: 642 
 MATH:AccentBaseHeight: 1063 
@@ -1977,7 +1977,7 @@ NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
 AnchorClass2: "above"  "'mark' Mark Positioning" "below"  "'mark' Mark Positioning" "above-mark"  "'mkmk' Mark to Mark" 
-BeginChars: 1114173 0
+BeginChars: 1114182 0
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 1229
@@ -80391,6 +80391,7 @@ StartChar: product
 Encoding: 8719 8719 8719
 Width: 1630
 Flags: W
+GlyphVariantsVertical: product product.display
 TtInstrs:
 NPUSHB
  34
@@ -80484,6 +80485,7 @@ StartChar: uni2210
 Encoding: 8720 8720 8720
 Width: 1630
 Flags: W
+GlyphVariantsVertical: uni2210 uni2210.display
 LayerCount: 2
 Fore
 SplineSet
@@ -80514,6 +80516,7 @@ StartChar: summation
 Encoding: 8721 8721 8721
 Width: 1462
 Flags: W
+GlyphVariantsVertical: summation summation.display
 TtInstrs:
 NPUSHB
  35
@@ -81237,6 +81240,7 @@ StartChar: integral
 Encoding: 8747 8747 8747
 Width: 1067
 Flags: W
+GlyphVariantsVertical: integral integral.display
 GlyphCompositionVertical: 3  integralbt%0,0,40,2415 uni23AE%0,40,40,2441 integraltp%0,40,0,2412
 TtInstrs:
 NPUSHB
@@ -81309,6 +81313,7 @@ StartChar: uni222C
 Encoding: 8748 8748 8748
 Width: 1744
 Flags: W
+GlyphVariantsVertical: uni222C uni222C.display
 LayerCount: 2
 Fore
 Refer: 8747 8747 N 1 0 0 1 677 0 2
@@ -81319,6 +81324,7 @@ StartChar: uni222D
 Encoding: 8749 8749 8749
 Width: 2421
 Flags: W
+GlyphVariantsVertical: uni222D uni222D.display
 LayerCount: 2
 Fore
 Refer: 8747 8747 N 1 0 0 1 1354 0 2
@@ -101974,6 +101980,7 @@ StartChar: uni2A0C
 Encoding: 10764 10764 10764
 Width: 3098
 Flags: W
+GlyphVariantsVertical: uni2A0C uni2A0C.display
 LayerCount: 2
 Fore
 Refer: 8747 8747 N 1 0 0 1 1354 0 2
@@ -101985,6 +101992,7 @@ StartChar: uni2A0D
 Encoding: 10765 10765 10765
 Width: 1067
 Flags: W
+GlyphVariantsVertical: uni2A0D uni2A0D.display
 LayerCount: 2
 Fore
 SplineSet
@@ -102026,6 +102034,7 @@ StartChar: uni2A0E
 Encoding: 10766 10766 10766
 Width: 1067
 Flags: W
+GlyphVariantsVertical: uni2A0E uni2A0E.display
 LayerCount: 2
 Fore
 SplineSet
@@ -118069,6 +118078,249 @@ SplineSet
  462 977 462 977 390 865 c 0,55,56
  326 767 326 767 318 585 c 1,57,-1
  891 585 l 1,50,51
+EndSplineSet
+EndChar
+StartChar: product.display
+Encoding: 1114173 -1 1114173
+Width: 2305
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+75 2083 m 1,0,-1
+ 2227 2083 l 1,1,-1
+ 2227 1978 l 1,2,-1
+ 1957 1978 l 1,3,-1
+ 1957 -451 l 1,4,-1
+ 2227 -451 l 1,5,-1
+ 2227 -556 l 1,6,-1
+ 1385 -556 l 1,7,-1
+ 1385 -451 l 1,8,-1
+ 1656 -451 l 1,9,-1
+ 1656 1978 l 1,10,-1
+ 646 1978 l 1,11,-1
+ 646 -451 l 1,12,-1
+ 918 -451 l 1,13,-1
+ 918 -556 l 1,14,-1
+ 75 -556 l 1,15,-1
+ 75 -451 l 1,16,-1
+ 345 -451 l 1,17,-1
+ 345 1978 l 1,18,-1
+ 75 1978 l 1,19,-1
+ 75 2083 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni2210.display
+Encoding: 1114174 -1 1114174
+Width: 2305
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+2227 -556 m 1,0,-1
+ 75 -556 l 1,1,-1
+ 75 -451 l 1,2,-1
+ 345 -451 l 1,3,-1
+ 345 1978 l 1,4,-1
+ 75 1978 l 1,5,-1
+ 75 2083 l 1,6,-1
+ 918 2083 l 1,7,-1
+ 918 1978 l 1,8,-1
+ 646 1978 l 1,9,-1
+ 646 -451 l 1,10,-1
+ 1656 -451 l 1,11,-1
+ 1656 1978 l 1,12,-1
+ 1385 1978 l 1,13,-1
+ 1385 2083 l 1,14,-1
+ 2227 2083 l 1,15,-1
+ 2227 1978 l 1,16,-1
+ 1957 1978 l 1,17,-1
+ 1957 -451 l 1,18,-1
+ 2227 -451 l 1,19,-1
+ 2227 -556 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: summation.display
+Encoding: 1114175 -1 1114175
+Width: 2067
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+23 2083 m 1,0,-1
+ 1666 2083 l 1,1,-1
+ 1822 1567 l 1,2,-1
+ 1711 1567 l 1,3,-1
+ 1608 1888 l 2,4,5
+ 1592 1936 1592 1936 1549 1957 c 128,-1,6
+ 1506 1978 1506 1978 1410 1978 c 2,7,-1
+ 434 1978 l 1,8,-1
+ 1578 802 l 1,9,-1
+ 1578 750 l 1,10,-1
+ 412 -290 l 1,11,-1
+ 1663 -290 l 2,12,13
+ 1752 -289 1752 -289 1777.5 -271 c 128,-1,14
+ 1803 -253 1803 -253 1819 -201 c 1,15,-1
+ 1921 124 l 1,16,-1
+ 2031 124 l 1,17,-1
+ 1822 -556 l 1,18,-1
+ 23 -556 l 1,19,-1
+ 23 -498 l 1,20,-1
+ 1324 655 l 1,21,-1
+ 23 2007 l 1,22,-1
+ 23 2083 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: integral.display
+Encoding: 1114176 -1 1114176
+Width: 1508
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+440 -371 m 0,0,1
+ 590 -371 590 -371 610 602 c 0,2,3
+ 613 755 613 755 614 836 c 0,4,5
+ 631 1564 631 1564 765 1878 c 128,-1,6
+ 899 2192 899 2192 1185 2192 c 0,7,8
+ 1298 2192 1298 2192 1369 2132.5 c 128,-1,9
+ 1440 2073 1440 2073 1440 1981 c 0,10,11
+ 1440 1905 1440 1905 1394.5 1860.5 c 128,-1,12
+ 1349 1816 1349 1816 1271 1816 c 0,13,14
+ 1212 1816 1212 1816 1172.5 1843 c 128,-1,15
+ 1133 1870 1133 1870 1116 1919 c 0,16,17
+ 1108 1940 1108 1940 1101.5 1991 c 128,-1,18
+ 1095 2042 1095 2042 1072 2042 c 0,19,20
+ 921 2042 921 2042 901 1167 c 0,21,22
+ 895 894 895 894 890 738 c 0,23,24
+ 866 61 866 61 732 -232 c 128,-1,25
+ 598 -525 598 -525 321 -525 c 0,26,27
+ 209 -525 209 -525 137.5 -466 c 128,-1,28
+ 66 -407 66 -407 66 -315 c 0,29,30
+ 66 -236 66 -236 114.5 -191.5 c 128,-1,31
+ 163 -147 163 -147 249 -147 c 0,32,33
+ 296 -147 296 -147 329.5 -167.5 c 128,-1,34
+ 363 -188 363 -188 385 -228 c 0,35,36
+ 399 -253 399 -253 406 -312 c 128,-1,37
+ 413 -371 413 -371 440 -371 c 0,0,1
+EndSplineSet
+EndChar
+StartChar: uni222C.display
+Encoding: 1114177 -1 1114177
+Width: 2466
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114176 -1 N 1 0 0 1 0 0 2
+Refer: 1114176 -1 N 1 0 0 1 957 0 2
+EndChar
+StartChar: uni222D.display
+Encoding: 1114178 -1 1114178
+Width: 3423
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114176 -1 N 1 0 0 1 0 0 2
+Refer: 1114176 -1 N 1 0 0 1 957 0 2
+Refer: 1114176 -1 N 1 0 0 1 1915 0 2
+EndChar
+StartChar: uni2A0C.display
+Encoding: 1114179 -1 1114179
+Width: 4381
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114176 -1 N 1 0 0 1 0 0 2
+Refer: 1114176 -1 N 1 0 0 1 957 0 2
+Refer: 1114176 -1 N 1 0 0 1 1915 0 2
+Refer: 1114176 -1 N 1 0 0 1 2872 0 2
+EndChar
+StartChar: uni2A0D.display
+Encoding: 1114180 -1 1114180
+Width: 1508
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+440 -371 m 0,0,1
+ 590 -371 590 -371 610 602 c 2,2,-1
+ 613 786 l 1,3,-1
+ 249 786 l 1,4,-1
+ 249 1027 l 1,5,-1
+ 621 1027 l 1,6,7
+ 649 1607 649 1607 765 1878 c 0,8,9
+ 899 2192 899 2192 1185 2192 c 0,10,11
+ 1298 2192 1298 2192 1369 2132.5 c 128,-1,13
+ 1440 2073 1440 2073 1440 1981 c 0,14,15
+ 1440 1905 1440 1905 1394.5 1860.5 c 128,-1,17
+ 1349 1816 1349 1816 1271 1816 c 0,18,19
+ 1212 1816 1212 1816 1172.5 1843 c 128,-1,21
+ 1133 1870 1133 1870 1116 1919 c 0,22,23
+ 1108 1940 1108 1940 1101.5 1991 c 128,-1,25
+ 1095 2042 1095 2042 1072 2042 c 0,26,27
+ 921 2042 921 2042 901 1167 c 2,28,-1
+ 898 1027 l 1,29,-1
+ 1271 1027 l 1,30,-1
+ 1271 786 l 1,31,-1
+ 891 786 l 1,32,33
+ 890 760 890 760 890 738 c 0,34,35
+ 866 60 866 60 732 -232 c 0,36,37
+ 598 -525 598 -525 321 -525 c 0,38,39
+ 209 -525 209 -525 137.5 -466 c 128,-1,41
+ 66 -407 66 -407 66 -315 c 0,42,43
+ 66 -236 66 -236 114.5 -191.5 c 128,-1,45
+ 163 -147 163 -147 249 -147 c 0,46,47
+ 296 -147 296 -147 329.5 -167.5 c 128,-1,49
+ 363 -188 363 -188 385 -228 c 0,50,51
+ 399 -253 399 -253 406 -312 c 128,-1,53
+ 413 -371 413 -371 440 -371 c 0,0,1
+EndSplineSet
+EndChar
+StartChar: uni2A0E.display
+Encoding: 1114181 -1 1114181
+Width: 1508
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+877 498 m 1,0,1
+ 841 6 841 6 732 -232 c 0,2,3
+ 598 -525 598 -525 321 -525 c 0,4,5
+ 209 -525 209 -525 138 -466 c 0,6,7
+ 67 -407 67 -407 66 -315 c 0,8,9
+ 66 -236 66 -236 115 -192 c 0,10,11
+ 163 -147 163 -147 249 -147 c 0,12,13
+ 296 -147 296 -147 330 -168 c 0,14,15
+ 364 -189 364 -189 385 -228 c 0,16,17
+ 399 -253 399 -253 406 -312 c 0,18,19
+ 413 -371 413 -371 440 -371 c 0,20,21
+ 582 -371 582 -371 607 498 c 1,22,-1
+ 249 498 l 1,23,-1
+ 249 738 l 1,24,-1
+ 612 738 l 1,25,-1
+ 614 836 l 2,26,27
+ 617 963 617 963 623 1078 c 1,28,-1
+ 249 1078 l 1,29,-1
+ 249 1315 l 1,30,-1
+ 642 1315 l 1,31,32
+ 680 1679 680 1679 765 1878 c 0,33,34
+ 899 2192 899 2192 1185 2192 c 0,35,36
+ 1298 2192 1298 2192 1369 2133 c 0,37,38
+ 1440 2074 1440 2074 1440 1981 c 0,39,40
+ 1440 1905 1440 1905 1394 1860 c 0,41,42
+ 1349 1815 1349 1815 1271 1816 c 0,43,44
+ 1212 1816 1212 1816 1172 1843 c 0,45,46
+ 1132 1870 1132 1870 1116 1919 c 0,47,48
+ 1108 1940 1108 1940 1101 1991 c 0,49,50
+ 1095 2042 1095 2042 1072 2042 c 0,51,52
+ 934 2042 934 2042 905 1315 c 1,53,-1
+ 1271 1315 l 1,54,-1
+ 1271 1078 l 1,55,-1
+ 899 1078 l 1,56,57
+ 894 848 894 848 890 738 c 1,58,-1
+ 1271 738 l 1,59,-1
+ 1271 498 l 1,60,-1
+ 877 498 l 1,0,1
 EndSplineSet
 EndChar
 EndChars
