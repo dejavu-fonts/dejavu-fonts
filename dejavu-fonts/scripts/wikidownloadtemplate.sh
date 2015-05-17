@@ -22,6 +22,7 @@ function makeentry
 		echo "{{SFFile|"
 
         	echo "  name= $1"
+        	echo "| version= ${VERSION}"
 		echo "| size= `wc -c $file | cut -f1 -d' '`"
 		echo "| desc= $2"
 		echo "| md5= `md5sum $file | cut -f1 -d' '`"
