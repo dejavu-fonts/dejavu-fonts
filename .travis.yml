@@ -1,0 +1,14 @@
+language: python
+# commands to install dependencies
+before_install:
+  - sudo add-apt-repository --yes ppa:fontforge/fontforge
+  - sudo apt-get update -qq
+  - sudo apt-get install python-fontforge fontforge-nox libfont-ttf-perl
+  - wget -O resources/Blocks.txt http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
+  - wget -O resources/UnicodeData.txt http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+  - git clone --depth=1 git://cgit.freedesktop.org/fontconfig fc-git
+  - cp -r fc-git/fc-lang resources/fc-lang
+# commands to run tests
+script:
+  - make
+# after_success:
