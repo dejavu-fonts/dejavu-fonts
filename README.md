@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dejavu-fonts/dejavu-fonts.svg)](https://travis-ci.org/dejavu-fonts/dejavu-fonts)
+
 DejaVu fonts 2.35 (c)2004-2015 DejaVu fonts team
 ------------------------------------------------
 
