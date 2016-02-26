@@ -1,17 +1,26 @@
 language: python
-# commands to install dependencies
-before_install:
-  - sudo add-apt-repository --yes ppa:fontforge/fontforge
-  - sudo apt-get update -qq
-  - sudo apt-get install python-fontforge fontforge-nox libfont-ttf-perl
-  - wget -O resources/Blocks.txt http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
-  - wget -O resources/UnicodeData.txt http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
-  - git clone --depth=1 git://cgit.freedesktop.org/fontconfig fc-git
-  - cp -r fc-git/fc-lang resources/fc-lang
-# commands to run tests
+install:
+- sudo add-apt-repository --yes ppa:fontforge/fontforge
+- sudo apt-get update -qq
+- sudo apt-get install python-fontforge fontforge-nox libfont-ttf-perl
+- wget -O resources/Blocks.txt http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt
+- wget -O resources/UnicodeData.txt http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+- git clone --depth=1 git://cgit.freedesktop.org/fontconfig fc-git
+- cp -r fc-git/fc-lang resources/fc-lang
 script:
-  - make
+- make dist
 # after_success:
 notifications:
   irc: "irc.freenode.org#dejavu"
   # email: dejavu-fonts@lists.sourceforge.net
+deploy:
+- provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: J9LxVIWKpqwnrCRYLrCKRHxhAX8i8NIU988QD/IXy49gKM+qqmhO+UlSPlZ33oC6wNcBxyg5d00zup3wMM9fRJJkA4z3jS1DpVrXi1KABbt9zNDsE6Cw3PVW9qTaKY3UEFNMSMLbdJWba3krlBN8DqPIkmWSgvFFb78MxCy5kqZtU4/mFd1JJmYW17FTOoq9pE1Hn2IGhJbS5gi+WIPnx6R2uqeyIVB3Q2JmKS72xZAyxVdNgPfK7cgAeCy0WcF3QdYGHkI7GuZZdsYfk0tgf72eWq6rpM0EVb2aCC7yc2MlOg+js+4JusQR/koCEND1p3u0wN9zjVlseRMDDb1Q5q3dTg3CaBivO/DiP49TgS4jIwe1mC4/0h36XcYmhIUUrmk8R/zOMt43/c0SY6BYjxZEnKh2ZZ1kA5rwP7j4XnKm3gIe7ddgcCrUNdN9eSpw9hJ0xFcbZ9TG+XKbhVdsN/942BkCcMboxR0NZp+Y2B+YlAm58ErxRiSUPe5Uhn0GBvNnnsdxB+4SLhZHQlo7tq3KYq/BRDJkALk74jrVxyxoKRs5s8X538A2FTyV2kwVUddRSrO2Wal4BRw3j+wRPkJNUIvXlDu3iVEA2b/Rta/oSzIWTEMsul0ONrv082ebWUCkCbNB2Sid6JW5PqVClGxeLSX97sfSJvkjT5Hkjps=
+  file_glob: true
+  file: dist/*
+  on:
+    tags: true
+    repo: dejavu-fonts/dejavu-fonts
+    branch: master
