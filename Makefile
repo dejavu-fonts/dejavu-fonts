@@ -61,7 +61,7 @@ FONTCONF     := $(wildcard $(FONTCONFDIR)/*.conf)
 FONTCONFLGC  := $(wildcard $(FONTCONFDIR)/*lgc*.conf)
 FONTCONFFULL := $(filter-out $(FONTCONFLGC), $(FONTCONF))
 
-STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README)
+STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README.md)
 STATICSRCDOC := $(addprefix $(DOCDIR)/, BUILDING)
 GENDOCFULL = unicover.txt langcover.txt status.txt
 GENDOCSANS = unicover-sans.txt langcover-sans.txt
