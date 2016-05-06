@@ -53,7 +53,9 @@ SRC      := $(wildcard $(SRCDIR)/*.sfd)
 SFDFILES := $(patsubst $(SRCDIR)/%, %, $(SRC))
 FULLSFD  := $(patsubst $(SRCDIR)/%.sfd, $(TMPDIR)/%.sfd, $(SRC))
 NORMSFD  := $(patsubst %, %.norm, $(FULLSFD))
-LGCSFD   := $(patsubst $(SRCDIR)/DejaVu%.sfd, $(TMPDIR)/DejaVuLGC%.sfd, $(SRC))
+MATSHSFD := $(wildcard $(SRCDIR)/*Math*.sfd)
+LGCSRC   := $(filter-out $(MATSHSFD),$(SRC))
+LGCSFD   := $(patsubst $(SRCDIR)/DejaVu%.sfd, $(TMPDIR)/DejaVuLGC%.sfd, $(LGCSRC))
 FULLTTF  := $(patsubst $(TMPDIR)/%.sfd, $(BUILDDIR)/%.ttf, $(FULLSFD))
 LGCTTF   := $(patsubst $(TMPDIR)/%.sfd, $(BUILDDIR)/%.ttf, $(LGCSFD))
 
@@ -75,15 +77,21 @@ $(TMPDIR)/%.sfd: $(SRCDIR)/%.sfd
 	sed "s@\(Version:\? \)\(0\.[0-9]\+\.[0-9]\+\|[1-9][0-9]*\.[0-9]\+\)@\1$(VERSION)@" $< > $@
 	touch -r $< $@
 
+$(TMPDIR)/DejaVuLGCMathTeXGyre.sfd: $(TMPDIR)/DejaVuMathTeXGyre.sfd
+	@echo "[2] skipping $<"
+
 $(TMPDIR)/DejaVuLGC%.sfd: $(TMPDIR)/DejaVu%.sfd
 	@echo "[2] $< => $@"
 	sed -e 's,FontName: DejaVu,FontName: DejaVuLGC,'\
 	    -e 's,FullName: DejaVu,FullName: DejaVu LGC,'\
 	    -e 's,FamilyName: DejaVu,FamilyName: DejaVu LGC,'\
-            -e 's,"DejaVu \(\(Sans\|Serif\)*\( Condensed\| Mono\)*\( Bold\)*\( Oblique\|Italic\)*\)","DejaVu LGC \1",g' < $< > $@
+	    -e 's,"DejaVu \(\(Sans\|Serif\)*\( Condensed\| Mono\)*\( Bold\)*\( Oblique\|Italic\)*\)","DejaVu LGC \1",g' < $< > $@
 	@echo "Stripping unwanted glyphs from $@"
 	$(LGC) $@
 	touch -r $< $@
+
+$(BUILDDIR)/DejaVuLGCMathTeXGyre.ttf: $(TMPDIR)/DejaVuLGCMathTeXGyre.sfd
+	@echo "[3] skipping $<"
 
 $(BUILDDIR)/%.ttf: $(TMPDIR)/%.sfd
 	@echo "[3] $< => $@"
