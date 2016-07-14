@@ -33,6 +33,7 @@ DejaVu Serif Condensed (experimental)
 DejaVu Serif Condensed Bold (experimental)
 DejaVu Serif Condensed Bold Italic (experimental)
 DejaVu Serif Condensed Italic (experimental)
+DejaVu Math TeX Gyre
 
 All fonts are also available as derivative called DejaVu LGC with support
 only for Latin, Greek and Cyrillic scripts.
@@ -57,5 +58,10 @@ U+2111, U+2113, U+2115, U+2118-U+211A, U+211C-U+211D, U+2124, U+2135,
 U+213C-U+2140, U+2295-U+2298, U+2308-U+230B, U+26A2-U+26B1, U+2701-U+2704,
 U+2706-U+2709, U+270C-U+274B, U+2758-U+275A, U+2761-U+2775, U+2780-U+2794,
 U+2798-U+27AF, U+27B1-U+27BE, U+FB05-U+FB06
+
+DejaVu Math TeX Gyre
+--------------------
+TeX Gyre DJV Math by B. Jackowski, P. Strzelczyk and P. Pianowski
+(on behalf of TeX users groups).
 
 $Id$
