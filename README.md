@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/dejavu-fonts/dejavu-fonts.svg)](https://travis-ci.org/dejavu-fonts/dejavu-fonts)
 
-DejaVu fonts 2.36 (c)2004-2015 DejaVu fonts team
+DejaVu fonts 2.37 (c)2004-2016 DejaVu fonts team
 ------------------------------------------------
 
 The DejaVu fonts are a font family based on the Bitstream Vera Fonts
