@@ -12,28 +12,28 @@ DejaVu fonts are based on Bitstream Vera fonts version 1.10.
 
 Available fonts (Sans = sans serif, Mono = monospaced):
 
-DejaVu Sans Mono
-DejaVu Sans Mono Bold
-DejaVu Sans Mono Bold Oblique
-DejaVu Sans Mono Oblique
-DejaVu Sans
-DejaVu Sans Bold
-DejaVu Sans Bold Oblique
-DejaVu Sans Oblique
-DejaVu Sans ExtraLight (experimental)
-DejaVu Serif
-DejaVu Serif Bold
-DejaVu Serif Bold Italic (experimental)
-DejaVu Serif Italic (experimental)
-DejaVu Sans Condensed (experimental)
-DejaVu Sans Condensed Bold (experimental)
-DejaVu Sans Condensed Bold Oblique (experimental)
-DejaVu Sans Condensed Oblique (experimental)
-DejaVu Serif Condensed (experimental)
-DejaVu Serif Condensed Bold (experimental)
-DejaVu Serif Condensed Bold Italic (experimental)
-DejaVu Serif Condensed Italic (experimental)
-DejaVu Math TeX Gyre
+* DejaVu Sans Mono
+* DejaVu Sans Mono Bold
+* DejaVu Sans Mono Bold Oblique
+* DejaVu Sans Mono Oblique
+* DejaVu Sans
+* DejaVu Sans Bold
+* DejaVu Sans Bold Oblique
+* DejaVu Sans Oblique
+* DejaVu Sans ExtraLight (experimental)
+* DejaVu Serif
+* DejaVu Serif Bold
+* DejaVu Serif Bold Italic (experimental)
+* DejaVu Serif Italic (experimental)
+* DejaVu Sans Condensed (experimental)
+* DejaVu Sans Condensed Bold (experimental)
+* DejaVu Sans Condensed Bold Oblique (experimental)
+* DejaVu Sans Condensed Oblique (experimental)
+* DejaVu Serif Condensed (experimental)
+* DejaVu Serif Condensed Bold (experimental)
+* DejaVu Serif Condensed Bold Italic (experimental)
+* DejaVu Serif Condensed Italic (experimental)
+* DejaVu Math TeX Gyre
 
 All fonts are also available as derivative called DejaVu LGC with support
 only for Latin, Greek and Cyrillic scripts.
