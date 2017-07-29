@@ -6,75 +6,95 @@ Building
 To build these fonts, you will need:
 
 * [FontForge][1], installable on Debian through the `fontforge` package:
-  
-      sudo apt-get install software-properties-common
-      sudo add-apt-repository ppa:fontforge/fontforge
-      sudo apt-get update
-      sudo apt-get install fontforge
+
+  ~~~shell
+  sudo apt-get install software-properties-common
+  sudo add-apt-repository ppa:fontforge/fontforge
+  sudo apt-get update
+  sudo apt-get install fontforge
+  ~~~
 
   macOS users can install using [Homebrew][2]:
 
-      brew install fontforge
+  ~~~shell
+  brew install fontforge
+  ~~~
 
   Fedora users should run the following command as root:
-  
-      yum install fontforge
+
+  ~~~shell
+  yum install fontforge
+  ~~~
 
   See FontForge's [installation docs][3] for more info.
 
 
 * [Perl][4], with the [`Font::TTF`][5] module installed:
 
-      cpan Font::TTF
+  ~~~shell
+  cpan Font::TTF
+  ~~~
 
   Debian users can install this with the `libfont-ttf-perl` package.
 
-  macOS users may need to install as root if they experience
+  macOS users may need to install as root if they encounter
   permission problems.
 
 
 * GNU-compatible [Make][6], installable through Debian package `make`.
-  
-  Installed by default on macOS with the XCode command-line utils.
+
+  macOS users who have installed XCode's CLI utils should already
+  have `make` available.
 
 
-### Generating the fonts
+### Generating TrueType files
 
-To generate each TrueType font without subsetting:
+To generate each font without subsetting:
 
-    make  full-ttf
+~~~console
+$ make  full-ttf
+~~~
 
-To generate each font with a specific subset of glyphs only:
+To generate each font with only a specific subset of glyphs:
+~~~console
+$ make  lgc-ttf    # LGC (Latin-Greek-Cyrillic) subset
+$ make  sans-ttf   # Generate DejaVuSans only (no serif fonts)
+~~~
 
-    make  lgc-ttf    # LGC (Latin-Greek-Cyrillic) subset
-    make  sans-ttf   # Generate DejaVuSans only (no serif fonts)
 
+### Building from source
 
-### Building from scratch
-
-To generate each TTF file from source data:
+To generate each TTF file from its source data:
 
 1. Download a copy of the latest Unicode annexes to this project's
-   [`resources`][] directory:
+   [`resources`](./resources) directory:
 
-    wget -P resources \
-        http://www.unicode.org/Public/UNIDATA/UnicodeData.txt \
-        http://www.unicode.org/Public/UNIDATA/Blocks.txt
-    
+   ~~~shell
+   wget -P resources \
+       http://www.unicode.org/Public/UNIDATA/UnicodeData.txt \
+       http://www.unicode.org/Public/UNIDATA/Blocks.txt
+   ~~~~
+
 2. Checkout the current fc-lang orthographies from the
    [`fontconfig`][7] repository:
 
-    git clone \
-      git://anongit.freedesktop.org/git/fontconfig \
-      ~/repos/fontconfig
+   ~~~shell
+   git clone \
+     git://anongit.freedesktop.org/git/fontconfig \
+     ~/repos/fontconfig
+   ~~~
 
 3. Symlink to the appropriate folder:
 
-    ln -s ~/repos/fontconfig/fc-lang resources/fc-lang
+   ~~~shell
+   ln -s ~/repos/fontconfig/fc-lang resources/fc-lang
+   ~~~
 
 4. Finally, run `make` with its default target (without any arguments):
 
-    make
+   ~~~shell
+   make
+   ~~~
 
 
 [1]: https://fontforge.github.io/en-US/
