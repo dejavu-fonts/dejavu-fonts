@@ -1,36 +1,87 @@
-You need FontForge to build the fonts, on Debian known as "fontforge" package.
-http://fontforge.github.io/en-US/
-Also pearl module Font::TTF, Debian package "libfont-ttf-perl".
-https://metacpan.org/release/Font-TTF/
-Tool "make" to make, Debian package "make".
+Building
+--------
+
+### Prerequisites
+
+To build these fonts, you will need:
+
+* [FontForge][1], installable on Debian through the `fontforge` package:
+  
+      sudo apt-get install software-properties-common
+      sudo add-apt-repository ppa:fontforge/fontforge
+      sudo apt-get update
+      sudo apt-get install fontforge
+
+  macOS users can install using [Homebrew][2]:
+
+      brew install fontforge
+
+  Fedora users should run the following command as root:
+  
+      yum install fontforge
+
+  See FontForge's [installation docs][3] for more info.
 
 
+* [Perl][4], with the [`Font::TTF`][5] module installed:
 
-$ make full-ttf
+      cpan Font::TTF
 
-will all fonts to TrueType format with all glyphs included
+  Debian users can install this with the `libfont-ttf-perl` package.
 
-
-
-$ make  lgc-ttf
-
-will build the fonts with only the LGC (Latin-Greek-Cyrillic) subset
+  macOS users may need to install as root if they experience
+  permission problems.
 
 
+* GNU-compatible [Make][6], installable through Debian package `make`.
+  
+  Installed by default on macOS with the XCode command-line utils.
 
-If you just do
 
-$ make
+### Generating the fonts
 
-you will also make new status files. In that case you need to have the following files
+To generate each TrueType font without subsetting:
 
-- Get the current Unicode files and copy them into the "resources" folder
-wget http://www.unicode.org/Public/UNIDATA/UnicodeData.txt
-wget http://www.unicode.org/Public/UNIDATA/Blocks.txt
+    make  full-ttf
 
-- Get the current fc-lang orthographies from the fontconfig repository:
-git clone git://anongit.freedesktop.org/git/fontconfig ~/repos/fontconfig
+To generate each font with a specific subset of glyphs only:
 
-- Create a symlink to the appropriate folder:
-ln -s ~/repos/fontconfig/fc-lang resources/fc-lang
+    make  lgc-ttf    # LGC (Latin-Greek-Cyrillic) subset
+    make  sans-ttf   # Generate DejaVuSans only (no serif fonts)
 
+
+### Building from scratch
+
+To generate each TTF file from source data:
+
+1. Download a copy of the latest Unicode annexes to this project's
+   [`resources`][] directory:
+
+    wget -P resources \
+        http://www.unicode.org/Public/UNIDATA/UnicodeData.txt \
+        http://www.unicode.org/Public/UNIDATA/Blocks.txt
+    
+2. Checkout the current fc-lang orthographies from the
+   [`fontconfig`][7] repository:
+
+    git clone \
+      git://anongit.freedesktop.org/git/fontconfig \
+      ~/repos/fontconfig
+
+3. Symlink to the appropriate folder:
+
+    ln -s ~/repos/fontconfig/fc-lang resources/fc-lang
+
+4. Finally, run `make` with its default target (without any arguments):
+
+    make
+
+
+[1]: https://fontforge.github.io/en-US/
+[2]: https://brew.sh/
+[3]: http://designwithfontforge.com/en-US/Installing_Fontforge.html
+[4]: https://www.perl.org/
+[5]: https://metacpan.org/release/Font-TTF/
+[6]: http://www.gnu.org/software/make/manual/make.html
+[7]: https://wiki.freedesktop.org/www/Software/fontconfig/
+<!-- vim: set syntax=md: -->
