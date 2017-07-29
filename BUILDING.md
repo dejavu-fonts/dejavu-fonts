@@ -29,10 +29,11 @@ To build these fonts, you will need:
   See FontForge's [installation docs][3] for more info.
 
 
-* [Perl][4], with the [`Font::TTF`][5] module installed:
+* [Perl][4], with the [`Font::TTF`][5] and [`IO::String`][6] modules
+  installed:
 
   ~~~shell
-  cpan Font::TTF
+  cpan Font::TTF IO::String
   ~~~
 
   Debian users can install this with the `libfont-ttf-perl` package.
@@ -41,7 +42,7 @@ To build these fonts, you will need:
   permission problems.
 
 
-* GNU-compatible [Make][6], installable through Debian package `make`.
+* GNU-compatible [Make][7], installable through Debian package `make`.
 
   macOS users who have installed XCode's CLI utils should already
   have `make` available.
@@ -76,7 +77,7 @@ To generate each TTF file from its source data:
    ~~~~
 
 2. Checkout the current fc-lang orthographies from the
-   [`fontconfig`][7] repository:
+   [`fontconfig`][8] repository:
 
    ~~~shell
    git clone \
@@ -102,5 +103,6 @@ To generate each TTF file from its source data:
 [3]: http://designwithfontforge.com/en-US/Installing_Fontforge.html
 [4]: https://www.perl.org/
 [5]: https://metacpan.org/release/Font-TTF/
-[6]: http://www.gnu.org/software/make/manual/make.html
-[7]: https://wiki.freedesktop.org/www/Software/fontconfig/
+[6]: https://metacpan.org/pod/IO::String
+[7]: http://www.gnu.org/software/make/manual/make.html
+[8]: https://wiki.freedesktop.org/www/Software/fontconfig/
