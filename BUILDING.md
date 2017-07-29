@@ -84,4 +84,3 @@ To generate each TTF file from source data:
 [5]: https://metacpan.org/release/Font-TTF/
 [6]: http://www.gnu.org/software/make/manual/make.html
 [7]: https://wiki.freedesktop.org/www/Software/fontconfig/
-<!-- vim: set syntax=md: -->
