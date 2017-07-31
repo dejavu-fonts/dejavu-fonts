@@ -1,4 +1,4 @@
-#!/usr/bin/env fontforge -nosplash
+#!/usr/bin/env fontforge
 # $Id: generate.py 1902 2007-06-21 23:44:12Z apanov $
 
 # script file for FontForge for TTF generation
