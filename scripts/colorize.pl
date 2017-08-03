@@ -1,4 +1,5 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
+use warnings;
 
 # $Id$
 
@@ -76,6 +77,6 @@ endloop
 ';
 close (PE) || die "Unable to close colorize.pe : $!\n";
 
-system ($fontforge, '-script', 'colorize.pe', @ARGV);
+system ($fontforge, '-nosplash', '-script', 'colorize.pe', @ARGV);
 
 1;
